@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T23:07:52.438Z",
+  "generatedAt": "2026-09-16T23:12:10.586Z",
   "roleIcons": {
     "All": "Valorantek/Icons/Roles/TX_UI_RoleIcon_All.png",
     "Controller": "Valorantek/Icons/Roles/TX_UI_RoleIcon_Controller.png",
@@ -31507,7 +31507,7 @@
       },
       {
         "name": "Bundle_Airplane",
-        "displayName": "Altitude Knuckle Knife",
+        "displayName": "Altitude",
         "codename": "Airplane",
         "filename": "Bundle_Airplane.png",
         "relPath": "Valorantek/Backgrounds/Bundle/Bundle_Airplane.png",
@@ -31531,7 +31531,7 @@
       },
       {
         "name": "Bundle_Koi",
-        "displayName": "Equilibrium",
+        "displayName": "Kohaku & Matsuba",
         "codename": "Koi",
         "filename": "Bundle_Koi.png",
         "relPath": "Valorantek/Backgrounds/Bundle/Bundle_Koi.png",
@@ -31587,7 +31587,7 @@
       },
       {
         "name": "GN_Alien_Bundle_Featured",
-        "displayName": "Xenohunter Knife",
+        "displayName": "Xenohunter",
         "codename": "Alien",
         "filename": "GN_Alien_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Alien_Bundle_Featured.png",
@@ -31595,7 +31595,7 @@
       },
       {
         "name": "GN_Angler_Bundle_Featured",
-        "displayName": "Intergrade Blade",
+        "displayName": "Intergrade",
         "codename": "Angler",
         "filename": "GN_Angler_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Angler_Bundle_Featured.png",
@@ -31635,7 +31635,7 @@
       },
       {
         "name": "GN_Anomaly_Bundle_Featured",
-        "displayName": "Divergence Staff",
+        "displayName": "Divergence",
         "codename": "Anomaly",
         "filename": "GN_Anomaly_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Anomaly_Bundle_Featured.png",
@@ -31643,7 +31643,7 @@
       },
       {
         "name": "GN_Anomaly_Bundle_Purchase",
-        "displayName": "Divergence Staff",
+        "displayName": "Divergence",
         "codename": "Anomaly",
         "filename": "GN_Anomaly_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Anomaly_Bundle_Purchase.png",
@@ -31707,7 +31707,7 @@
       },
       {
         "name": "GN_Assault_Bundle_Featured",
-        "displayName": "MK.VII Liberty Combat Knife",
+        "displayName": "MK.VII Liberty",
         "codename": "Assault",
         "filename": "GN_Assault_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Assault_Bundle_Featured.png",
@@ -31723,7 +31723,7 @@
       },
       {
         "name": "GN_Atlas_Bundle_Featured",
-        "displayName": "Waveform",
+        "displayName": "Spectrum",
         "codename": "Atlas",
         "filename": "GN_Atlas_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Atlas_Bundle_Featured.png",
@@ -31755,7 +31755,7 @@
       },
       {
         "name": "GN_Bolt_Bundle_Featured",
-        "displayName": "Bolt Knife",
+        "displayName": "Bolt",
         "codename": "Bolt",
         "filename": "GN_Bolt_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Bolt_Bundle_Featured.png",
@@ -31763,7 +31763,7 @@
       },
       {
         "name": "GN_Bolt_Bundle_Purchase",
-        "displayName": "Bolt Knife",
+        "displayName": "Bolt",
         "codename": "Bolt",
         "filename": "GN_Bolt_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Bolt_Bundle_Purchase.png",
@@ -31771,7 +31771,7 @@
       },
       {
         "name": "GN_Camera_Bundle_Featured",
-        "displayName": "Aperture Stiletto",
+        "displayName": "Aperture",
         "codename": "Camera",
         "filename": "GN_Camera_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Camera_Bundle_Featured.png",
@@ -31779,7 +31779,7 @@
       },
       {
         "name": "GN_Camera_Bundle_Purchase",
-        "displayName": "Aperture Stiletto",
+        "displayName": "Aperture",
         "codename": "Camera",
         "filename": "GN_Camera_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Camera_Bundle_Purchase.png",
@@ -31835,7 +31835,7 @@
       },
       {
         "name": "GN_Circle_Bundle_Featured",
-        "displayName": "Origin Crescent Blade",
+        "displayName": "Origin",
         "codename": "Circle",
         "filename": "GN_Circle_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Circle_Bundle_Featured.png",
@@ -31851,7 +31851,7 @@
       },
       {
         "name": "GN_Comicbook_Bundle_Featured",
-        "displayName": "Radiant Crisis 001 Baseball Bat",
+        "displayName": "Radiant Crisis 001",
         "codename": "Comicbook",
         "filename": "GN_Comicbook_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Comicbook_Bundle_Featured.png",
@@ -31859,7 +31859,7 @@
       },
       {
         "name": "GN_COOKIE_Bundle_Featured",
-        "displayName": "Sprinkle Surprise",
+        "displayName": "COOKIE",
         "codename": "COOKIE",
         "filename": "GN_COOKIE_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_COOKIE_Bundle_Featured.png",
@@ -31867,7 +31867,7 @@
       },
       {
         "name": "GN_COOKIE_Bundle_Purchase",
-        "displayName": "Sprinkle Surprise",
+        "displayName": "COOKIE",
         "codename": "COOKIE",
         "filename": "GN_COOKIE_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_COOKIE_Bundle_Purchase.png",
@@ -31875,7 +31875,7 @@
       },
       {
         "name": "GN_Cosmos_Bundle_Featured",
-        "displayName": "Nebula Knife",
+        "displayName": "Nebula",
         "codename": "Cosmos",
         "filename": "GN_Cosmos_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Cosmos_Bundle_Featured.png",
@@ -31883,7 +31883,7 @@
       },
       {
         "name": "GN_Coven_Bundle_Purchase",
-        "displayName": "Nocturnum Scythe",
+        "displayName": "Nocturnum Bulldog",
         "codename": "Coven",
         "filename": "GN_Coven_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Coven_Bundle_Purchase.png",
@@ -31891,7 +31891,7 @@
       },
       {
         "name": "GN_Cybercity_Bundle_Featured",
-        "displayName": "Hack",
+        "displayName": "Undercity Bulldog",
         "codename": "Cybercity",
         "filename": "GN_Cybercity_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Cybercity_Bundle_Featured.png",
@@ -31899,7 +31899,7 @@
       },
       {
         "name": "GN_CyberKnight_Bundle_Featured",
-        "displayName": "Doombringer Battleaxe",
+        "displayName": "Doombringer",
         "codename": "CyberKnight",
         "filename": "GN_CyberKnight_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_CyberKnight_Bundle_Featured.png",
@@ -31907,7 +31907,7 @@
       },
       {
         "name": "GN_CyberKnight_Bundle_Purchase",
-        "displayName": "Doombringer Battleaxe",
+        "displayName": "Doombringer",
         "codename": "CyberKnight",
         "filename": "GN_CyberKnight_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_CyberKnight_Bundle_Purchase.png",
@@ -31923,7 +31923,7 @@
       },
       {
         "name": "GN_Cyberpunk_Bundle_Featured",
-        "displayName": "Glitchpop Dagger",
+        "displayName": "Glitchpop",
         "codename": "Cyberpunk",
         "filename": "GN_Cyberpunk_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Cyberpunk_Bundle_Featured.png",
@@ -31931,7 +31931,7 @@
       },
       {
         "name": "GN_Daedalus_Bundle_Featured",
-        "displayName": "Terminus A Quo",
+        "displayName": "ChronoVoid",
         "codename": "Daedalus",
         "filename": "GN_Daedalus_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Daedalus_Bundle_Featured.png",
@@ -31939,7 +31939,7 @@
       },
       {
         "name": "GN_DeepSea_Bundle_Featured",
-        "displayName": "Caeruleus",
+        "displayName": "Abyssal",
         "codename": "DeepSea",
         "filename": "GN_DeepSea_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_DeepSea_Bundle_Featured.png",
@@ -31947,7 +31947,7 @@
       },
       {
         "name": "GN_Demonstone2_Bundle_Featured",
-        "displayName": "Flail of Chaos",
+        "displayName": "Prelude to Chaos Bulldog",
         "codename": "Demonstone2",
         "filename": "GN_Demonstone2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Demonstone2_Bundle_Featured.png",
@@ -31955,7 +31955,7 @@
       },
       {
         "name": "GN_Demonstone2_Bundle_Purchase",
-        "displayName": "Flail of Chaos",
+        "displayName": "Prelude to Chaos Bulldog",
         "codename": "Demonstone2",
         "filename": "GN_Demonstone2_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Demonstone2_Bundle_Purchase.png",
@@ -31963,7 +31963,7 @@
       },
       {
         "name": "GN_Demonstone_Bundle_Featured",
-        "displayName": "Blade of Chaos",
+        "displayName": "Prelude to Chaos",
         "codename": "Demonstone",
         "filename": "GN_Demonstone_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Demonstone_Bundle_Featured.png",
@@ -31979,7 +31979,7 @@
       },
       {
         "name": "GN_DIGIPETS_Bundle_Featured",
-        "displayName": "Nanomight Knuckles",
+        "displayName": "Nanomight",
         "codename": "DIGIPETS",
         "filename": "GN_DIGIPETS_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_DIGIPETS_Bundle_Featured.png",
@@ -31987,7 +31987,7 @@
       },
       {
         "name": "GN_DIGIPETS_Bundle_Purchase",
-        "displayName": "Nanomight Knuckles",
+        "displayName": "Nanomight",
         "codename": "DIGIPETS",
         "filename": "GN_DIGIPETS_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_DIGIPETS_Bundle_Purchase.png",
@@ -32011,7 +32011,7 @@
       },
       {
         "name": "GN_Dragon_Bundle_Featured",
-        "displayName": "Elderflame Dagger",
+        "displayName": "Elderflame",
         "codename": "Dragon",
         "filename": "GN_Dragon_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Dragon_Bundle_Featured.png",
@@ -32067,7 +32067,7 @@
       },
       {
         "name": "GN_Dynasty_Bundle_Featured",
-        "displayName": "Blades of Imperium",
+        "displayName": "Imperium",
         "codename": "Dynasty",
         "filename": "GN_Dynasty_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Dynasty_Bundle_Featured.png",
@@ -32091,7 +32091,7 @@
       },
       {
         "name": "GN_Edge2_Bundle_Featured",
-        "displayName": "Singularity Butterfly Knife",
+        "displayName": "Singularity",
         "codename": "Edge2",
         "filename": "GN_Edge2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Edge2_Bundle_Featured.png",
@@ -32099,7 +32099,7 @@
       },
       {
         "name": "GN_Edge2_Bundle_Purchase",
-        "displayName": "Singularity Butterfly Knife",
+        "displayName": "Singularity",
         "codename": "Edge2",
         "filename": "GN_Edge2_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Edge2_Bundle_Purchase.png",
@@ -32107,7 +32107,7 @@
       },
       {
         "name": "GN_Edge_Bundle_Featured",
-        "displayName": "Singularity Knife",
+        "displayName": "Singularity",
         "codename": "Edge",
         "filename": "GN_Edge_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Edge_Bundle_Featured.png",
@@ -32123,7 +32123,7 @@
       },
       {
         "name": "GN_Egypt_Bundle_Featured",
-        "displayName": "Blade of Serket",
+        "displayName": "Sarmad",
         "codename": "Egypt",
         "filename": "GN_Egypt_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Egypt_Bundle_Featured.png",
@@ -32139,7 +32139,7 @@
       },
       {
         "name": "GN_Engine_Bundle_Featured",
-        "displayName": "Chromedek Gauntlet",
+        "displayName": "Chromedek Bulldog",
         "codename": "Engine",
         "filename": "GN_Engine_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Engine_Bundle_Featured.png",
@@ -32155,7 +32155,7 @@
       },
       {
         "name": "GN_Fallen_Bundle_Featured",
-        "displayName": "Forsaken Ritual Blade",
+        "displayName": "Forsaken",
         "codename": "Fallen",
         "filename": "GN_Fallen_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Fallen_Bundle_Featured.png",
@@ -32243,7 +32243,7 @@
       },
       {
         "name": "GN_GiveBack_Bundle_Featured_3296x990",
-        "displayName": "Give Back",
+        "displayName": "GiveBack Bundle Featured 3296x990",
         "codename": "GiveBack",
         "filename": "GN_GiveBack_Bundle_Featured_3296x990.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_GiveBack_Bundle_Featured_3296x990.png",
@@ -32251,7 +32251,7 @@
       },
       {
         "name": "GN_GiveBack_Bundle_Purchase_1920x1080",
-        "displayName": "Give Back",
+        "displayName": "GiveBack Bundle Purchase 1920x1080",
         "codename": "GiveBack",
         "filename": "GN_GiveBack_Bundle_Purchase_1920x1080.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_GiveBack_Bundle_Purchase_1920x1080.png",
@@ -32259,7 +32259,7 @@
       },
       {
         "name": "GN_Golem_Bundle_Purchase",
-        "displayName": "Dolmir'sment",
+        "displayName": "Dolmir's Revenge",
         "codename": "Golem",
         "filename": "GN_Golem_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Golem_Bundle_Purchase.png",
@@ -32299,7 +32299,7 @@
       },
       {
         "name": "GN_Gunslinger_Bundle_Featured",
-        "displayName": "Neo Frontier Axe",
+        "displayName": "Neo Frontier",
         "codename": "Gunslinger",
         "filename": "GN_Gunslinger_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Gunslinger_Bundle_Featured.png",
@@ -32307,7 +32307,7 @@
       },
       {
         "name": "GN_Haunted_Bundle_Featured",
-        "displayName": "Soulstrife Scythe",
+        "displayName": "Soulstrife",
         "codename": "Haunted",
         "filename": "GN_Haunted_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Haunted_Bundle_Featured.png",
@@ -32315,7 +32315,7 @@
       },
       {
         "name": "GN_Hazard_Bundle_Featured",
-        "displayName": "Bubblegum Deathwish Chainsaw",
+        "displayName": "Bubblegum Deathwish",
         "codename": "Hazard",
         "filename": "GN_Hazard_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Hazard_Bundle_Featured.png",
@@ -32323,7 +32323,7 @@
       },
       {
         "name": "GN_Hazard_Bundle_Purchase",
-        "displayName": "Bubblegum Deathwish Chainsaw",
+        "displayName": "Bubblegum Deathwish",
         "codename": "Hazard",
         "filename": "GN_Hazard_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Hazard_Bundle_Purchase.png",
@@ -32331,7 +32331,7 @@
       },
       {
         "name": "GN_Hellfire_Bundle_Featured",
-        "displayName": "Blades of Primordia",
+        "displayName": "Primordium",
         "codename": "Hellfire",
         "filename": "GN_Hellfire_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Hellfire_Bundle_Featured.png",
@@ -32339,7 +32339,7 @@
       },
       {
         "name": "GN_HOLOGRAM_Bundle_Featured",
-        "displayName": "EX.O Edge",
+        "displayName": "EX.O",
         "codename": "HOLOGRAM",
         "filename": "GN_HOLOGRAM_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_HOLOGRAM_Bundle_Featured.png",
@@ -32347,7 +32347,7 @@
       },
       {
         "name": "GN_HOLOGRAM_Bundle_Purchase",
-        "displayName": "EX.O Edge",
+        "displayName": "EX.O",
         "codename": "HOLOGRAM",
         "filename": "GN_HOLOGRAM_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_HOLOGRAM_Bundle_Purchase.png",
@@ -32387,7 +32387,7 @@
       },
       {
         "name": "GN_Hypebeast2_Bundle_Featured",
-        "displayName": "Prime//2.0 Karambit",
+        "displayName": "Prime//2.0",
         "codename": "Hypebeast2",
         "filename": "GN_Hypebeast2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Hypebeast2_Bundle_Featured.png",
@@ -32395,7 +32395,7 @@
       },
       {
         "name": "GN_Hypebeast_Bundle_Featured",
-        "displayName": "Prime Axe",
+        "displayName": "Prime",
         "codename": "Hypebeast",
         "filename": "GN_Hypebeast_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Hypebeast_Bundle_Featured.png",
@@ -32403,7 +32403,7 @@
       },
       {
         "name": "GN_Hypedragon_Bundle_Featured",
-        "displayName": "XERØFANG Knife",
+        "displayName": "XERØFANG ",
         "codename": "Hypedragon",
         "filename": "GN_Hypedragon_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Hypedragon_Bundle_Featured.png",
@@ -32419,7 +32419,7 @@
       },
       {
         "name": "GN_Infantry2_Bundle_Featured",
-        "displayName": "Black.Market Butterfly Knife",
+        "displayName": "Black.Market",
         "codename": "Infantry2",
         "filename": "GN_Infantry2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Infantry2_Bundle_Featured.png",
@@ -32435,7 +32435,7 @@
       },
       {
         "name": "GN_Iridescence_Bundle_Featured",
-        "displayName": "Prism Knife",
+        "displayName": "Prism",
         "codename": "Iridescence",
         "filename": "GN_Iridescence_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Iridescence_Bundle_Featured.png",
@@ -32467,7 +32467,7 @@
       },
       {
         "name": "GN_King_Bundle_Featured",
-        "displayName": "Broken Blade of the Ruined King",
+        "displayName": "Ruination",
         "codename": "King",
         "filename": "GN_King_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_King_Bundle_Featured.png",
@@ -32475,7 +32475,7 @@
       },
       {
         "name": "GN_Legion_Bundle_Featured",
-        "displayName": "Blade of Aemondir",
+        "displayName": "Aemondir",
         "codename": "Legion",
         "filename": "GN_Legion_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Legion_Bundle_Featured.png",
@@ -32483,7 +32483,7 @@
       },
       {
         "name": "GN_Lightning_Bundle_Featured",
-        "displayName": "Smite Knife",
+        "displayName": "Smite",
         "codename": "Lightning",
         "filename": "GN_Lightning_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Lightning_Bundle_Featured.png",
@@ -32491,7 +32491,7 @@
       },
       {
         "name": "GN_LNY26_Bundle_Featured",
-        "displayName": "Solarstride Flamethrower",
+        "displayName": "Solarstride",
         "codename": "LNY26",
         "filename": "GN_LNY26_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_LNY26_Bundle_Featured.png",
@@ -32499,7 +32499,7 @@
       },
       {
         "name": "GN_LNY26_Bundle_Purchase",
-        "displayName": "Solarstride Flamethrower",
+        "displayName": "Solarstride",
         "codename": "LNY26",
         "filename": "GN_LNY26_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_LNY26_Bundle_Purchase.png",
@@ -32523,7 +32523,7 @@
       },
       {
         "name": "GN_Lofi_Bundle_Featured",
-        "displayName": "Daydreams Crowbar",
+        "displayName": "Daydreams",
         "codename": "Lofi",
         "filename": "GN_Lofi_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Lofi_Bundle_Featured.png",
@@ -32531,7 +32531,7 @@
       },
       {
         "name": "GN_LosMuertos_Bundle_Featured",
-        "displayName": "Catrina",
+        "displayName": "Nunca Olvidados",
         "codename": "LosMuertos",
         "filename": "GN_LosMuertos_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_LosMuertos_Bundle_Featured.png",
@@ -32539,7 +32539,7 @@
       },
       {
         "name": "GN_Lunar_Bundle_Featured",
-        "displayName": "Celestial Fan",
+        "displayName": "Celestial",
         "codename": "Lunar",
         "filename": "GN_Lunar_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Lunar_Bundle_Featured.png",
@@ -32547,7 +32547,7 @@
       },
       {
         "name": "GN_Luxury_Bundle_Featured",
-        "displayName": "Luxe Knife",
+        "displayName": "Luxe",
         "codename": "Luxury",
         "filename": "GN_Luxury_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Luxury_Bundle_Featured.png",
@@ -32555,7 +32555,7 @@
       },
       {
         "name": "GN_Luxury_Bundle_FeaturedV2",
-        "displayName": "Luxe Knife",
+        "displayName": "Luxe",
         "codename": "Luxury",
         "filename": "GN_Luxury_Bundle_FeaturedV2.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Luxury_Bundle_FeaturedV2.png",
@@ -32563,7 +32563,7 @@
       },
       {
         "name": "GN_Macaron_Bundle_Featured",
-        "displayName": "Arcane Gauntlets",
+        "displayName": "Arcane",
         "codename": "Macaron",
         "filename": "GN_Macaron_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Macaron_Bundle_Featured.png",
@@ -32571,7 +32571,7 @@
       },
       {
         "name": "GN_Macaron_Bundle_Purchase",
-        "displayName": "Arcane Gauntlets",
+        "displayName": "Arcane",
         "codename": "Macaron",
         "filename": "GN_Macaron_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Macaron_Bundle_Purchase.png",
@@ -32579,7 +32579,7 @@
       },
       {
         "name": "GN_Magepunk2_Bundle_Featured",
-        "displayName": "Magepunk Shock Gauntlet",
+        "displayName": "Magepunk",
         "codename": "Magepunk2",
         "filename": "GN_Magepunk2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Magepunk2_Bundle_Featured.png",
@@ -32587,7 +32587,7 @@
       },
       {
         "name": "GN_Magepunk3_Bundle_Featured",
-        "displayName": "Magepunk Sparkswitch",
+        "displayName": "Magepunk",
         "codename": "Magepunk3",
         "filename": "GN_Magepunk3_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Magepunk3_Bundle_Featured.png",
@@ -32595,7 +32595,7 @@
       },
       {
         "name": "GN_Magepunk_Bundle",
-        "displayName": "Magepunk Electroblade",
+        "displayName": "Magepunk",
         "codename": "Magepunk",
         "filename": "GN_Magepunk_Bundle.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Magepunk_Bundle.png",
@@ -32603,7 +32603,7 @@
       },
       {
         "name": "GN_MagicSpline_Bundle_Featured",
-        "displayName": "Spline Dagger",
+        "displayName": "Spline",
         "codename": "MagicSpline",
         "filename": "GN_MagicSpline_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_MagicSpline_Bundle_Featured.png",
@@ -32611,7 +32611,7 @@
       },
       {
         "name": "GN_Minima2_Bundle_Featured",
-        "displayName": "Minima Karambit",
+        "displayName": "Minima",
         "codename": "Minima2",
         "filename": "GN_Minima2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Minima2_Bundle_Featured.png",
@@ -32635,7 +32635,7 @@
       },
       {
         "name": "GN_Modelmaker_Bundle_Featured",
-        "displayName": "Combat Crafts Axe",
+        "displayName": "Combat Crafts Bulldog",
         "codename": "Modelmaker",
         "filename": "GN_Modelmaker_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Modelmaker_Bundle_Featured.png",
@@ -32643,7 +32643,7 @@
       },
       {
         "name": "GN_Modelmaker_Bundle_Purchase",
-        "displayName": "Combat Crafts Axe",
+        "displayName": "Combat Crafts Bulldog",
         "codename": "Modelmaker",
         "filename": "GN_Modelmaker_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Modelmaker_Bundle_Purchase.png",
@@ -32651,7 +32651,7 @@
       },
       {
         "name": "GN_MonkeyKing_Bundle_Featured",
-        "displayName": "Ruyi Staff",
+        "displayName": "Valiant Hero",
         "codename": "MonkeyKing",
         "filename": "GN_MonkeyKing_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_MonkeyKing_Bundle_Featured.png",
@@ -32675,7 +32675,7 @@
       },
       {
         "name": "GN_Motorbike_Bundle_Featured",
-        "displayName": "Overdrive Blade",
+        "displayName": "Overdrive",
         "codename": "Motorbike",
         "filename": "GN_Motorbike_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Motorbike_Bundle_Featured.png",
@@ -32691,7 +32691,7 @@
       },
       {
         "name": "GN_Mythic_Bundle_Featured",
-        "displayName": "Crimsonbeast Hammer",
+        "displayName": "Crimsonbeast",
         "codename": "Mythic",
         "filename": "GN_Mythic_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Mythic_Bundle_Featured.png",
@@ -32699,7 +32699,7 @@
       },
       {
         "name": "GN_Ninja2_Bundle_Featured",
-        "displayName": "Kuronami Naru-Kami",
+        "displayName": "Kuronami",
         "codename": "Ninja2",
         "filename": "GN_Ninja2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Ninja2_Bundle_Featured.png",
@@ -32707,7 +32707,7 @@
       },
       {
         "name": "GN_Ninja2_Bundle_Purchase",
-        "displayName": "Kuronami Naru-Kami",
+        "displayName": "Kuronami",
         "codename": "Ninja2",
         "filename": "GN_Ninja2_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Ninja2_Bundle_Purchase.png",
@@ -32715,7 +32715,7 @@
       },
       {
         "name": "GN_Ninja_Bundle_Featured",
-        "displayName": "Kuronami no Yaiba",
+        "displayName": "Kuronami",
         "codename": "Ninja",
         "filename": "GN_Ninja_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Ninja_Bundle_Featured.png",
@@ -32731,7 +32731,7 @@
       },
       {
         "name": "GN_Oni2_Bundle_Featured",
-        "displayName": "Onimaru Kunitsuna",
+        "displayName": "Oni",
         "codename": "Oni2",
         "filename": "GN_Oni2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Oni2_Bundle_Featured.png",
@@ -32739,7 +32739,7 @@
       },
       {
         "name": "GN_Oni_Bundle_Featured",
-        "displayName": "Oni Claw",
+        "displayName": "Oni",
         "codename": "Oni",
         "filename": "GN_Oni_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Oni_Bundle_Featured.png",
@@ -32747,7 +32747,7 @@
       },
       {
         "name": "GN_OrangeHighlight_Bundle_Featured",
-        "displayName": "Switchback Ascender",
+        "displayName": "Switchback",
         "codename": "OrangeHighlight",
         "filename": "GN_OrangeHighlight_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_OrangeHighlight_Bundle_Featured.png",
@@ -32755,7 +32755,7 @@
       },
       {
         "name": "GN_OrangeHighlight_Bundle_Purchase",
-        "displayName": "Switchback Ascender",
+        "displayName": "Switchback",
         "codename": "OrangeHighlight",
         "filename": "GN_OrangeHighlight_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_OrangeHighlight_Bundle_Purchase.png",
@@ -32763,7 +32763,7 @@
       },
       {
         "name": "GN_Origami_Bundle_Converged_Feature",
-        "displayName": "SilkLeaf Fan",
+        "displayName": "SilkLeaf",
         "codename": "Origami",
         "filename": "GN_Origami_Bundle_Converged_Feature.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Origami_Bundle_Converged_Feature.png",
@@ -32771,7 +32771,7 @@
       },
       {
         "name": "GN_Origami_Bundle_Feature",
-        "displayName": "SilkLeaf Fan",
+        "displayName": "SilkLeaf",
         "codename": "Origami",
         "filename": "GN_Origami_Bundle_Feature.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Origami_Bundle_Feature.png",
@@ -32779,7 +32779,7 @@
       },
       {
         "name": "GN_Origami_Bundle_Purchase",
-        "displayName": "SilkLeaf Fan",
+        "displayName": "SilkLeaf",
         "codename": "Origami",
         "filename": "GN_Origami_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Origami_Bundle_Purchase.png",
@@ -32787,7 +32787,7 @@
       },
       {
         "name": "GN_Permafrost_Bundle_Featured",
-        "displayName": "Cryostasis Impact Drill",
+        "displayName": "Cryostasis",
         "codename": "Permafrost",
         "filename": "GN_Permafrost_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Permafrost_Bundle_Featured.png",
@@ -32811,7 +32811,7 @@
       },
       {
         "name": "GN_Poptoy_Bundle_Convergence_Featured",
-        "displayName": "Hatchbudz: Quacked Series",
+        "displayName": "Poptoy Bundle Convergence Featured",
         "codename": "Poptoy",
         "filename": "GN_Poptoy_Bundle_Convergence_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Poptoy_Bundle_Convergence_Featured.png",
@@ -32819,7 +32819,7 @@
       },
       {
         "name": "GN_Poptoy_Bundle_Featured",
-        "displayName": "Hatchbudz: Quacked Series",
+        "displayName": "Poptoy",
         "codename": "Poptoy",
         "filename": "GN_Poptoy_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Poptoy_Bundle_Featured.png",
@@ -32827,7 +32827,7 @@
       },
       {
         "name": "GN_Poptoy_Bundle_Purchase",
-        "displayName": "Hatchbudz: Quacked Series",
+        "displayName": "Poptoy",
         "codename": "Poptoy",
         "filename": "GN_Poptoy_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Poptoy_Bundle_Purchase.png",
@@ -32843,7 +32843,7 @@
       },
       {
         "name": "GN_Protocol_Bundle_Featured",
-        "displayName": "Personal Administrative Unit",
+        "displayName": "Protocol 781-A Bulldog",
         "codename": "Protocol",
         "filename": "GN_Protocol_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Protocol_Bundle_Featured.png",
@@ -32851,7 +32851,7 @@
       },
       {
         "name": "GN_Rabbit_Bundle_Featured",
-        "displayName": "Luna's Descent",
+        "displayName": "Luna",
         "codename": "Rabbit",
         "filename": "GN_Rabbit_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Rabbit_Bundle_Featured.png",
@@ -32867,7 +32867,7 @@
       },
       {
         "name": "GN_Raygun_Bundle_Featured",
-        "displayName": "Gravitational Uranium Neuroblaster Baton",
+        "displayName": "Gravitational Uranium Neuroblaster",
         "codename": "Raygun",
         "filename": "GN_Raygun_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Raygun_Bundle_Featured.png",
@@ -32899,7 +32899,7 @@
       },
       {
         "name": "GN_RoboMecha_Bundle_Featured",
-        "displayName": "Orion Sword",
+        "displayName": "Orion",
         "codename": "RoboMecha",
         "filename": "GN_RoboMecha_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_RoboMecha_Bundle_Featured.png",
@@ -32907,7 +32907,7 @@
       },
       {
         "name": "GN_Rogue_Bundle_Convergence_3296x990",
-        "displayName": "Rogue Push Daggers",
+        "displayName": "Rogue",
         "codename": "Rogue",
         "filename": "GN_Rogue_Bundle_Convergence_3296x990.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Rogue_Bundle_Convergence_3296x990.png",
@@ -32915,7 +32915,7 @@
       },
       {
         "name": "GN_Rogue_Bundle_Purchase_1920x1080__1_",
-        "displayName": "Rogue Push Daggers",
+        "displayName": "Rogue",
         "codename": "Rogue",
         "filename": "GN_Rogue_Bundle_Purchase_1920x1080__1_.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Rogue_Bundle_Purchase_1920x1080__1_.png",
@@ -32995,7 +32995,7 @@
       },
       {
         "name": "GN_ScubaRobot_Bundle_Featured_3296x990",
-        "displayName": "Hi-DR0 Baton",
+        "displayName": "Hi-DR0",
         "codename": "ScubaRobot",
         "filename": "GN_ScubaRobot_Bundle_Featured_3296x990.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_ScubaRobot_Bundle_Featured_3296x990.png",
@@ -33003,7 +33003,7 @@
       },
       {
         "name": "GN_ScubaRobot_Bundle_Purchase",
-        "displayName": "Hi-DR0 Baton",
+        "displayName": "Hi-DR0",
         "codename": "ScubaRobot",
         "filename": "GN_ScubaRobot_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_ScubaRobot_Bundle_Purchase.png",
@@ -33011,7 +33011,7 @@
       },
       {
         "name": "GN_Snowglobe_Bundle_Featured",
-        "displayName": "Snowfall Wand",
+        "displayName": "Snowfall",
         "codename": "Snowglobe",
         "filename": "GN_Snowglobe_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Snowglobe_Bundle_Featured.png",
@@ -33019,7 +33019,7 @@
       },
       {
         "name": "GN_SOL2_Bundle_Featured",
-        "displayName": "Relic Stone Daggers",
+        "displayName": "Sentinels of Light",
         "codename": "SOL2",
         "filename": "GN_SOL2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_SOL2_Bundle_Featured.png",
@@ -33027,7 +33027,7 @@
       },
       {
         "name": "GN_Sol_Bundle_Featured",
-        "displayName": "Relic of the Sentinel",
+        "displayName": "Sentinels of Light",
         "codename": "Sol",
         "filename": "GN_Sol_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Sol_Bundle_Featured.png",
@@ -33035,7 +33035,7 @@
       },
       {
         "name": "GN_Soulstealer2_Bundle_Featured",
-        "displayName": "Reaver Karambit",
+        "displayName": "Reaver Vol. 2",
         "codename": "Soulstealer2",
         "filename": "GN_Soulstealer2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Soulstealer2_Bundle_Featured.png",
@@ -33059,7 +33059,7 @@
       },
       {
         "name": "GN_Soulstealer3_Bundle_Featured",
-        "displayName": "Reaver Butterfly Knife",
+        "displayName": "Reaver Bandit",
         "codename": "Soulstealer3",
         "filename": "GN_Soulstealer3_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Soulstealer3_Bundle_Featured.png",
@@ -33067,7 +33067,7 @@
       },
       {
         "name": "GN_Soulstealer3_Bundle_FeaturedConverged",
-        "displayName": "Reaver Butterfly Knife",
+        "displayName": "Reaver Bandit",
         "codename": "Soulstealer3",
         "filename": "GN_Soulstealer3_Bundle_FeaturedConverged.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Soulstealer3_Bundle_FeaturedConverged.png",
@@ -33075,7 +33075,7 @@
       },
       {
         "name": "GN_Soulstealer3_Bundle_Purchase",
-        "displayName": "Reaver Butterfly Knife",
+        "displayName": "Reaver Bandit",
         "codename": "Soulstealer3",
         "filename": "GN_Soulstealer3_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Soulstealer3_Bundle_Purchase.png",
@@ -33083,7 +33083,7 @@
       },
       {
         "name": "GN_SoulStealer_Bundle_Featured",
-        "displayName": "Reaver Knife",
+        "displayName": "Reaver",
         "codename": "SoulStealer",
         "filename": "GN_SoulStealer_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_SoulStealer_Bundle_Featured.png",
@@ -33091,7 +33091,7 @@
       },
       {
         "name": "GN_Sovereign2_Bundle_Featured",
-        "displayName": "Eternal Sovereign",
+        "displayName": "Sovereign",
         "codename": "Sovereign2",
         "filename": "GN_Sovereign2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Sovereign2_Bundle_Featured.png",
@@ -33099,7 +33099,7 @@
       },
       {
         "name": "GN_Sovereign2_Bundle_Purchase",
-        "displayName": "Eternal Sovereign",
+        "displayName": "Sovereign",
         "codename": "Sovereign2",
         "filename": "GN_Sovereign2_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Sovereign2_Bundle_Purchase.png",
@@ -33107,7 +33107,7 @@
       },
       {
         "name": "GN_Sovereign_Bundle_Featured",
-        "displayName": "Sovereign Sword",
+        "displayName": "Sovereign",
         "codename": "Sovereign",
         "filename": "GN_Sovereign_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Sovereign_Bundle_Featured.png",
@@ -33115,7 +33115,7 @@
       },
       {
         "name": "GN_SovWorld_Bundle_Featured",
-        "displayName": "Prosperity",
+        "displayName": "Tethered Realms",
         "codename": "SovWorld",
         "filename": "GN_SovWorld_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_SovWorld_Bundle_Featured.png",
@@ -33123,7 +33123,7 @@
       },
       {
         "name": "GN_SpecOps_Bundle_Featured",
-        "displayName": "Recon Balisong",
+        "displayName": "Recon",
         "codename": "SpecOps",
         "filename": "GN_SpecOps_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_SpecOps_Bundle_Featured.png",
@@ -33131,7 +33131,7 @@
       },
       {
         "name": "GN_Spikes_Bundle_Featured",
-        "displayName": "Titanmail Mace",
+        "displayName": "Titanmail",
         "codename": "Spikes",
         "filename": "GN_Spikes_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Spikes_Bundle_Featured.png",
@@ -33139,7 +33139,7 @@
       },
       {
         "name": "GN_SPIRIT2_Bundle_Featured",
-        "displayName": "Mystbloom Fanblade",
+        "displayName": "Mystbloom",
         "codename": "SPIRIT2",
         "filename": "GN_SPIRIT2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_SPIRIT2_Bundle_Featured.png",
@@ -33147,7 +33147,7 @@
       },
       {
         "name": "GN_SPIRIT2_Bundle_Purchase",
-        "displayName": "Mystbloom Fanblade",
+        "displayName": "Mystbloom",
         "codename": "SPIRIT2",
         "filename": "GN_SPIRIT2_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_SPIRIT2_Bundle_Purchase.png",
@@ -33155,7 +33155,7 @@
       },
       {
         "name": "GN_Spirit_Bundle_Featured",
-        "displayName": "Mystbloom Kunai",
+        "displayName": "Mystbloom",
         "codename": "Spirit",
         "filename": "GN_Spirit_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Spirit_Bundle_Featured.png",
@@ -33163,7 +33163,7 @@
       },
       {
         "name": "GN_Spirit_Bundle_Purchase",
-        "displayName": "Mystbloom Kunai",
+        "displayName": "Mystbloom",
         "codename": "Spirit",
         "filename": "GN_Spirit_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Spirit_Bundle_Purchase.png",
@@ -33171,7 +33171,7 @@
       },
       {
         "name": "GN_StainedGlass_Bundle_Featured",
-        "displayName": "Reverie Sword",
+        "displayName": "Reverie",
         "codename": "StainedGlass",
         "filename": "GN_StainedGlass_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_StainedGlass_Bundle_Featured.png",
@@ -33179,7 +33179,7 @@
       },
       {
         "name": "GN_StarPower_Bundle_Featured",
-        "displayName": "Evori's Spellcaster",
+        "displayName": "Evori Dreamwings",
         "codename": "StarPower",
         "filename": "GN_StarPower_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_StarPower_Bundle_Featured.png",
@@ -33187,7 +33187,7 @@
       },
       {
         "name": "GN_StarPower_Bundle_Purchase",
-        "displayName": "Evori's Spellcaster",
+        "displayName": "Evori Dreamwings",
         "codename": "StarPower",
         "filename": "GN_StarPower_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_StarPower_Bundle_Purchase.png",
@@ -33251,7 +33251,7 @@
       },
       {
         "name": "GN_Tarot_Bundle_Featured",
-        "displayName": "Fortune's Scepter ",
+        "displayName": "Fortune's Hand",
         "codename": "Tarot",
         "filename": "GN_Tarot_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Tarot_Bundle_Featured.png",
@@ -33259,7 +33259,7 @@
       },
       {
         "name": "GN_Tiger_Bundle_Featured",
-        "displayName": "Hu Else",
+        "displayName": "Tigris",
         "codename": "Tiger",
         "filename": "GN_Tiger_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Tiger_Bundle_Featured.png",
@@ -33267,7 +33267,7 @@
       },
       {
         "name": "GN_Tokyo_Bundle_Featured",
-        "displayName": "NO LIMITS Bat",
+        "displayName": "NO LIMITS",
         "codename": "Tokyo",
         "filename": "GN_Tokyo_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Tokyo_Bundle_Featured.png",
@@ -33291,7 +33291,7 @@
       },
       {
         "name": "GN_Unicorn_Bundle_Featured",
-        "displayName": "Wonderstallion Hammer",
+        "displayName": "Wonderstallion",
         "codename": "Unicorn",
         "filename": "GN_Unicorn_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Unicorn_Bundle_Featured.png",
@@ -33299,7 +33299,7 @@
       },
       {
         "name": "GN_Unicorn_Bundle_Purchase",
-        "displayName": "Wonderstallion Hammer",
+        "displayName": "Wonderstallion",
         "codename": "Unicorn",
         "filename": "GN_Unicorn_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Unicorn_Bundle_Purchase.png",
@@ -33307,7 +33307,7 @@
       },
       {
         "name": "GN_Unstoppable_Bundle_Featured",
-        "displayName": "Ego Knife",
+        "displayName": "Ego",
         "codename": "Unstoppable",
         "filename": "GN_Unstoppable_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Unstoppable_Bundle_Featured.png",
@@ -33323,7 +33323,7 @@
       },
       {
         "name": "GN_Val5Beta_Bundle_Featured",
-        "displayName": "5 Years // Beta Remastered",
+        "displayName": "Val5Beta",
         "codename": "Val5Beta",
         "filename": "GN_Val5Beta_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Val5Beta_Bundle_Featured.png",
@@ -33331,7 +33331,7 @@
       },
       {
         "name": "GN_Val5Beta_Bundle_Purchase",
-        "displayName": "5 Years // Beta Remastered",
+        "displayName": "Val5Beta",
         "codename": "Val5Beta",
         "filename": "GN_Val5Beta_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Val5Beta_Bundle_Purchase.png",
@@ -33579,7 +33579,7 @@
       },
       {
         "name": "GN_Voyager_Bundle_Featured",
-        "displayName": "Kaimana",
+        "displayName": "Holomoku",
         "codename": "Voyager",
         "filename": "GN_Voyager_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Voyager_Bundle_Featured.png",
@@ -33587,7 +33587,7 @@
       },
       {
         "name": "GN_Voyager_Bundle_Purchase",
-        "displayName": "Kaimana",
+        "displayName": "Holomoku",
         "codename": "Voyager",
         "filename": "GN_Voyager_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Voyager_Bundle_Purchase.png",
@@ -33595,7 +33595,7 @@
       },
       {
         "name": "GN_Wasteland2_Bundle_Featured",
-        "displayName": "Wasteland Crowbar",
+        "displayName": "Wasteland Bulldog",
         "codename": "Wasteland2",
         "filename": "GN_Wasteland2_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Wasteland2_Bundle_Featured.png",
@@ -33603,7 +33603,7 @@
       },
       {
         "name": "GN_Wasteland2_Bundle_Purchase",
-        "displayName": "Wasteland Crowbar",
+        "displayName": "Wasteland Bulldog",
         "codename": "Wasteland2",
         "filename": "GN_Wasteland2_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Wasteland2_Bundle_Purchase.png",
@@ -33619,7 +33619,7 @@
       },
       {
         "name": "GN_WaterBlaster_Bundle_Featured",
-        "displayName": "SplashX Gloves",
+        "displayName": "SplashX",
         "codename": "WaterBlaster",
         "filename": "GN_WaterBlaster_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_WaterBlaster_Bundle_Featured.png",
@@ -33627,7 +33627,7 @@
       },
       {
         "name": "GN_WaterBlaster_Bundle_Purchase",
-        "displayName": "SplashX Gloves",
+        "displayName": "SplashX",
         "codename": "WaterBlaster",
         "filename": "GN_WaterBlaster_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_WaterBlaster_Bundle_Purchase.png",
@@ -33643,7 +33643,7 @@
       },
       {
         "name": "GN_Winter_Bundle_Featured",
-        "displayName": "Winterwunderland Candy Cane",
+        "displayName": "Winterwunderland",
         "codename": "Winter",
         "filename": "GN_Winter_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Winter_Bundle_Featured.png",
@@ -33651,7 +33651,7 @@
       },
       {
         "name": "GN_Winter_Bundle_Historical",
-        "displayName": "Winterwunderland Candy Cane",
+        "displayName": "Winterwunderland",
         "codename": "Winter",
         "filename": "GN_Winter_Bundle_Historical.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Winter_Bundle_Historical.png",
@@ -33667,7 +33667,7 @@
       },
       {
         "name": "GN_Yokai_Bundle_Featured",
-        "displayName": "Kogitsune",
+        "displayName": "Ayakashi",
         "codename": "Yokai",
         "filename": "GN_Yokai_Bundle_Featured.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Yokai_Bundle_Featured.png",
@@ -33675,7 +33675,7 @@
       },
       {
         "name": "GN_Yokai_Bundle_Purchase",
-        "displayName": "Kogitsune",
+        "displayName": "Ayakashi",
         "codename": "Yokai",
         "filename": "GN_Yokai_Bundle_Purchase.png",
         "relPath": "Valorantek/Backgrounds/Bundle/GN_Yokai_Bundle_Purchase.png",
@@ -37104,7 +37104,7 @@
         },
         {
           "name": "Bundle_Airplane",
-          "displayName": "Altitude Knuckle Knife",
+          "displayName": "Altitude",
           "codename": "Airplane",
           "filename": "Bundle_Airplane.png",
           "relPath": "Valorantek/Backgrounds/Bundle/Bundle_Airplane.png",
@@ -37128,7 +37128,7 @@
         },
         {
           "name": "Bundle_Koi",
-          "displayName": "Equilibrium",
+          "displayName": "Kohaku & Matsuba",
           "codename": "Koi",
           "filename": "Bundle_Koi.png",
           "relPath": "Valorantek/Backgrounds/Bundle/Bundle_Koi.png",
@@ -37184,7 +37184,7 @@
         },
         {
           "name": "GN_Alien_Bundle_Featured",
-          "displayName": "Xenohunter Knife",
+          "displayName": "Xenohunter",
           "codename": "Alien",
           "filename": "GN_Alien_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Alien_Bundle_Featured.png",
@@ -37192,7 +37192,7 @@
         },
         {
           "name": "GN_Angler_Bundle_Featured",
-          "displayName": "Intergrade Blade",
+          "displayName": "Intergrade",
           "codename": "Angler",
           "filename": "GN_Angler_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Angler_Bundle_Featured.png",
@@ -37232,7 +37232,7 @@
         },
         {
           "name": "GN_Anomaly_Bundle_Featured",
-          "displayName": "Divergence Staff",
+          "displayName": "Divergence",
           "codename": "Anomaly",
           "filename": "GN_Anomaly_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Anomaly_Bundle_Featured.png",
@@ -37240,7 +37240,7 @@
         },
         {
           "name": "GN_Anomaly_Bundle_Purchase",
-          "displayName": "Divergence Staff",
+          "displayName": "Divergence",
           "codename": "Anomaly",
           "filename": "GN_Anomaly_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Anomaly_Bundle_Purchase.png",
@@ -37304,7 +37304,7 @@
         },
         {
           "name": "GN_Assault_Bundle_Featured",
-          "displayName": "MK.VII Liberty Combat Knife",
+          "displayName": "MK.VII Liberty",
           "codename": "Assault",
           "filename": "GN_Assault_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Assault_Bundle_Featured.png",
@@ -37320,7 +37320,7 @@
         },
         {
           "name": "GN_Atlas_Bundle_Featured",
-          "displayName": "Waveform",
+          "displayName": "Spectrum",
           "codename": "Atlas",
           "filename": "GN_Atlas_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Atlas_Bundle_Featured.png",
@@ -37352,7 +37352,7 @@
         },
         {
           "name": "GN_Bolt_Bundle_Featured",
-          "displayName": "Bolt Knife",
+          "displayName": "Bolt",
           "codename": "Bolt",
           "filename": "GN_Bolt_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Bolt_Bundle_Featured.png",
@@ -37360,7 +37360,7 @@
         },
         {
           "name": "GN_Bolt_Bundle_Purchase",
-          "displayName": "Bolt Knife",
+          "displayName": "Bolt",
           "codename": "Bolt",
           "filename": "GN_Bolt_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Bolt_Bundle_Purchase.png",
@@ -37368,7 +37368,7 @@
         },
         {
           "name": "GN_Camera_Bundle_Featured",
-          "displayName": "Aperture Stiletto",
+          "displayName": "Aperture",
           "codename": "Camera",
           "filename": "GN_Camera_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Camera_Bundle_Featured.png",
@@ -37376,7 +37376,7 @@
         },
         {
           "name": "GN_Camera_Bundle_Purchase",
-          "displayName": "Aperture Stiletto",
+          "displayName": "Aperture",
           "codename": "Camera",
           "filename": "GN_Camera_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Camera_Bundle_Purchase.png",
@@ -37432,7 +37432,7 @@
         },
         {
           "name": "GN_Circle_Bundle_Featured",
-          "displayName": "Origin Crescent Blade",
+          "displayName": "Origin",
           "codename": "Circle",
           "filename": "GN_Circle_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Circle_Bundle_Featured.png",
@@ -37448,7 +37448,7 @@
         },
         {
           "name": "GN_Comicbook_Bundle_Featured",
-          "displayName": "Radiant Crisis 001 Baseball Bat",
+          "displayName": "Radiant Crisis 001",
           "codename": "Comicbook",
           "filename": "GN_Comicbook_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Comicbook_Bundle_Featured.png",
@@ -37456,7 +37456,7 @@
         },
         {
           "name": "GN_COOKIE_Bundle_Featured",
-          "displayName": "Sprinkle Surprise",
+          "displayName": "COOKIE",
           "codename": "COOKIE",
           "filename": "GN_COOKIE_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_COOKIE_Bundle_Featured.png",
@@ -37464,7 +37464,7 @@
         },
         {
           "name": "GN_COOKIE_Bundle_Purchase",
-          "displayName": "Sprinkle Surprise",
+          "displayName": "COOKIE",
           "codename": "COOKIE",
           "filename": "GN_COOKIE_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_COOKIE_Bundle_Purchase.png",
@@ -37472,7 +37472,7 @@
         },
         {
           "name": "GN_Cosmos_Bundle_Featured",
-          "displayName": "Nebula Knife",
+          "displayName": "Nebula",
           "codename": "Cosmos",
           "filename": "GN_Cosmos_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Cosmos_Bundle_Featured.png",
@@ -37480,7 +37480,7 @@
         },
         {
           "name": "GN_Coven_Bundle_Purchase",
-          "displayName": "Nocturnum Scythe",
+          "displayName": "Nocturnum Bulldog",
           "codename": "Coven",
           "filename": "GN_Coven_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Coven_Bundle_Purchase.png",
@@ -37488,7 +37488,7 @@
         },
         {
           "name": "GN_Cybercity_Bundle_Featured",
-          "displayName": "Hack",
+          "displayName": "Undercity Bulldog",
           "codename": "Cybercity",
           "filename": "GN_Cybercity_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Cybercity_Bundle_Featured.png",
@@ -37496,7 +37496,7 @@
         },
         {
           "name": "GN_CyberKnight_Bundle_Featured",
-          "displayName": "Doombringer Battleaxe",
+          "displayName": "Doombringer",
           "codename": "CyberKnight",
           "filename": "GN_CyberKnight_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_CyberKnight_Bundle_Featured.png",
@@ -37504,7 +37504,7 @@
         },
         {
           "name": "GN_CyberKnight_Bundle_Purchase",
-          "displayName": "Doombringer Battleaxe",
+          "displayName": "Doombringer",
           "codename": "CyberKnight",
           "filename": "GN_CyberKnight_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_CyberKnight_Bundle_Purchase.png",
@@ -37520,7 +37520,7 @@
         },
         {
           "name": "GN_Cyberpunk_Bundle_Featured",
-          "displayName": "Glitchpop Dagger",
+          "displayName": "Glitchpop",
           "codename": "Cyberpunk",
           "filename": "GN_Cyberpunk_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Cyberpunk_Bundle_Featured.png",
@@ -37528,7 +37528,7 @@
         },
         {
           "name": "GN_Daedalus_Bundle_Featured",
-          "displayName": "Terminus A Quo",
+          "displayName": "ChronoVoid",
           "codename": "Daedalus",
           "filename": "GN_Daedalus_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Daedalus_Bundle_Featured.png",
@@ -37536,7 +37536,7 @@
         },
         {
           "name": "GN_DeepSea_Bundle_Featured",
-          "displayName": "Caeruleus",
+          "displayName": "Abyssal",
           "codename": "DeepSea",
           "filename": "GN_DeepSea_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_DeepSea_Bundle_Featured.png",
@@ -37544,7 +37544,7 @@
         },
         {
           "name": "GN_Demonstone2_Bundle_Featured",
-          "displayName": "Flail of Chaos",
+          "displayName": "Prelude to Chaos Bulldog",
           "codename": "Demonstone2",
           "filename": "GN_Demonstone2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Demonstone2_Bundle_Featured.png",
@@ -37552,7 +37552,7 @@
         },
         {
           "name": "GN_Demonstone2_Bundle_Purchase",
-          "displayName": "Flail of Chaos",
+          "displayName": "Prelude to Chaos Bulldog",
           "codename": "Demonstone2",
           "filename": "GN_Demonstone2_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Demonstone2_Bundle_Purchase.png",
@@ -37560,7 +37560,7 @@
         },
         {
           "name": "GN_Demonstone_Bundle_Featured",
-          "displayName": "Blade of Chaos",
+          "displayName": "Prelude to Chaos",
           "codename": "Demonstone",
           "filename": "GN_Demonstone_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Demonstone_Bundle_Featured.png",
@@ -37576,7 +37576,7 @@
         },
         {
           "name": "GN_DIGIPETS_Bundle_Featured",
-          "displayName": "Nanomight Knuckles",
+          "displayName": "Nanomight",
           "codename": "DIGIPETS",
           "filename": "GN_DIGIPETS_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_DIGIPETS_Bundle_Featured.png",
@@ -37584,7 +37584,7 @@
         },
         {
           "name": "GN_DIGIPETS_Bundle_Purchase",
-          "displayName": "Nanomight Knuckles",
+          "displayName": "Nanomight",
           "codename": "DIGIPETS",
           "filename": "GN_DIGIPETS_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_DIGIPETS_Bundle_Purchase.png",
@@ -37608,7 +37608,7 @@
         },
         {
           "name": "GN_Dragon_Bundle_Featured",
-          "displayName": "Elderflame Dagger",
+          "displayName": "Elderflame",
           "codename": "Dragon",
           "filename": "GN_Dragon_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Dragon_Bundle_Featured.png",
@@ -37664,7 +37664,7 @@
         },
         {
           "name": "GN_Dynasty_Bundle_Featured",
-          "displayName": "Blades of Imperium",
+          "displayName": "Imperium",
           "codename": "Dynasty",
           "filename": "GN_Dynasty_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Dynasty_Bundle_Featured.png",
@@ -37688,7 +37688,7 @@
         },
         {
           "name": "GN_Edge2_Bundle_Featured",
-          "displayName": "Singularity Butterfly Knife",
+          "displayName": "Singularity",
           "codename": "Edge2",
           "filename": "GN_Edge2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Edge2_Bundle_Featured.png",
@@ -37696,7 +37696,7 @@
         },
         {
           "name": "GN_Edge2_Bundle_Purchase",
-          "displayName": "Singularity Butterfly Knife",
+          "displayName": "Singularity",
           "codename": "Edge2",
           "filename": "GN_Edge2_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Edge2_Bundle_Purchase.png",
@@ -37704,7 +37704,7 @@
         },
         {
           "name": "GN_Edge_Bundle_Featured",
-          "displayName": "Singularity Knife",
+          "displayName": "Singularity",
           "codename": "Edge",
           "filename": "GN_Edge_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Edge_Bundle_Featured.png",
@@ -37720,7 +37720,7 @@
         },
         {
           "name": "GN_Egypt_Bundle_Featured",
-          "displayName": "Blade of Serket",
+          "displayName": "Sarmad",
           "codename": "Egypt",
           "filename": "GN_Egypt_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Egypt_Bundle_Featured.png",
@@ -37736,7 +37736,7 @@
         },
         {
           "name": "GN_Engine_Bundle_Featured",
-          "displayName": "Chromedek Gauntlet",
+          "displayName": "Chromedek Bulldog",
           "codename": "Engine",
           "filename": "GN_Engine_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Engine_Bundle_Featured.png",
@@ -37752,7 +37752,7 @@
         },
         {
           "name": "GN_Fallen_Bundle_Featured",
-          "displayName": "Forsaken Ritual Blade",
+          "displayName": "Forsaken",
           "codename": "Fallen",
           "filename": "GN_Fallen_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Fallen_Bundle_Featured.png",
@@ -37840,7 +37840,7 @@
         },
         {
           "name": "GN_GiveBack_Bundle_Featured_3296x990",
-          "displayName": "Give Back",
+          "displayName": "GiveBack Bundle Featured 3296x990",
           "codename": "GiveBack",
           "filename": "GN_GiveBack_Bundle_Featured_3296x990.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_GiveBack_Bundle_Featured_3296x990.png",
@@ -37848,7 +37848,7 @@
         },
         {
           "name": "GN_GiveBack_Bundle_Purchase_1920x1080",
-          "displayName": "Give Back",
+          "displayName": "GiveBack Bundle Purchase 1920x1080",
           "codename": "GiveBack",
           "filename": "GN_GiveBack_Bundle_Purchase_1920x1080.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_GiveBack_Bundle_Purchase_1920x1080.png",
@@ -37856,7 +37856,7 @@
         },
         {
           "name": "GN_Golem_Bundle_Purchase",
-          "displayName": "Dolmir'sment",
+          "displayName": "Dolmir's Revenge",
           "codename": "Golem",
           "filename": "GN_Golem_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Golem_Bundle_Purchase.png",
@@ -37896,7 +37896,7 @@
         },
         {
           "name": "GN_Gunslinger_Bundle_Featured",
-          "displayName": "Neo Frontier Axe",
+          "displayName": "Neo Frontier",
           "codename": "Gunslinger",
           "filename": "GN_Gunslinger_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Gunslinger_Bundle_Featured.png",
@@ -37904,7 +37904,7 @@
         },
         {
           "name": "GN_Haunted_Bundle_Featured",
-          "displayName": "Soulstrife Scythe",
+          "displayName": "Soulstrife",
           "codename": "Haunted",
           "filename": "GN_Haunted_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Haunted_Bundle_Featured.png",
@@ -37912,7 +37912,7 @@
         },
         {
           "name": "GN_Hazard_Bundle_Featured",
-          "displayName": "Bubblegum Deathwish Chainsaw",
+          "displayName": "Bubblegum Deathwish",
           "codename": "Hazard",
           "filename": "GN_Hazard_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Hazard_Bundle_Featured.png",
@@ -37920,7 +37920,7 @@
         },
         {
           "name": "GN_Hazard_Bundle_Purchase",
-          "displayName": "Bubblegum Deathwish Chainsaw",
+          "displayName": "Bubblegum Deathwish",
           "codename": "Hazard",
           "filename": "GN_Hazard_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Hazard_Bundle_Purchase.png",
@@ -37928,7 +37928,7 @@
         },
         {
           "name": "GN_Hellfire_Bundle_Featured",
-          "displayName": "Blades of Primordia",
+          "displayName": "Primordium",
           "codename": "Hellfire",
           "filename": "GN_Hellfire_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Hellfire_Bundle_Featured.png",
@@ -37936,7 +37936,7 @@
         },
         {
           "name": "GN_HOLOGRAM_Bundle_Featured",
-          "displayName": "EX.O Edge",
+          "displayName": "EX.O",
           "codename": "HOLOGRAM",
           "filename": "GN_HOLOGRAM_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_HOLOGRAM_Bundle_Featured.png",
@@ -37944,7 +37944,7 @@
         },
         {
           "name": "GN_HOLOGRAM_Bundle_Purchase",
-          "displayName": "EX.O Edge",
+          "displayName": "EX.O",
           "codename": "HOLOGRAM",
           "filename": "GN_HOLOGRAM_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_HOLOGRAM_Bundle_Purchase.png",
@@ -37984,7 +37984,7 @@
         },
         {
           "name": "GN_Hypebeast2_Bundle_Featured",
-          "displayName": "Prime//2.0 Karambit",
+          "displayName": "Prime//2.0",
           "codename": "Hypebeast2",
           "filename": "GN_Hypebeast2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Hypebeast2_Bundle_Featured.png",
@@ -37992,7 +37992,7 @@
         },
         {
           "name": "GN_Hypebeast_Bundle_Featured",
-          "displayName": "Prime Axe",
+          "displayName": "Prime",
           "codename": "Hypebeast",
           "filename": "GN_Hypebeast_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Hypebeast_Bundle_Featured.png",
@@ -38000,7 +38000,7 @@
         },
         {
           "name": "GN_Hypedragon_Bundle_Featured",
-          "displayName": "XERØFANG Knife",
+          "displayName": "XERØFANG ",
           "codename": "Hypedragon",
           "filename": "GN_Hypedragon_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Hypedragon_Bundle_Featured.png",
@@ -38016,7 +38016,7 @@
         },
         {
           "name": "GN_Infantry2_Bundle_Featured",
-          "displayName": "Black.Market Butterfly Knife",
+          "displayName": "Black.Market",
           "codename": "Infantry2",
           "filename": "GN_Infantry2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Infantry2_Bundle_Featured.png",
@@ -38032,7 +38032,7 @@
         },
         {
           "name": "GN_Iridescence_Bundle_Featured",
-          "displayName": "Prism Knife",
+          "displayName": "Prism",
           "codename": "Iridescence",
           "filename": "GN_Iridescence_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Iridescence_Bundle_Featured.png",
@@ -38064,7 +38064,7 @@
         },
         {
           "name": "GN_King_Bundle_Featured",
-          "displayName": "Broken Blade of the Ruined King",
+          "displayName": "Ruination",
           "codename": "King",
           "filename": "GN_King_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_King_Bundle_Featured.png",
@@ -38072,7 +38072,7 @@
         },
         {
           "name": "GN_Legion_Bundle_Featured",
-          "displayName": "Blade of Aemondir",
+          "displayName": "Aemondir",
           "codename": "Legion",
           "filename": "GN_Legion_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Legion_Bundle_Featured.png",
@@ -38080,7 +38080,7 @@
         },
         {
           "name": "GN_Lightning_Bundle_Featured",
-          "displayName": "Smite Knife",
+          "displayName": "Smite",
           "codename": "Lightning",
           "filename": "GN_Lightning_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Lightning_Bundle_Featured.png",
@@ -38088,7 +38088,7 @@
         },
         {
           "name": "GN_LNY26_Bundle_Featured",
-          "displayName": "Solarstride Flamethrower",
+          "displayName": "Solarstride",
           "codename": "LNY26",
           "filename": "GN_LNY26_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_LNY26_Bundle_Featured.png",
@@ -38096,7 +38096,7 @@
         },
         {
           "name": "GN_LNY26_Bundle_Purchase",
-          "displayName": "Solarstride Flamethrower",
+          "displayName": "Solarstride",
           "codename": "LNY26",
           "filename": "GN_LNY26_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_LNY26_Bundle_Purchase.png",
@@ -38120,7 +38120,7 @@
         },
         {
           "name": "GN_Lofi_Bundle_Featured",
-          "displayName": "Daydreams Crowbar",
+          "displayName": "Daydreams",
           "codename": "Lofi",
           "filename": "GN_Lofi_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Lofi_Bundle_Featured.png",
@@ -38128,7 +38128,7 @@
         },
         {
           "name": "GN_LosMuertos_Bundle_Featured",
-          "displayName": "Catrina",
+          "displayName": "Nunca Olvidados",
           "codename": "LosMuertos",
           "filename": "GN_LosMuertos_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_LosMuertos_Bundle_Featured.png",
@@ -38136,7 +38136,7 @@
         },
         {
           "name": "GN_Lunar_Bundle_Featured",
-          "displayName": "Celestial Fan",
+          "displayName": "Celestial",
           "codename": "Lunar",
           "filename": "GN_Lunar_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Lunar_Bundle_Featured.png",
@@ -38144,7 +38144,7 @@
         },
         {
           "name": "GN_Luxury_Bundle_Featured",
-          "displayName": "Luxe Knife",
+          "displayName": "Luxe",
           "codename": "Luxury",
           "filename": "GN_Luxury_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Luxury_Bundle_Featured.png",
@@ -38152,7 +38152,7 @@
         },
         {
           "name": "GN_Luxury_Bundle_FeaturedV2",
-          "displayName": "Luxe Knife",
+          "displayName": "Luxe",
           "codename": "Luxury",
           "filename": "GN_Luxury_Bundle_FeaturedV2.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Luxury_Bundle_FeaturedV2.png",
@@ -38160,7 +38160,7 @@
         },
         {
           "name": "GN_Macaron_Bundle_Featured",
-          "displayName": "Arcane Gauntlets",
+          "displayName": "Arcane",
           "codename": "Macaron",
           "filename": "GN_Macaron_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Macaron_Bundle_Featured.png",
@@ -38168,7 +38168,7 @@
         },
         {
           "name": "GN_Macaron_Bundle_Purchase",
-          "displayName": "Arcane Gauntlets",
+          "displayName": "Arcane",
           "codename": "Macaron",
           "filename": "GN_Macaron_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Macaron_Bundle_Purchase.png",
@@ -38176,7 +38176,7 @@
         },
         {
           "name": "GN_Magepunk2_Bundle_Featured",
-          "displayName": "Magepunk Shock Gauntlet",
+          "displayName": "Magepunk",
           "codename": "Magepunk2",
           "filename": "GN_Magepunk2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Magepunk2_Bundle_Featured.png",
@@ -38184,7 +38184,7 @@
         },
         {
           "name": "GN_Magepunk3_Bundle_Featured",
-          "displayName": "Magepunk Sparkswitch",
+          "displayName": "Magepunk",
           "codename": "Magepunk3",
           "filename": "GN_Magepunk3_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Magepunk3_Bundle_Featured.png",
@@ -38192,7 +38192,7 @@
         },
         {
           "name": "GN_Magepunk_Bundle",
-          "displayName": "Magepunk Electroblade",
+          "displayName": "Magepunk",
           "codename": "Magepunk",
           "filename": "GN_Magepunk_Bundle.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Magepunk_Bundle.png",
@@ -38200,7 +38200,7 @@
         },
         {
           "name": "GN_MagicSpline_Bundle_Featured",
-          "displayName": "Spline Dagger",
+          "displayName": "Spline",
           "codename": "MagicSpline",
           "filename": "GN_MagicSpline_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_MagicSpline_Bundle_Featured.png",
@@ -38208,7 +38208,7 @@
         },
         {
           "name": "GN_Minima2_Bundle_Featured",
-          "displayName": "Minima Karambit",
+          "displayName": "Minima",
           "codename": "Minima2",
           "filename": "GN_Minima2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Minima2_Bundle_Featured.png",
@@ -38232,7 +38232,7 @@
         },
         {
           "name": "GN_Modelmaker_Bundle_Featured",
-          "displayName": "Combat Crafts Axe",
+          "displayName": "Combat Crafts Bulldog",
           "codename": "Modelmaker",
           "filename": "GN_Modelmaker_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Modelmaker_Bundle_Featured.png",
@@ -38240,7 +38240,7 @@
         },
         {
           "name": "GN_Modelmaker_Bundle_Purchase",
-          "displayName": "Combat Crafts Axe",
+          "displayName": "Combat Crafts Bulldog",
           "codename": "Modelmaker",
           "filename": "GN_Modelmaker_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Modelmaker_Bundle_Purchase.png",
@@ -38248,7 +38248,7 @@
         },
         {
           "name": "GN_MonkeyKing_Bundle_Featured",
-          "displayName": "Ruyi Staff",
+          "displayName": "Valiant Hero",
           "codename": "MonkeyKing",
           "filename": "GN_MonkeyKing_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_MonkeyKing_Bundle_Featured.png",
@@ -38272,7 +38272,7 @@
         },
         {
           "name": "GN_Motorbike_Bundle_Featured",
-          "displayName": "Overdrive Blade",
+          "displayName": "Overdrive",
           "codename": "Motorbike",
           "filename": "GN_Motorbike_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Motorbike_Bundle_Featured.png",
@@ -38288,7 +38288,7 @@
         },
         {
           "name": "GN_Mythic_Bundle_Featured",
-          "displayName": "Crimsonbeast Hammer",
+          "displayName": "Crimsonbeast",
           "codename": "Mythic",
           "filename": "GN_Mythic_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Mythic_Bundle_Featured.png",
@@ -38296,7 +38296,7 @@
         },
         {
           "name": "GN_Ninja2_Bundle_Featured",
-          "displayName": "Kuronami Naru-Kami",
+          "displayName": "Kuronami",
           "codename": "Ninja2",
           "filename": "GN_Ninja2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Ninja2_Bundle_Featured.png",
@@ -38304,7 +38304,7 @@
         },
         {
           "name": "GN_Ninja2_Bundle_Purchase",
-          "displayName": "Kuronami Naru-Kami",
+          "displayName": "Kuronami",
           "codename": "Ninja2",
           "filename": "GN_Ninja2_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Ninja2_Bundle_Purchase.png",
@@ -38312,7 +38312,7 @@
         },
         {
           "name": "GN_Ninja_Bundle_Featured",
-          "displayName": "Kuronami no Yaiba",
+          "displayName": "Kuronami",
           "codename": "Ninja",
           "filename": "GN_Ninja_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Ninja_Bundle_Featured.png",
@@ -38328,7 +38328,7 @@
         },
         {
           "name": "GN_Oni2_Bundle_Featured",
-          "displayName": "Onimaru Kunitsuna",
+          "displayName": "Oni",
           "codename": "Oni2",
           "filename": "GN_Oni2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Oni2_Bundle_Featured.png",
@@ -38336,7 +38336,7 @@
         },
         {
           "name": "GN_Oni_Bundle_Featured",
-          "displayName": "Oni Claw",
+          "displayName": "Oni",
           "codename": "Oni",
           "filename": "GN_Oni_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Oni_Bundle_Featured.png",
@@ -38344,7 +38344,7 @@
         },
         {
           "name": "GN_OrangeHighlight_Bundle_Featured",
-          "displayName": "Switchback Ascender",
+          "displayName": "Switchback",
           "codename": "OrangeHighlight",
           "filename": "GN_OrangeHighlight_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_OrangeHighlight_Bundle_Featured.png",
@@ -38352,7 +38352,7 @@
         },
         {
           "name": "GN_OrangeHighlight_Bundle_Purchase",
-          "displayName": "Switchback Ascender",
+          "displayName": "Switchback",
           "codename": "OrangeHighlight",
           "filename": "GN_OrangeHighlight_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_OrangeHighlight_Bundle_Purchase.png",
@@ -38360,7 +38360,7 @@
         },
         {
           "name": "GN_Origami_Bundle_Converged_Feature",
-          "displayName": "SilkLeaf Fan",
+          "displayName": "SilkLeaf",
           "codename": "Origami",
           "filename": "GN_Origami_Bundle_Converged_Feature.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Origami_Bundle_Converged_Feature.png",
@@ -38368,7 +38368,7 @@
         },
         {
           "name": "GN_Origami_Bundle_Feature",
-          "displayName": "SilkLeaf Fan",
+          "displayName": "SilkLeaf",
           "codename": "Origami",
           "filename": "GN_Origami_Bundle_Feature.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Origami_Bundle_Feature.png",
@@ -38376,7 +38376,7 @@
         },
         {
           "name": "GN_Origami_Bundle_Purchase",
-          "displayName": "SilkLeaf Fan",
+          "displayName": "SilkLeaf",
           "codename": "Origami",
           "filename": "GN_Origami_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Origami_Bundle_Purchase.png",
@@ -38384,7 +38384,7 @@
         },
         {
           "name": "GN_Permafrost_Bundle_Featured",
-          "displayName": "Cryostasis Impact Drill",
+          "displayName": "Cryostasis",
           "codename": "Permafrost",
           "filename": "GN_Permafrost_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Permafrost_Bundle_Featured.png",
@@ -38408,7 +38408,7 @@
         },
         {
           "name": "GN_Poptoy_Bundle_Convergence_Featured",
-          "displayName": "Hatchbudz: Quacked Series",
+          "displayName": "Poptoy Bundle Convergence Featured",
           "codename": "Poptoy",
           "filename": "GN_Poptoy_Bundle_Convergence_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Poptoy_Bundle_Convergence_Featured.png",
@@ -38416,7 +38416,7 @@
         },
         {
           "name": "GN_Poptoy_Bundle_Featured",
-          "displayName": "Hatchbudz: Quacked Series",
+          "displayName": "Poptoy",
           "codename": "Poptoy",
           "filename": "GN_Poptoy_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Poptoy_Bundle_Featured.png",
@@ -38424,7 +38424,7 @@
         },
         {
           "name": "GN_Poptoy_Bundle_Purchase",
-          "displayName": "Hatchbudz: Quacked Series",
+          "displayName": "Poptoy",
           "codename": "Poptoy",
           "filename": "GN_Poptoy_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Poptoy_Bundle_Purchase.png",
@@ -38440,7 +38440,7 @@
         },
         {
           "name": "GN_Protocol_Bundle_Featured",
-          "displayName": "Personal Administrative Unit",
+          "displayName": "Protocol 781-A Bulldog",
           "codename": "Protocol",
           "filename": "GN_Protocol_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Protocol_Bundle_Featured.png",
@@ -38448,7 +38448,7 @@
         },
         {
           "name": "GN_Rabbit_Bundle_Featured",
-          "displayName": "Luna's Descent",
+          "displayName": "Luna",
           "codename": "Rabbit",
           "filename": "GN_Rabbit_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Rabbit_Bundle_Featured.png",
@@ -38464,7 +38464,7 @@
         },
         {
           "name": "GN_Raygun_Bundle_Featured",
-          "displayName": "Gravitational Uranium Neuroblaster Baton",
+          "displayName": "Gravitational Uranium Neuroblaster",
           "codename": "Raygun",
           "filename": "GN_Raygun_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Raygun_Bundle_Featured.png",
@@ -38496,7 +38496,7 @@
         },
         {
           "name": "GN_RoboMecha_Bundle_Featured",
-          "displayName": "Orion Sword",
+          "displayName": "Orion",
           "codename": "RoboMecha",
           "filename": "GN_RoboMecha_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_RoboMecha_Bundle_Featured.png",
@@ -38504,7 +38504,7 @@
         },
         {
           "name": "GN_Rogue_Bundle_Convergence_3296x990",
-          "displayName": "Rogue Push Daggers",
+          "displayName": "Rogue",
           "codename": "Rogue",
           "filename": "GN_Rogue_Bundle_Convergence_3296x990.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Rogue_Bundle_Convergence_3296x990.png",
@@ -38512,7 +38512,7 @@
         },
         {
           "name": "GN_Rogue_Bundle_Purchase_1920x1080__1_",
-          "displayName": "Rogue Push Daggers",
+          "displayName": "Rogue",
           "codename": "Rogue",
           "filename": "GN_Rogue_Bundle_Purchase_1920x1080__1_.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Rogue_Bundle_Purchase_1920x1080__1_.png",
@@ -38592,7 +38592,7 @@
         },
         {
           "name": "GN_ScubaRobot_Bundle_Featured_3296x990",
-          "displayName": "Hi-DR0 Baton",
+          "displayName": "Hi-DR0",
           "codename": "ScubaRobot",
           "filename": "GN_ScubaRobot_Bundle_Featured_3296x990.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_ScubaRobot_Bundle_Featured_3296x990.png",
@@ -38600,7 +38600,7 @@
         },
         {
           "name": "GN_ScubaRobot_Bundle_Purchase",
-          "displayName": "Hi-DR0 Baton",
+          "displayName": "Hi-DR0",
           "codename": "ScubaRobot",
           "filename": "GN_ScubaRobot_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_ScubaRobot_Bundle_Purchase.png",
@@ -38608,7 +38608,7 @@
         },
         {
           "name": "GN_Snowglobe_Bundle_Featured",
-          "displayName": "Snowfall Wand",
+          "displayName": "Snowfall",
           "codename": "Snowglobe",
           "filename": "GN_Snowglobe_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Snowglobe_Bundle_Featured.png",
@@ -38616,7 +38616,7 @@
         },
         {
           "name": "GN_SOL2_Bundle_Featured",
-          "displayName": "Relic Stone Daggers",
+          "displayName": "Sentinels of Light",
           "codename": "SOL2",
           "filename": "GN_SOL2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_SOL2_Bundle_Featured.png",
@@ -38624,7 +38624,7 @@
         },
         {
           "name": "GN_Sol_Bundle_Featured",
-          "displayName": "Relic of the Sentinel",
+          "displayName": "Sentinels of Light",
           "codename": "Sol",
           "filename": "GN_Sol_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Sol_Bundle_Featured.png",
@@ -38632,7 +38632,7 @@
         },
         {
           "name": "GN_Soulstealer2_Bundle_Featured",
-          "displayName": "Reaver Karambit",
+          "displayName": "Reaver Vol. 2",
           "codename": "Soulstealer2",
           "filename": "GN_Soulstealer2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Soulstealer2_Bundle_Featured.png",
@@ -38656,7 +38656,7 @@
         },
         {
           "name": "GN_Soulstealer3_Bundle_Featured",
-          "displayName": "Reaver Butterfly Knife",
+          "displayName": "Reaver Bandit",
           "codename": "Soulstealer3",
           "filename": "GN_Soulstealer3_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Soulstealer3_Bundle_Featured.png",
@@ -38664,7 +38664,7 @@
         },
         {
           "name": "GN_Soulstealer3_Bundle_FeaturedConverged",
-          "displayName": "Reaver Butterfly Knife",
+          "displayName": "Reaver Bandit",
           "codename": "Soulstealer3",
           "filename": "GN_Soulstealer3_Bundle_FeaturedConverged.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Soulstealer3_Bundle_FeaturedConverged.png",
@@ -38672,7 +38672,7 @@
         },
         {
           "name": "GN_Soulstealer3_Bundle_Purchase",
-          "displayName": "Reaver Butterfly Knife",
+          "displayName": "Reaver Bandit",
           "codename": "Soulstealer3",
           "filename": "GN_Soulstealer3_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Soulstealer3_Bundle_Purchase.png",
@@ -38680,7 +38680,7 @@
         },
         {
           "name": "GN_SoulStealer_Bundle_Featured",
-          "displayName": "Reaver Knife",
+          "displayName": "Reaver",
           "codename": "SoulStealer",
           "filename": "GN_SoulStealer_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_SoulStealer_Bundle_Featured.png",
@@ -38688,7 +38688,7 @@
         },
         {
           "name": "GN_Sovereign2_Bundle_Featured",
-          "displayName": "Eternal Sovereign",
+          "displayName": "Sovereign",
           "codename": "Sovereign2",
           "filename": "GN_Sovereign2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Sovereign2_Bundle_Featured.png",
@@ -38696,7 +38696,7 @@
         },
         {
           "name": "GN_Sovereign2_Bundle_Purchase",
-          "displayName": "Eternal Sovereign",
+          "displayName": "Sovereign",
           "codename": "Sovereign2",
           "filename": "GN_Sovereign2_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Sovereign2_Bundle_Purchase.png",
@@ -38704,7 +38704,7 @@
         },
         {
           "name": "GN_Sovereign_Bundle_Featured",
-          "displayName": "Sovereign Sword",
+          "displayName": "Sovereign",
           "codename": "Sovereign",
           "filename": "GN_Sovereign_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Sovereign_Bundle_Featured.png",
@@ -38712,7 +38712,7 @@
         },
         {
           "name": "GN_SovWorld_Bundle_Featured",
-          "displayName": "Prosperity",
+          "displayName": "Tethered Realms",
           "codename": "SovWorld",
           "filename": "GN_SovWorld_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_SovWorld_Bundle_Featured.png",
@@ -38720,7 +38720,7 @@
         },
         {
           "name": "GN_SpecOps_Bundle_Featured",
-          "displayName": "Recon Balisong",
+          "displayName": "Recon",
           "codename": "SpecOps",
           "filename": "GN_SpecOps_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_SpecOps_Bundle_Featured.png",
@@ -38728,7 +38728,7 @@
         },
         {
           "name": "GN_Spikes_Bundle_Featured",
-          "displayName": "Titanmail Mace",
+          "displayName": "Titanmail",
           "codename": "Spikes",
           "filename": "GN_Spikes_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Spikes_Bundle_Featured.png",
@@ -38736,7 +38736,7 @@
         },
         {
           "name": "GN_SPIRIT2_Bundle_Featured",
-          "displayName": "Mystbloom Fanblade",
+          "displayName": "Mystbloom",
           "codename": "SPIRIT2",
           "filename": "GN_SPIRIT2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_SPIRIT2_Bundle_Featured.png",
@@ -38744,7 +38744,7 @@
         },
         {
           "name": "GN_SPIRIT2_Bundle_Purchase",
-          "displayName": "Mystbloom Fanblade",
+          "displayName": "Mystbloom",
           "codename": "SPIRIT2",
           "filename": "GN_SPIRIT2_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_SPIRIT2_Bundle_Purchase.png",
@@ -38752,7 +38752,7 @@
         },
         {
           "name": "GN_Spirit_Bundle_Featured",
-          "displayName": "Mystbloom Kunai",
+          "displayName": "Mystbloom",
           "codename": "Spirit",
           "filename": "GN_Spirit_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Spirit_Bundle_Featured.png",
@@ -38760,7 +38760,7 @@
         },
         {
           "name": "GN_Spirit_Bundle_Purchase",
-          "displayName": "Mystbloom Kunai",
+          "displayName": "Mystbloom",
           "codename": "Spirit",
           "filename": "GN_Spirit_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Spirit_Bundle_Purchase.png",
@@ -38768,7 +38768,7 @@
         },
         {
           "name": "GN_StainedGlass_Bundle_Featured",
-          "displayName": "Reverie Sword",
+          "displayName": "Reverie",
           "codename": "StainedGlass",
           "filename": "GN_StainedGlass_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_StainedGlass_Bundle_Featured.png",
@@ -38776,7 +38776,7 @@
         },
         {
           "name": "GN_StarPower_Bundle_Featured",
-          "displayName": "Evori's Spellcaster",
+          "displayName": "Evori Dreamwings",
           "codename": "StarPower",
           "filename": "GN_StarPower_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_StarPower_Bundle_Featured.png",
@@ -38784,7 +38784,7 @@
         },
         {
           "name": "GN_StarPower_Bundle_Purchase",
-          "displayName": "Evori's Spellcaster",
+          "displayName": "Evori Dreamwings",
           "codename": "StarPower",
           "filename": "GN_StarPower_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_StarPower_Bundle_Purchase.png",
@@ -38848,7 +38848,7 @@
         },
         {
           "name": "GN_Tarot_Bundle_Featured",
-          "displayName": "Fortune's Scepter ",
+          "displayName": "Fortune's Hand",
           "codename": "Tarot",
           "filename": "GN_Tarot_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Tarot_Bundle_Featured.png",
@@ -38856,7 +38856,7 @@
         },
         {
           "name": "GN_Tiger_Bundle_Featured",
-          "displayName": "Hu Else",
+          "displayName": "Tigris",
           "codename": "Tiger",
           "filename": "GN_Tiger_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Tiger_Bundle_Featured.png",
@@ -38864,7 +38864,7 @@
         },
         {
           "name": "GN_Tokyo_Bundle_Featured",
-          "displayName": "NO LIMITS Bat",
+          "displayName": "NO LIMITS",
           "codename": "Tokyo",
           "filename": "GN_Tokyo_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Tokyo_Bundle_Featured.png",
@@ -38888,7 +38888,7 @@
         },
         {
           "name": "GN_Unicorn_Bundle_Featured",
-          "displayName": "Wonderstallion Hammer",
+          "displayName": "Wonderstallion",
           "codename": "Unicorn",
           "filename": "GN_Unicorn_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Unicorn_Bundle_Featured.png",
@@ -38896,7 +38896,7 @@
         },
         {
           "name": "GN_Unicorn_Bundle_Purchase",
-          "displayName": "Wonderstallion Hammer",
+          "displayName": "Wonderstallion",
           "codename": "Unicorn",
           "filename": "GN_Unicorn_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Unicorn_Bundle_Purchase.png",
@@ -38904,7 +38904,7 @@
         },
         {
           "name": "GN_Unstoppable_Bundle_Featured",
-          "displayName": "Ego Knife",
+          "displayName": "Ego",
           "codename": "Unstoppable",
           "filename": "GN_Unstoppable_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Unstoppable_Bundle_Featured.png",
@@ -38920,7 +38920,7 @@
         },
         {
           "name": "GN_Val5Beta_Bundle_Featured",
-          "displayName": "5 Years // Beta Remastered",
+          "displayName": "Val5Beta",
           "codename": "Val5Beta",
           "filename": "GN_Val5Beta_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Val5Beta_Bundle_Featured.png",
@@ -38928,7 +38928,7 @@
         },
         {
           "name": "GN_Val5Beta_Bundle_Purchase",
-          "displayName": "5 Years // Beta Remastered",
+          "displayName": "Val5Beta",
           "codename": "Val5Beta",
           "filename": "GN_Val5Beta_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Val5Beta_Bundle_Purchase.png",
@@ -39176,7 +39176,7 @@
         },
         {
           "name": "GN_Voyager_Bundle_Featured",
-          "displayName": "Kaimana",
+          "displayName": "Holomoku",
           "codename": "Voyager",
           "filename": "GN_Voyager_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Voyager_Bundle_Featured.png",
@@ -39184,7 +39184,7 @@
         },
         {
           "name": "GN_Voyager_Bundle_Purchase",
-          "displayName": "Kaimana",
+          "displayName": "Holomoku",
           "codename": "Voyager",
           "filename": "GN_Voyager_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Voyager_Bundle_Purchase.png",
@@ -39192,7 +39192,7 @@
         },
         {
           "name": "GN_Wasteland2_Bundle_Featured",
-          "displayName": "Wasteland Crowbar",
+          "displayName": "Wasteland Bulldog",
           "codename": "Wasteland2",
           "filename": "GN_Wasteland2_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Wasteland2_Bundle_Featured.png",
@@ -39200,7 +39200,7 @@
         },
         {
           "name": "GN_Wasteland2_Bundle_Purchase",
-          "displayName": "Wasteland Crowbar",
+          "displayName": "Wasteland Bulldog",
           "codename": "Wasteland2",
           "filename": "GN_Wasteland2_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Wasteland2_Bundle_Purchase.png",
@@ -39216,7 +39216,7 @@
         },
         {
           "name": "GN_WaterBlaster_Bundle_Featured",
-          "displayName": "SplashX Gloves",
+          "displayName": "SplashX",
           "codename": "WaterBlaster",
           "filename": "GN_WaterBlaster_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_WaterBlaster_Bundle_Featured.png",
@@ -39224,7 +39224,7 @@
         },
         {
           "name": "GN_WaterBlaster_Bundle_Purchase",
-          "displayName": "SplashX Gloves",
+          "displayName": "SplashX",
           "codename": "WaterBlaster",
           "filename": "GN_WaterBlaster_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_WaterBlaster_Bundle_Purchase.png",
@@ -39240,7 +39240,7 @@
         },
         {
           "name": "GN_Winter_Bundle_Featured",
-          "displayName": "Winterwunderland Candy Cane",
+          "displayName": "Winterwunderland",
           "codename": "Winter",
           "filename": "GN_Winter_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Winter_Bundle_Featured.png",
@@ -39248,7 +39248,7 @@
         },
         {
           "name": "GN_Winter_Bundle_Historical",
-          "displayName": "Winterwunderland Candy Cane",
+          "displayName": "Winterwunderland",
           "codename": "Winter",
           "filename": "GN_Winter_Bundle_Historical.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Winter_Bundle_Historical.png",
@@ -39264,7 +39264,7 @@
         },
         {
           "name": "GN_Yokai_Bundle_Featured",
-          "displayName": "Kogitsune",
+          "displayName": "Ayakashi",
           "codename": "Yokai",
           "filename": "GN_Yokai_Bundle_Featured.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Yokai_Bundle_Featured.png",
@@ -39272,7 +39272,7 @@
         },
         {
           "name": "GN_Yokai_Bundle_Purchase",
-          "displayName": "Kogitsune",
+          "displayName": "Ayakashi",
           "codename": "Yokai",
           "filename": "GN_Yokai_Bundle_Purchase.png",
           "relPath": "Valorantek/Backgrounds/Bundle/GN_Yokai_Bundle_Purchase.png",

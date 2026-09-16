@@ -341,14 +341,14 @@ export default function GameAssetsSection({ registry }) {
                     {w.images.map((img, idx) => (
                       <div key={idx} className="bg-[#131722] p-4 rounded-2xl border border-white/5 space-y-3 group hover:border-[#FF4655]/30 transition-all flex flex-col justify-between">
                         <div
-                          onClick={() => setPreviewImage({ src: img.relPath, title: `${w.name} - ${img.name}` })}
+                          onClick={() => setPreviewImage({ src: img.relPath, title: `${w.name} - ${img.displayName || img.name}` })}
                           className="h-32 bg-[#0B0E14] rounded-xl p-3 flex items-center justify-center cursor-pointer relative"
                           title="Click for full-screen preview"
                         >
                           <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
                         </div>
                         <div className="flex items-center justify-between text-xs pt-1">
-                          <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
+                          <span className="font-medium text-slate-300 truncate" title={img.displayName || img.name}>{img.displayName || img.name}</span>
                           <div className="flex items-center gap-1 shrink-0">
                             <button
                               onClick={(e) => handleCopyImage(img.relPath, e)}
@@ -539,7 +539,7 @@ export default function GameAssetsSection({ registry }) {
                     {bgList.map((img, idx) => (
                       <div key={idx} className="bg-[#131722] p-4 rounded-2xl border border-white/5 space-y-3 group hover:border-[#FF4655]/30 transition-all">
                         <div
-                          onClick={() => setPreviewImage({ src: img.relPath, title: img.name })}
+                          onClick={() => setPreviewImage({ src: img.relPath, title: img.displayName || img.name })}
                           className="h-44 bg-[#0B0E14] rounded-xl overflow-hidden cursor-pointer relative"
                           title="Click for full-screen preview"
                         >
