@@ -545,38 +545,55 @@ export default function GameAssetsSection({ registry }) {
                         >
                           <img src={toAssetUrl(img.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
                         </div>
-                        <div className="flex items-center justify-between text-xs">
-                          <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
-                          <div className="flex items-center gap-1.5 shrink-0">
-                            <button
-                              onClick={(e) => handleCopyImage(img.relPath, e)}
-                              className={`p-1.5 rounded transition-colors ${
-                                copiedPath === img.relPath && copiedType === 'image'
-                                  ? 'bg-purple-600 text-white'
-                                  : 'bg-purple-600/20 hover:bg-purple-600 text-purple-300 hover:text-white border border-purple-500/30'
-                              }`}
-                              title="Copier l'image dans le presse-papier"
-                            >
-                              {copiedPath === img.relPath && copiedType === 'image' ? <Check className="w-3.5 h-3.5" /> : <FileImage className="w-3.5 h-3.5" />}
-                            </button>
-                            <button
-                              onClick={(e) => handleCopyLink(img.relPath, e)}
-                              className={`p-1.5 rounded transition-colors ${
-                                copiedPath === img.relPath && copiedType === 'link'
-                                  ? 'text-[#00F0FF] bg-[#00F0FF]/10'
-                                  : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
-                              }`}
-                              title="Copier le lien"
-                            >
-                              {copiedPath === img.relPath && copiedType === 'link' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                            </button>
-                            <button
-                              onClick={(e) => handleDownload(img.relPath, img.filename, e)}
-                              className="px-3 py-1 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors flex items-center gap-1.5 shrink-0 whitespace-nowrap"
-                            >
-                              <Download className="w-3.5 h-3.5 shrink-0" />
-                              <span className="whitespace-nowrap">Download</span>
-                            </button>
+                        <div className="space-y-2">
+                          <div className="flex items-center justify-between gap-2">
+                            <span className="font-bold text-white truncate text-sm" title={img.displayName || img.name}>
+                              {img.displayName || img.name}
+                            </span>
+                          </div>
+                          
+                          <div className="flex items-center justify-between gap-2 text-xs">
+                            {img.codename ? (
+                              <span className="text-[10px] font-mono text-[#00F0FF] bg-[#00F0FF]/10 px-1.5 py-0.5 rounded border border-[#00F0FF]/20 truncate" title={`Internal Codename: ${img.codename}`}>
+                                {img.codename}
+                              </span>
+                            ) : (
+                              <span className="text-[10px] font-mono text-slate-500 truncate" title={img.filename}>
+                                {img.name}
+                              </span>
+                            )}
+
+                            <div className="flex items-center gap-1.5 shrink-0">
+                              <button
+                                onClick={(e) => handleCopyImage(img.relPath, e)}
+                                className={`p-1.5 rounded transition-colors ${
+                                  copiedPath === img.relPath && copiedType === 'image'
+                                    ? 'bg-purple-600 text-white'
+                                    : 'bg-purple-600/20 hover:bg-purple-600 text-purple-300 hover:text-white border border-purple-500/30'
+                                }`}
+                                title="Copy image to clipboard"
+                              >
+                                {copiedPath === img.relPath && copiedType === 'image' ? <Check className="w-3.5 h-3.5" /> : <FileImage className="w-3.5 h-3.5" />}
+                              </button>
+                              <button
+                                onClick={(e) => handleCopyLink(img.relPath, e)}
+                                className={`p-1.5 rounded transition-colors ${
+                                  copiedPath === img.relPath && copiedType === 'link'
+                                    ? 'text-[#00F0FF] bg-[#00F0FF]/10'
+                                    : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
+                                }`}
+                                title="Copy asset URL"
+                              >
+                                {copiedPath === img.relPath && copiedType === 'link' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                              </button>
+                              <button
+                                onClick={(e) => handleDownload(img.relPath, img.filename, e)}
+                                className="px-2.5 py-1 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors flex items-center gap-1 shrink-0 text-xs whitespace-nowrap"
+                              >
+                                <Download className="w-3 h-3 shrink-0" />
+                                <span className="whitespace-nowrap">Download</span>
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>

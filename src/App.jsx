@@ -6,8 +6,10 @@ import UISFXSection from './components/UISFXSection';
 import GameAssetsSection from './components/GameAssetsSection';
 import RecommendedSites from './components/RecommendedSites';
 import SearchOverlay from './components/SearchOverlay';
+import CodenamesModal from './components/CodenamesModal';
 import Footer from './components/Footer';
-import { Disc, Radio, Search, Sparkles, Loader2, Box } from 'lucide-react';
+import { Disc, Radio, Search, Sparkles, Loader2, Box, Code } from 'lucide-react';
+import { toAssetUrl } from './utils/urlHelper';
 
 export default function App() {
   const [registryData, setRegistryData] = useState(null);
@@ -15,6 +17,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('agents'); // 'agents', 'ui', 'gameassets', 'community'
   const [selectedAgent, setSelectedAgent] = useState(null);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isCodenamesOpen, setIsCodenamesOpen] = useState(false);
 
   const fetchRegistry = useCallback(() => {
     const baseUrl = import.meta.env.BASE_URL || './';
@@ -68,6 +71,13 @@ export default function App() {
         <div className="relative rounded-3xl bg-gradient-to-r from-[#161B22] via-[#0F141C] to-[#1C2230] p-6 sm:p-10 border border-white/10 overflow-hidden shadow-2xl space-y-4">
           <div className="absolute top-0 right-0 w-96 h-96 bg-[#FF4655]/10 rounded-full filter blur-3xl pointer-events-none -mr-20 -mt-20"></div>
           
+          {/* Blurred Spike Media Background Vector Logo */}
+          <img 
+            src={toAssetUrl('logo.svg')} 
+            alt="" 
+            className="absolute -right-8 -bottom-12 sm:-right-4 sm:-bottom-8 w-72 sm:w-96 h-72 sm:h-96 opacity-15 filter blur-[2px] pointer-events-none select-none transform rotate-12"
+          />
+
           <div className="relative z-10 max-w-3xl space-y-3">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF4655]/10 border border-[#FF4655]/20 text-[#FF4655] font-display text-xs font-semibold">
               <Sparkles className="w-3.5 h-3.5" />
@@ -117,6 +127,14 @@ export default function App() {
               >
                 <Box className="w-4 h-4 text-[#00F0FF]" />
                 Weapons & Assets
+              </button>
+
+              <button
+                onClick={() => setIsCodenamesOpen(true)}
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#FF4655]/10 hover:bg-[#FF4655]/20 text-[#FF4655] border border-[#FF4655]/20 flex items-center gap-2 transition-colors"
+              >
+                <Code className="w-3.5 h-3.5" />
+                Codenames Index
               </button>
 
               <button
@@ -182,6 +200,13 @@ export default function App() {
           onClose={() => setIsSearchOpen(false)}
           registry={registryData}
           onSelectAgent={setSelectedAgent}
+        />
+      )}
+
+      {/* Codenames Reference Modal */}
+      {isCodenamesOpen && (
+        <CodenamesModal
+          onClose={() => setIsCodenamesOpen(false)}
         />
       )}
 

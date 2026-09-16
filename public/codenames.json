@@ -1,0 +1,2854 @@
+{
+  "generatedAt": "2026-09-17",
+  "agents": [
+    {
+      "developerName": "Rift",
+      "displayName": "Astra",
+      "role": "Controller",
+      "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+      "description": "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move."
+    },
+    {
+      "developerName": "Breach",
+      "displayName": "Breach",
+      "role": "Initiator",
+      "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+      "description": "The bionic Swede Breach fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair."
+    },
+    {
+      "developerName": "Sarge",
+      "displayName": "Brimstone",
+      "role": "Controller",
+      "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+      "description": "Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander."
+    },
+    {
+      "developerName": "Deadeye",
+      "displayName": "Chamber",
+      "role": "Sentinel",
+      "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+      "description": "Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan."
+    },
+    {
+      "developerName": "Smonk",
+      "displayName": "Clove",
+      "role": "Controller",
+      "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+      "description": "Scottish troublemaker Clove makes mischief for enemies in both the heat of combat and the cold of death. The young immortal keeps foes guessing, even from beyond the grave, their return to the living only ever a moment away."
+    },
+    {
+      "developerName": "Gumshoe",
+      "displayName": "Cypher",
+      "role": "Sentinel",
+      "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+      "description": "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching."
+    },
+    {
+      "developerName": "Cable",
+      "displayName": "Deadlock",
+      "role": "Sentinel",
+      "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+      "description": "Norwegian operative Deadlock deploys an array of cutting-edge nanowire to secure the battlefield from even the most lethal assault. No one escapes her vigilant watch, nor survives her unyielding ferocity."
+    },
+    {
+      "developerName": "BountyHunter",
+      "displayName": "Fade",
+      "role": "Initiator",
+      "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+      "description": "Turkish bounty hunter Fade unleashes the power of raw nightmare to seize enemy secrets. Attuned with terror itself, she hunts down targets and reveals their deepest fears - before crushing them in the dark."
+    },
+    {
+      "developerName": "Aggrobot",
+      "displayName": "Gekko",
+      "role": "Initiator",
+      "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+      "description": "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again."
+    },
+    {
+      "developerName": "Mage",
+      "displayName": "Harbor",
+      "role": "Controller",
+      "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+      "description": "Hailing from India\u2019s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him."
+    },
+    {
+      "developerName": "Sequoia",
+      "displayName": "Iso",
+      "role": "Duelist",
+      "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+      "description": "Chinese fixer for hire Iso falls into a flow state to dismantle the opposition. Reconfiguring ambient energy into bulletproof protection, he advances with focus towards his next duel to the death."
+    },
+    {
+      "developerName": "Wushu",
+      "displayName": "Jett",
+      "role": "Duelist",
+      "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+      "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies up before they even know what hit them."
+    },
+    {
+      "developerName": "Grenadier",
+      "displayName": "KAY/O",
+      "role": "Initiator",
+      "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+      "description": "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to Suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge."
+    },
+    {
+      "developerName": "Killjoy",
+      "displayName": "Killjoy",
+      "role": "Sentinel",
+      "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+      "description": "The genius of Germany, Killjoy effortlessly secures key battlefield positions with her arsenal of inventions. If their damage doesn't take her enemies out, the debuff her robots provide will make short work of them."
+    },
+    {
+      "developerName": "Iris",
+      "displayName": "Miks",
+      "role": "Controller",
+      "displayIcon": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/displayicon.png",
+      "description": "Straight from Croatia, Miks takes the stage channeling pure sound energy. With his infectious passion and sonic powers, he rallies his squad to move as one as they set the tempo on the battlefield together."
+    },
+    {
+      "developerName": "Sprinter",
+      "displayName": "Neon",
+      "role": "Duelist",
+      "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+      "description": "Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard then strikes them down quicker than lightning."
+    },
+    {
+      "developerName": "Wraith",
+      "displayName": "Omen",
+      "role": "Controller",
+      "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+      "description": "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to uncover where he might strike next."
+    },
+    {
+      "developerName": "Phoenix",
+      "displayName": "Phoenix",
+      "role": "Duelist",
+      "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+      "description": "Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he's rushing in to fight on his own terms."
+    },
+    {
+      "developerName": "Clay",
+      "displayName": "Raze",
+      "role": "Duelist",
+      "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+      "description": "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of \"boom.\""
+    },
+    {
+      "developerName": "Vampire",
+      "displayName": "Reyna",
+      "role": "Duelist",
+      "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+      "description": "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her sharply dependent on performance. "
+    },
+    {
+      "developerName": "Thorne",
+      "displayName": "Sage",
+      "role": "Sentinel",
+      "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+      "description": "The bastion of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield."
+    },
+    {
+      "developerName": "Guide",
+      "displayName": "Skye",
+      "role": "Initiator",
+      "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+      "description": "Hailing from Australia, Skye and her band of beasts trailblaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye's side."
+    },
+    {
+      "developerName": "Hunter",
+      "displayName": "Sova",
+      "role": "Initiator",
+      "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+      "description": "Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide. "
+    },
+    {
+      "developerName": "Cashew",
+      "displayName": "Tejo",
+      "role": "Initiator",
+      "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+      "description": "A veteran intelligence consultant from Colombia, Tejo\u2019s ballistic guidance system pressures the enemy to relinquish their ground - or their lives. His targeted strikes keep opponents off balance and under his heel."
+    },
+    {
+      "developerName": "Pine",
+      "displayName": "Veto",
+      "role": "Sentinel",
+      "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+      "description": "Empowered by an unstoppable DNA mutation, Senegalese enforcer Veto defies the rules of engagement by nullifying his opponent's powers and technology. On Veto's battlefield, gunplay is your only guarantee."
+    },
+    {
+      "developerName": "Pandemic",
+      "displayName": "Viper",
+      "role": "Controller",
+      "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+      "description": "The American Chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy's vision. If the toxins don't kill her prey, her mindgames surely will."
+    },
+    {
+      "developerName": "Nox",
+      "displayName": "Vyse",
+      "role": "Sentinel",
+      "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+      "description": "Metallic mastermind Vyse unleashes liquid metal to isolate, trap, and disarm her enemies. Through cunning and manipulation, she forces all who oppose her to fear the battlefield itself."
+    },
+    {
+      "developerName": "Terra",
+      "displayName": "Waylay",
+      "role": "Duelist",
+      "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+      "description": "Thailand's prismatic radiant Waylay transforms into light itself as she darts across the battlefield, striking down her targets through shards of light before flitting back to safety, all in the blink of an eye."
+    },
+    {
+      "developerName": "Stealth",
+      "displayName": "Yoru",
+      "role": "Duelist",
+      "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+      "description": "Japanese native Yoru rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look."
+    }
+  ],
+  "weapons": [
+    {
+      "codename": "LMG",
+      "displayName": "Ares",
+      "category": "Heavy",
+      "displayIcon": "https://media.valorant-api.com/weapons/55d8a0f4-4274-ca67-fe2c-06ab45efdf58/displayicon.png"
+    },
+    {
+      "codename": "Compact",
+      "displayName": "Bandit",
+      "category": "Sidearm",
+      "displayIcon": "https://media.valorant-api.com/weapons/410b2e0b-4ceb-1321-1727-20858f7f3477/displayicon.png"
+    },
+    {
+      "codename": "PumpShotgun",
+      "displayName": "Bucky",
+      "category": "Shotgun",
+      "displayIcon": "https://media.valorant-api.com/weapons/910be174-449b-c412-ab22-d0873436b21b/displayicon.png"
+    },
+    {
+      "codename": "Burst",
+      "displayName": "Bulldog",
+      "category": "Rifle",
+      "displayIcon": "https://media.valorant-api.com/weapons/ae3de142-4d85-2547-dd26-4e90bed35cf7/displayicon.png"
+    },
+    {
+      "codename": "BasePistol",
+      "displayName": "Classic",
+      "category": "Sidearm",
+      "displayIcon": "https://media.valorant-api.com/weapons/29a0cfab-485b-f5d5-779a-b59f85e204a8/displayicon.png"
+    },
+    {
+      "codename": "AutoPistol",
+      "displayName": "Frenzy",
+      "category": "Sidearm",
+      "displayIcon": "https://media.valorant-api.com/weapons/44d4e95c-4157-0037-81b2-17841bf2e8e3/displayicon.png"
+    },
+    {
+      "codename": "Luger",
+      "displayName": "Ghost",
+      "category": "Sidearm",
+      "displayIcon": "https://media.valorant-api.com/weapons/1baa85b4-4c70-1284-64bb-6481dfc3bb4e/displayicon.png"
+    },
+    {
+      "codename": "DMR",
+      "displayName": "Guardian",
+      "category": "Rifle",
+      "displayIcon": "https://media.valorant-api.com/weapons/4ade7faa-4cf1-8376-95ef-39884480959b/displayicon.png"
+    },
+    {
+      "codename": "AutoShotgun",
+      "displayName": "Judge",
+      "category": "Shotgun",
+      "displayIcon": "https://media.valorant-api.com/weapons/ec845bf4-4f79-ddda-a3da-0db3774b2794/displayicon.png"
+    },
+    {
+      "codename": "Leversniper",
+      "displayName": "Marshal",
+      "category": "Sniper",
+      "displayIcon": "https://media.valorant-api.com/weapons/c4883e50-4494-202c-3ec3-6b8a9284f00b/displayicon.png"
+    },
+    {
+      "codename": "Melee",
+      "displayName": "Melee",
+      "category": "Melee",
+      "displayIcon": "https://media.valorant-api.com/weapons/2f59173c-4bed-b6c3-2191-dea9b58be9c7/displayicon.png"
+    },
+    {
+      "codename": "HMG",
+      "displayName": "Odin",
+      "category": "Heavy",
+      "displayIcon": "https://media.valorant-api.com/weapons/63e6c2b6-4a8e-869c-3d4c-e38355226584/displayicon.png"
+    },
+    {
+      "codename": "Boltsniper",
+      "displayName": "Operator",
+      "category": "Sniper",
+      "displayIcon": "https://media.valorant-api.com/weapons/a03b24d3-4319-996d-0f8c-94bbfba1dfc7/displayicon.png"
+    },
+    {
+      "codename": "Doublesniper",
+      "displayName": "Outlaw",
+      "category": "Sniper",
+      "displayIcon": "https://media.valorant-api.com/weapons/5f0aaf7a-4289-3998-d5ff-eb9a5cf7ef5c/displayicon.png"
+    },
+    {
+      "codename": "Carbine",
+      "displayName": "Phantom",
+      "category": "Rifle",
+      "displayIcon": "https://media.valorant-api.com/weapons/ee8e8d15-496b-07ac-e5f6-8fae5d4c7b1a/displayicon.png"
+    },
+    {
+      "codename": "Revolver",
+      "displayName": "Sheriff",
+      "category": "Sidearm",
+      "displayIcon": "https://media.valorant-api.com/weapons/e336c6b8-418d-9340-d77f-7a9e4cfe0702/displayicon.png"
+    },
+    {
+      "codename": "Slim",
+      "displayName": "Shorty",
+      "category": "Sidearm",
+      "displayIcon": "https://media.valorant-api.com/weapons/42da8ccc-40d5-affc-beec-15aa47b42eda/displayicon.png"
+    },
+    {
+      "codename": "MP5",
+      "displayName": "Spectre",
+      "category": "SMG",
+      "displayIcon": "https://media.valorant-api.com/weapons/462080d1-4035-2937-7c09-27aa2a5c27a7/displayicon.png"
+    },
+    {
+      "codename": "Vector",
+      "displayName": "Stinger",
+      "category": "SMG",
+      "displayIcon": "https://media.valorant-api.com/weapons/f7e1b454-4ad4-1063-ec0a-159e56b58941/displayicon.png"
+    },
+    {
+      "codename": "AK",
+      "displayName": "Vandal",
+      "category": "Rifle",
+      "displayIcon": "https://media.valorant-api.com/weapons/9c82e19d-4575-0200-1a81-3eacf00cf872/displayicon.png"
+    }
+  ],
+  "bundles": [
+    {
+      "codename": "Val5BetaThemeBundle",
+      "displayName": "5 Years // Beta Remastered",
+      "displayIcon": "https://media.valorant-api.com/bundles/89443dca-429b-a9b0-afa1-5fa10b2446e5/displayicon.png"
+    },
+    {
+      "codename": "DeepSeaThemeBundle",
+      "displayName": "Abyssal",
+      "displayIcon": "https://media.valorant-api.com/bundles/afa6651a-4b93-b7f8-b136-b6b081fc3258/displayicon.png"
+    },
+    {
+      "codename": "Legion",
+      "displayName": "Aemondir",
+      "displayIcon": "https://media.valorant-api.com/bundles/00f15574-4c2e-992c-1664-0c8969f2d7a3/displayicon.png"
+    },
+    {
+      "codename": "SkymageThemeBundle",
+      "displayName": "Aeris",
+      "displayIcon": "https://media.valorant-api.com/bundles/d087f4fd-4942-d782-c76c-5e84dc307a66/displayicon.png"
+    },
+    {
+      "codename": "AirplaneThemeBundle",
+      "displayName": "Altitude",
+      "displayIcon": "https://media.valorant-api.com/bundles/a4937ee9-4148-8ff2-2c11-c28891880306/displayicon.png"
+    },
+    {
+      "codename": "Camera",
+      "displayName": "Aperture",
+      "displayIcon": "https://media.valorant-api.com/bundles/77717e97-48fa-24cb-00e7-17b62ee99f73/displayicon.png"
+    },
+    {
+      "codename": "Antares2ThemeBundle",
+      "displayName": "Araxys",
+      "displayIcon": "https://media.valorant-api.com/bundles/72e38650-47a3-8330-d02b-62890c5753aa/displayicon.png"
+    },
+    {
+      "codename": "Antares",
+      "displayName": "Araxys",
+      "displayIcon": "https://media.valorant-api.com/bundles/a4c613c9-4970-61ca-e52a-918ae22f5315/displayicon.png"
+    },
+    {
+      "codename": "XP1ThemeBundle",
+      "displayName": "Arcane",
+      "displayIcon": "https://media.valorant-api.com/bundles/2270b116-4255-8a14-4486-db9de4979b89/displayicon.png"
+    },
+    {
+      "codename": "MacaronThemeBundle",
+      "displayName": "Arcane Collector's Set",
+      "displayIcon": "https://media.valorant-api.com/bundles/f3e3a4e2-4c50-7168-74f8-b3a0a8dc917f/displayicon.png"
+    },
+    {
+      "codename": "AvalancheThemeBundle",
+      "displayName": "Avalanche",
+      "displayIcon": "https://media.valorant-api.com/bundles/0dee7ef6-d3ea-400a-b15c-5b9524243439/displayicon.png"
+    },
+    {
+      "codename": "YokaiThemeBundle",
+      "displayName": "Ayakashi",
+      "displayIcon": "https://media.valorant-api.com/bundles/35e69ee1-4900-7daa-72fe-a8a3e8b25c42/displayicon.png"
+    },
+    {
+      "codename": "Infantry2ThemeBundle",
+      "displayName": "Black.Market",
+      "displayIcon": "https://media.valorant-api.com/bundles/82a56e4c-4de3-0195-4889-788992b2790d/displayicon.png"
+    },
+    {
+      "codename": "VoidbornThemeBundle",
+      "displayName": "Blackspyre",
+      "displayIcon": "https://media.valorant-api.com/bundles/734b6803-44ca-19c3-8da9-62a27f1656b8/displayicon.png"
+    },
+    {
+      "codename": "RoseThemeBundle",
+      "displayName": "Blackthorn",
+      "displayIcon": "https://media.valorant-api.com/bundles/1d0f4bbc-4237-1338-5712-1081e21295a1/displayicon.png"
+    },
+    {
+      "codename": "UrfThemeBundle",
+      "displayName": "BlastX",
+      "displayIcon": "https://media.valorant-api.com/bundles/a31f7d1f-89d8-47ae-875b-1ae2117655c2/displayicon.png"
+    },
+    {
+      "codename": "BoltThemeBundle",
+      "displayName": "Bolt",
+      "displayIcon": "https://media.valorant-api.com/bundles/ba0f18a9-4b4b-4a1a-15c8-1cb5d8e81a66/displayicon.png"
+    },
+    {
+      "codename": "HazardThemeBundle",
+      "displayName": "Bubblegum Deathwish",
+      "displayIcon": "https://media.valorant-api.com/bundles/f0eb5967-446e-cac1-cb69-008cf2538c84/displayicon.png"
+    },
+    {
+      "codename": "SyndraIllustrationThemeBundle",
+      "displayName": "CYRAX",
+      "displayIcon": "https://media.valorant-api.com/bundles/a4ab0768-48b6-8459-31eb-04bf23d20100/displayicon.png"
+    },
+    {
+      "codename": "LunarThemeBundle",
+      "displayName": "Celestial",
+      "displayIcon": "https://media.valorant-api.com/bundles/473e694c-4940-078b-fb49-e994dff766cf/displayicon.png"
+    },
+    {
+      "codename": "Champions2021ThemeBundle",
+      "displayName": "Champions 2021",
+      "displayIcon": "https://media.valorant-api.com/bundles/bf987f36-4a33-45e4-3c49-1ab9a2502607/displayicon.png"
+    },
+    {
+      "codename": "Champions2022ThemeBundle",
+      "displayName": "Champions 2022",
+      "displayIcon": "https://media.valorant-api.com/bundles/f99e5b38-48c7-1146-acfa-9baaf773b844/displayicon.png"
+    },
+    {
+      "codename": "Champions2023ThemeBundle",
+      "displayName": "Champions 2023",
+      "displayIcon": "https://media.valorant-api.com/bundles/90ee89df-40cf-03d3-420f-3d9a1b81d85b/displayicon.png"
+    },
+    {
+      "codename": "Champions2024ThemeBundle",
+      "displayName": "Champions 2024",
+      "displayIcon": "https://media.valorant-api.com/bundles/422a7fba-4bfa-fe5e-0e79-d7b553071089/displayicon.png"
+    },
+    {
+      "codename": "Champions2025ThemeBundle",
+      "displayName": "Champions 2025",
+      "displayIcon": "https://media.valorant-api.com/bundles/c18084b7-46ea-8231-28dd-808d9f4b4e66/displayicon.png"
+    },
+    {
+      "codename": "EngineThemeBundle",
+      "displayName": "Chromedek",
+      "displayIcon": "https://media.valorant-api.com/bundles/3ed0b915-47b6-2647-7c90-26badf119086/displayicon.png"
+    },
+    {
+      "codename": "DaedalusThemeBundle",
+      "displayName": "ChronoVoid",
+      "displayIcon": "https://media.valorant-api.com/bundles/a5da7b5a-49a4-8fa9-a1c6-01a9aced0f9f/displayicon.png"
+    },
+    {
+      "codename": "ModelMakerThemeBundle",
+      "displayName": "Combat Crafts",
+      "displayIcon": "https://media.valorant-api.com/bundles/9bb7be90-430e-ec28-6829-5993e0775458/displayicon.png"
+    },
+    {
+      "codename": "CookieThemeBundle",
+      "displayName": "Cookie Kit",
+      "displayIcon": "https://media.valorant-api.com/bundles/1ff7e696-4ff7-fbdc-dcee-2aa174ee3eba/displayicon.png"
+    },
+    {
+      "codename": "MythicThemeBundle",
+      "displayName": "Crimsonbeast",
+      "displayIcon": "https://media.valorant-api.com/bundles/bd4f586d-469c-731d-5018-19835db2b086/displayicon.png"
+    },
+    {
+      "codename": "PermafrostThemeBundle",
+      "displayName": "Cryostasis",
+      "displayIcon": "https://media.valorant-api.com/bundles/3ae56d5e-423d-97c5-1aa2-4faccccec1a2/displayicon.png"
+    },
+    {
+      "codename": "LofiThemeBundle",
+      "displayName": "Daydreams",
+      "displayIcon": "https://media.valorant-api.com/bundles/7c30157f-4e5d-c929-3c9d-5988d3480105/displayicon.png"
+    },
+    {
+      "codename": "AnomalyThemeBundle",
+      "displayName": "Divergence",
+      "displayIcon": "https://media.valorant-api.com/bundles/4d9966e8-4dc9-cd1f-9e57-f6844f4b5da1/displayicon.png"
+    },
+    {
+      "codename": "BarkThemeBundle",
+      "displayName": "Dog Days",
+      "displayIcon": "https://media.valorant-api.com/bundles/1aefc04b-4455-8b2f-6332-79b4260aaffe/displayicon.png"
+    },
+    {
+      "codename": "GolemThemeBundle",
+      "displayName": "Dolmir's Revenge",
+      "displayIcon": "https://media.valorant-api.com/bundles/f4015c5e-4c32-20ad-11bc-7ebc39293bc1/displayicon.png"
+    },
+    {
+      "codename": "DoodlebudsThemeBundle",
+      "displayName": "Doodle Buds",
+      "displayIcon": "https://media.valorant-api.com/bundles/2ed936df-4959-acc7-9aca-358d34a50619/displayicon.png"
+    },
+    {
+      "codename": "CyberknightThemeBundle",
+      "displayName": "Doombringer",
+      "displayIcon": "https://media.valorant-api.com/bundles/51bccace-45c9-72c4-56d6-b097a4791c2f/displayicon.png"
+    },
+    {
+      "codename": "Vday24ThemeBundle",
+      "displayName": "Duo's Day",
+      "displayIcon": "https://media.valorant-api.com/bundles/c877d56c-4fcd-ae60-9617-b8a3542e72fb/displayicon.png"
+    },
+    {
+      "codename": "DuosDay2026MegaThemeBundle",
+      "displayName": "Duo's Day // Duckling Duo",
+      "displayIcon": "https://media.valorant-api.com/bundles/20de500a-4551-2584-eaa2-8ab0231f13a9/displayicon.png"
+    },
+    {
+      "codename": "DuosDay2025ThemeBundle",
+      "displayName": "Duo's Day // Haz & Matt",
+      "displayIcon": "https://media.valorant-api.com/bundles/b0730caa-4a94-c796-c8dc-1fb2430818a9/displayicon.png"
+    },
+    {
+      "codename": "DuosDay2026MiniThemeBundle",
+      "displayName": "Duo's Day // Odd Egg",
+      "displayIcon": "https://media.valorant-api.com/bundles/905db1c9-4ce0-d0c3-93e3-7f8b5d8fb86a/displayicon.png"
+    },
+    {
+      "codename": "HologramThemeBundle",
+      "displayName": "EX.O",
+      "displayIcon": "https://media.valorant-api.com/bundles/648f655e-4df1-e4d0-97d0-5cafb5d47757/displayicon.png"
+    },
+    {
+      "codename": "UnstoppableThemeBundle",
+      "displayName": "Ego",
+      "displayIcon": "https://media.valorant-api.com/bundles/2d6ec1d9-4152-8a43-5f7f-ff96b29c857f/displayicon.png"
+    },
+    {
+      "codename": "DragonThemeBundle",
+      "displayName": "Elderflame",
+      "displayIcon": "https://media.valorant-api.com/bundles/1ba50cf0-46dd-848f-13a9-dc92fb0a3e3b/displayicon.png"
+    },
+    {
+      "codename": "DarkKnight",
+      "displayName": "Emberclad",
+      "displayIcon": "https://media.valorant-api.com/bundles/f0e4460a-45ce-728b-1cda-79801e646dc5/displayicon.png"
+    },
+    {
+      "codename": "AstronautThemeBundle",
+      "displayName": "Endeavour",
+      "displayIcon": "https://media.valorant-api.com/bundles/957f55ff-48a1-d0e2-41b1-ca89bf036b6e/displayicon.png"
+    },
+    {
+      "codename": "StarPowerThemeBundle",
+      "displayName": "Evori Dreamwings",
+      "displayIcon": "https://media.valorant-api.com/bundles/f94649de-4723-b138-8293-45ab433c9da4/displayicon.png"
+    },
+    {
+      "codename": "FragmentWingmanThemeBundle",
+      "displayName": "FRGMT x WNGMN",
+      "displayIcon": "https://media.valorant-api.com/bundles/854c8920-4c00-ebe3-b4b2-f0abd77d716d/displayicon.png"
+    },
+    {
+      "codename": "FallenThemeBundle",
+      "displayName": "Forsaken",
+      "displayIcon": "https://media.valorant-api.com/bundles/1b98ee1c-4d9a-9e9d-0b36-f1a001a76628/displayicon.png"
+    },
+    {
+      "codename": "TarotThemeBundle",
+      "displayName": "Fortune's Hand",
+      "displayIcon": "https://media.valorant-api.com/bundles/72312105-4ad8-3b6b-4853-38ac2fcbbdf8/displayicon.png"
+    },
+    {
+      "codename": "Ashen2",
+      "displayName": "Gaia's Vengeance",
+      "displayIcon": "https://media.valorant-api.com/bundles/3d580e29-435b-8e65-22f4-3c8b8974f5fd/displayicon.png"
+    },
+    {
+      "codename": "AshenThemeBundle",
+      "displayName": "Gaia's Vengeance",
+      "displayIcon": "https://media.valorant-api.com/bundles/e10e00ae-4dcc-3c4a-16f7-7e885314f0d0/displayicon.png"
+    },
+    {
+      "codename": "Giveback2021ThemeBundle",
+      "displayName": "Give Back",
+      "displayIcon": "https://media.valorant-api.com/bundles/441117e1-40be-42e2-3aeb-49957e5c03fd/displayicon.png"
+    },
+    {
+      "codename": "GiveBack2022ThemeBundle",
+      "displayName": "Give Back // 2022",
+      "displayIcon": "https://media.valorant-api.com/bundles/35a66d96-4c72-ea81-f09e-43a967b64c66/displayicon.png"
+    },
+    {
+      "codename": "GiveBack2023ThemeBundle",
+      "displayName": "Give Back // 2023",
+      "displayIcon": "https://media.valorant-api.com/bundles/2fcd19c4-4189-42dd-903b-e59a0dbf8f29/displayicon.png"
+    },
+    {
+      "codename": "GiveBack2024ThemeBundle",
+      "displayName": "Give Back // 2024",
+      "displayIcon": "https://media.valorant-api.com/bundles/bd9377a2-47ce-4223-f4e2-c199e84cea1d/displayicon.png"
+    },
+    {
+      "codename": "GiveBack2025ThemeBundle",
+      "displayName": "Give Back // V25",
+      "displayIcon": "https://media.valorant-api.com/bundles/06a9adde-4d88-035a-9d4c-65b7838f35af/displayicon.png"
+    },
+    {
+      "codename": "GiveBack2026ThemeBundle",
+      "displayName": "Give Back // V26",
+      "displayIcon": "https://media.valorant-api.com/bundles/eb27626c-4cc3-9338-c1ce-45b468f62006/displayicon.png"
+    },
+    {
+      "codename": "Cyberpunk2ThemeBundle",
+      "displayName": "Glitchpop",
+      "displayIcon": "https://media.valorant-api.com/bundles/fc723fef-444a-4013-a741-3e85a97382f2/displayicon.png"
+    },
+    {
+      "codename": "CyberpunkThemeBundle",
+      "displayName": "Glitchpop",
+      "displayIcon": "https://media.valorant-api.com/bundles/05e8add9-404d-5d37-8973-9f93f8880e2d/displayicon.png"
+    },
+    {
+      "codename": "RaygunThemeBundle",
+      "displayName": "Gravitational Uranium Neuroblaster",
+      "displayIcon": "https://media.valorant-api.com/bundles/e84d5a16-462f-6fbf-bee0-5a80191a19e5/displayicon.png"
+    },
+    {
+      "codename": "PoptoyThemeBundle",
+      "displayName": "Hatchbudz: Quacked Series",
+      "displayIcon": "https://media.valorant-api.com/bundles/b18c88c3-4ffd-08b1-1e4a-bbabdfa824aa/displayicon.png"
+    },
+    {
+      "codename": "SnakeThemeBundle",
+      "displayName": "Helix",
+      "displayIcon": "https://media.valorant-api.com/bundles/0b77a2a9-458c-6772-0f76-339b278f744c/displayicon.png"
+    },
+    {
+      "codename": "ScubaRobotThemeBundle",
+      "displayName": "Hi-DR0",
+      "displayIcon": "https://media.valorant-api.com/bundles/b9c3f0d7-44c1-5831-67ff-9894c29ef240/displayicon.png"
+    },
+    {
+      "codename": "SeaOfStarsThemeBundle",
+      "displayName": "Holo Meridian",
+      "displayIcon": "https://media.valorant-api.com/bundles/e34e36b2-4822-e27c-3f9d-c088f4ba465c/displayicon.png"
+    },
+    {
+      "codename": "Voyager",
+      "displayName": "Holomoku",
+      "displayIcon": "https://media.valorant-api.com/bundles/32469bcf-4748-cbb7-cadb-8fab251a797d/displayicon.png"
+    },
+    {
+      "codename": "HorizonThemeBundle",
+      "displayName": "Horizon",
+      "displayIcon": "https://media.valorant-api.com/bundles/abba1438-4900-ce9b-8b81-38b6975a419f/displayicon.png"
+    },
+    {
+      "codename": "CNWelcomeThemeBundle",
+      "displayName": "Ignite",
+      "displayIcon": "https://media.valorant-api.com/bundles/3bd7465d-4257-8583-c563-188ae47cc7c6/displayicon.png"
+    },
+    {
+      "codename": "Dynasty",
+      "displayName": "Imperium",
+      "displayIcon": "https://media.valorant-api.com/bundles/e6032bbf-403e-47e4-8fbc-a1b212d966e7/displayicon.png"
+    },
+    {
+      "codename": "HistoricalThemeBundle",
+      "displayName": "Infantry",
+      "displayIcon": "https://media.valorant-api.com/bundles/9be3549b-4124-7fc2-aa79-8d817f728a18/displayicon.png"
+    },
+    {
+      "codename": "Angler",
+      "displayName": "Intergrade",
+      "displayIcon": "https://media.valorant-api.com/bundles/2bec0257-49a2-77ac-718b-09af04de6a9e/displayicon.png"
+    },
+    {
+      "codename": "Oblivion2ThemeBundle",
+      "displayName": "Ion",
+      "displayIcon": "https://media.valorant-api.com/bundles/790f52c4-4ed8-9869-fa8b-bf92fc24b441/displayicon.png"
+    },
+    {
+      "codename": "OblivionThemeBundle",
+      "displayName": "Ion",
+      "displayIcon": "https://media.valorant-api.com/bundles/693d675e-4ed2-c00a-5e38-6b859b275565/displayicon.png"
+    },
+    {
+      "codename": "GummyThemeBundle",
+      "displayName": "Jellybeam",
+      "displayIcon": "https://media.valorant-api.com/bundles/4a21cfb3-4bb5-4046-7958-219725a89961/displayicon.png"
+    },
+    {
+      "codename": "KoiThemeBundle",
+      "displayName": "Kohaku & Matsuba",
+      "displayIcon": "https://media.valorant-api.com/bundles/31827d9c-4ccb-8687-a5c1-69991ad1ec98/displayicon.png"
+    },
+    {
+      "codename": "Ninja2ThemeBundle",
+      "displayName": "Kuronami",
+      "displayIcon": "https://media.valorant-api.com/bundles/69d9b2be-4439-0785-780b-ba8951053683/displayicon.png"
+    },
+    {
+      "codename": "NinjaThemeBundle",
+      "displayName": "Kuronami",
+      "displayIcon": "https://media.valorant-api.com/bundles/a012ba57-4a6a-db6b-fad2-bebb84a9a588/displayicon.png"
+    },
+    {
+      "codename": "RabbitThemeBundle",
+      "displayName": "Luna",
+      "displayIcon": "https://media.valorant-api.com/bundles/ef488eb7-4405-3b3f-7fd1-63af0824a639/displayicon.png"
+    },
+    {
+      "codename": "LuxuryThemeBundle",
+      "displayName": "Luxe",
+      "displayIcon": "https://media.valorant-api.com/bundles/1703b166-4e32-63da-9d16-a7a144aab574/displayicon.png"
+    },
+    {
+      "codename": "AssaultThemeBundle",
+      "displayName": "MK.VII Liberty",
+      "displayIcon": "https://media.valorant-api.com/bundles/dd6f36b7-45c4-cdf7-10c4-dabca738c5fc/displayicon.png"
+    },
+    {
+      "codename": "Magepunk2ThemeBundle",
+      "displayName": "Magepunk",
+      "displayIcon": "https://media.valorant-api.com/bundles/338cabdb-473f-1f37-fa35-47a3d994517f/displayicon.png"
+    },
+    {
+      "codename": "Magepunk3ThemeBundle",
+      "displayName": "Magepunk",
+      "displayIcon": "https://media.valorant-api.com/bundles/61215a36-435b-9c3e-73e0-25906a3ffe06/displayicon.png"
+    },
+    {
+      "codename": "MagepunkThemeBundle",
+      "displayName": "Magepunk",
+      "displayIcon": "https://media.valorant-api.com/bundles/a981af4a-4d81-9668-8923-9c84c43da3d3/displayicon.png"
+    },
+    {
+      "codename": "PenaltyThemeBundle",
+      "displayName": "Matchday",
+      "displayIcon": "https://media.valorant-api.com/bundles/039a79c4-44ce-f75d-d0d1-d3bb02b5c2cf/displayicon.png"
+    },
+    {
+      "codename": "Minima2ThemeBundle",
+      "displayName": "Minima",
+      "displayIcon": "https://media.valorant-api.com/bundles/743dfdf3-443f-e810-9871-7386b22e9f3a/displayicon.png"
+    },
+    {
+      "codename": "MinimaThemeBundle",
+      "displayName": "Minima",
+      "displayIcon": "https://media.valorant-api.com/bundles/cd095669-4a29-a7f3-e00d-f694186863cc/displayicon.png"
+    },
+    {
+      "codename": "Spirit2ThemeBundle",
+      "displayName": "Mystbloom",
+      "displayIcon": "https://media.valorant-api.com/bundles/bae9a7b5-4009-67f8-0794-96b3646147fb/displayicon.png"
+    },
+    {
+      "codename": "SpiritThemeBundle",
+      "displayName": "Mystbloom",
+      "displayIcon": "https://media.valorant-api.com/bundles/dec7c18d-469b-c1d1-ada5-2ebf1eaf2a5c/displayicon.png"
+    },
+    {
+      "codename": "TokyoThemeBundle",
+      "displayName": "NO LIMITS",
+      "displayIcon": "https://media.valorant-api.com/bundles/dcf781ee-4f66-8dac-cfaa-e2ad412bce32/displayicon.png"
+    },
+    {
+      "codename": "DigipetsThemeBundle",
+      "displayName": "Nanomight",
+      "displayIcon": "https://media.valorant-api.com/bundles/94ad9ca5-4243-387e-2df5-d7b524de04e2/displayicon.png"
+    },
+    {
+      "codename": "CosmosThemeBundle",
+      "displayName": "Nebula",
+      "displayIcon": "https://media.valorant-api.com/bundles/c520fbb0-492c-960e-8b77-f69fc4ce1838/displayicon.png"
+    },
+    {
+      "codename": "Gunslinger2MegaThemeBundle",
+      "displayName": "Neo Frontier",
+      "displayIcon": "https://media.valorant-api.com/bundles/4d368017-4f98-1e89-dbec-31abd2533eb9/displayicon.png"
+    },
+    {
+      "codename": "GunslingerThemeBundle",
+      "displayName": "Neo Frontier",
+      "displayIcon": "https://media.valorant-api.com/bundles/550d9d34-4942-a605-ba3c-b09452e52f83/displayicon.png"
+    },
+    {
+      "codename": "Aquarium2ThemeBundle",
+      "displayName": "Neptune",
+      "displayIcon": "https://media.valorant-api.com/bundles/2bf87e2c-4a27-b9c7-3cf4-0c840a82d6dd/displayicon.png"
+    },
+    {
+      "codename": "Aquarium",
+      "displayName": "Neptune",
+      "displayIcon": "https://media.valorant-api.com/bundles/ce15405a-4471-3290-1a16-abab355f97da/displayicon.png"
+    },
+    {
+      "codename": "CovenThemeBundle",
+      "displayName": "Nocturnum",
+      "displayIcon": "https://media.valorant-api.com/bundles/7738edd6-4c85-9c9c-bcad-80b6d282b4d2/displayicon.png"
+    },
+    {
+      "codename": "LosMuertosThemeBundle",
+      "displayName": "Nunca Olvidados",
+      "displayIcon": "https://media.valorant-api.com/bundles/a4d5c5f5-4647-d984-011d-dea2ef7b56c5/displayicon.png"
+    },
+    {
+      "codename": "Ego2ThemeBundle",
+      "displayName": "ORA by OneTap",
+      "displayIcon": "https://media.valorant-api.com/bundles/cf677a46-4d18-b8fa-7977-1cbf635a4cc0/displayicon.png"
+    },
+    {
+      "codename": "Oni2ThemeBundle",
+      "displayName": "Oni",
+      "displayIcon": "https://media.valorant-api.com/bundles/b7d754d4-44aa-4663-afc3-84a5cccc3c9d/displayicon.png"
+    },
+    {
+      "codename": "OniThemeBundle",
+      "displayName": "Oni",
+      "displayIcon": "https://media.valorant-api.com/bundles/ebfb909d-45ba-c514-3369-55bf014ba293/displayicon.png"
+    },
+    {
+      "codename": "CircleThemeBundle",
+      "displayName": "Origin",
+      "displayIcon": "https://media.valorant-api.com/bundles/54f8793c-4daa-6e45-bcfd-e9bfc742dc30/displayicon.png"
+    },
+    {
+      "codename": "RoboMechaThemeBundle",
+      "displayName": "Orion",
+      "displayIcon": "https://media.valorant-api.com/bundles/e4c7da33-4e16-8eb5-ad4d-388753a0e179/displayicon.png"
+    },
+    {
+      "codename": "MorotbikeThemeBundle",
+      "displayName": "Overdrive",
+      "displayIcon": "https://media.valorant-api.com/bundles/3ad3de55-422b-4076-a89f-81a38ce24973/displayicon.png"
+    },
+    {
+      "codename": "CommandoThemeBundle",
+      "displayName": "Phaseguard",
+      "displayIcon": "https://media.valorant-api.com/bundles/4339220e-4dd2-14e8-f20b-299c90620741/displayicon.png"
+    },
+    {
+      "codename": "Demonstone2ThemeBundle",
+      "displayName": "Prelude to Chaos",
+      "displayIcon": "https://media.valorant-api.com/bundles/2f58cd79-4914-9dc6-ea10-b8b9ea481add/displayicon.png"
+    },
+    {
+      "codename": "Demonstone",
+      "displayName": "Prelude to Chaos",
+      "displayIcon": "https://media.valorant-api.com/bundles/526f7d0c-414b-24bb-bcd0-10aed1f3e824/displayicon.png"
+    },
+    {
+      "codename": "Pride2022",
+      "displayName": "Pride",
+      "displayIcon": "https://media.valorant-api.com/bundles/7b6b00f0-4fb9-7395-067d-44bcb4e20d9a/displayicon.png"
+    },
+    {
+      "codename": "HypebeastThemeBundle",
+      "displayName": "Prime",
+      "displayIcon": "https://media.valorant-api.com/bundles/2116a38e-4b71-f169-0d16-ce9289af4bfa/displayicon.png"
+    },
+    {
+      "codename": "Hypebeast2ThemeBundle",
+      "displayName": "Prime//2.0",
+      "displayIcon": "https://media.valorant-api.com/bundles/de041dd5-4e17-2924-6d09-b4a3ccd82e6f/displayicon.png"
+    },
+    {
+      "codename": "HellfireThemeBundle",
+      "displayName": "Primordium",
+      "displayIcon": "https://media.valorant-api.com/bundles/22ad3cea-4b3e-b6e9-e1ee-c498a45f14ee/displayicon.png"
+    },
+    {
+      "codename": "IridescenceThemeBundle",
+      "displayName": "Prism",
+      "displayIcon": "https://media.valorant-api.com/bundles/ce6c1fa1-4eae-6db9-779f-f6988b866de4/displayicon.png"
+    },
+    {
+      "codename": "Iridescence3ThemeBundle",
+      "displayName": "Prism II",
+      "displayIcon": "https://media.valorant-api.com/bundles/224ddcc4-4a2b-cc61-01a2-97835777b3f6/displayicon.png"
+    },
+    {
+      "codename": "Storefrontitem_ProtocolThemeBundle",
+      "displayName": "Protocol 781-A",
+      "displayIcon": "https://media.valorant-api.com/bundles/ab83f73d-485f-e010-8ea0-24b538468a1a/displayicon.png"
+    },
+    {
+      "codename": "Afterglow3",
+      "displayName": "RGX 11z Pro",
+      "displayIcon": "https://media.valorant-api.com/bundles/35815cab-429d-79e4-43f5-e0af8fdac22b/displayicon.png"
+    },
+    {
+      "codename": "AfterglowThemeBundle",
+      "displayName": "RGX 11z Pro",
+      "displayIcon": "https://media.valorant-api.com/bundles/d958b181-4e7b-dc60-7c3c-e3a3a376a8d2/displayicon.png"
+    },
+    {
+      "codename": "Storefrontitem_Afterglow2",
+      "displayName": "RGX 11z Pro",
+      "displayIcon": "https://media.valorant-api.com/bundles/ed453815-44aa-4c4d-f3aa-77b4bcf048d7/displayicon.png"
+    },
+    {
+      "codename": "ComicbookThemeBundle",
+      "displayName": "Radiant Crisis 001",
+      "displayIcon": "https://media.valorant-api.com/bundles/3a824027-4414-5a08-64f0-c8905a2aaa66/displayicon.png"
+    },
+    {
+      "codename": "ArcadeThemeBundle",
+      "displayName": "Radiant Entertainment System",
+      "displayIcon": "https://media.valorant-api.com/bundles/3d2fd628-4ceb-0029-a737-9682ce8eb5e9/displayicon.png"
+    },
+    {
+      "codename": "SoulStealer3ThemeBundle",
+      "displayName": "Reaver",
+      "displayIcon": "https://media.valorant-api.com/bundles/fde33d91-4bbd-ee1d-3c2b-40af0fe0e510/displayicon.png"
+    },
+    {
+      "codename": "Soulstealer2",
+      "displayName": "Reaver",
+      "displayIcon": "https://media.valorant-api.com/bundles/f7dcf7e1-485e-0524-ec82-0d97b2c8b40b/displayicon.png"
+    },
+    {
+      "codename": "SoulstealerThemeBundle",
+      "displayName": "Reaver",
+      "displayIcon": "https://media.valorant-api.com/bundles/81d85522-4651-4f66-72de-5fa057b3514c/displayicon.png"
+    },
+    {
+      "codename": "SpecOpsThemeBundle",
+      "displayName": "Recon",
+      "displayIcon": "https://media.valorant-api.com/bundles/b6b1b7ea-4a10-f810-a416-03adbb69d379/displayicon.png"
+    },
+    {
+      "codename": "StainedGlassThemeBundle",
+      "displayName": "Reverie",
+      "displayIcon": "https://media.valorant-api.com/bundles/9a4ad6ad-4aa9-695a-b73e-cf874223db0c/displayicon.png"
+    },
+    {
+      "codename": "RogueThemeBundle",
+      "displayName": "Rogue",
+      "displayIcon": "https://media.valorant-api.com/bundles/602900ed-4e10-d214-acc5-8883ed2430f5/displayicon.png"
+    },
+    {
+      "codename": "KingThemeBundle",
+      "displayName": "Ruination",
+      "displayIcon": "https://media.valorant-api.com/bundles/ae0c9cc4-4c03-f8d6-745c-84953db684fc/displayicon.png"
+    },
+    {
+      "codename": "RIB3ThemeBundle",
+      "displayName": "Run It Back",
+      "displayIcon": "https://media.valorant-api.com/bundles/a6fa35c6-4205-d5bc-dd65-3b92aeaac412/displayicon.png"
+    },
+    {
+      "codename": "RIBThemeBundle",
+      "displayName": "Run It Back",
+      "displayIcon": "https://media.valorant-api.com/bundles/bcdd8956-4588-f586-fda8-fd991c593449/displayicon.png"
+    },
+    {
+      "codename": "RunItBackEp6",
+      "displayName": "Run It Back",
+      "displayIcon": "https://media.valorant-api.com/bundles/9d801e67-4b33-4d99-04b8-aab317819a4e/displayicon.png"
+    },
+    {
+      "codename": "RunItBackEp7ThemeBundle",
+      "displayName": "Run It Back",
+      "displayIcon": "https://media.valorant-api.com/bundles/d2ddd2a1-49d5-6ebc-eb62-cb8a5798da6a/displayicon.png"
+    },
+    {
+      "codename": "Storefrontitem_RIB2ThemeBundle",
+      "displayName": "Run It Back",
+      "displayIcon": "https://media.valorant-api.com/bundles/332d705c-4852-11e5-c590-88b1f6e47f72/displayicon.png"
+    },
+    {
+      "codename": "RIBV25ThemeBundle",
+      "displayName": "Run It Back // V25",
+      "displayIcon": "https://media.valorant-api.com/bundles/5b90e018-4581-ffbb-50ad-afb6ccf268cf/displayicon.png"
+    },
+    {
+      "codename": "RIBV26ThemeBundle",
+      "displayName": "Run It Back V26",
+      "displayIcon": "https://media.valorant-api.com/bundles/e2c2f38c-49c5-55c1-e0d1-1fbb3aabde3f/displayicon.png"
+    },
+    {
+      "codename": "RIB_LNY26ThemeBundle",
+      "displayName": "Run It Back: Lunar 26",
+      "displayIcon": "https://media.valorant-api.com/bundles/4ad50dc6-4e84-75ef-89f3-5ca098901398/displayicon.png"
+    },
+    {
+      "codename": "Gunslinger2ThemeBundle",
+      "displayName": "Run It Back: Neo Frontier",
+      "displayIcon": "https://media.valorant-api.com/bundles/8d29f5fe-402a-94ee-2d67-e29b97dda6f4/displayicon.png"
+    },
+    {
+      "codename": "SoulStealerMegaBundle",
+      "displayName": "Run It Back: Reaver",
+      "displayIcon": "https://media.valorant-api.com/bundles/77894c05-4835-455f-7a37-51b05ac553a5/displayicon.png"
+    },
+    {
+      "codename": "EdgeMegaBundleThemeBundle",
+      "displayName": "Run It Back: Singularity",
+      "displayIcon": "https://media.valorant-api.com/bundles/11b68b47-458a-39e8-eedd-039eb51a879e/displayicon.png"
+    },
+    {
+      "codename": "ShatterThemeBundle_PrimaryAsset",
+      "displayName": "Rupture",
+      "displayIcon": "https://media.valorant-api.com/bundles/e5769905-466c-c8ff-f96a-dbabed9150de/displayicon.png"
+    },
+    {
+      "codename": "SakuraThemeBundle",
+      "displayName": "Sakura",
+      "displayIcon": "https://media.valorant-api.com/bundles/49d7951e-4e5d-304c-31a0-589b79096d5a/displayicon.png"
+    },
+    {
+      "codename": "Egypt",
+      "displayName": "Sarmad",
+      "displayIcon": "https://media.valorant-api.com/bundles/83e78a53-435b-f891-9e04-a9b59ed8fa44/displayicon.png"
+    },
+    {
+      "codename": "RainbowThemeBundle",
+      "displayName": "Sensation",
+      "displayIcon": "https://media.valorant-api.com/bundles/54cbf45c-4b92-5cd9-07ab-3d98175fafa6/displayicon.png"
+    },
+    {
+      "codename": "Sol2ThemeBundle",
+      "displayName": "Sentinels of Light",
+      "displayIcon": "https://media.valorant-api.com/bundles/753739e7-4447-617c-8253-cf8d9d577b58/displayicon.png"
+    },
+    {
+      "codename": "SolThemeBundle",
+      "displayName": "Sentinels of Light",
+      "displayIcon": "https://media.valorant-api.com/bundles/13d427c1-49d7-44f9-6576-27a9c83d787f/displayicon.png"
+    },
+    {
+      "codename": "OrigamiThemeBundle",
+      "displayName": "SilkLeaf",
+      "displayIcon": "https://media.valorant-api.com/bundles/f59111d7-4196-4464-d16a-4eb669e935ad/displayicon.png"
+    },
+    {
+      "codename": "MysticforestThemeBundle",
+      "displayName": "Silvanus",
+      "displayIcon": "https://media.valorant-api.com/bundles/3aaeac8c-469f-bf29-7802-a09cc8729a3e/displayicon.png"
+    },
+    {
+      "codename": "Edge2ThemeBundle",
+      "displayName": "Singularity",
+      "displayIcon": "https://media.valorant-api.com/bundles/3f3868e5-4e28-21a6-1976-5f95c44cc51b/displayicon.png"
+    },
+    {
+      "codename": "EdgeThemeBundle",
+      "displayName": "Singularity",
+      "displayIcon": "https://media.valorant-api.com/bundles/ef72e3c0-467b-ab15-076a-1e9690d16d6f/displayicon.png"
+    },
+    {
+      "codename": "LightningThemeBundle",
+      "displayName": "Smite",
+      "displayIcon": "https://media.valorant-api.com/bundles/adec612c-4c82-a4b2-a5f2-b7909e638a67/displayicon.png"
+    },
+    {
+      "codename": "Storefrontitem_SnowglobeThemeBundle",
+      "displayName": "Snowfall",
+      "displayIcon": "https://media.valorant-api.com/bundles/8a3507cd-44ef-0695-1d66-4da0f87e7522/displayicon.png"
+    },
+    {
+      "codename": "LNY26ThemeBundle",
+      "displayName": "Solarstride",
+      "displayIcon": "https://media.valorant-api.com/bundles/ba8f7c3b-45f3-dff2-0649-edac63883aff/displayicon.png"
+    },
+    {
+      "codename": "HauntedThemeBundle",
+      "displayName": "Soulstrife",
+      "displayIcon": "https://media.valorant-api.com/bundles/bd94a6b3-4dfc-d333-8ba0-82a34d924ed7/displayicon.png"
+    },
+    {
+      "codename": "Sovereign2ThemeBundle",
+      "displayName": "Sovereign",
+      "displayIcon": "https://media.valorant-api.com/bundles/fda6c6a8-4ec7-1138-897a-658e08197169/displayicon.png"
+    },
+    {
+      "codename": "SovereignThemeBundle",
+      "displayName": "Sovereign",
+      "displayIcon": "https://media.valorant-api.com/bundles/fd9fd08f-446f-018f-c632-0e96428f2978/displayicon.png"
+    },
+    {
+      "codename": "AtlasThemeBundle",
+      "displayName": "Spectrum",
+      "displayIcon": "https://media.valorant-api.com/bundles/f7f37856-4af7-9b0e-08aa-91a5207c0439/displayicon.png"
+    },
+    {
+      "codename": "WaterBlasterThemeBundle",
+      "displayName": "SplashX",
+      "displayIcon": "https://media.valorant-api.com/bundles/00b9a5cd-49fa-0619-2657-c0bc7f35778a/displayicon.png"
+    },
+    {
+      "codename": "MagicSplineThemeBundle",
+      "displayName": "Spline",
+      "displayIcon": "https://media.valorant-api.com/bundles/c1b255e2-411d-b159-6da3-5ab6c011a8cf/displayicon.png"
+    },
+    {
+      "codename": "WolfEyesThemeBundle",
+      "displayName": "Storm Maw",
+      "displayIcon": "https://media.valorant-api.com/bundles/3176880c-4697-6a52-66ff-2f907ee4e15b/displayicon.png"
+    },
+    {
+      "codename": "OrangeHighlightThemeBundle",
+      "displayName": "Switchback",
+      "displayIcon": "https://media.valorant-api.com/bundles/fe884e91-4079-7a94-4cf5-ae85cef9e9f6/displayicon.png"
+    },
+    {
+      "codename": "TactimanPremiumThemeBundle",
+      "displayName": "Tacti-Force",
+      "displayIcon": "https://media.valorant-api.com/bundles/1c763a58-4f1e-6c0c-6e59-06952d89f735/displayicon.png"
+    },
+    {
+      "codename": "TactimanMegaThemeBundle",
+      "displayName": "Tacti-Force Signature",
+      "displayIcon": "https://media.valorant-api.com/bundles/dfe28c9a-4398-ce91-e736-b7a123de7470/displayicon.png"
+    },
+    {
+      "codename": "FlushThemeBundle",
+      "displayName": "Team Ace",
+      "displayIcon": "https://media.valorant-api.com/bundles/f7bf90a6-4e39-6c04-c12a-b79c8842359c/displayicon.png"
+    },
+    {
+      "codename": "SovWorldThemeBundle",
+      "displayName": "Tethered Realms",
+      "displayIcon": "https://media.valorant-api.com/bundles/1b632bcd-4e3d-eb8e-cca6-cebf937e6ebb/displayicon.png"
+    },
+    {
+      "codename": "DoubleSniperStarterPack",
+      "displayName": "Throwback Pack: Outlaw ",
+      "displayIcon": "https://media.valorant-api.com/bundles/a042042c-40f3-df48-dbaa-4bbbd6324ba7/displayicon.png"
+    },
+    {
+      "codename": "Storefrontitem_TigerThemeBundle",
+      "displayName": "Tigris",
+      "displayIcon": "https://media.valorant-api.com/bundles/f1befd6b-4270-01b6-8a43-06b52fa417ae/displayicon.png"
+    },
+    {
+      "codename": "Spikes",
+      "displayName": "Titanmail",
+      "displayIcon": "https://media.valorant-api.com/bundles/866ce9c2-4493-daba-a025-7c805c4e3eed/displayicon.png"
+    },
+    {
+      "codename": "Halloween2024ThemeBundle",
+      "displayName": "Troublemaker",
+      "displayIcon": "https://media.valorant-api.com/bundles/6538d962-4d83-173f-e964-5f8f3b779f39/displayicon.png"
+    },
+    {
+      "codename": "Storefrontitem_CybercityThemeBundle",
+      "displayName": "Undercity",
+      "displayIcon": "https://media.valorant-api.com/bundles/d84cd2bf-42e5-34e8-062f-cba8d2c66fb2/displayicon.png"
+    },
+    {
+      "codename": "AnimeCapsuleThemeBundle",
+      "displayName": "VALORANT GO!",
+      "displayIcon": "https://media.valorant-api.com/bundles/f43bf5cd-4c1a-cba1-139a-4da6131aff95/displayicon.png"
+    },
+    {
+      "codename": "Anime1ThemeBundle",
+      "displayName": "VALORANT GO! Vol. 1",
+      "displayIcon": "https://media.valorant-api.com/bundles/b37b6a01-40f9-af81-ed34-fd8563539d44/displayicon.png"
+    },
+    {
+      "codename": "Anime1_1ThemeBundle",
+      "displayName": "VALORANT GO! Vol. 2",
+      "displayIcon": "https://media.valorant-api.com/bundles/5c8b9297-465f-080c-3c0d-c9b9811432ed/displayicon.png"
+    },
+    {
+      "codename": "Anime3ThemeBundle",
+      "displayName": "VALORANT GO! Vol. 3",
+      "displayIcon": "https://media.valorant-api.com/bundles/6f279f6b-4086-5437-2703-84a8ddc5c411/displayicon.png"
+    },
+    {
+      "codename": "VCT25SeasonThemeBundle",
+      "displayName": "VCT 2025 Season",
+      "displayIcon": "https://media.valorant-api.com/bundles/19f9e3d5-4eec-93fb-9a85-f78273e40882/displayicon.png"
+    },
+    {
+      "codename": "VCT26SeasonThemeBundle",
+      "displayName": "VCT 2026 Season",
+      "displayIcon": "https://media.valorant-api.com/bundles/26a6e15e-4ab0-78ce-ebbe-d9ae0e291f75/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps24_CNTeamsThemeBundle",
+      "displayName": "VCT CN TEAM CAPSULES",
+      "displayIcon": "https://media.valorant-api.com/bundles/e9152a68-4093-6e86-7da0-c8977024c2c4/displayicon.png"
+    },
+    {
+      "codename": "EsportsInvitationalThemeBundle",
+      "displayName": "VCT LOCK//IN",
+      "displayIcon": "https://media.valorant-api.com/bundles/2654d506-4d05-e7e9-c996-63ac6fdaf767/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps24",
+      "displayName": "VCT TEAM CAPSULES",
+      "displayIcon": "https://media.valorant-api.com/bundles/26333e26-4688-3e1e-3c7c-1ab6bf16ceec/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_100TThemeBundle",
+      "displayName": "VCT x 100T",
+      "displayIcon": "https://media.valorant-api.com/bundles/e3279dbc-4999-4af3-ce43-11bf0fd7a3b8/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_100TThemeBundle",
+      "displayName": "VCT x 100T",
+      "displayIcon": "https://media.valorant-api.com/bundles/a6481cf1-4597-ece1-5584-0c8a7aabc5be/displayicon.png"
+    },
+    {
+      "codename": "100TThemeBundle",
+      "displayName": "VCT x 100T",
+      "displayIcon": "https://media.valorant-api.com/bundles/32bded83-4a99-3efb-c549-8ba97d5db99a/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25Visitor_2GThemeBundle",
+      "displayName": "VCT x 2G",
+      "displayIcon": "https://media.valorant-api.com/bundles/dd62df9f-488e-f8b1-5fbf-6b87daf7f635/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_AGThemeBundle",
+      "displayName": "VCT x AG",
+      "displayIcon": "https://media.valorant-api.com/bundles/6c49147d-48f4-1cf7-a652-ef87fbe1eae4/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_AGThemeBundle",
+      "displayName": "VCT x AG",
+      "displayIcon": "https://media.valorant-api.com/bundles/13da29cb-4002-699c-e792-6e884265073e/displayicon.png"
+    },
+    {
+      "codename": "AGThemeBundle",
+      "displayName": "VCT x AG",
+      "displayIcon": "https://media.valorant-api.com/bundles/28f40987-4c73-669d-d990-bbbe84af5521/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25Visitor_APKThemeBundle",
+      "displayName": "VCT x APK",
+      "displayIcon": "https://media.valorant-api.com/bundles/f203fc21-4f6f-848d-258a-7290de2a2a9d/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_BBLThemeBundle",
+      "displayName": "VCT x BBL",
+      "displayIcon": "https://media.valorant-api.com/bundles/df9b2709-4313-bf13-f78b-8eb7b59f9a28/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_BBLThemeBundle",
+      "displayName": "VCT x BBL",
+      "displayIcon": "https://media.valorant-api.com/bundles/126a52f0-4606-f365-3a48-588be0936f3b/displayicon.png"
+    },
+    {
+      "codename": "BBLThemeBundle",
+      "displayName": "VCT x BBL",
+      "displayIcon": "https://media.valorant-api.com/bundles/344bf553-4168-397c-9d7d-a4bfa5aeb68a/displayicon.png"
+    },
+    {
+      "codename": "BLDThemeBundle",
+      "displayName": "VCT x BLD",
+      "displayIcon": "https://media.valorant-api.com/bundles/ada117e5-4bae-c704-de94-c5a3246c3664/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_BLGThemeBundle",
+      "displayName": "VCT x BLG",
+      "displayIcon": "https://media.valorant-api.com/bundles/da157e17-4a4f-3620-6122-2b8c7850c1b4/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_BLGThemeBundle",
+      "displayName": "VCT x BLG",
+      "displayIcon": "https://media.valorant-api.com/bundles/b8d4f311-4928-a160-cb43-329f7dd9cdbb/displayicon.png"
+    },
+    {
+      "codename": "BLGThemeBundle",
+      "displayName": "VCT x BLG",
+      "displayIcon": "https://media.valorant-api.com/bundles/440c7d5d-4581-8a56-4966-d98385dd50f0/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25Visitor_BOOMThemeBundle",
+      "displayName": "VCT x BOOM",
+      "displayIcon": "https://media.valorant-api.com/bundles/018125b7-488d-074a-14c5-ee86ac535776/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_C9ThemeBundle",
+      "displayName": "VCT x C9",
+      "displayIcon": "https://media.valorant-api.com/bundles/9a7767a2-4566-6a2e-7575-40bc4e25df37/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_C9ThemeBundle",
+      "displayName": "VCT x C9",
+      "displayIcon": "https://media.valorant-api.com/bundles/212f78f6-4baa-2e29-547e-998206ff6b55/displayicon.png"
+    },
+    {
+      "codename": "C9ThemeBundle",
+      "displayName": "VCT x C9",
+      "displayIcon": "https://media.valorant-api.com/bundles/1a9b1b7b-4123-a1d1-3352-b9be6458dede/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_DFMThemeBundle",
+      "displayName": "VCT x DFM",
+      "displayIcon": "https://media.valorant-api.com/bundles/3257d9a3-47c1-5c3a-ee23-cabcece9bd75/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_DFMThemeBundle",
+      "displayName": "VCT x DFM",
+      "displayIcon": "https://media.valorant-api.com/bundles/73f8b916-487c-4717-a6bf-f1a134cdfcda/displayicon.png"
+    },
+    {
+      "codename": "DFMThemeBundle",
+      "displayName": "VCT x DFM",
+      "displayIcon": "https://media.valorant-api.com/bundles/480b426d-4b04-76f2-8465-57897bd3e244/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_DRGThemeBundle",
+      "displayName": "VCT x DRG",
+      "displayIcon": "https://media.valorant-api.com/bundles/d0be9f56-47a5-5942-84a7-3cba734e9e44/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_DRGThemeBundle",
+      "displayName": "VCT x DRG",
+      "displayIcon": "https://media.valorant-api.com/bundles/13f0f76a-441f-b37b-aad7-a99ff1ff64b3/displayicon.png"
+    },
+    {
+      "codename": "DRGThemeBundle",
+      "displayName": "VCT x DRG",
+      "displayIcon": "https://media.valorant-api.com/bundles/d53bb083-4dee-e698-60fa-acbe1d71306e/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_DRXThemeBundle",
+      "displayName": "VCT x DRX",
+      "displayIcon": "https://media.valorant-api.com/bundles/fa9ce754-4ca8-2628-8b3c-828a9a03f62e/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_DRXThemeBundle",
+      "displayName": "VCT x DRX",
+      "displayIcon": "https://media.valorant-api.com/bundles/0fa666dd-4108-57b9-100d-c188d0caef96/displayicon.png"
+    },
+    {
+      "codename": "DRXThemeBundle",
+      "displayName": "VCT x DRX",
+      "displayIcon": "https://media.valorant-api.com/bundles/7a1a52d2-4e27-5d7e-b858-a6bd185342c2/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_EDGThemeBundle",
+      "displayName": "VCT x EDG",
+      "displayIcon": "https://media.valorant-api.com/bundles/ed72e317-43ce-1dac-2176-1287b372c657/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_EDGThemeBundle",
+      "displayName": "VCT x EDG",
+      "displayIcon": "https://media.valorant-api.com/bundles/71d7e182-43f5-44d7-475c-4cbd26fa61be/displayicon.png"
+    },
+    {
+      "codename": "EDGThemeBundle",
+      "displayName": "VCT x EDG",
+      "displayIcon": "https://media.valorant-api.com/bundles/de1d35f2-4711-ecb6-f4f0-5192e74ae9dc/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_EGThemeBundle",
+      "displayName": "VCT x EG",
+      "displayIcon": "https://media.valorant-api.com/bundles/586bd243-4bf0-eb27-d708-dc9df8b207af/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_EGThemeBundle",
+      "displayName": "VCT x EG",
+      "displayIcon": "https://media.valorant-api.com/bundles/4ec24dbb-4197-23bf-13e8-ca929bacd68f/displayicon.png"
+    },
+    {
+      "codename": "EGThemeBundle",
+      "displayName": "VCT x EG",
+      "displayIcon": "https://media.valorant-api.com/bundles/b71158fe-483d-24d9-ef84-f583342aec7e/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_FNCThemeBundle",
+      "displayName": "VCT x FNC",
+      "displayIcon": "https://media.valorant-api.com/bundles/39dfe85d-4a78-7bc3-b8ee-4981922603ad/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_FNCThemeBundle",
+      "displayName": "VCT x FNC",
+      "displayIcon": "https://media.valorant-api.com/bundles/1c56566e-4aeb-07f7-14fe-61b05cd88125/displayicon.png"
+    },
+    {
+      "codename": "FNCThemeBundle",
+      "displayName": "VCT x FNC",
+      "displayIcon": "https://media.valorant-api.com/bundles/a4e0b3bb-4c8a-06f2-c37c-2cbd5e0e68c8/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_FPXThemeBundle",
+      "displayName": "VCT x FPX",
+      "displayIcon": "https://media.valorant-api.com/bundles/ad5e5824-4f9d-3ed9-2362-df847a3b6da4/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_FPXThemeBundle",
+      "displayName": "VCT x FPX",
+      "displayIcon": "https://media.valorant-api.com/bundles/b1631019-4d74-fa7e-69e6-bbba4506a4fd/displayicon.png"
+    },
+    {
+      "codename": "FPXThemeBundle",
+      "displayName": "VCT x FPX",
+      "displayIcon": "https://media.valorant-api.com/bundles/72c9f9d0-4e44-e78d-7a9d-709f204fdc42/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_FSThemeBundle",
+      "displayName": "VCT x FS",
+      "displayIcon": "https://media.valorant-api.com/bundles/18bb141e-49de-364e-2c04-30b0b980d9e7/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_FURThemeBundle",
+      "displayName": "VCT x FUR",
+      "displayIcon": "https://media.valorant-api.com/bundles/4194892b-429e-5654-933d-e4a1a254ea77/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_FURThemeBundle",
+      "displayName": "VCT x FUR",
+      "displayIcon": "https://media.valorant-api.com/bundles/2f4a8190-4f89-d039-321b-15a58517eae3/displayicon.png"
+    },
+    {
+      "codename": "FURThemeBundle",
+      "displayName": "VCT x FUR",
+      "displayIcon": "https://media.valorant-api.com/bundles/8b55c656-4917-b4fb-14da-9cbd52e5a4ac/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_FUTThemeBundle",
+      "displayName": "VCT x FUT",
+      "displayIcon": "https://media.valorant-api.com/bundles/7ed6f99d-4354-23bd-fc39-05a555baf8e2/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_FUTThemeBundle",
+      "displayName": "VCT x FUT",
+      "displayIcon": "https://media.valorant-api.com/bundles/d3349ccf-4ce0-a4e0-c110-34a9939305af/displayicon.png"
+    },
+    {
+      "codename": "FUTThemeBundle",
+      "displayName": "VCT x FUT",
+      "displayIcon": "https://media.valorant-api.com/bundles/63a7bd33-4fb7-d17d-1564-138e82c10b21/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_G2ThemeBundle",
+      "displayName": "VCT x G2",
+      "displayIcon": "https://media.valorant-api.com/bundles/8d4f45bc-4cda-d92a-e456-71b641ff4070/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_G2ThemeBundle",
+      "displayName": "VCT x G2",
+      "displayIcon": "https://media.valorant-api.com/bundles/cb572643-4ce2-b10a-bb56-7c90cc09b19c/displayicon.png"
+    },
+    {
+      "codename": "G2ThemeBundle",
+      "displayName": "VCT x G2",
+      "displayIcon": "https://media.valorant-api.com/bundles/816f1b9f-431f-c029-62cb-ddb8932cf8be/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_GESThemeBundle",
+      "displayName": "VCT x GE",
+      "displayIcon": "https://media.valorant-api.com/bundles/acfbb3bd-4652-5a2c-4dcf-b49b9159f95c/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_GEThemeBundle",
+      "displayName": "VCT x GE",
+      "displayIcon": "https://media.valorant-api.com/bundles/c7c88dcb-4cc8-a03a-1e56-0ab86f57e16f/displayicon.png"
+    },
+    {
+      "codename": "GESThemeBundle",
+      "displayName": "VCT x GE",
+      "displayIcon": "https://media.valorant-api.com/bundles/3ad6d97b-4ed6-16e3-62e2-4eae0b31439c/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_GENThemeBundle",
+      "displayName": "VCT x GEN",
+      "displayIcon": "https://media.valorant-api.com/bundles/199cac9d-4f02-beff-43e3-0c8f539124e0/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_GENThemeBundle",
+      "displayName": "VCT x GEN",
+      "displayIcon": "https://media.valorant-api.com/bundles/9ae12de7-40ee-36c4-1dc1-2c8b65b826b8/displayicon.png"
+    },
+    {
+      "codename": "GENThemeBundle",
+      "displayName": "VCT x GEN",
+      "displayIcon": "https://media.valorant-api.com/bundles/6c4ceac0-4d4b-3f4f-f9ad-df9b353c59cd/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_GXThemeBundle",
+      "displayName": "VCT x GX",
+      "displayIcon": "https://media.valorant-api.com/bundles/ec66d54c-4173-aa25-bcb9-72aef63656d5/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_GXThemeBundle",
+      "displayName": "VCT x GX",
+      "displayIcon": "https://media.valorant-api.com/bundles/78a489b0-434f-3739-0e12-02ad18f48752/displayicon.png"
+    },
+    {
+      "codename": "GIAThemeBundle",
+      "displayName": "VCT x GX",
+      "displayIcon": "https://media.valorant-api.com/bundles/d906185e-448c-168b-7392-bbb997f22d6f/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_JDGThemeBundle",
+      "displayName": "VCT x JDG",
+      "displayIcon": "https://media.valorant-api.com/bundles/9686e843-438f-4fcb-6006-5ebe9f57bd2b/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_JDGThemeBundle",
+      "displayName": "VCT x JDG",
+      "displayIcon": "https://media.valorant-api.com/bundles/a6224135-430a-6aa6-7907-aa9e6d2ad14e/displayicon.png"
+    },
+    {
+      "codename": "JDGThemeBundle",
+      "displayName": "VCT x JDG",
+      "displayIcon": "https://media.valorant-api.com/bundles/4289b941-4bca-3f59-d5c1-368ae30c2b4d/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_KCThemeBundle",
+      "displayName": "VCT x KC",
+      "displayIcon": "https://media.valorant-api.com/bundles/5e9ecd93-4018-1b4a-bda5-849b19d48e10/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_KCThemeBundle",
+      "displayName": "VCT x KC",
+      "displayIcon": "https://media.valorant-api.com/bundles/2cf0e4fc-42a0-76d5-ac18-99a5c67f5c18/displayicon.png"
+    },
+    {
+      "codename": "KCThemeBundle",
+      "displayName": "VCT x KC",
+      "displayIcon": "https://media.valorant-api.com/bundles/a2c8eeb0-4111-c305-97e4-c196a6dc90fe/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_KOIThemeBundle",
+      "displayName": "VCT x KOI",
+      "displayIcon": "https://media.valorant-api.com/bundles/4f350340-4add-b3c2-c1e4-5a85d693954b/displayicon.png"
+    },
+    {
+      "codename": "KOIVCTThemeBundle",
+      "displayName": "VCT x KOI",
+      "displayIcon": "https://media.valorant-api.com/bundles/53ab69ca-4106-222f-1108-2c8b0e37fc8c/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_KRUThemeBundle",
+      "displayName": "VCT x KR\u00dc",
+      "displayIcon": "https://media.valorant-api.com/bundles/c3b86226-4710-67b9-5578-d6907aa35da2/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_KRUThemeBundle",
+      "displayName": "VCT x KR\u00dc",
+      "displayIcon": "https://media.valorant-api.com/bundles/2286899f-4d35-b342-bbe9-b1b1a016e807/displayicon.png"
+    },
+    {
+      "codename": "KRUThemeBundle",
+      "displayName": "VCT x KR\u00dc",
+      "displayIcon": "https://media.valorant-api.com/bundles/9374455b-42eb-279a-ac16-78ab89a4a259/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_LEVThemeBundle",
+      "displayName": "VCT x LEV",
+      "displayIcon": "https://media.valorant-api.com/bundles/e59c0038-44e6-015b-d373-5491703098b9/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_LEVThemeBundle",
+      "displayName": "VCT x LEV",
+      "displayIcon": "https://media.valorant-api.com/bundles/c55d5784-4c6d-e4ec-4d9e-b59615475694/displayicon.png"
+    },
+    {
+      "codename": "LEVThemeBundle",
+      "displayName": "VCT x LEV",
+      "displayIcon": "https://media.valorant-api.com/bundles/8fd1fe02-4337-40d6-ce06-51b047e0db1e/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_LOUDThemeBundle",
+      "displayName": "VCT x LOUD",
+      "displayIcon": "https://media.valorant-api.com/bundles/39b90f53-4ddc-1b3d-bbe1-a0938770bb58/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_LOUDThemeBundle",
+      "displayName": "VCT x LOUD",
+      "displayIcon": "https://media.valorant-api.com/bundles/8feb9ed1-441a-73b6-55ed-ff836011701e/displayicon.png"
+    },
+    {
+      "codename": "LOUDThemeBundle",
+      "displayName": "VCT x LOUD",
+      "displayIcon": "https://media.valorant-api.com/bundles/10363d3f-4fed-b351-b8c8-7a8b5faf4e59/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_M8ThemeBundle",
+      "displayName": "VCT x M8",
+      "displayIcon": "https://media.valorant-api.com/bundles/b941f466-4ba8-0f26-e092-9899fbc5bcf2/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_M8ThemeBundle",
+      "displayName": "VCT x M8",
+      "displayIcon": "https://media.valorant-api.com/bundles/3b78300a-47d4-3087-6da3-3caa1842c6dd/displayicon.png"
+    },
+    {
+      "codename": "M8ThemeBundle",
+      "displayName": "VCT x M8",
+      "displayIcon": "https://media.valorant-api.com/bundles/c110bd5d-4520-2583-2481-b9b021a4579b/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_MIBRThemeBundle",
+      "displayName": "VCT x MIBR",
+      "displayIcon": "https://media.valorant-api.com/bundles/37f767ec-44f6-820b-fc29-4a905981eab0/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_MIBRThemeBundle",
+      "displayName": "VCT x MIBR",
+      "displayIcon": "https://media.valorant-api.com/bundles/043b96ab-4458-1be1-9ab6-1880da7d75ba/displayicon.png"
+    },
+    {
+      "codename": "MIBRThemeBundle",
+      "displayName": "VCT x MIBR",
+      "displayIcon": "https://media.valorant-api.com/bundles/48877ea3-4eca-8841-6535-4db618d06af7/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_NAVIThemeBundle",
+      "displayName": "VCT x NAVI",
+      "displayIcon": "https://media.valorant-api.com/bundles/816bf0f2-41ca-51e1-ef62-0cad67b72dcd/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_NAVIThemeBundle",
+      "displayName": "VCT x NAVI",
+      "displayIcon": "https://media.valorant-api.com/bundles/1c311fff-4333-f4ec-1ead-3491fc3737f0/displayicon.png"
+    },
+    {
+      "codename": "NAVIThemeBundle",
+      "displayName": "VCT x NAVI",
+      "displayIcon": "https://media.valorant-api.com/bundles/117eb86a-4535-03a4-0164-96800efaba8a/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_NOVAThemeBundle",
+      "displayName": "VCT x NOVA",
+      "displayIcon": "https://media.valorant-api.com/bundles/0cad6de0-4c38-707d-a160-cc88bf8b66bc/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_NOVAThemeBundle",
+      "displayName": "VCT x NOVA",
+      "displayIcon": "https://media.valorant-api.com/bundles/456955a7-44e4-6088-24b3-bfa3694afd1c/displayicon.png"
+    },
+    {
+      "codename": "NOVAThemeBundle",
+      "displayName": "VCT x NOVA",
+      "displayIcon": "https://media.valorant-api.com/bundles/99ee9d58-4b3b-0e50-6848-84af61da2768/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_NRGThemeBundle",
+      "displayName": "VCT x NRG",
+      "displayIcon": "https://media.valorant-api.com/bundles/74ee7116-48c1-d5a4-9f9c-a7ac9d27ec51/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_NRGThemeBundle",
+      "displayName": "VCT x NRG",
+      "displayIcon": "https://media.valorant-api.com/bundles/49144438-45a7-22c3-0990-7696dc7a7086/displayicon.png"
+    },
+    {
+      "codename": "NRGThemeBundle",
+      "displayName": "VCT x NRG",
+      "displayIcon": "https://media.valorant-api.com/bundles/2fafe248-4890-79cf-bfd4-4691d7d32651/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25Visitor_NSThemeBundle",
+      "displayName": "VCT x NS",
+      "displayIcon": "https://media.valorant-api.com/bundles/e1d34c90-4413-ba3d-2fdc-ddb8f5332311/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_NSThemeBundle",
+      "displayName": "VCT x NS",
+      "displayIcon": "https://media.valorant-api.com/bundles/4d41253f-4eee-9c38-9ed2-7e97b855abb6/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_NVThemeBundle",
+      "displayName": "VCT x NV",
+      "displayIcon": "https://media.valorant-api.com/bundles/a23ad5ec-48f6-9539-d98e-9798af062b99/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_PCFThemeBundle",
+      "displayName": "VCT x PCF",
+      "displayIcon": "https://media.valorant-api.com/bundles/09d01495-4843-c2bb-d0fa-119d4240f791/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_PRXThemeBundle",
+      "displayName": "VCT x PRX",
+      "displayIcon": "https://media.valorant-api.com/bundles/90eeb674-4f81-887a-0387-d580f402526f/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_PRXThemeBundle",
+      "displayName": "VCT x PRX",
+      "displayIcon": "https://media.valorant-api.com/bundles/f33e2654-4579-5062-b87e-a2bd181371d5/displayicon.png"
+    },
+    {
+      "codename": "PRXThemeBundle",
+      "displayName": "VCT x PRX",
+      "displayIcon": "https://media.valorant-api.com/bundles/12095a0a-4c66-5b4b-f2e4-fe9b08027e6e/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_RRQThemeBundle",
+      "displayName": "VCT x RRQ",
+      "displayIcon": "https://media.valorant-api.com/bundles/36252577-4694-19b2-4e0d-329a64b73b46/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_RRQThemeBundle",
+      "displayName": "VCT x RRQ",
+      "displayIcon": "https://media.valorant-api.com/bundles/24e7c25e-47dc-9893-ace6-e4a81aaddffa/displayicon.png"
+    },
+    {
+      "codename": "RRQThemeBundle",
+      "displayName": "VCT x RRQ",
+      "displayIcon": "https://media.valorant-api.com/bundles/efb4a515-480e-12cd-e0fc-a0a96ef1c2c0/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_SENThemeBundle",
+      "displayName": "VCT x SEN",
+      "displayIcon": "https://media.valorant-api.com/bundles/6f99303f-4237-9456-0ace-2ab09f0080cb/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_SENThemeBundle",
+      "displayName": "VCT x SEN",
+      "displayIcon": "https://media.valorant-api.com/bundles/e9f9e68a-4fb2-2665-b7f4-f9ab5025ebe5/displayicon.png"
+    },
+    {
+      "codename": "SENThemeBundle",
+      "displayName": "VCT x SEN",
+      "displayIcon": "https://media.valorant-api.com/bundles/6e5ebf52-42e9-fc40-ab98-2eac16f74eaf/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_T1ThemeBundle",
+      "displayName": "VCT x T1",
+      "displayIcon": "https://media.valorant-api.com/bundles/8974b152-4480-230c-ee7b-a09bb35859ef/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_T1ThemeBundle",
+      "displayName": "VCT x T1",
+      "displayIcon": "https://media.valorant-api.com/bundles/5d62ffdf-4db5-8061-93cb-7eb1e0a9d25c/displayicon.png"
+    },
+    {
+      "codename": "T1ThemeBundle",
+      "displayName": "VCT x T1",
+      "displayIcon": "https://media.valorant-api.com/bundles/1cfb033a-4569-0690-a2d0-0a826a5ec363/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_TEThemeBundle",
+      "displayName": "VCT x TE",
+      "displayIcon": "https://media.valorant-api.com/bundles/b4333535-4e41-225d-6693-8296bb6260e2/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_TEThemeBundle",
+      "displayName": "VCT x TE",
+      "displayIcon": "https://media.valorant-api.com/bundles/53c4b1f1-4a0e-0d9f-32ad-8d95c77f1491/displayicon.png"
+    },
+    {
+      "codename": "TEThemeBundle",
+      "displayName": "VCT x TE",
+      "displayIcon": "https://media.valorant-api.com/bundles/7333f7de-48d7-9217-cb99-b6893b16f33f/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_TECThemeBundle",
+      "displayName": "VCT x TEC",
+      "displayIcon": "https://media.valorant-api.com/bundles/5aef7aa7-4926-5f80-5d37-bd861223b3b4/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_TECThemeBundle",
+      "displayName": "VCT x TEC",
+      "displayIcon": "https://media.valorant-api.com/bundles/f394dd38-4849-6feb-39e8-d2b71ff2b8fc/displayicon.png"
+    },
+    {
+      "codename": "TECThemeBundle",
+      "displayName": "VCT x TEC",
+      "displayIcon": "https://media.valorant-api.com/bundles/e2a35d90-43c3-1f09-228b-2cb901f6f437/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_THThemeBundle",
+      "displayName": "VCT x TH",
+      "displayIcon": "https://media.valorant-api.com/bundles/033ce27c-45ff-e47d-7cc6-13b5ff5f99f8/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_THThemeBundle",
+      "displayName": "VCT x TH",
+      "displayIcon": "https://media.valorant-api.com/bundles/de8a7f71-461c-7d63-177b-0b8586b8b01f/displayicon.png"
+    },
+    {
+      "codename": "THThemeBundle",
+      "displayName": "VCT x TH",
+      "displayIcon": "https://media.valorant-api.com/bundles/f8f7a18d-4781-5518-82a5-1daabfdec01c/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_TLThemeBundle",
+      "displayName": "VCT x TL",
+      "displayIcon": "https://media.valorant-api.com/bundles/e40e8fa6-46be-63ca-143d-8b958666e753/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_TLThemeBundle",
+      "displayName": "VCT x TL",
+      "displayIcon": "https://media.valorant-api.com/bundles/d17f49c4-4319-32eb-91c6-72bb3525e8b0/displayicon.png"
+    },
+    {
+      "codename": "TLThemeBundle",
+      "displayName": "VCT x TL",
+      "displayIcon": "https://media.valorant-api.com/bundles/a4384542-4f5a-e31f-1e4e-fb875160ce91/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_TLNThemeBundle",
+      "displayName": "VCT x TLN",
+      "displayIcon": "https://media.valorant-api.com/bundles/ffdc2123-4ef4-bad7-d710-95854cce516a/displayicon.png"
+    },
+    {
+      "codename": "TLNThemeBundle",
+      "displayName": "VCT x TLN",
+      "displayIcon": "https://media.valorant-api.com/bundles/a2f641cd-461d-909c-d21e-1db2b4a4c964/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_TSThemeBundle",
+      "displayName": "VCT x TS",
+      "displayIcon": "https://media.valorant-api.com/bundles/ffdf6e92-4565-8b67-e5a3-1dab820ce363/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_TSThemeBundle",
+      "displayName": "VCT x TS",
+      "displayIcon": "https://media.valorant-api.com/bundles/81250ca2-4519-f8a5-ca64-6fad454d4fa4/displayicon.png"
+    },
+    {
+      "codename": "TSThemeBundle",
+      "displayName": "VCT x TS",
+      "displayIcon": "https://media.valorant-api.com/bundles/e92ad258-4121-76da-92b8-7ab3e0446979/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_TYLThemeBundle",
+      "displayName": "VCT x TYL",
+      "displayIcon": "https://media.valorant-api.com/bundles/33615a69-4988-a6a4-02ed-18918e4a8f1e/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_TYLThemeBundle",
+      "displayName": "VCT x TYL",
+      "displayIcon": "https://media.valorant-api.com/bundles/e6f52361-4f8c-af34-38ce-5b905a803a0f/displayicon.png"
+    },
+    {
+      "codename": "TYLThemeBundle",
+      "displayName": "VCT x TYL",
+      "displayIcon": "https://media.valorant-api.com/bundles/a29cc5fa-464d-f7ff-2de1-1da07eae7229/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_VITThemeBundle",
+      "displayName": "VCT x VIT",
+      "displayIcon": "https://media.valorant-api.com/bundles/23a259d5-4352-a494-dca4-0992c6535a64/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_VITThemeBundle",
+      "displayName": "VCT x VIT",
+      "displayIcon": "https://media.valorant-api.com/bundles/e7ce2a70-46c2-61e2-bcdd-82a88a9d0d5c/displayicon.png"
+    },
+    {
+      "codename": "VITThemeBundle",
+      "displayName": "VCT x VIT",
+      "displayIcon": "https://media.valorant-api.com/bundles/240f2ec5-49f2-c575-0fbb-4c9c2b07c154/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_VLThemeBundle",
+      "displayName": "VCT x VL",
+      "displayIcon": "https://media.valorant-api.com/bundles/e3f4558b-4e66-a64a-b6b8-988fdbe90389/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_WOLThemeBundle",
+      "displayName": "VCT x WOL",
+      "displayIcon": "https://media.valorant-api.com/bundles/0dc9affa-4ede-c55c-c768-7395a2f94a1d/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_WOLThemeBundle",
+      "displayName": "VCT x WOL",
+      "displayIcon": "https://media.valorant-api.com/bundles/9474d4bc-4c89-2d0a-5fd0-bdb23506bf0c/displayicon.png"
+    },
+    {
+      "codename": "WOLThemeBundle",
+      "displayName": "VCT x WOL",
+      "displayIcon": "https://media.valorant-api.com/bundles/0667837d-42f6-a5e9-409a-6eab70b0d330/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25Visitor_XLGThemeBundle",
+      "displayName": "VCT x XLG",
+      "displayIcon": "https://media.valorant-api.com/bundles/6cbfa07f-4e8b-f1f1-e7fb-f388f01b3e7a/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_XLGThemeBundle",
+      "displayName": "VCT x XLG",
+      "displayIcon": "https://media.valorant-api.com/bundles/a738a547-4b46-44ac-f8fa-6bade01003d6/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_ZETAThemeBundle",
+      "displayName": "VCT x ZETA",
+      "displayIcon": "https://media.valorant-api.com/bundles/eb0906e2-459b-bd43-1843-81aa95640f49/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_ZETAThemeBundle",
+      "displayName": "VCT x ZETA",
+      "displayIcon": "https://media.valorant-api.com/bundles/ede77feb-4ec2-0b46-eb70-48a39d6f3df1/displayicon.png"
+    },
+    {
+      "codename": "ZETAThemeBundle",
+      "displayName": "VCT x ZETA",
+      "displayIcon": "https://media.valorant-api.com/bundles/285ce9b7-4eff-19af-8370-7fb2e62b05c5/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25_GenericThemeBundle",
+      "displayName": "VCT25 TEAM CAPSULES",
+      "displayIcon": "https://media.valorant-api.com/bundles/4defe9fc-4a3f-d6bd-8102-57b1b7a6792e/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps25Visitor_GenericThemeBundle",
+      "displayName": "VCT25 TEAM CAPSULES",
+      "displayIcon": "https://media.valorant-api.com/bundles/37589216-4864-c28d-3fd3-09ab5584d575/displayicon.png"
+    },
+    {
+      "codename": "VCTCaps26_GenericThemeBundle",
+      "displayName": "VCT26 TEAM CAPSULES",
+      "displayIcon": "https://media.valorant-api.com/bundles/c3fcfdb0-4a30-3935-a49e-13a119b7ca8b/displayicon.png"
+    },
+    {
+      "codename": "MonkeyKingThemeBundle",
+      "displayName": "Valiant Hero",
+      "displayIcon": "https://media.valorant-api.com/bundles/f79f85ec-48f8-6573-873a-75b4627b615e/displayicon.png"
+    },
+    {
+      "codename": "Wasteland2ThemeBundle",
+      "displayName": "Wasteland",
+      "displayIcon": "https://media.valorant-api.com/bundles/d3a3fbd7-43b6-efd2-bb7d-868275c2dcd4/displayicon.png"
+    },
+    {
+      "codename": "WastelandThemeBundle",
+      "displayName": "Wasteland",
+      "displayIcon": "https://media.valorant-api.com/bundles/4e3a244b-4482-0541-3eab-b8912cdb72d6/displayicon.png"
+    },
+    {
+      "codename": "WinterThemeBundle",
+      "displayName": "Winterwunderland",
+      "displayIcon": "https://media.valorant-api.com/bundles/79d2f4b9-4066-8b5b-884f-1d95b33d2ac5/displayicon.png"
+    },
+    {
+      "codename": "UnicornThemeBundle",
+      "displayName": "Wonderstallion",
+      "displayIcon": "https://media.valorant-api.com/bundles/790e8771-4f70-8b69-041d-c6a921f09be5/displayicon.png"
+    },
+    {
+      "codename": "HypedragonThemeBundle",
+      "displayName": "XER\u00d8FANG",
+      "displayIcon": "https://media.valorant-api.com/bundles/8b97b3f5-4555-6818-5ed0-18b1fb4e1336/displayicon.png"
+    },
+    {
+      "codename": "Alien",
+      "displayName": "Xenohunter",
+      "displayIcon": "https://media.valorant-api.com/bundles/3941ad01-4e3b-46e0-ba3a-ab94f7c67f98/displayicon.png"
+    }
+  ],
+  "skins": [
+    {
+      "codename": "Airplane",
+      "displayName": "Altitude Odin",
+      "theme": "Altitude",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/89be9866-4807-6235-2a95-499cd23828df/displayicon.png"
+    },
+    {
+      "codename": "Alien",
+      "displayName": "Xenohunter Odin",
+      "theme": "Xenohunter",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/94c085e6-48e1-c879-2552-88bf7850c5a8/displayicon.png"
+    },
+    {
+      "codename": "Aquarium2",
+      "displayName": "Neptune Odin",
+      "theme": "Neptune",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a67c2daa-4f4d-1af0-0ff4-6fafde471776/displayicon.png"
+    },
+    {
+      "codename": "Blackletter",
+      "displayName": "Heartbreaker Odin",
+      "theme": "Heartbreaker",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d6586a38-4bf4-1c35-22c9-029aee5942bb/displayicon.png"
+    },
+    {
+      "codename": "Chibi",
+      "displayName": "Tactiplay Odin",
+      "theme": "Tactiplay",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e02d6b2c-4e2e-a5f1-6bb8-38ac74485d7e/displayicon.png"
+    },
+    {
+      "codename": "Codex",
+      "displayName": "Rune Stone Odin",
+      "theme": "Rune Stone",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/abef8114-4495-6da7-2ade-02bd0f014fd3/displayicon.png"
+    },
+    {
+      "codename": "Comet",
+      "displayName": "Comet Odin",
+      "theme": "Comet",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ba2592f7-45c8-8d25-1442-83971f3d95dd/displayicon.png"
+    },
+    {
+      "codename": "CuteButLethal",
+      "displayName": "Doom Wing Odin",
+      "theme": "Doom Wing",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/729f0ef1-4c70-dc39-3fe0-9d887a320070/displayicon.png"
+    },
+    {
+      "codename": "Cyberknight",
+      "displayName": "Doombringer Odin",
+      "theme": "Doombringer",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fcba924d-41f6-7a92-f904-13b0fcbc2bdd/displayicon.png"
+    },
+    {
+      "codename": "Cyberpunk",
+      "displayName": "Glitchpop Odin",
+      "theme": "Glitchpop",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/97af88e4-4176-9fa3-4a26-57919443dab7/displayicon.png"
+    },
+    {
+      "codename": "Electroflux2",
+      "displayName": "Nitro Odin",
+      "theme": "Nitro",
+      "displayIcon": null
+    },
+    {
+      "codename": "Flyer",
+      "displayName": "Topotek Odin",
+      "theme": "Topotek",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/85c76090-4de5-3a3a-a763-f4a7b779e8ed/displayicon.png"
+    },
+    {
+      "codename": "Golem",
+      "displayName": "Dolmir's Revenge Odin",
+      "theme": "Dolmir's Revenge",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/79ffb1d7-405d-1b96-6071-e7a804555cd7/displayicon.png"
+    },
+    {
+      "codename": "Graphic",
+      "displayName": "Nanobreak Odin",
+      "theme": "Nanobreak",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9773ba41-4512-3706-321f-c3b826754db9/displayicon.png"
+    },
+    {
+      "codename": "Grid",
+      "displayName": ".EXE Odin",
+      "theme": ".EXE",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cda41b87-4d3a-c17c-5f6d-8990cc9c5efb/displayicon.png"
+    },
+    {
+      "codename": "Gunslinger",
+      "displayName": "Neo Frontier Odin",
+      "theme": "Neo Frontier",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bd647d56-4542-19cd-e1ed-4fb429c78cf9/displayicon.png"
+    },
+    {
+      "codename": "HypeBeast2",
+      "displayName": "Prime//2.0 Odin",
+      "theme": "Prime//2.0",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/157bcebe-484d-82e2-2a60-c8b4b11197ea/displayicon.png"
+    },
+    {
+      "codename": "Iridescence2",
+      "displayName": "Prism III Odin",
+      "theme": "Prism III",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/72e724e9-4ba4-2d12-ce1a-8db1a528b9d3/displayicon.png"
+    },
+    {
+      "codename": "Lightning",
+      "displayName": "Smite Odin",
+      "theme": "Smite",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9e648b20-4ed5-1f34-87a9-979cbe9a958a/displayicon.png"
+    },
+    {
+      "codename": "Military",
+      "displayName": "Coalition: Cobra Odin",
+      "theme": "Coalition: Cobra",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5c13101a-45e4-d568-aade-d6b0dadedcd1/displayicon.png"
+    },
+    {
+      "codename": "Nightmare",
+      "displayName": "Insidious Odin",
+      "theme": "Insidious",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ca1a3ade-4809-35ea-cd96-b687149f4945/displayicon.png"
+    },
+    {
+      "codename": "RGB",
+      "displayName": "Lightwave Odin",
+      "theme": "Lightwave",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/57523cf0-4574-968b-9f17-168e3bdb6d0d/displayicon.png"
+    },
+    {
+      "codename": "Rainbow",
+      "displayName": "Sensation Odin",
+      "theme": "Sensation",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/65baa0cd-42ec-f99d-54a0-338d795b5824/displayicon.png"
+    },
+    {
+      "codename": "Random",
+      "displayName": "Random Favorite Skin",
+      "theme": "Random Favorite Skin",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9c134f41-4c29-1bd8-682e-178e7f349c9b/displayicon.png"
+    },
+    {
+      "codename": "RoboMecha",
+      "displayName": "Orion Odin",
+      "theme": "Orion",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3bb7e1cd-4774-3b84-ab13-3fa8ca182f20/displayicon.png"
+    },
+    {
+      "codename": "Schema",
+      "displayName": "Schema Odin",
+      "theme": "Schema",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/02cce94a-4dc2-d11a-33cf-d8aba4e36202/displayicon.png"
+    },
+    {
+      "codename": "SilverWolf",
+      "displayName": "Lycan's Bane Odin",
+      "theme": "Lycan's Bane",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/468fdc95-443f-f1c2-bd22-fc8e1af0de39/displayicon.png"
+    },
+    {
+      "codename": "SoL2",
+      "displayName": "Sentinels of Light Odin",
+      "theme": "Sentinels of Light",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/67fb338a-4b21-ed70-7c2a-46bef4742b4f/displayicon.png"
+    },
+    {
+      "codename": "Soulstealer2",
+      "displayName": "Reaver Odin",
+      "theme": "Reaver",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8dda01a6-4237-f430-ac70-c3ba677963e9/displayicon.png"
+    },
+    {
+      "codename": "Sovereign2",
+      "displayName": "Sovereign Odin",
+      "theme": "Sovereign",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a7995818-409f-c79b-20b7-28ad642f3135/displayicon.png"
+    },
+    {
+      "codename": "Standard",
+      "displayName": "Standard Odin",
+      "theme": "Standard",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/f454efd1-49cb-372f-7096-d394df615308/displayicon.png"
+    },
+    {
+      "codename": "Starpower",
+      "displayName": "Evori Dreamwings Odin",
+      "theme": "Evori Dreamwings",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fa1c05fd-49fc-ad93-17d8-f0aaf11874cd/displayicon.png"
+    },
+    {
+      "codename": "StickerPop",
+      "displayName": "Freehand Odin",
+      "theme": "Freehand",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/14796249-4f23-9d52-4ea1-d8878099c01e/displayicon.png"
+    },
+    {
+      "codename": "StreetArt",
+      "displayName": "Aerosol Odin",
+      "theme": "Aerosol",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/befa2f32-410f-a418-d8d3-b194dcf2ec6d/displayicon.png"
+    },
+    {
+      "codename": "Tarot",
+      "displayName": "Fortune's Hand Odin",
+      "theme": "Fortune's Hand",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/14f9d94a-4add-10a9-588d-48a7111da96f/displayicon.png"
+    },
+    {
+      "codename": "Urf",
+      "displayName": "BlastX Odin",
+      "theme": "BlastX",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/85ed3f9d-4e59-a709-8faf-bc86effb3a07/displayicon.png"
+    },
+    {
+      "codename": "Vault",
+      "displayName": "Solarex Odin",
+      "theme": "Solarex",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6f231df6-42ed-34aa-e836-78a4a144d4ea/displayicon.png"
+    },
+    {
+      "codename": "AlienSky",
+      "displayName": "Space Piercer Ares",
+      "theme": "Space Piercer",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/37cacef1-4ff3-fafb-b0e0-f1b14ce9449d/displayicon.png"
+    },
+    {
+      "codename": "Anime2",
+      "displayName": "VALORANT GO! Vol. 2 Ares",
+      "theme": "VALORANT GO! Vol. 2",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e9fce399-4abc-bb3c-8992-f887918ce327/displayicon.png"
+    },
+    {
+      "codename": "ArtDeco",
+      "displayName": "Aristocrat Ares",
+      "theme": "Aristocrat",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8b9855f2-4cc6-0c44-3e7c-d0b2a32c6950/displayicon.png"
+    },
+    {
+      "codename": "Ashen2",
+      "displayName": "Gaia's Vengeance Ares",
+      "theme": "Gaia's Vengeance",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1e5ee5bf-43d5-28ee-b2f7-96a53b783dc2/displayicon.png"
+    },
+    {
+      "codename": "Astronaut",
+      "displayName": "Endeavour Ares",
+      "theme": "Endeavour",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bb004222-4ecd-e109-e875-069c820548fa/displayicon.png"
+    },
+    {
+      "codename": "BeeaTeam",
+      "displayName": "Bumble Brigade Ares",
+      "theme": "Bumble Brigade",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a609cb96-44aa-f949-c357-e4883fe664d1/displayicon.png"
+    },
+    {
+      "codename": "Cosmos",
+      "displayName": "Nebula Ares",
+      "theme": "Nebula",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ac65b631-4bd1-b0fa-3313-0da74d4eba9d/displayicon.png"
+    },
+    {
+      "codename": "Doodlebuds",
+      "displayName": "Doodle Buds Ares",
+      "theme": "Doodle Buds",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/35beb433-425e-7072-7ac3-9ca95d1d1fd9/displayicon.png"
+    },
+    {
+      "codename": "Dragongate",
+      "displayName": "Dragon Gate Ares",
+      "theme": "Dragon Gate",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5bbf3175-411f-af59-c8ee-4395a61b3858/displayicon.png"
+    },
+    {
+      "codename": "Edge",
+      "displayName": "Singularity Ares",
+      "theme": "Singularity",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e901bdeb-405f-d06c-0733-6783274d85b0/displayicon.png"
+    },
+    {
+      "codename": "Electroflux",
+      "displayName": "Rush Ares",
+      "theme": "Rush",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4e04647a-4cfc-64f8-4643-f6b7dbcb2943/displayicon.png"
+    },
+    {
+      "codename": "Exo",
+      "displayName": "Hivemind Ares",
+      "theme": "Hivemind",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/556646c0-46dd-6986-00df-a78d1c17f268/displayicon.png"
+    },
+    {
+      "codename": "FineDining",
+      "displayName": "Gourmand Ares",
+      "theme": "Gourmand",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e434418b-4a79-5353-3cfc-5a85af91ef0b/displayicon.png"
+    },
+    {
+      "codename": "Fury",
+      "displayName": "Spitfire Ares",
+      "theme": "Spitfire",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/04b1358c-4702-dd82-a135-368384b685dd/displayicon.png"
+    },
+    {
+      "codename": "Hex",
+      "displayName": "Digihex Ares",
+      "theme": "Digihex",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b4803277-468a-f798-7120-718963b94d7a/displayicon.png"
+    },
+    {
+      "codename": "Hieroglyphs",
+      "displayName": "Hieroscape Ares",
+      "theme": "Hieroscape",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/84fbc17e-485f-06ec-f3cb-2eaf700cafd3/displayicon.png"
+    },
+    {
+      "codename": "Historical",
+      "displayName": "Infantry Ares",
+      "theme": "Infantry",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e089be41-4242-b28d-1894-bbba193957a2/displayicon.png"
+    },
+    {
+      "codename": "Hohloma",
+      "displayName": "Goldwing Ares",
+      "theme": "Goldwing",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9d2b497b-434d-07fc-ea0f-ee96de4bffa1/displayicon.png"
+    },
+    {
+      "codename": "Industrial",
+      "displayName": "Outpost Ares",
+      "theme": "Outpost",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4308fe43-44c1-9fe8-d5f9-95be2bc70d51/displayicon.png"
+    },
+    {
+      "codename": "Iridescence",
+      "displayName": "Prism Ares",
+      "theme": "Prism",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/841c9aab-4005-f7fd-3b67-24b335100fb4/displayicon.png"
+    },
+    {
+      "codename": "Jellyfish",
+      "displayName": "Aquatica Ares",
+      "theme": "Aquatica",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2edbde3f-4ccc-9251-d92f-21bc9046b999/displayicon.png"
+    },
+    {
+      "codename": "Jinju",
+      "displayName": "Yoonseul Ares",
+      "theme": "Yoonseul",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5d79b1d4-4855-fb37-aa20-b8844d0af7dc/displayicon.png"
+    },
+    {
+      "codename": "LittleNightmare",
+      "displayName": "Monstrocity Ares",
+      "theme": "Monstrocity",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ff0a538f-4ee6-a3e7-f7a8-a0b5a76e027b/displayicon.png"
+    },
+    {
+      "codename": "LosMuertos",
+      "displayName": "Nunca Olvidados Ares",
+      "theme": "Nunca Olvidados",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7aa16eb6-45ef-1446-fdaa-5f8fbbd04bee/displayicon.png"
+    },
+    {
+      "codename": "Lunar",
+      "displayName": "Celestial Ares",
+      "theme": "Celestial",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d21e2975-4586-635c-3fe4-e6be738243b3/displayicon.png"
+    },
+    {
+      "codename": "Magepunk2",
+      "displayName": "Magepunk Ares",
+      "theme": "Magepunk",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0fac1dcf-48d0-c6c4-675e-2a8013bc879c/displayicon.png"
+    },
+    {
+      "codename": "Minima",
+      "displayName": "Minima Ares",
+      "theme": "Minima",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cd8eb70d-443c-d9fd-48cd-98bace9d5132/displayicon.png"
+    },
+    {
+      "codename": "MonkeyKing",
+      "displayName": "Valiant Hero Ares",
+      "theme": "Valiant Hero",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/26bb8b5c-4b3f-e0f6-39f7-bfa6eae59c00/displayicon.png"
+    },
+    {
+      "codename": "Montage",
+      "displayName": "Montage Ares",
+      "theme": "Montage",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/de06622c-4bf3-d9af-2191-11bf1c55ca54/displayicon.png"
+    },
+    {
+      "codename": "Oblivion2",
+      "displayName": "Ion Ares",
+      "theme": "Ion",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0f4b0478-4759-911d-c44b-2a907534789d/displayicon.png"
+    },
+    {
+      "codename": "Oni2",
+      "displayName": "Oni Ares",
+      "theme": "Oni",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/759bca71-4764-19f8-8890-239eedb78fa3/displayicon.png"
+    },
+    {
+      "codename": "Pets",
+      "displayName": "9 Lives Ares",
+      "theme": "9 Lives",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4e459b3b-4dab-934f-1d77-bdbe75b6fcca/displayicon.png"
+    },
+    {
+      "codename": "Polyfrog",
+      "displayName": "POLYfrog Ares",
+      "theme": "POLYfrog",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ff555802-4633-0c8b-93f8-b8887666e3ad/displayicon.png"
+    },
+    {
+      "codename": "Polypig",
+      "displayName": "Divine Swine Ares",
+      "theme": "Divine Swine",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/398ef7c2-4055-980e-a8b4-669ca8bc5084/displayicon.png"
+    },
+    {
+      "codename": "Puzzle",
+      "displayName": "Jigsaw Ares",
+      "theme": "Jigsaw",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e4b7f196-4f05-825f-e795-a59fc829195d/displayicon.png"
+    },
+    {
+      "codename": "Radianite",
+      "displayName": "Premiere Collision Ares",
+      "theme": "Premiere Collision",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/165116bf-497a-3ffa-38dc-c58d4475e225/displayicon.png"
+    },
+    {
+      "codename": "Random",
+      "displayName": "Random Favorite Skin",
+      "theme": "Random Favorite Skin",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/acccab4a-4093-8a4a-f1d3-299071d763d3/displayicon.png"
+    },
+    {
+      "codename": "SOL",
+      "displayName": "Sentinels of Light Ares",
+      "theme": "Sentinels of Light",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9f3e2ba6-428f-c635-67e0-b8b7d9e3c2fc/displayicon.png"
+    },
+    {
+      "codename": "Sakura",
+      "displayName": "Sakura Ares",
+      "theme": "Sakura",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2666f98d-4f88-8cb9-4927-629d75a6a7ad/displayicon.png"
+    },
+    {
+      "codename": "ScorchTheSky",
+      "displayName": "Keys to Elysium Ares",
+      "theme": "Keys to Elysium",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d40afbc0-4cb6-d8ec-a5e8-23afdfdc9dc3/displayicon.png"
+    },
+    {
+      "codename": "ScubaRobot",
+      "displayName": "Hi-DR0 Ares",
+      "theme": "Hi-DR0",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/175393f4-4e60-7403-4a4d-95818f6cc007/displayicon.png"
+    },
+    {
+      "codename": "Shadowplay",
+      "displayName": "Silhouette Ares",
+      "theme": "Silhouette",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bef693e7-419c-af25-c26c-558b3e3bb473/displayicon.png"
+    },
+    {
+      "codename": "Snowglobe",
+      "displayName": "Snowfall Ares",
+      "theme": "Snowfall",
+      "displayIcon": null
+    },
+    {
+      "codename": "Spikes",
+      "displayName": "Titanmail Ares",
+      "theme": "Titanmail",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d29d764d-41ce-5a4d-0a96-7b8b91da16fd/displayicon.png"
+    },
+    {
+      "codename": "Spirit2",
+      "displayName": "Mystbloom Ares",
+      "theme": "Mystbloom",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/c976f29d-4a83-3a40-2907-8dadbb7c5940/displayicon.png"
+    },
+    {
+      "codename": "Standard",
+      "displayName": "Standard Ares",
+      "theme": "Standard",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5305d9c4-4f46-fbf4-9e9a-dea772c263b5/displayicon.png"
+    },
+    {
+      "codename": "Utopia",
+      "displayName": "Haloform Ares",
+      "theme": "Haloform",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/921d59b7-4cfc-40ff-761b-b1b9515c341a/displayicon.png"
+    },
+    {
+      "codename": "VoidBorn",
+      "displayName": "Blackspyre Ares",
+      "theme": "Blackspyre",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/80bb82f9-4891-7340-c8d8-7daac5567ee2/displayicon.png"
+    },
+    {
+      "codename": "AbstractHeroes",
+      "displayName": "Immortalized Vandal",
+      "theme": "Immortalized",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d980c0c8-492b-b8df-2d91-af99a7707170/displayicon.png"
+    },
+    {
+      "codename": "Afterglow",
+      "displayName": "RGX 11z Pro Vandal",
+      "theme": "RGX 11z Pro",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e5490f71-455b-74ad-f762-f5a876d4dff9/displayicon.png"
+    },
+    {
+      "codename": "AirSquad",
+      "displayName": "Sky Reaper Vandal",
+      "theme": "Sky Reaper",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/87fb2de6-4ead-37a5-c168-5ab3cd684517/displayicon.png"
+    },
+    {
+      "codename": "Airplane",
+      "displayName": "Altitude Vandal",
+      "theme": "Altitude",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/c97cd8a3-44ef-8425-5bf6-11bf72128606/displayicon.png"
+    },
+    {
+      "codename": "Anime2",
+      "displayName": "VALORANT GO! Vol. 2 Vandal",
+      "theme": "VALORANT GO! Vol. 2",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ba6f2526-4ed2-8e62-49aa-ebbb04290682/displayicon.png"
+    },
+    {
+      "codename": "Anomaly",
+      "displayName": "Divergence Vandal",
+      "theme": "Divergence",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5a510a45-4b2a-2b9a-bd78-1ea6d229ba38/displayicon.png"
+    },
+    {
+      "codename": "Antares",
+      "displayName": "Araxys Vandal",
+      "theme": "Araxys",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4c926aa9-4f26-bc80-c486-9b888333373f/displayicon.png"
+    },
+    {
+      "codename": "Aquarium",
+      "displayName": "Neptune Vandal",
+      "theme": "Neptune",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/db91451c-4309-2c8c-eded-bf842d844e52/displayicon.png"
+    },
+    {
+      "codename": "ArtDeco",
+      "displayName": "Aristocrat Vandal",
+      "theme": "Aristocrat",
+      "displayIcon": null
+    },
+    {
+      "codename": "Ashen",
+      "displayName": "Gaia's Vengeance Vandal",
+      "theme": "Gaia's Vengeance",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/000ad7b1-44b0-9345-ea47-9cbd7dcdbb38/displayicon.png"
+    },
+    {
+      "codename": "Assault",
+      "displayName": "MK.VII Liberty Vandal",
+      "theme": "MK.VII Liberty",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6dee8259-4620-920a-cef7-14944bbed130/displayicon.png"
+    },
+    {
+      "codename": "Astronaut",
+      "displayName": "Endeavour Vandal",
+      "theme": "Endeavour",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d3733bfe-48d7-b119-3195-249d3b46b528/displayicon.png"
+    },
+    {
+      "codename": "Brigade",
+      "displayName": "ATLAS // CMD Vandal",
+      "theme": "ATLAS // CMD",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d84fc9f3-412c-257e-b135-94b586d4b631/displayicon.png"
+    },
+    {
+      "codename": "Champions",
+      "displayName": "Champions 2021 Vandal",
+      "theme": "Champions 2021",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9bf19b77-4b33-7203-9f2c-16932970622f/displayicon.png"
+    },
+    {
+      "codename": "Champions2023",
+      "displayName": "Champions 2023 Vandal",
+      "theme": "Champions 2023",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b0f65660-4c51-13b7-9d01-e29a1e2879b0/displayicon.png"
+    },
+    {
+      "codename": "Circle",
+      "displayName": "Origin Vandal",
+      "theme": "Origin",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6c4315b8-4ff1-baaa-5aac-5790c7443353/displayicon.png"
+    },
+    {
+      "codename": "Comet",
+      "displayName": "Comet Vandal",
+      "theme": "Comet",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e271a430-4282-847b-3a51-5d97839ce221/displayicon.png"
+    },
+    {
+      "codename": "Commando",
+      "displayName": "Phaseguard Vandal",
+      "theme": "Phaseguard",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b8a6d8f5-4171-c0f3-eab4-9bb64af25f4f/displayicon.png"
+    },
+    {
+      "codename": "Constellation",
+      "displayName": "Starlit Odyssey Vandal",
+      "theme": "Starlit Odyssey",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ffb65a92-4654-a7f8-1908-bf9bb18995a3/displayicon.png"
+    },
+    {
+      "codename": "CozyCafe",
+      "displayName": "Verdant Cafe Vandal",
+      "theme": "Verdant Cafe",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7f26d04c-44fb-1d65-16f0-4f827686d72b/displayicon.png"
+    },
+    {
+      "codename": "Cyberpunk2",
+      "displayName": "Glitchpop Vandal",
+      "theme": "Glitchpop",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/74789f33-4632-8052-96d7-258538721a32/displayicon.png"
+    },
+    {
+      "codename": "Daedalus",
+      "displayName": "ChronoVoid Vandal",
+      "theme": "ChronoVoid",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8e762a1f-4102-b7ce-d6a0-9690c5bfe160/displayicon.png"
+    },
+    {
+      "codename": "DemonStone",
+      "displayName": "Prelude to Chaos Vandal",
+      "theme": "Prelude to Chaos",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/522a264e-4ca7-adb0-6cf1-28b2ef938727/displayicon.png"
+    },
+    {
+      "codename": "Dragon",
+      "displayName": "Elderflame Vandal",
+      "theme": "Elderflame",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/18609205-4edb-5966-cff8-0fba0230ba1e/displayicon.png"
+    },
+    {
+      "codename": "Dynasty",
+      "displayName": "Imperium Vandal",
+      "theme": "Imperium",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/917ca6e8-403e-3691-78d9-a8aa6118385f/displayicon.png"
+    },
+    {
+      "codename": "Edge2",
+      "displayName": "Singularity Vandal",
+      "theme": "Singularity",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d6c7ff28-467e-bb3f-3c0c-c5b9445e55ca/displayicon.png"
+    },
+    {
+      "codename": "Ego2",
+      "displayName": "ORA by OneTap Vandal",
+      "theme": "ORA by OneTap",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2ef9ee97-4735-e7d9-069f-fb80541468b5/displayicon.png"
+    },
+    {
+      "codename": "Egypt",
+      "displayName": "Sarmad Vandal",
+      "theme": "Sarmad",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5b6b1eee-4185-8f83-9374-3391d0f0f742/displayicon.png"
+    },
+    {
+      "codename": "Electroflux2",
+      "displayName": "Nitro Vandal",
+      "theme": "Nitro",
+      "displayIcon": null
+    },
+    {
+      "codename": "Exo",
+      "displayName": "Hivemind Vandal",
+      "theme": "Hivemind",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/f7f63b78-4b12-b21e-a0e7-6bafbad81509/displayicon.png"
+    },
+    {
+      "codename": "F1",
+      "displayName": "Venturi Vandal",
+      "theme": "Venturi",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5a658084-453f-e971-5def-2bb9cf6e5e90/displayicon.png"
+    },
+    {
+      "codename": "Fallen",
+      "displayName": "Forsaken Vandal",
+      "theme": "Forsaken",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/437307c6-424c-6a48-9738-949b91166353/displayicon.png"
+    },
+    {
+      "codename": "Flush",
+      "displayName": "Team Ace Vandal",
+      "theme": "Team Ace",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/25980352-4407-60ff-eb27-058c1ea696cc/displayicon.png"
+    },
+    {
+      "codename": "Fusionwave",
+      "displayName": "Heartstopper Vandal",
+      "theme": "Heartstopper",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/08cdb3d5-4742-f8d4-9614-35b9f231b044/displayicon.png"
+    },
+    {
+      "codename": "GettingSweaty",
+      "displayName": "Superset Vandal",
+      "theme": "Superset",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/c9c999ae-4bc4-df1c-328d-ad93c0d81368/displayicon.png"
+    },
+    {
+      "codename": "Golem",
+      "displayName": "Dolmir's Revenge Vandal",
+      "theme": "Dolmir's Revenge",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3a079e06-4b63-2293-fbd8-4fb896e8af3d/displayicon.png"
+    },
+    {
+      "codename": "Gothic",
+      "displayName": "Ruin Vandal",
+      "theme": "Ruin",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/948d31a0-4c2a-9c82-2b89-fe9f2ec65036/displayicon.png"
+    },
+    {
+      "codename": "Grid",
+      "displayName": ".EXE Vandal",
+      "theme": ".EXE",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6f3a2a08-4f32-dbdc-8dca-628a5c840052/displayicon.png"
+    },
+    {
+      "codename": "Grid2",
+      "displayName": ".SYS Vandal",
+      "theme": ".SYS",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/23d61dbb-457a-5590-2e91-38a67a52c332/displayicon.png"
+    },
+    {
+      "codename": "Gunslinger2",
+      "displayName": "Neo Frontier Vandal",
+      "theme": "Neo Frontier",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5ef15ada-4332-093f-ea15-8a8891d863d0/displayicon.png"
+    },
+    {
+      "codename": "Hellfire",
+      "displayName": "Primordium Vandal",
+      "theme": "Primordium",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a70fd508-44ea-8de3-3b30-d3a7eb9db42e/displayicon.png"
+    },
+    {
+      "codename": "Hologram",
+      "displayName": "EX.O Vandal",
+      "theme": "EX.O",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/59032dea-4759-1768-74c9-3796a69a0e32/displayicon.png"
+    },
+    {
+      "codename": "Horizon",
+      "displayName": "Horizon Vandal",
+      "theme": "Horizon",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9d71edb0-453c-defa-507d-57aa2935b379/displayicon.png"
+    },
+    {
+      "codename": "HypeBeast",
+      "displayName": "Prime Vandal",
+      "theme": "Prime",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b9ee2457-481c-6776-3f5b-0ca8e8f90c89/displayicon.png"
+    },
+    {
+      "codename": "Hypedragon",
+      "displayName": "XER\u00d8FANG Vandal ",
+      "theme": "XER\u00d8FANG ",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b6f79657-4a6d-e2ae-3d64-4fbcde2958a4/displayicon.png"
+    },
+    {
+      "codename": "Ice",
+      "displayName": "Avalanche Vandal",
+      "theme": "Avalanche",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/41b55c92-4aeb-9c86-854a-4abcd48ea0ba/displayicon.png"
+    },
+    {
+      "codename": "Idol",
+      "displayName": "Bubble Pop Vandal",
+      "theme": "Bubble Pop",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/231528b8-44aa-1063-553e-ce8ef9846383/displayicon.png"
+    },
+    {
+      "codename": "IndustrialX",
+      "displayName": "Guardrail Vandal",
+      "theme": "Guardrail",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/580dc7c6-4342-86fe-1fe8-c4b63e212fc9/displayicon.png"
+    },
+    {
+      "codename": "Infantry2",
+      "displayName": "Black.Market Vandal",
+      "theme": "Black.Market",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a810ec6b-46e7-767d-7186-2cbe49e7fe1b/displayicon.png"
+    },
+    {
+      "codename": "Iridescence3",
+      "displayName": "Prism II Vandal",
+      "theme": "Prism II",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a383091d-4c7a-eb6d-0f45-e78232ede644/displayicon.png"
+    },
+    {
+      "codename": "Kingdom2",
+      "displayName": "K/TAC Vandal",
+      "theme": "K/TAC",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/11a93854-44f0-bd66-f434-3f81744ddd8d/displayicon.png"
+    },
+    {
+      "codename": "LNY26",
+      "displayName": "Solarstride Vandal",
+      "theme": "Solarstride",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6d0e7907-45e1-ca59-3bd4-66a454963957/displayicon.png"
+    },
+    {
+      "codename": "Legion",
+      "displayName": "Aemondir Vandal",
+      "theme": "Aemondir",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1df79598-42a0-a433-0aa5-c79047c32779/displayicon.png"
+    },
+    {
+      "codename": "Lightning2",
+      "displayName": "Smite Vandal",
+      "theme": "Smite",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/aa687701-45af-5af3-b9c4-cda426334f6c/displayicon.png"
+    },
+    {
+      "codename": "LittleNightmare",
+      "displayName": "Monstrocity Vandal",
+      "theme": "Monstrocity",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b3a65992-469c-bab8-736e-49bbda91c650/displayicon.png"
+    },
+    {
+      "codename": "LosMuertos",
+      "displayName": "Nunca Olvidados Vandal",
+      "theme": "Nunca Olvidados",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6460e252-48ef-8312-6f4f-2cb5f1b56972/displayicon.png"
+    },
+    {
+      "codename": "Luxury",
+      "displayName": "Luxe Vandal",
+      "theme": "Luxe",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/30fd16af-4560-b2e2-7780-ee8148a0946a/displayicon.png"
+    },
+    {
+      "codename": "Macaron",
+      "displayName": "Arcane Vandal",
+      "theme": "Arcane",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4ccb9517-4762-eb45-1242-7ca667223459/displayicon.png"
+    },
+    {
+      "codename": "Magepunk3",
+      "displayName": "Magepunk Vandal",
+      "theme": "Magepunk",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/148d7f02-4259-9c17-a1a4-6fa220a56551/displayicon.png"
+    },
+    {
+      "codename": "Midas",
+      "displayName": "Champions 2025 Vandal",
+      "theme": "Champions 2025",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/15cc1aab-432f-34d8-e0e8-d2925d54324b/displayicon.png"
+    },
+    {
+      "codename": "Minima2",
+      "displayName": "Minima Vandal",
+      "theme": "Minima",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b7d1f96a-4cd1-42f3-ff31-86bbc6fa3576/displayicon.png"
+    },
+    {
+      "codename": "MonkeyKing",
+      "displayName": "Valiant Hero Vandal",
+      "theme": "Valiant Hero",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/c2c7746c-496a-6372-bd7a-3186276db2d1/displayicon.png"
+    },
+    {
+      "codename": "Motorbike",
+      "displayName": "Overdrive Vandal",
+      "theme": "Overdrive",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bbd3a52f-411e-3475-a6aa-ea88b54de53c/displayicon.png"
+    },
+    {
+      "codename": "MysticForest",
+      "displayName": "Silvanus Vandal",
+      "theme": "Silvanus",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d758abc0-4d99-62d3-b22b-0db0e57de881/displayicon.png"
+    },
+    {
+      "codename": "Mythic",
+      "displayName": "Crimsonbeast Vandal",
+      "theme": "Crimsonbeast",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8b688de6-42d3-9430-8f38-32b0b3d1c2c6/displayicon.png"
+    }
+  ]
+}
