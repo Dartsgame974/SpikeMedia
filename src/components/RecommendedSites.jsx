@@ -110,6 +110,51 @@ export default function RecommendedSites() {
     }
   ];
 
+  const featuredCreators = [
+    {
+      name: 'BDERADIANTE',
+      handle: '@BDERADIANTE',
+      url: 'https://x.com/BDERADIANTE',
+      tag: 'Spanish News & Info',
+      desc: 'Spanish-language informational account covering Valorant news on Console, Mobile, and PC platform updates.'
+    },
+    {
+      name: 'kohteihep',
+      handle: '@kohteihep',
+      url: 'https://x.com/kohteihep',
+      tag: 'Datamining & Dev',
+      desc: 'Valorant enthusiast covering datamining, dev insights, leak suppression, and game content analysis.'
+    },
+    {
+      name: 'Strawberry79',
+      handle: '@Strawberry79',
+      url: 'https://x.com/Strawberry79',
+      tag: 'Lore Specialist & Artist',
+      desc: 'Valorant lore nerd and digital artist sharing original character artwork and deep lore threads.'
+    },
+    {
+      name: 'shade',
+      handle: '@shadeiol',
+      url: 'https://x.com/shadeiol',
+      tag: '3D Editing & Motion',
+      desc: 'High-tier Valorant 3D animator and video editor creating cinematic edits with XLR8System.'
+    },
+    {
+      name: 'Marpkat',
+      handle: '@Marpkat_',
+      url: 'https://x.com/Marpkat_',
+      tag: 'Brazilian Leaker',
+      desc: 'Brazilian Valorant leaker and content creator sharing early game news, leaks, and updates.'
+    },
+    {
+      name: 'urnotjustin',
+      handle: '@urnotjustin',
+      url: 'https://www.youtube.com/@urnotjustin/shorts',
+      tag: 'Skin Specialist',
+      desc: 'Valorant cosmetics specialist owning every skin in the game, creating weekly Shorts, skin tests, and gameplay reviews.'
+    }
+  ];
+
   return (
     <section className="space-y-10">
       
@@ -284,6 +329,53 @@ export default function RecommendedSites() {
               <div className="pt-2 border-t border-white/5 flex items-center justify-between text-[11px] text-[#FF4655] font-semibold">
                 <span>View Channel</span>
                 <span>YouTube</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      {/* Featured Community Creators & Specialists */}
+      <div className="space-y-4">
+        <div className="flex items-center gap-3">
+          <div className="w-3 h-3 rounded-full bg-[#00F0FF]"></div>
+          <h2 className="font-display font-bold text-xl text-white tracking-tight">
+            Featured Community Specialists, Leakers & Artists
+          </h2>
+        </div>
+        <p className="text-xs text-slate-400">
+          Essential Twitter/X and YouTube creators covering Valorant news, 3D edits, lore analysis, datamined leaks, and skin collection archives.
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-2">
+          {featuredCreators.map((creator, idx) => (
+            <a
+              key={idx}
+              href={creator.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 bg-[#131722] hover:bg-[#1C2230] border border-white/5 hover:border-[#00F0FF]/40 rounded-2xl transition-all group flex flex-col justify-between space-y-3 shadow-lg hover:shadow-[#00F0FF]/5"
+            >
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] font-display uppercase tracking-wider px-2 py-0.5 rounded bg-[#00F0FF]/10 text-[#00F0FF] border border-[#00F0FF]/20 font-semibold">
+                    {creator.tag}
+                  </span>
+                  <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors" />
+                </div>
+                <div>
+                  <h3 className="font-display font-bold text-base text-white group-hover:text-[#00F0FF] transition-colors">
+                    {creator.name}
+                  </h3>
+                  <span className="text-xs font-mono text-slate-400">{creator.handle}</span>
+                </div>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  {creator.desc}
+                </p>
+              </div>
+              <div className="pt-2 border-t border-white/5 flex items-center justify-between text-[11px] text-[#00F0FF] font-semibold">
+                <span>Visit Profile</span>
+                <span>{creator.url.includes('youtube') ? 'YouTube' : 'Twitter / X'}</span>
               </div>
             </a>
           ))}

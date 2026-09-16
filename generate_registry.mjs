@@ -161,23 +161,33 @@ if (fs.existsSync(agentsDir)) {
       wallpaper: null,
       killfeedIcon: null,
       minimapIcon: null,
-      abilityIcons: []
+      abilityIcons: [],
+      extraArtworks: []
     };
 
     const filesInFolder = fs.readdirSync(folderPath);
     for (const file of filesInFolder) {
       const filePath = path.join(folderPath, file);
       if (fs.statSync(filePath).isFile()) {
-        if (file.includes('icone_carree') || file.includes('icone_petite')) {
-          assets.squareIcon = getRelativePath(filePath);
-        } else if (file.includes('portrait_buste')) {
-          assets.bustPortrait = getRelativePath(filePath);
-        } else if (file.includes('portrait_complet')) {
-          if (!assets.fullPortrait) assets.fullPortrait = getRelativePath(filePath);
-        } else if (file.includes('fond_ecran')) {
-          assets.wallpaper = getRelativePath(filePath);
-        } else if (file.includes('icone_killfeed')) {
-          assets.killfeedIcon = getRelativePath(filePath);
+        const fileLower = file.toLowerCase();
+        if (fileLower.endsWith('.png') || fileLower.endsWith('.jpg') || fileLower.endsWith('.webp')) {
+          if (file.includes('icone_carree') || file.includes('icone_petite')) {
+            assets.squareIcon = getRelativePath(filePath);
+          } else if (file.includes('portrait_buste')) {
+            assets.bustPortrait = getRelativePath(filePath);
+          } else if (file.includes('portrait_complet')) {
+            if (!assets.fullPortrait) assets.fullPortrait = getRelativePath(filePath);
+          } else if (file.includes('fond_ecran')) {
+            assets.wallpaper = getRelativePath(filePath);
+          } else if (file.includes('icone_killfeed')) {
+            assets.killfeedIcon = getRelativePath(filePath);
+          } else {
+            assets.extraArtworks.push({
+              name: file.replace(/\.[^/.]+$/, '').replace(/_/g, ' '),
+              filename: file,
+              path: getRelativePath(filePath)
+            });
+          }
         }
       }
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T21:49:06.559Z",
+  "generatedAt": "2026-09-16T22:23:46.720Z",
   "roleIcons": {
     "All": "Valorantek/Icons/Roles/TX_UI_RoleIcon_All.png",
     "Controller": "Valorantek/Icons/Roles/TX_UI_RoleIcon_Controller.png",
@@ -48,6 +48,7 @@
             "path": "Valorantek/agents/Astra/abilities/Astra_X_Forme_astrale_Division_cosmique.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Astra.png"
         ],
@@ -825,6 +826,7 @@
             "path": "Valorantek/agents/Breach/abilities/Breach_X_Onde_sismique.png"
           }
         ],
+        "extraArtworks": [],
         "minimapPortraits": [
           "Valorantek/Icons/Minimap/Minimap_Thumbnails/TX_MinimapPortrait_Breach.png"
         ],
@@ -1354,6 +1356,7 @@
             "path": "Valorantek/agents/Brimstone/abilities/Brimstone_X_Rayon_orbital.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Brimstone.png"
         ],
@@ -2091,6 +2094,7 @@
             "path": "Valorantek/agents/Chamber/abilities/Chamber_X_Tour_de_force.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Chamber.png"
         ],
@@ -3399,6 +3403,7 @@
             "path": "Valorantek/agents/Clove/abilities/Clove_X_Toujours_debout.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Clove.png"
         ],
@@ -4376,6 +4381,7 @@
             "path": "Valorantek/agents/Cypher/abilities/Cypher_X_Vol_neural.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Cypher.png"
         ],
@@ -5312,6 +5318,7 @@
             "path": "Valorantek/agents/Deadlock/abilities/Deadlock_X_Annihilation.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Deadlock.png"
         ],
@@ -6142,6 +6149,7 @@
             "path": "Valorantek/agents/Fade/abilities/Fade_X_Nuit_tombante.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Fade.png"
         ],
@@ -6937,6 +6945,7 @@
             "path": "Valorantek/agents/Gekko/abilities/Gekko_X_Mordicus.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Gekko.png"
         ],
@@ -7949,6 +7958,7 @@
             "path": "Valorantek/agents/Harbor/abilities/Harbor_X_Raz-de-marée.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Kilfeed_Assist_Damage.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Mage.png"
@@ -8808,6 +8818,7 @@
             "path": "Valorantek/agents/Iso/abilities/Iso_X_Duel_à_huis_clos.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Iso.png"
         ],
@@ -9436,6 +9447,7 @@
             "path": "Valorantek/agents/Jett/abilities/Jett_X_Tempête_de_lames.png"
           }
         ],
+        "extraArtworks": [],
         "minimapPortraits": [
           "Valorantek/Icons/Minimap/Minimap_Thumbnails/TX_MinimapPortrait_Jett.png"
         ],
@@ -10007,6 +10019,7 @@
             "path": "Valorantek/agents/KAYO/abilities/KAYO_X_CMDnull.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_KAYO.png"
         ],
@@ -10921,6 +10934,7 @@
             "path": "Valorantek/agents/Killjoy/abilities/Killjoy_X_Confinement.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Killjoy1.png"
         ],
@@ -12487,6 +12501,7 @@
             "path": "Valorantek/agents/Miks/abilities/Miks_X_Basse_sismique.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Miks.png"
         ],
@@ -13858,6 +13873,7 @@
             "path": "Valorantek/agents/Neon/abilities/Neon_X_Ultra-vitesse.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Neon.png"
         ],
@@ -15712,6 +15728,7 @@
             "path": "Valorantek/agents/Omen/abilities/Omen_X_Depuis_les_ombres.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Omen.png"
         ],
@@ -16148,6 +16165,7 @@
             "path": "Valorantek/agents/Phoenix/abilities/Phoenix_X_Revanche.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Phoenix.png"
         ],
@@ -16748,6 +16766,7 @@
             "path": "Valorantek/agents/Raze/abilities/Raze_X_Bouquet_final.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Raze.png"
         ],
@@ -17731,6 +17750,7 @@
             "path": "Valorantek/agents/Reyna/abilities/Reyna_X_Impératrice.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Reyna.png"
         ],
@@ -18088,6 +18108,18 @@
           {
             "filename": "Sage_X_Résurrection.png",
             "path": "Valorantek/agents/Sage/abilities/Sage_X_Résurrection.png"
+          }
+        ],
+        "extraArtworks": [
+          {
+            "name": "Sage Artwork Champion",
+            "filename": "Sage_Artwork_Champion.png",
+            "path": "Valorantek/agents/Sage/Sage_Artwork_Champion.png"
+          },
+          {
+            "name": "Sage Icon Artwork Champion",
+            "filename": "Sage_Icon_Artwork_Champion.png",
+            "path": "Valorantek/agents/Sage/Sage_Icon_Artwork_Champion.png"
           }
         ],
         "killfeedIcons": [
@@ -18683,6 +18715,7 @@
             "path": "Valorantek/agents/Skye/abilities/Skye_X_Traqueurs.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Skye.png"
         ],
@@ -19841,6 +19874,7 @@
             "path": "Valorantek/agents/Sova/abilities/Sova_X_Fureur_du_chasseur.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Sova1.png"
         ],
@@ -20777,6 +20811,7 @@
             "path": "Valorantek/agents/Tejo/abilities/Tejo_X_Apocalypse.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Tejo.png"
         ],
@@ -21801,6 +21836,7 @@
             "path": "Valorantek/agents/Veto/abilities/Veto_X_Évolution.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Pine.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Sym.png"
@@ -23008,6 +23044,18 @@
             "path": "Valorantek/agents/Viper/abilities/Viper_X_Nid_de_vipères.png"
           }
         ],
+        "extraArtworks": [
+          {
+            "name": "Icon Viper Artwork XChampion",
+            "filename": "Icon_Viper_Artwork_XChampion.png",
+            "path": "Valorantek/agents/Viper/Icon_Viper_Artwork_XChampion.png"
+          },
+          {
+            "name": "Viper Artwork Champion",
+            "filename": "Viper_Artwork_Champion.png",
+            "path": "Valorantek/agents/Viper/Viper_Artwork_Champion.png"
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Viper.png"
         ],
@@ -23799,6 +23847,7 @@
             "path": "Valorantek/agents/Vyse/abilities/Vyse_X_Jardin_d'acier.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Vyse.png"
         ],
@@ -24991,6 +25040,7 @@
             "path": "Valorantek/agents/Waylay/abilities/Waylay_X_Croisée_des_chemins.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Waylay.png"
         ],
@@ -25608,6 +25658,7 @@
             "path": "Valorantek/agents/Yoru/abilities/Yoru_X_Transfert_dimensionnel.png"
           }
         ],
+        "extraArtworks": [],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Yoru.png"
         ],

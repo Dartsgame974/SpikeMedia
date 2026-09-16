@@ -21,6 +21,8 @@ export default function AgentDetailModal({ agent, onClose }) {
   const minimapIcons = agent.assets?.minimapIcons || [];
   const abilityIcons = agent.assets?.abilityIcons || [];
 
+  const extraArtworks = agent.assets?.extraArtworks || [];
+
   const audioCategories = agent.audioCategories || {};
   const categoryNames = Object.keys(audioCategories);
 
@@ -354,6 +356,39 @@ export default function AgentDetailModal({ agent, onClose }) {
                           <button
                             onClick={(e) => handleDownloadAsset(mmPortrait, `${agent.name}_minimap_portrait.png`, e)}
                             className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
+                          >
+                            <Download className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+
+                  {extraArtworks.map((art, idx) => (
+                    <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#00F0FF]/30 transition-all">
+                      <div
+                        onClick={() => setPreviewImage({ src: art.path, title: `${agent.name} - ${art.name}` })}
+                        className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                      >
+                        <img src={toAssetUrl(art.path)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
+                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                          <Eye className="w-6 h-6 text-white" />
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between text-xs pt-1">
+                        <span className="font-medium text-slate-300 truncate" title={art.name}>{art.name}</span>
+                        <div className="flex items-center gap-1 shrink-0">
+                          <button
+                            onClick={(e) => handleCopyAssetLink(art.path, e)}
+                            className={`p-1.5 rounded transition-colors ${
+                              copiedPath === art.path ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                            }`}
+                          >
+                            {copiedPath === art.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                          </button>
+                          <button
+                            onClick={(e) => handleDownloadAsset(art.path, art.filename, e)}
+                            className="p-1.5 rounded bg-white/5 hover:bg-[#00F0FF] hover:text-black text-slate-300 transition-colors"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
