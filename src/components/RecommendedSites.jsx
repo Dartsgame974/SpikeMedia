@@ -55,6 +55,13 @@ export default function RecommendedSites() {
 
   const onlineTools = [
     {
+      title: 'Upscayl - Free & Local AI Image Upscaler',
+      desc: '100% free, open-source, and local AI image upscaler powered by Real-ESRGAN. Upscales low-res textures, render stills, and artwork without generative AI hallucinations.',
+      url: 'https://upscayl.org/',
+      image: toAssetUrl('resources/upscayl_og.webp'),
+      icon: <Sparkles className="w-5 h-5 text-[#00F0FF]" />
+    },
+    {
       title: 'Valorant Crosshair Database (VCRDB)',
       desc: 'Browse and copy pro player crosshair codes, custom reticles, and crosshair profiles.',
       url: 'https://www.vcrdb.net/',
