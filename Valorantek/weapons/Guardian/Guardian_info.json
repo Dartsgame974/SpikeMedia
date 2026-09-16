@@ -1,0 +1,3181 @@
+{
+  "uuid": "4ade7faa-4cf1-8376-95ef-39884480959b",
+  "displayName": "Guardian",
+  "category": "EEquippableCategory::Rifle",
+  "defaultSkinUuid": "3bf1e8e0-47e8-f27a-6054-929575f41a54",
+  "displayIcon": "https://media.valorant-api.com/weapons/4ade7faa-4cf1-8376-95ef-39884480959b/displayicon.png",
+  "killStreamIcon": "https://media.valorant-api.com/weapons/4ade7faa-4cf1-8376-95ef-39884480959b/killstreamicon.png",
+  "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/DMRPrimaryAsset",
+  "weaponStats": {
+    "fireRate": 5.25,
+    "magazineSize": 12,
+    "runSpeedMultiplier": 0.8,
+    "equipTimeSeconds": 1,
+    "reloadTimeSeconds": 2.5,
+    "firstBulletAccuracy": 0.1,
+    "shotgunPelletCount": 1,
+    "wallPenetration": "EWallPenetrationDisplayType::High",
+    "feature": null,
+    "fireMode": "EWeaponFireModeDisplayType::SemiAutomatic",
+    "altFireType": "EWeaponAltFireDisplayType::ADS",
+    "adsStats": {
+      "zoomMultiplier": 1.5,
+      "fireRate": 5.25,
+      "runSpeedMultiplier": 0.76,
+      "burstCount": 1,
+      "firstBulletAccuracy": -1
+    },
+    "altShotgunStats": null,
+    "airBurstStats": null,
+    "damageRanges": [
+      {
+        "rangeStartMeters": 0,
+        "rangeEndMeters": 50,
+        "headDamage": 195,
+        "bodyDamage": 65,
+        "legDamage": 48.75
+      }
+    ]
+  },
+  "shopData": {
+    "cost": 2250,
+    "category": "Rifles",
+    "shopOrderPriority": 0,
+    "categoryText": "Fusils d'assaut",
+    "gridPosition": {
+      "row": 2,
+      "column": 4
+    },
+    "canBeTrashed": true,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/weapons/4ade7faa-4cf1-8376-95ef-39884480959b/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/DMRWeaponPurchase"
+  },
+  "skins": [
+    {
+      "uuid": "6558fd5d-4dc7-90f7-beea-ba9303551c3b",
+      "displayName": "Guardian (Immortalisé)",
+      "themeUuid": "2aebbb13-48a0-2c71-04c3-45a58f53f3e5",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6558fd5d-4dc7-90f7-beea-ba9303551c3b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/AbstractHeroes/DMR_AbstractHeroes_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "297c7dae-4e11-6d00-ae5f-0cb9ec868d87",
+          "displayName": "Guardian (Immortalisé)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/297c7dae-4e11-6d00-ae5f-0cb9ec868d87/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/297c7dae-4e11-6d00-ae5f-0cb9ec868d87/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/297c7dae-4e11-6d00-ae5f-0cb9ec868d87/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/AbstractHeroes/Chromas/Standard/DMR_AbstractHeroes_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "09325d4b-43b5-4d94-936d-3eafd8a04d2b",
+          "displayName": "Guardian (Immortalisé)\n(variante 1 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/09325d4b-43b5-4d94-936d-3eafd8a04d2b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/09325d4b-43b5-4d94-936d-3eafd8a04d2b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/09325d4b-43b5-4d94-936d-3eafd8a04d2b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/AbstractHeroes/Chromas/v1/DMR_AbstractHeroes_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "1dfb5491-4306-4e61-c3b3-fe9f94508c4d",
+          "displayName": "Guardian (Immortalisé)\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1dfb5491-4306-4e61-c3b3-fe9f94508c4d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1dfb5491-4306-4e61-c3b3-fe9f94508c4d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1dfb5491-4306-4e61-c3b3-fe9f94508c4d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/AbstractHeroes/Chromas/v2/DMR_AbstractHeroes_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "541fd719-46b8-3e06-c25d-98958075c289",
+          "displayName": "Guardian (Immortalisé)\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/541fd719-46b8-3e06-c25d-98958075c289/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/541fd719-46b8-3e06-c25d-98958075c289/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/541fd719-46b8-3e06-c25d-98958075c289/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/AbstractHeroes/Chromas/V3/DMR_AbstractHeroes_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bfbcae59-45a0-c60a-29d5-7f8780f3b0d4",
+          "displayName": "Guardian (Immortalisé)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bfbcae59-45a0-c60a-29d5-7f8780f3b0d4/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/AbstractHeroes/Levels/DMR_AbstractHeroes_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "da29ce1e-43bb-c043-9cbc-34850517dc23",
+      "displayName": "Guardian (RGX 11z Pro)",
+      "themeUuid": "5b09613d-470c-74f4-a69a-028474b703a6",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/da29ce1e-43bb-c043-9cbc-34850517dc23/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/da29ce1e-43bb-c043-9cbc-34850517dc23/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/DMR_Afterglow_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "04b12bb8-4ba5-6611-ec16-02862bcfb939",
+          "displayName": "Guardian (RGX 11z Pro)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/04b12bb8-4ba5-6611-ec16-02862bcfb939/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/04b12bb8-4ba5-6611-ec16-02862bcfb939/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/04b12bb8-4ba5-6611-ec16-02862bcfb939/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/Chromas/Standard/DMR_Afterglow_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "78736e18-4ccc-d804-665f-8799aeb0600f",
+          "displayName": "Guardian (RGX 11z Pro) niveau 5\n(variante 1 Rouge)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/78736e18-4ccc-d804-665f-8799aeb0600f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/78736e18-4ccc-d804-665f-8799aeb0600f/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5567d6ff-4ced-0efb-1530-728e961b4617_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/Chromas/Red/DMR_Afterglow_Red_PrimaryAsset"
+        },
+        {
+          "uuid": "c438dbb7-4ade-8240-90b5-b88b33aa5be4",
+          "displayName": "Guardian (RGX 11z Pro) niveau 5\n(variante 2 Bleu)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c438dbb7-4ade-8240-90b5-b88b33aa5be4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c438dbb7-4ade-8240-90b5-b88b33aa5be4/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d83be065-4025-37da-3f2e-ee87b0d26c4f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/Chromas/Blue/DMR_Afterglow_Blue_PrimaryAsset"
+        },
+        {
+          "uuid": "39914e93-4b2a-d52b-2259-718535b08379",
+          "displayName": "Guardian (RGX 11z Pro) niveau 5\n(variante 3 Jaune)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/39914e93-4b2a-d52b-2259-718535b08379/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/39914e93-4b2a-d52b-2259-718535b08379/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/74b94a80-44b3-d6f9-da51-85b4dde6995e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/Chromas/Yellow/DMR_Afterglow_Yellow_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "43361d49-4331-ee30-e356-0f925e6e17b9",
+          "displayName": "Guardian (RGX 11z Pro)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/43361d49-4331-ee30-e356-0f925e6e17b9/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6cac813b-459b-b909-090e-108a462da16e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/Levels/DMR_Afterglow_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ae053014-4e34-41a4-2d4d-ac87e0498e42",
+          "displayName": "Guardian (RGX 11z Pro) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c3ced4ee-4ae6-5215-30d2-95a0bae184f1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/Levels/DMR_Afterglow_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "7205c0e1-481c-a95d-61ee-f5a1f2de86a4",
+          "displayName": "Guardian (RGX 11z Pro) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f461fc16-458e-f5ee-0265-27960458b8dd_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/Levels/DMR_Afterglow_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "39f873a7-4fff-d29e-45ab-e8ac8823cdd1",
+          "displayName": "Guardian (RGX 11z Pro) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/11237e39-4d0e-5c8c-eee2-9eab5766ec60_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/Levels/DMR_Afterglow_Lv4_PrimaryAsset"
+        },
+        {
+          "uuid": "3595b261-40e6-a344-5689-a7a28128895b",
+          "displayName": "Guardian (RGX 11z Pro) niveau 5",
+          "levelItem": "EEquippableSkinLevelItem::KillCounter",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/912e7e51-47c7-15c3-3a3a-edb29c8f1bee_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Afterglow/Levels/DMR_Afterglow_Lv5_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1bcb5825-4afc-3169-6f23-d38d65333fa7",
+      "displayName": "Guardian (Perforateur spatial)",
+      "themeUuid": "55ba6998-4677-1908-0d2a-f893006fcb1c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1bcb5825-4afc-3169-6f23-d38d65333fa7/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/AlienSky/DMR_AlienSky_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "083c4eef-46c6-0d75-223c-bd8622fcfdb8",
+          "displayName": "Guardian (Perforateur spatial)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/083c4eef-46c6-0d75-223c-bd8622fcfdb8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/083c4eef-46c6-0d75-223c-bd8622fcfdb8/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/AlienSky/Chromas/Standard/DMR_AlienSky_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8ca74de8-431b-8505-0ae9-1eb167d519db",
+          "displayName": "Guardian (Perforateur spatial)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8ca74de8-431b-8505-0ae9-1eb167d519db/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/AlienSky/Levels/DMR_AlienSky_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d8498f5f-4687-2eee-755e-00ae72f4ca94",
+      "displayName": "Guardian (Intergrade)",
+      "themeUuid": "3ee99c23-46b5-2cd1-f0df-81897f81f42f",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d8498f5f-4687-2eee-755e-00ae72f4ca94/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Angler/DMR_Angler_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a72a6c05-42f2-76d3-2c45-37869ac2e891",
+          "displayName": "Guardian (Intergrade)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a72a6c05-42f2-76d3-2c45-37869ac2e891/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a72a6c05-42f2-76d3-2c45-37869ac2e891/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Angler/Chromas/Standard/DMR_Angler_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b99310b3-4c0b-d6b5-e92d-e087d7275269",
+          "displayName": "Guardian (Intergrade)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b99310b3-4c0b-d6b5-e92d-e087d7275269/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Angler/Levels/DMR_Angler_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2c32d9e3-42a1-7387-35ef-0c8eefacee1c",
+      "displayName": "Guardian (VALORANT GO! Vol. 1)",
+      "themeUuid": "a574e9a3-4c83-2e59-7fb8-a9b7a7aba27e",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2c32d9e3-42a1-7387-35ef-0c8eefacee1c/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/2c32d9e3-42a1-7387-35ef-0c8eefacee1c/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Anime/DMR_Anime_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3628cc8a-4153-9561-74a3-ea8f1ac7e0e4",
+          "displayName": "Guardian (VALORANT GO! Vol. 1)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3628cc8a-4153-9561-74a3-ea8f1ac7e0e4/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Anime/Chromas/Standard/DMR_Anime_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "920d9d08-4f22-9f1e-b309-ddbbe5ecb91c",
+          "displayName": "Guardian (VALORANT GO! Vol. 1)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/920d9d08-4f22-9f1e-b309-ddbbe5ecb91c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Anime/Levels/DMR_Anime_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "851c1abc-4a84-7bab-7e44-16a5aadf5afc",
+      "displayName": "Guardian (Araxys)",
+      "themeUuid": "b997274a-420c-e200-1988-3c99e0072f0b",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/851c1abc-4a84-7bab-7e44-16a5aadf5afc/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/851c1abc-4a84-7bab-7e44-16a5aadf5afc/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Antares2/DMR_Antares2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c9edad62-4ae2-b2ad-5ced-44be66455482",
+          "displayName": "Guardian (Araxys)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c9edad62-4ae2-b2ad-5ced-44be66455482/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c9edad62-4ae2-b2ad-5ced-44be66455482/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c9edad62-4ae2-b2ad-5ced-44be66455482/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Antares2/Chromas/Standard/DMR_Antares2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "9aae91eb-4d6c-89b1-eff9-22b04d9902a8",
+          "displayName": "Guardian (Araxys) niveau 4\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9aae91eb-4d6c-89b1-eff9-22b04d9902a8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9aae91eb-4d6c-89b1-eff9-22b04d9902a8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9aae91eb-4d6c-89b1-eff9-22b04d9902a8/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/264384bf-4ad5-c5d9-df49-03ad0121486e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Antares2/Chromas/v1/DMR_Antares2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "b13038da-4f09-c2cf-4f2b-08b7db12e06d",
+          "displayName": "Guardian (Araxys) niveau 4\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b13038da-4f09-c2cf-4f2b-08b7db12e06d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b13038da-4f09-c2cf-4f2b-08b7db12e06d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b13038da-4f09-c2cf-4f2b-08b7db12e06d/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/dc94429c-43f2-64bb-7b7a-8287bd776b87_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Antares2/Chromas/v2/DMR_Antares2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "e4867d6e-43d2-6c28-d205-df8d734a8633",
+          "displayName": "Guardian (Araxys) niveau 4\n(variante 3 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e4867d6e-43d2-6c28-d205-df8d734a8633/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e4867d6e-43d2-6c28-d205-df8d734a8633/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e4867d6e-43d2-6c28-d205-df8d734a8633/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1809ce14-4769-cad7-0b9d-cda47a787618_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Antares2/Chromas/V3/DMR_Antares2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f96252d0-4b00-5c90-e71b-9d81ecfeff81",
+          "displayName": "Guardian (Araxys)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f96252d0-4b00-5c90-e71b-9d81ecfeff81/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d3d173c9-41fd-c2c1-8f2a-a9a9109e0300_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Antares2/Levels/DMR_Antares2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "a1b0717c-4324-929c-1ac5-adb0391a144c",
+          "displayName": "Guardian (Araxys) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/107e3e22-4f14-249b-864b-21a8791f4379_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Antares2/Levels/DMR_Antares2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "95398331-448e-cadf-1410-6283fe0bfef6",
+          "displayName": "Guardian (Araxys) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9328e5c8-40c3-9ecb-f744-768507e97de8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Antares2/Levels/DMR_Antares2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "adff0085-452d-4ace-3515-edb23fcc9e7d",
+          "displayName": "Guardian (Araxys) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d1c1bbb9-4849-e750-6c9b-27a36ba9421e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Antares2/Levels/DMR_Antares2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1082032a-4f20-12db-93ea-549332f91ddf",
+      "displayName": "Guardian (Neptune)",
+      "themeUuid": "7615ee95-4405-4e8d-145f-5ab5a20ad0d2",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1082032a-4f20-12db-93ea-549332f91ddf/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Aquarium/DMR_Aquarium_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "81edf2ce-4919-03e6-5c49-c8a48648eea0",
+          "displayName": "Guardian (Neptune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/81edf2ce-4919-03e6-5c49-c8a48648eea0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/81edf2ce-4919-03e6-5c49-c8a48648eea0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/81edf2ce-4919-03e6-5c49-c8a48648eea0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Aquarium/Chromas/Standard/DMR_Aquarium_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "899168e2-4825-235f-0dd3-f1995c4676ed",
+          "displayName": "Guardian (Neptune) niveau 3\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/899168e2-4825-235f-0dd3-f1995c4676ed/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/899168e2-4825-235f-0dd3-f1995c4676ed/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/899168e2-4825-235f-0dd3-f1995c4676ed/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b2c8eea2-48f7-1f55-56c1-8192233ac8c7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Aquarium/Chromas/v1/DMR_Aquarium_v1_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c9ceffba-471d-ed6c-04a5-11b71bef3f60",
+          "displayName": "Guardian (Neptune)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c9ceffba-471d-ed6c-04a5-11b71bef3f60/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3def624b-44d0-226e-aa6c-73b73d849b17_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Aquarium/Levels/DMR_Aquarium_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "aa1d933d-4c1b-28d6-9607-1b95e44621e8",
+          "displayName": "Guardian (Neptune) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::FishAnimation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/533ae745-46c8-364d-8c06-5899b716b4a1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Aquarium/Levels/DMR_Aquarium_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "fcc8ce05-4a54-31d4-f1e6-febd8f8b567e",
+          "displayName": "Guardian (Neptune) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::KillBanner",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d542b84f-4d73-363e-c11b-17baad01181a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Aquarium/Levels/DMR_Aquarium_Lv3_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "abd5415f-4851-244f-4b8b-31af8e268822",
+      "displayName": "Guardian (Vengeance de Gaïa)",
+      "themeUuid": "204c78ee-4b19-db4e-9389-28b2585ffe1f",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/abd5415f-4851-244f-4b8b-31af8e268822/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/abd5415f-4851-244f-4b8b-31af8e268822/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ashen/DMR_Ashen_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "275dc4de-4b7c-9423-e64b-498b63693755",
+          "displayName": "Guardian (Vengeance de Gaïa)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/275dc4de-4b7c-9423-e64b-498b63693755/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/275dc4de-4b7c-9423-e64b-498b63693755/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/275dc4de-4b7c-9423-e64b-498b63693755/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ashen/Chromas/Standard/DMR_Ashen_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "f04aad65-43ab-639e-d738-eeb8a64e8f1e",
+          "displayName": "Guardian (Vengeance de Gaïa) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f04aad65-43ab-639e-d738-eeb8a64e8f1e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f04aad65-43ab-639e-d738-eeb8a64e8f1e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f04aad65-43ab-639e-d738-eeb8a64e8f1e/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b15eb6f2-45bb-fc3b-79f7-59bcceace933_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ashen/Chromas/v1/DMR_Ashen_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "19931370-47df-2e2e-0b59-3182357e46b6",
+          "displayName": "Guardian (Vengeance de Gaïa) niveau 4\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/19931370-47df-2e2e-0b59-3182357e46b6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/19931370-47df-2e2e-0b59-3182357e46b6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/19931370-47df-2e2e-0b59-3182357e46b6/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6d228f8a-4947-1dc7-9757-06b1e3c28a94_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ashen/Chromas/v2/DMR_Ashen_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "0cb87aa2-4c73-fec8-5c10-1bb30a948bb6",
+          "displayName": "Guardian (Vengeance de Gaïa) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0cb87aa2-4c73-fec8-5c10-1bb30a948bb6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0cb87aa2-4c73-fec8-5c10-1bb30a948bb6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0cb87aa2-4c73-fec8-5c10-1bb30a948bb6/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e7dfb2f8-4787-4328-32f6-b2b693f910cc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ashen/Chromas/V3/DMR_Ashen_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e16ea577-4d7f-e686-456a-54b4b1d9cba2",
+          "displayName": "Guardian (Vengeance de Gaïa)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e16ea577-4d7f-e686-456a-54b4b1d9cba2/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b12cc985-4335-7f58-ea04-dfae26aaf153_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ashen/Levels/DMR_Ashen_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "6a379936-42ac-6988-f462-1abdf52b155a",
+          "displayName": "Guardian (Vengeance de Gaïa) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f8b61fde-4824-153e-87ae-03ab576a5cc6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ashen/Levels/DMR_Ashen_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "bde3fb91-4a71-8167-7bc6-64950a02b2dd",
+          "displayName": "Guardian (Vengeance de Gaïa) niveau 3",
+          "levelItem": null,
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/49d85f25-4301-4e01-b0f0-52836e58316d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ashen/Levels/DMR_Ashen_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "614d4b74-49d0-7dc3-44c3-558ea0400288",
+          "displayName": "Guardian (Vengeance de Gaïa) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1e474dfb-4ea3-e927-924b-be861d23d82f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ashen/Levels/DMR_Ashen_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "192f8546-487b-f47b-4779-c19972672fe8",
+      "displayName": "Guardian (MK VII Liberté)",
+      "themeUuid": "ac6176c9-4e35-e254-9d7c-75b8113517df",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/192f8546-487b-f47b-4779-c19972672fe8/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Assault/DMR_Assault_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "37a5e577-4fc6-bf1e-a229-58a881c54404",
+          "displayName": "Guardian (MK VII Liberté)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/37a5e577-4fc6-bf1e-a229-58a881c54404/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/37a5e577-4fc6-bf1e-a229-58a881c54404/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/37a5e577-4fc6-bf1e-a229-58a881c54404/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Assault/Chromas/Standard/DMR_Assault_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "d944e5ef-4fd5-1d0a-1522-2cb420c4f857",
+          "displayName": "Guardian (MK VII Liberté)\n(variante 1 Désert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d944e5ef-4fd5-1d0a-1522-2cb420c4f857/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d944e5ef-4fd5-1d0a-1522-2cb420c4f857/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d944e5ef-4fd5-1d0a-1522-2cb420c4f857/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Assault/Chromas/v1/DMR_Assault_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "efc5e5c2-440f-8c55-9736-dba9a36ce238",
+          "displayName": "Guardian (MK VII Liberté)\n(variante 2 Mer)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/efc5e5c2-440f-8c55-9736-dba9a36ce238/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/efc5e5c2-440f-8c55-9736-dba9a36ce238/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/efc5e5c2-440f-8c55-9736-dba9a36ce238/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Assault/Chromas/v2/DMR_Assault_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "e29b357d-4e38-1fd2-02c5-a1a65ba9d82b",
+          "displayName": "Guardian (MK VII Liberté)\n(variante 3 Toundra)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e29b357d-4e38-1fd2-02c5-a1a65ba9d82b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e29b357d-4e38-1fd2-02c5-a1a65ba9d82b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e29b357d-4e38-1fd2-02c5-a1a65ba9d82b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Assault/Chromas/V3/DMR_Assault_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e2788bdd-4cc0-3309-7c32-159e4ac2b3ce",
+          "displayName": "Guardian (MK VII Liberté)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e2788bdd-4cc0-3309-7c32-159e4ac2b3ce/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Assault/Levels/DMR_Assault_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "04ccfe05-497c-2d52-2bd0-64a68955175e",
+      "displayName": "Guardian (Spectrum)",
+      "themeUuid": "5b5a21ad-46a8-2e3f-f4c5-6c8c7392be69",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/04ccfe05-497c-2d52-2bd0-64a68955175e/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Atlas/DMR_Atlas_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "52dd7feb-4e82-2fcb-c341-2aa308321064",
+          "displayName": "Guardian (Spectrum)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/52dd7feb-4e82-2fcb-c341-2aa308321064/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/52dd7feb-4e82-2fcb-c341-2aa308321064/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/52dd7feb-4e82-2fcb-c341-2aa308321064/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Atlas/Chromas/Standard/DMR_Atlas_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "fa3cea63-4bbd-ebf6-808c-d1ae736f0dd4",
+          "displayName": "Guardian (Spectrum) niveau 4\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fa3cea63-4bbd-ebf6-808c-d1ae736f0dd4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fa3cea63-4bbd-ebf6-808c-d1ae736f0dd4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/fa3cea63-4bbd-ebf6-808c-d1ae736f0dd4/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1cf38571-42ce-a466-e56f-93987ca98505_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Atlas/Chromas/v1/DMR_Atlas_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "59432b53-44bc-6e8e-c341-f083a9f759da",
+          "displayName": "Guardian (Spectrum) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/59432b53-44bc-6e8e-c341-f083a9f759da/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/59432b53-44bc-6e8e-c341-f083a9f759da/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/59432b53-44bc-6e8e-c341-f083a9f759da/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e2e22fdd-423b-f01e-a7b6-2fb477eed0f8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Atlas/Chromas/v2/DMR_Atlas_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "d1e44ee7-4089-6358-f980-0ebd4a7c88a7",
+          "displayName": "Guardian (Spectrum) niveau 4\n(variante 3 Violet/Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d1e44ee7-4089-6358-f980-0ebd4a7c88a7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d1e44ee7-4089-6358-f980-0ebd4a7c88a7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d1e44ee7-4089-6358-f980-0ebd4a7c88a7/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9b85f470-420a-3bc3-4cc9-408c827d3a37_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Atlas/Chromas/V3/DMR_Atlas_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "19ba907b-4a76-347f-ea24-38990c9ff755",
+          "displayName": "Guardian (Spectrum)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/19ba907b-4a76-347f-ea24-38990c9ff755/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d821386e-4b80-39bd-6aa8-b1a5d78388da_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Atlas/Levels/DMR_Atlas_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "e03cf7b6-453e-5fb7-3240-11afd5ed4b47",
+          "displayName": "Guardian (Spectrum) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/65878abe-4abf-fb80-c97e-70a0e1818909_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Atlas/Levels/DMR_Atlas_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "1fbad515-44c3-123e-8e80-96a4a4bf40ca",
+          "displayName": "Guardian (Spectrum) niveau 3",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1fbad515-44c3-123e-8e80-96a4a4bf40ca/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3e52a226-423c-7c7b-454f-ba91baf6a980_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Atlas/Levels/DMR_Atlas_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "d4794a6a-4c89-8765-0081-55a61376b10a",
+          "displayName": "Guardian (Spectrum) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0da207eb-4715-f431-90b4-a0944cce79f5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Atlas/Levels/DMR_Atlas_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "612cb889-41eb-a56b-9d77-0b994577603a",
+      "displayName": "Guardian (Tactidulé)",
+      "themeUuid": "63a4e4e7-4e10-9509-4b09-00a8b8bb6894",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/612cb889-41eb-a56b-9d77-0b994577603a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Candyland/DMR_Candyland_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a76fdbe1-4a19-7844-3158-bd924da62ffe",
+          "displayName": "Guardian (Tactidulé)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a76fdbe1-4a19-7844-3158-bd924da62ffe/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a76fdbe1-4a19-7844-3158-bd924da62ffe/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Candyland/Chromas/Standard/DMR_Candyland_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b8257548-41b4-5474-9050-b2a5c3a83d96",
+          "displayName": "Guardian (Tactidulé)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b8257548-41b4-5474-9050-b2a5c3a83d96/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Candyland/Levels/DMR_Candyland_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "16dba725-4de2-8412-c07f-af95c65db9a2",
+      "displayName": "Guardian (Odyssée stellaire)",
+      "themeUuid": "16b921f0-4127-32af-7b2e-97bc0f300053",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/16dba725-4de2-8412-c07f-af95c65db9a2/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Constellation/DMR_Constellation_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f239edb5-467a-d4f2-c78d-5f81ce8162c1",
+          "displayName": "Guardian (Odyssée stellaire)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f239edb5-467a-d4f2-c78d-5f81ce8162c1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f239edb5-467a-d4f2-c78d-5f81ce8162c1/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f239edb5-467a-d4f2-c78d-5f81ce8162c1/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Constellation/Chromas/Standard/DMR_Constellation_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "45dd5db6-4e5b-f6c8-698f-d5b66400a072",
+          "displayName": "Guardian (Odyssée stellaire)\n(variante 1 Crépuscule)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/45dd5db6-4e5b-f6c8-698f-d5b66400a072/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/45dd5db6-4e5b-f6c8-698f-d5b66400a072/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/45dd5db6-4e5b-f6c8-698f-d5b66400a072/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Constellation/Chromas/v1/DMR_Constellation_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "401fe474-4b0b-1aa3-8745-7f835fd83ee4",
+          "displayName": "Guardian (Odyssée stellaire)\n(variante 2 Coucher de soleil)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/401fe474-4b0b-1aa3-8745-7f835fd83ee4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/401fe474-4b0b-1aa3-8745-7f835fd83ee4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/401fe474-4b0b-1aa3-8745-7f835fd83ee4/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Constellation/Chromas/v2/DMR_Constellation_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "3baa00d8-471a-2f49-4e0f-1296ead72848",
+          "displayName": "Guardian (Odyssée stellaire)\n(variante 3 Minuit)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3baa00d8-471a-2f49-4e0f-1296ead72848/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3baa00d8-471a-2f49-4e0f-1296ead72848/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3baa00d8-471a-2f49-4e0f-1296ead72848/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Constellation/Chromas/V3/DMR_Constellation_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9815f9fe-40c5-db68-9ac3-e69c926daf12",
+          "displayName": "Guardian (Odyssée stellaire)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9815f9fe-40c5-db68-9ac3-e69c926daf12/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Constellation/Levels/DMR_Constellation_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "6141a40d-48cf-8466-6d46-558c0ff145ea",
+      "displayName": "Guardian (Nébuleuse)",
+      "themeUuid": "7e1b7375-4b1d-9e2f-14f2-acb278400826",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6141a40d-48cf-8466-6d46-558c0ff145ea/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Cosmos/DMR_Cosmos_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e6f6e321-4de6-5d25-69ea-baa30d693373",
+          "displayName": "Guardian (Nébuleuse)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e6f6e321-4de6-5d25-69ea-baa30d693373/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e6f6e321-4de6-5d25-69ea-baa30d693373/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Cosmos/Chromas/Standard/DMR_Cosmos_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bf6df430-4e46-5c51-df6f-c2bc3b1cb4fe",
+          "displayName": "Guardian (Nébuleuse)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bf6df430-4e46-5c51-df6f-c2bc3b1cb4fe/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Cosmos/Levels/DMR_CosmosLv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "bcf0c2a9-408b-b230-df2a-369dcc5e1916",
+      "displayName": "Guardian (Contre-culture)",
+      "themeUuid": "c24442c0-4efe-ff73-535c-dc96cf65dd5c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bcf0c2a9-408b-b230-df2a-369dcc5e1916/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Counterculture/DMR_Counterculture_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "28063f7c-474e-1f24-e0db-73bffbf9f610",
+          "displayName": "Guardian (Contre-culture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/28063f7c-474e-1f24-e0db-73bffbf9f610/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/28063f7c-474e-1f24-e0db-73bffbf9f610/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Counterculture/Chromas/Standard/DMR_Counterculture_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "34ac9ee1-4591-6423-bda0-9993bf155c7e",
+          "displayName": "Guardian (Contre-culture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/34ac9ee1-4591-6423-bda0-9993bf155c7e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Counterculture/Levels/DMR_Counterculture_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "97bc040f-44bb-cbb3-c9f4-3aa16d1c0655",
+      "displayName": "Guardian (Abyssal)",
+      "themeUuid": "fbb643e1-4ba7-4535-b284-b09be186bc0e",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/97bc040f-44bb-cbb3-c9f4-3aa16d1c0655/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/DeepSea/DMR_DeepSea_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c2c15a3b-4883-362d-c155-d0a4b007804c",
+          "displayName": "Guardian (Abyssal)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c2c15a3b-4883-362d-c155-d0a4b007804c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/DeepSea/Chromas/Standard/DMR_DeepSea_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f1eaddc9-48fb-1d4e-e8c5-0c90feca333d",
+          "displayName": "Guardian (Abyssal)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f1eaddc9-48fb-1d4e-e8c5-0c90feca333d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/DeepSea/Levels/DMR_DeepSea_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ef889a32-4951-ae40-44fe-40a4da210060",
+      "displayName": "Guardian (Nanomight)",
+      "themeUuid": "fa16aed3-49c0-0a8d-28d6-3d847f82713c",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ef889a32-4951-ae40-44fe-40a4da210060/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Digipets/DMR_Digipets_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "18252494-4654-9c9f-6086-a3b623fc0a9f",
+          "displayName": "Guardian (Nanomight)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/18252494-4654-9c9f-6086-a3b623fc0a9f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/18252494-4654-9c9f-6086-a3b623fc0a9f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/18252494-4654-9c9f-6086-a3b623fc0a9f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Digipets/Chromas/Standard/DMR_Digipets_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "eb99f57a-42fc-d18d-d1e6-e19a42eacce4",
+          "displayName": "Guardian (Nanomight)\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/eb99f57a-42fc-d18d-d1e6-e19a42eacce4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/eb99f57a-42fc-d18d-d1e6-e19a42eacce4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/eb99f57a-42fc-d18d-d1e6-e19a42eacce4/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Digipets/Chromas/v1/DMR_Digipets_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "637ea301-4c5d-776d-6ed6-e1b76eefcb52",
+          "displayName": "Guardian (Nanomight)\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/637ea301-4c5d-776d-6ed6-e1b76eefcb52/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/637ea301-4c5d-776d-6ed6-e1b76eefcb52/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/637ea301-4c5d-776d-6ed6-e1b76eefcb52/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Digipets/Chromas/v2/DMR_Digipets_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "62828853-4586-0dfc-ca75-f4b5507543e7",
+          "displayName": "Guardian (Nanomight)\n(variante 3 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/62828853-4586-0dfc-ca75-f4b5507543e7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/62828853-4586-0dfc-ca75-f4b5507543e7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/62828853-4586-0dfc-ca75-f4b5507543e7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Digipets/Chromas/V3/DMR_Digipets_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "85497e04-487a-fc77-da68-2cafc812f7ed",
+          "displayName": "Guardian (Nanomight)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/85497e04-487a-fc77-da68-2cafc812f7ed/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Digipets/Levels/DMR_Digipets_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "00e6b758-448e-af3b-7dee-879aa4a51324",
+      "displayName": "Guardian (Nitro)",
+      "themeUuid": "cc3f546b-410a-ddb6-6577-4aab0296496d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Electroflux2/DMR_Electroflux2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c8721633-461a-a7be-8777-bd96c9332470",
+          "displayName": "Standard",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c8721633-461a-a7be-8777-bd96c9332470/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c8721633-461a-a7be-8777-bd96c9332470/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Electroflux2/Chromas/Standard/DMR_Electroflux2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "03d98493-4964-3f66-7e23-7581bbcfa501",
+          "displayName": "Guardian (Nitro)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/03d98493-4964-3f66-7e23-7581bbcfa501/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Electroflux2/Levels/DMR_Electroflux2_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2d5e6025-4166-730e-1024-abb766d19568",
+      "displayName": "Guardian (Chantacier)",
+      "themeUuid": "950c5b23-4a07-d8e9-9622-46b04592f430",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2d5e6025-4166-730e-1024-abb766d19568/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Elven/DMR_Elven_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "09ad889f-4f6b-038e-9b72-23a8203f393f",
+          "displayName": "Guardian (Chantacier)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/09ad889f-4f6b-038e-9b72-23a8203f393f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/09ad889f-4f6b-038e-9b72-23a8203f393f/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Elven/Chromas/Standard/DMR_Elven_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6672800e-442c-a0b5-92d3-ed83483f04df",
+          "displayName": "Guardian (Chantacier)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6672800e-442c-a0b5-92d3-ed83483f04df/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Elven/Levels/DMR_Elven_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0a847414-49e2-b163-b6f6-9a8feee15215",
+      "displayName": "Guardian (Éclaireur lunaire)",
+      "themeUuid": "79e7a00e-44c4-0863-954a-cfbfc6676412",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0a847414-49e2-b163-b6f6-9a8feee15215/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Frontier/DMR_Frontier_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "62af73af-4c2a-aab7-1bc8-e48661e9f12a",
+          "displayName": "Guardian (Éclaireur lunaire)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/62af73af-4c2a-aab7-1bc8-e48661e9f12a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/62af73af-4c2a-aab7-1bc8-e48661e9f12a/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Frontier/Chromas/Standard/DMR_Frontier_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f5b88fd8-427e-76a0-3f61-5b8c4d930c8b",
+          "displayName": "Guardian (Éclaireur lunaire)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f5b88fd8-427e-76a0-3f61-5b8c4d930c8b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Frontier/Levels/DMR_Frontier_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "3ab36c94-4c91-d722-6f10-11bbbe382159",
+      "displayName": "Guardian (Flamboyant)",
+      "themeUuid": "39a6524c-4842-a05c-e420-27ab8d022cea",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3ab36c94-4c91-d722-6f10-11bbbe382159/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Fury/DMR_Fury_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d7fa6b9a-4623-788c-801a-2896a6177ab3",
+          "displayName": "Guardian (Flamboyant)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d7fa6b9a-4623-788c-801a-2896a6177ab3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d7fa6b9a-4623-788c-801a-2896a6177ab3/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Fury/Chromas/Standard/DMR_Fury_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4b46b688-4da9-1a19-1be4-af9cafd7392d",
+          "displayName": "Guardian (Flamboyant)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4b46b688-4da9-1a19-1be4-af9cafd7392d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Fury/Levels/DMR_Fury_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5bf741d9-4e0f-12c3-17d1-129befd702cd",
+      "displayName": "Guardian (Vengeance de Dolmir)",
+      "themeUuid": "44aca53d-483f-1682-4aac-27a771feef43",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5bf741d9-4e0f-12c3-17d1-129befd702cd/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/5bf741d9-4e0f-12c3-17d1-129befd702cd/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Golem/DMR_Golem_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "46c6b89b-4f4a-a70e-7793-88b8072f4d82",
+          "displayName": "Guardian (Vengeance de Dolmir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/46c6b89b-4f4a-a70e-7793-88b8072f4d82/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/46c6b89b-4f4a-a70e-7793-88b8072f4d82/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/46c6b89b-4f4a-a70e-7793-88b8072f4d82/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Golem/Chromas/Standard/DMR_Golem_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "93792ef3-4483-5eb0-ffed-acabe809df77",
+          "displayName": "Guardian (Vengeance de Dolmir) niveau 4\n(variante 1 Obsidienne)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/93792ef3-4483-5eb0-ffed-acabe809df77/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/93792ef3-4483-5eb0-ffed-acabe809df77/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/93792ef3-4483-5eb0-ffed-acabe809df77/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/42bed318-4463-f0f0-6c44-468f91b4c0c5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Golem/Chromas/v1/DMR_Golem_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "b5aed903-40fd-44c6-e4a4-fcbdec597744",
+          "displayName": "Guardian (Vengeance de Dolmir) niveau 4\n(variante 2 Mousse)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b5aed903-40fd-44c6-e4a4-fcbdec597744/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b5aed903-40fd-44c6-e4a4-fcbdec597744/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b5aed903-40fd-44c6-e4a4-fcbdec597744/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/79d650c4-4127-854e-65a1-65963ae4bfe6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Golem/Chromas/v2/DMR_Golem_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "4e0b4453-4739-650f-eca4-1aa226c2bd39",
+          "displayName": "Guardian (Vengeance de Dolmir) niveau 4\n(variante 3 Glace)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4e0b4453-4739-650f-eca4-1aa226c2bd39/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4e0b4453-4739-650f-eca4-1aa226c2bd39/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4e0b4453-4739-650f-eca4-1aa226c2bd39/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3985dcba-4800-96e1-445e-09b6da5345e0_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Golem/Chromas/V3/DMR_Golem_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "2982581b-4bd2-9e8b-1ba9-b6ae8473a73d",
+          "displayName": "Guardian (Vengeance de Dolmir)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/2982581b-4bd2-9e8b-1ba9-b6ae8473a73d/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/15705d15-47d3-bbcf-64cd-c5a234e37774_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Golem/Levels/DMR_Golem_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d355c60c-4f98-97b3-fdcf-c4a83fa0fd04",
+          "displayName": "Guardian (Vengeance de Dolmir) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9f9df29d-4c4e-6c7d-6dd4-7ca48aa61481_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Golem/Levels/DMR_Golem_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "fba0047f-481c-0606-c0af-3f8857abaaac",
+          "displayName": "Guardian (Vengeance de Dolmir) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fedbe197-4721-edbb-6ed8-aca4b99bcded_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Golem/Levels/DMR_Golem_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "531dbc46-4371-6274-864d-6c83819c4ac8",
+          "displayName": "Guardian (Vengeance de Dolmir) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b28d8605-4a34-f130-f47d-f99c9ba4cab2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Golem/Levels/DMR_Golem_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "453a734b-4f14-9183-2be8-97b01f603368",
+      "displayName": "Guardian (Vestiges)",
+      "themeUuid": "f1be220c-4370-c5e9-fa8e-2f9227ba81de",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/453a734b-4f14-9183-2be8-97b01f603368/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Gothic/DMR_Gothic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "5e4d839c-4f56-5173-088e-5cac4a2e5e67",
+          "displayName": "Guardian (Vestiges)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5e4d839c-4f56-5173-088e-5cac4a2e5e67/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5e4d839c-4f56-5173-088e-5cac4a2e5e67/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Gothic/Chromas/Standard/DMR_Gothic_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c41a7b5d-4a04-a411-053d-818fe1d77ac6",
+          "displayName": "Guardian (Vestiges)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c41a7b5d-4a04-a411-053d-818fe1d77ac6/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Gothic/Levels/DMR_Gothic_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7422b876-443e-b975-faab-0ebf73dbc075",
+      "displayName": "Guardian (Faucheur d'âmes)",
+      "themeUuid": "ee07cbca-4cdd-05fe-0e87-97b00f850d5e",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7422b876-443e-b975-faab-0ebf73dbc075/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Haunted/DMR_Haunted_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e63d9171-42b5-908d-1ae6-17a02cd60e55",
+          "displayName": "Guardian (Faucheur d'âmes)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e63d9171-42b5-908d-1ae6-17a02cd60e55/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e63d9171-42b5-908d-1ae6-17a02cd60e55/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Haunted/Chromas/Standard/DMR_Haunted_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f4861ffb-480d-7ddc-f1a3-45a6dfaa4229",
+          "displayName": "Guardian (Faucheur d'âmes)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f4861ffb-480d-7ddc-f1a3-45a6dfaa4229/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/56336660-474a-0b69-9d4f-bab3d3fc52b8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Haunted/Levels/DMR_Haunted_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "9a839248-4244-ab7f-b5ab-db90b18f9bc8",
+          "displayName": "Guardian (Faucheur d'âmes) niveau 2\nChaque fois que vous tuez un ennemi, des effets visuels et sonores spéciaux sont joués.",
+          "levelItem": "EEquippableSkinLevelItem::KillEffect",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8ca1cb94-43e9-a141-c626-efbc33f207c8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Haunted/Levels/DMR_Haunted_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "acd76d4d-4d05-2597-d63b-12851b2b61ee",
+      "displayName": "Guardian (Infanterie)",
+      "themeUuid": "ba8d1971-47ea-fe7c-20c2-2f95c63d567d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/acd76d4d-4d05-2597-d63b-12851b2b61ee/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Historical/DMR_Historical_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3292c7e0-402f-70e2-f189-4ba34fcf7af4",
+          "displayName": "Guardian (Infanterie)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3292c7e0-402f-70e2-f189-4ba34fcf7af4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3292c7e0-402f-70e2-f189-4ba34fcf7af4/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Historical/Chromas/Standard/DMR_Historical_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a2c59452-4420-130a-9aa1-cb8ea551a05d",
+          "displayName": "Guardian (Infanterie)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a2c59452-4420-130a-9aa1-cb8ea551a05d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Historical/Levels/DMR_Historical_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "06854a71-4eac-cb4c-cdbe-bbbdda492e9c",
+      "displayName": "Guardian (Hydroplongeon)",
+      "themeUuid": "2f21ff86-4db9-1c5b-ff92-4db0218f5fbd",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/06854a71-4eac-cb4c-cdbe-bbbdda492e9c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Hydrodip/DMR_Hydrodip_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0b3070f7-43f8-845a-c45f-e18f9f126b1f",
+          "displayName": "Guardian (Hydroplongeon)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0b3070f7-43f8-845a-c45f-e18f9f126b1f/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Hydrodip/Chromas/Standard/DMR_Hydrodip_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0ab465ed-4539-16f1-b791-5384280e0a1c",
+          "displayName": "Guardian (Hydroplongeon)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0ab465ed-4539-16f1-b791-5384280e0a1c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Hydrodip/Levels/DMR_Hydrodip_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2a049f35-4bcd-af25-21fd-ec942e2d5007",
+      "displayName": "Guardian (Primordial)",
+      "themeUuid": "9436fe00-4156-e115-b11f-f69cac91a6a5",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2a049f35-4bcd-af25-21fd-ec942e2d5007/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/HypeBeast/DMR_HypeBeast_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e2f5a979-4e9a-f931-7f52-d99f0ec4a61b",
+          "displayName": "Guardian (Primordial)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e2f5a979-4e9a-f931-7f52-d99f0ec4a61b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e2f5a979-4e9a-f931-7f52-d99f0ec4a61b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e2f5a979-4e9a-f931-7f52-d99f0ec4a61b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/HypeBeast/Chromas/Standard/DMR_HypeBeast_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "4ca16478-40c7-2cf6-bdd2-099761921e61",
+          "displayName": "Guardian (Primordial) niveau 4\n(variante 1 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4ca16478-40c7-2cf6-bdd2-099761921e61/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4ca16478-40c7-2cf6-bdd2-099761921e61/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4ca16478-40c7-2cf6-bdd2-099761921e61/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/HypeBeast/Chromas/Orange/DMR_HypeBeast_Orange_PrimaryAsset"
+        },
+        {
+          "uuid": "e866f273-4acc-806f-becd-56a6bef48fbc",
+          "displayName": "Guardian (Primordial) niveau 4\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e866f273-4acc-806f-becd-56a6bef48fbc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e866f273-4acc-806f-becd-56a6bef48fbc/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e866f273-4acc-806f-becd-56a6bef48fbc/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/HypeBeast/Chromas/Blue/DMR_HypeBeast_Blue_PrimaryAsset"
+        },
+        {
+          "uuid": "22f831db-4e55-6280-9078-d9b63ae93e4d",
+          "displayName": "Guardian (Primordial) niveau 4\n(variante 3 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/22f831db-4e55-6280-9078-d9b63ae93e4d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/22f831db-4e55-6280-9078-d9b63ae93e4d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/22f831db-4e55-6280-9078-d9b63ae93e4d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/HypeBeast/Chromas/Yellow/DMR_HypeBeast_Yellow_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9336ab9d-445c-0872-a283-9f9b61a0098a",
+          "displayName": "Guardian (Primordial)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9336ab9d-445c-0872-a283-9f9b61a0098a/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/bf10d326-196e-4388-b5a0-8fda40d738e2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/HypeBeast/DMR_HypeBeast_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "edc646b0-4a5a-6a76-a860-6b8db95bd132",
+          "displayName": "Guardian (Primordial) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/edc646b0-4a5a-6a76-a860-6b8db95bd132/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/26b4a8b8-b28f-493d-8f39-93d19f73a910_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/HypeBeast/DMR_HypeBeast_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "14b04b38-4359-62a3-ab62-bcbe715e3fa0",
+          "displayName": "Guardian (Primordial) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/14b04b38-4359-62a3-ab62-bcbe715e3fa0/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9de9bf52-dfca-4d99-8fd3-51a85ca3bcef_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/HypeBeast/DMR_HypeBeast_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "99b7b761-41b3-e26c-ceeb-b9a1c3a67736",
+          "displayName": "Guardian (Primordial) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/99b7b761-41b3-e26c-ceeb-b9a1c3a67736/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/70b5e747-f59e-4064-99d3-73a5612c0cab_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/HypeBeast/DMR_HypeBeast_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "f9734048-446f-bb6f-0f58-f5aa6fded7c7",
+      "displayName": "Guardian (Bulle de pop)",
+      "themeUuid": "12347394-4dd6-594d-6101-abb011fa374a",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/f9734048-446f-bb6f-0f58-f5aa6fded7c7/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Idol/DMR_Idol_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "26e3feb2-40cb-20ae-8be6-729ba01ae62f",
+          "displayName": "Guardian (Bulle de pop)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/26e3feb2-40cb-20ae-8be6-729ba01ae62f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/26e3feb2-40cb-20ae-8be6-729ba01ae62f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/26e3feb2-40cb-20ae-8be6-729ba01ae62f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Idol/Chromas/Standard/DMR_Idol_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "c38e91db-44d1-54ea-6ca5-ffa2d9f25d23",
+          "displayName": "Guardian (Bulle de pop)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c38e91db-44d1-54ea-6ca5-ffa2d9f25d23/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c38e91db-44d1-54ea-6ca5-ffa2d9f25d23/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c38e91db-44d1-54ea-6ca5-ffa2d9f25d23/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Idol/Chromas/v1/DMR_Idol_v1_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "60df3a2a-43ba-c1a7-83ac-088c103662ab",
+          "displayName": "Guardian (Bulle de pop)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/60df3a2a-43ba-c1a7-83ac-088c103662ab/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Idol/Levels/DMR_Idol_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2700e91f-4201-5b8e-a9c7-b5aea72942e1",
+      "displayName": "Guardian (Garde-fou)",
+      "themeUuid": "365432d5-4acc-6b9e-4fc5-5b854d2e50f3",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2700e91f-4201-5b8e-a9c7-b5aea72942e1/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/IndustrialX/DMR_IndustrialX_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9dfe46ec-4632-559c-4588-f18744862ac1",
+          "displayName": "Guardian (Garde-fou)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9dfe46ec-4632-559c-4588-f18744862ac1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9dfe46ec-4632-559c-4588-f18744862ac1/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/IndustrialX/Chromas/Standard/DMR_IndustrialX_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "66137ebe-4eed-bcef-b3ec-84b2760f9652",
+          "displayName": "Guardian (Garde-fou)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/66137ebe-4eed-bcef-b3ec-84b2760f9652/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/IndustrialX/Levels/DMR_IndustrialX_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d0a78e3a-4b36-03b5-f3f3-04826a640fed",
+      "displayName": "Guardian (Enchevêtrement)",
+      "themeUuid": "789fd8ce-4dc6-d602-1036-53846e76b65d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d0a78e3a-4b36-03b5-f3f3-04826a640fed/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Intertwine/DMR_Intertwine_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "167f0b5e-4f2f-c5ff-747f-198af9b24ba9",
+          "displayName": "Guardian (Enchevêtrement)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/167f0b5e-4f2f-c5ff-747f-198af9b24ba9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/167f0b5e-4f2f-c5ff-747f-198af9b24ba9/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Intertwine/Chromas/Standard/DMR_Intertwine_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "58b309fe-4e29-bbf0-d687-9ea36eae63e1",
+          "displayName": "Guardian (Enchevêtrement)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/58b309fe-4e29-bbf0-d687-9ea36eae63e1/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Intertwine/Levels/DMR_Intertwine_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "46ffb61a-4127-3308-ba92-94bc970923f4",
+      "displayName": "Guardian (Yoonseul)",
+      "themeUuid": "6c7becf6-4df3-4b48-2195-94bad9b5773a",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/46ffb61a-4127-3308-ba92-94bc970923f4/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Jinju/DMR_Jinju_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "bd8a65e3-49f0-c583-5676-01826902cb2c",
+          "displayName": "Guardian (Yoonseul)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bd8a65e3-49f0-c583-5676-01826902cb2c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bd8a65e3-49f0-c583-5676-01826902cb2c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Jinju/Chromas/Standard/DMR_Jinju_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3728d289-46f7-e28b-0df1-6784306eeded",
+          "displayName": "Guardian (Yoonseul)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3728d289-46f7-e28b-0df1-6784306eeded/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Jinju/Levels/DMR_Jinju_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8966067d-4023-c88a-db56-2691f163d335",
+      "displayName": "Guardian (Ruine)",
+      "themeUuid": "c139c173-41f2-93ef-2640-6f84dba75984",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8966067d-4023-c88a-db56-2691f163d335/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/8966067d-4023-c88a-db56-2691f163d335/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/King/DMR_King_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3f621c8c-4fa8-b50c-969f-c5b4e8bdc3c9",
+          "displayName": "Guardian (Ruine)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3f621c8c-4fa8-b50c-969f-c5b4e8bdc3c9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3f621c8c-4fa8-b50c-969f-c5b4e8bdc3c9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3f621c8c-4fa8-b50c-969f-c5b4e8bdc3c9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/King/Chromas/Standard/DMR_King_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "82024942-4396-65bf-777a-009fe896437f",
+          "displayName": "Guardian (Ruine) niveau 4\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/82024942-4396-65bf-777a-009fe896437f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/82024942-4396-65bf-777a-009fe896437f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/82024942-4396-65bf-777a-009fe896437f/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/af8dd1e7-4146-3786-1dfa-baaa78de95bb_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/King/Chromas/v1/DMR_King_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "3d0a76d8-4f01-244f-158d-57b59c5ff51e",
+          "displayName": "Guardian (Ruine) niveau 4\n(variante 2 Rouge/Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3d0a76d8-4f01-244f-158d-57b59c5ff51e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3d0a76d8-4f01-244f-158d-57b59c5ff51e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3d0a76d8-4f01-244f-158d-57b59c5ff51e/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8394fb8c-4702-f7b6-7214-1d899e1d4ea7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/King/Chromas/v2/DMR_King_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "38776b08-42b7-4231-a32c-539251cf6b4a",
+          "displayName": "Guardian (Ruine) niveau 4\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/38776b08-42b7-4231-a32c-539251cf6b4a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/38776b08-42b7-4231-a32c-539251cf6b4a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/38776b08-42b7-4231-a32c-539251cf6b4a/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/cb169daa-4261-1d4c-9715-48a778673709_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/King/Chromas/v3/DMR_King_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0e1af0d5-4dee-15db-25b5-31a7da6f1d52",
+          "displayName": "Guardian (Ruine)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0e1af0d5-4dee-15db-25b5-31a7da6f1d52/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/51b25a4a-4db8-86cc-3a64-76a5772a6e13_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/King/Levels/DMR_King_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "e5686279-4ecb-8dd0-bbc1-5cacf998c392",
+          "displayName": "Guardian (Ruine) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4cdfae2f-440c-0c20-37d8-2ab773da5574_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/King/Levels/DMR_King_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "972f5a0c-453a-fa8c-c0e6-7ca9dc4b98bb",
+          "displayName": "Guardian (Ruine) niveau 3",
+          "levelItem": null,
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/281b1aa9-481a-09a5-a372-06bd32e93b39_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/King/Levels/DMR_King_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "26727126-4b2a-b735-ef3e-df9b98c7bfee",
+          "displayName": "Guardian (Ruine) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/69b189af-4221-0053-c98a-459da0712cb6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/King/Levels/DMR_King_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "41e6c204-4ba2-31dc-70b4-4d99b4ac9668",
+      "displayName": "Guardian (Solarstride)",
+      "themeUuid": "4a0f06f2-4714-1ab0-9a0b-9492f1a875a5",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/41e6c204-4ba2-31dc-70b4-4d99b4ac9668/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/41e6c204-4ba2-31dc-70b4-4d99b4ac9668/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/LNY26/DMR_LNY26_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "b20ed144-49e4-d0d6-5e80-2f81451c70e2",
+          "displayName": "Guardian (Solarstride)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b20ed144-49e4-d0d6-5e80-2f81451c70e2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b20ed144-49e4-d0d6-5e80-2f81451c70e2/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b20ed144-49e4-d0d6-5e80-2f81451c70e2/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/LNY26/Chromas/Standard/DMR_LNY26_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "546b4b7a-4897-63a1-22cf-15974dcf4562",
+          "displayName": "Guardian (Solarstride) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/546b4b7a-4897-63a1-22cf-15974dcf4562/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/546b4b7a-4897-63a1-22cf-15974dcf4562/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/546b4b7a-4897-63a1-22cf-15974dcf4562/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/dee1ccbb-498f-7004-bcb9-eab497554ee0_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/LNY26/Chromas/v1/DMR_LNY26_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "cd133b4e-4199-85f5-2ff5-939812376225",
+          "displayName": "Guardian (Solarstride) niveau 4\n(variante 2 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cd133b4e-4199-85f5-2ff5-939812376225/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cd133b4e-4199-85f5-2ff5-939812376225/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/cd133b4e-4199-85f5-2ff5-939812376225/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/40879d68-47c6-1405-d3db-12b21cc22c9d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/LNY26/Chromas/v2/DMR_LNY26_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "64b97331-43cd-2c7c-d82a-77bdc39a612b",
+          "displayName": "Guardian (Solarstride) niveau 4\n(variante 3 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/64b97331-43cd-2c7c-d82a-77bdc39a612b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/64b97331-43cd-2c7c-d82a-77bdc39a612b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/64b97331-43cd-2c7c-d82a-77bdc39a612b/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4b9acb28-41ef-7a3f-5afe-c582b3871726_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/LNY26/Chromas/V3/DMR_LNY26_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3f13385e-4e99-4887-5474-4087971d3378",
+          "displayName": "Guardian (Solarstride)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3f13385e-4e99-4887-5474-4087971d3378/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ed99cfde-41ed-571a-d214-0c8ac8581928_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/LNY26/Levels/DMR_LNY26_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "0c8f25e8-4324-1773-3f30-2e99f2948702",
+          "displayName": "Guardian (Solarstride) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/76c851f6-42ac-20cc-f283-1095652bed2f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/LNY26/Levels/DMR_LNY26_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "04e2e675-4aab-7cf3-d5c0-13a049766512",
+          "displayName": "Guardian (Solarstride) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/04e2e675-4aab-7cf3-d5c0-13a049766512/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/bab5fe97-4dcf-a39f-9986-40910f327997_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/LNY26/Levels/DMR_LNY26_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "85997270-40e9-126b-f80d-5a9b7925c6a1",
+          "displayName": "Guardian (Solarstride) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/66a76d7c-473b-605a-e3bf-d5856f954f02_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/LNY26/Levels/DMR_LNY26_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "f6dd8d93-4dbb-f7b2-d82a-41bfc8f46e31",
+      "displayName": "Guardian (Fard)",
+      "themeUuid": "e281c7d5-43b2-86a5-48f2-e2b8c49071a6",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/f6dd8d93-4dbb-f7b2-d82a-41bfc8f46e31/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Liquidpink/DMR_Liquidpink_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "794e1185-4579-003a-b37a-bc84bbfe81d5",
+          "displayName": "Guardian (Fard)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/794e1185-4579-003a-b37a-bc84bbfe81d5/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Liquidpink/Chromas/Standard/DMR_Liquidpink_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "80fd2b3e-4854-204b-718d-aeaaeb5b63a5",
+          "displayName": "Guardian (Fard)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/80fd2b3e-4854-204b-718d-aeaaeb5b63a5/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Liquidpink/Levels/DMR_Liquidpink_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "80dbfa46-4a1f-c7a4-2e88-1499308c7b9a",
+      "displayName": "Guardian (Magepunk)",
+      "themeUuid": "df7fbc2f-4801-df74-7c08-0bb09ce3904c",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/80dbfa46-4a1f-c7a4-2e88-1499308c7b9a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Magepunk2/DMR_Magepunk2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6415fc9e-475b-2af7-cee4-8586e68384f8",
+          "displayName": "Guardian (Magepunk)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6415fc9e-475b-2af7-cee4-8586e68384f8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6415fc9e-475b-2af7-cee4-8586e68384f8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6415fc9e-475b-2af7-cee4-8586e68384f8/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Magepunk2/Chromas/Standard/DMR_Magepunk2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "22f79bc9-42c5-ca2d-a4df-6790881ed314",
+          "displayName": "Guardian (Magepunk) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/22f79bc9-42c5-ca2d-a4df-6790881ed314/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/22f79bc9-42c5-ca2d-a4df-6790881ed314/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/22f79bc9-42c5-ca2d-a4df-6790881ed314/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/150aef26-4394-98ae-d49f-7481ee4a9633_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Magepunk2/Chromas/v1/DMR_Magepunk2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "c85b7846-4611-88f4-d048-07982265da09",
+          "displayName": "Guardian (Magepunk) niveau 4\n(variante 2 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c85b7846-4611-88f4-d048-07982265da09/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c85b7846-4611-88f4-d048-07982265da09/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c85b7846-4611-88f4-d048-07982265da09/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/abbb186c-40d5-6617-0a51-d1994efa6bdd_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Magepunk2/Chromas/v2/DMR_Magepunk2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "0ce4bd16-4231-9ff4-c0aa-109ab9c31294",
+          "displayName": "Guardian (Magepunk) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0ce4bd16-4231-9ff4-c0aa-109ab9c31294/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0ce4bd16-4231-9ff4-c0aa-109ab9c31294/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0ce4bd16-4231-9ff4-c0aa-109ab9c31294/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/419e7224-4f12-c741-d813-089527b2e933_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Magepunk2/Chromas/V3/DMR_Magepunk2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e63eab09-47e4-25be-6c9f-57995385429d",
+          "displayName": "Guardian (Magepunk)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e63eab09-47e4-25be-6c9f-57995385429d/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ac664eda-4e3e-5910-1639-7798191773be_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Magepunk2/Levels/DMR_Magepunk2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "723343b6-4c37-2591-7892-c187e5c9e3e8",
+          "displayName": "Guardian (Magepunk) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/69de56d0-4fdc-867f-aa88-19b61d380de2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Magepunk2/Levels/DMR_Magepunk2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "10eb0fb8-4850-c585-57bc-8fa85e52f26a",
+          "displayName": "Guardian (Magepunk) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/14c2f00e-4ded-5710-ae6b-ddabbafe555d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Magepunk2/Levels/DMR_Magepunk2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "ba011f9b-41c5-4aa5-ed42-8a9b148a04f3",
+          "displayName": "Guardian (Magepunk) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f5b1b5cb-4e51-0d28-2673-4ea33cadf191_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Magepunk2/Levels/DMR_Magepunk2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "da4317a0-4913-5e87-5b45-53be8e576481",
+      "displayName": "Guardian (Tacti-série)",
+      "themeUuid": "56ef5eb6-42df-f829-f7f6-038bb77d1d84",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/da4317a0-4913-5e87-5b45-53be8e576481/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Manga/DMR_Manga_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "14f3dcda-4b66-0eb5-d712-36a50176719b",
+          "displayName": "Guardian (Tacti-série)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/14f3dcda-4b66-0eb5-d712-36a50176719b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/14f3dcda-4b66-0eb5-d712-36a50176719b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Manga/Chromas/Standard/DMR_Manga_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "2042fb0a-4da1-95a9-9b46-44b4770c5af9",
+          "displayName": "Guardian (Tacti-série)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/2042fb0a-4da1-95a9-9b46-44b4770c5af9/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Manga/Levels/DMR_Manga_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "26e675c5-46cc-65fb-7be2-db8a64dbde48",
+      "displayName": "Guardian (Signature)",
+      "themeUuid": "36f9abb7-4d30-16f1-f476-8c81e67f1d14",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/26e675c5-46cc-65fb-7be2-db8a64dbde48/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/MidnightAerosol/DMR_MidnightAerosol_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6c1c1710-48f1-a0b6-01a1-049995413b3f",
+          "displayName": "Guardian (Signature)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6c1c1710-48f1-a0b6-01a1-049995413b3f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6c1c1710-48f1-a0b6-01a1-049995413b3f/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/MidnightAerosol/Chromas/Standard/DMR_MidnightAerosol_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a7d529fa-4892-8834-f7e8-689fc2eae6ec",
+          "displayName": "Guardian (Signature)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a7d529fa-4892-8834-f7e8-689fc2eae6ec/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/MidnightAerosol/Levels/DMR_MidnightAerosol_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "f097983d-4c5a-c7ed-c325-039c99bb824e",
+      "displayName": "Guardian (Galeries)",
+      "themeUuid": "0c4ee4ba-484a-8fd2-e680-aaba9315cea4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Murals/DMR_Murals_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "fc0c6d41-496e-5ac5-6c8f-9787f4e71c0d",
+          "displayName": "Guardian (Galeries)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fc0c6d41-496e-5ac5-6c8f-9787f4e71c0d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fc0c6d41-496e-5ac5-6c8f-9787f4e71c0d/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Murals/Chromas/Standard/DMR_Murals_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7a0374af-42f5-2f99-b535-a997f2179717",
+          "displayName": "Guardian (Galeries)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7a0374af-42f5-2f99-b535-a997f2179717/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Murals/Levels/DMR_Murals_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b7931d66-4ca3-d67c-c130-6692c55ae26c",
+      "displayName": "Guardian (Trait de lune)",
+      "themeUuid": "92f6510e-4a02-4ede-0b2f-3897762ce5df",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b7931d66-4ca3-d67c-c130-6692c55ae26c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/NineTails/DMR_NineTails_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8c6b9c03-45aa-262f-7039-0e81dcae1b66",
+          "displayName": "Guardian (Trait de lune)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8c6b9c03-45aa-262f-7039-0e81dcae1b66/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/NineTails/Chromas/Standard/DMR_NineTails_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c04a92d3-445a-1d3c-07fb-99ba9637c0bd",
+          "displayName": "Guardian (Trait de lune)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c04a92d3-445a-1d3c-07fb-99ba9637c0bd/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/NineTails/Levels/DMR_NineTails_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "cf3ccc67-4570-9a21-1902-4ea07a0070af",
+      "displayName": "Guardian (Kuronami)",
+      "themeUuid": "1844fa34-40fc-2e52-669c-36aa2e47fddc",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cf3ccc67-4570-9a21-1902-4ea07a0070af/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/cf3ccc67-4570-9a21-1902-4ea07a0070af/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ninja2/DMR_Ninja2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0616111d-4827-5aa6-5629-7884a8819ece",
+          "displayName": "Guardian (Kuronami)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0616111d-4827-5aa6-5629-7884a8819ece/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0616111d-4827-5aa6-5629-7884a8819ece/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0616111d-4827-5aa6-5629-7884a8819ece/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ninja2/Chromas/Standard/DMR_Ninja2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "e23f472d-4158-c9fe-9117-da86245634d5",
+          "displayName": "Guardian (Kuronami) niveau 4\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e23f472d-4158-c9fe-9117-da86245634d5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e23f472d-4158-c9fe-9117-da86245634d5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e23f472d-4158-c9fe-9117-da86245634d5/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/28c5d0e0-4cf7-de22-084e-11a79e729cc5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ninja2/Chromas/v1/DMR_Ninja2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "3c05313c-479c-5a4a-cfe7-9e8b85d9298a",
+          "displayName": "Guardian (Kuronami) niveau 4\n(variante 2 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3c05313c-479c-5a4a-cfe7-9e8b85d9298a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3c05313c-479c-5a4a-cfe7-9e8b85d9298a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3c05313c-479c-5a4a-cfe7-9e8b85d9298a/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ca045a7d-44f6-81cc-43ed-238f45e66a9f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ninja2/Chromas/v2/DMR_Ninja2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "28f516ce-49ea-2642-658a-65aaaf0d80ef",
+          "displayName": "Guardian (Kuronami) niveau 4\n(variante 3 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/28f516ce-49ea-2642-658a-65aaaf0d80ef/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/28f516ce-49ea-2642-658a-65aaaf0d80ef/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/28f516ce-49ea-2642-658a-65aaaf0d80ef/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/be167263-4d56-3ada-97a1-5a9bce599dd9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ninja2/Chromas/V3/DMR_Ninja2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "34d29b9d-4672-ebe9-0795-508b66ba6551",
+          "displayName": "Guardian (Kuronami)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/34d29b9d-4672-ebe9-0795-508b66ba6551/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e89ed18e-45ae-5a5c-e1c8-a8973007544f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ninja2/Levels/DMR_Ninja2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "77b32e8e-49b8-124d-e82e-a89d79c875fb",
+          "displayName": "Guardian (Kuronami) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fe6d56d9-4c8c-7bb8-b4a5-80b6a14011d4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ninja2/Levels/DMR_Ninja2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "a42deafc-4935-fcef-a44e-55a86857663b",
+          "displayName": "Guardian (Kuronami) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/10ec4f33-40f8-5700-69ac-7ca36b7445e0_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ninja2/Levels/DMR_Ninja2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "2cf292d7-471a-03da-e7b0-a391d4477385",
+          "displayName": "Guardian (Kuronami) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1b5d6578-4d40-211c-433e-12b57c458ab0_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Ninja2/Levels/DMR_Ninja2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "850fea42-419f-f284-84ae-40ae1eabbb5b",
+      "displayName": "Guardian (Oni)",
+      "themeUuid": "8a34391f-4d1f-6b22-859f-628bff79d381",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/850fea42-419f-f284-84ae-40ae1eabbb5b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Oni/DMR_Oni_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9e97de52-4080-8311-2505-8faade37fe46",
+          "displayName": "Guardian (Oni)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9e97de52-4080-8311-2505-8faade37fe46/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9e97de52-4080-8311-2505-8faade37fe46/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9e97de52-4080-8311-2505-8faade37fe46/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Oni/Chromas/Standard/DMR_Oni_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "aed44a0e-4834-0ec9-ab68-729f22189bad",
+          "displayName": "Guardian (Oni) niveau 4\n(variante 1 Kumo)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/aed44a0e-4834-0ec9-ab68-729f22189bad/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/aed44a0e-4834-0ec9-ab68-729f22189bad/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/aed44a0e-4834-0ec9-ab68-729f22189bad/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Oni/Chromas/Black/DMR_Oni_Black_PrimaryAsset"
+        },
+        {
+          "uuid": "a8a73b3a-4608-6bef-dd1b-0cbb8ab7d2e4",
+          "displayName": "Guardian (Oni) niveau 4\n(variante 2 Hana)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a8a73b3a-4608-6bef-dd1b-0cbb8ab7d2e4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a8a73b3a-4608-6bef-dd1b-0cbb8ab7d2e4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a8a73b3a-4608-6bef-dd1b-0cbb8ab7d2e4/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Oni/Chromas/Green/DMR_Oni_Green_PrimaryAsset"
+        },
+        {
+          "uuid": "2c754236-407d-5708-61da-ada2f7821fb4",
+          "displayName": "Guardian (Oni) niveau 4\n(variante 3 Tsubame)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2c754236-407d-5708-61da-ada2f7821fb4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2c754236-407d-5708-61da-ada2f7821fb4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2c754236-407d-5708-61da-ada2f7821fb4/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Oni/Chromas/White/DMR_Oni_White_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "fee2c305-40d1-1cca-08b8-46bceda98eca",
+          "displayName": "Guardian (Oni)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fee2c305-40d1-1cca-08b8-46bceda98eca/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6b731284-4cdc-6345-cea7-8c9cb9882450_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Oni/Levels/DMR_Oni_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "10db658a-4299-a0cd-8822-feb09adca3ad",
+          "displayName": "Guardian (Oni) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/10db658a-4299-a0cd-8822-feb09adca3ad/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4e54b09c-4969-6394-9488-81892ea20bbc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Oni/Levels/DMR_Oni_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "fea4c5e9-4028-72b1-0dda-00b9d14026a2",
+          "displayName": "Guardian (Oni) niveau 3",
+          "levelItem": null,
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/83afc9e5-4139-0ff8-336d-b18c078b8ce5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Oni/Levels/DMR_Oni_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "9318a2c8-4ccc-bfb4-e7d9-6289608a4ba5",
+          "displayName": "Guardian (Oni) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9318a2c8-4ccc-bfb4-e7d9-6289608a4ba5/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/688863c1-494d-8a95-8ac3-5aac60537c94_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Oni/Levels/DMR_Oni_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1a38d03c-4114-6908-37dd-38a85d91cb2d",
+      "displayName": "Guardian (9 vies)",
+      "themeUuid": "d271bf9f-42f0-3f1d-0198-d6b046c6b9e4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1a38d03c-4114-6908-37dd-38a85d91cb2d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Pets/DMR_Pets_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ad3f37b1-431d-ae7c-4de0-68b29236d729",
+          "displayName": "Guardian (9 vies)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ad3f37b1-431d-ae7c-4de0-68b29236d729/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ad3f37b1-431d-ae7c-4de0-68b29236d729/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ad3f37b1-431d-ae7c-4de0-68b29236d729/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Pets/Chromas/Standard/DMR_Pets_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "bd0f6b8b-4d5c-05ab-04ad-e6b4eeb81295",
+          "displayName": "Guardian (9 vies)\n(variante 1 Raze)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bd0f6b8b-4d5c-05ab-04ad-e6b4eeb81295/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bd0f6b8b-4d5c-05ab-04ad-e6b4eeb81295/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/bd0f6b8b-4d5c-05ab-04ad-e6b4eeb81295/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Pets/Chromas/v1/DMR_Pets_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "35189b6c-467a-0aee-0a85-ec8f39e5f81f",
+          "displayName": "Guardian (9 vies)\n(variante 2 Reyna)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/35189b6c-467a-0aee-0a85-ec8f39e5f81f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/35189b6c-467a-0aee-0a85-ec8f39e5f81f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/35189b6c-467a-0aee-0a85-ec8f39e5f81f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Pets/Chromas/v2/DMR_Pets_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "7f448cd6-487a-dd56-7443-4e965b053ab4",
+          "displayName": "Guardian (9 vies)\n(variante 3 Viper)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7f448cd6-487a-dd56-7443-4e965b053ab4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7f448cd6-487a-dd56-7443-4e965b053ab4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7f448cd6-487a-dd56-7443-4e965b053ab4/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Pets/Chromas/V3/DMR_Pets_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ceb293ef-4b75-7924-f638-e098a14a2788",
+          "displayName": "Guardian (9 vies)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ceb293ef-4b75-7924-f638-e098a14a2788/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Pets/Levels/DMR_Pets_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "93309ef5-4f43-411a-5759-c794eb584c7c",
+      "displayName": "Guardian (Aéro)",
+      "themeUuid": "83815add-44a4-d508-47c7-0e81755fb716",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/93309ef5-4f43-411a-5759-c794eb584c7c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Polaris/DMR_Polaris_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "fe2861de-4738-79a8-7a45-6bb09bca2852",
+          "displayName": "Guardian (Aéro)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fe2861de-4738-79a8-7a45-6bb09bca2852/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/fe2861de-4738-79a8-7a45-6bb09bca2852/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Polaris/Chromas/Standard/DMR_Polaris_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "5dfc67e3-4584-e012-e47d-079edca1301f",
+          "displayName": "Guardian (Aéro)\n(variante 1 Crème/Rose)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5dfc67e3-4584-e012-e47d-079edca1301f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5dfc67e3-4584-e012-e47d-079edca1301f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Polaris/Chromas/v1/DMR_Polaris_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "d014a470-4df7-6ee8-195d-389421e991ba",
+          "displayName": "Guardian (Aéro)\n(variante 2 Violet/Gris)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d014a470-4df7-6ee8-195d-389421e991ba/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d014a470-4df7-6ee8-195d-389421e991ba/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Polaris/Chromas/v2/DMR_Polaris_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "c95fcc38-45a0-a6f5-cc54-d6b28f41c937",
+          "displayName": "Guardian (Aéro)\n(variante 3 Vert/Noir)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c95fcc38-45a0-a6f5-cc54-d6b28f41c937/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c95fcc38-45a0-a6f5-cc54-d6b28f41c937/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Polaris/Chromas/V3/DMR_Polaris_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d52eb83d-4bc0-085d-3ec7-24b2c92281bf",
+          "displayName": "Guardian (Aéro)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d52eb83d-4bc0-085d-3ec7-24b2c92281bf/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Polaris/Levels/DMR_Polaris_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "96679876-4d41-683c-2e5c-2ea25ddd8fdf",
+      "displayName": "Guardian (POLYfox)",
+      "themeUuid": "6ce582d1-4cf9-efc4-078c-169295311f7e",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/96679876-4d41-683c-2e5c-2ea25ddd8fdf/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Polyanimals/DMR_Polyanimals_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ff80bbbf-4212-5289-32a4-1b8da95f52ca",
+          "displayName": "Guardian (POLYfox)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ff80bbbf-4212-5289-32a4-1b8da95f52ca/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ff80bbbf-4212-5289-32a4-1b8da95f52ca/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Polyanimals/Chromas/Standard/DMR_Polyanimals_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "df9044e9-4ed4-4a49-b7ce-babc4a0e23d6",
+          "displayName": "Guardian (POLYfox)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/df9044e9-4ed4-4a49-b7ce-babc4a0e23d6/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Polyanimals/Levels/DMR_Polyanimals_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "23a16911-4cb1-2794-2d4c-3f99f1e2516b",
+      "displayName": "Guardian (Puzzle)",
+      "themeUuid": "b371ffce-41a1-07f9-d1ce-aa93a6ef1787",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/23a16911-4cb1-2794-2d4c-3f99f1e2516b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Puzzle/DMR_Puzzle_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "38c72886-4b82-3403-38ad-afa701684ffd",
+          "displayName": "Guardian (Puzzle)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/38c72886-4b82-3403-38ad-afa701684ffd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/38c72886-4b82-3403-38ad-afa701684ffd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/38c72886-4b82-3403-38ad-afa701684ffd/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Puzzle/Chromas/Standard/DMR_Puzzle_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "fcfb54b0-4bc5-a9c8-1cf5-f881dac04c1f",
+          "displayName": "Guardian (Puzzle)\n(variante 1 Skye)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fcfb54b0-4bc5-a9c8-1cf5-f881dac04c1f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fcfb54b0-4bc5-a9c8-1cf5-f881dac04c1f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/fcfb54b0-4bc5-a9c8-1cf5-f881dac04c1f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Puzzle/Chromas/v2/DMR_Puzzle_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "58acb270-4351-c064-24d1-b5803b4f9358",
+          "displayName": "Guardian (Puzzle)\n(variante 2 Killjoy)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/58acb270-4351-c064-24d1-b5803b4f9358/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/58acb270-4351-c064-24d1-b5803b4f9358/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/58acb270-4351-c064-24d1-b5803b4f9358/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Puzzle/Chromas/v3/DMR_Puzzle_v3_PrimaryAsset"
+        },
+        {
+          "uuid": "5dec1781-4491-897e-e4b6-969c1736882b",
+          "displayName": "Guardian (Puzzle)\n(variante 3 Yoru)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5dec1781-4491-897e-e4b6-969c1736882b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5dec1781-4491-897e-e4b6-969c1736882b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5dec1781-4491-897e-e4b6-969c1736882b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Puzzle/Chromas/v1/DMR_Puzzle_v1_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "cf06c0d6-4c0c-1e8a-0553-999a45a53ae1",
+          "displayName": "Guardian (Puzzle)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/cf06c0d6-4c0c-1e8a-0553-999a45a53ae1/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Puzzle/Levels/DMR_Puzzle_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "874025d8-4293-a38a-96ac-3d94954fb4b7",
+      "displayName": "Skin favori aléatoire",
+      "themeUuid": "0d7a5bfb-4850-098e-1821-d989bbfd58a8",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/874025d8-4293-a38a-96ac-3d94954fb4b7/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Random/DMR_Random_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1738abbc-4dbe-1a42-a15b-eda6249f35be",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1738abbc-4dbe-1a42-a15b-eda6249f35be/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Random/Chromas/Standard/DMR_Random_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "76587a8a-4622-2e70-aafd-ea960b06a98d",
+          "displayName": "Skin favori aléatoire",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/76587a8a-4622-2e70-aafd-ea960b06a98d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Random/Levels/DMR_Random_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ee649b57-4811-332f-c484-aea45aada288",
+      "displayName": "Guardian (Panoramique)",
+      "themeUuid": "7408cacd-4895-f544-c186-14b6c69a96de",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ee649b57-4811-332f-c484-aea45aada288/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/RetroLA/DMR_RetroLA_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3816271c-4c65-d218-f8b6-c79c7048b607",
+          "displayName": "Guardian (Panoramique)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3816271c-4c65-d218-f8b6-c79c7048b607/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3816271c-4c65-d218-f8b6-c79c7048b607/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/RetroLA/Chromas/Standard/DMR_RetroLA_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a8c576f3-4c82-f631-6d2d-9fb99f2053fa",
+          "displayName": "Guardian (Panoramique)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a8c576f3-4c82-f631-6d2d-9fb99f2053fa/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/RetroLA/Levels/DMR_RetroLA_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4047a667-4d1d-bb68-df9e-a09bfa68d934",
+      "displayName": "Guardian (Épines noires)",
+      "themeUuid": "8baee2a1-435c-70be-ea33-3b8bc34aa260",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4047a667-4d1d-bb68-df9e-a09bfa68d934/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/4047a667-4d1d-bb68-df9e-a09bfa68d934/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Rose/DMR_Rose_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1603c2f9-4ca9-8746-ac7a-78a074aaed4c",
+          "displayName": "Guardian (Épines noires)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1603c2f9-4ca9-8746-ac7a-78a074aaed4c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1603c2f9-4ca9-8746-ac7a-78a074aaed4c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1603c2f9-4ca9-8746-ac7a-78a074aaed4c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Rose/Chromas/Standard/DMR_Rose_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "52dd90aa-4f78-b599-b748-42abe15d5472",
+          "displayName": "Guardian (Épines noires) niveau 4\n(variante 1 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/52dd90aa-4f78-b599-b748-42abe15d5472/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/52dd90aa-4f78-b599-b748-42abe15d5472/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/52dd90aa-4f78-b599-b748-42abe15d5472/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3fa53379-4c43-7b60-559b-faa55a3c9a1a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Rose/Chromas/v1/DMR_Rose_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "e68e3dc4-4945-6f96-60bf-a8abb184eb43",
+          "displayName": "Guardian (Épines noires) niveau 4\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e68e3dc4-4945-6f96-60bf-a8abb184eb43/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e68e3dc4-4945-6f96-60bf-a8abb184eb43/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e68e3dc4-4945-6f96-60bf-a8abb184eb43/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/20a29732-41d4-941f-a659-028113e12abe_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Rose/Chromas/v2/DMR_Rose_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "b9019fc6-4bef-5b4a-22a1-97ad2ebd8851",
+          "displayName": "Guardian (Épines noires) niveau 4\n(variante 3 Violet Cisaille)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b9019fc6-4bef-5b4a-22a1-97ad2ebd8851/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b9019fc6-4bef-5b4a-22a1-97ad2ebd8851/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b9019fc6-4bef-5b4a-22a1-97ad2ebd8851/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c0c6e945-4d57-e7b3-3931-a18e00d93b43_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Rose/Chromas/V3/DMR_Rose_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "160c389d-4d5e-1241-29cc-7581e535c17d",
+          "displayName": "Guardian (Épines noires)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/160c389d-4d5e-1241-29cc-7581e535c17d/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/261a0dc3-4aa4-0033-8aca-12a3cd7e4b0f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Rose/Levels/DMR_Rose_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ad3fc88d-42da-8c26-e18c-65a8f9e992a6",
+          "displayName": "Guardian (Épines noires) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d88ffd27-4f1b-0421-2e99-c192e7424d11_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Rose/Levels/DMR_Rose_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "ae929134-4461-5aab-6b3a-43931740523f",
+          "displayName": "Guardian (Épines noires) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ae929134-4461-5aab-6b3a-43931740523f/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/cb1d897a-48ce-d960-a5a2-2cb7a2a34820_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Rose/Levels/DMR_Rose_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "72e03a9e-411f-e4ca-7aff-fa86a019e5cf",
+          "displayName": "Guardian (Épines noires) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/2ab3e2b6-4102-8797-ad06-039765f37032_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Rose/Levels/DMR_Rose_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d75e69ae-4cde-2f43-8c3a-ac844e6ef1c9",
+      "displayName": "Guardian (Silhouette)",
+      "themeUuid": "ac252b14-4c1d-cee9-22d1-8da59c412ba4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d75e69ae-4cde-2f43-8c3a-ac844e6ef1c9/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Shadowplay/DMR_Shadowplay_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "b0519091-4d64-831f-2b22-9981ae91b413",
+          "displayName": "Guardian (Silhouette)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b0519091-4d64-831f-2b22-9981ae91b413/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b0519091-4d64-831f-2b22-9981ae91b413/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Shadowplay/Chromas/Standard/DMR_Shadowplay_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "46d846a9-4a8c-9840-e24e-f684703759e1",
+          "displayName": "Guardian (Silhouette)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/46d846a9-4a8c-9840-e24e-f684703759e1/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Shadowplay/Levels/DMR_Shadowplay_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "74b9f0c4-4747-ab13-e3c4-3485b645beef",
+      "displayName": "Guardian (Coquélisque)",
+      "themeUuid": "ec3777a0-4d22-aa9f-6094-82893b841e33",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/74b9f0c4-4747-ab13-e3c4-3485b645beef/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Shellfish/DMR_Shellfish_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3025dc02-4c67-6cfa-2188-fdaf95d3a6de",
+          "displayName": "Guardian (Coquélisque)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3025dc02-4c67-6cfa-2188-fdaf95d3a6de/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3025dc02-4c67-6cfa-2188-fdaf95d3a6de/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Shellfish/Chromas/Standard/DMR_Shellfish_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b4f8f779-42a7-6900-00ef-2581aac084d4",
+          "displayName": "Guardian (Coquélisque)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b4f8f779-42a7-6900-00ef-2581aac084d4/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Shellfish/Levels/DMR_Shellfish_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "db348da1-49f2-0bad-b70a-e4ade9d31655",
+      "displayName": "Guardian (Pilleur)",
+      "themeUuid": "4479eea8-4820-c69b-3912-f5ac678fcedc",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/db348da1-49f2-0bad-b70a-e4ade9d31655/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Soulstealer/DMR_SoulStealer_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "bb9f9fb7-46ca-4ddf-1b83-b8b1fc0401d9",
+          "displayName": "Guardian (Pilleur)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bb9f9fb7-46ca-4ddf-1b83-b8b1fc0401d9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bb9f9fb7-46ca-4ddf-1b83-b8b1fc0401d9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/bb9f9fb7-46ca-4ddf-1b83-b8b1fc0401d9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Soulstealer/Chromas/Standard/DMR_SoulStealer_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "13276940-43e7-9ece-8661-dca6e8707847",
+          "displayName": "Guardian (Pilleur) niveau 4\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/13276940-43e7-9ece-8661-dca6e8707847/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/13276940-43e7-9ece-8661-dca6e8707847/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/13276940-43e7-9ece-8661-dca6e8707847/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Soulstealer/Chromas/Red/DMR_SoulStealer_Red_PrimaryAsset"
+        },
+        {
+          "uuid": "c0f23dc2-4ac3-338c-c559-18962151a702",
+          "displayName": "Guardian (Pilleur) niveau 4\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c0f23dc2-4ac3-338c-c559-18962151a702/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c0f23dc2-4ac3-338c-c559-18962151a702/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c0f23dc2-4ac3-338c-c559-18962151a702/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Soulstealer/Chromas/Black/DMR_SoulStealer_Black_PrimaryAsset"
+        },
+        {
+          "uuid": "c18a9c89-4b1e-79cd-8a30-5ea5368214fc",
+          "displayName": "Guardian (Pilleur) niveau 4\n(variante 3 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c18a9c89-4b1e-79cd-8a30-5ea5368214fc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c18a9c89-4b1e-79cd-8a30-5ea5368214fc/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c18a9c89-4b1e-79cd-8a30-5ea5368214fc/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Soulstealer/Chromas/White/DMR_SoulStealer_White_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c9f0ea7f-4bed-b10e-62d2-0394444feed1",
+          "displayName": "Guardian (Pilleur)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c9f0ea7f-4bed-b10e-62d2-0394444feed1/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/66d66f6b-464e-3142-f194-2aacc214281b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Soulstealer/Levels/DMR_SoulStealer_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ad0e9e83-4658-0a02-a912-21b41df87c38",
+          "displayName": "Guardian (Pilleur) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e1f4038f-46b2-00ea-5aac-8f8c19916fd1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Soulstealer/Levels/DMR_SoulStealer_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "09faf945-4be6-ee7f-43d5-9fae75e182ec",
+          "displayName": "Guardian (Pilleur) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/05fdf577-4995-0191-dcb2-7ba375646da1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Soulstealer/Levels/DMR_SoulStealer_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "4e1b9e7d-4cfc-9a14-4fe1-ea9185cdb6d9",
+          "displayName": "Guardian (Pilleur) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/94af5d7b-45f5-350a-7aca-d3a931bc1cf2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Soulstealer/Levels/DMR_SoulStealer_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "77187a8f-4020-da44-a775-7a91ab814cdf",
+      "displayName": "Guardian (Mondes liés)",
+      "themeUuid": "b1e665e3-4e4f-f849-dc49-d0a68d10f449",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/77187a8f-4020-da44-a775-7a91ab814cdf/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SovWorld/DMR_SovWorld_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "549b4ed5-493f-23a2-4350-b095dfdd0deb",
+          "displayName": "Guardian (Mondes liés)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/549b4ed5-493f-23a2-4350-b095dfdd0deb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/549b4ed5-493f-23a2-4350-b095dfdd0deb/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SovWorld/Chromas/Standard/DMR_SovWorld_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f202625e-4647-b575-07a9-3fbc39d72b10",
+          "displayName": "Guardian (Mondes liés)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f202625e-4647-b575-07a9-3fbc39d72b10/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SovWorld/Levels/DMR_SovWorld_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7122d78b-4e60-eb4d-5f65-738d7c1ce9ae",
+      "displayName": "Guardian (Royal)",
+      "themeUuid": "975f7716-498d-8e0b-b7c7-02b507b8e14a",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7122d78b-4e60-eb4d-5f65-738d7c1ce9ae/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/7122d78b-4e60-eb4d-5f65-738d7c1ce9ae/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sovereign/DMR_Sovereign_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "df1786b2-4f3d-f207-b92c-0780f4dffb79",
+          "displayName": "Guardian (Royal)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/df1786b2-4f3d-f207-b92c-0780f4dffb79/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/df1786b2-4f3d-f207-b92c-0780f4dffb79/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/df1786b2-4f3d-f207-b92c-0780f4dffb79/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sovereign/Chromas/Standard/DMR_Sovereign_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "6c21b2dd-4d36-7bb6-667b-e5874b7bda13",
+          "displayName": "Guardian (Royal) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6c21b2dd-4d36-7bb6-667b-e5874b7bda13/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6c21b2dd-4d36-7bb6-667b-e5874b7bda13/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6c21b2dd-4d36-7bb6-667b-e5874b7bda13/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sovereign/Chromas/Gold/DMR_Sovereign_Gold_PrimaryAsset"
+        },
+        {
+          "uuid": "b5280469-4069-b125-c76a-d28e20791322",
+          "displayName": "Guardian (Royal) niveau 4\n(variante 2 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b5280469-4069-b125-c76a-d28e20791322/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b5280469-4069-b125-c76a-d28e20791322/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b5280469-4069-b125-c76a-d28e20791322/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sovereign/Chromas/Silver/DMR_Sovereign_Silver_PrimaryAsset"
+        },
+        {
+          "uuid": "94d1a053-4a0f-8d48-ec77-73aaa2003a22",
+          "displayName": "Guardian (Royal) niveau 4\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/94d1a053-4a0f-8d48-ec77-73aaa2003a22/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/94d1a053-4a0f-8d48-ec77-73aaa2003a22/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/94d1a053-4a0f-8d48-ec77-73aaa2003a22/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sovereign/Chromas/Purple/DMR_Sovereign_Purple_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8f8f82f4-4133-82c9-50b2-3c9c67e0f9fb",
+          "displayName": "Guardian (Royal)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8f8f82f4-4133-82c9-50b2-3c9c67e0f9fb/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a2f1a7c0-025f-475f-af19-3cbf50b4f8eb_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sovereign/DMR_Sovereign_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "32cf9b7a-4ea1-64f4-1405-32a2ee614bc8",
+          "displayName": "Guardian (Royal) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/32cf9b7a-4ea1-64f4-1405-32a2ee614bc8/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/165fde15-36c3-4483-90d7-0777f24975ef_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sovereign/DMR_Sovereign_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "62f258e7-4821-4925-29b3-3ca90972991f",
+          "displayName": "Guardian (Royal) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/62f258e7-4821-4925-29b3-3ca90972991f/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/828939e6-80e4-46c3-9be6-56cdd78652bd_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sovereign/DMR_Sovereign_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "04c6a2a4-400a-b0df-b482-658c59529ee6",
+          "displayName": "Guardian (Royal) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/04c6a2a4-400a-b0df-b482-658c59529ee6/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/115fecec-e098-4084-af6e-a21fb94fb87b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sovereign/DMR_Sovereign_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "539e07ec-49b2-5f22-0d05-91b809229d64",
+      "displayName": "Guardian (Reconnaissance)",
+      "themeUuid": "9b3502f8-424b-1c2d-3b2e-4d9c5c1b4e52",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/539e07ec-49b2-5f22-0d05-91b809229d64/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SpecOps/DMR_SpecOps_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "03148944-41ad-a622-2b81-6982b023c47c",
+          "displayName": "Guardian (Reconnaissance)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/03148944-41ad-a622-2b81-6982b023c47c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/03148944-41ad-a622-2b81-6982b023c47c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/03148944-41ad-a622-2b81-6982b023c47c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SpecOps/Chromas/Standard/DMR_SpecOps_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "b6e9eabe-4fa1-5823-7427-7e9e73a14333",
+          "displayName": "Guardian (Reconnaissance) niveau 4\n(variante 1 Rouge Camouflage)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b6e9eabe-4fa1-5823-7427-7e9e73a14333/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b6e9eabe-4fa1-5823-7427-7e9e73a14333/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e400e908-4328-117d-45c1-b88b6abad988_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SpecOps/Chromas/v1/DMR_SpecOps_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "a0f14c75-4601-8374-9ec1-65aa31430928",
+          "displayName": "Guardian (Reconnaissance) niveau 4\n(variante 2 Bleu Camouflage)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a0f14c75-4601-8374-9ec1-65aa31430928/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a0f14c75-4601-8374-9ec1-65aa31430928/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e52303b4-4534-560f-3ef5-c49e60b7a0a2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SpecOps/Chromas/v2/DMR_SpecOps_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "7dcc4034-4f13-93cb-296b-00822b13373b",
+          "displayName": "Guardian (Reconnaissance) niveau 4\n(variante 3 Vert Camouflage)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7dcc4034-4f13-93cb-296b-00822b13373b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7dcc4034-4f13-93cb-296b-00822b13373b/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e1b4ac05-44dd-c2be-eae7-c59bea1b47cd_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SpecOps/Chromas/V3/DMR_SpecOps_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7bc358d8-42ad-611f-5594-37888c23abe3",
+          "displayName": "Guardian (Reconnaissance)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7bc358d8-42ad-611f-5594-37888c23abe3/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/86cde36e-4ab1-7a46-9b90-23a2c3690d53_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SpecOps/Levels/DMR_SpecOps_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "6112d121-499c-4be7-fd16-0296b8f663b5",
+          "displayName": "Guardian (Reconnaissance) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::Randomizer",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/837d7722-4ce7-0493-bef6-8691a0006498_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SpecOps/Levels/DMR_SpecOps_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "726c71a4-423f-7110-6335-37bfe64a5fdd",
+          "displayName": "Guardian (Reconnaissance) niveau 3",
+          "levelItem": null,
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/dd8926de-481c-c377-7c80-ddb70fb39dfc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SpecOps/Levels/DMR_SpecOps_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "28441795-4cf2-4728-f648-2598ee0ff7bd",
+          "displayName": "Guardian (Reconnaissance) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::KillBanner",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6add3f8c-4e38-2f5e-fddb-6da119ec3574_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/SpecOps/Levels/DMR_SpecOps_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b0913a89-40a1-aafa-cc89-93bb6f9a4870",
+      "displayName": "Guardian (Peloton)",
+      "themeUuid": "15eb9632-417b-b72e-c554-aa907d367b74",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b0913a89-40a1-aafa-cc89-93bb6f9a4870/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Speedster/DMR_Speedster_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9f5472f7-45f8-4bbe-75bb-f18fc8361456",
+          "displayName": "Guardian (Peloton)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9f5472f7-45f8-4bbe-75bb-f18fc8361456/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9f5472f7-45f8-4bbe-75bb-f18fc8361456/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Speedster/Chromas/Standard/DMR_Speedster_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "26d6aaa9-4b61-763d-bf35-f88773d4c86b",
+          "displayName": "Guardian (Peloton)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/26d6aaa9-4b61-763d-bf35-f88773d4c86b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Speedster/Levels/DMR_Speedster_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "cce860fd-4f64-7422-5c95-c7ad2cad0f15",
+      "displayName": "Guardian (Infini)",
+      "themeUuid": "6fd2d0f4-44ca-c131-5049-5ba91a0e8303",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cce860fd-4f64-7422-5c95-c7ad2cad0f15/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sportscar/DMR_Sportscar_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4564f4cc-40e5-4413-5bf9-91b5d7f27ce3",
+          "displayName": "Guardian (Infini)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4564f4cc-40e5-4413-5bf9-91b5d7f27ce3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4564f4cc-40e5-4413-5bf9-91b5d7f27ce3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4564f4cc-40e5-4413-5bf9-91b5d7f27ce3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sportscar/Chromas/Standard/DMR_Sportscar_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "af62933d-4034-0c5c-c4b4-c0855394fd6b",
+          "displayName": "Guardian (Infini)\n(variante 1 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/af62933d-4034-0c5c-c4b4-c0855394fd6b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/af62933d-4034-0c5c-c4b4-c0855394fd6b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/af62933d-4034-0c5c-c4b4-c0855394fd6b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sportscar/Chromas/v1/DMR_Sportscar_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "2c9b88af-4b32-cbfe-dc1d-19a9d2aebbef",
+          "displayName": "Guardian (Infini)\n(variante 2 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2c9b88af-4b32-cbfe-dc1d-19a9d2aebbef/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2c9b88af-4b32-cbfe-dc1d-19a9d2aebbef/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2c9b88af-4b32-cbfe-dc1d-19a9d2aebbef/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sportscar/Chromas/v2/DMR_Sportscar_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "1925c623-4020-dd7d-af14-849169e518d6",
+          "displayName": "Guardian (Infini)\n(variante 3 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1925c623-4020-dd7d-af14-849169e518d6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1925c623-4020-dd7d-af14-849169e518d6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1925c623-4020-dd7d-af14-849169e518d6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sportscar/Chromas/v3/DMR_Sportscar_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4c51b90b-4629-f1b0-5b53-5aa7fb787be0",
+          "displayName": "Guardian (Infini)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4c51b90b-4629-f1b0-5b53-5aa7fb787be0/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Sportscar/Levels/DMR_Sportscar_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5d23dda7-405a-e903-4681-1a825146f028",
+      "displayName": "Guardian (Rêverie)",
+      "themeUuid": "e0216470-4c4a-d840-0919-3c860cbc40a8",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5d23dda7-405a-e903-4681-1a825146f028/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/5d23dda7-405a-e903-4681-1a825146f028/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/StainedGlass/DMR_StainedGlass_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ac12901e-4a8d-6d50-663a-d18efdae2ef8",
+          "displayName": "Guardian (Rêverie)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ac12901e-4a8d-6d50-663a-d18efdae2ef8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ac12901e-4a8d-6d50-663a-d18efdae2ef8/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/StainedGlass/Chromas/Standard/DMR_StainedGlass_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a2145fdb-44c3-6b7e-fa45-01a07272a2ce",
+          "displayName": "Guardian (Rêverie)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a2145fdb-44c3-6b7e-fa45-01a07272a2ce/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/StainedGlass/Levels/DMR_StainedGlass_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "3bf1e8e0-47e8-f27a-6054-929575f41a54",
+      "displayName": "Guardian (Standard)",
+      "themeUuid": "5a629df4-4765-0214-bd40-fbb96542941f",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3bf1e8e0-47e8-f27a-6054-929575f41a54/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Standard/DMR_Standard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0f934388-418a-a9e7-42a7-21b27402e46c",
+          "displayName": "Guardian",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0f934388-418a-a9e7-42a7-21b27402e46c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0f934388-418a-a9e7-42a7-21b27402e46c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Standard/Chromas/Standard/DMR_Standard_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "414d888a-41ce-fcf0-e545-c49018ec9cf4",
+          "displayName": "Guardian",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/414d888a-41ce-fcf0-e545-c49018ec9cf4/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Standard/DMR_Standard_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "3dc71392-42c1-a224-7ac5-f380f7615a59",
+      "displayName": "Guardian (Refractrix)",
+      "themeUuid": "cbf1105e-489c-01f4-ace7-069bc7df8da0",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3dc71392-42c1-a224-7ac5-f380f7615a59/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Stylistic/DMR_Stylistic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "64b47e72-4d20-353e-8feb-34b2061a692b",
+          "displayName": "Guardian (Refractrix)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/64b47e72-4d20-353e-8feb-34b2061a692b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/64b47e72-4d20-353e-8feb-34b2061a692b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Stylistic/Chromas/Standard/DMR_Stylistic_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b441464c-452a-cbe4-cf27-198c63976677",
+          "displayName": "Guardian (Refractrix)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b441464c-452a-cbe4-cf27-198c63976677/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Stylistic/Levels/DMR_Stylistic_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "288407cb-4812-d285-f569-4880176b64d2",
+      "displayName": "Guardian (Amoureux de l'amour)",
+      "themeUuid": "cf8a6ff6-446c-cf90-1b50-f3bdcd7b3d48",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/288407cb-4812-d285-f569-4880176b64d2/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Superstar/DMR_Superstar_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9ce7845f-4c4c-d1e4-8baf-e9a7e7de20ca",
+          "displayName": "Guardian (Amoureux de l'amour)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9ce7845f-4c4c-d1e4-8baf-e9a7e7de20ca/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9ce7845f-4c4c-d1e4-8baf-e9a7e7de20ca/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Superstar/Chromas/Standard/DMR_Superstar_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "60ad6389-4c4e-f6d0-7fae-8c8234fe7418",
+          "displayName": "Guardian (Amoureux de l'amour)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/60ad6389-4c4e-f6d0-7fae-8c8234fe7418/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Superstar/Levels/DMR_Superstar_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e5410554-4501-16c8-0382-13b91db12286",
+      "displayName": "Guardian (CYRAX)",
+      "themeUuid": "a3e5c95a-4ae7-214b-e151-7ca70a755919",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e5410554-4501-16c8-0382-13b91db12286/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/e5410554-4501-16c8-0382-13b91db12286/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Syndra/DMR_Syndra_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6d91a180-4639-a859-af42-4890e38d4e17",
+          "displayName": "Guardian (CYRAX)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6d91a180-4639-a859-af42-4890e38d4e17/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6d91a180-4639-a859-af42-4890e38d4e17/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6d91a180-4639-a859-af42-4890e38d4e17/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Syndra/Chromas/Standard/DMR_Syndra_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "7de6cdd0-448d-4600-007f-94b30b24d9d5",
+          "displayName": "Guardian (CYRAX) niveau 4\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7de6cdd0-448d-4600-007f-94b30b24d9d5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7de6cdd0-448d-4600-007f-94b30b24d9d5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7de6cdd0-448d-4600-007f-94b30b24d9d5/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f9489206-496b-23e2-3712-5fbd4027858b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Syndra/Chromas/v1/DMR_Syndra_V1_PrimaryAsset"
+        },
+        {
+          "uuid": "0e956c2b-4905-8817-35a8-988aaa3012e9",
+          "displayName": "Guardian (CYRAX) niveau 4\n(variante 2 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0e956c2b-4905-8817-35a8-988aaa3012e9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0e956c2b-4905-8817-35a8-988aaa3012e9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0e956c2b-4905-8817-35a8-988aaa3012e9/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a0f5b45d-4ebf-f8fe-6843-e4b2d41a2386_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Syndra/Chromas/v2/DMR_Syndra_V2_PrimaryAsset"
+        },
+        {
+          "uuid": "3b340afa-440a-da49-1a8d-b7a9c7ad8a5f",
+          "displayName": "Guardian (CYRAX) niveau 4\r\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3b340afa-440a-da49-1a8d-b7a9c7ad8a5f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3b340afa-440a-da49-1a8d-b7a9c7ad8a5f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3b340afa-440a-da49-1a8d-b7a9c7ad8a5f/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/92e4df14-4082-6b74-7fcc-9288deef4d98_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Syndra/Chromas/V3/DMR_Syndra_V3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ecf1ac8a-4477-ca35-f853-848f05bfb749",
+          "displayName": "Guardian (CYRAX)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ecf1ac8a-4477-ca35-f853-848f05bfb749/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/20842a84-4a23-0484-ef74-949731b6b7fa_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Syndra/Levels/DMR_Syndra_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "c2601558-4b45-ffed-9b31-2b8649aa0363",
+          "displayName": "Guardian (CYRAX) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fec35c2a-424a-786e-6dbe-be9dad949ab5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Syndra/Levels/DMR_Syndra_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "cfcf8b4f-4754-f949-7a46-cfaae5d5421c",
+          "displayName": "Guardian (CYRAX) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/cfcf8b4f-4754-f949-7a46-cfaae5d5421c/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8d82ce88-4e4a-183a-8152-35a33385d959_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Syndra/Levels/DMR_Syndra_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "03fdcef9-4a28-04d7-c57b-738c4ee74933",
+          "displayName": "Guardian (CYRAX) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ba83883f-4365-a20b-0f3f-b0bc17d3344d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Syndra/Levels/DMR_Syndra_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "14b17d97-4320-9b77-68a8-1ca7cfc0adae",
+      "displayName": "Guardian (Main de la fortune)",
+      "themeUuid": "70b4ccb1-4508-3a83-b75d-669f76c11e88",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/14b17d97-4320-9b77-68a8-1ca7cfc0adae/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Tarot/DMR_Tarot_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8a7b171e-4bdc-730d-5ec4-f08be6531186",
+          "displayName": "Guardian (Main de la fortune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8a7b171e-4bdc-730d-5ec4-f08be6531186/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8a7b171e-4bdc-730d-5ec4-f08be6531186/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Tarot/Chromas/Standard/DMR_Tarot_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "fe4c5d42-469f-2b79-6039-249b2eac288d",
+          "displayName": "Guardian (Main de la fortune)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fe4c5d42-469f-2b79-6039-249b2eac288d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Tarot/Levels/DMR_Tarot_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "66e8e5e6-43ce-c8d5-470b-a5b0d69ed47d",
+      "displayName": "Guardian (Tempétueux)",
+      "themeUuid": "e5471712-448e-4b82-a73b-a2906b0789a2",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/66e8e5e6-43ce-c8d5-470b-a5b0d69ed47d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/TheStorm/DMR_TheStorm_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4e4baff1-4cc9-13e1-8cb5-da9b9ba3073d",
+          "displayName": "Guardian (Tempétueux)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4e4baff1-4cc9-13e1-8cb5-da9b9ba3073d/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/TheStorm/Chromas/Standard/DMR_TheStorm_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bd8dd03a-4a1c-7a6b-9c23-d1ba62397e7d",
+          "displayName": "Guardian (Tempétueux)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bd8dd03a-4a1c-7a6b-9c23-d1ba62397e7d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/TheStorm/Levels/DMR_TheStorm_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "6779d117-4a4b-d534-1f35-10a52f570694",
+      "displayName": "Guardian (Étalon merveilleux)",
+      "themeUuid": "29d852ca-4d24-5975-869b-91b4e8624b2c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6779d117-4a4b-d534-1f35-10a52f570694/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Unicorn/DMR_Unicorn_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ca2a999f-4762-7a69-8c28-429b325746d6",
+          "displayName": "Guardian (Étalon merveilleux)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ca2a999f-4762-7a69-8c28-429b325746d6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ca2a999f-4762-7a69-8c28-429b325746d6/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Unicorn/Chromas/Standard/DMR_Unicorn_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "5650f9c0-41a2-fc26-ede7-15bbcab8fb6b",
+          "displayName": "Guardian (Étalon merveilleux)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5650f9c0-41a2-fc26-ede7-15bbcab8fb6b/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5ab911d0-405c-c838-8599-508772893245_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Unicorn/Levels/DMR_Unicorn_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0a81818d-406e-1d8c-ce4d-9ba89dfdf1ab",
+      "displayName": "Guardian (Ego)",
+      "themeUuid": "54e935e3-446f-5184-ba3a-f096c595b146",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0a81818d-406e-1d8c-ce4d-9ba89dfdf1ab/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/0a81818d-406e-1d8c-ce4d-9ba89dfdf1ab/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Unstoppable/DMR_Unstoppable_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4648ecfb-4667-77b7-2723-d3a531a942ea",
+          "displayName": "Guardian (Ego)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4648ecfb-4667-77b7-2723-d3a531a942ea/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4648ecfb-4667-77b7-2723-d3a531a942ea/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4648ecfb-4667-77b7-2723-d3a531a942ea/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Unstoppable/Chromas/Standard/DMR_Unstoppable_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "2de61652-4285-e5cd-9f85-159b43bb4e9e",
+          "displayName": "Guardian (Ego)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2de61652-4285-e5cd-9f85-159b43bb4e9e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2de61652-4285-e5cd-9f85-159b43bb4e9e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2de61652-4285-e5cd-9f85-159b43bb4e9e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Unstoppable/Chromas/v1/DMR_Unstoppable_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "b8a7c66d-4dc8-d849-3fe7-5bbc0a6a4c35",
+          "displayName": "Guardian (Ego)\n(variante 2 Brun)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b8a7c66d-4dc8-d849-3fe7-5bbc0a6a4c35/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b8a7c66d-4dc8-d849-3fe7-5bbc0a6a4c35/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b8a7c66d-4dc8-d849-3fe7-5bbc0a6a4c35/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Unstoppable/Chromas/v2/DMR_Unstoppable_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "9d725c7c-4fb4-7a89-4798-b7af46065668",
+          "displayName": "Guardian (Ego)\n(variante 3 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9d725c7c-4fb4-7a89-4798-b7af46065668/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9d725c7c-4fb4-7a89-4798-b7af46065668/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9d725c7c-4fb4-7a89-4798-b7af46065668/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Unstoppable/Chromas/v3/DMR_Unstoppable_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "fa3d6a11-46c4-2caf-f7e4-10a5013c034b",
+          "displayName": "Guardian (Ego)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fa3d6a11-46c4-2caf-f7e4-10a5013c034b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Unstoppable/Levels/DMR_Unstoppable_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "84568b05-4790-3c55-c6df-36a3a3431ef4",
+      "displayName": "Guardian (Haloforme)",
+      "themeUuid": "169b75dd-4fdd-a664-9b86-7782ddb7db2f",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/84568b05-4790-3c55-c6df-36a3a3431ef4/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Utopia/DMR_Utopia_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3e385312-40c1-4af4-4bf9-89a11ce864a2",
+          "displayName": "Guardian (Haloforme)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3e385312-40c1-4af4-4bf9-89a11ce864a2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3e385312-40c1-4af4-4bf9-89a11ce864a2/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Utopia/Chromas/Standard/DMR_Utopia_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "778f243f-4817-5394-d3af-7585b9a4041a",
+          "displayName": "Guardian (Haloforme)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/778f243f-4817-5394-d3af-7585b9a4041a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/DMR/Utopia/Levels/DMR_Utopia_Lv1_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}

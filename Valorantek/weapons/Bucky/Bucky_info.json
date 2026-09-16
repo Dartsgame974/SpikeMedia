@@ -1,0 +1,2069 @@
+{
+  "uuid": "910be174-449b-c412-ab22-d0873436b21b",
+  "displayName": "Bucky",
+  "category": "EEquippableCategory::Shotgun",
+  "defaultSkinUuid": "70c97fb2-4d79-d4bb-5173-a1888cd4bfd9",
+  "displayIcon": "https://media.valorant-api.com/weapons/910be174-449b-c412-ab22-d0873436b21b/displayicon.png",
+  "killStreamIcon": "https://media.valorant-api.com/weapons/910be174-449b-c412-ab22-d0873436b21b/killstreamicon.png",
+  "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/PumpShotgunPrimaryAsset",
+  "weaponStats": {
+    "fireRate": 1.1,
+    "magazineSize": 5,
+    "runSpeedMultiplier": 0.75,
+    "equipTimeSeconds": 1,
+    "reloadTimeSeconds": 2.5,
+    "firstBulletAccuracy": 3,
+    "shotgunPelletCount": 15,
+    "wallPenetration": "EWallPenetrationDisplayType::Low",
+    "feature": null,
+    "fireMode": "EWeaponFireModeDisplayType::SemiAutomatic",
+    "altFireType": "EWeaponAltFireDisplayType::AirBurst",
+    "adsStats": null,
+    "altShotgunStats": null,
+    "airBurstStats": {
+      "shotgunPelletCount": 5,
+      "burstDistance": 7.5
+    },
+    "damageRanges": [
+      {
+        "rangeStartMeters": 0,
+        "rangeEndMeters": 8,
+        "headDamage": 34,
+        "bodyDamage": 17,
+        "legDamage": 14
+      },
+      {
+        "rangeStartMeters": 8,
+        "rangeEndMeters": 12,
+        "headDamage": 26,
+        "bodyDamage": 13,
+        "legDamage": 11.05
+      },
+      {
+        "rangeStartMeters": 12,
+        "rangeEndMeters": 50,
+        "headDamage": 18,
+        "bodyDamage": 9,
+        "legDamage": 7.65
+      }
+    ]
+  },
+  "shopData": {
+    "cost": 850,
+    "category": "Shotguns",
+    "shopOrderPriority": 0,
+    "categoryText": "Fusils à pompe",
+    "gridPosition": null,
+    "canBeTrashed": true,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/weapons/910be174-449b-c412-ab22-d0873436b21b/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/PumpShotgunPurchase"
+  },
+  "skins": [
+    {
+      "uuid": "e1fed5e0-4369-7de0-2545-b6ab4c0f7369",
+      "displayName": "Bucky (Faucheur céleste)",
+      "themeUuid": "a540e7fc-4a5b-8ac2-35b2-cba6e9d6ed45",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e1fed5e0-4369-7de0-2545-b6ab4c0f7369/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/AirSquad/PumpShotgun_AirSquad_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d34ae01e-468e-5e37-448b-f491dbe1f0ef",
+          "displayName": "Bucky (Faucheur céleste)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d34ae01e-468e-5e37-448b-f491dbe1f0ef/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d34ae01e-468e-5e37-448b-f491dbe1f0ef/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d34ae01e-468e-5e37-448b-f491dbe1f0ef/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/AirSquad/Chromas/Standard/PumpShotgun_AirSquad_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "22d7dc61-4b10-8a09-0ce8-7796c7908f59",
+          "displayName": "Bucky (Faucheur céleste)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/22d7dc61-4b10-8a09-0ce8-7796c7908f59/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/22d7dc61-4b10-8a09-0ce8-7796c7908f59/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/22d7dc61-4b10-8a09-0ce8-7796c7908f59/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/AirSquad/Chromas/v1/PumpShotgun_AirSquad_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "cf4d93b3-4b7c-4d3b-b2a3-f38dc20d7dc7",
+          "displayName": "Bucky (Faucheur céleste)\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cf4d93b3-4b7c-4d3b-b2a3-f38dc20d7dc7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cf4d93b3-4b7c-4d3b-b2a3-f38dc20d7dc7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/cf4d93b3-4b7c-4d3b-b2a3-f38dc20d7dc7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/AirSquad/Chromas/v2/PumpShotgun_AirSquad_v2_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "63c72bcf-4b55-bb68-f9ce-469a5adf1668",
+          "displayName": "Bucky (Faucheur céleste)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/63c72bcf-4b55-bb68-f9ce-469a5adf1668/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/AirSquad/Levels/PumpShotgun_AirSquad_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "613152c2-47cf-be72-9b45-b6958117b220",
+      "displayName": "Bucky (Altitude)",
+      "themeUuid": "537e0587-416c-f8f3-965c-bba3508156d7",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/613152c2-47cf-be72-9b45-b6958117b220/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Airplane/PumpShotgun_Airplane_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6f3dff5c-4c09-addc-6b66-ee87d28247e3",
+          "displayName": "Bucky (Altitude)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6f3dff5c-4c09-addc-6b66-ee87d28247e3/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Airplane/Chromas/Standard/PumpShotgun_Airplane_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bcfb8a8b-47cb-db6f-51e8-90aaf967e423",
+          "displayName": "Bucky (Altitude)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bcfb8a8b-47cb-db6f-51e8-90aaf967e423/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Airplane/Levels/PumpShotgun_Airplane_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0666931c-4580-efd0-af47-afb9f2f72e55",
+      "displayName": "Bucky (Xéno-chasseur)",
+      "themeUuid": "c251784d-40c3-0d8e-85f4-9da6ff3bc073",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0666931c-4580-efd0-af47-afb9f2f72e55/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Alien/PumpShotgun_Alien_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d956ffba-4d51-9f09-bfe4-f8bc171ea164",
+          "displayName": "Bucky (Xéno-chasseur)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d956ffba-4d51-9f09-bfe4-f8bc171ea164/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d956ffba-4d51-9f09-bfe4-f8bc171ea164/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Alien/Chromas/Standard/PumpShotgun_Alien_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "01a984b8-4b91-ab61-60b9-1bb9ce54bd04",
+          "displayName": "Bucky (Xéno-chasseur)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/01a984b8-4b91-ab61-60b9-1bb9ce54bd04/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/818b4325-4d79-82d3-b730-b4b3d45747a8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Alien/Levels/PumpShotgun_Alien_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "a3073107-4927-808c-acce-e0972543f75a",
+          "displayName": "Bucky (Xéno-chasseur) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::HeartbeatAndMapSensor",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/57587b0a-4aba-4ccf-2065-e096bee7a52d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Alien/Levels/PumpShotgun_Alien_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "55636f8c-4c03-c09d-79df-6b968a693ad5",
+      "displayName": "Bucky (Fréquence)",
+      "themeUuid": "0ff2db38-4063-892c-d99a-c9a0b7f28bbe",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/55636f8c-4c03-c09d-79df-6b968a693ad5/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Analog/PumpShotgun_Analog_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f7ed766e-4080-0217-06d3-5f985aa2da71",
+          "displayName": "Bucky (Fréquence)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f7ed766e-4080-0217-06d3-5f985aa2da71/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f7ed766e-4080-0217-06d3-5f985aa2da71/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Analog/Chromas/Standard/PumpShotgun_Analog_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "30a7b42a-4b25-1ee2-13d0-1391e2521da2",
+          "displayName": "Bucky (Fréquence)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/30a7b42a-4b25-1ee2-13d0-1391e2521da2/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Analog/Levels/PumpShotgun_Analog_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "892b5053-4c0b-149e-38d0-c3a8d6f24384",
+      "displayName": "Bucky (Vengeance de Gaïa)",
+      "themeUuid": "f3427ce8-4ad1-9ece-7b37-22befb459dad",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/892b5053-4c0b-149e-38d0-c3a8d6f24384/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/892b5053-4c0b-149e-38d0-c3a8d6f24384/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Ashen2/PumpShotgun_Ashen2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d0b93627-4ba0-f16b-7ccb-529d7066eebd",
+          "displayName": "Bucky (Vengeance de Gaïa)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d0b93627-4ba0-f16b-7ccb-529d7066eebd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d0b93627-4ba0-f16b-7ccb-529d7066eebd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d0b93627-4ba0-f16b-7ccb-529d7066eebd/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Ashen2/Chromas/Standard/PumpShotgun_Ashen2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "5d6ee097-457f-67ef-5a35-d79e109095d6",
+          "displayName": "Bucky (Vengeance de Gaïa) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5d6ee097-457f-67ef-5a35-d79e109095d6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5d6ee097-457f-67ef-5a35-d79e109095d6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5d6ee097-457f-67ef-5a35-d79e109095d6/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4f5787a6-4215-2143-1d70-b5b8683240bf_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Ashen2/Chromas/v1/PumpShotgun_Ashen2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "daa45ca4-4fc0-4579-d8fd-a588183751c8",
+          "displayName": "Bucky (Vengeance de Gaïa) niveau 4\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/daa45ca4-4fc0-4579-d8fd-a588183751c8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/daa45ca4-4fc0-4579-d8fd-a588183751c8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/daa45ca4-4fc0-4579-d8fd-a588183751c8/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4a196802-455f-c99b-40eb-d882422442db_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Ashen2/Chromas/v2/PumpShotgun_Ashen2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "fa3668ce-4bcc-a909-eafa-589bd6aa47d8",
+          "displayName": "Bucky (Vengeance de Gaïa) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fa3668ce-4bcc-a909-eafa-589bd6aa47d8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fa3668ce-4bcc-a909-eafa-589bd6aa47d8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/fa3668ce-4bcc-a909-eafa-589bd6aa47d8/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a255d5c7-4bd3-d7c6-29e2-708d2a9583e0_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Ashen2/Chromas/V3/PumpShotgun_Ashen2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "89e2e0cf-4456-5acd-c55a-5cb3f6ff2041",
+          "displayName": "Bucky (Vengeance de Gaïa)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/89e2e0cf-4456-5acd-c55a-5cb3f6ff2041/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e98ef995-4a0a-d04f-165f-3282caa51efa_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Ashen2/Levels/PumpShotgun_Ashen2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d68983e7-40f3-41b4-bce7-5ca3d734f34d",
+          "displayName": "Bucky (Vengeance de Gaïa) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/86303b5d-4377-ba98-1cb3-fe9dde4e909f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Ashen2/Levels/PumpShotgun_Ashen2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "f02c5863-4e9a-0fd6-feef-6bb69ecf128e",
+          "displayName": "Bucky (Vengeance de Gaïa) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ea5c9e77-4ecd-eb54-4021-74945d98c487_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Ashen2/Levels/PumpShotgun_Ashen2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "0c2e78dc-4c97-5c9b-8175-938bc1e4f355",
+          "displayName": "Bucky (Vengeance de Gaïa) niveau 4 ",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/80227a5c-48b0-0fc1-80dc-d2ab067ead6b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Ashen2/Levels/PumpShotgun_Ashen2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "001e4ce2-4b30-8203-365a-828e2e3a5826",
+      "displayName": "Bucky (Piedra del Sol)",
+      "themeUuid": "b13d0176-4834-e039-964d-c293a1230d4e",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/001e4ce2-4b30-8203-365a-828e2e3a5826/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Aztec/PumpShotgun_Aztec_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a3722498-4a7d-5e61-d4d4-07b9e242b424",
+          "displayName": "Bucky (Piedra del Sol)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a3722498-4a7d-5e61-d4d4-07b9e242b424/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a3722498-4a7d-5e61-d4d4-07b9e242b424/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Aztec/Chromas/Standard/PumpShotgun_Aztec_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "154dea46-45a7-828d-5e0a-b9b3e4f7d7e3",
+          "displayName": "Bucky (Piedra del Sol)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/154dea46-45a7-828d-5e0a-b9b3e4f7d7e3/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Aztec/Levels/PumpShotgun_Aztec_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "96495eb3-40db-cb5b-1c69-17a3dde58ee3",
+      "displayName": "Bucky (Origines)",
+      "themeUuid": "9e7d132b-4810-d42f-564d-b7b08d9bfbb8",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/96495eb3-40db-cb5b-1c69-17a3dde58ee3/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Circle/PumpShotgun_Circle_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4b659a6f-49a2-a97d-c207-4590e06ec3b5",
+          "displayName": "Bucky (Origines)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4b659a6f-49a2-a97d-c207-4590e06ec3b5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4b659a6f-49a2-a97d-c207-4590e06ec3b5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4b659a6f-49a2-a97d-c207-4590e06ec3b5/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/903a5a22-4374-59c6-8bb6-88bcdda9a6ce_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Circle/Chromas/Standard/PumpShotgun_Circle_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "62c9d24c-44d7-6357-268d-f993df039d8e",
+          "displayName": "Bucky (Origines) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/62c9d24c-44d7-6357-268d-f993df039d8e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/62c9d24c-44d7-6357-268d-f993df039d8e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/62c9d24c-44d7-6357-268d-f993df039d8e/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/905cd059-427a-3525-7d82-92aa8abd0ddc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Circle/Chromas/v1/PumpShotgun_Circle_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "478ddd16-4927-e7de-eb34-448e283d7ce9",
+          "displayName": "Bucky (Origines) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/478ddd16-4927-e7de-eb34-448e283d7ce9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/478ddd16-4927-e7de-eb34-448e283d7ce9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/478ddd16-4927-e7de-eb34-448e283d7ce9/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/49c5b543-401c-b77d-2160-899cabf6fc49_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Circle/Chromas/v2/PumpShotgun_Circle_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "219b4ec8-45e7-dcac-256f-4b9f8aac2797",
+          "displayName": "Bucky (Origines) niveau 4\n(variante 3 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/219b4ec8-45e7-dcac-256f-4b9f8aac2797/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/219b4ec8-45e7-dcac-256f-4b9f8aac2797/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/219b4ec8-45e7-dcac-256f-4b9f8aac2797/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fb282acf-4a2c-c081-ff14-02bfe6460c44_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Circle/Chromas/v3/PumpShotgun_Circle_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "56042ce2-4f95-19be-7cac-5fb191683953",
+          "displayName": "Bucky (Origines)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/56042ce2-4f95-19be-7cac-5fb191683953/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/200862ec-406b-b09e-8bc9-2ca7c37a40af_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Circle/Levels/PumpShotgun_Circle_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d7ba0b3f-445b-1075-69b9-ebb3d79f7cc6",
+          "displayName": "Bucky (Origines) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c85334a8-4037-ca44-3c87-348700566dff_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Circle/Levels/PumpShotgun_Circle_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "36f894b7-49ae-251d-d6c1-6ba43588feb0",
+          "displayName": "Bucky (Origines) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6fa88795-4409-9aad-337e-a48783dd805f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Circle/Levels/PumpShotgun_Circle_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "52790992-4d3d-cca0-87cd-f8a54cb1a919",
+          "displayName": "Bucky (Origines) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/903a5a22-4374-59c6-8bb6-88bcdda9a6ce_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Circle/Levels/PumpShotgun_Circle_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "31072cda-4041-b4f0-119a-3692ea598321",
+      "displayName": "Bucky (Crise des radiants 001)",
+      "themeUuid": "705a3763-461e-035f-6799-1c92fc1c39c6",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/31072cda-4041-b4f0-119a-3692ea598321/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Comicbook/PumpShotgun_Comicbook_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "af1b507f-4f44-5917-dce8-e8893944d73d",
+          "displayName": "Bucky (Crise des radiants 001)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/af1b507f-4f44-5917-dce8-e8893944d73d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/af1b507f-4f44-5917-dce8-e8893944d73d/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Comicbook/Chromas/Standard/PumpShotgun_Comicbook_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bddfd0ba-49a1-0f4f-e32a-d5a1ed29d5fc",
+          "displayName": "Bucky (Crise des radiants 001)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bddfd0ba-49a1-0f4f-e32a-d5a1ed29d5fc/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6e6a5d75-43b7-5527-e8d2-7e9dc9c6644b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Comicbook/Levels/PumpShotgun_Comicbook_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "9485c7ec-4869-5454-165f-08898e934835",
+          "displayName": "Bucky (Crise des radiants 001) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5bc54564-44a6-60c2-88f9-459985c69109_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Comicbook/Levels/PumpShotgun_Comicbook_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "587f57bf-495d-2201-1db4-71aa270dd589",
+          "displayName": "Bucky (Crise des radiants 001) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5b662cb6-4e5a-1673-03cd-0dbcdc5e5a67_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Comicbook/Levels/PumpShotgun_Comicbook_Lv3_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b90cbe0f-4339-ccc2-8069-15bb585bd5c9",
+      "displayName": "Bucky (Contre-culture)",
+      "themeUuid": "c24442c0-4efe-ff73-535c-dc96cf65dd5c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b90cbe0f-4339-ccc2-8069-15bb585bd5c9/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Counterculture/PumpShotgun_Counterculture_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c74fbb9d-45d1-7c96-96e3-27b78022cdfd",
+          "displayName": "Bucky (Contre-culture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c74fbb9d-45d1-7c96-96e3-27b78022cdfd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c74fbb9d-45d1-7c96-96e3-27b78022cdfd/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Counterculture/Chromas/Standard/PumpShotgun_Counterculture_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a7a38267-414f-755e-29a2-b38069baa669",
+          "displayName": "Bucky (Contre-culture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a7a38267-414f-755e-29a2-b38069baa669/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Counterculture/Levels/PumpShotgun_Counterculture_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e47b971f-4eaf-89b9-a42f-7f8a01cf3106",
+      "displayName": "Bucky (Pleine vitesse)",
+      "themeUuid": "dfdf796e-4af5-e202-fd8d-75b21f44fc19",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e47b971f-4eaf-89b9-a42f-7f8a01cf3106/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/CrashOut/PumpShotgun_CrashOut_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "11c0e2ec-429e-bd4b-8b8a-759d5587026b",
+          "displayName": "Bucky (Pleine vitesse)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/11c0e2ec-429e-bd4b-8b8a-759d5587026b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/11c0e2ec-429e-bd4b-8b8a-759d5587026b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/CrashOut/Chromas/Standard/PumpShotgun_CrashOut_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a3b67cab-47cf-a82a-a12f-4f86476da1e5",
+          "displayName": "Bucky (Pleine vitesse)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a3b67cab-47cf-a82a-a12f-4f86476da1e5/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/CrashOut/Levels/PumpShotgun_CrashOut_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1322a9a8-49ad-bc3a-2319-fb866e21334c",
+      "displayName": "Bucky (Alerte rouge)",
+      "themeUuid": "c2a38af9-4d9f-010e-47a0-f5b06570c976",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1322a9a8-49ad-bc3a-2319-fb866e21334c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/CrimsonOps/PumpShotgun_CrimsonOps_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "17f8e996-4440-2011-da74-1dac76f5671a",
+          "displayName": "Bucky (Alerte rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/17f8e996-4440-2011-da74-1dac76f5671a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/17f8e996-4440-2011-da74-1dac76f5671a/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/CrimsonOps/Chromas/Standard/PumpShotgun_CrimsonOps_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "633521c9-42ae-d2be-78c1-a09b25af7d10",
+          "displayName": "Bucky (Alerte rouge)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/633521c9-42ae-d2be-78c1-a09b25af7d10/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/CrimsonOps/Levels/Pumpshotgun_CrimsonOps_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "aa6162a5-4c73-1c6f-5c69-9b9082e321fd",
+      "displayName": "Bucky (Surtension)",
+      "themeUuid": "f8ca8370-4cdb-67e6-8862-9684ac410148",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/aa6162a5-4c73-1c6f-5c69-9b9082e321fd/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Electroflux3/PumpShotgun_Electroflux3_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2c782afa-45ae-cb96-370e-95852272b2bb",
+          "displayName": "Bucky (Surtension)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2c782afa-45ae-cb96-370e-95852272b2bb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2c782afa-45ae-cb96-370e-95852272b2bb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2c782afa-45ae-cb96-370e-95852272b2bb/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Electroflux3/Chromas/Standard/PumpShotgun_Electroflux3_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "fd6330d1-4eea-006d-24ac-57a31d5c004d",
+          "displayName": "Bucky (Surtension)\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fd6330d1-4eea-006d-24ac-57a31d5c004d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fd6330d1-4eea-006d-24ac-57a31d5c004d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/fd6330d1-4eea-006d-24ac-57a31d5c004d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Electroflux3/Chromas/V1/PumpShotgun_Electroflux3_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "8c6cbe68-4ca1-2ee3-177e-c6bbffdba724",
+          "displayName": "Bucky (Surtension)\n(variante 2 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8c6cbe68-4ca1-2ee3-177e-c6bbffdba724/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8c6cbe68-4ca1-2ee3-177e-c6bbffdba724/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8c6cbe68-4ca1-2ee3-177e-c6bbffdba724/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Electroflux3/Chromas/V2/PumpShotgun_Electroflux3_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "9b63be2e-49f4-b05c-9dfb-e0929a36365c",
+          "displayName": "Bucky (Surtension)\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9b63be2e-49f4-b05c-9dfb-e0929a36365c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9b63be2e-49f4-b05c-9dfb-e0929a36365c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9b63be2e-49f4-b05c-9dfb-e0929a36365c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Electroflux3/Chromas/V3/PumpShotgun_Electroflux3_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "1e7be2e9-418e-7f39-d879-a8912be1d3ab",
+          "displayName": "Bucky (Surtension)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1e7be2e9-418e-7f39-d879-a8912be1d3ab/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Electroflux3/Levels/PumpShotgun_Electroflux3_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4a1d582d-4c3b-6595-57b6-e3b2cf0ee543",
+      "displayName": "Bucky (Topotek)",
+      "themeUuid": "418542b0-4f5c-3f37-4f5a-ecb1d3bc04ce",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4a1d582d-4c3b-6595-57b6-e3b2cf0ee543/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Flyer/PumpShotgun_Flyer_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2d680b54-40da-0afa-e787-89a545f1c7b2",
+          "displayName": "Bucky (Topotek)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2d680b54-40da-0afa-e787-89a545f1c7b2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2d680b54-40da-0afa-e787-89a545f1c7b2/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Flyer/Chromas/Standard/PumpShotgun_Flyer_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8a0ded4e-4218-d59a-53cc-488c3e384425",
+          "displayName": "Bucky (Topotek)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8a0ded4e-4218-d59a-53cc-488c3e384425/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Flyer/Levels/PumpShotgun_Flyer_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "22eed65a-49e6-ec39-f6dd-7399fcdfa6e7",
+      "displayName": "Bucky (Éclaireur lunaire)",
+      "themeUuid": "79e7a00e-44c4-0863-954a-cfbfc6676412",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/22eed65a-49e6-ec39-f6dd-7399fcdfa6e7/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Frontier/PumpShotgun_Frontier_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8d356c38-4319-5343-ca71-8abed71bad0b",
+          "displayName": "Bucky (Éclaireur lunaire)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8d356c38-4319-5343-ca71-8abed71bad0b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8d356c38-4319-5343-ca71-8abed71bad0b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Frontier/Chromas/Standard/PumpShotgun_Frontier_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3a250136-49d2-a667-a882-599a048ef31f",
+          "displayName": "Bucky (Éclaireur lunaire)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3a250136-49d2-a667-a882-599a048ef31f/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Frontier/Levels/PumpShotgun_Frontier_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "82204cf0-4a3d-2802-6eb9-9eac53472a3f",
+      "displayName": "Bucky (.SYS)",
+      "themeUuid": "a723f568-40ec-2c18-e0b2-56968af32d76",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/82204cf0-4a3d-2802-6eb9-9eac53472a3f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Grid2/PumpShotgun_Grid2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c3bb30ce-432e-6ef3-6828-6981abf3f058",
+          "displayName": "Bucky (.SYS)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c3bb30ce-432e-6ef3-6828-6981abf3f058/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Grid2/Chromas/Standard/PumpShotgun_Grid2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b7652717-49c0-b658-529e-6f8146ab0eca",
+          "displayName": "Bucky (.SYS)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b7652717-49c0-b658-529e-6f8146ab0eca/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Grid2/Levels/PumpShotgun_Grid2_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d493bec2-4e3f-19cd-8363-b1921489413c",
+      "displayName": "Bucky (Horizon)",
+      "themeUuid": "c2c30214-4209-75e0-7eac-7ba592ce66ad",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d493bec2-4e3f-19cd-8363-b1921489413c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Horizon/PumpShotgun_Horizon_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6e99ce94-4abd-4339-153c-ddb62112b10b",
+          "displayName": "Bucky (Horizon)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6e99ce94-4abd-4339-153c-ddb62112b10b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Horizon/Chromas/Standard/PumpShotgun_Horizon_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f7425a39-43ca-e1fe-5b2b-56a51ed479c5",
+          "displayName": "Bucky (Horizon)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f7425a39-43ca-e1fe-5b2b-56a51ed479c5/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Horizon/Levels/PumpShotgun_Horizon_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8f26c1e0-46b7-72d2-8307-11b03f3332f2",
+      "displayName": "Bucky (Monarque)",
+      "themeUuid": "a176fd9a-41fa-a4b3-1ec9-29a4cde6940c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8f26c1e0-46b7-72d2-8307-11b03f3332f2/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Houndstooth/PumpShotgun_Houndstooth_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "648610be-40f3-14a7-2b62-e6a3e264c027",
+          "displayName": "Bucky (Monarque)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/648610be-40f3-14a7-2b62-e6a3e264c027/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/648610be-40f3-14a7-2b62-e6a3e264c027/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Houndstooth/Chromas/Standard/PumpShotgun_Houndstooth_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a773dd2f-4027-4b98-8d4b-5ea0c7924883",
+          "displayName": "Bucky (Monarque)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a773dd2f-4027-4b98-8d4b-5ea0c7924883/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Houndstooth/Levels/PumpShotgun_Houndstooth_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "50b0db3d-46a9-5c2f-2e57-7fbeedf30362",
+      "displayName": "Bucky (Hydroplongeon)",
+      "themeUuid": "2f21ff86-4db9-1c5b-ff92-4db0218f5fbd",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/50b0db3d-46a9-5c2f-2e57-7fbeedf30362/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Hydrodip/PumpShotgun_Hydrodip_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d06a6708-48ad-d071-eae1-92be53894cb5",
+          "displayName": "Bucky (Hydroplongeon)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d06a6708-48ad-d071-eae1-92be53894cb5/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Hydrodip/Chromas/Standard/PumpShotgun_Hydrodip_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "338bb3e6-4c47-425d-32a5-5ea1a96c78ae",
+          "displayName": "Bucky (Hydroplongeon)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/338bb3e6-4c47-425d-32a5-5ea1a96c78ae/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Hydrodip/Levels/PumpShotgun_Hydrodip_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "89eebdb1-4df6-0a1d-8988-f495cca4badb",
+      "displayName": "Bucky (Primordial//2.0)",
+      "themeUuid": "3264e5b6-4bd2-213b-eeab-4d8525dd4ffb",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/89eebdb1-4df6-0a1d-8988-f495cca4badb/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/HypeBeast2/PumpShotgun_HypeBeast2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ab5fdc5b-4c3a-4bb1-4f78-57bb5e5502b2",
+          "displayName": "Bucky (Primordial//2.0)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ab5fdc5b-4c3a-4bb1-4f78-57bb5e5502b2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ab5fdc5b-4c3a-4bb1-4f78-57bb5e5502b2/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ab5fdc5b-4c3a-4bb1-4f78-57bb5e5502b2/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/HypeBeast2/Chromas/Standard/PumpShotgun_HypeBeast2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "eb69b3d5-4d02-499a-02db-778be2a2c620",
+          "displayName": "Bucky (Primordial//2.0) niveau 4\n(variante 1 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/eb69b3d5-4d02-499a-02db-778be2a2c620/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/eb69b3d5-4d02-499a-02db-778be2a2c620/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/eb69b3d5-4d02-499a-02db-778be2a2c620/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/HypeBeast2/Chromas/Gold/PumpShotgun_HypeBeast2_Gold_PrimaryAsset"
+        },
+        {
+          "uuid": "58e9f7ab-4eeb-bb81-7ec0-a2863d05237d",
+          "displayName": "Bucky (Primordial//2.0) niveau 4\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/58e9f7ab-4eeb-bb81-7ec0-a2863d05237d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/58e9f7ab-4eeb-bb81-7ec0-a2863d05237d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/58e9f7ab-4eeb-bb81-7ec0-a2863d05237d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/HypeBeast2/Chromas/Green/PumpShotgun_HypeBeast2_Green_PrimaryAsset"
+        },
+        {
+          "uuid": "51ec6344-458c-ea16-0060-f6be1ae9ef29",
+          "displayName": "Bucky (Primordial//2.0) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/51ec6344-458c-ea16-0060-f6be1ae9ef29/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/51ec6344-458c-ea16-0060-f6be1ae9ef29/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/51ec6344-458c-ea16-0060-f6be1ae9ef29/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/HypeBeast2/Chromas/Orange/PumpShotgun_HypeBeast2_Orange_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f987be1f-4287-35a4-34a9-d6a92805e7ff",
+          "displayName": "Bucky (Primordial//2.0)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f987be1f-4287-35a4-34a9-d6a92805e7ff/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/828e13c6-4160-95aa-dd6f-04b1262f3742_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/HypeBeast2/Levels/PumpShotgun_HypeBeast2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "bb7700ba-44a7-fac9-0a8b-969412238fd4",
+          "displayName": "Bucky (Primordial//2.0) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/091ccde3-4ea8-9a5f-b8ae-5b9521c89db6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/HypeBeast2/Levels/PumpShotgun_HypeBeast2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "1db224e3-49b7-eba5-0c94-779238480de1",
+          "displayName": "Bucky (Primordial//2.0) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9f6f3bc4-41fa-04e7-b43e-5abd5dfdb5f9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/HypeBeast2/Levels/PumpShotgun_HypeBeast2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "a468da91-408b-e7ad-9872-9dafbdd7d37c",
+          "displayName": "Bucky (Primordial//2.0) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6f864e63-46b6-d478-6575-27876a8975a5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/HypeBeast2/Levels/PumpShotgun_HypeBeast2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a6b07d50-4731-2775-042e-a896cb51bf13",
+      "displayName": "Bucky (Prisme II)",
+      "themeUuid": "b7ce48c8-412e-b318-8f8d-f88893db886a",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a6b07d50-4731-2775-042e-a896cb51bf13/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Iridescence3/PumpShotgun_Iridescence3_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "82a85778-425c-b723-ba17-8b85fb1ecdac",
+          "displayName": "Bucky (Prisme II)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/82a85778-425c-b723-ba17-8b85fb1ecdac/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/82a85778-425c-b723-ba17-8b85fb1ecdac/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Iridescence3/Chromas/Standard/PumpShotgun_Iridescence3_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "1ef3c871-45db-0f6d-fc34-8bb2685cd6c0",
+          "displayName": "Bucky (Prisme II)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1ef3c871-45db-0f6d-fc34-8bb2685cd6c0/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Iridescence3/Levels/PumpShotgun_Iridescence3_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0344b901-4500-8843-fd9c-97b63ee729cd",
+      "displayName": "Bucky (Vague rétro)",
+      "themeUuid": "7aee438c-4db7-92a5-edd7-ae8fff60089b",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0344b901-4500-8843-fd9c-97b63ee729cd/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Jetski/PumpShotgun_Jetski_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "61b0c13f-4a08-faf3-a252-cc95be5f1dbf",
+          "displayName": "Bucky (Vague rétro)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/61b0c13f-4a08-faf3-a252-cc95be5f1dbf/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/61b0c13f-4a08-faf3-a252-cc95be5f1dbf/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/61b0c13f-4a08-faf3-a252-cc95be5f1dbf/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Jetski/Chromas/Standard/PumpShotgun_Jetski_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "86a0ba87-4b1b-80e9-1bfd-cca2acdeb385",
+          "displayName": "Bucky (Vague rétro)\n(variante 1 Bleu marine)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/86a0ba87-4b1b-80e9-1bfd-cca2acdeb385/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/86a0ba87-4b1b-80e9-1bfd-cca2acdeb385/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/86a0ba87-4b1b-80e9-1bfd-cca2acdeb385/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Jetski/Chromas/v1/PumpShotgun_Jetski_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "57489375-4eb6-bd63-4f0a-fb9beabf5053",
+          "displayName": "Bucky (Vague rétro)\n(variante 2 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/57489375-4eb6-bd63-4f0a-fb9beabf5053/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/57489375-4eb6-bd63-4f0a-fb9beabf5053/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/57489375-4eb6-bd63-4f0a-fb9beabf5053/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Jetski/Chromas/v2/PumpShotgun_Jetski_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "bd496eb4-4824-77b7-8f9a-9fbd45fa56c5",
+          "displayName": "Bucky (Vague rétro)\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bd496eb4-4824-77b7-8f9a-9fbd45fa56c5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bd496eb4-4824-77b7-8f9a-9fbd45fa56c5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/bd496eb4-4824-77b7-8f9a-9fbd45fa56c5/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Jetski/Chromas/V3/PumpShotgun_Jetski_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c8906650-41d3-b65b-b1e2-ee8df7c36f35",
+          "displayName": "Bucky (Vague rétro)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c8906650-41d3-b65b-b1e2-ee8df7c36f35/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Jetski/Levels/PumpShotgun_Jetski_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "75e55415-45ce-b48b-b471-84bef2368e33",
+      "displayName": "Bucky (Kingdom)",
+      "themeUuid": "4b6ce579-4a00-d107-6e45-50a5e77cc526",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/75e55415-45ce-b48b-b471-84bef2368e33/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Kingdom/PumpShotgun_Kingdom_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8bb9c93c-4f27-89f8-3bf7-06b9101daa85",
+          "displayName": "Bucky (Kingdom)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8bb9c93c-4f27-89f8-3bf7-06b9101daa85/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8bb9c93c-4f27-89f8-3bf7-06b9101daa85/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Kingdom/Chromas/Standard/PumpShotgun_Kingdom_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4caa7fb0-4751-52f3-6eed-6ab6232be131",
+          "displayName": "Bucky (Kingdom)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4caa7fb0-4751-52f3-6eed-6ab6232be131/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Kingdom/Levels/PumpShotgun_KingdomLv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ce298668-4034-ebe2-3324-67963d4d3629",
+      "displayName": "Bucky (Aemondir)",
+      "themeUuid": "3ffc865a-4dd8-e06e-a4f5-248ad30d6040",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ce298668-4034-ebe2-3324-67963d4d3629/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/ce298668-4034-ebe2-3324-67963d4d3629/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Legion/PumpShotgun_Legion_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "5f6f3f2a-4d9e-acef-78b6-878a583e3011",
+          "displayName": "Bucky (Aemondir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5f6f3f2a-4d9e-acef-78b6-878a583e3011/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5f6f3f2a-4d9e-acef-78b6-878a583e3011/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5f6f3f2a-4d9e-acef-78b6-878a583e3011/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Legion/Chromas/Standard/PumpShotgun_Legion_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "bc41d06f-4370-cc52-32a9-94aa046f28e5",
+          "displayName": "Bucky (Aemondir) niveau 3\n(variante 1 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bc41d06f-4370-cc52-32a9-94aa046f28e5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bc41d06f-4370-cc52-32a9-94aa046f28e5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/bc41d06f-4370-cc52-32a9-94aa046f28e5/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0c5ebb2b-491f-bd7a-ee8e-c5a2a91d9935_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Legion/Chromas/v1/PumpShotgun_Legion_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "208f1693-492e-5d8e-92e3-0d8f32eb3db9",
+          "displayName": "Bucky (Aemondir) niveau 3\n(variante 2 Bronze)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/208f1693-492e-5d8e-92e3-0d8f32eb3db9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/208f1693-492e-5d8e-92e3-0d8f32eb3db9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/208f1693-492e-5d8e-92e3-0d8f32eb3db9/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/31d6687d-49b7-8659-4e5e-70a8bf835180_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Legion/Chromas/v2/PumpShotgun_Legion_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "5eefb90b-46b1-7035-ff15-899064a11931",
+          "displayName": "Bucky (Aemondir) niveau 3\n(variante 3 Obsidienne)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5eefb90b-46b1-7035-ff15-899064a11931/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5eefb90b-46b1-7035-ff15-899064a11931/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5eefb90b-46b1-7035-ff15-899064a11931/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9a0295dd-43f5-878a-e233-c0bd8520046c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Legion/Chromas/V3/PumpShotgun_Legion_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4ae8e917-479e-a40e-9627-daaf44fe8ac2",
+          "displayName": "Bucky (Aemondir)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4ae8e917-479e-a40e-9627-daaf44fe8ac2/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/901872e9-41a0-04ff-9c86-148aa39f1877_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Legion/Levels/PumpShotgun_Legion_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "4a33a9aa-4c43-279b-897a-388dd2eca3c5",
+          "displayName": "Bucky (Aemondir) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4a33a9aa-4c43-279b-897a-388dd2eca3c5/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/170b533d-4e09-f7aa-653c-2ca1a5c989ba_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Legion/Levels/PumpShotgun_Legion_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "1ac128ba-4e49-6b97-2a74-eab8cb273467",
+          "displayName": "Bucky (Aemondir) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fdcf0a97-4f9c-b140-0f73-dd9d60bbb2bd_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Legion/Levels/PumpShotgun_Legion_Lv3_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e62c8fc3-4be4-a8e1-9b77-ba910e3389c7",
+      "displayName": "Bucky (Châtiment)",
+      "themeUuid": "cce84786-45b7-3007-d84f-e2a98776a9dc",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e62c8fc3-4be4-a8e1-9b77-ba910e3389c7/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Lightning2/PumpShotgun_Lightning2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "118986df-40d3-1c85-bb51-ffb919ff95f4",
+          "displayName": "Bucky (Châtiment)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/118986df-40d3-1c85-bb51-ffb919ff95f4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/118986df-40d3-1c85-bb51-ffb919ff95f4/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Lightning2/Chromas/Standard/PumpShotgun_Lightning2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "597fd113-4026-547d-31e7-5ba800ed9f3c",
+          "displayName": "Bucky (Châtiment)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/597fd113-4026-547d-31e7-5ba800ed9f3c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Lightning2/Levels/PumpShotgun_Lightning2_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d95fe9cc-4b39-6f54-1912-d796b5912481",
+      "displayName": "Bucky (Épine iridienne)",
+      "themeUuid": "248a4c03-4d30-31b9-faab-68b329baba26",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d95fe9cc-4b39-6f54-1912-d796b5912481/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/LostTechnology/PumpShotgun_LostTechnology_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0d885f51-43d3-5391-0097-61b69873beef",
+          "displayName": "Bucky (Épine iridienne)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0d885f51-43d3-5391-0097-61b69873beef/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/LostTechnology/Chromas/Standard/PumpShotgun_LostTechnology_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d1d98507-48c7-a7ed-003c-90b085632fb9",
+          "displayName": "Bucky (Épine iridienne)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d1d98507-48c7-a7ed-003c-90b085632fb9/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/LostTechnology/Levels/PumpShotgun_LostTechnology_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5ac14aef-41cc-a0c8-895f-e1a69b33aeff",
+      "displayName": "Bucky (Magepunk)",
+      "themeUuid": "eb650d49-4117-e959-6116-e5918a8c04a6",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5ac14aef-41cc-a0c8-895f-e1a69b33aeff/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Magepunk/PumpShotgun_Magepunk_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0c92fe47-43e7-4b9e-09b1-0889ac65fc9b",
+          "displayName": "Bucky (Magepunk)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0c92fe47-43e7-4b9e-09b1-0889ac65fc9b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0c92fe47-43e7-4b9e-09b1-0889ac65fc9b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0c92fe47-43e7-4b9e-09b1-0889ac65fc9b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Magepunk/Chromas/Standard/PumpShotgun_Magepunk_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "d7fd6423-4c39-3c1c-262b-3ca74a69f423",
+          "displayName": "Bucky (Magepunk) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d7fd6423-4c39-3c1c-262b-3ca74a69f423/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d7fd6423-4c39-3c1c-262b-3ca74a69f423/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d7fd6423-4c39-3c1c-262b-3ca74a69f423/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Magepunk/Chromas/v1/PumpShotgun_Magepunk_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "82972735-4ef9-15cb-92c6-d3b7416fd176",
+          "displayName": "Bucky (Magepunk) niveau 4\n(variante 2 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/82972735-4ef9-15cb-92c6-d3b7416fd176/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/82972735-4ef9-15cb-92c6-d3b7416fd176/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/82972735-4ef9-15cb-92c6-d3b7416fd176/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Magepunk/Chromas/v2/PumpShotgun_Magepunk_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "3b65ac59-4d80-638b-98f2-e6b47b13b088",
+          "displayName": "Bucky (Magepunk) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3b65ac59-4d80-638b-98f2-e6b47b13b088/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3b65ac59-4d80-638b-98f2-e6b47b13b088/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3b65ac59-4d80-638b-98f2-e6b47b13b088/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Magepunk/Chromas/V3/PumpShotgun_Magepunk_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "78776175-4040-282f-07a1-0199b1fdcf58",
+          "displayName": "Bucky (Magepunk)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/78776175-4040-282f-07a1-0199b1fdcf58/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/7c2c4ef0-46b4-ea35-c2c2-15acd4581e87_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Magepunk/PumpShotgun_Magepunk_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "82fe02be-416e-f563-4fed-28b74d7c6675",
+          "displayName": "Bucky (Magepunk) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/82fe02be-416e-f563-4fed-28b74d7c6675/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a0c3573d-4cb7-2de3-a636-97b7fbf5dd79_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Magepunk/PumpShotgun_Magepunk_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "e98fc056-4234-d1b9-7d0e-eeb0c41742ad",
+          "displayName": "Bucky (Magepunk) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e98fc056-4234-d1b9-7d0e-eeb0c41742ad/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f7012d5d-4b4d-69dd-b5e6-9895fea3069b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Magepunk/PumpShotgun_Magepunk_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "3022b056-4d17-3b4a-a80d-22b096b977ec",
+          "displayName": "Bucky (Magepunk) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3022b056-4d17-3b4a-a80d-22b096b977ec/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d02f7987-4c9c-e478-99e8-bdb831281155_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Magepunk/PumpShotgun_Magepunk_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4fca7cd4-48b6-130f-01fc-fa87974bb622",
+      "displayName": "Bucky (Surrégime)",
+      "themeUuid": "fc62f717-4485-aec1-7d25-5085c9a97a05",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4fca7cd4-48b6-130f-01fc-fa87974bb622/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/4fca7cd4-48b6-130f-01fc-fa87974bb622/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Motorbike/PumpShotgun_Motorbike_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8caa76fa-45af-3893-fbd3-a588fe33104f",
+          "displayName": "Bucky (Surrégime)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8caa76fa-45af-3893-fbd3-a588fe33104f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8caa76fa-45af-3893-fbd3-a588fe33104f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8caa76fa-45af-3893-fbd3-a588fe33104f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Motorbike/Chromas/Standard/PumpShotgun_Motorbike_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "c1c6684e-481b-ed62-c1b0-a1aa423b7732",
+          "displayName": "Bucky (Surrégime) niveau 4\n(variante 1 Cobalt)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c1c6684e-481b-ed62-c1b0-a1aa423b7732/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c1c6684e-481b-ed62-c1b0-a1aa423b7732/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c1c6684e-481b-ed62-c1b0-a1aa423b7732/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3457c6cb-4c20-75e0-e708-beb462703aca_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Motorbike/Chromas/v1/PumpShotgun_Motorbike_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "270fb15d-44ab-98e2-9780-cbb4656aee07",
+          "displayName": "Bucky (Surrégime) niveau 4\n(variante 2 Chewing-gum)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/270fb15d-44ab-98e2-9780-cbb4656aee07/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/270fb15d-44ab-98e2-9780-cbb4656aee07/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/270fb15d-44ab-98e2-9780-cbb4656aee07/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d76648c7-4312-224d-c9c5-5791dcc7097c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Motorbike/Chromas/v2/PumpShotgun_Motorbike_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "454dbba3-4390-adf6-2ced-fd88aec44b4a",
+          "displayName": "Bucky (Surrégime) niveau 4\n(variante 3 Onyx)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/454dbba3-4390-adf6-2ced-fd88aec44b4a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/454dbba3-4390-adf6-2ced-fd88aec44b4a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/454dbba3-4390-adf6-2ced-fd88aec44b4a/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c6b38ade-4e12-8b2c-ba0e-5fb2fa00902c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Motorbike/Chromas/V3/PumpShotgun_Motorbike_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "1f962646-47ba-cce6-f138-e1a11c200b86",
+          "displayName": "Bucky (Surrégime)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1f962646-47ba-cce6-f138-e1a11c200b86/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e576e38a-4b85-9d95-1aed-788b51de7f02_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Motorbike/Levels/PumpShotgun_Motorbike_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ca5c6274-4021-adc8-f7b6-c3b420a7bebf",
+          "displayName": "Bucky (Surrégime) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ad5eabff-4f9f-7342-9dd0-229ce914e298_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Motorbike/Levels/PumpShotgun_Motorbike_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "71b35108-4b3a-a5dc-0514-c2b36427a8a6",
+          "displayName": "Bucky (Surrégime) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4f82023e-4f7f-9105-a0e4-1f892800e2ca_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Motorbike/Levels/PumpShotgun_Motorbike_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "46668a73-48a3-d79a-8ed0-be9f41396bfd",
+          "displayName": "Bucky (Surrégime) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d537b25d-44db-ca01-e4cf-cc9f1ce50db5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Motorbike/Levels/PumpShotgun_Motorbike_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2a0700dc-4181-ae19-2b49-818b24dceacb",
+      "displayName": "Bucky (Galeries)",
+      "themeUuid": "0c4ee4ba-484a-8fd2-e680-aaba9315cea4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Murals/PumpShotgun_Murals_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2b9aaf1d-492a-fcb7-b22b-4c8ba8d67efa",
+          "displayName": "Bucky (Galeries)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2b9aaf1d-492a-fcb7-b22b-4c8ba8d67efa/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2b9aaf1d-492a-fcb7-b22b-4c8ba8d67efa/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Murals/Chromas/Standard/PumpShotgun_Murals_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "03e03718-4c65-8a47-fb8b-78ba233cecd1",
+          "displayName": "Bucky (Galeries)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/03e03718-4c65-8a47-fb8b-78ba233cecd1/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Murals/Levels/PumpShotgun_Murals_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "daf3c0d8-4c6f-23c0-20cc-96b0386b548f",
+      "displayName": "Bucky (Genèse)",
+      "themeUuid": "a68dde93-4011-c401-ae94-22b43d267598",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Nexus/PumpShotgun_Nexus_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f3d8dfc5-4c46-4219-189b-3d91c9d1629a",
+          "displayName": "Bucky (Genèse)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f3d8dfc5-4c46-4219-189b-3d91c9d1629a/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Nexus/Chromas/Standard/PumpShotgun_Nexus_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bb3e45b2-4c4f-e0cb-c094-3a95261bba35",
+          "displayName": "Bucky (Genèse)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bb3e45b2-4c4f-e0cb-c094-3a95261bba35/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Nexus/Levels/PumpShotgun_Nexus_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "f2179ca3-4fe8-e44a-0a33-94a70ce8a183",
+      "displayName": "Bucky (Novellart)",
+      "themeUuid": "1497695d-4f1c-c3f0-99d2-0fb9937b519e",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/f2179ca3-4fe8-e44a-0a33-94a70ce8a183/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Nouveau/PumpShotgun_Nouveau_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "cca14865-4869-c470-0e53-df8d0baf91f0",
+          "displayName": "Bucky (Novellart)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cca14865-4869-c470-0e53-df8d0baf91f0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cca14865-4869-c470-0e53-df8d0baf91f0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Nouveau/Chromas/Standard/PumpShotgun_Nouveau_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "68103ee1-456a-3bf3-e565-4db23bf8340d",
+          "displayName": "Bucky (Novellart)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/68103ee1-456a-3bf3-e565-4db23bf8340d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Nouveau/Levels/PumpShotgun_Nouveau_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "31f6f214-4379-749a-9285-04a5561e2d03",
+      "displayName": "Bucky (Ion)",
+      "themeUuid": "5186d489-450e-bf5e-f129-2dbaa3034a28",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/31f6f214-4379-749a-9285-04a5561e2d03/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oblivion/PumpShotgun_Oblivion_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "21693f40-42e4-01a7-b4b2-529fd774bfce",
+          "displayName": "Bucky (Ion)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/21693f40-42e4-01a7-b4b2-529fd774bfce/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/21693f40-42e4-01a7-b4b2-529fd774bfce/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oblivion/Chromas/Standard/PumpShotgun_Oblivion_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f00520c8-4b70-7255-d23c-c0a4887656a2",
+          "displayName": "Bucky (Ion)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f00520c8-4b70-7255-d23c-c0a4887656a2/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f9a37d70-4551-379b-4829-edba397b503d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oblivion/Levels/PumpShotgun_OblivionLv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d8f0cad0-40a3-75a4-389b-5d8e91e9e157",
+          "displayName": "Bucky (Ion) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/07e42b80-4482-0ef6-d873-8aba12fb7f5e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oblivion/Levels/PumpShotgun_OblivionLv2_PrimaryAsset"
+        },
+        {
+          "uuid": "b1a6a3d0-4c31-266e-0d66-5a960d452220",
+          "displayName": "Bucky (Ion) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3548c45a-416a-21f5-1dda-2988e9b26fca_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oblivion/Levels/PumpShotgun_OblivionLv3_PrimaryAsset"
+        },
+        {
+          "uuid": "18039610-4134-95f2-0791-e18a2e9f30dd",
+          "displayName": "Bucky (Ion) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0a87f34d-4c7d-1f45-ae01-57af0fd50e35_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oblivion/Levels/PumpShotgun_OblivionLv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7da96a2a-43ce-91c2-28f9-0c95529d133e",
+      "displayName": "Bucky (Oni)",
+      "themeUuid": "8a34391f-4d1f-6b22-859f-628bff79d381",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7da96a2a-43ce-91c2-28f9-0c95529d133e/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oni/PumpShotgun_Oni_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "88d497c4-4d21-22d6-02d0-6caef087d263",
+          "displayName": "Bucky (Oni)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/88d497c4-4d21-22d6-02d0-6caef087d263/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/88d497c4-4d21-22d6-02d0-6caef087d263/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/88d497c4-4d21-22d6-02d0-6caef087d263/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oni/Chromas/Standard/PumpShotgun_Oni_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "11737623-4661-bfea-ca37-08803bdd6d95",
+          "displayName": "Bucky (Oni) niveau 4\n(variante 1 Kumo)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/11737623-4661-bfea-ca37-08803bdd6d95/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/11737623-4661-bfea-ca37-08803bdd6d95/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/11737623-4661-bfea-ca37-08803bdd6d95/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oni/Chromas/Black/PumpShotgun_Oni_Black_PrimaryAsset"
+        },
+        {
+          "uuid": "243f999f-4987-7826-4c9e-1ca5bde88212",
+          "displayName": "Bucky (Oni) niveau 4\n(variante 2 Hana)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/243f999f-4987-7826-4c9e-1ca5bde88212/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/243f999f-4987-7826-4c9e-1ca5bde88212/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/243f999f-4987-7826-4c9e-1ca5bde88212/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oni/Chromas/Green/PumpShotgun_Oni_Green_PrimaryAsset"
+        },
+        {
+          "uuid": "79d385fb-4013-e9a3-a191-d4979c13ec58",
+          "displayName": "Bucky (Oni) niveau 4\n(variante 3 Tsubame)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/79d385fb-4013-e9a3-a191-d4979c13ec58/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/79d385fb-4013-e9a3-a191-d4979c13ec58/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/79d385fb-4013-e9a3-a191-d4979c13ec58/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oni/Chromas/White/PumpShotgun_Oni_White_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "cdc130c2-4b12-3702-c8f6-5a8920746395",
+          "displayName": "Bucky (Oni)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/cdc130c2-4b12-3702-c8f6-5a8920746395/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e3fe12f7-4e0b-987e-f191-c3b34a313a84_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oni/Levels/PumpShotgun_Oni_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "8f1dbce8-4012-72a8-1e4f-d4b50cfc5bb8",
+          "displayName": "Bucky (Oni) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8f1dbce8-4012-72a8-1e4f-d4b50cfc5bb8/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a1c7a7b0-45d0-824a-56b7-2da2f09c8908_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oni/Levels/PumpShotgun_Oni_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "b5e520a1-43a6-c144-e70d-918d90f05233",
+          "displayName": "Bucky (Oni) niveau 3",
+          "levelItem": null,
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6125795b-4a02-a92b-ab3d-80955155101e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oni/Levels/PumpShotgun_Oni_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "af478f2a-4dae-43d3-1545-7d96a65c60b1",
+          "displayName": "Bucky (Oni) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/af478f2a-4dae-43d3-1545-7d96a65c60b1/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/513a3843-4478-b48e-8421-b79febcba904_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Oni/Levels/PumpShotgun_Oni_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1a97f146-4fcf-5a04-140e-4390feafaa73",
+      "displayName": "Bucky (Artisan)",
+      "themeUuid": "d65eed71-4544-fb44-9a71-27bfdcb66952",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Porcelain/PumpShotgun_Porcelain_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7d3d59cc-4212-cb8b-324b-9fab41c2f8f0",
+          "displayName": "Bucky (Artisan)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7d3d59cc-4212-cb8b-324b-9fab41c2f8f0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7d3d59cc-4212-cb8b-324b-9fab41c2f8f0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7d3d59cc-4212-cb8b-324b-9fab41c2f8f0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Porcelain/Chromas/Standard/PumpShotgun_Porcelain_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "a17293ed-4e1b-9ab4-c58d-38b2795150ce",
+          "displayName": "Bucky (Artisan)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a17293ed-4e1b-9ab4-c58d-38b2795150ce/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a17293ed-4e1b-9ab4-c58d-38b2795150ce/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a17293ed-4e1b-9ab4-c58d-38b2795150ce/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Porcelain/Chromas/Red/PumpShotgun_Porcelain_Red_PrimaryAsset"
+        },
+        {
+          "uuid": "7a603467-449a-2f51-5e32-14bcdf5a0661",
+          "displayName": "Bucky (Artisan)\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7a603467-449a-2f51-5e32-14bcdf5a0661/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7a603467-449a-2f51-5e32-14bcdf5a0661/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7a603467-449a-2f51-5e32-14bcdf5a0661/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Porcelain/Chromas/Green/PumpShotgun_Porcelain_Green_PrimaryAsset"
+        },
+        {
+          "uuid": "98cdc24c-4c05-cf45-5564-4f97b1551bb5",
+          "displayName": "Bucky (Artisan)\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/98cdc24c-4c05-cf45-5564-4f97b1551bb5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/98cdc24c-4c05-cf45-5564-4f97b1551bb5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/98cdc24c-4c05-cf45-5564-4f97b1551bb5/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Porcelain/Chromas/Blue/PumpShotgun_Porcelain_Blue_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "5466bacf-446b-52a1-611d-339f6f376d40",
+          "displayName": "Bucky (Artisan)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5466bacf-446b-52a1-611d-339f6f376d40/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Porcelain/Levels/PumpShotgun_Porcelain_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "26582dc8-43dd-15b6-a31c-739b90302bea",
+      "displayName": "Bucky (Lightwave)",
+      "themeUuid": "f9fb29bd-4592-ee49-0e2a-93a925d7332e",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/26582dc8-43dd-15b6-a31c-739b90302bea/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/RGB/PumpShotgun_RGB_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "57e0882d-44c2-c87a-f9ee-10a6fd156da8",
+          "displayName": "Bucky (Lightwave)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/57e0882d-44c2-c87a-f9ee-10a6fd156da8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/57e0882d-44c2-c87a-f9ee-10a6fd156da8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/57e0882d-44c2-c87a-f9ee-10a6fd156da8/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/RGB/Chromas/Standard/PumpShotgun_RGB_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "072828d8-45fc-5548-34ce-0290267935f1",
+          "displayName": "Bucky (Lightwave)\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/072828d8-45fc-5548-34ce-0290267935f1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/072828d8-45fc-5548-34ce-0290267935f1/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/072828d8-45fc-5548-34ce-0290267935f1/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/RGB/Chromas/v1/PumpShotgun_RGB_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "204e445d-4c9a-a9d5-9e9e-579a3899a5bf",
+          "displayName": "Bucky (Lightwave)\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/204e445d-4c9a-a9d5-9e9e-579a3899a5bf/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/204e445d-4c9a-a9d5-9e9e-579a3899a5bf/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/204e445d-4c9a-a9d5-9e9e-579a3899a5bf/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/RGB/Chromas/v2/PumpShotgun_RGB_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "c6f81a87-415b-2d1c-b08d-41910843775c",
+          "displayName": "Bucky (Lightwave)\n(variante 3 Gris)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c6f81a87-415b-2d1c-b08d-41910843775c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c6f81a87-415b-2d1c-b08d-41910843775c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c6f81a87-415b-2d1c-b08d-41910843775c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/RGB/Chromas/v3/PumpShotgun_RGB_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "23885a08-4a77-82a7-5dbc-ec812f252ca0",
+          "displayName": "Bucky (Lightwave)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/23885a08-4a77-82a7-5dbc-ec812f252ca0/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/RGB/Levels/PumpShotgun_RGB_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ed407bc7-4949-3131-b84f-d6be83b63a15",
+      "displayName": "Skin favori aléatoire",
+      "themeUuid": "0d7a5bfb-4850-098e-1821-d989bbfd58a8",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ed407bc7-4949-3131-b84f-d6be83b63a15/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Random/PumpShotgun_Random_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "74d62853-4aa2-8d3b-d7c2-8d8bde69f23c",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/74d62853-4aa2-8d3b-d7c2-8d8bde69f23c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Random/Chromas/Standard/PumpShotgun_Random_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e5c6d130-4226-cdac-8d03-1b97e907b8f9",
+          "displayName": "Skin favori aléatoire",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e5c6d130-4226-cdac-8d03-1b97e907b8f9/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Random/Levels/PumpShotgun_Random_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0dc9a874-41c5-e582-9a36-37946043346c",
+      "displayName": "Bucky (Neuroblaster d'uranium gravitationnel)",
+      "themeUuid": "ca390b2f-4f2e-12ac-c225-f28bd0f1fd45",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0dc9a874-41c5-e582-9a36-37946043346c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Raygun/PumpShotgun_Raygun_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ba632e0d-4f74-2b45-5094-c2baa0764cd6",
+          "displayName": "Bucky (Neuroblaster d'uranium gravitationnel)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ba632e0d-4f74-2b45-5094-c2baa0764cd6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ba632e0d-4f74-2b45-5094-c2baa0764cd6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ba632e0d-4f74-2b45-5094-c2baa0764cd6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Raygun/Chromas/Standard/PumpShotgun_Raygun_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "822401fe-4388-c203-3784-a0958885be07",
+          "displayName": "Bucky (Neuroblaster d'uranium gravitationnel) niveau 2\n(variante 1 Chrome)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/822401fe-4388-c203-3784-a0958885be07/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/822401fe-4388-c203-3784-a0958885be07/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/822401fe-4388-c203-3784-a0958885be07/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/26d514e3-4a37-af25-7cda-73a59893ccfa_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Raygun/Chromas/Chrome/PumpShotgun_Raygun_Chrome_PrimaryAsset"
+        },
+        {
+          "uuid": "5f9ccde4-456a-67eb-0a7b-d1b8fd0b0258",
+          "displayName": "Bucky (Neuroblaster d'uranium gravitationnel) niveau 2\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5f9ccde4-456a-67eb-0a7b-d1b8fd0b0258/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5f9ccde4-456a-67eb-0a7b-d1b8fd0b0258/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5f9ccde4-456a-67eb-0a7b-d1b8fd0b0258/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/43c5715b-4063-f16c-d5cd-34b0133d3eeb_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Raygun/Chromas/Black/PumpShotgun_Raygun_Black_PrimaryAsset"
+        },
+        {
+          "uuid": "af2c044e-4c83-04a4-bc7a-42a16be55796",
+          "displayName": "Bucky (Neuroblaster d'uranium gravitationnel) niveau 2\n(variante 3 Rouge/Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/af2c044e-4c83-04a4-bc7a-42a16be55796/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/af2c044e-4c83-04a4-bc7a-42a16be55796/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/af2c044e-4c83-04a4-bc7a-42a16be55796/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/194c5e06-459d-fc7e-d8e8-6b9067bc4466_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Raygun/Chromas/RWB/PumpShotgun_Raygun_RWB_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "22c0aaa3-4919-5a7b-90c0-2dacafdc32fe",
+          "displayName": "Bucky (Neuroblaster d'uranium gravitationnel)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/22c0aaa3-4919-5a7b-90c0-2dacafdc32fe/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1db4b936-467f-7cdc-536b-27b9cc559260_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Raygun/Levels/PumpShotgun_Raygun_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "c91875e5-48a9-0820-6b65-aba73bf3479d",
+          "displayName": "Bucky (Neuroblaster d'uranium gravitationnel) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c62be12b-48ed-4a04-633e-c1be974486c9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Raygun/Levels/PumpShotgun_Raygun_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "058322eb-44fc-8dee-947c-8b95a550ba10",
+      "displayName": "Bucky (Panoramique)",
+      "themeUuid": "7408cacd-4895-f544-c186-14b6c69a96de",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/058322eb-44fc-8dee-947c-8b95a550ba10/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/RetroLA/PumpShotgun_RetroLA_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "dc27fea0-4ede-34e3-58fa-9586c46058b2",
+          "displayName": "Bucky (Panoramique)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/dc27fea0-4ede-34e3-58fa-9586c46058b2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/dc27fea0-4ede-34e3-58fa-9586c46058b2/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/RetroLA/Chromas/Standard/PumpShotgun_RetroLA_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7f56c527-4185-be0e-a0ea-18b31a781c90",
+          "displayName": "Bucky (Panoramique)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7f56c527-4185-be0e-a0ea-18b31a781c90/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/RetroLA/Levels/PumpShotgun_RetroLA_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ea3e6c8a-4e5e-baf9-33c3-7abacf07aaee",
+      "displayName": "Bucky (Renégat)",
+      "themeUuid": "a2a9355b-4274-c82d-893b-2396c460e1ce",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ea3e6c8a-4e5e-baf9-33c3-7abacf07aaee/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/ea3e6c8a-4e5e-baf9-33c3-7abacf07aaee/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Rogue/PumpShotgun_Rogue_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "831500b0-4d3e-c635-883d-6eafe85a0acc",
+          "displayName": "Bucky (Renégat)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/831500b0-4d3e-c635-883d-6eafe85a0acc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/831500b0-4d3e-c635-883d-6eafe85a0acc/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/831500b0-4d3e-c635-883d-6eafe85a0acc/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Rogue/Chromas/Standard/PumpShotgun_Rogue_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "356a3e4d-46e4-8e64-11fa-84b6bde16296",
+          "displayName": "Bucky (Renégat) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/356a3e4d-46e4-8e64-11fa-84b6bde16296/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/356a3e4d-46e4-8e64-11fa-84b6bde16296/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/356a3e4d-46e4-8e64-11fa-84b6bde16296/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/369cbfe7-483f-44c7-5ff4-73b36ccf7840_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Rogue/Chromas/v1/PumpShotgun_Rogue_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "dce21ee9-4418-1a41-a08f-32916dc5b1fd",
+          "displayName": "Bucky (Renégat) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/dce21ee9-4418-1a41-a08f-32916dc5b1fd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/dce21ee9-4418-1a41-a08f-32916dc5b1fd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/dce21ee9-4418-1a41-a08f-32916dc5b1fd/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4ac88ff0-4045-49a8-67d7-d7bfeae4843f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Rogue/Chromas/v2/PumpShotgun_Rogue_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "ff25d161-4983-02d7-d523-30b546fea15d",
+          "displayName": "Bucky (Renégat) niveau 4\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ff25d161-4983-02d7-d523-30b546fea15d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ff25d161-4983-02d7-d523-30b546fea15d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ff25d161-4983-02d7-d523-30b546fea15d/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/54af52d4-4b5d-7ea0-8b7d-beacdfb28759_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Rogue/Chromas/V3/PumpShotgun_Rogue_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "fdf7458d-4a8a-42ed-1911-40b4ac3073de",
+          "displayName": "Bucky (Renégat)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fdf7458d-4a8a-42ed-1911-40b4ac3073de/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ca395852-4506-25e7-bbb9-6e94c5af665a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Rogue/Levels/PumpShotgun_Rogue_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "a63390bf-47e1-dcf3-9517-d482dc08c203",
+          "displayName": "Bucky (Renégat) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/113fe5bb-4c7b-507c-bf63-8686035a76c5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Rogue/Levels/PumpShotgun_Rogue_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "4f58bee8-49db-87c0-d276-eab7d1793bf6",
+          "displayName": "Bucky (Renégat) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4f58bee8-49db-87c0-d276-eab7d1793bf6/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/eb0ddee5-448f-2a05-f5f7-c3ac6911893f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Rogue/Levels/PumpShotgun_Rogue_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "80810960-4718-87f0-5996-f2a5e9855d83",
+          "displayName": "Bucky (Renégat) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/482aea09-4777-066a-e1ec-5b9c2d93b802_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Rogue/Levels/PumpShotgun_Rogue_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e6eefed6-4d10-5794-4859-6d9ab5ff1d66",
+      "displayName": "Bucky (Cavalier)",
+      "themeUuid": "0d04f63b-4c0d-88b1-7c99-348bcfcff326",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e6eefed6-4d10-5794-4859-6d9ab5ff1d66/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Speedboat/PumpShotgun_Speedboat_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "dfc525fb-4515-1d0d-3292-959326cc86de",
+          "displayName": "Bucky (Cavalier)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/dfc525fb-4515-1d0d-3292-959326cc86de/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/dfc525fb-4515-1d0d-3292-959326cc86de/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Speedboat/Chromas/Standard/PumpShotgun_Speedboat_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b6a089dd-4616-be48-4f28-d8b2a539c0a5",
+          "displayName": "Bucky (Cavalier)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b6a089dd-4616-be48-4f28-d8b2a539c0a5/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Speedboat/Levels/PumpShotgun_Speedboat_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1ecb1abc-41a4-f789-39a5-4583f043d688",
+      "displayName": "Bucky (Mailles de titan)",
+      "themeUuid": "85c47e07-405d-9104-7462-a1b226532bc7",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1ecb1abc-41a4-f789-39a5-4583f043d688/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Spikes/PumpShotgun_Spikes_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1b8f0afc-4307-02a1-10d8-319d878f44cc",
+          "displayName": "Bucky (Mailles de titan)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1b8f0afc-4307-02a1-10d8-319d878f44cc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1b8f0afc-4307-02a1-10d8-319d878f44cc/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Spikes/Chromas/Standard/PumpShotgun_Spikes_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0771ccd2-40b0-54cf-37b4-c3b5cac03bdb",
+          "displayName": "Bucky (Mailles de titan)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0771ccd2-40b0-54cf-37b4-c3b5cac03bdb/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/37338bf1-4967-b577-38ee-70a260ea9c47_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Spikes/Levels/PumpShotgun_Spikes_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "70c97fb2-4d79-d4bb-5173-a1888cd4bfd9",
+      "displayName": "Bucky (Standard)",
+      "themeUuid": "5a629df4-4765-0214-bd40-fbb96542941f",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/70c97fb2-4d79-d4bb-5173-a1888cd4bfd9/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Standard/PumpShotgun_Standard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3d8ffcfe-4786-0180-42d7-e1be18dd1cab",
+          "displayName": "Bucky",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3d8ffcfe-4786-0180-42d7-e1be18dd1cab/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3d8ffcfe-4786-0180-42d7-e1be18dd1cab/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Standard/Chromas/Standard/PumpShotgun_Standard_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "2f5078c7-4381-492d-cc00-9f96966ba1ec",
+          "displayName": "Bucky",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/2f5078c7-4381-492d-cc00-9f96966ba1ec/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Standard/PumpShotgun_Standard_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "42dc2eef-480a-8980-1fa1-6ebfdb5155a0",
+      "displayName": "Bucky (Ensorcelé)",
+      "themeUuid": "6a3ce658-4ff6-04c0-6a19-9ca1149e3102",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/42dc2eef-480a-8980-1fa1-6ebfdb5155a0/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Storybook/PumpShotgun_Storybook_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d7440b6a-4520-6ef0-a27d-c5bd3da80507",
+          "displayName": "Bucky (Ensorcelé)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d7440b6a-4520-6ef0-a27d-c5bd3da80507/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d7440b6a-4520-6ef0-a27d-c5bd3da80507/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Storybook/Chromas/Standard/PumpShotgun_Storybook_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3ed55540-45f4-2722-2f73-e7a3d415099e",
+          "displayName": "Bucky (Ensorcelé)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3ed55540-45f4-2722-2f73-e7a3d415099e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Storybook/Levels/PumpShotgun_Storybook_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "cf2cc18c-42ec-3fb0-4ca7-3583373a33ab",
+      "displayName": "Bucky (Aérosol)",
+      "themeUuid": "625f8165-44d8-0104-33da-e38da60cdb11",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cf2cc18c-42ec-3fb0-4ca7-3583373a33ab/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/StreetArt/PumpShotgun_StreetArt_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0e383715-4dd6-4743-b69c-59aee968a865",
+          "displayName": "Bucky (Aérosol)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0e383715-4dd6-4743-b69c-59aee968a865/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0e383715-4dd6-4743-b69c-59aee968a865/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/StreetArt/Chromas/Standard/PumpShotgun_StreetArt_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "5f2ae626-44a5-b1c5-a879-98bc2fe587c6",
+          "displayName": "Bucky (Aérosol)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5f2ae626-44a5-b1c5-a879-98bc2fe587c6/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/StreetArt/Levels/PumpShotgun_StreetArt_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "bc0478c8-4b7a-b6f6-eb1e-95bab0485435",
+      "displayName": "Bucky (Tempétueux)",
+      "themeUuid": "e5471712-448e-4b82-a73b-a2906b0789a2",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bc0478c8-4b7a-b6f6-eb1e-95bab0485435/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/TheStorm/PumpShotgun_TheStorm_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1b8cbf78-45cd-3140-6064-688def115317",
+          "displayName": "Bucky (Tempétueux)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1b8cbf78-45cd-3140-6064-688def115317/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/TheStorm/Chromas/Standard/PumpShotgun_TheStorm_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6118832a-428c-e1dd-09cc-8faa94699c4c",
+          "displayName": "Bucky (Tempétueux)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6118832a-428c-e1dd-09cc-8faa94699c4c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/TheStorm/Levels/PumpShotgun_TheStorm_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "949e3298-4875-c495-9978-ec87f3a85118",
+      "displayName": "Bucky (Terres désolées)",
+      "themeUuid": "4b50f796-45f7-d38c-a519-388b2f2a945d",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/949e3298-4875-c495-9978-ec87f3a85118/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Wasteland2/PumpShotgun_Wasteland2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "caa2cec8-4f09-5a38-bc86-f09d3786bfc4",
+          "displayName": "Bucky (Terres désolées)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/caa2cec8-4f09-5a38-bc86-f09d3786bfc4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/caa2cec8-4f09-5a38-bc86-f09d3786bfc4/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Wasteland2/Chromas/Standard/PumpShotgun_Wasteland2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "acd4b2cf-409d-841b-f5f3-e4969c720323",
+          "displayName": "Bucky (Terres désolées)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/acd4b2cf-409d-841b-f5f3-e4969c720323/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Shotguns/PumpShotgun/Wasteland2/Levels/PumpShotgun_Wasteland2_Lv1_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}

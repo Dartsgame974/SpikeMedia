@@ -1,0 +1,2046 @@
+{
+  "uuid": "f7e1b454-4ad4-1063-ec0a-159e56b58941",
+  "displayName": "Stinger",
+  "category": "EEquippableCategory::SMG",
+  "defaultSkinUuid": "940fb417-4a9c-3004-41f5-3e8f1f4178b2",
+  "displayIcon": "https://media.valorant-api.com/weapons/f7e1b454-4ad4-1063-ec0a-159e56b58941/displayicon.png",
+  "killStreamIcon": "https://media.valorant-api.com/weapons/f7e1b454-4ad4-1063-ec0a-159e56b58941/killstreamicon.png",
+  "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/VectorPrimaryAsset",
+  "weaponStats": {
+    "fireRate": 16,
+    "magazineSize": 20,
+    "runSpeedMultiplier": 0.85,
+    "equipTimeSeconds": 0.75,
+    "reloadTimeSeconds": 2.25,
+    "firstBulletAccuracy": 0.65,
+    "shotgunPelletCount": 1,
+    "wallPenetration": "EWallPenetrationDisplayType::Low",
+    "feature": null,
+    "fireMode": null,
+    "altFireType": "EWeaponAltFireDisplayType::ADS",
+    "adsStats": {
+      "zoomMultiplier": 1.15,
+      "fireRate": 8.470589,
+      "runSpeedMultiplier": 0.76,
+      "burstCount": 4,
+      "firstBulletAccuracy": 0.35
+    },
+    "altShotgunStats": null,
+    "airBurstStats": null,
+    "damageRanges": [
+      {
+        "rangeStartMeters": 0,
+        "rangeEndMeters": 15,
+        "headDamage": 67.5,
+        "bodyDamage": 27,
+        "legDamage": 22.95
+      },
+      {
+        "rangeStartMeters": 15,
+        "rangeEndMeters": 50,
+        "headDamage": 57,
+        "bodyDamage": 23,
+        "legDamage": 19
+      }
+    ]
+  },
+  "shopData": {
+    "cost": 1100,
+    "category": "SMGs",
+    "shopOrderPriority": 0,
+    "categoryText": "PM",
+    "gridPosition": {
+      "row": 0,
+      "column": 1
+    },
+    "canBeTrashed": true,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/weapons/f7e1b454-4ad4-1063-ec0a-159e56b58941/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/VectorPurchase"
+  },
+  "skins": [
+    {
+      "uuid": "66a6a6a1-44c7-beac-0b67-54aaa8243367",
+      "displayName": "Stinger (Immortalisé)",
+      "themeUuid": "2aebbb13-48a0-2c71-04c3-45a58f53f3e5",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/66a6a6a1-44c7-beac-0b67-54aaa8243367/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/AbstractHeroes/Vector_AbstractHeroes_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c7487aac-4242-67ee-28dd-638fc6971fc4",
+          "displayName": "Stinger (Immortalisé)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c7487aac-4242-67ee-28dd-638fc6971fc4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c7487aac-4242-67ee-28dd-638fc6971fc4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c7487aac-4242-67ee-28dd-638fc6971fc4/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/AbstractHeroes/Chromas/Standard/Vector_AbstractHeroes_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "0f7ebf60-4794-1116-0af2-5f83ee488631",
+          "displayName": "Stinger (Immortalisé)\n(variante 1 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0f7ebf60-4794-1116-0af2-5f83ee488631/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0f7ebf60-4794-1116-0af2-5f83ee488631/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0f7ebf60-4794-1116-0af2-5f83ee488631/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/AbstractHeroes/Chromas/v1/Vector_AbstractHeroes_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "af03c22d-4fde-43df-0666-009f152e031b",
+          "displayName": "Stinger (Immortalisé)\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/af03c22d-4fde-43df-0666-009f152e031b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/af03c22d-4fde-43df-0666-009f152e031b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/af03c22d-4fde-43df-0666-009f152e031b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/AbstractHeroes/Chromas/v2/Vector_AbstractHeroes_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "a442335b-4ad3-9802-8f77-4890ac5a8aa6",
+          "displayName": "Stinger (Immortalisé)\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a442335b-4ad3-9802-8f77-4890ac5a8aa6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a442335b-4ad3-9802-8f77-4890ac5a8aa6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a442335b-4ad3-9802-8f77-4890ac5a8aa6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/AbstractHeroes/Chromas/V3/Vector_AbstractHeroes_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "40243b02-4a32-d406-6b40-bc99e8a6fde2",
+          "displayName": "Stinger (Immortalisé)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/40243b02-4a32-d406-6b40-bc99e8a6fde2/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/AbstractHeroes/Levels/Vector_AbstractHeroes_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "282c15e6-4372-2f18-9143-2d9cdd942c4c",
+      "displayName": "Stinger (RGX 11z Pro)",
+      "themeUuid": "5b09613d-470c-74f4-a69a-028474b703a6",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/282c15e6-4372-2f18-9143-2d9cdd942c4c/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/282c15e6-4372-2f18-9143-2d9cdd942c4c/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Vector_Afterglow_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1539cc4b-444d-b775-f17e-5a9a13f5ba81",
+          "displayName": "Stinger (RGX 11z Pro)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1539cc4b-444d-b775-f17e-5a9a13f5ba81/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1539cc4b-444d-b775-f17e-5a9a13f5ba81/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1539cc4b-444d-b775-f17e-5a9a13f5ba81/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Chromas/Standard/Vector_Afterglow_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "e5a694a1-465e-c634-39b8-bcbf16ecab4d",
+          "displayName": "Stinger (RGX 11z Pro) niveau 5\n(variante 1 Rouge)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e5a694a1-465e-c634-39b8-bcbf16ecab4d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e5a694a1-465e-c634-39b8-bcbf16ecab4d/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/57ff9f66-4bae-bc33-84d6-0f97c823a302_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Chromas/Red/Vector_Afterglow_Red_PrimaryAsset"
+        },
+        {
+          "uuid": "fa548ae1-4f50-0730-0c4f-b18c473c8542",
+          "displayName": "Stinger (RGX 11z Pro) niveau 5\n(variante 2 Bleu)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fa548ae1-4f50-0730-0c4f-b18c473c8542/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/fa548ae1-4f50-0730-0c4f-b18c473c8542/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c211c495-4854-9426-1dc1-1b842dcee506_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Chromas/Blue/Vector_Afterglow_Blue_PrimaryAsset"
+        },
+        {
+          "uuid": "3debb072-49ae-8ada-fdd9-e081208b42fa",
+          "displayName": "Stinger (RGX 11z Pro) niveau 5\n(variante 3 Jaune)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3debb072-49ae-8ada-fdd9-e081208b42fa/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3debb072-49ae-8ada-fdd9-e081208b42fa/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3dc14060-4dfc-3ee7-806a-9e802e0bfe4b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Chromas/Yellow/Vector_Afterglow_Yellow_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4dbeebb2-4b39-8aec-b639-00bc4948d0f3",
+          "displayName": "Stinger (RGX 11z Pro)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4dbeebb2-4b39-8aec-b639-00bc4948d0f3/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/028d98a7-4a8b-8851-572e-448ef90c81d6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Levels/Vector_Afterglow_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d9b56b1b-42b7-10bf-caf6-d594861916a9",
+          "displayName": "Stinger (RGX 11z Pro) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/285b9402-4e8b-7592-9cf5-96b06927db37_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Levels/Vector_Afterglow_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "0d146d58-43be-7cfc-d1f6-cb8441bf5c83",
+          "displayName": "Stinger (RGX 11z Pro) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/46508845-46e6-3b93-3c60-fb96c769e9c7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Levels/Vector_Afterglow_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "6a538b3d-4a6c-933d-6b01-d0a20b8ab5bb",
+          "displayName": "Stinger (RGX 11z Pro) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1a2e667f-4ed5-373a-b0a7-c9a6ccf455b9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Levels/Vector_Afterglow_Lv4_PrimaryAsset"
+        },
+        {
+          "uuid": "7dd59c7b-4ca4-1638-4a10-cb998d6b84c8",
+          "displayName": "Stinger (RGX 11z Pro) niveau 5",
+          "levelItem": "EEquippableSkinLevelItem::KillCounter",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/aa67b91b-4c45-10d3-8300-aab470710c78_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Afterglow/Levels/Vector_Afterglow_Lv5_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "42da0f19-4017-5cb8-08a4-368315561fdf",
+      "displayName": "Stinger (Aristocrate)",
+      "themeUuid": "38f408dc-416e-eda9-3ac5-21892c5f5ad1",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/ArtDeco/Vector_ArtDeco_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c78e4616-4499-7926-0f1e-93977020063f",
+          "displayName": "Stinger (Aristocrate)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c78e4616-4499-7926-0f1e-93977020063f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c78e4616-4499-7926-0f1e-93977020063f/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/ArtDeco/Chromas/Standard/Vector_ArtDeco_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "df37b069-48b2-0a7c-78ea-5b8eedc684f7",
+          "displayName": "Stinger (Aristocrate)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/df37b069-48b2-0a7c-78ea-5b8eedc684f7/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/ArtDeco/Levels/Vector_ArtDecoLv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b6c49f5e-409e-4e7c-223d-739ecc52a705",
+      "displayName": "Stinger (Celestia)",
+      "themeUuid": "d58381aa-4d1a-a30a-ab0f-2c99487887ab",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b6c49f5e-409e-4e7c-223d-739ecc52a705/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Astro/Vector_Astro_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0394ea6f-4710-74b4-a0d9-dd9f421ad74e",
+          "displayName": "Stinger (Celestia)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0394ea6f-4710-74b4-a0d9-dd9f421ad74e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0394ea6f-4710-74b4-a0d9-dd9f421ad74e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0394ea6f-4710-74b4-a0d9-dd9f421ad74e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Astro/Chromas/Standard/Vector_Astro_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "a831931e-4659-8646-5264-71a201f464ce",
+          "displayName": "Stinger (Celestia)\n(variante 1 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a831931e-4659-8646-5264-71a201f464ce/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a831931e-4659-8646-5264-71a201f464ce/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a831931e-4659-8646-5264-71a201f464ce/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Astro/Chromas/v1/Vector_Astro_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "13036a12-4e66-60dd-aa06-81917a9b62c3",
+          "displayName": "Stinger (Celestia)\n(variante 2 Or rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/13036a12-4e66-60dd-aa06-81917a9b62c3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/13036a12-4e66-60dd-aa06-81917a9b62c3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/13036a12-4e66-60dd-aa06-81917a9b62c3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Astro/Chromas/v2/Vector_Astro_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "967ec037-4c3e-8a46-d086-ee84f3f7f39c",
+          "displayName": "Stinger (Celestia)\n(variante 3 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/967ec037-4c3e-8a46-d086-ee84f3f7f39c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/967ec037-4c3e-8a46-d086-ee84f3f7f39c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/967ec037-4c3e-8a46-d086-ee84f3f7f39c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Astro/Chromas/V3/Vector_Astro_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "85068834-4751-c963-7071-efa6d19aebc3",
+          "displayName": "Stinger (Celestia)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/85068834-4751-c963-7071-efa6d19aebc3/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Astro/Levels/Vector_Astro_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "cebd9a89-4ef1-48fa-6c4e-6bbc1cdd1be8",
+      "displayName": "Stinger (Composite)",
+      "themeUuid": "2f24105f-48f7-c6c0-906c-92983c979738",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cebd9a89-4ef1-48fa-6c4e-6bbc1cdd1be8/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Ballistic/Vector_Ballistic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "07f8aa65-46be-54ef-4179-4dac64870596",
+          "displayName": "Stinger (Composite)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/07f8aa65-46be-54ef-4179-4dac64870596/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Ballistic/Chromas/Standard/Vector_Ballistic_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d9b038d8-4f8c-e4a6-e538-6e9cfb0dbb11",
+          "displayName": "Stinger (Composite)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d9b038d8-4f8c-e4a6-e538-6e9cfb0dbb11/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Ballistic/Levels/Vector_Ballistic_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "6da4c1ab-4c47-3ad9-39dd-f69aca9f9c8c",
+      "displayName": "Stinger (Overlay)",
+      "themeUuid": "20cc6d1c-4f39-bc92-d03f-7fbdc4784bdd",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6da4c1ab-4c47-3ad9-39dd-f69aca9f9c8c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Cartridge/Vector_Cartridge_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c03031fb-4348-1ffb-d52f-2e85ea38930f",
+          "displayName": "Stinger (Overlay)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c03031fb-4348-1ffb-d52f-2e85ea38930f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c03031fb-4348-1ffb-d52f-2e85ea38930f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c03031fb-4348-1ffb-d52f-2e85ea38930f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Cartridge/Chromas/Standard/Vector_Cartridge_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "2f7a74ab-4399-2531-eaf3-938d7acbdf1c",
+          "displayName": "Stinger (Overlay)\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2f7a74ab-4399-2531-eaf3-938d7acbdf1c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2f7a74ab-4399-2531-eaf3-938d7acbdf1c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2f7a74ab-4399-2531-eaf3-938d7acbdf1c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Cartridge/Chromas/v1/Vector_Cartridge_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "b053a8cf-44dd-70b6-ea26-a0a2f75c57f1",
+          "displayName": "Stinger (Overlay)\n(variante 2 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b053a8cf-44dd-70b6-ea26-a0a2f75c57f1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b053a8cf-44dd-70b6-ea26-a0a2f75c57f1/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b053a8cf-44dd-70b6-ea26-a0a2f75c57f1/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Cartridge/Chromas/v2/Vector_Cartridge_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "1e9786ad-4ea4-ec9b-b22f-659833e9d3be",
+          "displayName": "Stinger (Overlay)\n(variante 3 Gris)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1e9786ad-4ea4-ec9b-b22f-659833e9d3be/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1e9786ad-4ea4-ec9b-b22f-659833e9d3be/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1e9786ad-4ea4-ec9b-b22f-659833e9d3be/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Cartridge/Chromas/V3/Vector_Cartridge_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "634bcb12-4119-fc03-3d21-658f434a0547",
+          "displayName": "Stinger (Overlay)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/634bcb12-4119-fc03-3d21-658f434a0547/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Cartridge/Levels/Vector_Cartridge_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "6e507ef4-4e78-e3ed-11c1-0397b94f4cfc",
+      "displayName": "Stinger (Tactijeu)",
+      "themeUuid": "ba0640f1-41f0-849b-b16a-baaf7607b9b2",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6e507ef4-4e78-e3ed-11c1-0397b94f4cfc/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Chibi/Vector_Chibi_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8cfbafff-4e4f-72bf-2094-7eb1208566d7",
+          "displayName": "Stinger (Tactijeu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8cfbafff-4e4f-72bf-2094-7eb1208566d7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8cfbafff-4e4f-72bf-2094-7eb1208566d7/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Chibi/Chromas/Standard/Vector_Chibi_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0ee9472e-43d2-c993-e988-ebaa2528e217",
+          "displayName": "Stinger (Tactijeu)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0ee9472e-43d2-c993-e988-ebaa2528e217/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Chibi/Levels/Vector_Chibi_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5e589d74-4b10-2a15-58b8-e5b8293f3b77",
+      "displayName": "Stinger (Pleine vitesse)",
+      "themeUuid": "dfdf796e-4af5-e202-fd8d-75b21f44fc19",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5e589d74-4b10-2a15-58b8-e5b8293f3b77/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/CrashOut/Vector_CrashOut_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6aafb330-4ce9-1545-182b-6fb28a805140",
+          "displayName": "Stinger (Pleine vitesse)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6aafb330-4ce9-1545-182b-6fb28a805140/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6aafb330-4ce9-1545-182b-6fb28a805140/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/CrashOut/Chromas/Standard/Vector_CrashOut_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3a71ac66-4c4b-0d9a-89e8-a2a052030cbe",
+          "displayName": "Stinger (Pleine vitesse)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3a71ac66-4c4b-0d9a-89e8-a2a052030cbe/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/CrashOut/Levels/Vector_CrashOut_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0cf70376-4150-39aa-5657-8890617bc0d1",
+      "displayName": "Stinger (Alerte rouge)",
+      "themeUuid": "c2a38af9-4d9f-010e-47a0-f5b06570c976",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0cf70376-4150-39aa-5657-8890617bc0d1/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/CrimsonOps/Vector_CrimsonOps_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c4c8da8f-468b-f71b-c61e-779c2e256e92",
+          "displayName": "Stinger (Alerte rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c4c8da8f-468b-f71b-c61e-779c2e256e92/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c4c8da8f-468b-f71b-c61e-779c2e256e92/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/CrimsonOps/Chromas/Standard/Vector_CrimsonOps_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "cd9beda3-4042-d79e-6d46-4daa61484362",
+          "displayName": "Stinger (Alerte rouge)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/cd9beda3-4042-d79e-6d46-4daa61484362/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/CrimsonOps/Levels/Vector_CrimsonOps_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5a4a0ea0-4ac6-d130-c917-45a7bb89ae42",
+      "displayName": "Stinger (Prélude au chaos)",
+      "themeUuid": "651caaec-459e-3e7c-0a16-d587226186d7",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5a4a0ea0-4ac6-d130-c917-45a7bb89ae42/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/5a4a0ea0-4ac6-d130-c917-45a7bb89ae42/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/DemonStone/Vector_DemonStone_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0d84fb3c-4eda-c7f0-6c1d-8eb9ef0ba5ee",
+          "displayName": "Stinger (Prélude au chaos)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0d84fb3c-4eda-c7f0-6c1d-8eb9ef0ba5ee/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0d84fb3c-4eda-c7f0-6c1d-8eb9ef0ba5ee/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0d84fb3c-4eda-c7f0-6c1d-8eb9ef0ba5ee/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/DemonStone/Chromas/Standard/Vector_DemonStone_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "3b0daf2c-4390-2d67-e489-0f8d38e0ba5c",
+          "displayName": "Stinger (Prélude au chaos) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3b0daf2c-4390-2d67-e489-0f8d38e0ba5c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3b0daf2c-4390-2d67-e489-0f8d38e0ba5c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3b0daf2c-4390-2d67-e489-0f8d38e0ba5c/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/48303157-4667-02ef-8c56-a5ac0b5d188f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/DemonStone/Chromas/v1/Vector_DemonStone_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "9d0ed9fa-4392-a5b8-3090-9f9627e21739",
+          "displayName": "Stinger (Prélude au chaos) niveau 4\n(variante 2 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9d0ed9fa-4392-a5b8-3090-9f9627e21739/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9d0ed9fa-4392-a5b8-3090-9f9627e21739/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9d0ed9fa-4392-a5b8-3090-9f9627e21739/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9a96cb8f-4303-5230-4bc4-da87eef1f8dd_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/DemonStone/Chromas/v2/Vector_DemonStone_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "a7c03e3b-48b2-7d7e-fb00-70aa1c168dba",
+          "displayName": "Stinger (Prélude au chaos) niveau 4\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a7c03e3b-48b2-7d7e-fb00-70aa1c168dba/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a7c03e3b-48b2-7d7e-fb00-70aa1c168dba/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a7c03e3b-48b2-7d7e-fb00-70aa1c168dba/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b942d8d5-41b9-c2e0-cee0-8e9311b396cd_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/DemonStone/Chromas/v3/Vector_DemonStone_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "5611fa1c-45bb-6c46-73cd-209031e72524",
+          "displayName": "Stinger (Prélude au chaos)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5611fa1c-45bb-6c46-73cd-209031e72524/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fe753a11-48b0-3173-779c-50bb9071d710_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/DemonStone/Levels/Vector_DemonStone_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "a8e8fc20-498e-b869-3858-d3802af9c4b8",
+          "displayName": "Stinger (Prélude au chaos) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/247b4df2-4897-3a11-09c7-3f9108742bda_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/DemonStone/Levels/Vector_DemonStone_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "281add0f-4b05-aa0e-0d98-e491d72b0a1f",
+          "displayName": "Stinger (Prélude au chaos) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d1a14091-4228-6c23-6f95-f3a1371f1512_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/DemonStone/Levels/Vector_DemonStone_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "9bbb7ff3-4681-f961-a880-819fa2fd813a",
+          "displayName": "Stinger (Prélude au chaos) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/69153ff0-4672-0137-c041-c9a97b70354b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/DemonStone/Levels/Vector_DemonStone_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "eee0304d-45f1-6c08-1a53-4e850f594f51",
+      "displayName": "Stinger (Nanomight)",
+      "themeUuid": "fa16aed3-49c0-0a8d-28d6-3d847f82713c",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/eee0304d-45f1-6c08-1a53-4e850f594f51/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Digipets/Vector_Digipets_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0df1e30e-4e75-929d-fb95-f1ad28daf985",
+          "displayName": "Stinger (Nanomight)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0df1e30e-4e75-929d-fb95-f1ad28daf985/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0df1e30e-4e75-929d-fb95-f1ad28daf985/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0df1e30e-4e75-929d-fb95-f1ad28daf985/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Digipets/Chromas/Standard/Vector_Digipets_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "afd761d9-4a55-a500-c15e-adbaf8a43a73",
+          "displayName": "Stinger (Nanomight)\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/afd761d9-4a55-a500-c15e-adbaf8a43a73/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/afd761d9-4a55-a500-c15e-adbaf8a43a73/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/afd761d9-4a55-a500-c15e-adbaf8a43a73/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Digipets/Chromas/v1/Vector_Digipets_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "2b0ba8a3-46ec-65fb-eac6-b2b62c92d0a5",
+          "displayName": "Stinger (Nanomight)\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2b0ba8a3-46ec-65fb-eac6-b2b62c92d0a5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2b0ba8a3-46ec-65fb-eac6-b2b62c92d0a5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2b0ba8a3-46ec-65fb-eac6-b2b62c92d0a5/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Digipets/Chromas/v2/Vector_Digipets_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "401ca692-4608-a06b-6fec-72b411a3c14f",
+          "displayName": "Stinger (Nanomight)\n(variante 3 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/401ca692-4608-a06b-6fec-72b411a3c14f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/401ca692-4608-a06b-6fec-72b411a3c14f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/401ca692-4608-a06b-6fec-72b411a3c14f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Digipets/Chromas/V3/Vector_Digipets_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "2ef39286-4f10-05f4-e537-8e89a58c57f9",
+          "displayName": "Stinger (Nanomight)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/2ef39286-4f10-05f4-e537-8e89a58c57f9/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Digipets/Levels/Vector_Digipets_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9444ba80-4ae7-985d-40a2-2788f96dd544",
+      "displayName": "Stinger (Amis crayonnés)",
+      "themeUuid": "540a0c01-43ad-809d-6347-12b48f90478b",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9444ba80-4ae7-985d-40a2-2788f96dd544/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Doodlebuds/Vector_Doodlebuds_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "73d27de9-45f2-3739-5fee-ce8b18acd136",
+          "displayName": "Stinger (Amis crayonnés)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/73d27de9-45f2-3739-5fee-ce8b18acd136/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/73d27de9-45f2-3739-5fee-ce8b18acd136/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/73d27de9-45f2-3739-5fee-ce8b18acd136/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Doodlebuds/Chromas/Standard/Vector_Doodlebuds_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "84e03f58-4f71-7969-2d24-5faadabf47a3",
+          "displayName": "Stinger (Amis crayonnés) niveau 2\n(variante 1 Tactipotes)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/84e03f58-4f71-7969-2d24-5faadabf47a3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/84e03f58-4f71-7969-2d24-5faadabf47a3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/84e03f58-4f71-7969-2d24-5faadabf47a3/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/09a5fa88-4700-91cb-6808-c28318daf971_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Doodlebuds/Chromas/v1/Vector_Doodlebuds_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "e09da05d-484a-28f7-e227-ff90eabd2dc2",
+          "displayName": "Stinger (Amis crayonnés) niveau 2\n(variante 2 League of Legends)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e09da05d-484a-28f7-e227-ff90eabd2dc2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e09da05d-484a-28f7-e227-ff90eabd2dc2/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e09da05d-484a-28f7-e227-ff90eabd2dc2/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9cea1b0b-4a01-42a2-31cb-b2b041a42ad1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Doodlebuds/Chromas/v2/Vector_Doodlebuds_v2_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0a6790a2-4ddf-56aa-26e4-44b45d050060",
+          "displayName": "Stinger (Amis crayonnés)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0a6790a2-4ddf-56aa-26e4-44b45d050060/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/87165308-4dfb-81a5-1990-6590a2c1e060_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Doodlebuds/Levels/Vector_Doodlebuds_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "082de448-49d3-d65d-e9c0-17949cd33422",
+          "displayName": "Stinger (Amis crayonnés) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::KillEffect",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/561adcb1-487e-5d8e-471e-bf813812e5ff_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Doodlebuds/Levels/Vector_Doodlebuds_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0a128cb6-4bbb-f618-85cb-82bbd17bcbb1",
+      "displayName": "Stinger (Surtension)",
+      "themeUuid": "f8ca8370-4cdb-67e6-8862-9684ac410148",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0a128cb6-4bbb-f618-85cb-82bbd17bcbb1/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Electroflux3/Vector_Electroflux3_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0211a43e-4be7-3430-0080-ed93c58ac3d8",
+          "displayName": "Stinger (Surtension)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0211a43e-4be7-3430-0080-ed93c58ac3d8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0211a43e-4be7-3430-0080-ed93c58ac3d8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0211a43e-4be7-3430-0080-ed93c58ac3d8/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Electroflux3/Chromas/Standard/Vector_Electroflux3_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "dc9d4105-4cf2-aa79-0535-ae961ad95571",
+          "displayName": "Stinger (Surtension)\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/dc9d4105-4cf2-aa79-0535-ae961ad95571/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/dc9d4105-4cf2-aa79-0535-ae961ad95571/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/dc9d4105-4cf2-aa79-0535-ae961ad95571/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Electroflux3/Chromas/V1/Vector_Electroflux3_V1_PrimaryAsset"
+        },
+        {
+          "uuid": "55f6b4be-464a-e079-6ac7-94927ee403f5",
+          "displayName": "Stinger (Surtension)\n(variante 2 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/55f6b4be-464a-e079-6ac7-94927ee403f5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/55f6b4be-464a-e079-6ac7-94927ee403f5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/55f6b4be-464a-e079-6ac7-94927ee403f5/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Electroflux3/Chromas/V2/Vector_Electroflux3_V2_PrimaryAsset"
+        },
+        {
+          "uuid": "3549ad5e-4903-ad4d-f33e-9dbebaeaea44",
+          "displayName": "Stinger (Surtension)\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3549ad5e-4903-ad4d-f33e-9dbebaeaea44/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3549ad5e-4903-ad4d-f33e-9dbebaeaea44/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3549ad5e-4903-ad4d-f33e-9dbebaeaea44/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Electroflux3/Chromas/V3/Vector_Electroflux3_V3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "77d5c1dc-4dde-539c-3a5a-0a95eecba1e4",
+          "displayName": "Stinger (Surtension)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/77d5c1dc-4dde-539c-3a5a-0a95eecba1e4/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Electroflux3/Levels/Vector_Electroflux3_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "3fc40900-4d9d-c22f-c0f6-e0b53827ef83",
+      "displayName": "Stinger (Scintillement)",
+      "themeUuid": "6ab0c873-4020-63a7-a66f-09bc67506ca2",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3fc40900-4d9d-c22f-c0f6-e0b53827ef83/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Glitter/Vector_Glitter_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2d36afb7-41fe-1d2d-ac50-b18e4a9f1e65",
+          "displayName": "Stinger (Scintillement)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2d36afb7-41fe-1d2d-ac50-b18e4a9f1e65/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2d36afb7-41fe-1d2d-ac50-b18e4a9f1e65/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2d36afb7-41fe-1d2d-ac50-b18e4a9f1e65/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Glitter/Chromas/Standard/Vector_Glitter_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "f22d64b1-4464-efeb-3e63-c8b3de447e2d",
+          "displayName": "Stinger (Scintillement)\n(variante 1 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f22d64b1-4464-efeb-3e63-c8b3de447e2d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f22d64b1-4464-efeb-3e63-c8b3de447e2d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f22d64b1-4464-efeb-3e63-c8b3de447e2d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Glitter/Chromas/v1/Vector_Glitter_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "45acee49-43c8-4b8d-ddb5-d7a2faaea795",
+          "displayName": "Stinger (Scintillement)\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/45acee49-43c8-4b8d-ddb5-d7a2faaea795/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/45acee49-43c8-4b8d-ddb5-d7a2faaea795/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/45acee49-43c8-4b8d-ddb5-d7a2faaea795/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Glitter/Chromas/v2/Vector_Glitter_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "915a1133-4c5b-b34f-d191-36a40b384e73",
+          "displayName": "Stinger (Scintillement)\n(variante 3 Turquoise)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/915a1133-4c5b-b34f-d191-36a40b384e73/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/915a1133-4c5b-b34f-d191-36a40b384e73/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/915a1133-4c5b-b34f-d191-36a40b384e73/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Glitter/Chromas/V3/Vector_Glitter_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "2c6fa705-433a-5f9e-294b-b39eef964b8c",
+          "displayName": "Stinger (Scintillement)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/2c6fa705-433a-5f9e-294b-b39eef964b8c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Glitter/Levels/Vector_Glitter_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "bf7e260f-407e-9e16-e47e-ba921c10f046",
+      "displayName": "Stinger (.SYS)",
+      "themeUuid": "a723f568-40ec-2c18-e0b2-56968af32d76",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bf7e260f-407e-9e16-e47e-ba921c10f046/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Grid2/Vector_Grid2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6ed5702f-4873-236c-eb02-a3aabfba6afc",
+          "displayName": "Stinger (.SYS)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6ed5702f-4873-236c-eb02-a3aabfba6afc/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Grid2/Chromas/Standard/Vector_Grid2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "50e072a5-4f30-63a9-6dee-a8b33781269f",
+          "displayName": "Stinger (.SYS)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/50e072a5-4f30-63a9-6dee-a8b33781269f/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Grid2/Levels/Vector_Grid2_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a5df3dee-4303-5f1a-a5f9-60bd46e2390b",
+      "displayName": "Stinger (Chewing-gum fatal)",
+      "themeUuid": "d2720c7f-4a1d-d196-edb3-418fd85f6b78",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a5df3dee-4303-5f1a-a5f9-60bd46e2390b/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/a5df3dee-4303-5f1a-a5f9-60bd46e2390b/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Hazard/Vector_Hazard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "efb46b4f-4dbb-1ee5-a540-448932097485",
+          "displayName": "Stinger (Chewing-gum fatal)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/efb46b4f-4dbb-1ee5-a540-448932097485/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/efb46b4f-4dbb-1ee5-a540-448932097485/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/efb46b4f-4dbb-1ee5-a540-448932097485/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Hazard/Chromas/Standard/Vector_Hazard_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "9daa33be-441b-f2f0-871f-738ac08b3c63",
+          "displayName": "Stinger (Chewing-gum fatal) niveau 4\n(variante 1 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9daa33be-441b-f2f0-871f-738ac08b3c63/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9daa33be-441b-f2f0-871f-738ac08b3c63/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9daa33be-441b-f2f0-871f-738ac08b3c63/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/12e2c4ab-415a-0b32-4df3-65af72e8a28b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Hazard/Chromas/v1/Vector_Hazard_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "8b1b3253-497f-19b1-bad2-b3900a109cc5",
+          "displayName": "Stinger (Chewing-gum fatal) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8b1b3253-497f-19b1-bad2-b3900a109cc5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8b1b3253-497f-19b1-bad2-b3900a109cc5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8b1b3253-497f-19b1-bad2-b3900a109cc5/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a5dfc456-483d-3a9e-75cf-1bba449705b6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Hazard/Chromas/v2/Vector_Hazard_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "0d2e6b86-45ed-9f27-2887-3587df2bc51c",
+          "displayName": "Stinger (Chewing-gum fatal) niveau 4\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0d2e6b86-45ed-9f27-2887-3587df2bc51c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0d2e6b86-45ed-9f27-2887-3587df2bc51c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0d2e6b86-45ed-9f27-2887-3587df2bc51c/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f2d204bf-40e2-b57e-524d-5b8256dd9314_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Hazard/Chromas/V3/Vector_Hazard_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "50e340e6-4f71-a026-901e-b98d0490d768",
+          "displayName": "Stinger (Chewing-gum fatal)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/50e340e6-4f71-a026-901e-b98d0490d768/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/76d57191-4edb-e3ad-07f6-b2bba9add0c2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Hazard/Levels/Vector_Hazard_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "4c4c62af-4fbe-c300-0375-1995fad2690d",
+          "displayName": "Stinger (Chewing-gum fatal) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/82d49613-45a4-5294-f249-b08197474adf_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Hazard/Levels/Vector_Hazard_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "f3b17b4a-4ff7-9ad5-905d-73ac8c3d28f9",
+          "displayName": "Stinger (Chewing-gum fatal) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f3b17b4a-4ff7-9ad5-905d-73ac8c3d28f9/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/2526f179-4ab9-936c-c5cf-ae8bb4f09429_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Hazard/Levels/Vector_Hazard_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "314d383d-47b6-a99d-f693-b3804a6ac15a",
+          "displayName": "Stinger (Chewing-gum fatal) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fd8e18e9-4fb3-6029-694e-ed9db0cc2cd3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Hazard/Levels/Vector_Hazard_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "338e3ee3-4927-733f-32b6-bcac795d23ac",
+      "displayName": "Stinger (Prisme II)",
+      "themeUuid": "b7ce48c8-412e-b318-8f8d-f88893db886a",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/338e3ee3-4927-733f-32b6-bcac795d23ac/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Iridescence3/Vector_Iridescence3_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c770bb5f-454f-8d69-5653-e0be2dd0d41c",
+          "displayName": "Stinger (Prisme II)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c770bb5f-454f-8d69-5653-e0be2dd0d41c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c770bb5f-454f-8d69-5653-e0be2dd0d41c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Iridescence3/Chromas/Standard/Vector_Iridescence3_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b5f7b00a-4c4b-a3d5-d2cc-fbb62c482ef6",
+          "displayName": "Stinger (Prisme II)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b5f7b00a-4c4b-a3d5-d2cc-fbb62c482ef6/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Iridescence3/Levels/Vector_Iridescence3_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5740a0f6-4f9a-c38b-db63-1a935e4bad92",
+      "displayName": "Stinger (Aquatica)",
+      "themeUuid": "258021a5-4609-5cd2-d034-3487237fd345",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5740a0f6-4f9a-c38b-db63-1a935e4bad92/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Jellyfish/Vector_Jellyfish_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "169c43c4-4f66-7bf7-dc3d-e396567cfcfb",
+          "displayName": "Stinger (Aquatica)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/169c43c4-4f66-7bf7-dc3d-e396567cfcfb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/169c43c4-4f66-7bf7-dc3d-e396567cfcfb/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Jellyfish/Chromas/Standard/Vector_Jellyfish_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6ff2bf3d-477b-403c-7f1b-6880260b76ad",
+          "displayName": "Stinger (Aquatica)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6ff2bf3d-477b-403c-7f1b-6880260b76ad/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Jellyfish/Levels/Vector_Jellyfish_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "598bb272-4bfd-ae82-0242-6490cc6f721e",
+      "displayName": "Stinger (Couture)",
+      "themeUuid": "124b113b-420d-36e5-ad9c-56a36852acc7",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/LIW/Vector_LIW_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "802491b0-4a8b-f3d9-317f-088c5b0dedd6",
+          "displayName": "Stinger (Couture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/802491b0-4a8b-f3d9-317f-088c5b0dedd6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/802491b0-4a8b-f3d9-317f-088c5b0dedd6/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/LIW/Chromas/Standard/Vector_LIW_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "84a414f6-4fe4-98ff-8d4e-b5866894c436",
+          "displayName": "Stinger (Couture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/84a414f6-4fe4-98ff-8d4e-b5866894c436/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/LIW/Levels/Vector_LIW_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "cfbcbbcb-4d51-94cb-2efb-9fbb0d655b45",
+      "displayName": "Stinger (Signature)",
+      "themeUuid": "36f9abb7-4d30-16f1-f476-8c81e67f1d14",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cfbcbbcb-4d51-94cb-2efb-9fbb0d655b45/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/MidnightAerosol/Vector_MidnightAerosol_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3fe99248-42d3-13d2-5c82-11aba62a391c",
+          "displayName": "Stinger (Signature)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3fe99248-42d3-13d2-5c82-11aba62a391c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3fe99248-42d3-13d2-5c82-11aba62a391c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/MidnightAerosol/Chromas/Standard/Vector_MidnightAerosol_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "39ac9329-472e-809c-57c6-768963f4e92e",
+          "displayName": "Stinger (Signature)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/39ac9329-472e-809c-57c6-768963f4e92e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/MidnightAerosol/Levels/Vector_MidnightAerosol_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7fa8b218-4943-e745-f62f-a9b666bdc10b",
+      "displayName": "Stinger (Surrégime)",
+      "themeUuid": "fc62f717-4485-aec1-7d25-5085c9a97a05",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7fa8b218-4943-e745-f62f-a9b666bdc10b/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/7fa8b218-4943-e745-f62f-a9b666bdc10b/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Motorbike/Vector_Motorbike_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "405e2a39-41fe-c59a-541c-de85b348f1e1",
+          "displayName": "Stinger (Surrégime)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/405e2a39-41fe-c59a-541c-de85b348f1e1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/405e2a39-41fe-c59a-541c-de85b348f1e1/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/405e2a39-41fe-c59a-541c-de85b348f1e1/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Motorbike/Chromas/Standard/Vector_Motorbike_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "e3c105de-4f69-9af6-3e8e-4a8d5bce11b2",
+          "displayName": "Stinger (Surrégime) niveau 4\n(variante 1 Cobalt)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e3c105de-4f69-9af6-3e8e-4a8d5bce11b2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e3c105de-4f69-9af6-3e8e-4a8d5bce11b2/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e3c105de-4f69-9af6-3e8e-4a8d5bce11b2/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a69bd5bd-433e-4383-5654-3e9d730e26ee_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Motorbike/Chromas/v1/Vector_Motorbike_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "43a4e4ca-4e42-df89-2b13-988ae0faf55e",
+          "displayName": "Stinger (Surrégime) niveau 4\n(variante 2 Chewing-gum)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/43a4e4ca-4e42-df89-2b13-988ae0faf55e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/43a4e4ca-4e42-df89-2b13-988ae0faf55e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/43a4e4ca-4e42-df89-2b13-988ae0faf55e/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e6da477f-43c6-526d-fc58-2baebe94bdb9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Motorbike/Chromas/v2/Vector_Motorbike_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "8cd84ad5-4046-895e-2dce-7f8a034412e2",
+          "displayName": "Stinger (Surrégime) niveau 4\n(variante 3 Onyx)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8cd84ad5-4046-895e-2dce-7f8a034412e2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8cd84ad5-4046-895e-2dce-7f8a034412e2/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8cd84ad5-4046-895e-2dce-7f8a034412e2/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ae6bded3-417a-6a95-2d99-7184f7108e1d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Motorbike/Chromas/V3/Vector_Motorbike_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3aac74c8-4398-9179-d67d-c5a40863799b",
+          "displayName": "Stinger (Surrégime)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3aac74c8-4398-9179-d67d-c5a40863799b/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/db9ec436-493d-fb18-5542-6183506d1a1f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Motorbike/Levels/Vector_Motorbike_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "3131d8a3-431c-59e5-c2cd-d0a992e4ffff",
+          "displayName": "Stinger (Surrégime) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a1228659-4c33-bed2-229d-7183ab035262_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Motorbike/Levels/Vector_Motorbike_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "e6b93dec-49ab-5740-77fd-db840264c5ef",
+          "displayName": "Stinger (Surrégime) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6bfc44cf-47f2-69ec-8dee-06a8b472babc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Motorbike/Levels/Vector_Motorbike_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "0113b7dc-471f-6866-b9e3-4dbf7ddd9860",
+          "displayName": "Stinger (Surrégime) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fc252503-4599-2814-5104-0a8d60df64f5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Motorbike/Levels/Vector_Motorbike_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "847fe9da-45cc-21d4-0138-7aa4d8b31d8e",
+      "displayName": "Stinger (Silvanus)",
+      "themeUuid": "9091d9fb-4eae-3808-70e8-51b9feb82274",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/847fe9da-45cc-21d4-0138-7aa4d8b31d8e/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/MysticForest/Vector_MysticForest_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c754aa0d-4b6d-7d99-ea51-e49f902dd1a8",
+          "displayName": "Stinger (Silvanus)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c754aa0d-4b6d-7d99-ea51-e49f902dd1a8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c754aa0d-4b6d-7d99-ea51-e49f902dd1a8/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/MysticForest/Chromas/Standard/Vector_MysticForest_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d547c575-4572-9d77-42e5-bea022e5f07b",
+          "displayName": "Stinger (Silvanus)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d547c575-4572-9d77-42e5-bea022e5f07b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/MysticForest/Levels/Vector_MysticForest_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "92f1dd4b-47f5-2088-9370-f89857962bc2",
+      "displayName": "Stinger (Trait de lune)",
+      "themeUuid": "92f6510e-4a02-4ede-0b2f-3897762ce5df",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/92f1dd4b-47f5-2088-9370-f89857962bc2/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/NineTails/Vector_NineTails_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "cc7570d4-4674-926c-6bdb-f98be77b82e5",
+          "displayName": "Stinger (Trait de lune)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cc7570d4-4674-926c-6bdb-f98be77b82e5/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/NineTails/Chromas/Standard/Vector_NineTails_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b50b4766-492d-56b0-0bc3-bea6eba2606d",
+          "displayName": "Stinger (Trait de lune)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b50b4766-492d-56b0-0bc3-bea6eba2606d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/NineTails/Levels/Vector_NineTails_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2b7f65f7-4e85-becc-5f3d-39961f937b79",
+      "displayName": "Stinger (Libretto)",
+      "themeUuid": "d853570b-4272-eeb1-77c1-ef890e896815",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2b7f65f7-4e85-becc-5f3d-39961f937b79/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Nutcracker/Vector_Nutcracker_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a80842af-41f8-06b5-1e89-e1b1e962036d",
+          "displayName": "Stinger (Libretto)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a80842af-41f8-06b5-1e89-e1b1e962036d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a80842af-41f8-06b5-1e89-e1b1e962036d/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Nutcracker/Chromas/Standard/Vector_Nutcracker_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bf4bee28-45f5-a512-5ccc-3284ad7ba59a",
+          "displayName": "Stinger (Libretto)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bf4bee28-45f5-a512-5ccc-3284ad7ba59a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Nutcracker/Levels/Vector_Nutcracker_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "cfca617a-4240-377f-ed3f-778fa63729ed",
+      "displayName": "Stinger (Méandre)",
+      "themeUuid": "8e1a1dcf-4a79-419a-d49c-e19ca70d29fa",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cfca617a-4240-377f-ed3f-778fa63729ed/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/OrangeHighlight/Vector_OrangeHighlight_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "76879f5c-4b40-055a-4d89-ba85c346e81e",
+          "displayName": "Stinger (Méandre)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/76879f5c-4b40-055a-4d89-ba85c346e81e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/76879f5c-4b40-055a-4d89-ba85c346e81e/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/OrangeHighlight/Chromas/Standard/Vector_OrangeHighlight_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d1d413bc-40cc-3b4d-9e57-80a92bd621e5",
+          "displayName": "Stinger (Méandre)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d1d413bc-40cc-3b4d-9e57-80a92bd621e5/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/OrangeHighlight/Levels/Vector_OrangeHighlight_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8068c624-4e56-4360-abe4-eab38b43820d",
+      "displayName": "Stinger (Origami)",
+      "themeUuid": "97fca73b-4f4f-2dbc-e2ec-85b69f357728",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8068c624-4e56-4360-abe4-eab38b43820d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Origami/Vector_Origami_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "cd02a6de-430c-2ce0-375d-69965d74a445",
+          "displayName": "Stinger (Origami)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cd02a6de-430c-2ce0-375d-69965d74a445/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cd02a6de-430c-2ce0-375d-69965d74a445/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Origami/Chromas/Standard/Vector_Origami_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3a2b5df1-45a8-4560-367c-4faf887d57fe",
+          "displayName": "Stinger (Origami)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3a2b5df1-45a8-4560-367c-4faf887d57fe/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Origami/Levels/Vector_Origami_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9d7ed392-4c4c-b1c4-7232-3cbb07b2e133",
+      "displayName": "Stinger (Sensation)",
+      "themeUuid": "548cc24d-4127-a9c3-060c-b2bada325474",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9d7ed392-4c4c-b1c4-7232-3cbb07b2e133/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Rainbow/Vector_Rainbow_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "97c19875-4b44-bbc5-6578-d79c9d8b10f7",
+          "displayName": "Stinger (Sensation)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/97c19875-4b44-bbc5-6578-d79c9d8b10f7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/97c19875-4b44-bbc5-6578-d79c9d8b10f7/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Rainbow/Chromas/Standard/Vector_Rainbow_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "fed9c3f3-40a5-da67-4ac9-4683cc5a0eba",
+          "displayName": "Stinger (Sensation)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fed9c3f3-40a5-da67-4ac9-4683cc5a0eba/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Rainbow/Levels/Vector_Rainbow_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d25dfdc4-4fce-e121-88ef-66b5dadeee09",
+      "displayName": "Skin favori aléatoire",
+      "themeUuid": "0d7a5bfb-4850-098e-1821-d989bbfd58a8",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d25dfdc4-4fce-e121-88ef-66b5dadeee09/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Random/Vector_Random_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4bb225a9-4a78-a9d2-8a9f-07a965bc8867",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4bb225a9-4a78-a9d2-8a9f-07a965bc8867/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Random/Chromas/Standard/Vector_Random_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "caea8844-4603-951f-c458-25a04a778bf8",
+          "displayName": "Skin favori aléatoire",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/caea8844-4603-951f-c458-25a04a778bf8/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Random/Levels/Vector_Random_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1cd6f578-483b-37a1-a7ef-9a907fac416a",
+      "displayName": "Stinger (Sakura)",
+      "themeUuid": "3807f2f2-40c3-0fce-49cc-708961b60c75",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1cd6f578-483b-37a1-a7ef-9a907fac416a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sakura/Vector_Sakura_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "62c17d02-4adc-c1b4-612c-f2867fd4955a",
+          "displayName": "Stinger (Sakura)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/62c17d02-4adc-c1b4-612c-f2867fd4955a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/62c17d02-4adc-c1b4-612c-f2867fd4955a/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sakura/Chromas/Standard/Vector_Sakura_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e2c84381-4fa6-29b4-37b9-21bba8ae24bf",
+          "displayName": "Stinger (Sakura)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e2c84381-4fa6-29b4-37b9-21bba8ae24bf/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sakura/Levels/Vector_Sakura_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "46c8b165-4ba5-d42c-79e9-4fba8951ca48",
+      "displayName": "Stinger (Schéma)",
+      "themeUuid": "820b86ef-494c-d8f5-604b-07ae66c53c4c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/46c8b165-4ba5-d42c-79e9-4fba8951ca48/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Schema/Vector_Schema_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6d4c4e7b-4936-166b-f4c2-e8b01b5130fc",
+          "displayName": "Stinger (Schéma)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6d4c4e7b-4936-166b-f4c2-e8b01b5130fc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6d4c4e7b-4936-166b-f4c2-e8b01b5130fc/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Schema/Chromas/Standard/Vector_Schema_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0329743b-4ce8-be9f-b531-f4aadc890287",
+          "displayName": "Stinger (Schéma)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0329743b-4ce8-be9f-b531-f4aadc890287/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Schema/Levels/Vector_Schema_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "3d6eb464-4193-a8c6-5aff-d593520163b3",
+      "displayName": "Stinger (Fléau des lycans)",
+      "themeUuid": "ac3b20fe-423e-2f58-3baf-2cadeef47230",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3d6eb464-4193-a8c6-5aff-d593520163b3/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/SilverWolf/Vector_SilverWolf_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ae6627fb-4b8b-a6b1-7625-e1a2f5b86918",
+          "displayName": "Stinger (Fléau des lycans)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ae6627fb-4b8b-a6b1-7625-e1a2f5b86918/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/SilverWolf/Chromas/Standard/Vector_SilverWolf_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7ffbef55-4108-945e-6bc9-7b897f386d1b",
+          "displayName": "Stinger (Fléau des lycans)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7ffbef55-4108-945e-6bc9-7b897f386d1b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/SilverWolf/Levels/Vector_SilverWolf_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7858961c-47ae-f109-2f70-f0b78ea99aaf",
+      "displayName": "Stinger (Transition)",
+      "themeUuid": "8bf0299e-4e9d-4047-07e7-aab04fade37b",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7858961c-47ae-f109-2f70-f0b78ea99aaf/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/SkatePark/Vector_SkatePark_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6b1cb349-4255-1571-dd54-1e9a4d7b0f45",
+          "displayName": "Stinger (Transition)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6b1cb349-4255-1571-dd54-1e9a4d7b0f45/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6b1cb349-4255-1571-dd54-1e9a4d7b0f45/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6b1cb349-4255-1571-dd54-1e9a4d7b0f45/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/SkatePark/Chromas/Standard/Vector_SkatePark_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "78c9021d-45a4-7bb9-d447-00b826c56cb8",
+          "displayName": "Stinger (Transition)\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/78c9021d-45a4-7bb9-d447-00b826c56cb8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/78c9021d-45a4-7bb9-d447-00b826c56cb8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/78c9021d-45a4-7bb9-d447-00b826c56cb8/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/SkatePark/Chromas/v1/Vector_SkatePark_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "6cf16dac-4006-2cce-a34e-27ae7d48b13c",
+          "displayName": "Stinger (Transition)\n(variante 2 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6cf16dac-4006-2cce-a34e-27ae7d48b13c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6cf16dac-4006-2cce-a34e-27ae7d48b13c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6cf16dac-4006-2cce-a34e-27ae7d48b13c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/SkatePark/Chromas/v2/Vector_SkatePark_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "2fe45f29-4c87-71fa-951f-6ba664765cb0",
+          "displayName": "Stinger (Transition)\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2fe45f29-4c87-71fa-951f-6ba664765cb0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2fe45f29-4c87-71fa-951f-6ba664765cb0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2fe45f29-4c87-71fa-951f-6ba664765cb0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/SkatePark/Chromas/V3/Vector_SkatePark_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "066522e1-4d71-d514-2943-70a1df85badf",
+          "displayName": "Stinger (Transition)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/066522e1-4d71-d514-2943-70a1df85badf/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/SkatePark/Levels/Vector_SkatePark_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8fb27bb1-4080-581d-bcd3-53ae01861654",
+      "displayName": "Stinger (Royal)",
+      "themeUuid": "975f7716-498d-8e0b-b7c7-02b507b8e14a",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8fb27bb1-4080-581d-bcd3-53ae01861654/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/8fb27bb1-4080-581d-bcd3-53ae01861654/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sovereign/Vector_Sovereign_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1d42a0ab-4748-674f-c181-798a1ac5c63a",
+          "displayName": "Stinger (Royal)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1d42a0ab-4748-674f-c181-798a1ac5c63a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1d42a0ab-4748-674f-c181-798a1ac5c63a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1d42a0ab-4748-674f-c181-798a1ac5c63a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sovereign/Chromas/Standard/Vector_Sovereign_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "e72114c8-4201-1e3c-75a0-5698e6ee66e1",
+          "displayName": "Stinger (Royal) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e72114c8-4201-1e3c-75a0-5698e6ee66e1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e72114c8-4201-1e3c-75a0-5698e6ee66e1/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e72114c8-4201-1e3c-75a0-5698e6ee66e1/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sovereign/Chromas/Gold/Vector_Sovereign_Gold_PrimaryAsset"
+        },
+        {
+          "uuid": "0ea6b63d-4e9c-0fd2-46ec-9095d1c04e59",
+          "displayName": "Stinger (Royal) niveau 4\n(variante 2 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0ea6b63d-4e9c-0fd2-46ec-9095d1c04e59/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0ea6b63d-4e9c-0fd2-46ec-9095d1c04e59/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0ea6b63d-4e9c-0fd2-46ec-9095d1c04e59/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sovereign/Chromas/Silver/Vector_Sovereign_Silver_PrimaryAsset"
+        },
+        {
+          "uuid": "332d9171-4ac7-c5f0-b49d-d29af6ed5eb7",
+          "displayName": "Stinger (Royal) niveau 4\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/332d9171-4ac7-c5f0-b49d-d29af6ed5eb7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/332d9171-4ac7-c5f0-b49d-d29af6ed5eb7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/332d9171-4ac7-c5f0-b49d-d29af6ed5eb7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sovereign/Chromas/Purple/Vector_Sovereign_Purple_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9bc535dd-4d91-3421-2cd0-7a8fdad3478b",
+          "displayName": "Stinger (Royal)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9bc535dd-4d91-3421-2cd0-7a8fdad3478b/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/69172783-e002-49d3-8481-14652cbc3d3a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sovereign/Vector_Sovereign_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "1a8d4093-4e8f-dfe8-9412-e3955662f09c",
+          "displayName": "Stinger (Royal) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1a8d4093-4e8f-dfe8-9412-e3955662f09c/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6b2692c9-5620-42de-af27-e22a9b59cf8e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sovereign/Vector_Sovereign_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "5e5fd361-4954-2287-012f-f68f624fc879",
+          "displayName": "Stinger (Royal) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5e5fd361-4954-2287-012f-f68f624fc879/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e5d289f2-3fa2-4266-a7b6-6fcb87325654_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sovereign/Vector_Sovereign_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "b17c1df5-412c-a9bc-fd65-e6afb421b13d",
+          "displayName": "Stinger (Royal) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b17c1df5-412c-a9bc-fd65-e6afb421b13d/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/33b865b3-8e02-4e11-8fd0-e48b6e0a66f0_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Sovereign/Vector_Sovereign_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "51e2b876-4339-521d-8d68-9aaec119bc1f",
+      "displayName": "Stinger (Cavalier)",
+      "themeUuid": "0d04f63b-4c0d-88b1-7c99-348bcfcff326",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/51e2b876-4339-521d-8d68-9aaec119bc1f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Speedboat/Vector_Speedboat_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "81460fb0-45df-800e-1203-5193c70c9c33",
+          "displayName": "Stinger (Cavalier)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/81460fb0-45df-800e-1203-5193c70c9c33/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/81460fb0-45df-800e-1203-5193c70c9c33/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Speedboat/Chromas/Standard/Vector_Speedboat_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7b71fc11-4fa2-c84c-31ec-5eb5c3e3fff3",
+          "displayName": "Stinger (Cavalier)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7b71fc11-4fa2-c84c-31ec-5eb5c3e3fff3/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Speedboat/Levels/Vector_Speedboat_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "21f25ca2-46e0-da6c-295c-f09d294b2d8d",
+      "displayName": "Stinger (Peloton)",
+      "themeUuid": "15eb9632-417b-b72e-c554-aa907d367b74",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/21f25ca2-46e0-da6c-295c-f09d294b2d8d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Speedster/Vector_Speedster_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "503251c6-4a25-4d87-7413-b89dab34e088",
+          "displayName": "Stinger (Peloton)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/503251c6-4a25-4d87-7413-b89dab34e088/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/503251c6-4a25-4d87-7413-b89dab34e088/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Speedster/Chromas/Standard/Vector_Speedster_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "77acb671-4260-d01b-a5eb-bbb17b52d7fd",
+          "displayName": "Stinger (Peloton)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/77acb671-4260-d01b-a5eb-bbb17b52d7fd/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Speedster/Levels/Vector_Speedster_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "940fb417-4a9c-3004-41f5-3e8f1f4178b2",
+      "displayName": "Stinger (Standard)",
+      "themeUuid": "5a629df4-4765-0214-bd40-fbb96542941f",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/940fb417-4a9c-3004-41f5-3e8f1f4178b2/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Standard/Vector_Standard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "31bb2115-4c62-d37c-43c4-11b8fee7f212",
+          "displayName": "Stinger",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/31bb2115-4c62-d37c-43c4-11b8fee7f212/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/31bb2115-4c62-d37c-43c4-11b8fee7f212/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Standard/Chromas/Standard/Vector_Standard_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "471fc2a5-47a7-5b12-2895-0899117d2f57",
+          "displayName": "Stinger",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/471fc2a5-47a7-5b12-2895-0899117d2f57/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Standard/Vector_Standard_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "389f8242-4dd0-6ff5-357d-6888f440647f",
+      "displayName": "Stinger (Refractrix)",
+      "themeUuid": "cbf1105e-489c-01f4-ace7-069bc7df8da0",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/389f8242-4dd0-6ff5-357d-6888f440647f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Stylistic/Vector_Stylistic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "47a48900-401d-e809-c8cb-2fbf57bee6ba",
+          "displayName": "Stinger (Refractrix)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/47a48900-401d-e809-c8cb-2fbf57bee6ba/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/47a48900-401d-e809-c8cb-2fbf57bee6ba/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Stylistic/Chromas/Standard/Vector_Stylistic_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f684b931-4ad7-789a-c265-878569fccce6",
+          "displayName": "Stinger (Refractrix)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f684b931-4ad7-789a-c265-878569fccce6/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Stylistic/Levels/Vector_Stylistic_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "fb899598-4b23-fe13-021f-ccb674d6b3f6",
+      "displayName": "Stinger (Amoureux de l'amour)",
+      "themeUuid": "cf8a6ff6-446c-cf90-1b50-f3bdcd7b3d48",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fb899598-4b23-fe13-021f-ccb674d6b3f6/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Superstar/Vector_Superstar_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "754037f3-45e0-507a-46c1-32ae613a26f0",
+          "displayName": "Stinger (Amoureux de l'amour)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/754037f3-45e0-507a-46c1-32ae613a26f0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/754037f3-45e0-507a-46c1-32ae613a26f0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Superstar/Chromas/Standard/Vector_Superstar_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e9ed9118-4cb0-3548-580a-c39c0d11a8d9",
+          "displayName": "Stinger (Amoureux de l'amour)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e9ed9118-4cb0-3548-580a-c39c0d11a8d9/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Superstar/Levels/Vector_Superstar_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b0d9088d-4a99-3dda-5b43-319e5fa9e66a",
+      "displayName": "Stinger (CYRAX)",
+      "themeUuid": "a3e5c95a-4ae7-214b-e151-7ca70a755919",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b0d9088d-4a99-3dda-5b43-319e5fa9e66a/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/b0d9088d-4a99-3dda-5b43-319e5fa9e66a/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Syndra/Vector_Syndra_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7249d602-4c28-28be-3900-fd9e519a9a94",
+          "displayName": "Stinger (CYRAX)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7249d602-4c28-28be-3900-fd9e519a9a94/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7249d602-4c28-28be-3900-fd9e519a9a94/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7249d602-4c28-28be-3900-fd9e519a9a94/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Syndra/Chromas/Standard/Vector_Syndra_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "32ad8254-47e5-8e7e-c76a-139f6c0e1bba",
+          "displayName": "Stinger (CYRAX) niveau 4\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/32ad8254-47e5-8e7e-c76a-139f6c0e1bba/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/32ad8254-47e5-8e7e-c76a-139f6c0e1bba/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/32ad8254-47e5-8e7e-c76a-139f6c0e1bba/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3be5558a-4ceb-d817-86cb-55a31a1fbe04_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Syndra/Chromas/v1/Vector_Syndra_V1_PrimaryAsset"
+        },
+        {
+          "uuid": "593ae9cb-481a-e806-3d52-49a68f181c9e",
+          "displayName": "Stinger (CYRAX) niveau 4\r\n(variante 2 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/593ae9cb-481a-e806-3d52-49a68f181c9e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/593ae9cb-481a-e806-3d52-49a68f181c9e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/593ae9cb-481a-e806-3d52-49a68f181c9e/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/234a6222-4c7f-29cd-dd3c-a8ab42c40ae2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Syndra/Chromas/v2/Vector_Syndra_V2_PrimaryAsset"
+        },
+        {
+          "uuid": "087931ae-4134-7dce-cc35-9e869d8d97fd",
+          "displayName": "Stinger (CYRAX) niveau 4\r\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/087931ae-4134-7dce-cc35-9e869d8d97fd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/087931ae-4134-7dce-cc35-9e869d8d97fd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/087931ae-4134-7dce-cc35-9e869d8d97fd/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/648f4729-4615-a1e4-cec1-658219124e41_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Syndra/Chromas/V3/Vector_Syndra_V3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7b66046e-4312-1a6a-7580-7db9cadcf793",
+          "displayName": "Stinger (CYRAX)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7b66046e-4312-1a6a-7580-7db9cadcf793/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b5dfd0a6-44ff-d8fd-36bd-59ab8ecb366b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Syndra/Levels/Vector_Syndra_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "e50e8104-48ab-2147-b5ea-46b304540541",
+          "displayName": "Stinger (CYRAX) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a5348634-4053-26f0-d14f-d9837696988d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Syndra/Levels/Vector_Syndra_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "44de14bb-4833-b553-67e6-a49611cc06d3",
+          "displayName": "Stinger (CYRAX) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/44de14bb-4833-b553-67e6-a49611cc06d3/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e2ec9082-4399-1fab-b272-6a9ed964f369_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Syndra/Levels/Vector_Syndra_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "0c1253e1-4a83-761c-360c-5ba98ad106f7",
+          "displayName": "Stinger (CYRAX) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/43bcfe3b-4d86-0b7d-0a61-89b3c1dd2ec3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Syndra/Levels/Vector_Syndra_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "3760761d-4be6-bc25-d9a8-a0b9137651fd",
+      "displayName": "Stinger (Rétrofuturiste)",
+      "themeUuid": "ef051abd-4091-9d6a-68c2-0c80d061472d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3760761d-4be6-bc25-d9a8-a0b9137651fd/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Synthwave/Vector_Synthwave_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d792b8c0-4d63-9864-1cf6-af9c081ae00f",
+          "displayName": "Stinger (Rétrofuturiste)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d792b8c0-4d63-9864-1cf6-af9c081ae00f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d792b8c0-4d63-9864-1cf6-af9c081ae00f/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Synthwave/Chromas/Standard/Vector_Synthwave_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0cb2b7e5-465e-7ba6-7329-03be6690a31e",
+          "displayName": "Stinger (Rétrofuturiste)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0cb2b7e5-465e-7ba6-7329-03be6690a31e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Synthwave/Levels/Vector_Synthwave_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "86d41080-4b1f-046e-6736-148539e76df7",
+      "displayName": "Stinger (Tisseur de nuages)",
+      "themeUuid": "a8adfa7d-4885-1d34-e5a2-0cba551ed6ae",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/86d41080-4b1f-046e-6736-148539e76df7/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Tattoo/Vector_Tattoo_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4a4d89ad-4717-187f-bcff-dcaa3bbe3b39",
+          "displayName": "Stinger (Tisseur de nuages)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4a4d89ad-4717-187f-bcff-dcaa3bbe3b39/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4a4d89ad-4717-187f-bcff-dcaa3bbe3b39/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Tattoo/Chromas/Standard/Vector_Tattoo_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f91fe20e-4880-9422-c879-d987369275ef",
+          "displayName": "Stinger (Tisseur de nuages)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f91fe20e-4880-9422-c879-d987369275ef/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Tattoo/Levels/Vector_Tattoo_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e1297b8f-4374-3131-27a9-38bb0eda1c0d",
+      "displayName": "Stinger (Profondeurs)",
+      "themeUuid": "ad598603-4ea0-0064-b215-359c11e1536d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e1297b8f-4374-3131-27a9-38bb0eda1c0d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/UnderTheSea/Vector_UnderTheSea_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f130ea97-4a39-9a50-cb54-56993b7d4bbe",
+          "displayName": "Stinger (Profondeurs)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f130ea97-4a39-9a50-cb54-56993b7d4bbe/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f130ea97-4a39-9a50-cb54-56993b7d4bbe/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/UnderTheSea/Chromas/Standard/Vector_UnderTheSea_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6a1cd98a-4248-4b67-8ced-ac9c56fb4630",
+          "displayName": "Stinger (Profondeurs)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6a1cd98a-4248-4b67-8ced-ac9c56fb4630/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/UnderTheSea/Levels/Vector_UnderTheSea_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8fe5ebbc-4ce7-a248-9766-288441706e0a",
+      "displayName": "Stinger (Ego)",
+      "themeUuid": "54e935e3-446f-5184-ba3a-f096c595b146",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8fe5ebbc-4ce7-a248-9766-288441706e0a/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/8fe5ebbc-4ce7-a248-9766-288441706e0a/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Unstoppable/Vector_Unstoppable_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ff619aae-4a06-acaa-39a6-0c8c561952f9",
+          "displayName": "Stinger (Ego)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ff619aae-4a06-acaa-39a6-0c8c561952f9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ff619aae-4a06-acaa-39a6-0c8c561952f9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ff619aae-4a06-acaa-39a6-0c8c561952f9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Unstoppable/Chromas/Standard/Vector_Unstoppable_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "9e275417-423d-5052-e897-c8aaa3bcd2c6",
+          "displayName": "Stinger (Ego)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9e275417-423d-5052-e897-c8aaa3bcd2c6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9e275417-423d-5052-e897-c8aaa3bcd2c6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9e275417-423d-5052-e897-c8aaa3bcd2c6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Unstoppable/Chromas/v1/Vector_Unstoppable_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "b4015264-4dc8-3be7-4b5e-64861bccf633",
+          "displayName": "Stinger (Ego)\n(variante 2 Brun)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b4015264-4dc8-3be7-4b5e-64861bccf633/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b4015264-4dc8-3be7-4b5e-64861bccf633/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b4015264-4dc8-3be7-4b5e-64861bccf633/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Unstoppable/Chromas/v2/Vector_Unstoppable_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "f2c3f510-4542-4c56-bc48-a4a2c44774a9",
+          "displayName": "Stinger (Ego)\n(variante 3 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f2c3f510-4542-4c56-bc48-a4a2c44774a9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f2c3f510-4542-4c56-bc48-a4a2c44774a9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f2c3f510-4542-4c56-bc48-a4a2c44774a9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Unstoppable/Chromas/v3/Vector_Unstoppable_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ca2f7bc0-4270-7f76-4623-8596a5584d06",
+          "displayName": "Stinger (Ego)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ca2f7bc0-4270-7f76-4623-8596a5584d06/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Unstoppable/Levels/Vector_Unstoppable_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "26fbcf26-4135-b8e3-277e-8a9c27e3d34d",
+      "displayName": "Stinger (Vernis)",
+      "themeUuid": "3057a701-42a3-adaa-89f2-1484bbe2a34d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/26fbcf26-4135-b8e3-277e-8a9c27e3d34d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Walnut/Vector_Walnut_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "b4c63d7e-448c-2c23-ad49-0f8b61f18b1d",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b4c63d7e-448c-2c23-ad49-0f8b61f18b1d/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Walnut/Chromas/Standard/Vector_Walnut_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d1e1f521-4c6b-a47d-6c02-f5a5de9dab48",
+          "displayName": "Stinger (Vernis)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d1e1f521-4c6b-a47d-6c02-f5a5de9dab48/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Walnut/Levels/Vector_Walnut_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "01f1f7d1-4290-b345-cb42-c3a2b4d811ee",
+      "displayName": "Stinger (Gueule des tempêtes)",
+      "themeUuid": "0daf1227-4446-6793-69a9-75914e9b3837",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/01f1f7d1-4290-b345-cb42-c3a2b4d811ee/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Wolfeyes/Vector_Wolfeyes_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8d9b32b1-4dcc-da53-537d-f6af08491bbd",
+          "displayName": "Stinger (Gueule des tempêtes)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8d9b32b1-4dcc-da53-537d-f6af08491bbd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8d9b32b1-4dcc-da53-537d-f6af08491bbd/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Wolfeyes/Chromas/Standard/Vector_Wolfeyes_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "dbaf30a1-4217-cb49-485a-d9baae53da7e",
+          "displayName": "Stinger (Gueule des tempêtes)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/dbaf30a1-4217-cb49-485a-d9baae53da7e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/Wolfeyes/Levels/Vector_Wolfeyes_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e1888a19-4ad6-e406-0002-0bb1ad411168",
+      "displayName": "Stinger (Convergence)",
+      "themeUuid": "2a6039fb-48d2-e594-8c9b-94a5ba723fb9",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e1888a19-4ad6-e406-0002-0bb1ad411168/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/YinYang/Vector_YinYang_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "caaaf3de-46cd-35bb-7ad7-d080c5b69365",
+          "displayName": "Stinger (Convergence)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/caaaf3de-46cd-35bb-7ad7-d080c5b69365/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/caaaf3de-46cd-35bb-7ad7-d080c5b69365/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/YinYang/Chromas/Standard/Vector_YinYang_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e977448a-49db-682a-68e9-f39b4fb0b23a",
+          "displayName": "Stinger (Convergence)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e977448a-49db-682a-68e9-f39b4fb0b23a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SubMachineGuns/Vector/YinYang/Levels/Vector_YinYang_Lv1_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}

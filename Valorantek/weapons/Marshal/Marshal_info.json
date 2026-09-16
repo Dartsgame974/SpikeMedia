@@ -1,0 +1,2168 @@
+{
+  "uuid": "c4883e50-4494-202c-3ec3-6b8a9284f00b",
+  "displayName": "Marshal",
+  "category": "EEquippableCategory::Sniper",
+  "defaultSkinUuid": "fd44b2d5-49ee-77ab-fa56-588f3ac0c268",
+  "displayIcon": "https://media.valorant-api.com/weapons/c4883e50-4494-202c-3ec3-6b8a9284f00b/displayicon.png",
+  "killStreamIcon": "https://media.valorant-api.com/weapons/c4883e50-4494-202c-3ec3-6b8a9284f00b/killstreamicon.png",
+  "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/LeverSniperPrimaryAsset",
+  "weaponStats": {
+    "fireRate": 1.5,
+    "magazineSize": 5,
+    "runSpeedMultiplier": 0.8,
+    "equipTimeSeconds": 1.25,
+    "reloadTimeSeconds": 2.5,
+    "firstBulletAccuracy": 1,
+    "shotgunPelletCount": 1,
+    "wallPenetration": "EWallPenetrationDisplayType::Medium",
+    "feature": null,
+    "fireMode": "EWeaponFireModeDisplayType::SemiAutomatic",
+    "altFireType": "EWeaponAltFireDisplayType::ADS",
+    "adsStats": {
+      "zoomMultiplier": 3.5,
+      "fireRate": 1.2,
+      "runSpeedMultiplier": 0.9,
+      "burstCount": 1,
+      "firstBulletAccuracy": -1
+    },
+    "altShotgunStats": null,
+    "airBurstStats": null,
+    "damageRanges": [
+      {
+        "rangeStartMeters": 0,
+        "rangeEndMeters": 50,
+        "headDamage": 202,
+        "bodyDamage": 101,
+        "legDamage": 85.850006
+      }
+    ]
+  },
+  "shopData": {
+    "cost": 950,
+    "category": "Sniper Rifles",
+    "shopOrderPriority": 0,
+    "categoryText": "Fusils de sniper",
+    "gridPosition": {
+      "row": 0,
+      "column": 4
+    },
+    "canBeTrashed": true,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/weapons/c4883e50-4494-202c-3ec3-6b8a9284f00b/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/LeverSniperRiflePurchase"
+  },
+  "skins": [
+    {
+      "uuid": "774dee9a-4809-0e4d-4153-a883e908d4b2",
+      "displayName": "Marshal (Force opérationnelle 809)",
+      "themeUuid": "fdfe356c-40c4-ac6a-864e-16998fc784ef",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/774dee9a-4809-0e4d-4153-a883e908d4b2/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/809/LeverSniper_809_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c27a963f-4930-d471-a43e-4c9901add819",
+          "displayName": "Marshal (Force opérationnelle 809)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c27a963f-4930-d471-a43e-4c9901add819/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c27a963f-4930-d471-a43e-4c9901add819/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/809/Chromas/Standard/LeverSniper_809_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8c19bbbd-46aa-6037-b0fd-edafd6227de6",
+          "displayName": "Marshal (Force opérationnelle 809)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8c19bbbd-46aa-6037-b0fd-edafd6227de6/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/809/Levels/LeverSniper_809_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "95be56c3-4b3e-cc81-5fd6-b1af30448074",
+      "displayName": "Marshal (Fibre optique)",
+      "themeUuid": "45ccb0e0-4ad2-5b0e-c5ed-068e29088ba3",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/95be56c3-4b3e-cc81-5fd6-b1af30448074/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Acrylic/LeverSniper_Acrylic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "5a0445c7-4bef-cfc9-8c7f-25ab219ccd82",
+          "displayName": "Marshal (Fibre optique)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5a0445c7-4bef-cfc9-8c7f-25ab219ccd82/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5a0445c7-4bef-cfc9-8c7f-25ab219ccd82/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5a0445c7-4bef-cfc9-8c7f-25ab219ccd82/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Acrylic/Chromas/Standard/LeverSniper_Acrylic_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "42530cc4-4796-292a-7d0c-388d069b7e77",
+          "displayName": "Marshal (Fibre optique)\n(variante 1 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/42530cc4-4796-292a-7d0c-388d069b7e77/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/42530cc4-4796-292a-7d0c-388d069b7e77/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/42530cc4-4796-292a-7d0c-388d069b7e77/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Acrylic/Chromas/v1/LeverSniper_Acrylic_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "20d3a90a-46c3-3628-a2d2-e38237846101",
+          "displayName": "Marshal (Fibre optique)\n(variante 2 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/20d3a90a-46c3-3628-a2d2-e38237846101/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/20d3a90a-46c3-3628-a2d2-e38237846101/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/20d3a90a-46c3-3628-a2d2-e38237846101/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Acrylic/Chromas/v2/LeverSniper_Acrylic_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "9b042e3c-435c-fe1e-1861-6daaecde0e2b",
+          "displayName": "Marshal (Fibre optique)\n(variante 3 Émeraude)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9b042e3c-435c-fe1e-1861-6daaecde0e2b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9b042e3c-435c-fe1e-1861-6daaecde0e2b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9b042e3c-435c-fe1e-1861-6daaecde0e2b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Acrylic/Chromas/V3/LeverSniper_Acrylic_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6e702033-44ef-e44e-b205-25823994eaae",
+          "displayName": "Marshal (Fibre optique)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6e702033-44ef-e44e-b205-25823994eaae/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Acrylic/Levels/LeverSniper_Acrylic_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0c549876-44f3-9a07-bd53-31ab196c4c41",
+      "displayName": "Marshal (VALORANT GO! Vol. 3)",
+      "themeUuid": "ed843a04-4fa2-e15f-8741-969ebd9eac55",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0c549876-44f3-9a07-bd53-31ab196c4c41/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Anime3/LeverSniper_Anime3_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "10c4c426-4f10-33d7-c7ec-489899939b08",
+          "displayName": "Marshal (VALORANT GO! Vol. 3)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/10c4c426-4f10-33d7-c7ec-489899939b08/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/10c4c426-4f10-33d7-c7ec-489899939b08/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Anime3/Chromas/Standard/LeverSniper_Anime3_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "77b5a92d-4175-84af-cd68-54ac86115bc6",
+          "displayName": "Marshal (VALORANT GO! Vol. 3)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/77b5a92d-4175-84af-cd68-54ac86115bc6/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Anime3/Levels/LeverSniper_Anime3_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "fc802ceb-4a39-39ac-adf5-02a812be2f8e",
+      "displayName": "Marshal (Vengeance de Gaïa)",
+      "themeUuid": "204c78ee-4b19-db4e-9389-28b2585ffe1f",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fc802ceb-4a39-39ac-adf5-02a812be2f8e/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/fc802ceb-4a39-39ac-adf5-02a812be2f8e/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ashen/LeverSniper_Ashen_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "b2883421-4cb0-7488-1da4-d7b5e3c349e7",
+          "displayName": "Marshal (Vengeance de Gaïa)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b2883421-4cb0-7488-1da4-d7b5e3c349e7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b2883421-4cb0-7488-1da4-d7b5e3c349e7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b2883421-4cb0-7488-1da4-d7b5e3c349e7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ashen/Chromas/Standard/LeverSniper_Ashen_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "7bf9393e-448d-21ea-7819-d8a9c8128cb1",
+          "displayName": "Marshal (Vengeance de Gaïa) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7bf9393e-448d-21ea-7819-d8a9c8128cb1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7bf9393e-448d-21ea-7819-d8a9c8128cb1/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7bf9393e-448d-21ea-7819-d8a9c8128cb1/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/49e5a0e7-488c-7d6b-8132-8bbec81b894d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ashen/Chromas/v1/LeverSniper_Ashen_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "3f2d412c-4140-10d9-cd31-c882672855bf",
+          "displayName": "Marshal (Vengeance de Gaïa) niveau 4\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3f2d412c-4140-10d9-cd31-c882672855bf/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3f2d412c-4140-10d9-cd31-c882672855bf/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3f2d412c-4140-10d9-cd31-c882672855bf/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c9bf65d2-4f69-482a-4fb9-8fba9be64332_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ashen/Chromas/v2/LeverSniper_Ashen_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "792b819a-44f1-4920-4fda-84a8feefc188",
+          "displayName": "Marshal (Vengeance de Gaïa) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/792b819a-44f1-4920-4fda-84a8feefc188/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/792b819a-44f1-4920-4fda-84a8feefc188/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/792b819a-44f1-4920-4fda-84a8feefc188/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/47086085-4812-8dd0-89f2-0a8fd774d91e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ashen/Chromas/V3/LeverSniper_Ashen_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6046ca8f-4100-4b1a-7e8d-5e8c6625342f",
+          "displayName": "Marshal (Vengeance de Gaïa)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6046ca8f-4100-4b1a-7e8d-5e8c6625342f/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/dd892622-45c7-26d4-3171-b3a99d828003_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ashen/Levels/LeverSniper_Ashen_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "33d1d8ec-48fc-a601-8184-ec8249e76760",
+          "displayName": "Marshal (Vengeance de Gaïa) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3bd36750-447c-385a-6947-029ddf1608c7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ashen/Levels/LeverSniper_Ashen_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "3cf85dde-4695-be31-41e9-c8ac2dd22d07",
+          "displayName": "Marshal (Vengeance de Gaïa) niveau 3",
+          "levelItem": null,
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/42a83556-4ad2-a163-ca8a-de9a820b05a1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ashen/Levels/LeverSniper_Ashen_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "c8fd6caf-43d1-f3ef-4a5d-1793ad9e558e",
+          "displayName": "Marshal (Vengeance de Gaïa) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/87cd9d91-4292-bcd2-0d38-d0930948169f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ashen/Levels/LeverSniper_Ashen_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8a5b92e4-4147-0d85-5e2c-d6a179645bec",
+      "displayName": "Marshal (Composite)",
+      "themeUuid": "2f24105f-48f7-c6c0-906c-92983c979738",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8a5b92e4-4147-0d85-5e2c-d6a179645bec/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ballistic/LeverSniper_Ballistic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9ebd26af-470e-ab40-aa03-878eb88a694a",
+          "displayName": "Marshal (Composite)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9ebd26af-470e-ab40-aa03-878eb88a694a/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ballistic/Chromas/Standard/LeverSniper_Ballistic_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b878ea87-4383-caeb-ce4b-f7a37f42bb02",
+          "displayName": "Marshal (Composite)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b878ea87-4383-caeb-ce4b-f7a37f42bb02/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ballistic/Levels/LeverSniper_Ballistic_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "db3bf2d9-449e-cd8a-950e-018ca893d404",
+      "displayName": "Marshal (Pierre runique)",
+      "themeUuid": "65d8e156-4e4c-f9de-844f-3fa05a9624e4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/db3bf2d9-449e-cd8a-950e-018ca893d404/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Codex/LeverSniper_Codex_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "dfb8b619-49c8-745e-e6ba-62a9339daf86",
+          "displayName": "Marshal (Pierre runique)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/dfb8b619-49c8-745e-e6ba-62a9339daf86/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Codex/Chromas/Standard/LeverSniper_Codex_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3e87c99d-4a98-15f5-ba6d-0383db725558",
+          "displayName": "Marshal (Pierre runique)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3e87c99d-4a98-15f5-ba6d-0383db725558/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Codex/Levels/LeverSniper_Codex_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "685af060-4934-e262-543d-5d96ed42257d",
+      "displayName": "Marshal (Nocturnum)",
+      "themeUuid": "e7d48531-4cc0-59c1-f1ac-64af3f3bc572",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/685af060-4934-e262-543d-5d96ed42257d/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/685af060-4934-e262-543d-5d96ed42257d/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Coven/LeverSniper_Coven_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c59df123-4851-6143-ac76-cf972a81f7df",
+          "displayName": "Marshal (Nocturnum)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c59df123-4851-6143-ac76-cf972a81f7df/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c59df123-4851-6143-ac76-cf972a81f7df/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c59df123-4851-6143-ac76-cf972a81f7df/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Coven/Chromas/Standard/LeverSniper_Coven_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "5ce8c7d8-4398-7421-2f58-4788b42ea92a",
+          "displayName": "Marshal (Nocturnum) niveau 4\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5ce8c7d8-4398-7421-2f58-4788b42ea92a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5ce8c7d8-4398-7421-2f58-4788b42ea92a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5ce8c7d8-4398-7421-2f58-4788b42ea92a/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/47b67b16-4c50-8414-3e41-529150b2fd70_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Coven/Chromas/v1/LeverSniper_Coven_V1_PrimaryAsset"
+        },
+        {
+          "uuid": "0d37d691-452c-1006-938d-818fae0580a9",
+          "displayName": "Marshal (Nocturnum) niveau 4\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0d37d691-452c-1006-938d-818fae0580a9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0d37d691-452c-1006-938d-818fae0580a9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0d37d691-452c-1006-938d-818fae0580a9/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/88ccb326-4b11-f687-508c-a7a6bd3dbc41_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Coven/Chromas/v2/LeverSniper_Coven_V2_PrimaryAsset"
+        },
+        {
+          "uuid": "cbba0270-4f54-39e9-b851-13a37dcb171c",
+          "displayName": "Marshal (Nocturnum) niveau 4\n(variante 3 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cbba0270-4f54-39e9-b851-13a37dcb171c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cbba0270-4f54-39e9-b851-13a37dcb171c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/cbba0270-4f54-39e9-b851-13a37dcb171c/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/79f2d204-44e3-bc5e-555b-65ba6a03f73e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Coven/Chromas/V3/LeverSniper_Coven_V3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "1a255561-47e0-112c-7e23-ecbfcb35e4a3",
+          "displayName": "Marshal (Nocturnum)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1a255561-47e0-112c-7e23-ecbfcb35e4a3/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ce3b8903-4271-3552-ae63-ac802b47f4ac_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Coven/Levels/LeverSniper_Coven_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "8103cf3b-45a1-0d5f-5410-c59eab2f5a1b",
+          "displayName": "Marshal (Nocturnum) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8df58101-4943-3949-c326-5fa13838de10_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Coven/Levels/LeverSniper_Coven_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "e6694d92-495e-0e93-dcc1-94927de5a5b2",
+          "displayName": "Marshal (Nocturnum) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e6694d92-495e-0e93-dcc1-94927de5a5b2/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/674709f5-44a9-d6c2-9414-999818533a91_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Coven/Levels/LeverSniper_Coven_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "7523f54e-464b-4c8c-08d9-30be0d9cd12d",
+          "displayName": "Marshal (Nocturnum) niveau 4\nTuez une fois chaque adversaire pour donner sa forme ultime à votre finition.",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/31ec25e8-4b37-b3ac-9641-1990bb913fa4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Coven/Levels/LeverSniper_Coven_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "bd050462-40fc-c2fe-0efd-5984df1b0e50",
+      "displayName": "Marshal (Doom Wing)",
+      "themeUuid": "0b75a3c6-424e-3477-be55-eb9eed827501",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bd050462-40fc-c2fe-0efd-5984df1b0e50/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/CuteButLethal/LeverSniper_CuteButLethal_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f3a9333d-48e1-8de0-48ed-0aa6c0155d15",
+          "displayName": "Marshal (Doom Wing)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f3a9333d-48e1-8de0-48ed-0aa6c0155d15/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f3a9333d-48e1-8de0-48ed-0aa6c0155d15/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/CuteButLethal/Chromas/Standard/LeverSniper_CuteButLethal_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "81fadc5d-4536-5a92-2888-85842fc28467",
+          "displayName": "Marshal (Doom Wing)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/81fadc5d-4536-5a92-2888-85842fc28467/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/CuteButLethal/Levels/LeverSniper_CuteButLethal_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "6250b40a-43a4-55d8-79d4-f6838d58151d",
+      "displayName": "Marshal (Amis crayonnés)",
+      "themeUuid": "540a0c01-43ad-809d-6347-12b48f90478b",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6250b40a-43a4-55d8-79d4-f6838d58151d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Doodlebuds/LeverSniper_Doodlebuds_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a0ed65cb-4c78-a8f8-8c50-098a7ac44bf6",
+          "displayName": "Marshal (Amis crayonnés)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a0ed65cb-4c78-a8f8-8c50-098a7ac44bf6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a0ed65cb-4c78-a8f8-8c50-098a7ac44bf6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a0ed65cb-4c78-a8f8-8c50-098a7ac44bf6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Doodlebuds/Chromas/Standard/LeverSniper_Doodlebuds_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "12d3f3b6-41ee-84b6-9d38-13864db801e9",
+          "displayName": "Marshal (Amis crayonnés) niveau 2\n(variante 1 Tactipotes)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/12d3f3b6-41ee-84b6-9d38-13864db801e9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/12d3f3b6-41ee-84b6-9d38-13864db801e9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/12d3f3b6-41ee-84b6-9d38-13864db801e9/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4989caaf-4166-a593-0801-daad628197a3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Doodlebuds/Chromas/v1/LeverSniper_Doodlebuds_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "dd0f9f13-4e33-b428-2c9e-86b051c5c053",
+          "displayName": "Marshal (Amis crayonnés) niveau 2\n(variante 2 League of Legends)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/dd0f9f13-4e33-b428-2c9e-86b051c5c053/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/dd0f9f13-4e33-b428-2c9e-86b051c5c053/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/dd0f9f13-4e33-b428-2c9e-86b051c5c053/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6e7ab70c-4c1e-c548-d434-9097d20179b2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Doodlebuds/Chromas/v2/LeverSniper_Doodlebuds_v2_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "43ea5cae-4535-7903-f2c9-65bac9642a99",
+          "displayName": "Marshal (Amis crayonnés)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/43ea5cae-4535-7903-f2c9-65bac9642a99/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/089157c4-4977-2c88-e6db-6683cd57d9fe_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Doodlebuds/Levels/LeverSniper_Doodlebuds_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d0712e2e-4550-9ae9-d365-f498e21b50a4",
+          "displayName": "Marshal (Amis crayonnés) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::KillEffect",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8db90a09-4c3b-6cfe-fc3a-b7b45c8c2b69_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Doodlebuds/Levels/LeverSniper_Doodlebuds_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "51da27fe-4a3f-016a-d18d-b68a47545f6f",
+      "displayName": "Marshal (Chantacier)",
+      "themeUuid": "950c5b23-4a07-d8e9-9622-46b04592f430",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/51da27fe-4a3f-016a-d18d-b68a47545f6f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Elven/LeverSniper_Elven_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4156c0b0-44b8-7ea9-6707-75aec36ec5fb",
+          "displayName": "Marshal (Chantacier)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4156c0b0-44b8-7ea9-6707-75aec36ec5fb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4156c0b0-44b8-7ea9-6707-75aec36ec5fb/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Elven/Chromas/Standard/LeverSniper_Elven_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3e0a3431-4e78-89d1-ee57-d9837e324ee0",
+          "displayName": "Marshal (Chantacier)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3e0a3431-4e78-89d1-ee57-d9837e324ee0/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Elven/Levels/LeverSniper_Elven_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "fefdedbe-447d-b86a-b7dd-dab6d605cf6a",
+      "displayName": "Marshal (Chromedek)",
+      "themeUuid": "e8223acc-4d50-f83e-0029-7d9fd9bf9bc1",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fefdedbe-447d-b86a-b7dd-dab6d605cf6a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Engine/LeverSniper_Engine_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "01187f24-41a0-0f97-7fd9-749953668cf3",
+          "displayName": "Marshal (Chromedek)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/01187f24-41a0-0f97-7fd9-749953668cf3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/01187f24-41a0-0f97-7fd9-749953668cf3/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Engine/Chromas/Standard/LeverSniper_Engine_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4d511d8d-43af-f3ce-d46b-f58956664176",
+          "displayName": "Marshal (Chromedek)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4d511d8d-43af-f3ce-d46b-f58956664176/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Engine/Levels/LeverSniper_Engine_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "f037ea38-4be9-0f3d-003c-6f958a71e04b",
+      "displayName": "Marshal (Venturi)",
+      "themeUuid": "8b26e254-4d7c-7f11-e67e-9e993970d42e",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/f037ea38-4be9-0f3d-003c-6f958a71e04b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/F1/LeverSniper_F1_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "711d9160-42bd-1de7-9b8c-d5bd485d6208",
+          "displayName": "Marshal (Venturi)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/711d9160-42bd-1de7-9b8c-d5bd485d6208/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/711d9160-42bd-1de7-9b8c-d5bd485d6208/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/F1/Chromas/Standard/LeverSniper_F1_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "90ef24e4-4b7a-f6c6-ca55-abb5379fda34",
+          "displayName": "Marshal (Venturi)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/90ef24e4-4b7a-f6c6-ca55-abb5379fda34/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/F1/Levels/LeverSniper_F1_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9168111e-4aae-5055-d97e-78bf29a470b1",
+      "displayName": "Marshal (Intercosmique)",
+      "themeUuid": "24006757-4bd5-dd63-787e-63ae2eed8bf3",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9168111e-4aae-5055-d97e-78bf29a470b1/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Galaxis/LeverSniper_Galaxis_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9a44c99f-4e0f-6f8c-ba4a-ccbd30c8f22a",
+          "displayName": "Marshal (Intercosmique)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9a44c99f-4e0f-6f8c-ba4a-ccbd30c8f22a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9a44c99f-4e0f-6f8c-ba4a-ccbd30c8f22a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9a44c99f-4e0f-6f8c-ba4a-ccbd30c8f22a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Galaxis/Chromas/Standard/LeverSniper_Galaxis_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "97211e61-48ab-a1ac-9bc0-93afe1013b24",
+          "displayName": "Marshal (Intercosmique)\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/97211e61-48ab-a1ac-9bc0-93afe1013b24/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/97211e61-48ab-a1ac-9bc0-93afe1013b24/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/97211e61-48ab-a1ac-9bc0-93afe1013b24/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Galaxis/Chromas/v1/LeverSniper_Galaxis_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "4cbb18f1-4084-b939-3e07-4b9dea1c3cfb",
+          "displayName": "Marshal (Intercosmique)\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4cbb18f1-4084-b939-3e07-4b9dea1c3cfb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4cbb18f1-4084-b939-3e07-4b9dea1c3cfb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4cbb18f1-4084-b939-3e07-4b9dea1c3cfb/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Galaxis/Chromas/v2/LeverSniper_Galaxis_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "1a88b12a-4083-9ac2-7ed7-fcbd1eca9a6a",
+          "displayName": "Marshal (Intercosmique)\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1a88b12a-4083-9ac2-7ed7-fcbd1eca9a6a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1a88b12a-4083-9ac2-7ed7-fcbd1eca9a6a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1a88b12a-4083-9ac2-7ed7-fcbd1eca9a6a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Galaxis/Chromas/V3/LeverSniper_Galaxis_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6a34bb55-4223-3960-a379-f4919a004cb1",
+          "displayName": "Marshal (Intercosmique)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6a34bb55-4223-3960-a379-f4919a004cb1/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Galaxis/Levels/LeverSniper_Galaxis_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "93cd0836-4da1-e8c9-b1db-0ea9d0eed269",
+      "displayName": "Marshal (Superset)",
+      "themeUuid": "47311c65-4619-1eb2-f0d6-769f251ac702",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/93cd0836-4da1-e8c9-b1db-0ea9d0eed269/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/GettingSweaty/LeverSniper_GettingSweaty_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7bd25a14-4f21-d4d2-cad2-75843e4edab2",
+          "displayName": "Marshal (Superset)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7bd25a14-4f21-d4d2-cad2-75843e4edab2/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/GettingSweaty/Chromas/Standard/LeverSniper_GettingSweaty_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e02c34ca-464e-a8be-2c3a-9fafe976610b",
+          "displayName": "Marshal (Superset)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e02c34ca-464e-a8be-2c3a-9fafe976610b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/GettingSweaty/Levels/LeverSniper_GettingSweaty_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "027a5d7f-4bfc-7c41-a012-24b8c6720fda",
+      "displayName": "Marshal (Vestiges)",
+      "themeUuid": "f1be220c-4370-c5e9-fa8e-2f9227ba81de",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/027a5d7f-4bfc-7c41-a012-24b8c6720fda/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gothic/LeverSniper_Gothic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "609f948b-4d2e-99ee-631e-b98a74468877",
+          "displayName": "Marshal (Vestiges)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/609f948b-4d2e-99ee-631e-b98a74468877/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/609f948b-4d2e-99ee-631e-b98a74468877/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gothic/Chromas/Standard/LeverSniper_Gothic_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "60dc909f-4c52-b96e-dd37-dfaa2392e373",
+          "displayName": "Marshal (Vestiges)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/60dc909f-4c52-b96e-dd37-dfaa2392e373/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gothic/Levels/LeverSniper_Gothic_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d70d33ff-4a88-bf66-f256-bcb05fa9bd60",
+      "displayName": "Marshal (Nouvelles frontières)",
+      "themeUuid": "3e8c23b5-47f3-fc77-788a-94852f7a111e",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d70d33ff-4a88-bf66-f256-bcb05fa9bd60/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/d70d33ff-4a88-bf66-f256-bcb05fa9bd60/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gunslinger/LeverSniper_Gunslinger_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "71d1a8d4-4345-dcab-e5d1-ac9f78ca7c4f",
+          "displayName": "Marshal (Nouvelles frontières)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/71d1a8d4-4345-dcab-e5d1-ac9f78ca7c4f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/71d1a8d4-4345-dcab-e5d1-ac9f78ca7c4f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/71d1a8d4-4345-dcab-e5d1-ac9f78ca7c4f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gunslinger/Chromas/Standard/LeverSniper_Gunslinger_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "3df43772-4d92-bbfe-f31b-979b1ba901cf",
+          "displayName": "Marshal (Nouvelles frontières) niveau 4\n(variante 1 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3df43772-4d92-bbfe-f31b-979b1ba901cf/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3df43772-4d92-bbfe-f31b-979b1ba901cf/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3df43772-4d92-bbfe-f31b-979b1ba901cf/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a1aa7d92-4393-7b76-7bb5-8e914ef7d043_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gunslinger/Chromas/v1/LeverSniper_Gunslinger_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "96f23788-4e55-d038-2c1d-daae987310e7",
+          "displayName": "Marshal (Nouvelles frontières) niveau 4\n(variante 2 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/96f23788-4e55-d038-2c1d-daae987310e7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/96f23788-4e55-d038-2c1d-daae987310e7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/96f23788-4e55-d038-2c1d-daae987310e7/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/cae3b7b9-4007-c19a-342b-4183ab14fb64_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gunslinger/Chromas/v2/LeverSniper_Gunslinger_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "00bbd75a-4b6e-8a5e-49f5-9d89ce43a4bb",
+          "displayName": "Marshal (Nouvelles frontières) niveau 4\n(variante 3 Cuivre)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/00bbd75a-4b6e-8a5e-49f5-9d89ce43a4bb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/00bbd75a-4b6e-8a5e-49f5-9d89ce43a4bb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/00bbd75a-4b6e-8a5e-49f5-9d89ce43a4bb/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/08fbd89d-40c6-f49e-af6d-9aa9809850a0_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gunslinger/Chromas/V3/LeverSniper_Gunslinger_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a1711423-49bd-794e-8f77-f1b9f8749242",
+          "displayName": "Marshal (Nouvelles frontières)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a1711423-49bd-794e-8f77-f1b9f8749242/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/333ebc86-4633-b7ff-6847-d49bc465ac76_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gunslinger/Levels/LeverSniper_Gunslinger_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "eb3bb8ae-4b73-bfb7-4270-0e896a0261c3",
+          "displayName": "Marshal (Nouvelles frontières) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/85a0b6e6-4eb1-ef60-5c5b-1589c4986ac1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gunslinger/Levels/LeverSniper_Gunslinger_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "2a90f830-4b92-614d-810f-c39e87ba861f",
+          "displayName": "Marshal (Nouvelles frontières) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Transformation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8176997a-465e-cce7-70ba-83956c5df07e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gunslinger/Levels/LeverSniper_Gunslinger_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "a59d4749-4881-f403-63d8-ed9ffb76966e",
+          "displayName": "Marshal (Nouvelles frontières) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/60ac8aa9-4666-6f67-89e3-e6933ad76227_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Gunslinger/Levels/LeverSniper_Gunslinger_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "028c7b80-46ea-8f1d-3f7a-4c9c13a79977",
+      "displayName": "Marshal (Monarque)",
+      "themeUuid": "a176fd9a-41fa-a4b3-1ec9-29a4cde6940c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/028c7b80-46ea-8f1d-3f7a-4c9c13a79977/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Houndstooth/LeverSniper_Houndstooth_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7712df7e-46d7-7109-2601-4297e28b2a7c",
+          "displayName": "Marshal (Monarque)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7712df7e-46d7-7109-2601-4297e28b2a7c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7712df7e-46d7-7109-2601-4297e28b2a7c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Houndstooth/Chromas/Standard/LeverSniper_Houndstooth_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c9d3f7be-4753-d85c-7a65-a684b6bebf71",
+          "displayName": "Marshal (Monarque)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c9d3f7be-4753-d85c-7a65-a684b6bebf71/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Houndstooth/Levels/LeverSniper_Houndstooth_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "dd58ab43-4ff3-659e-8f30-b8bd26619d4d",
+      "displayName": "Marshal (Avalanche)",
+      "themeUuid": "13fe8a00-4b7b-7b67-fb79-75b176a32238",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/dd58ab43-4ff3-659e-8f30-b8bd26619d4d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ice/LeverSniper_Ice_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3ee65b06-48e5-5046-db49-65b0635ac005",
+          "displayName": "Marshal (Avalanche)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3ee65b06-48e5-5046-db49-65b0635ac005/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ice/Chromas/Standard/LeverSniper_Ice_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4a3b4aaf-4cdd-d5cf-b776-0593c3d2bf9a",
+          "displayName": "Marshal (Avalanche)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4a3b4aaf-4cdd-d5cf-b776-0593c3d2bf9a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ice/Levels/LeverSniper_IceLv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "fe297733-4ada-d817-dd7e-17b9cd1d62d5",
+      "displayName": "Marshal (Marché.noir)",
+      "themeUuid": "9bcc3388-4a9d-7c7e-443d-64bb38f88d2f",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fe297733-4ada-d817-dd7e-17b9cd1d62d5/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Infantry2/LeverSniper_Infantry2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e574afe9-412e-51d0-98dc-429b35912711",
+          "displayName": "Marshal (Marché.noir)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e574afe9-412e-51d0-98dc-429b35912711/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Infantry2/Chromas/Standard/LeverSniper_Infantry2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "38e6f1d6-4f58-f090-1e48-99aacea8b47c",
+          "displayName": "Marshal (Marché.noir)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/38e6f1d6-4f58-f090-1e48-99aacea8b47c/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1b6a9cd0-41dc-97b2-cbfd-f78118446bb9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Infantry2/Levels/LeverSniper_Infantry2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "4c7b248f-4406-3a8b-d7ea-2fb8aa6f2eb5",
+          "displayName": "Marshal (Marché.noir) niveau 2\nLe skin change selon que vous êtes attaquant ou défenseur.",
+          "levelItem": "EEquippableSkinLevelItem::AttackerDefenderSwap",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/21b6903e-419f-c10e-2c4f-fbbe3d9e87c7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Infantry2/Levels/LeverSniper_Infantry2_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "6f48f7ff-40a5-cc9e-1320-bdaa388f5cbf",
+      "displayName": "Marshal (Couture)",
+      "themeUuid": "124b113b-420d-36e5-ad9c-56a36852acc7",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/LIW/LeverSniper_LIW_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "727bb66d-40e5-49e4-6368-44b95c56e8e0",
+          "displayName": "Marshal (Couture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/727bb66d-40e5-49e4-6368-44b95c56e8e0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/727bb66d-40e5-49e4-6368-44b95c56e8e0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/LIW/Chromas/Standard/LeverSniper_LIW_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "115ad37d-4126-20e5-35a5-d691aa97a03c",
+          "displayName": "Marshal (Couture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/115ad37d-4126-20e5-35a5-d691aa97a03c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/LIW/Levels/LeverSniper_LIW_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "27ab5ed6-4614-d5c2-c53f-5391febe7099",
+      "displayName": "Marshal (Magepunk)",
+      "themeUuid": "eb650d49-4117-e959-6116-e5918a8c04a6",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/27ab5ed6-4614-d5c2-c53f-5391febe7099/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Magepunk/LeverSniper_Magepunk_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c4174b76-49da-30f7-4d88-eea963267f8d",
+          "displayName": "Marshal (Magepunk)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c4174b76-49da-30f7-4d88-eea963267f8d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c4174b76-49da-30f7-4d88-eea963267f8d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c4174b76-49da-30f7-4d88-eea963267f8d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Magepunk/Chromas/Standard/LeverSniper_Magepunk_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "1d14c17c-42fe-29ac-92ec-77b295e47546",
+          "displayName": "Marshal (Magepunk) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1d14c17c-42fe-29ac-92ec-77b295e47546/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1d14c17c-42fe-29ac-92ec-77b295e47546/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1d14c17c-42fe-29ac-92ec-77b295e47546/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Magepunk/Chromas/v1/LeverSniper_Magepunk_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "90252399-43e6-7970-1f86-96942f1f26b4",
+          "displayName": "Marshal (Magepunk) niveau 4\n(variante 2 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/90252399-43e6-7970-1f86-96942f1f26b4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/90252399-43e6-7970-1f86-96942f1f26b4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/90252399-43e6-7970-1f86-96942f1f26b4/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Magepunk/Chromas/v2/LeverSniper_Magepunk_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "49c54513-4b64-0019-9742-96aa1e6ee727",
+          "displayName": "Marshal (Magepunk) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/49c54513-4b64-0019-9742-96aa1e6ee727/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/49c54513-4b64-0019-9742-96aa1e6ee727/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/49c54513-4b64-0019-9742-96aa1e6ee727/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Magepunk/Chromas/V3/LeverSniper_Magepunk_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b2f78500-4322-b03d-2745-a3b2208d63fe",
+          "displayName": "Marshal (Magepunk)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b2f78500-4322-b03d-2745-a3b2208d63fe/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fc25c878-4209-8e8c-ea1a-548b15af4016_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Magepunk/LeverSniper_Magepunk_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "1b09c0a3-4708-3bec-26b1-e885a5bb313a",
+          "displayName": "Marshal (Magepunk) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1b09c0a3-4708-3bec-26b1-e885a5bb313a/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4d9040a2-4c53-990a-483d-a2b8f85572ef_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Magepunk/LeverSniper_Magepunk_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "9e70420e-4ac5-72c0-6e00-35882e13fc06",
+          "displayName": "Marshal (Magepunk) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9e70420e-4ac5-72c0-6e00-35882e13fc06/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a7fb989a-4fca-71e3-9169-a68f016ed3ca_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Magepunk/LeverSniper_Magepunk_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "3ba019cb-468e-d53a-e92d-c2a3ff804f59",
+          "displayName": "Marshal (Magepunk) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3ba019cb-468e-d53a-e92d-c2a3ff804f59/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/64f8e1a5-4292-11df-c5b7-9d913e76e793_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Magepunk/LeverSniper_Magepunk_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "542a3364-41c6-d030-d499-84bbecd72928",
+      "displayName": "Marshal (Tacti-série)",
+      "themeUuid": "56ef5eb6-42df-f829-f7f6-038bb77d1d84",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/542a3364-41c6-d030-d499-84bbecd72928/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Manga/LeverSniper_Manga_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2e6b84d7-41a2-5c67-fc0b-8aa68a4898cd",
+          "displayName": "Marshal (Tacti-série)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2e6b84d7-41a2-5c67-fc0b-8aa68a4898cd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2e6b84d7-41a2-5c67-fc0b-8aa68a4898cd/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Manga/Chromas/Standard/LeverSniper_Manga_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "47e814ab-42eb-df1f-b15c-3586b95922ef",
+          "displayName": "Marshal (Tacti-série)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/47e814ab-42eb-df1f-b15c-3586b95922ef/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Manga/Levels/LeverSniper_Manga_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a5f13cb7-4ca7-3011-0419-72abe2584caa",
+      "displayName": "Marshal (Perchoir)",
+      "themeUuid": "ed226cc8-4a04-93da-a70e-17b25f3d50e8",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a5f13cb7-4ca7-3011-0419-72abe2584caa/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Meadowland/LeverSniper_Meadowland_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f76ab24a-4038-eaf1-9ffe-9c9715ba303b",
+          "displayName": "Marshal (Perchoir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f76ab24a-4038-eaf1-9ffe-9c9715ba303b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f76ab24a-4038-eaf1-9ffe-9c9715ba303b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f76ab24a-4038-eaf1-9ffe-9c9715ba303b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Meadowland/Chromas/Standard/LeverSniper_Meadowland_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "96645e71-4080-baed-1863-818487828d7e",
+          "displayName": "Marshal (Perchoir)\n(variante 1 Printemps)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/96645e71-4080-baed-1863-818487828d7e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/96645e71-4080-baed-1863-818487828d7e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/96645e71-4080-baed-1863-818487828d7e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Meadowland/Chromas/v1/LeverSniper_Meadowland_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "8d38d875-478e-96a7-68a8-7d97ebd876a7",
+          "displayName": "Marshal (Perchoir)\n(variante 2 Été)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8d38d875-478e-96a7-68a8-7d97ebd876a7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8d38d875-478e-96a7-68a8-7d97ebd876a7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8d38d875-478e-96a7-68a8-7d97ebd876a7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Meadowland/Chromas/v2/LeverSniper_Meadowland_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "6b2acb3f-4e48-681f-8954-7a875f6e54e5",
+          "displayName": "Marshal (Perchoir)\n(variante 3 Hiver)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6b2acb3f-4e48-681f-8954-7a875f6e54e5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6b2acb3f-4e48-681f-8954-7a875f6e54e5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6b2acb3f-4e48-681f-8954-7a875f6e54e5/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Meadowland/Chromas/V3/LeverSniper_Meadowland_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "99c7ebb2-4874-626c-17a9-d59b9d4e02a7",
+          "displayName": "Marshal (Perchoir)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/99c7ebb2-4874-626c-17a9-d59b9d4e02a7/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Meadowland/Levels/LeverSniper_Meadowland_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d4bcbc96-4be3-aa57-9a6a-11aecf60ac61",
+      "displayName": "Marshal (Signature)",
+      "themeUuid": "36f9abb7-4d30-16f1-f476-8c81e67f1d14",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d4bcbc96-4be3-aa57-9a6a-11aecf60ac61/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/MidnightAerosol/LeverSniper_MidnightAerosol_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9f89d919-4dab-9443-5b1d-91929d0a1d93",
+          "displayName": "Marshal (Signature)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9f89d919-4dab-9443-5b1d-91929d0a1d93/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9f89d919-4dab-9443-5b1d-91929d0a1d93/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/MidnightAerosol/Chromas/Standard/LeverSniper_MidnightAerosol_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "abde79d2-4ddc-3e97-ed9e-bf956d9814c0",
+          "displayName": "Marshal (Signature)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/abde79d2-4ddc-3e97-ed9e-bf956d9814c0/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/MidnightAerosol/Levels/LeverSniper_MidnightAerosol_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "805722c4-4ac7-6179-7ce7-658b5f26d6ed",
+      "displayName": "Marshal (Coalition : Cobra)",
+      "themeUuid": "4c6f01fd-4396-7d11-87b7-ac871a285241",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/805722c4-4ac7-6179-7ce7-658b5f26d6ed/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Military/LeverSniper_Military_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "77734ca5-4118-6569-f90e-90b5b9536913",
+          "displayName": "Marshal (Coalition : Cobra)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/77734ca5-4118-6569-f90e-90b5b9536913/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/77734ca5-4118-6569-f90e-90b5b9536913/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/77734ca5-4118-6569-f90e-90b5b9536913/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Military/Chromas/Standard/LeverSniper_Military_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "ba6bb676-4271-8821-9ade-568a7e6912bf",
+          "displayName": "Marshal (Coalition : Cobra)\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ba6bb676-4271-8821-9ade-568a7e6912bf/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ba6bb676-4271-8821-9ade-568a7e6912bf/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ba6bb676-4271-8821-9ade-568a7e6912bf/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Military/Chromas/v1/LeverSniper_Military_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "765ec9ab-468b-8640-1d7f-5285640381f3",
+          "displayName": "Marshal (Coalition : Cobra)\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/765ec9ab-468b-8640-1d7f-5285640381f3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/765ec9ab-468b-8640-1d7f-5285640381f3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/765ec9ab-468b-8640-1d7f-5285640381f3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Military/Chromas/v2/LeverSniper_Military_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "3463d65c-42a7-da86-e6c9-0a8e750855b9",
+          "displayName": "Marshal (Coalition : Cobra)\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3463d65c-42a7-da86-e6c9-0a8e750855b9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3463d65c-42a7-da86-e6c9-0a8e750855b9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3463d65c-42a7-da86-e6c9-0a8e750855b9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Military/Chromas/V3/LeverSniper_Military_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4dd7d0b9-40a9-de6c-ac61-aea19a6d8a77",
+          "displayName": "Marshal (Coalition : Cobra)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4dd7d0b9-40a9-de6c-ac61-aea19a6d8a77/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Military/Levels/LeverSniper_Military_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "62b71917-4a70-5c39-f29b-3198dcbacaf0",
+      "displayName": "Marshal (Minima)",
+      "themeUuid": "b6ab85fa-407e-be1e-4c82-91a853599783",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/62b71917-4a70-5c39-f29b-3198dcbacaf0/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Minima2/LeverSniper_Minima2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0b1ba673-4f05-cc9f-0e96-febb0f682082",
+          "displayName": "Marshal (Minima)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0b1ba673-4f05-cc9f-0e96-febb0f682082/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0b1ba673-4f05-cc9f-0e96-febb0f682082/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Minima2/Chromas/Standard/LeverSniper_Minima2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "aa86f9f1-45c6-01b4-6faf-5385540d2b1c",
+          "displayName": "Marshal (Minima)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/aa86f9f1-45c6-01b4-6faf-5385540d2b1c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Minima2/Levels/LeverSniper_Minima2_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ad6309b5-4788-d401-33d0-4dbaeeadaf87",
+      "displayName": "Marshal (Galeries)",
+      "themeUuid": "0c4ee4ba-484a-8fd2-e680-aaba9315cea4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Murals/LeverSniper_Murals_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f9800505-4923-a557-494b-02bf4c47ec2b",
+          "displayName": "Standard",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f9800505-4923-a557-494b-02bf4c47ec2b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f9800505-4923-a557-494b-02bf4c47ec2b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Murals/Chromas/Standard/LeverSniper_Murals_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "50265ad5-4f14-2b32-924e-02bbed2bea6f",
+          "displayName": "Marshal (Galeries)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/50265ad5-4f14-2b32-924e-02bbed2bea6f/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Murals/Levels/LeverSniper_Murals_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "af77e583-41fc-b0c2-3728-058d02502039",
+      "displayName": "Marshal (Bête incandescente)",
+      "themeUuid": "b14ecaaa-4718-924c-4425-178e84fc7e32",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/af77e583-41fc-b0c2-3728-058d02502039/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Mythic/LeverSniper_Mythic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d7ac88cd-4d2d-f6b3-e7fe-f291b6c7f751",
+          "displayName": "Marshal (Bête incandescente)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d7ac88cd-4d2d-f6b3-e7fe-f291b6c7f751/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Mythic/Chromas/Standard/LeverSniper_Mythic_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "57a31c23-4742-9bef-740e-c998061d720b",
+          "displayName": "Marshal (Bête incandescente)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/57a31c23-4742-9bef-740e-c998061d720b/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d8d26347-46b9-cdef-1faf-f4ab2bfdfe67_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Mythic/Levels/LeverSniper_Mythic_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "55db84f5-4b04-b9a8-6994-30bfe598286d",
+          "displayName": "Marshal (Bête incandescente) niveau 2\nChaque fois que vous tuez un ennemi, des effets visuels et sonores spéciaux sont joués.",
+          "levelItem": "EEquippableSkinLevelItem::KillEffect",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e4b857b2-4549-ae10-1d2f-f9a6de5c153e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Mythic/Levels/LeverSniper_Mythic_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "dbc02d43-4a71-573c-1beb-c1b7e0274b74",
+      "displayName": "Marshal (Insidieux)",
+      "themeUuid": "47899a44-47df-76a2-24e3-eb931f70c04d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/dbc02d43-4a71-573c-1beb-c1b7e0274b74/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Nightmare/LeverSniper_Nightmare_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a81274c3-46b7-1993-d623-a0804862e8ac",
+          "displayName": "Marshal (Insidieux)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a81274c3-46b7-1993-d623-a0804862e8ac/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a81274c3-46b7-1993-d623-a0804862e8ac/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Nightmare/Chromas/Standard/LeverSniper_Nightmare_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c6ad0bef-4121-f0f2-1e24-9797be0b4ceb",
+          "displayName": "Marshal (Insidieux)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c6ad0bef-4121-f0f2-1e24-9797be0b4ceb/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Nightmare/Levels/LeverSniper_Nightmare_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "43353883-446c-c2bf-5d44-298eb948ee80",
+      "displayName": "Marshal (Trait de lune)",
+      "themeUuid": "92f6510e-4a02-4ede-0b2f-3897762ce5df",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/43353883-446c-c2bf-5d44-298eb948ee80/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/NineTails/LeverSniper_NineTails_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "17c01141-47b3-56be-e390-259673611cb2",
+          "displayName": "Marshal (Trait de lune)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/17c01141-47b3-56be-e390-259673611cb2/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/NineTails/Chromas/Standard/LeverSniper_NineTails_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f92d4bee-43a0-76e0-b07a-e6a064749617",
+          "displayName": "Marshal (Trait de lune)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f92d4bee-43a0-76e0-b07a-e6a064749617/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/NineTails/Levels/LeverSniper_NineTails_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "fb9ff2b0-4d71-d53c-364e-fe98fb5a2411",
+      "displayName": "Marshal (Kuronami)",
+      "themeUuid": "a5bea0be-4488-1223-66cb-d68c96089bae",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fb9ff2b0-4d71-d53c-364e-fe98fb5a2411/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/fb9ff2b0-4d71-d53c-364e-fe98fb5a2411/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ninja/LeverSniper_Ninja_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ace6ba33-47b6-8d06-df03-2ca380d78f70",
+          "displayName": "Marshal (Kuronami)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ace6ba33-47b6-8d06-df03-2ca380d78f70/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ace6ba33-47b6-8d06-df03-2ca380d78f70/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ace6ba33-47b6-8d06-df03-2ca380d78f70/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ninja/Chromas/Standard/LeverSniper_Ninja_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "51fb7c61-4d29-577a-2334-319def7edb97",
+          "displayName": "Marshal (Kuronami) niveau 4\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/51fb7c61-4d29-577a-2334-319def7edb97/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/51fb7c61-4d29-577a-2334-319def7edb97/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/51fb7c61-4d29-577a-2334-319def7edb97/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/85074d25-4769-bcae-bea0-a7b3f9164b58_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ninja/Chromas/v1/LeverSniper_Ninja_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "3dc9486b-4785-5393-c9b7-5fb3f9a7312c",
+          "displayName": "Marshal (Kuronami) niveau 4\n(variante 2 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3dc9486b-4785-5393-c9b7-5fb3f9a7312c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3dc9486b-4785-5393-c9b7-5fb3f9a7312c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3dc9486b-4785-5393-c9b7-5fb3f9a7312c/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/144842ed-4d92-feb3-294f-d89cc5a7a1b0_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ninja/Chromas/v2/LeverSniper_Ninja_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "6f70c0fc-4554-935c-b2bd-85a1e094d9b7",
+          "displayName": "Marshal (Kuronami) niveau 4\n(variante 3 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6f70c0fc-4554-935c-b2bd-85a1e094d9b7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6f70c0fc-4554-935c-b2bd-85a1e094d9b7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6f70c0fc-4554-935c-b2bd-85a1e094d9b7/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/27709664-4b35-3cc7-9f1b-6baef39c182b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ninja/Chromas/V3/LeverSniper_Ninja_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "60edaaf5-41b2-1652-af0a-2dafed7bc71e",
+          "displayName": "Marshal (Kuronami)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/60edaaf5-41b2-1652-af0a-2dafed7bc71e/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6958e62f-45c1-9b6f-3dcb-8bb261bd9de7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ninja/Levels/LeverSniper_Ninja_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "7e932e6d-4d26-f1fb-e02a-28b5df71f022",
+          "displayName": "Marshal (Kuronami) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/7f032594-4b47-9976-58cb-f7acbcf00f0c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ninja/Levels/LeverSniper_Ninja_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "76ea4090-41bc-07f8-ba96-1cb0542550c4",
+          "displayName": "Marshal (Kuronami) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/76ea4090-41bc-07f8-ba96-1cb0542550c4/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/91a1796e-4b5c-2ace-51a2-a2887b823680_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ninja/Levels/LeverSniper_Ninja_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "50e45282-418c-6658-0a5e-e48db6c9542c",
+          "displayName": "Marshal (Kuronami) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f98b9f90-4ed1-3bd3-0cda-bdb507df57e4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Ninja/Levels/LeverSniper_Ninja_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e64be1b4-4935-5215-874b-939d3b0ea57e",
+      "displayName": "Marshal (Méandre)",
+      "themeUuid": "8e1a1dcf-4a79-419a-d49c-e19ca70d29fa",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e64be1b4-4935-5215-874b-939d3b0ea57e/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/OrangeHighlight/LeverSniper_OrangeHighlight_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e6ba2dee-4fb2-d506-c93f-cda1c192afa7",
+          "displayName": "Marshal (Méandre)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e6ba2dee-4fb2-d506-c93f-cda1c192afa7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e6ba2dee-4fb2-d506-c93f-cda1c192afa7/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/OrangeHighlight/Chromas/Standard/LeverSniper_OrangeHighlight_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "109f2b5a-4916-7d95-85e5-2599964ecc9e",
+          "displayName": "Marshal (Méandre)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/109f2b5a-4916-7d95-85e5-2599964ecc9e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/OrangeHighlight/Levels/LeverSniper_OrangeHighlight_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a8f3a670-4b8e-9fc8-30bd-f4b395d1ff5f",
+      "displayName": "Marshal (Origami)",
+      "themeUuid": "97fca73b-4f4f-2dbc-e2ec-85b69f357728",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a8f3a670-4b8e-9fc8-30bd-f4b395d1ff5f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Origami/LeverSniper_Origami_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "b4f6d49b-416d-2ae8-647d-9b88a52c5089",
+          "displayName": "Marshal (Origami)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b4f6d49b-416d-2ae8-647d-9b88a52c5089/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b4f6d49b-416d-2ae8-647d-9b88a52c5089/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Origami/Chromas/Standard/LeverSniper_Origami_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "79e2c862-4f7b-9e1f-5d38-6f8da20d8e98",
+          "displayName": "Marshal (Origami)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/79e2c862-4f7b-9e1f-5d38-6f8da20d8e98/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Origami/Levels/LeverSniper_Origami_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "6eea7984-4ca4-d547-4d50-b4a608072feb",
+      "displayName": "Marshal (POLYfrog)",
+      "themeUuid": "deb5db21-438b-e5a1-2ee7-bc8830ea6a1f",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6eea7984-4ca4-d547-4d50-b4a608072feb/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Polyfrog/LeverSniper_Polyfrog_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8502c2a0-439b-89bb-4f04-a09611b01ab9",
+          "displayName": "Marshal (POLYfrog)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8502c2a0-439b-89bb-4f04-a09611b01ab9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8502c2a0-439b-89bb-4f04-a09611b01ab9/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Polyfrog/Chromas/Standard/LeverSniper_Polyfrog_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f1b4577e-4dd3-6573-472c-a68cfe695d60",
+          "displayName": "Marshal (POLYfrog)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f1b4577e-4dd3-6573-472c-a68cfe695d60/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Polyfrog/Levels/LeverSniper_Polyfrog_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ad83a57d-414c-f714-a97f-99bad1128b2b",
+      "displayName": "Marshal (Cochon divin)",
+      "themeUuid": "ab6f77b8-4567-90f1-dfab-ef919869a560",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ad83a57d-414c-f714-a97f-99bad1128b2b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Polypig/LeverSniper_Polypig_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2adc4604-4f91-f3b4-310b-7e89f285c368",
+          "displayName": "Marshal (Cochon divin)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2adc4604-4f91-f3b4-310b-7e89f285c368/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Polypig/Chromas/Standard/LeverSniper_Polypig_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3711156a-43c5-de94-3ccc-ee8bae5e6df0",
+          "displayName": "Marshal (Cochon divin)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3711156a-43c5-de94-3ccc-ee8bae5e6df0/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Polypig/Levels/LeverSniper_Polypig_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4986a893-48a5-4c23-11f2-70bb9e9d284d",
+      "displayName": "Marshal (Artisan)",
+      "themeUuid": "d65eed71-4544-fb44-9a71-27bfdcb66952",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Porcelain/LeverSniper_Porcelain_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "422f7941-4fd7-572c-241d-8ca84846b31a",
+          "displayName": "Marshal (Artisan)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/422f7941-4fd7-572c-241d-8ca84846b31a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/422f7941-4fd7-572c-241d-8ca84846b31a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/422f7941-4fd7-572c-241d-8ca84846b31a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Porcelain/Chromas/Standard/LeverSniper_Porcelain_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "61535303-43a7-c6d1-85ab-2c9080814e1a",
+          "displayName": "Marshal (Artisan)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/61535303-43a7-c6d1-85ab-2c9080814e1a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/61535303-43a7-c6d1-85ab-2c9080814e1a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/61535303-43a7-c6d1-85ab-2c9080814e1a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Porcelain/Chromas/Red/LeverSniper_Porcelain_Red_PrimaryAsset"
+        },
+        {
+          "uuid": "9de8140d-4f88-0f50-0689-2fbc6019003f",
+          "displayName": "Marshal (Artisan)\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9de8140d-4f88-0f50-0689-2fbc6019003f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9de8140d-4f88-0f50-0689-2fbc6019003f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9de8140d-4f88-0f50-0689-2fbc6019003f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Porcelain/Chromas/Green/LeverSniper_Porcelain_Green_PrimaryAsset"
+        },
+        {
+          "uuid": "acf1784e-4796-794d-97c3-0ba1fdc7f7c0",
+          "displayName": "Marshal (Artisan)\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/acf1784e-4796-794d-97c3-0ba1fdc7f7c0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/acf1784e-4796-794d-97c3-0ba1fdc7f7c0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/acf1784e-4796-794d-97c3-0ba1fdc7f7c0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Porcelain/Chromas/Blue/LeverSniper_Porcelain_Blue_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c779f43f-47cc-fe29-63aa-bb8b91b36e42",
+          "displayName": "Marshal (Artisan)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c779f43f-47cc-fe29-63aa-bb8b91b36e42/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Porcelain/Levels/LeverSniper_Porcelain_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "48f218a6-42cf-4f63-0cda-39a5aef5d870",
+      "displayName": "Marshal (Luna)",
+      "themeUuid": "052c25e8-4a7f-52c8-70a2-0b8e54a4c3ad",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/48f218a6-42cf-4f63-0cda-39a5aef5d870/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/48f218a6-42cf-4f63-0cda-39a5aef5d870/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rabbit/LeverSniper_Rabbit_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8ddcf7eb-46ad-960f-1f18-17b181d7fdf4",
+          "displayName": "Marshal (Luna)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8ddcf7eb-46ad-960f-1f18-17b181d7fdf4/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rabbit/Chromas/Standard/LeverSniper_Rabbit_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "5077391c-4106-6b3f-24c4-829be4cfbf38",
+          "displayName": "Marshal (Luna)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5077391c-4106-6b3f-24c4-829be4cfbf38/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rabbit/Levels/LeverSniper_Rabbit_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b273ade7-4971-c274-eb92-219ef6def086",
+      "displayName": "Marshal (Première collision)",
+      "themeUuid": "ec019908-4bdb-5e0e-982e-9da14516c167",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b273ade7-4971-c274-eb92-219ef6def086/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Radianite/LeverSniper_Radianite_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "229e680e-4b55-94b7-8a07-618468647fa3",
+          "displayName": "Marshal (Première collision)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/229e680e-4b55-94b7-8a07-618468647fa3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/229e680e-4b55-94b7-8a07-618468647fa3/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Radianite/Chromas/Standard/LeverSniper_Radianite_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c7d5f553-4239-7124-3932-6a83a019d527",
+          "displayName": "Marshal (Première collision)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c7d5f553-4239-7124-3932-6a83a019d527/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Radianite/Levels/LeverSniper_Radianite_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "457fe5d2-40c8-4490-6834-53a74e709f4a",
+      "displayName": "Skin favori aléatoire",
+      "themeUuid": "0d7a5bfb-4850-098e-1821-d989bbfd58a8",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/457fe5d2-40c8-4490-6834-53a74e709f4a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Random/LeverSniper_Random_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "bd2a03a0-4690-eacc-b68c-9c87e378294d",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bd2a03a0-4690-eacc-b68c-9c87e378294d/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Random/Chromas/Standard/LeverSniper_Random_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "04b64c56-4a51-88d1-419e-9c91fcdff626",
+          "displayName": "Skin favori aléatoire",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/04b64c56-4a51-88d1-419e-9c91fcdff626/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Random/Levels/LeverSniper_Random_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7c47be9b-48a5-752e-7229-f7b1668239dd",
+      "displayName": "Marshal (Épines noires)",
+      "themeUuid": "8baee2a1-435c-70be-ea33-3b8bc34aa260",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7c47be9b-48a5-752e-7229-f7b1668239dd/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/7c47be9b-48a5-752e-7229-f7b1668239dd/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rose/LeverSniper_Rose_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "da4134fb-498e-3012-0297-d0a4aeed76f0",
+          "displayName": "Marshal (Épines noires)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/da4134fb-498e-3012-0297-d0a4aeed76f0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/da4134fb-498e-3012-0297-d0a4aeed76f0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/da4134fb-498e-3012-0297-d0a4aeed76f0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rose/Chromas/Standard/LeverSniper_Rose_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "69a61c11-4c64-8056-5c20-7bb56a58e7e3",
+          "displayName": "Marshal (Épines noires) niveau 4\n(variante 1 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/69a61c11-4c64-8056-5c20-7bb56a58e7e3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/69a61c11-4c64-8056-5c20-7bb56a58e7e3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/69a61c11-4c64-8056-5c20-7bb56a58e7e3/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/351467fc-4ebc-9b99-d7be-c2bae3342d90_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rose/Chromas/v1/LeverSniper_Rose_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "48b9447d-444f-7c43-7d7f-6f99af95d07d",
+          "displayName": "Marshal (Épines noires) niveau 4\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/48b9447d-444f-7c43-7d7f-6f99af95d07d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/48b9447d-444f-7c43-7d7f-6f99af95d07d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/48b9447d-444f-7c43-7d7f-6f99af95d07d/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a194e33e-4cd8-9942-f145-4690d1bf693c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rose/Chromas/v2/LeverSniper_Rose_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "d42c7eaa-4ceb-5c91-9916-bb8b8aae22cb",
+          "displayName": "Marshal (Épines noires) niveau 4\n(variante 3 Violet Cisaille)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d42c7eaa-4ceb-5c91-9916-bb8b8aae22cb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d42c7eaa-4ceb-5c91-9916-bb8b8aae22cb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d42c7eaa-4ceb-5c91-9916-bb8b8aae22cb/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3b5d7b54-4750-b16e-49fa-6d8ab2c09958_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rose/Chromas/V3/LeverSniper_Rose_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7054753b-4b03-cd9e-b233-f185a0af569c",
+          "displayName": "Marshal (Épines noires)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7054753b-4b03-cd9e-b233-f185a0af569c/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/85f28667-468c-8669-bc0c-c885f461d597_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rose/Levels/LeverSniper_Rose_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "7d9e85ec-49d5-0769-2091-68afaf4501bf",
+          "displayName": "Marshal (Épines noires) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ba812e8f-4c06-a4e5-583d-2091487c6519_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rose/Levels/LeverSniper_Rose_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "84c8b64b-421e-eaf6-6ad8-f0967e1f0923",
+          "displayName": "Marshal (Épines noires) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/84c8b64b-421e-eaf6-6ad8-f0967e1f0923/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/14261d06-4f36-62b7-1a8c-33a50c79f946_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rose/Levels/LeverSniper_Rose_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "b029ca06-427b-9d4b-ca91-b3a52eec5046",
+          "displayName": "Marshal (Épines noires) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c7a6e1ef-42c8-2f50-cd81-5b9a8f825e1d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Rose/Levels/LeverSniper_Rose_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a44fd9f1-4233-7c41-fa47-ffbf8b77041d",
+      "displayName": "Marshal (Rupture)",
+      "themeUuid": "4d9de10f-47a5-f4e0-2db5-afba24a5e649",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a44fd9f1-4233-7c41-fa47-ffbf8b77041d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Shatter/LeverSniper_Shatter_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "18347b38-421e-bf41-158e-f2968efebf89",
+          "displayName": "Marshal (Rupture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/18347b38-421e-bf41-158e-f2968efebf89/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/18347b38-421e-bf41-158e-f2968efebf89/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Shatter/Chromas/Standard/LeverSniper_Shatter_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bef21291-4529-b19b-89de-8d9f4c2050bc",
+          "displayName": "Marshal (Rupture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bef21291-4529-b19b-89de-8d9f4c2050bc/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Shatter/Levels/LeverSniper_Shatter_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5211efa8-4efd-09bb-6cee-72b86a8a5972",
+      "displayName": "Marshal (Royal)",
+      "themeUuid": "975f7716-498d-8e0b-b7c7-02b507b8e14a",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5211efa8-4efd-09bb-6cee-72b86a8a5972/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/5211efa8-4efd-09bb-6cee-72b86a8a5972/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Sovereign/LeverSniperRifle_Sovereign_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "18c67b9a-419d-aa6d-224f-869f7e541fff",
+          "displayName": "Marshal (Royal)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/18c67b9a-419d-aa6d-224f-869f7e541fff/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/18c67b9a-419d-aa6d-224f-869f7e541fff/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/18c67b9a-419d-aa6d-224f-869f7e541fff/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Sovereign/Chromas/Standard/LeverSniperRifle_Sovereign_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "079e90b2-4492-3f73-95bd-f5b74a7ac295",
+          "displayName": "Marshal (Royal) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/079e90b2-4492-3f73-95bd-f5b74a7ac295/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/079e90b2-4492-3f73-95bd-f5b74a7ac295/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/079e90b2-4492-3f73-95bd-f5b74a7ac295/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Sovereign/Chromas/Gold/LeverSniperRifle_Sovereign_Gold_PrimaryAsset"
+        },
+        {
+          "uuid": "0bb4eab3-4c4d-8b6e-1af5-daa1387d1ff7",
+          "displayName": "Marshal (Royal) niveau 4\n(variante 2 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0bb4eab3-4c4d-8b6e-1af5-daa1387d1ff7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0bb4eab3-4c4d-8b6e-1af5-daa1387d1ff7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0bb4eab3-4c4d-8b6e-1af5-daa1387d1ff7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Sovereign/Chromas/Silver/LeverSniperRifle_Sovereign_Silver_PrimaryAsset"
+        },
+        {
+          "uuid": "9d77ed46-4375-65fe-5c2b-54b44bd8e832",
+          "displayName": "Marshal (Royal) niveau 4\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9d77ed46-4375-65fe-5c2b-54b44bd8e832/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9d77ed46-4375-65fe-5c2b-54b44bd8e832/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9d77ed46-4375-65fe-5c2b-54b44bd8e832/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Sovereign/Chromas/Purple/LeverSniperRifle_Sovereign_Purple_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c5dd6298-4928-5d64-5cd0-7fa41ea89d81",
+          "displayName": "Marshal (Royal)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c5dd6298-4928-5d64-5cd0-7fa41ea89d81/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/45c21880-a5d1-4778-b2a2-85b0b24f6c6f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Sovereign/LeverSniperRifle_Sovereign_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "5dfc0af6-4c03-03b0-7066-6ea1770fe6c0",
+          "displayName": "Marshal (Royal) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5dfc0af6-4c03-03b0-7066-6ea1770fe6c0/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/70f3532d-25b3-4fcc-8087-a32d0d099565_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Sovereign/LeverSniperRifle_Sovereign_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "003665b4-4ff3-881b-5c67-3ebd454d4fab",
+          "displayName": "Marshal (Royal) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/003665b4-4ff3-881b-5c67-3ebd454d4fab/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/be45b598-6410-4729-8971-3f2e7dc60f97_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Sovereign/LeverSniperRifle_Sovereign_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "dd1fee10-42ca-1201-5bf8-399a16b25620",
+          "displayName": "Marshal (Royal) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/dd1fee10-42ca-1201-5bf8-399a16b25620/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3ec9e39d-339d-4d83-af58-0dc8a271fc1b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Sovereign/LeverSniperRifle_Sovereign_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0dfc1800-4ddc-85fd-8382-32a2824135fa",
+      "displayName": "Marshal (Rêverie)",
+      "themeUuid": "e0216470-4c4a-d840-0919-3c860cbc40a8",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0dfc1800-4ddc-85fd-8382-32a2824135fa/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/0dfc1800-4ddc-85fd-8382-32a2824135fa/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/StainedGlass/LeverSniper_StainedGlass_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "401ca81b-4e36-fbbc-30ac-929bf1159883",
+          "displayName": "Marshal (Rêverie)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/401ca81b-4e36-fbbc-30ac-929bf1159883/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/401ca81b-4e36-fbbc-30ac-929bf1159883/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/StainedGlass/Chromas/Standard/LeverSniper_StainedGlass_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d24023ad-4689-6273-5a37-f6bd0ab2932b",
+          "displayName": "Marshal (Rêverie)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d24023ad-4689-6273-5a37-f6bd0ab2932b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/StainedGlass/Levels/LeverSniper_StainedGlass_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "fd44b2d5-49ee-77ab-fa56-588f3ac0c268",
+      "displayName": "Marshal (Standard)",
+      "themeUuid": "5a629df4-4765-0214-bd40-fbb96542941f",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fd44b2d5-49ee-77ab-fa56-588f3ac0c268/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Standard/LeverSniperRifle_Standard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1afec971-4170-f29b-1c94-07a0eff270ab",
+          "displayName": "Marshal",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1afec971-4170-f29b-1c94-07a0eff270ab/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1afec971-4170-f29b-1c94-07a0eff270ab/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Standard/Chromas/Standard/LeverSniperRifle_Standard_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f0389390-49eb-a43e-27fa-fc9f9f8aa9de",
+          "displayName": "Marshal",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f0389390-49eb-a43e-27fa-fc9f9f8aa9de/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Standard/LeverSniperRifle_Standard_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9cba5b54-4d68-e13c-932e-4aac83e21e64",
+      "displayName": "Marshal (À main levée)",
+      "themeUuid": "51b0a893-40fb-acb4-3214-be89dac1983a",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9cba5b54-4d68-e13c-932e-4aac83e21e64/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/StickerPop/LeverSniper_StickerPop_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "36b8ef20-4618-9d72-1b94-428373dae618",
+          "displayName": "Marshal (À main levée)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/36b8ef20-4618-9d72-1b94-428373dae618/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/36b8ef20-4618-9d72-1b94-428373dae618/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/StickerPop/Chromas/Standard/LeverSniper_StickerPop_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "30240598-46fb-8f6d-4923-1c957f468718",
+          "displayName": "Marshal (À main levée)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/30240598-46fb-8f6d-4923-1c957f468718/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/StickerPop/Levels/LeverSniper_StickerPop_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "abd8ed49-46a6-1a40-1082-c3b05950228c",
+      "displayName": "Marshal (Ensorcelé)",
+      "themeUuid": "6a3ce658-4ff6-04c0-6a19-9ca1149e3102",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/abd8ed49-46a6-1a40-1082-c3b05950228c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Storybook/LeverSniper_Storybook_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7724cc4b-42ce-9496-5916-508e60c72a33",
+          "displayName": "Marshal (Ensorcelé)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7724cc4b-42ce-9496-5916-508e60c72a33/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7724cc4b-42ce-9496-5916-508e60c72a33/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Storybook/Chromas/Standard/LeverSniper_Storybook_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "350e36cb-47ef-c53a-25c6-e5820a1127c4",
+          "displayName": "Marshal (Ensorcelé)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/350e36cb-47ef-c53a-25c6-e5820a1127c4/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Storybook/Levels/LeverSniper_Storybook_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "dc0fd062-4658-519c-0c21-18a0943f123b",
+      "displayName": "Marshal (Ensablé)",
+      "themeUuid": "a74e644e-415e-5187-e236-659d651ea760",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/dc0fd062-4658-519c-0c21-18a0943f123b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/TravelerFantasy/LeverSniper_TravelerFantasy_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2d438dd0-4213-a3c5-37d0-2794164574dc",
+          "displayName": "Marshal (Ensablé)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2d438dd0-4213-a3c5-37d0-2794164574dc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2d438dd0-4213-a3c5-37d0-2794164574dc/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2d438dd0-4213-a3c5-37d0-2794164574dc/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/TravelerFantasy/Chromas/Standard/LeverSniper_TravelerFantasy_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "cb240190-4426-9928-2394-7fb4423559d3",
+          "displayName": "Marshal (Ensablé)\n(variante 1 Ivoire)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cb240190-4426-9928-2394-7fb4423559d3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cb240190-4426-9928-2394-7fb4423559d3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/cb240190-4426-9928-2394-7fb4423559d3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/TravelerFantasy/Chromas/v1/LeverSniper_TravelerFantasy_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "2e89d6b4-4953-ff96-ad6d-26966b898046",
+          "displayName": "Marshal (Ensablé)\n(variante 2 Indigo)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2e89d6b4-4953-ff96-ad6d-26966b898046/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2e89d6b4-4953-ff96-ad6d-26966b898046/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2e89d6b4-4953-ff96-ad6d-26966b898046/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/TravelerFantasy/Chromas/v2/LeverSniper_TravelerFantasy_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "e3059b30-4508-f0ee-b538-b0b96f7c2c3e",
+          "displayName": "Marshal (Ensablé)\n(variante 3 Écarlate)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e3059b30-4508-f0ee-b538-b0b96f7c2c3e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e3059b30-4508-f0ee-b538-b0b96f7c2c3e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e3059b30-4508-f0ee-b538-b0b96f7c2c3e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/TravelerFantasy/Chromas/V3/LeverSniper_TravelerFantasy_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3296826f-4973-d5e1-e360-548ba5598faf",
+          "displayName": "Marshal (Ensablé)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3296826f-4973-d5e1-e360-548ba5598faf/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/TravelerFantasy/Levels/LeverSniper_TravelerFantasy_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "19f06522-40c8-8dc6-a0cd-92808b24751f",
+      "displayName": "Marshal (Terres désolées)",
+      "themeUuid": "04bb8aa5-4bab-cd4e-e1f0-d9aa3b7bd79d",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/19f06522-40c8-8dc6-a0cd-92808b24751f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Wasteland/LeverSniper_Wasteland_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6e4dceba-441b-2fc5-5992-80ab4d779922",
+          "displayName": "Marshal (Terres désolées)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6e4dceba-441b-2fc5-5992-80ab4d779922/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6e4dceba-441b-2fc5-5992-80ab4d779922/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Wasteland/Chromas/Standard/LeverSniper_Wasteland_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4049dc82-495b-cecc-8e34-4dbf35753129",
+          "displayName": "Marshal (Terres désolées)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4049dc82-495b-cecc-8e34-4dbf35753129/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Wasteland/Levels/LeverSniper_Wasteland_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "c31856f4-4ae1-cfb8-14cc-10a92b81e7c3",
+      "displayName": "Marshal (Merveilles enneigées)",
+      "themeUuid": "bd8d8003-4b10-ed25-1654-4cb29225464c",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/c31856f4-4ae1-cfb8-14cc-10a92b81e7c3/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Winter/LeverSniper_Winter_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ed72b5f0-4fa3-6998-88d8-209ba547ff1e",
+          "displayName": "Marshal (Merveilles enneigées)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ed72b5f0-4fa3-6998-88d8-209ba547ff1e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ed72b5f0-4fa3-6998-88d8-209ba547ff1e/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Winter/Chromas/Standard/LeverSniper_Winter_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4fcea818-4877-85f9-ba01-a0b02e1868f4",
+          "displayName": "Marshal (Merveilles enneigées)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4fcea818-4877-85f9-ba01-a0b02e1868f4/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/Winter/Levels/LeverSniper_Winter_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1c560472-4c65-616f-07e6-f98ad73c37c6",
+      "displayName": "Marshal (Convergence)",
+      "themeUuid": "2a6039fb-48d2-e594-8c9b-94a5ba723fb9",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1c560472-4c65-616f-07e6-f98ad73c37c6/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/YinYang/LeverSniper_YinYang_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0bd9ccd6-4d24-4004-e713-7da14c86e422",
+          "displayName": "Marshal (Convergence)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0bd9ccd6-4d24-4004-e713-7da14c86e422/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0bd9ccd6-4d24-4004-e713-7da14c86e422/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/YinYang/Chromas/Standard/LeverSniper_YinYang_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b6f4ae97-44d2-6e27-9d92-bbb3eff7011a",
+          "displayName": "Marshal (Convergence)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b6f4ae97-44d2-6e27-9d92-bbb3eff7011a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Leversniper/YinYang/Levels/LeverSniper_YinYang_Lv1_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}

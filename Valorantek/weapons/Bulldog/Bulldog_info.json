@@ -1,0 +1,2803 @@
+{
+  "uuid": "ae3de142-4d85-2547-dd26-4e90bed35cf7",
+  "displayName": "Bulldog",
+  "category": "EEquippableCategory::Rifle",
+  "defaultSkinUuid": "724a7f42-4315-eccf-0e76-77bdd3ec2e09",
+  "displayIcon": "https://media.valorant-api.com/weapons/ae3de142-4d85-2547-dd26-4e90bed35cf7/displayicon.png",
+  "killStreamIcon": "https://media.valorant-api.com/weapons/ae3de142-4d85-2547-dd26-4e90bed35cf7/killstreamicon.png",
+  "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/BurstPrimaryAsset",
+  "weaponStats": {
+    "fireRate": 10,
+    "magazineSize": 24,
+    "runSpeedMultiplier": 0.8,
+    "equipTimeSeconds": 1,
+    "reloadTimeSeconds": 2.5,
+    "firstBulletAccuracy": 0.3,
+    "shotgunPelletCount": 1,
+    "wallPenetration": "EWallPenetrationDisplayType::Medium",
+    "feature": null,
+    "fireMode": null,
+    "altFireType": "EWeaponAltFireDisplayType::ADS",
+    "adsStats": {
+      "zoomMultiplier": 1.25,
+      "fireRate": 6.315715,
+      "runSpeedMultiplier": 0.76,
+      "burstCount": 3,
+      "firstBulletAccuracy": 0.3
+    },
+    "altShotgunStats": null,
+    "airBurstStats": null,
+    "damageRanges": [
+      {
+        "rangeStartMeters": 0,
+        "rangeEndMeters": 50,
+        "headDamage": 115.5,
+        "bodyDamage": 35,
+        "legDamage": 29.75
+      }
+    ]
+  },
+  "shopData": {
+    "cost": 2050,
+    "category": "Rifles",
+    "shopOrderPriority": 0,
+    "categoryText": "Fusils d'assaut",
+    "gridPosition": {
+      "row": 1,
+      "column": 3
+    },
+    "canBeTrashed": true,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/weapons/ae3de142-4d85-2547-dd26-4e90bed35cf7/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/BurstPurchase"
+  },
+  "skins": [
+    {
+      "uuid": "9a107ffd-462d-9fc1-241d-759fbe79c02d",
+      "displayName": "Bulldog (Fréquence)",
+      "themeUuid": "0ff2db38-4063-892c-d99a-c9a0b7f28bbe",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9a107ffd-462d-9fc1-241d-759fbe79c02d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Analog/Burst_Analog_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e769943f-401e-dcf6-4036-4a86eb2e121d",
+          "displayName": "Bulldog (Fréquence)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e769943f-401e-dcf6-4036-4a86eb2e121d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e769943f-401e-dcf6-4036-4a86eb2e121d/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Analog/Chromas/Standard/Burst_Analog_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "339b6c4d-4584-4c33-fe8f-54ac97baca44",
+          "displayName": "Bulldog (Fréquence)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/339b6c4d-4584-4c33-fe8f-54ac97baca44/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Analog/Levels/Burst_Analog_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "26d0c312-46c2-1912-302a-b7b8f62640ca",
+      "displayName": "Bulldog (Araxys)",
+      "themeUuid": "92d4ccf0-446f-db43-f028-4a9f4bc2714c",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/26d0c312-46c2-1912-302a-b7b8f62640ca/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/26d0c312-46c2-1912-302a-b7b8f62640ca/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Antares/Burst_Antares_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ea8c7f51-4e3e-2593-2d37-eaa0119b9829",
+          "displayName": "Bulldog (Araxys)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ea8c7f51-4e3e-2593-2d37-eaa0119b9829/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ea8c7f51-4e3e-2593-2d37-eaa0119b9829/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ea8c7f51-4e3e-2593-2d37-eaa0119b9829/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Antares/Chromas/Standard/Burst_Antares_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "49451aa7-4a30-3d0e-2cf9-a19afc966041",
+          "displayName": "Bulldog (Araxys) niveau 4\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/49451aa7-4a30-3d0e-2cf9-a19afc966041/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/49451aa7-4a30-3d0e-2cf9-a19afc966041/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/49451aa7-4a30-3d0e-2cf9-a19afc966041/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a561849f-4642-4683-f7e4-1986bf2b646a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Antares/Chromas/v1/Burst_Antares_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "f11c775b-4ddf-1596-3cdb-4e826ec0e1f4",
+          "displayName": "Bulldog (Araxys) niveau 4\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f11c775b-4ddf-1596-3cdb-4e826ec0e1f4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f11c775b-4ddf-1596-3cdb-4e826ec0e1f4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f11c775b-4ddf-1596-3cdb-4e826ec0e1f4/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/dacb1223-4bd9-9fab-c3aa-cf8c86691312_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Antares/Chromas/v2/Burst_Antares_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "19d84374-4647-33ad-50f8-efb80f8eda7c",
+          "displayName": "Bulldog (Araxys) niveau 4\n(variante 3 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/19d84374-4647-33ad-50f8-efb80f8eda7c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/19d84374-4647-33ad-50f8-efb80f8eda7c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/19d84374-4647-33ad-50f8-efb80f8eda7c/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/183efe28-4e42-6ed5-7d1a-aaac754db3c7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Antares/Chromas/V3/Burst_Antares_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "45e51d17-480a-6e28-cdd2-459d7758bea8",
+          "displayName": "Bulldog (Araxys)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/45e51d17-480a-6e28-cdd2-459d7758bea8/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/15e02d4a-4f5a-f81c-006f-4c88a63ef529_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Antares/Levels/Burst_Antares_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "5df3789a-47df-8dc2-91bb-41aa6335346d",
+          "displayName": "Bulldog (Araxys) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0d8643c1-44d0-1abc-fbb8-92bc006fc5c6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Antares/Levels/Burst_Antares_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "e9e02c90-43c9-f33d-7f11-16a14f51149c",
+          "displayName": "Bulldog (Araxys) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a3aca16e-4b9e-5c6f-2b52-dc812ad9b8f7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Antares/Levels/Burst_Antares_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "1dcac15f-4bc2-b6b8-bada-f4b0f2cd088c",
+          "displayName": "Bulldog (Araxys) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/792f703a-481e-1389-e482-3e8cf8091191_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Antares/Levels/Burst_Antares_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8c6f8399-447b-a7de-7c93-b69273b054ac",
+      "displayName": "Bulldog (Neptune)",
+      "themeUuid": "292ef4b1-43d5-358c-32e5-04805a154acd",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8c6f8399-447b-a7de-7c93-b69273b054ac/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Aquarium2/Burst_Aquarium2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3543bba2-4feb-414a-744f-a2a785b044a3",
+          "displayName": "Bulldog (Neptune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3543bba2-4feb-414a-744f-a2a785b044a3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3543bba2-4feb-414a-744f-a2a785b044a3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3543bba2-4feb-414a-744f-a2a785b044a3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Aquarium2/Chromas/Standard/Burst_Aquarium2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "a2f1499b-454e-5399-0052-20b374c4d094",
+          "displayName": "Bulldog (Neptune) niveau 3\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a2f1499b-454e-5399-0052-20b374c4d094/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a2f1499b-454e-5399-0052-20b374c4d094/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a2f1499b-454e-5399-0052-20b374c4d094/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/925b988a-4777-49b8-6a2c-0181414dd2f4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Aquarium2/Chromas/v1/Burst_Aquarium2_v1_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f76c27dc-4cc4-9648-a25c-72b9372ca23e",
+          "displayName": "Bulldog (Neptune)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f76c27dc-4cc4-9648-a25c-72b9372ca23e/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/35304027-482c-4474-acb3-8e8848bfbb73_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Aquarium2/Levels/Burst_Aquarium2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "15391a17-461a-f185-8e90-fca56867f443",
+          "displayName": "Bulldog (Neptune) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/15391a17-461a-f185-8e90-fca56867f443/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/09e951df-489a-e108-afa1-b880eabcaf1d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Aquarium2/Levels/Burst_Aquarium2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "03f71f34-4f55-abed-2855-f9a4a38af3b9",
+          "displayName": "Bulldog (Neptune) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9ce5b323-4bd8-8a2c-06f6-8e9df930faf4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Aquarium2/Levels/Burst_Aquarium2_Lv3_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e8bf5459-4789-f9bd-bfd1-c5bcafec96a6",
+      "displayName": "Bulldog (Radiant Entertainment System)",
+      "themeUuid": "ad4988de-487f-5f0b-5b21-a9af80995aea",
+      "contentTierUuid": "411e4a55-4e59-7757-41f0-86a53f101bb5",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e8bf5459-4789-f9bd-bfd1-c5bcafec96a6/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/e8bf5459-4789-f9bd-bfd1-c5bcafec96a6/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Arcade/Burst_Arcade_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "09787460-4968-bfe4-8aea-1fb276a2f628",
+          "displayName": "Bulldog (Radiant Entertainment System)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/09787460-4968-bfe4-8aea-1fb276a2f628/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/09787460-4968-bfe4-8aea-1fb276a2f628/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/09787460-4968-bfe4-8aea-1fb276a2f628/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Arcade/Chromas/Standard/Burst_Arcade_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "d771e642-4a9d-865f-3234-adbe20f7c63b",
+          "displayName": "Bulldog (Radiant Entertainment System) niveau 4\n(variante 1 Dance Fever)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d771e642-4a9d-865f-3234-adbe20f7c63b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d771e642-4a9d-865f-3234-adbe20f7c63b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d771e642-4a9d-865f-3234-adbe20f7c63b/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/dd29f969-4a21-0b5e-3cb3-6c841a8efc55_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Arcade/Chromas/v1/Burst_Arcade_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "a340c055-4156-c90d-36ad-f982f78c7dc3",
+          "displayName": "Bulldog (Radiant Entertainment System) niveau 4\n(variante 2 K.nock O.ut!!)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a340c055-4156-c90d-36ad-f982f78c7dc3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a340c055-4156-c90d-36ad-f982f78c7dc3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a340c055-4156-c90d-36ad-f982f78c7dc3/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/46f8ec36-4c70-8561-4e11-e0b626a867f3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Arcade/Chromas/v2/Burst_Arcade_v2_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7deb8bd7-4ff6-64d2-1f23-2fb7143a5d98",
+          "displayName": "Bulldog (Radiant Entertainment System)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7deb8bd7-4ff6-64d2-1f23-2fb7143a5d98/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1df45a6b-4e36-78f8-f156-32a05607029c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Arcade/Levels/Burst_Arcade_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "7407dec2-45b9-2218-2e17-d98b192ff08c",
+          "displayName": "Bulldog (Radiant Entertainment System) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c9c9919e-47e1-7415-f126-f0b236409673_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Arcade/Levels/Burst_Arcade_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "045885e5-436d-506c-21a6-c289d9baa7c6",
+          "displayName": "Bulldog (Radiant Entertainment System) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e7fbeb73-40c1-04e0-00d6-0d96ff87b48e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Arcade/Levels/Burst_Arcade_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "f078dc8f-49c8-9a7b-123d-2a811fe32aee",
+          "displayName": "Bulldog (Radiant Entertainment System) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/88d6deff-44f9-a259-227a-78a5a2253103_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Arcade/Levels/Burst_Arcade_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "c610dbc8-4a90-3c86-7f9e-bfa910f75bb9",
+      "displayName": "Bulldog (Aristocrate)",
+      "themeUuid": "38f408dc-416e-eda9-3ac5-21892c5f5ad1",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/ArtDeco/AssaultRifle_Burst_ArtDeco_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d2710367-42b2-cf4e-8b87-2f9d09a41261",
+          "displayName": "Bulldog (Aristocrate)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d2710367-42b2-cf4e-8b87-2f9d09a41261/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d2710367-42b2-cf4e-8b87-2f9d09a41261/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/ArtDeco/Chromas/Standard/AssaultRifle_Burst_ArtDeco_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3bf9d39f-46b4-ba23-e079-488d799b9416",
+          "displayName": "Bulldog (Aristocrate)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3bf9d39f-46b4-ba23-e079-488d799b9416/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/ArtDeco/Levels/AssaultRifle_Burst_ArtDeco_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "3f8be578-4e47-8afd-1e6c-cb9bb326e8b5",
+      "displayName": "Bulldog (Explorateur)",
+      "themeUuid": "24510d1a-4601-6a3e-fef0-99a09072f4cd",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3f8be578-4e47-8afd-1e6c-cb9bb326e8b5/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Astronaut/Burst_Astronaut_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2f2e67cb-4e55-2668-088c-6cbcf1009d7c",
+          "displayName": "Bulldog (Explorateur)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2f2e67cb-4e55-2668-088c-6cbcf1009d7c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Astronaut/Chromas/Standard/Burst_Astronaut_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "38dbcca0-493d-70eb-ef89-d281f33efc94",
+          "displayName": "Bulldog (Explorateur)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/38dbcca0-493d-70eb-ef89-d281f33efc94/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Astronaut/Levels/Burst_Astronaut_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "fbe04552-445f-f202-923e-6fbd61b7e2aa",
+      "displayName": "Bulldog (Spectrum)",
+      "themeUuid": "5b5a21ad-46a8-2e3f-f4c5-6c8c7392be69",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fbe04552-445f-f202-923e-6fbd61b7e2aa/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Atlas/Burst_Atlas_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8193b0d6-4f05-42f0-88fc-a9a8fca32f51",
+          "displayName": "Bulldog (Spectrum)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8193b0d6-4f05-42f0-88fc-a9a8fca32f51/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8193b0d6-4f05-42f0-88fc-a9a8fca32f51/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8193b0d6-4f05-42f0-88fc-a9a8fca32f51/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Atlas/Chromas/Standard/Burst_Atlas_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "ebdec31c-4241-295f-9647-97ae70639468",
+          "displayName": "Bulldog (Spectrum) niveau 4\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ebdec31c-4241-295f-9647-97ae70639468/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ebdec31c-4241-295f-9647-97ae70639468/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ebdec31c-4241-295f-9647-97ae70639468/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/bd0c312e-48f2-435c-f357-8eb4d2e6ae6d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Atlas/Chromas/v1/Burst_Atlas_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "a3ade5a6-4c44-83f5-d26d-4eb09dcf65f5",
+          "displayName": "Bulldog (Spectrum) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a3ade5a6-4c44-83f5-d26d-4eb09dcf65f5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a3ade5a6-4c44-83f5-d26d-4eb09dcf65f5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a3ade5a6-4c44-83f5-d26d-4eb09dcf65f5/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/39606be5-4f42-c771-4d90-77a39d102ec9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Atlas/Chromas/v2/Burst_Atlas_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "374c6007-431e-a9d9-279a-f7a9830e50e1",
+          "displayName": "Bulldog (Spectrum) niveau 4\n(variante 3 Violet/Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/374c6007-431e-a9d9-279a-f7a9830e50e1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/374c6007-431e-a9d9-279a-f7a9830e50e1/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/374c6007-431e-a9d9-279a-f7a9830e50e1/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fa7bb692-4d59-7576-d542-d1b0ece0b6ad_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Atlas/Chromas/V3/Burst_Atlas_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "43854c54-4263-571c-9be6-52b6d50d3190",
+          "displayName": "Bulldog (Spectrum)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/43854c54-4263-571c-9be6-52b6d50d3190/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0996bc0b-4936-d7ec-a155-0ca7e61d1d82_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Atlas/Levels/Burst_Atlas_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d022056d-4739-4cf3-4c18-c893948303a1",
+          "displayName": "Bulldog (Spectrum) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e4def0bf-449b-f4e9-a678-8c8d47c0e28b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Atlas/Levels/Burst_Atlas_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "674ca080-4624-3550-d1f3-dfac17d40918",
+          "displayName": "Bulldog (Spectrum) niveau 3",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/674ca080-4624-3550-d1f3-dfac17d40918/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/622bdacc-4827-c471-f72e-8c861a80201d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Atlas/Levels/Burst_Atlas_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "c6ad47ec-4078-2902-fdfe-2eae352bf4f4",
+          "displayName": "Bulldog (Spectrum) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c415f590-41f9-30ca-53fb-beaeac071832_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Atlas/Levels/Burst_Atlas_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "f77bd50d-422e-963c-1fd3-119f80c57a74",
+      "displayName": "Bulldog (Brigade bourdonnante)",
+      "themeUuid": "21f74546-490a-fc6e-7504-0395b9cb6370",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/f77bd50d-422e-963c-1fd3-119f80c57a74/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/BeeaTeam/Burst_BeeaTeam_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4da2eae2-4c02-bf35-ddeb-d8814ca59a97",
+          "displayName": "Bulldog (Brigade bourdonnante)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4da2eae2-4c02-bf35-ddeb-d8814ca59a97/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4da2eae2-4c02-bf35-ddeb-d8814ca59a97/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/BeeaTeam/Chromas/Standard/Burst_BeeaTeam_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a50c3e2a-45dd-0618-2279-2e8ecfc0b66c",
+          "displayName": "Bulldog (Brigade bourdonnante)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a50c3e2a-45dd-0618-2279-2e8ecfc0b66c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/BeeaTeam/Levels/Burst_BeeaTeam_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9d806fb5-44e0-4756-977e-188df6473fe0",
+      "displayName": "Bulldog (Bourreau des cœurs)",
+      "themeUuid": "ec9cdaae-4126-8d7a-dbe8-118ba255909e",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9d806fb5-44e0-4756-977e-188df6473fe0/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Blackletter/Burst_Blackletter_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8c745262-41fb-c85f-44ac-0e9d924569e4",
+          "displayName": "Bulldog (Bourreau des cœurs)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8c745262-41fb-c85f-44ac-0e9d924569e4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8c745262-41fb-c85f-44ac-0e9d924569e4/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Blackletter/Chromas/Standard/Burst_Blackletter_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4504f23a-4d92-0587-485e-35951402eeda",
+          "displayName": "Bulldog (Bourreau des cœurs)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4504f23a-4d92-0587-485e-35951402eeda/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Blackletter/Levels/Burst_Blackletter_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "86c905f3-46d4-762a-e75a-4d8412c311e0",
+      "displayName": "Bulldog (Ouverture)",
+      "themeUuid": "13f016d1-4815-3b33-27a4-fb938bc7ab7a",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/86c905f3-46d4-762a-e75a-4d8412c311e0/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Camera/Burst_Camera_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a171abef-4fec-8406-84e2-e79efe306d68",
+          "displayName": "Bulldog (Ouverture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a171abef-4fec-8406-84e2-e79efe306d68/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a171abef-4fec-8406-84e2-e79efe306d68/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Camera/Chromas/Standard/Burst_Camera_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a09f3aeb-4663-183c-bed9-9b8e3e153cf7",
+          "displayName": "Bulldog (Ouverture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a09f3aeb-4663-183c-bed9-9b8e3e153cf7/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Camera/Levels/Burst_Camera_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "aaafdaa2-429d-110c-3dd7-d4b975f1cdc8",
+      "displayName": "Bulldog (Tactijeu)",
+      "themeUuid": "ba0640f1-41f0-849b-b16a-baaf7607b9b2",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/aaafdaa2-429d-110c-3dd7-d4b975f1cdc8/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Chibi/Burst_Chibi_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6e6e2dbc-4c96-a404-0a0f-e38fb68f51d3",
+          "displayName": "Bulldog (Tactijeu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6e6e2dbc-4c96-a404-0a0f-e38fb68f51d3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6e6e2dbc-4c96-a404-0a0f-e38fb68f51d3/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Chibi/Chromas/Standard/Burst_Chibi_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0800bfa3-40ac-3201-2542-62a88daf268b",
+          "displayName": "Bulldog (Tactijeu)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0800bfa3-40ac-3201-2542-62a88daf268b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Chibi/Levels/Burst_Chibi_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9c056543-44af-0d36-d0f7-1196d93d264e",
+      "displayName": "Bulldog (Attaquant)",
+      "themeUuid": "dc95406f-43c3-c113-1a37-8b9a9abc9708",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9c056543-44af-0d36-d0f7-1196d93d264e/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cleats/Burst_Cleats_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "560ca9c8-4442-cd13-0fee-288995026741",
+          "displayName": "Bulldog (Attaquant)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/560ca9c8-4442-cd13-0fee-288995026741/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/560ca9c8-4442-cd13-0fee-288995026741/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/560ca9c8-4442-cd13-0fee-288995026741/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cleats/Chromas/Standard/Burst_Cleats_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "c7abcab1-4fba-0ba9-e312-919032b5edf0",
+          "displayName": "Bulldog (Attaquant)\n(variante 1 Vert/Jaune/Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c7abcab1-4fba-0ba9-e312-919032b5edf0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c7abcab1-4fba-0ba9-e312-919032b5edf0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c7abcab1-4fba-0ba9-e312-919032b5edf0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cleats/Chromas/v1/Burst_Cleats_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "8467eea0-4954-c22f-b0ad-d3b517c2e298",
+          "displayName": "Bulldog (Attaquant)\n(variante 2 Rose/Turquoise/Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8467eea0-4954-c22f-b0ad-d3b517c2e298/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8467eea0-4954-c22f-b0ad-d3b517c2e298/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8467eea0-4954-c22f-b0ad-d3b517c2e298/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cleats/Chromas/v2/Burst_Cleats_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "9cc6710d-4db6-9b39-4d3f-bf9769db5537",
+          "displayName": "Bulldog (Attaquant)\n(variante 3 Bleu/Blanc/Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9cc6710d-4db6-9b39-4d3f-bf9769db5537/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9cc6710d-4db6-9b39-4d3f-bf9769db5537/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9cc6710d-4db6-9b39-4d3f-bf9769db5537/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cleats/Chromas/V3/Burst_Cleats_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "842dbe37-4bc7-95b3-26d7-a0af65615d5e",
+          "displayName": "Bulldog (Attaquant)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/842dbe37-4bc7-95b3-26d7-a0af65615d5e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cleats/Levels/Burst_Cleats_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8594c025-4c96-e258-13da-53a2f747bca2",
+      "displayName": "Bulldog (Pierre runique)",
+      "themeUuid": "65d8e156-4e4c-f9de-844f-3fa05a9624e4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8594c025-4c96-e258-13da-53a2f747bca2/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Codex/Burst_Codex_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c4508633-4701-a745-251d-0bb0884f14ef",
+          "displayName": "Bulldog (Pierre runique)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c4508633-4701-a745-251d-0bb0884f14ef/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Codex/Chromas/Standard/Burst_Codex_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "85e74e8f-4360-2961-dd91-52bb854e495f",
+          "displayName": "Bulldog (Pierre runique)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/85e74e8f-4360-2961-dd91-52bb854e495f/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Codex/Levels/Burst_Codex_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b6ba04a0-4c06-6bfe-2f03-a393be1544a9",
+      "displayName": "Bulldog (Phaseguard)",
+      "themeUuid": "ac741228-4609-cb05-4320-cf8cd3610f87",
+      "contentTierUuid": "411e4a55-4e59-7757-41f0-86a53f101bb5",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b6ba04a0-4c06-6bfe-2f03-a393be1544a9/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/b6ba04a0-4c06-6bfe-2f03-a393be1544a9/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Commando/Burst_Commando_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d65d4b80-451a-403b-7f81-4882a79b4663",
+          "displayName": "Bulldog (Phaseguard)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d65d4b80-451a-403b-7f81-4882a79b4663/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d65d4b80-451a-403b-7f81-4882a79b4663/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d65d4b80-451a-403b-7f81-4882a79b4663/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Commando/Chromas/Standard/Burst_Commando_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "37125ece-4b2f-12f6-da13-03ab3e6e34a1",
+          "displayName": "Bulldog (Phaseguard) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/37125ece-4b2f-12f6-da13-03ab3e6e34a1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/37125ece-4b2f-12f6-da13-03ab3e6e34a1/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/37125ece-4b2f-12f6-da13-03ab3e6e34a1/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ad91c09d-43f5-e00b-5dba-f593e1d4f9bd_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Commando/Chromas/v1/Burst_Commando_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "69eb5b79-4c8c-14c1-76cd-a09bae7713dd",
+          "displayName": "Bulldog (Phaseguard) niveau 4\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/69eb5b79-4c8c-14c1-76cd-a09bae7713dd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/69eb5b79-4c8c-14c1-76cd-a09bae7713dd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/69eb5b79-4c8c-14c1-76cd-a09bae7713dd/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1ad3fbd7-4772-bd73-cb32-dbb766e18a47_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Commando/Chromas/v2/Burst_Commando_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "2320c536-4106-db14-fffc-59ae310bf247",
+          "displayName": "Bulldog (Phaseguard) niveau 4\n(variante 3 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2320c536-4106-db14-fffc-59ae310bf247/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2320c536-4106-db14-fffc-59ae310bf247/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2320c536-4106-db14-fffc-59ae310bf247/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/bf7f0f14-44d7-a710-5131-db8199669be6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Commando/Chromas/V3/Burst_Commando_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f03ef486-4bd6-3785-a5c1-f8b4fdcd4152",
+          "displayName": "Bulldog (Phaseguard)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f03ef486-4bd6-3785-a5c1-f8b4fdcd4152/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ab9c3629-4812-29ca-5059-80b776720931_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Commando/Levels/Burst_Commando_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "f7ec079b-421d-fcbf-964c-b1acde36f645",
+          "displayName": "Bulldog (Phaseguard) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e1d3c94e-4bf5-c1ff-2743-82a9da9fcb3f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Commando/Levels/Burst_Commando_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "37847ff4-409a-1664-f7c5-16a68c60f09a",
+          "displayName": "Bulldog (Phaseguard) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/37847ff4-409a-1664-f7c5-16a68c60f09a/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a23d67d6-4bee-6291-153c-56979341e0c7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Commando/Levels/Burst_Commando_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "04ab2e57-4516-8b28-4f17-f088e140033e",
+          "displayName": "Bulldog (Phaseguard) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9ab3fe59-4530-0792-16f3-8b85644a11f3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Commando/Levels/Burst_Commando_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d6d62966-4fdb-267a-ee37-35a79143248b",
+      "displayName": "Bulldog (Contre-culture)",
+      "themeUuid": "c24442c0-4efe-ff73-535c-dc96cf65dd5c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d6d62966-4fdb-267a-ee37-35a79143248b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Counterculture/Burst_Counterculture_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "383d9052-4fe4-aabc-184b-d9b53cf8fce9",
+          "displayName": "Bulldog (Contre-culture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/383d9052-4fe4-aabc-184b-d9b53cf8fce9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/383d9052-4fe4-aabc-184b-d9b53cf8fce9/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Counterculture/Chromas/Standard/Burst_Counterculture_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "2f04b039-4e8c-bd40-34e0-4a9fda79fa22",
+          "displayName": "Bulldog (Contre-culture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/2f04b039-4e8c-bd40-34e0-4a9fda79fa22/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Counterculture/Levels/Burst_Counterculture_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "970e24f7-41df-3ebb-c668-61a180d9d2f2",
+      "displayName": "Bulldog (Nocturnum)",
+      "themeUuid": "e7d48531-4cc0-59c1-f1ac-64af3f3bc572",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/970e24f7-41df-3ebb-c668-61a180d9d2f2/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/970e24f7-41df-3ebb-c668-61a180d9d2f2/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Coven/Burst_Coven_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "75f1f419-44d7-e378-9db0-d496066fd7bb",
+          "displayName": "Bulldog (Nocturnum)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/75f1f419-44d7-e378-9db0-d496066fd7bb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/75f1f419-44d7-e378-9db0-d496066fd7bb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/75f1f419-44d7-e378-9db0-d496066fd7bb/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Coven/Chromas/Standard/Burst_Coven_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "397b990c-46df-4ebb-5dda-779082e408da",
+          "displayName": "Bulldog (Nocturnum) niveau 4\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/397b990c-46df-4ebb-5dda-779082e408da/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/397b990c-46df-4ebb-5dda-779082e408da/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/397b990c-46df-4ebb-5dda-779082e408da/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3699b504-4c2b-681f-833b-fe805d99f09f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Coven/Chromas/v1/Burst_Coven_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "dda610cb-4e70-85f3-e119-b69155417830",
+          "displayName": "Bulldog (Nocturnum) niveau 4\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/dda610cb-4e70-85f3-e119-b69155417830/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/dda610cb-4e70-85f3-e119-b69155417830/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/dda610cb-4e70-85f3-e119-b69155417830/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6e6724d5-404e-d4d6-89ff-989cde00b963_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Coven/Chromas/v2/Burst_Coven_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "11a2dfbe-4f2e-e264-33c2-8ca412ee6b42",
+          "displayName": "Bulldog (Nocturnum) niveau 4\n(variante 3 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/11a2dfbe-4f2e-e264-33c2-8ca412ee6b42/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/11a2dfbe-4f2e-e264-33c2-8ca412ee6b42/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/11a2dfbe-4f2e-e264-33c2-8ca412ee6b42/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/87bb2dc2-43a8-2332-46f7-538a30e4b1d2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Coven/Chromas/V3/Burst_Coven_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b6467a97-4f1d-539e-1ae8-b8a1dfb5fd3c",
+          "displayName": "Bulldog (Nocturnum)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b6467a97-4f1d-539e-1ae8-b8a1dfb5fd3c/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e79872a6-40eb-10e0-def0-669fedcfb5dc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Coven/Levels/Burst_Coven_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "fa221640-44c0-e82f-2506-728139a0ad90",
+          "displayName": "Bulldog (Nocturnum) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d9c22634-4e09-2b4f-7e0c-9e90a548fedd_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Coven/Levels/Burst_Coven_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "d8b9805b-46f5-38ff-cddf-bca8b6c032bd",
+          "displayName": "Bulldog (Nocturnum) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d8b9805b-46f5-38ff-cddf-bca8b6c032bd/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f4f846fb-433a-ac79-e4a7-dea1c7059e4c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Coven/Levels/Burst_Coven_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "23049daa-4223-7abe-3352-ce82dae5e9c5",
+          "displayName": "Bulldog (Nocturnum) niveau 4\nTuez une fois chaque adversaire pour donner sa forme ultime à votre finition.",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ff6b1129-46e1-8595-2f53-3c8bf7f7ec10_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Coven/Levels/Burst_Coven_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4be8d0e7-48e0-eaa3-1db4-85a14094f369",
+      "displayName": "Bulldog (Ville souterraine)",
+      "themeUuid": "6923b479-4b54-28b6-a70c-dbbb318145ad",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4be8d0e7-48e0-eaa3-1db4-85a14094f369/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/4be8d0e7-48e0-eaa3-1db4-85a14094f369/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cybercity/Burst_Cybercity_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a4621718-48a3-f8ce-d17c-d39ad4c085f0",
+          "displayName": "Bulldog (Ville souterraine)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a4621718-48a3-f8ce-d17c-d39ad4c085f0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a4621718-48a3-f8ce-d17c-d39ad4c085f0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cybercity/Chromas/Standard/Burst_Cybercity_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "89b68205-4fe5-2434-a731-e5a734bd4a7a",
+          "displayName": "Bulldog (Ville souterraine)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/89b68205-4fe5-2434-a731-e5a734bd4a7a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cybercity/Levels/Burst_Cybercity_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "285c6731-4451-b930-7a3d-c5a736d00f5e",
+      "displayName": "Bulldog (Glitchpop)",
+      "themeUuid": "5b014f36-414b-4703-9c65-1876c630feaa",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/285c6731-4451-b930-7a3d-c5a736d00f5e/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cyberpunk/AssaultRifle_Burst_Cyberpunk_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f7dd47c7-467b-36f1-0d13-beb53372b666",
+          "displayName": "Bulldog (Glitchpop)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f7dd47c7-467b-36f1-0d13-beb53372b666/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f7dd47c7-467b-36f1-0d13-beb53372b666/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f7dd47c7-467b-36f1-0d13-beb53372b666/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cyberpunk/Chromas/Standard/AssaultRifle_Burst_Cyberpunk_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "e4afd93d-43f4-948c-7e6a-f88b1549409b",
+          "displayName": "Bulldog (Glitchpop) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e4afd93d-43f4-948c-7e6a-f88b1549409b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e4afd93d-43f4-948c-7e6a-f88b1549409b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e4afd93d-43f4-948c-7e6a-f88b1549409b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cyberpunk/Chromas/Blue/AssaultRifle_Burst_Cyberpunk_Blue_PrimaryAsset"
+        },
+        {
+          "uuid": "0d00f717-409f-abb7-b5e1-9cbd3dcd2752",
+          "displayName": "Bulldog (Glitchpop) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0d00f717-409f-abb7-b5e1-9cbd3dcd2752/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0d00f717-409f-abb7-b5e1-9cbd3dcd2752/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0d00f717-409f-abb7-b5e1-9cbd3dcd2752/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cyberpunk/Chromas/Red/AssaultRifle_Burst_Cyberpunk_Red_PrimaryAsset"
+        },
+        {
+          "uuid": "293d9ddb-41ef-387f-3d71-908384b6ad87",
+          "displayName": "Bulldog (Glitchpop) niveau 4\n(variante 3 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/293d9ddb-41ef-387f-3d71-908384b6ad87/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/293d9ddb-41ef-387f-3d71-908384b6ad87/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/293d9ddb-41ef-387f-3d71-908384b6ad87/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cyberpunk/Chromas/Gold/AssaultRifle_Burst_Cyberpunk_Gold_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4a5ad8cd-4684-a47c-b393-ce9c6760d21a",
+          "displayName": "Bulldog (Glitchpop)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4a5ad8cd-4684-a47c-b393-ce9c6760d21a/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9141f4e9-478f-46eb-a428-c32a67826aa6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cyberpunk/AssaultRifle_Burst_Cyberpunk_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "44c5b5cc-4931-b4af-1a4a-17ab9ec2b89e",
+          "displayName": "Bulldog (Glitchpop) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/44c5b5cc-4931-b4af-1a4a-17ab9ec2b89e/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/151e7224-3c84-45d1-8b20-6e55535f6d31_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cyberpunk/AssaultRifle_Burst_Cyberpunk_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "49ea5740-4731-01c5-a68e-cba6b86b1049",
+          "displayName": "Bulldog (Glitchpop) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/49ea5740-4731-01c5-a68e-cba6b86b1049/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/83d1bb88-22de-480e-a6d2-bc05e2ea70bb_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cyberpunk/AssaultRifle_Burst_Cyberpunk_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "d83d2283-4c50-ee72-3a8b-51b6a05aed15",
+          "displayName": "Bulldog (Glitchpop) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d83d2283-4c50-ee72-3a8b-51b6a05aed15/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0f7a9f4a-4782-4783-8d7e-7da7c56384d4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Cyberpunk/AssaultRifle_Burst_Cyberpunk_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8a50f044-4b00-0baa-c088-9eb666b4699d",
+      "displayName": "Bulldog (Braise ardente)",
+      "themeUuid": "30e8cfec-4bc8-b1e0-f435-f4833c3e9208",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8a50f044-4b00-0baa-c088-9eb666b4699d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/DarkKnight/Burst_DarkKnight_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a5211ecf-4bac-2dc7-c70f-339039c973e9",
+          "displayName": "Bulldog (Braise ardente)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a5211ecf-4bac-2dc7-c70f-339039c973e9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a5211ecf-4bac-2dc7-c70f-339039c973e9/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/DarkKnight/Chromas/Standard/Burst_DarkKnight_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f526405d-4f14-88f3-ea25-d092ba8da95e",
+          "displayName": "Bulldog (Braise ardente)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f526405d-4f14-88f3-ea25-d092ba8da95e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/DarkKnight/Levels/Burst_DarkKnight_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "c5676fb6-4268-d5bd-f2f7-f3a1334ca8b8",
+      "displayName": "Bulldog (Prélude au chaos)",
+      "themeUuid": "5a96cfc8-474b-9cd8-a8e8-ed970b3b8411",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/c5676fb6-4268-d5bd-f2f7-f3a1334ca8b8/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/c5676fb6-4268-d5bd-f2f7-f3a1334ca8b8/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Demonstone2/Burst_Demonstone2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8de7e2bf-49b5-7e7a-b732-ff9b5908a742",
+          "displayName": "Bulldog (Prélude au chaos)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8de7e2bf-49b5-7e7a-b732-ff9b5908a742/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8de7e2bf-49b5-7e7a-b732-ff9b5908a742/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8de7e2bf-49b5-7e7a-b732-ff9b5908a742/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Demonstone2/Chromas/Standard/Burst_Demonstone2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "6fd2f170-4cac-89e3-6624-3f9ae54075e0",
+          "displayName": "Bulldog (Prélude au chaos) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6fd2f170-4cac-89e3-6624-3f9ae54075e0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6fd2f170-4cac-89e3-6624-3f9ae54075e0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6fd2f170-4cac-89e3-6624-3f9ae54075e0/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/298dfaf9-4516-4112-5526-7aa3f5b5b06b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Demonstone2/Chromas/v1/Burst_Demonstone2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "b1a56b78-4266-b0a2-2d7d-f4aac4deec18",
+          "displayName": "Bulldog (Prélude au chaos) niveau 4\n(variante 2 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b1a56b78-4266-b0a2-2d7d-f4aac4deec18/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b1a56b78-4266-b0a2-2d7d-f4aac4deec18/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b1a56b78-4266-b0a2-2d7d-f4aac4deec18/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3ce87f25-4235-6518-52a7-fd8296bf6b05_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Demonstone2/Chromas/v2/Burst_Demonstone2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "461e98c4-4104-5227-d802-4c8ef1bf17c4",
+          "displayName": "Bulldog (Prélude au chaos) niveau 4\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/461e98c4-4104-5227-d802-4c8ef1bf17c4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/461e98c4-4104-5227-d802-4c8ef1bf17c4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/461e98c4-4104-5227-d802-4c8ef1bf17c4/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4b74d320-4bae-3ab4-29e8-0c9a40452630_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Demonstone2/Chromas/V3/Burst_Demonstone2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "af913ea1-476e-467a-86e5-f797b1c323a5",
+          "displayName": "Bulldog (Prélude au chaos)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/af913ea1-476e-467a-86e5-f797b1c323a5/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f4506dbd-4e28-46af-7e89-6c95d67d9f07_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Demonstone2/Levels/Burst_Demonstone2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d4def277-4522-2549-e5e9-05a1f029a6a6",
+          "displayName": "Bulldog (Prélude au chaos) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/cd418d98-46c3-bb95-e301-39aa31239772_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Demonstone2/Levels/Burst_Demonstone2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "cf29141b-486a-39cb-8002-a3976762798f",
+          "displayName": "Bulldog (Prélude au chaos) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/cf29141b-486a-39cb-8002-a3976762798f/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/552a4424-49ab-8401-4b3c-77967f327dd8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Demonstone2/Levels/Burst_Demonstone2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "2b6edc6f-42d2-3d74-04b9-3eb83b855067",
+          "displayName": "Bulldog (Prélude au chaos) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/2b884edf-48dc-e596-a38b-2a93cad90ec2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Demonstone2/Levels/Burst_Demonstone2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "23399beb-4828-0d03-ae24-aaa62b08f796",
+      "displayName": "Bulldog (Rush)",
+      "themeUuid": "00347950-4139-2bc2-b594-bc8293ce9342",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/23399beb-4828-0d03-ae24-aaa62b08f796/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Electroflux/AssaultRifle_Burst_Electroflux_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f9ec80f9-498b-fab1-cc27-9c867aa1de49",
+          "displayName": "Bulldog (Rush)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f9ec80f9-498b-fab1-cc27-9c867aa1de49/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f9ec80f9-498b-fab1-cc27-9c867aa1de49/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Electroflux/Chromas/Standard/AssaultRifle_Burst_Electroflux_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8e032580-414f-7ab4-7efb-f6ac7d2bc2f1",
+          "displayName": "Bulldog (Rush)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8e032580-414f-7ab4-7efb-f6ac7d2bc2f1/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Electroflux/Levels/AssaultRifle_Burst_Electroflux_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e7a07081-4e80-7195-9df5-6d9ddbe597f9",
+      "displayName": "Bulldog (Chromedek)",
+      "themeUuid": "e8223acc-4d50-f83e-0029-7d9fd9bf9bc1",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e7a07081-4e80-7195-9df5-6d9ddbe597f9/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Engine/Burst_Engine_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f396b220-4a4e-b81b-663d-aaac2cf0c2dd",
+          "displayName": "Bulldog (Chromedek)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f396b220-4a4e-b81b-663d-aaac2cf0c2dd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f396b220-4a4e-b81b-663d-aaac2cf0c2dd/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Engine/Chromas/Standard/Burst_Engine_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "5939a264-43a1-caf8-cddf-f8ad017f8787",
+          "displayName": "Bulldog (Chromedek)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5939a264-43a1-caf8-cddf-f8ad017f8787/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Engine/Levels/Burst_Engine_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "706dcacc-432b-47e5-3cf7-2db432a8afe6",
+      "displayName": "Bulldog (Vélocité)",
+      "themeUuid": "c9fd69be-4bfd-b808-63f1-128cac4b35e5",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/706dcacc-432b-47e5-3cf7-2db432a8afe6/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Fiberglass/Burst_Fiberglass_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e4e3aa91-444c-38d4-f485-e9a562d32d95",
+          "displayName": "Bulldog (Vélocité)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e4e3aa91-444c-38d4-f485-e9a562d32d95/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e4e3aa91-444c-38d4-f485-e9a562d32d95/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e4e3aa91-444c-38d4-f485-e9a562d32d95/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Fiberglass/Chromas/Standard/Burst_Fiberglass_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "9699b440-42d0-e152-c5fc-6682e11bdc5c",
+          "displayName": "Bulldog (Vélocité)\n(variante 1 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9699b440-42d0-e152-c5fc-6682e11bdc5c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9699b440-42d0-e152-c5fc-6682e11bdc5c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9699b440-42d0-e152-c5fc-6682e11bdc5c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Fiberglass/Chromas/v1/Burst_Fiberglass_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "3f5b1b3b-4cb7-6e6c-6fd4-708482637800",
+          "displayName": "Bulldog (Vélocité)\n(variante 2 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3f5b1b3b-4cb7-6e6c-6fd4-708482637800/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3f5b1b3b-4cb7-6e6c-6fd4-708482637800/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3f5b1b3b-4cb7-6e6c-6fd4-708482637800/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Fiberglass/Chromas/v2/Burst_Fiberglass_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "0d5e6ad0-468d-15c6-21f0-b68c81f9d488",
+          "displayName": "Bulldog (Vélocité)\n(variante 3 Aigue-marine)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0d5e6ad0-468d-15c6-21f0-b68c81f9d488/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0d5e6ad0-468d-15c6-21f0-b68c81f9d488/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0d5e6ad0-468d-15c6-21f0-b68c81f9d488/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Fiberglass/Chromas/v3/Burst_Fiberglass_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7561a8e0-4cc4-8644-a88b-48a88790b36f",
+          "displayName": "Bulldog (Vélocité)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7561a8e0-4cc4-8644-a88b-48a88790b36f/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Fiberglass/Levels/Burst_Fiberglass_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "cc8ad3b2-4b0f-6e8d-eae0-c98cc55d002f",
+      "displayName": "Bulldog (Scintillement)",
+      "themeUuid": "6ab0c873-4020-63a7-a66f-09bc67506ca2",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cc8ad3b2-4b0f-6e8d-eae0-c98cc55d002f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Glitter/Burst_Glitter_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "25b03c95-43d9-a69c-22e7-06b47184dd57",
+          "displayName": "Bulldog (Scintillement)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/25b03c95-43d9-a69c-22e7-06b47184dd57/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/25b03c95-43d9-a69c-22e7-06b47184dd57/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/25b03c95-43d9-a69c-22e7-06b47184dd57/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Glitter/Chromas/Standard/Burst_Glitter_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "bf683155-49c6-9ff5-7812-8db4099199f0",
+          "displayName": "Bulldog (Scintillement)\n(variante 1 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bf683155-49c6-9ff5-7812-8db4099199f0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bf683155-49c6-9ff5-7812-8db4099199f0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/bf683155-49c6-9ff5-7812-8db4099199f0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Glitter/Chromas/v1/Burst_Glitter_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "46b84788-444d-d7d2-6bb5-949fad03d3e3",
+          "displayName": "Bulldog (Scintillement)\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/46b84788-444d-d7d2-6bb5-949fad03d3e3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/46b84788-444d-d7d2-6bb5-949fad03d3e3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/46b84788-444d-d7d2-6bb5-949fad03d3e3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Glitter/Chromas/v2/Burst_Glitter_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "1e6fbab8-41fe-4614-0b45-568675825c79",
+          "displayName": "Bulldog (Scintillement)\n(variante 3 Turquoise)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1e6fbab8-41fe-4614-0b45-568675825c79/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1e6fbab8-41fe-4614-0b45-568675825c79/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1e6fbab8-41fe-4614-0b45-568675825c79/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Glitter/Chromas/V3/Burst_Glitter_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "41a683ee-4d8d-51cb-db4f-06bfb2371d86",
+          "displayName": "Bulldog (Scintillement)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/41a683ee-4d8d-51cb-db4f-06bfb2371d86/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Glitter/Levels/Burst_Glitter_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0f2da2b0-41cc-2162-cb46-adad9ae4fdd1",
+      "displayName": "Bulldog (Numhex)",
+      "themeUuid": "e69b5e5b-453d-6666-aded-7494c2d1b9fc",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0f2da2b0-41cc-2162-cb46-adad9ae4fdd1/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Hex/Burst_Hex_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ce2f7e2c-456f-344e-d800-2a86eae7cdca",
+          "displayName": "Bulldog (Numhex)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ce2f7e2c-456f-344e-d800-2a86eae7cdca/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ce2f7e2c-456f-344e-d800-2a86eae7cdca/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ce2f7e2c-456f-344e-d800-2a86eae7cdca/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Hex/Chromas/Standard/Burst_Hex_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "cb3fde52-4c2d-9097-1be7-22afdbf4d181",
+          "displayName": "Bulldog (Numhex)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cb3fde52-4c2d-9097-1be7-22afdbf4d181/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cb3fde52-4c2d-9097-1be7-22afdbf4d181/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/cb3fde52-4c2d-9097-1be7-22afdbf4d181/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Hex/Chromas/v1/Burst_Hex_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "6202ae37-40cf-7b35-0206-cbb9fc02cda5",
+          "displayName": "Bulldog (Numhex)\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6202ae37-40cf-7b35-0206-cbb9fc02cda5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6202ae37-40cf-7b35-0206-cbb9fc02cda5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6202ae37-40cf-7b35-0206-cbb9fc02cda5/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Hex/Chromas/v2/Burst_Hex_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "f040a205-4a97-3a24-679b-1fba01be3955",
+          "displayName": "Bulldog (Numhex)\n(variante 3 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f040a205-4a97-3a24-679b-1fba01be3955/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f040a205-4a97-3a24-679b-1fba01be3955/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f040a205-4a97-3a24-679b-1fba01be3955/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Hex/Chromas/V3/Burst_Hex_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c58376cc-41f8-ba0b-c42d-319b135ab994",
+          "displayName": "Bulldog (Numhex)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c58376cc-41f8-ba0b-c42d-319b135ab994/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Hex/Levels/Burst_Hex_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "3d8029c6-472e-c941-fa7b-0bab9e255600",
+      "displayName": "Bulldog (Hiéroglyphes)",
+      "themeUuid": "e642dcd9-475a-cd9c-6dc1-54b530c8645c",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3d8029c6-472e-c941-fa7b-0bab9e255600/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Hieroglyphs/Burst_Hieroglyphs_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ac283115-4175-6076-7fde-71a9baf54566",
+          "displayName": "Bulldog (Hiéroglyphes)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ac283115-4175-6076-7fde-71a9baf54566/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ac283115-4175-6076-7fde-71a9baf54566/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Hieroglyphs/Chromas/Standard/Burst_Hieroglyphs_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "b182db0d-4289-24b4-2a73-1dba55f76070",
+          "displayName": "Bulldog (Hiéroglyphes)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b182db0d-4289-24b4-2a73-1dba55f76070/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Hieroglyphs/Levels/Burst_Hieroglyphs_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e931dcc8-48d4-f895-48b1-199ec573625b",
+      "displayName": "Bulldog (Horizon)",
+      "themeUuid": "c2c30214-4209-75e0-7eac-7ba592ce66ad",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e931dcc8-48d4-f895-48b1-199ec573625b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Horizon/Burst_Horizon_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "383ec3db-4a96-9cb3-473f-849185937687",
+          "displayName": "Bulldog (Horizon)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/383ec3db-4a96-9cb3-473f-849185937687/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Horizon/Chromas/Standard/Burst_Horizon_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "079f6046-49c3-72e3-bcfa-a5b6d01910dc",
+          "displayName": "Bulldog (Horizon)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/079f6046-49c3-72e3-bcfa-a5b6d01910dc/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Horizon/Levels/Burst_Horizon_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1cbbdd73-4b22-4faa-acd0-0a9d6ea1963f",
+      "displayName": "Bulldog (Marché.noir)",
+      "themeUuid": "9bcc3388-4a9d-7c7e-443d-64bb38f88d2f",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1cbbdd73-4b22-4faa-acd0-0a9d6ea1963f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Infantry2/Burst_Infantry2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "12ae9457-43c9-ec30-c37d-f8a52f4ae3d1",
+          "displayName": "Bulldog (Marché.noir)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/12ae9457-43c9-ec30-c37d-f8a52f4ae3d1/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Infantry2/Chromas/Standard/Burst_Infantry2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "40fd5a8c-4900-93fc-62c2-aba5c7d208d2",
+          "displayName": "Bulldog (Marché.noir)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/40fd5a8c-4900-93fc-62c2-aba5c7d208d2/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fc2a7fff-4873-6a87-0f10-899c6ca81a99_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Infantry2/Levels/Burst_Infantry2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "0a6f26fc-4fb6-eb60-7e92-32bb0930c073",
+          "displayName": "Bulldog (Marché.noir) niveau 2\nLe skin change selon que vous êtes attaquant ou défenseur.",
+          "levelItem": "EEquippableSkinLevelItem::AttackerDefenderSwap",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/7e3b5589-4687-ee9f-b1ee-2b8ef76a2beb_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Infantry2/Levels/Burst_Infantry2_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0f992024-4c40-2ead-311a-79bc37e5e61b",
+      "displayName": "Bulldog (Liens)",
+      "themeUuid": "169371af-4363-3995-0a32-f7bd44c55ccf",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0f992024-4c40-2ead-311a-79bc37e5e61b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/InnerRage/Burst_InnerRage_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "be6ad1e2-45b8-c342-ef83-0fa78db1e02c",
+          "displayName": "Bulldog (Liens)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/be6ad1e2-45b8-c342-ef83-0fa78db1e02c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/InnerRage/Chromas/Standard/Burst_InnerRage_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ae2bac38-48c3-a8b0-e843-eea29fab477b",
+          "displayName": "Bulldog (Liens)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ae2bac38-48c3-a8b0-e843-eea29fab477b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/InnerRage/Levels/Burst_InnerRage_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a6d3db82-4d02-058e-feda-deabd6b52b46",
+      "displayName": "Bulldog (Enchevêtrement)",
+      "themeUuid": "789fd8ce-4dc6-d602-1036-53846e76b65d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a6d3db82-4d02-058e-feda-deabd6b52b46/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Intertwine/Burst_Intertwine_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f1a66c3f-4a10-107f-3c4f-909e4e0f62c9",
+          "displayName": "Bulldog (Enchevêtrement)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f1a66c3f-4a10-107f-3c4f-909e4e0f62c9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f1a66c3f-4a10-107f-3c4f-909e4e0f62c9/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Intertwine/Chromas/Standard/Burst_Intertwine_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "22d83758-4fab-d5e4-76f4-a2886ce35a54",
+          "displayName": "Bulldog (Enchevêtrement)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/22d83758-4fab-d5e4-76f4-a2886ce35a54/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Intertwine/Levels/Burst_Intertwine_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0101d1a9-42c7-0e85-806b-d2966d9fabc6",
+      "displayName": "Bulldog (Vague rétro)",
+      "themeUuid": "7aee438c-4db7-92a5-edd7-ae8fff60089b",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0101d1a9-42c7-0e85-806b-d2966d9fabc6/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Jetski/Burst_Jetski_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f8f65a5f-4150-2a33-1dde-97957681b429",
+          "displayName": "Bulldog (Vague rétro)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f8f65a5f-4150-2a33-1dde-97957681b429/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f8f65a5f-4150-2a33-1dde-97957681b429/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f8f65a5f-4150-2a33-1dde-97957681b429/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Jetski/Chromas/Standard/Burst_Jetski_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "10ccfc75-4bca-d958-174d-39b17658de80",
+          "displayName": "Bulldog (Vague rétro)\n(variante 1 Bleu marine)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/10ccfc75-4bca-d958-174d-39b17658de80/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/10ccfc75-4bca-d958-174d-39b17658de80/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/10ccfc75-4bca-d958-174d-39b17658de80/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Jetski/Chromas/v1/Burst_Jetski_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "f9ee2f6c-418d-4dae-6056-c7a4cfa83a8e",
+          "displayName": "Bulldog (Vague rétro)\n(variante 2 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f9ee2f6c-418d-4dae-6056-c7a4cfa83a8e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f9ee2f6c-418d-4dae-6056-c7a4cfa83a8e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f9ee2f6c-418d-4dae-6056-c7a4cfa83a8e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Jetski/Chromas/v2/Burst_Jetski_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "f8d4a48e-488e-030e-4910-d1a775807db9",
+          "displayName": "Bulldog (Vague rétro)\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f8d4a48e-488e-030e-4910-d1a775807db9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f8d4a48e-488e-030e-4910-d1a775807db9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f8d4a48e-488e-030e-4910-d1a775807db9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Jetski/Chromas/V3/Burst_Jetski_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "dd271d0b-4730-ec9b-604a-0682e1fe86de",
+          "displayName": "Bulldog (Vague rétro)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/dd271d0b-4730-ec9b-604a-0682e1fe86de/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Jetski/Levels/Burst_Jetski_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "f476843a-4fc1-32a1-5e32-c18b84003460",
+      "displayName": "Bulldog (K/TAC)",
+      "themeUuid": "ac0281eb-4e65-4871-f8fb-6da74eee36b4",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/f476843a-4fc1-32a1-5e32-c18b84003460/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Kingdom2/Burst_Kingdom2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "286a59dc-4494-889c-59c9-ef8604539eed",
+          "displayName": "Bulldog (K/TAC)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/286a59dc-4494-889c-59c9-ef8604539eed/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/286a59dc-4494-889c-59c9-ef8604539eed/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Kingdom2/Chromas/Standard/Burst_Kingdom2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ddf3064f-4c05-d0fb-2f62-f8be055cb934",
+          "displayName": "Bulldog (K/TAC)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ddf3064f-4c05-d0fb-2f62-f8be055cb934/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Kingdom2/Levels/Burst_Kingdom2_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "199b8536-488a-09e6-8592-ff9cf21b4ceb",
+      "displayName": "Bulldog (Couture)",
+      "themeUuid": "124b113b-420d-36e5-ad9c-56a36852acc7",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/199b8536-488a-09e6-8592-ff9cf21b4ceb/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/LIW/AssaultRifle_Burst_LIW_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "561fa49e-465e-51eb-4517-93ab0105ff44",
+          "displayName": "Bulldog (Couture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/561fa49e-465e-51eb-4517-93ab0105ff44/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/561fa49e-465e-51eb-4517-93ab0105ff44/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/LIW/Chromas/Standard/AssaultRifle_Burst_LIW_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "49fc11b3-40a9-29ff-a701-63a6f59e2a0f",
+          "displayName": "Bulldog (Couture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/49fc11b3-40a9-29ff-a701-63a6f59e2a0f/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/LIW/Levels/AssaultRifle_Burst_LIWLv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a12db8be-4f3f-b7b6-5f70-92add35b956e",
+      "displayName": "Bulldog (Aemondir)",
+      "themeUuid": "3ffc865a-4dd8-e06e-a4f5-248ad30d6040",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a12db8be-4f3f-b7b6-5f70-92add35b956e/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/a12db8be-4f3f-b7b6-5f70-92add35b956e/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Legion/Burst_Legion_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "35f3737d-4c51-fe03-ac94-78aaa738cb7a",
+          "displayName": "Bulldog (Aemondir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/35f3737d-4c51-fe03-ac94-78aaa738cb7a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/35f3737d-4c51-fe03-ac94-78aaa738cb7a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/35f3737d-4c51-fe03-ac94-78aaa738cb7a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Legion/Chromas/Standard/Burst_Legion_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "960f6526-43d3-4f0e-4111-1e88107d99d3",
+          "displayName": "Bulldog (Aemondir) niveau 3\n(variante 1 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/960f6526-43d3-4f0e-4111-1e88107d99d3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/960f6526-43d3-4f0e-4111-1e88107d99d3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/960f6526-43d3-4f0e-4111-1e88107d99d3/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/7f246361-456a-b374-e422-438c7459e60d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Legion/Chromas/v1/Burst_Legion_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "bd858ce0-4cb9-fc63-9d8b-a995f1b4d3f6",
+          "displayName": "Bulldog (Aemondir) niveau 3\n(variante 2 Bronze)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bd858ce0-4cb9-fc63-9d8b-a995f1b4d3f6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bd858ce0-4cb9-fc63-9d8b-a995f1b4d3f6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/bd858ce0-4cb9-fc63-9d8b-a995f1b4d3f6/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3fe5a171-4da0-2fa0-21ad-fb871b059670_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Legion/Chromas/v2/Burst_Legion_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "1163bb10-4b38-509a-7813-41b9b7cdfd85",
+          "displayName": "Bulldog (Aemondir) niveau 3\n(variante 3 Obsidienne)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1163bb10-4b38-509a-7813-41b9b7cdfd85/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1163bb10-4b38-509a-7813-41b9b7cdfd85/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1163bb10-4b38-509a-7813-41b9b7cdfd85/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/708f94ce-483a-79f0-a1e3-858964790fba_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Legion/Chromas/V3/Burst_Legion_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "40a024bb-451d-057e-9084-8eb35c36c125",
+          "displayName": "Bulldog (Aemondir)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/40a024bb-451d-057e-9084-8eb35c36c125/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4781b15c-4c91-6036-66b9-85acd8350224_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Legion/Levels/Burst_Legion_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d5e253d1-4c72-4674-1c8e-95a4b2c47252",
+          "displayName": "Bulldog (Aemondir) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d5e253d1-4c72-4674-1c8e-95a4b2c47252/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6760bfab-410e-8251-f995-b28ae10ee500_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Legion/Levels/Burst_Legion_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "c572b33e-4894-02f0-a14d-02ab5a4e4f8a",
+          "displayName": "Bulldog (Aemondir) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/894a11c6-4b67-c91f-6e92-908fc177cfe0_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Legion/Levels/Burst_Legion_Lv3_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "6ff0d2cf-488e-c565-d118-da9bd4ac1e3c",
+      "displayName": "Bulldog (Âme en fusion)",
+      "themeUuid": "4b924064-4241-8288-4218-088e0d7397fd",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6ff0d2cf-488e-c565-d118-da9bd4ac1e3c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Liberate/Burst_Liberate_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "87ab2342-436e-5460-9cb3-18aee9fccbfc",
+          "displayName": "Bulldog (Âme en fusion)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/87ab2342-436e-5460-9cb3-18aee9fccbfc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/87ab2342-436e-5460-9cb3-18aee9fccbfc/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/87ab2342-436e-5460-9cb3-18aee9fccbfc/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Liberate/Chromas/Standard/Burst_Liberate_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "c9e25d70-4e3a-881b-0882-969c8674a5fe",
+          "displayName": "Bulldog (Âme en fusion)\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c9e25d70-4e3a-881b-0882-969c8674a5fe/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c9e25d70-4e3a-881b-0882-969c8674a5fe/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c9e25d70-4e3a-881b-0882-969c8674a5fe/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Liberate/Chromas/v1/Burst_Liberate_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "4035807f-49fa-c903-a6a8-e39c03abf63a",
+          "displayName": "Bulldog (Âme en fusion)\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4035807f-49fa-c903-a6a8-e39c03abf63a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4035807f-49fa-c903-a6a8-e39c03abf63a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4035807f-49fa-c903-a6a8-e39c03abf63a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Liberate/Chromas/v2/Burst_Liberate_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "44486cd3-4479-c670-115e-32bca3900ee4",
+          "displayName": "Bulldog (Âme en fusion)\n(variante 3 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/44486cd3-4479-c670-115e-32bca3900ee4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/44486cd3-4479-c670-115e-32bca3900ee4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/44486cd3-4479-c670-115e-32bca3900ee4/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Liberate/Chromas/V3/Burst_Liberate_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "5f0ecd25-464c-f8d1-5e72-e0922da5b311",
+          "displayName": "Bulldog (Âme en fusion)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5f0ecd25-464c-f8d1-5e72-e0922da5b311/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Liberate/Levels/Burst_Liberate_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9c91e507-4241-33d1-c63a-aeb9ec3d9d03",
+      "displayName": "Bulldog (Nunca Olvidados)",
+      "themeUuid": "0bd86c01-4db4-2197-37b8-dfa752e07142",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9c91e507-4241-33d1-c63a-aeb9ec3d9d03/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/LosMuertos/Burst_LosMuertos_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d84359a7-4f3d-d1f1-7809-54b12458f580",
+          "displayName": "Bulldog (Nunca Olvidados)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d84359a7-4f3d-d1f1-7809-54b12458f580/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d84359a7-4f3d-d1f1-7809-54b12458f580/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d84359a7-4f3d-d1f1-7809-54b12458f580/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/LosMuertos/Chromas/Standard/Burst_LosMuertos_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "24852266-4f07-5d44-4e2b-97ae8592199d",
+          "displayName": "Bulldog (Nunca Olvidados)\n(variante 1 Vivant)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/24852266-4f07-5d44-4e2b-97ae8592199d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/24852266-4f07-5d44-4e2b-97ae8592199d/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1e873971-44d1-1656-f4da-ecb0ec6185e6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/LosMuertos/Chromas/v1/Burst_LosMuertos_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "e10d44b1-49fb-a8a3-71c4-baa3cd117beb",
+          "displayName": "Bulldog (Nunca Olvidados)\n(variante 2 Éternel)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e10d44b1-49fb-a8a3-71c4-baa3cd117beb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e10d44b1-49fb-a8a3-71c4-baa3cd117beb/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/7bf72e9c-4a1d-93a7-3da0-5285b669427f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/LosMuertos/Chromas/v2/Burst_LosMuertos_v2_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "47815b56-43d7-1312-8b3e-5da445f71e31",
+          "displayName": "Bulldog (Nunca Olvidados)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/47815b56-43d7-1312-8b3e-5da445f71e31/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/73834b16-492d-29c2-d2b4-d699f533b7a4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/LosMuertos/Levels/Burst_LosMuertos_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7a9bda15-4048-575c-a7ff-7191a100fad9",
+      "displayName": "Bulldog (Perchoir)",
+      "themeUuid": "ed226cc8-4a04-93da-a70e-17b25f3d50e8",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7a9bda15-4048-575c-a7ff-7191a100fad9/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Meadowland/Burst_Meadowland_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "75035c54-427b-631a-652a-df82dee2962e",
+          "displayName": "Bulldog (Perchoir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/75035c54-427b-631a-652a-df82dee2962e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/75035c54-427b-631a-652a-df82dee2962e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/75035c54-427b-631a-652a-df82dee2962e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Meadowland/Chromas/Standard/Burst_Meadowland_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "1572fc15-40de-7487-7606-09b1dc7c5bbd",
+          "displayName": "Bulldog (Perchoir)\n(variante 1 Printemps)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1572fc15-40de-7487-7606-09b1dc7c5bbd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1572fc15-40de-7487-7606-09b1dc7c5bbd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1572fc15-40de-7487-7606-09b1dc7c5bbd/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Meadowland/Chromas/v1/Burst_Meadowland_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "8dc35dcb-4c8f-a993-50d1-c58900ee448a",
+          "displayName": "Bulldog (Perchoir)\n(variante 2 Été)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8dc35dcb-4c8f-a993-50d1-c58900ee448a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8dc35dcb-4c8f-a993-50d1-c58900ee448a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8dc35dcb-4c8f-a993-50d1-c58900ee448a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Meadowland/Chromas/v2/Burst_Meadowland_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "571022d6-4035-6702-9942-dcbd6687ac89",
+          "displayName": "Bulldog (Perchoir)\n(variante 3 Hiver)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/571022d6-4035-6702-9942-dcbd6687ac89/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/571022d6-4035-6702-9942-dcbd6687ac89/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/571022d6-4035-6702-9942-dcbd6687ac89/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Meadowland/Chromas/V3/Burst_Meadowland_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a8a6b936-4c0d-32c7-34b9-97a4411cba30",
+          "displayName": "Bulldog (Perchoir)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a8a6b936-4c0d-32c7-34b9-97a4411cba30/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Meadowland/Levels/Burst_Meadowland_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9187ef8b-46fd-9c8a-2956-29ba60dfe565",
+      "displayName": "Bulldog (Minima)",
+      "themeUuid": "b6ab85fa-407e-be1e-4c82-91a853599783",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9187ef8b-46fd-9c8a-2956-29ba60dfe565/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Minima2/Burst_Minima2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8a96c3e3-48f5-0285-2e3f-e0bcbfbaeafc",
+          "displayName": "Bulldog (Minima)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8a96c3e3-48f5-0285-2e3f-e0bcbfbaeafc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8a96c3e3-48f5-0285-2e3f-e0bcbfbaeafc/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Minima2/Chromas/Standard/Burst_Minima2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f3f87a39-4393-afbb-1534-a4bd96eae918",
+          "displayName": "Bulldog (Minima)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f3f87a39-4393-afbb-1534-a4bd96eae918/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Minima2/Levels/Burst_Minima2_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "57bfa350-4f93-e82a-714c-d2a01853b587",
+      "displayName": "Bulldog (Arts du combat)",
+      "themeUuid": "79094202-4785-3e28-dd2a-9188169d2dec",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/57bfa350-4f93-e82a-714c-d2a01853b587/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/ModelMaker/Burst_ModelMaker_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "bc5eb087-456d-61b4-82ff-24982d9bc5de",
+          "displayName": "Bulldog (Arts du combat)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bc5eb087-456d-61b4-82ff-24982d9bc5de/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bc5eb087-456d-61b4-82ff-24982d9bc5de/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/ModelMaker/Chromas/Standard/Burst_ModelMaker_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0ced11da-4b75-2e79-0b5b-b4b0c910033b",
+          "displayName": "Bulldog (Arts du combat)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0ced11da-4b75-2e79-0b5b-b4b0c910033b/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ef1bf840-436a-1bfd-84c2-488a3a7ca210_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/ModelMaker/Levels/Burst_ModelMaker_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "723fb0c6-4d7a-c6e9-775a-b9928b906d0f",
+          "displayName": "Bulldog (Arts du combat) niveau 2\nL'apparence de l'arme change aléatoirement quand vous l'achetez.",
+          "levelItem": "EEquippableSkinLevelItem::Randomizer",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/930a0ed4-4c21-9f2b-4949-f6951da55fb8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/ModelMaker/Levels/Burst_ModelMaker_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "90e750e8-4a42-f5fc-9160-3ea5e5522c6e",
+      "displayName": "Bulldog (Genèse)",
+      "themeUuid": "a68dde93-4011-c401-ae94-22b43d267598",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Nexus/Burst_Nexus_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "49c0b811-4c16-b68f-b074-4f81d8f0563c",
+          "displayName": "Bulldog (Genèse)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/49c0b811-4c16-b68f-b074-4f81d8f0563c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Nexus/Chromas/Standard/Burst_Nexus_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c5711665-4126-fa98-510f-5f8c82f52911",
+          "displayName": "Bulldog (Genèse)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c5711665-4126-fa98-510f-5f8c82f52911/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Nexus/Levels/Burst_Nexus_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "22d2b265-4ed1-f66e-1462-44bfcc10b49e",
+      "displayName": "Bulldog (Libretto)",
+      "themeUuid": "d853570b-4272-eeb1-77c1-ef890e896815",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/22d2b265-4ed1-f66e-1462-44bfcc10b49e/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Nutcracker/Burst_Nutcracker_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2488f202-4640-d6ae-f319-c9bba0a2fb72",
+          "displayName": "Bulldog (Libretto)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2488f202-4640-d6ae-f319-c9bba0a2fb72/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2488f202-4640-d6ae-f319-c9bba0a2fb72/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Nutcracker/Chromas/Standard/Burst_Nutcracker_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bd7c039b-4ccc-1a20-acbf-dda25431e350",
+          "displayName": "Bulldog (Libretto)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bd7c039b-4ccc-1a20-acbf-dda25431e350/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Nutcracker/Levels/Burst_Nutcracker_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "325d2274-487b-8672-84d6-6db8e9798447",
+      "displayName": "Bulldog (Oni)",
+      "themeUuid": "a547897d-4bd4-7c77-f5e6-55973f0e89ef",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/325d2274-487b-8672-84d6-6db8e9798447/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/325d2274-487b-8672-84d6-6db8e9798447/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Oni2/Burst_Oni2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "bd5e78fd-4e38-4229-a241-bd8505ed505b",
+          "displayName": "Bulldog (Oni)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bd5e78fd-4e38-4229-a241-bd8505ed505b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bd5e78fd-4e38-4229-a241-bd8505ed505b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/bd5e78fd-4e38-4229-a241-bd8505ed505b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Oni2/Chromas/Standard/Burst_Oni2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "9d2f1dca-476d-0c6c-3151-f6ae61084e50",
+          "displayName": "Bulldog (Oni) niveau 4\n(variante 1 Kumo)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9d2f1dca-476d-0c6c-3151-f6ae61084e50/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9d2f1dca-476d-0c6c-3151-f6ae61084e50/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9d2f1dca-476d-0c6c-3151-f6ae61084e50/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/87b836a4-45e1-7e7a-a1d9-e694a7801f11_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Oni2/Chromas/v1/Burst_Oni2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "23e081fa-4061-75de-c081-96b4b5a7c01e",
+          "displayName": "Bulldog (Oni) niveau 4\n(variante 2 Hana)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/23e081fa-4061-75de-c081-96b4b5a7c01e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/23e081fa-4061-75de-c081-96b4b5a7c01e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/23e081fa-4061-75de-c081-96b4b5a7c01e/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f6e746c5-4147-d808-0977-0198bae78d56_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Oni2/Chromas/v2/Burst_Oni2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "74207d99-4255-7837-a09e-90bc1f2444e4",
+          "displayName": "Bulldog (Oni) niveau 4\n(variante 3 Tsubame)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/74207d99-4255-7837-a09e-90bc1f2444e4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/74207d99-4255-7837-a09e-90bc1f2444e4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/74207d99-4255-7837-a09e-90bc1f2444e4/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0e92cf92-46b2-c020-cf7c-709d3a65f0cb_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Oni2/Chromas/V3/Burst_Oni2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "94456e3a-459f-4447-cc0d-7e9b5d01b81e",
+          "displayName": "Bulldog (Oni)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/94456e3a-459f-4447-cc0d-7e9b5d01b81e/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/87711ff9-4354-e40e-f293-9ba6c7f4cdb1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Oni2/Levels/Burst_Oni2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "43aba4ac-47ba-4c45-23b8-eebd254218bb",
+          "displayName": "Bulldog (Oni) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/28b7a01d-43fd-2866-159d-a8a47c6993cf_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Oni2/Levels/Burst_Oni2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "b44e3537-481f-0b8d-fb49-15b3cec80ccc",
+          "displayName": "Bulldog (Oni) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/18f38213-4e11-192c-f5fd-19a523f4c098_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Oni2/Levels/Burst_Oni2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "77319adb-433f-4978-5059-d780c0c68d5f",
+          "displayName": "Bulldog (Oni) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b8ca2e11-4fc2-8d5c-f267-f38ccd89f0de_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Oni2/Levels/Burst_Oni2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d832f94c-4490-176e-c625-c3a1130cea19",
+      "displayName": "Bulldog (Cryostase)",
+      "themeUuid": "6fe8f084-4fb6-bf69-41c5-99a8a338df13",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d832f94c-4490-176e-c625-c3a1130cea19/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Permafrost/Burst_Permafrost_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "b4b15d7b-42d2-c6f5-d52d-a794df03b882",
+          "displayName": "Bulldog (Cryostase)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b4b15d7b-42d2-c6f5-d52d-a794df03b882/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b4b15d7b-42d2-c6f5-d52d-a794df03b882/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Permafrost/Chromas/Standard/Burst_Permafrost_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "40f6c0c2-4ad2-6864-a0e6-2e852615f991",
+          "displayName": "Bulldog (Cryostase)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/40f6c0c2-4ad2-6864-a0e6-2e852615f991/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Permafrost/Levels/Burst_Permafrost_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ed3b769b-47af-7b34-7e16-5a9ff7c119cc",
+          "displayName": "Bulldog (Cryostase) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/18a0097a-43b2-4876-a358-c3aff488277d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Permafrost/Levels/Burst_Permafrost_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "8946d843-447b-ad44-3cce-44bb3c88489c",
+          "displayName": "Bulldog (Cryostase) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3b56a0dc-463b-4625-a30b-078e10acbb08_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Permafrost/Levels/Burst_Permafrost_Lv3_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "c2f87e28-4c3b-5dc3-0109-ffa3a0e43f4c",
+      "displayName": "Bulldog (Changement de teinte)",
+      "themeUuid": "1c969f97-457f-74d1-4f1a-a58268f7d39f",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/c2f87e28-4c3b-5dc3-0109-ffa3a0e43f4c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Pink/Burst_Pink_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7a5c47c8-4e83-917d-b0bf-dda86932d6ea",
+          "displayName": "Bulldog (Changement de teinte)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7a5c47c8-4e83-917d-b0bf-dda86932d6ea/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Pink/Chromas/Standard/Burst_Pink_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9db51105-45a7-d05e-6d7d-08962c65c386",
+          "displayName": "Bulldog (Changement de teinte)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9db51105-45a7-d05e-6d7d-08962c65c386/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Pink/Levels/Burst_Pink_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "dbf7b813-4931-3b45-db2b-ea8d418b2b1d",
+      "displayName": "Bulldog (POLYfox)",
+      "themeUuid": "6ce582d1-4cf9-efc4-078c-169295311f7e",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/dbf7b813-4931-3b45-db2b-ea8d418b2b1d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Polyanimals/Burst_Polyanimals_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "28cf13a9-4457-027e-2c1f-6388ccc870f0",
+          "displayName": "Bulldog (POLYfox)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/28cf13a9-4457-027e-2c1f-6388ccc870f0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/28cf13a9-4457-027e-2c1f-6388ccc870f0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Polyanimals/Chromas/Standard/Burst_Polyanimals_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0fce64bd-42c9-1755-8c67-e3a8cdd49de7",
+          "displayName": "Bulldog (POLYfox)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0fce64bd-42c9-1755-8c67-e3a8cdd49de7/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Polyanimals/Levels/Burst_Polyanimals_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1daefbff-4581-aef3-5ed6-da894d7e4cc7",
+      "displayName": "Bulldog (Protocole 781-A)",
+      "themeUuid": "cf971d9c-4771-3e7c-cd84-d888cc593281",
+      "contentTierUuid": "411e4a55-4e59-7757-41f0-86a53f101bb5",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1daefbff-4581-aef3-5ed6-da894d7e4cc7/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/1daefbff-4581-aef3-5ed6-da894d7e4cc7/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Burst_Protocol_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "77b09a8e-45c4-47e2-449f-44bd6f3a2f7a",
+          "displayName": "Bulldog (Protocole 781-A)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/77b09a8e-45c4-47e2-449f-44bd6f3a2f7a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/77b09a8e-45c4-47e2-449f-44bd6f3a2f7a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/77b09a8e-45c4-47e2-449f-44bd6f3a2f7a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Chromas/Standard/Burst_Protocol_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "44239053-4877-f129-9a52-2388e0f88989",
+          "displayName": "Bulldog (Protocole 781-A) niveau 5\n(variante 1 Blanc/Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/44239053-4877-f129-9a52-2388e0f88989/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/44239053-4877-f129-9a52-2388e0f88989/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/44239053-4877-f129-9a52-2388e0f88989/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/bf7dafe4-4023-4646-c9f7-eeb8a1602a36_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Chromas/v1/Burst_Protocol_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "9fc743eb-46c8-e382-39e4-23b5ac835efc",
+          "displayName": "Bulldog (Protocole 781-A) niveau 5\n(variante 2 Rouge/Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9fc743eb-46c8-e382-39e4-23b5ac835efc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9fc743eb-46c8-e382-39e4-23b5ac835efc/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9fc743eb-46c8-e382-39e4-23b5ac835efc/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a727a755-485a-5953-4f6a-089309627cc7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Chromas/v2/Burst_Protocol_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "57d458a2-4457-daa3-c6af-79ba6c9f6e5a",
+          "displayName": "Bulldog (Protocole 781-A) niveau 5\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/57d458a2-4457-daa3-c6af-79ba6c9f6e5a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/57d458a2-4457-daa3-c6af-79ba6c9f6e5a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/57d458a2-4457-daa3-c6af-79ba6c9f6e5a/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1a93d913-4f4a-ae90-1429-bcb8ad17c43f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Chromas/V3/Burst_Protocol_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "544ddf0f-42c6-e410-c9db-fc8b3b2c84d4",
+          "displayName": "Bulldog (Protocole 781-A)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/544ddf0f-42c6-e410-c9db-fc8b3b2c84d4/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b33d4634-457b-4724-ceec-408677bebb2c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Levels/Burst_Protocol_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "b88b45d6-466b-0285-5e88-45b38b6452c0",
+          "displayName": "Bulldog (Protocole 781-A) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/2f726241-4584-2e24-1854-7997e0cf65b6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Levels/Burst_Protocol_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "d02c80a9-420a-e45e-d20a-519d7764b0ae",
+          "displayName": "Bulldog (Protocole 781-A) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c8b678ce-4c0b-102e-ba92-97bff8d22776_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Levels/Burst_Protocol_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "78665dc8-4a75-76f6-a9e5-97819158eed8",
+          "displayName": "Bulldog (Protocole 781-A) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d3ba997e-41fe-e3db-f4ed-1a8f774d7848_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Levels/Burst_Protocol_Lv4_PrimaryAsset"
+        },
+        {
+          "uuid": "282305ae-4707-c58e-bf3a-3cb333c5664d",
+          "displayName": "Bulldog (Protocole 781-A) niveau 5\nLa langue du doublage peut différer dans votre région.",
+          "levelItem": "EEquippableSkinLevelItem::Voiceover",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e2b30f2f-4512-275a-b25c-6f92e40c2dc3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Protocol/Levels/Burst_Protocol_Lv5_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "fbf8ca06-41c9-6293-24cc-b6b292db5cf7",
+      "displayName": "Bulldog (Première collision)",
+      "themeUuid": "ec019908-4bdb-5e0e-982e-9da14516c167",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fbf8ca06-41c9-6293-24cc-b6b292db5cf7/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Radianite/Burst_Radianite_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "69906458-4876-9061-0980-20a0dc06a52e",
+          "displayName": "Bulldog (Première collision)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/69906458-4876-9061-0980-20a0dc06a52e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/69906458-4876-9061-0980-20a0dc06a52e/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Radianite/Chromas/Standard/Burst_Radianite_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "94eda9e6-47cf-a0dc-a1f9-03a41f50e5d3",
+          "displayName": "Bulldog (Première collision)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/94eda9e6-47cf-a0dc-a1f9-03a41f50e5d3/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Radianite/Levels/Burst_Radianite_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7baa9f5a-4ac3-804a-2e47-4da916de0b79",
+      "displayName": "Skin favori aléatoire",
+      "themeUuid": "0d7a5bfb-4850-098e-1821-d989bbfd58a8",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7baa9f5a-4ac3-804a-2e47-4da916de0b79/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Random/Burst_Random_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "10afa924-483c-3f29-21a3-f78b88e13c60",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/10afa924-483c-3f29-21a3-f78b88e13c60/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Random/Chromas/Standard/Burst_Random_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "fb79c688-4a07-6f3f-7c1a-948b5b399a3f",
+          "displayName": "Skin favori aléatoire",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fb79c688-4a07-6f3f-7c1a-948b5b399a3f/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Random/Levels/Burst_Random_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0b6f62d3-4a2a-bcb0-edcb-81b7f610b05f",
+      "displayName": "Bulldog (Rupture)",
+      "themeUuid": "4d9de10f-47a5-f4e0-2db5-afba24a5e649",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0b6f62d3-4a2a-bcb0-edcb-81b7f610b05f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Shatter/Burst_Shatter_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e5b853eb-44ae-d275-c48c-2794d40cbcdb",
+          "displayName": "Bulldog (Rupture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e5b853eb-44ae-d275-c48c-2794d40cbcdb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e5b853eb-44ae-d275-c48c-2794d40cbcdb/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Shatter/Chromas/Standard/Burst_Shatter_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4a39f8b2-4cce-a513-d5cf-7387a7ff4891",
+          "displayName": "Bulldog (Rupture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4a39f8b2-4cce-a513-d5cf-7387a7ff4891/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Shatter/Levels/Burst_Shatter_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b778fd63-4e21-b400-db3b-d1807e3f4edb",
+      "displayName": "Bulldog (Transition)",
+      "themeUuid": "8bf0299e-4e9d-4047-07e7-aab04fade37b",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b778fd63-4e21-b400-db3b-d1807e3f4edb/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/SkatePark/Burst_SkatePark_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1898e524-40b0-9e4b-5863-90b40a146958",
+          "displayName": "Bulldog (Transition)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1898e524-40b0-9e4b-5863-90b40a146958/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1898e524-40b0-9e4b-5863-90b40a146958/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1898e524-40b0-9e4b-5863-90b40a146958/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/SkatePark/Chromas/Standard/Burst_SkatePark_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "ccb9095f-43dd-78b5-fe04-f79c09c448e6",
+          "displayName": "Bulldog (Transition)\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ccb9095f-43dd-78b5-fe04-f79c09c448e6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ccb9095f-43dd-78b5-fe04-f79c09c448e6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ccb9095f-43dd-78b5-fe04-f79c09c448e6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/SkatePark/Chromas/v1/Burst_SkatePark_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "3d569f1c-4a8a-aa43-8ea1-5da4b6b69e5a",
+          "displayName": "Bulldog (Transition)\n(variante 2 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3d569f1c-4a8a-aa43-8ea1-5da4b6b69e5a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3d569f1c-4a8a-aa43-8ea1-5da4b6b69e5a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3d569f1c-4a8a-aa43-8ea1-5da4b6b69e5a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/SkatePark/Chromas/v2/Burst_SkatePark_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "612cbf80-4aca-f842-5b7e-f7b4188a5dd3",
+          "displayName": "Bulldog (Transition)\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/612cbf80-4aca-f842-5b7e-f7b4188a5dd3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/612cbf80-4aca-f842-5b7e-f7b4188a5dd3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/612cbf80-4aca-f842-5b7e-f7b4188a5dd3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/SkatePark/Chromas/V3/Burst_SkatePark_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "49b2e3c2-447c-7aba-ca50-a8993a72d969",
+          "displayName": "Bulldog (Transition)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/49b2e3c2-447c-7aba-ca50-a8993a72d969/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/SkatePark/Levels/Burst_SkatePark_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "decd0962-453a-1551-47e1-1287aafb5a27",
+      "displayName": "Bulldog (Infini)",
+      "themeUuid": "6fd2d0f4-44ca-c131-5049-5ba91a0e8303",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/decd0962-453a-1551-47e1-1287aafb5a27/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Sportscar/AssaultRifle_Burst_Sportscar_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "01f3fffe-4306-7b4b-9cb8-afb0027f4cf9",
+          "displayName": "Bulldog (Infini)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/01f3fffe-4306-7b4b-9cb8-afb0027f4cf9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/01f3fffe-4306-7b4b-9cb8-afb0027f4cf9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/01f3fffe-4306-7b4b-9cb8-afb0027f4cf9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Sportscar/Chromas/Standard/AssaultRifle_Burst_Sportscar_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "ffcc04b1-43c6-29c7-9a16-3692dd0a763a",
+          "displayName": "Bulldog (Infini)\n(variante 1 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ffcc04b1-43c6-29c7-9a16-3692dd0a763a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ffcc04b1-43c6-29c7-9a16-3692dd0a763a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ffcc04b1-43c6-29c7-9a16-3692dd0a763a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Sportscar/Chromas/v1/AssaultRifle_Burst_Sportscar_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "8c22fb0f-443b-ec18-62f0-dfb36d024b30",
+          "displayName": "Bulldog (Infini)\n(variante 2 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8c22fb0f-443b-ec18-62f0-dfb36d024b30/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8c22fb0f-443b-ec18-62f0-dfb36d024b30/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8c22fb0f-443b-ec18-62f0-dfb36d024b30/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Sportscar/Chromas/v2/AssaultRifle_Burst_Sportscar_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "3722b38e-49ec-e9da-fe96-3ba099630a27",
+          "displayName": "Bulldog (Infini)\n(variante 3 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3722b38e-49ec-e9da-fe96-3ba099630a27/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3722b38e-49ec-e9da-fe96-3ba099630a27/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3722b38e-49ec-e9da-fe96-3ba099630a27/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Sportscar/Chromas/v3/AssaultRifle_Burst_Sportscar_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "5fc3c5e8-470e-7683-b594-6580d5e3d624",
+          "displayName": "Bulldog (Infini)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5fc3c5e8-470e-7683-b594-6580d5e3d624/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Sportscar/Levels/Burst_Sportscar_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "724a7f42-4315-eccf-0e76-77bdd3ec2e09",
+      "displayName": "Bulldog (Standard)",
+      "themeUuid": "5a629df4-4765-0214-bd40-fbb96542941f",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/724a7f42-4315-eccf-0e76-77bdd3ec2e09/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Standard/AssaultRifle_Burst_Standard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "bf35f404-4a14-6953-ced2-5bafd21639a0",
+          "displayName": "Bulldog",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bf35f404-4a14-6953-ced2-5bafd21639a0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bf35f404-4a14-6953-ced2-5bafd21639a0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Standard/Chromas/Standard/AssaultRifle_Burst_Standard_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c8e6ac70-48ef-9d96-d964-a88e8890b885",
+          "displayName": "Bulldog",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c8e6ac70-48ef-9d96-d964-a88e8890b885/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Standard/AssaultRifle_Burst_Standard_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e4db8f4b-48f5-79e4-2c21-b094eeabbf42",
+      "displayName": "Bulldog (Ensorcelé)",
+      "themeUuid": "6a3ce658-4ff6-04c0-6a19-9ca1149e3102",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e4db8f4b-48f5-79e4-2c21-b094eeabbf42/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Storybook/Burst_Storybook_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "25542627-4617-99a5-7838-7882995d5285",
+          "displayName": "Bulldog (Ensorcelé)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/25542627-4617-99a5-7838-7882995d5285/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/25542627-4617-99a5-7838-7882995d5285/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Storybook/Chromas/Standard/Burst_Storybook_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e9a12903-4272-aedc-715f-55a48975ee90",
+          "displayName": "Bulldog (Ensorcelé)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e9a12903-4272-aedc-715f-55a48975ee90/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Storybook/Levels/Burst_Storybook_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "006d6b0a-47ba-a909-ade5-0cba66dd5829",
+      "displayName": "Bulldog (Tilde)",
+      "themeUuid": "8a046174-4736-8d37-3f2f-9b88c9873040",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/006d6b0a-47ba-a909-ade5-0cba66dd5829/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/StreetWear/Burst_StreetWear_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a6f4b6f4-41c9-9441-b35f-47bd950a2e87",
+          "displayName": "Bulldog (Tilde)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a6f4b6f4-41c9-9441-b35f-47bd950a2e87/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a6f4b6f4-41c9-9441-b35f-47bd950a2e87/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a6f4b6f4-41c9-9441-b35f-47bd950a2e87/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/StreetWear/Chromas/Standard/Burst_StreetWear_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "2d87bc04-45df-61a1-6b83-97931919154e",
+          "displayName": "Bulldog (Tilde)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2d87bc04-45df-61a1-6b83-97931919154e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2d87bc04-45df-61a1-6b83-97931919154e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2d87bc04-45df-61a1-6b83-97931919154e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/StreetWear/Chromas/v1/Burst_StreetWear_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "7a730bf8-4e65-3107-7aeb-f9981b318ea6",
+          "displayName": "Bulldog (Tilde)\n(variante 2 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7a730bf8-4e65-3107-7aeb-f9981b318ea6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7a730bf8-4e65-3107-7aeb-f9981b318ea6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7a730bf8-4e65-3107-7aeb-f9981b318ea6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/StreetWear/Chromas/v2/Burst_StreetWear_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "0b07f79e-42c0-5b86-864c-49ab918848b5",
+          "displayName": "Bulldog (Tilde)\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0b07f79e-42c0-5b86-864c-49ab918848b5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0b07f79e-42c0-5b86-864c-49ab918848b5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0b07f79e-42c0-5b86-864c-49ab918848b5/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/StreetWear/Chromas/V3/Burst_StreetWear_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "1074041a-4ee2-be43-9e43-d5833b9358a4",
+          "displayName": "Bulldog (Tilde)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1074041a-4ee2-be43-9e43-d5833b9358a4/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/StreetWear/Levels/Burst_StreetWear_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0c0cbd13-4601-e6c1-0180-2181e2461c36",
+      "displayName": "Bulldog (Rétrofuturiste)",
+      "themeUuid": "ef051abd-4091-9d6a-68c2-0c80d061472d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0c0cbd13-4601-e6c1-0180-2181e2461c36/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Synthwave/Burst_Synthwave_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6a8c8af7-4e22-0f4e-e78a-19b32dacc8da",
+          "displayName": "Bulldog (Rétrofuturiste)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6a8c8af7-4e22-0f4e-e78a-19b32dacc8da/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6a8c8af7-4e22-0f4e-e78a-19b32dacc8da/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Synthwave/Chromas/Standard/Burst_Synthwave_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "06168395-458e-25f5-7866-80a6a19d1977",
+          "displayName": "Bulldog (Rétrofuturiste)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/06168395-458e-25f5-7866-80a6a19d1977/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Synthwave/Levels/Burst_Synthwave_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8c7238c8-4161-a5ac-69f2-129f8a4ce5fa",
+      "displayName": "Bulldog (SANS LIMITES)",
+      "themeUuid": "9dd84f5b-490a-9158-98dc-acb50b492039",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8c7238c8-4161-a5ac-69f2-129f8a4ce5fa/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Tokyo/Burst_Tokyo_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "5b1afe39-404b-3d9a-2375-09a45096eb60",
+          "displayName": "Bulldog (SANS LIMITES)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5b1afe39-404b-3d9a-2375-09a45096eb60/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Tokyo/Chromas/Standard/Burst_Tokyo_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "79249ad0-4ae3-1ec3-a18a-c28521f21a51",
+          "displayName": "Bulldog (SANS LIMITES)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/79249ad0-4ae3-1ec3-a18a-c28521f21a51/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Tokyo/Levels/Burst_Tokyo_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "f580899d-49c4-8bf8-9718-c9a6a38dd503",
+      "displayName": "Bulldog (Convexe)",
+      "themeUuid": "b88f012b-4623-e192-26fb-1ab23051bd17",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/f580899d-49c4-8bf8-9718-c9a6a38dd503/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Triangles/Burst_Triangles_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1789be1e-42fb-a43a-2f40-eb9b793481b0",
+          "displayName": "Bulldog (Convexe)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1789be1e-42fb-a43a-2f40-eb9b793481b0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1789be1e-42fb-a43a-2f40-eb9b793481b0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Triangles/Chromas/Standard/Burst_Triangles_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "84f8d0f4-4442-5892-6a20-8f83e65a5e96",
+          "displayName": "Bulldog (Convexe)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/84f8d0f4-4442-5892-6a20-8f83e65a5e96/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Triangles/Levels/Burst_Triangles_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4e6341f9-4851-603d-daff-9185f007d3dc",
+      "displayName": "Bulldog (Profondeurs)",
+      "themeUuid": "ad598603-4ea0-0064-b215-359c11e1536d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4e6341f9-4851-603d-daff-9185f007d3dc/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/UnderTheSea/Burst_UnderTheSea_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e455f87b-4afc-f2ea-22de-5ab5fe7ef7f5",
+          "displayName": "Bulldog (Profondeurs)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e455f87b-4afc-f2ea-22de-5ab5fe7ef7f5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e455f87b-4afc-f2ea-22de-5ab5fe7ef7f5/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/UnderTheSea/Chromas/Standard/Burst_UnderTheSea_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6f86d77a-43c6-17b5-312f-87bf159076d9",
+          "displayName": "Bulldog (Profondeurs)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6f86d77a-43c6-17b5-312f-87bf159076d9/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/UnderTheSea/Levels/Burst_UnderTheSea_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e9164092-4c79-b6ae-b844-ba97f566958d",
+      "displayName": "Bulldog (Holomoku)",
+      "themeUuid": "d165cc5a-499c-7172-05a8-ff91132ca4a9",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e9164092-4c79-b6ae-b844-ba97f566958d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Voyager/Burst_Voyager_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e1f3e4c8-4290-ee41-26f0-14a994b20d1f",
+          "displayName": "Bulldog (Holomoku)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e1f3e4c8-4290-ee41-26f0-14a994b20d1f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e1f3e4c8-4290-ee41-26f0-14a994b20d1f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e1f3e4c8-4290-ee41-26f0-14a994b20d1f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Voyager/Chromas/Standard/Burst_Voyager_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "e7cb22bf-42af-b4a5-af05-d0acd5cc727c",
+          "displayName": "Bulldog (Holomoku)\n(variante 1 Profondeurs)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e7cb22bf-42af-b4a5-af05-d0acd5cc727c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e7cb22bf-42af-b4a5-af05-d0acd5cc727c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e7cb22bf-42af-b4a5-af05-d0acd5cc727c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Voyager/Chromas/v1/Burst_Voyager_v1_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8415de00-4e82-9977-7c61-31bcd3115a9a",
+          "displayName": "Bulldog (Holomoku)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8415de00-4e82-9977-7c61-31bcd3115a9a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Voyager/Levels/Burst_Voyager_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9bba8d9a-461e-9783-fcb7-f1a92192fb3a",
+      "displayName": "Bulldog (Vernis)",
+      "themeUuid": "3057a701-42a3-adaa-89f2-1484bbe2a34d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9bba8d9a-461e-9783-fcb7-f1a92192fb3a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Walnut/Burst_Walnut_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "97e3f19b-441e-4a98-a39f-fda730fa0bfd",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/97e3f19b-441e-4a98-a39f-fda730fa0bfd/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Walnut/Chromas/Standard/Burst_Walnut_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0edd85d1-4589-385a-e5e2-84a55ae9860d",
+          "displayName": "Bulldog (Vernis)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0edd85d1-4589-385a-e5e2-84a55ae9860d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Walnut/Levels/Burst_Walnut_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ffb2f24f-43bd-8735-f9bd-36bde08d86cb",
+      "displayName": "Bulldog (Terres désolées)",
+      "themeUuid": "4b50f796-45f7-d38c-a519-388b2f2a945d",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ffb2f24f-43bd-8735-f9bd-36bde08d86cb/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Wasteland2/Burst_Wasteland2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "fd1427ec-416d-8256-8ce2-ccaaa817e4a4",
+          "displayName": "Bulldog (Terres désolées)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fd1427ec-416d-8256-8ce2-ccaaa817e4a4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fd1427ec-416d-8256-8ce2-ccaaa817e4a4/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Wasteland2/Chromas/Standard/Burst_Wasteland2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e9bc2389-4a3e-2d52-dc39-fd8c92011aae",
+          "displayName": "Bulldog (Terres désolées)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e9bc2389-4a3e-2d52-dc39-fd8c92011aae/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Rifles/Burst/Wasteland2/Levels/Burst_Wasteland2_Lv1_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}

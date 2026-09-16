@@ -1,0 +1,1818 @@
+{
+  "uuid": "42da8ccc-40d5-affc-beec-15aa47b42eda",
+  "displayName": "Shorty",
+  "category": "EEquippableCategory::Sidearm",
+  "defaultSkinUuid": "48ad078a-4dae-2b85-a945-f4b6d1efecbb",
+  "displayIcon": "https://media.valorant-api.com/weapons/42da8ccc-40d5-affc-beec-15aa47b42eda/displayicon.png",
+  "killStreamIcon": "https://media.valorant-api.com/weapons/42da8ccc-40d5-affc-beec-15aa47b42eda/killstreamicon.png",
+  "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SlimPrimaryAsset",
+  "weaponStats": {
+    "fireRate": 3,
+    "magazineSize": 2,
+    "runSpeedMultiplier": 0.8,
+    "equipTimeSeconds": 0.75,
+    "reloadTimeSeconds": 1.75,
+    "firstBulletAccuracy": 4,
+    "shotgunPelletCount": 15,
+    "wallPenetration": "EWallPenetrationDisplayType::Low",
+    "feature": null,
+    "fireMode": "EWeaponFireModeDisplayType::SemiAutomatic",
+    "altFireType": null,
+    "adsStats": null,
+    "altShotgunStats": null,
+    "airBurstStats": null,
+    "damageRanges": [
+      {
+        "rangeStartMeters": 0,
+        "rangeEndMeters": 7,
+        "headDamage": 22,
+        "bodyDamage": 11,
+        "legDamage": 9.35
+      },
+      {
+        "rangeStartMeters": 7,
+        "rangeEndMeters": 15,
+        "headDamage": 12,
+        "bodyDamage": 6,
+        "legDamage": 5.1
+      },
+      {
+        "rangeStartMeters": 15,
+        "rangeEndMeters": 50,
+        "headDamage": 6,
+        "bodyDamage": 3,
+        "legDamage": 2.5500002
+      }
+    ]
+  },
+  "shopData": {
+    "cost": 300,
+    "category": "Pistols",
+    "shopOrderPriority": 0,
+    "categoryText": "Armes de poing",
+    "gridPosition": null,
+    "canBeTrashed": true,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/weapons/42da8ccc-40d5-affc-beec-15aa47b42eda/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SawedOffShotgunPurchase"
+  },
+  "skins": [
+    {
+      "uuid": "70af2278-4234-dc5c-afcc-b38402ec5729",
+      "displayName": "Shorty (Négociateur inflexible)",
+      "themeUuid": "41d02b84-458e-f647-636f-76800b7ebcc6",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/70af2278-4234-dc5c-afcc-b38402ec5729/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/A27/Slim_A27_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "18706da9-4ef8-b18a-840b-cd94902648fd",
+          "displayName": "Shorty (Négociateur inflexible)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/18706da9-4ef8-b18a-840b-cd94902648fd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/18706da9-4ef8-b18a-840b-cd94902648fd/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/A27/Chromas/Standard/Slim_A27_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e977364c-44f8-4695-68cd-4298c27b5916",
+          "displayName": "Shorty (Négociateur inflexible)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e977364c-44f8-4695-68cd-4298c27b5916/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/A27/Levels/Slim_A27_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b454bb93-4dd5-5a7c-6720-38afd82bfd78",
+      "displayName": "Shorty (Acolyte)",
+      "themeUuid": "d7a96b31-4880-dc84-a022-45bdad450753",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b454bb93-4dd5-5a7c-6720-38afd82bfd78/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Aggrobot/Slim_Aggrobot_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4c2160d7-4650-5bd8-24b1-a1b83be8b0c4",
+          "displayName": "Standard",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4c2160d7-4650-5bd8-24b1-a1b83be8b0c4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4c2160d7-4650-5bd8-24b1-a1b83be8b0c4/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Aggrobot/Chromas/Standard/Slim_Aggrobot_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "acab9281-445b-e301-19c6-fe91e3ef27fa",
+          "displayName": "Shorty (Acolyte)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/acab9281-445b-e301-19c6-fe91e3ef27fa/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Aggrobot/Levels/Slim_Aggrobot_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4e98f273-472c-3376-7195-46a1f81402cc",
+      "displayName": "Shorty (Araxys)",
+      "themeUuid": "92d4ccf0-446f-db43-f028-4a9f4bc2714c",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4e98f273-472c-3376-7195-46a1f81402cc/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/4e98f273-472c-3376-7195-46a1f81402cc/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Antares/Slim_Antares_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6ffa2b8b-4f19-4352-50fc-1fae04534611",
+          "displayName": "Shorty (Araxys)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6ffa2b8b-4f19-4352-50fc-1fae04534611/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6ffa2b8b-4f19-4352-50fc-1fae04534611/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6ffa2b8b-4f19-4352-50fc-1fae04534611/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Antares/Chromas/Standard/Slim_Antares_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "e77075fe-41f8-0d04-1f32-bfb695379dcf",
+          "displayName": "Shorty (Araxys) niveau 4\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e77075fe-41f8-0d04-1f32-bfb695379dcf/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e77075fe-41f8-0d04-1f32-bfb695379dcf/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e77075fe-41f8-0d04-1f32-bfb695379dcf/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f0d88bca-4c55-43c2-3bf8-e58689bcbfef_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Antares/Chromas/v1/Slim_Antares_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "9fb8bacf-4465-7279-7ea8-eb905ddbe26f",
+          "displayName": "Shorty (Araxys) niveau 4\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9fb8bacf-4465-7279-7ea8-eb905ddbe26f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9fb8bacf-4465-7279-7ea8-eb905ddbe26f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9fb8bacf-4465-7279-7ea8-eb905ddbe26f/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d075451c-49e4-cb8e-3ea8-0eb24d1a03fb_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Antares/Chromas/v2/Slim_Antares_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "27a666f2-46a5-506d-3539-8189ce6e0982",
+          "displayName": "Shorty (Araxys) niveau 4\n(variante 3 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/27a666f2-46a5-506d-3539-8189ce6e0982/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/27a666f2-46a5-506d-3539-8189ce6e0982/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/27a666f2-46a5-506d-3539-8189ce6e0982/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b830f7cd-49f6-cc60-d45e-0093297b370c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Antares/Chromas/V3/Slim_Antares_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f41c7d7c-4701-1612-f375-7fbfa52b7ac7",
+          "displayName": "Shorty (Araxys)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f41c7d7c-4701-1612-f375-7fbfa52b7ac7/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/69698b55-4c05-f38e-ecc3-799de26d9796_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Antares/Levels/Slim_Antares_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ed37bd4b-48fa-3d51-49ae-19be0780a290",
+          "displayName": "Shorty (Araxys) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/95c678f9-48c4-33c0-3578-c88703d5b479_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Antares/Levels/Slim_Antares_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "6089c5d0-4fb4-cf2d-3940-adb2a1d97b16",
+          "displayName": "Shorty (Araxys) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5093cf60-4733-8694-0449-e68f48a54a0c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Antares/Levels/Slim_Antares_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "60ffb9eb-430e-5920-6418-aaaca3b566b4",
+          "displayName": "Shorty (Araxys) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6691ce3b-4192-fefb-a2a1-a4895e66dc68_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Antares/Levels/Slim_Antares_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "646e713f-4999-6c56-094c-dd9114bdb35a",
+      "displayName": "Shorty (Neptune)",
+      "themeUuid": "7615ee95-4405-4e8d-145f-5ab5a20ad0d2",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/646e713f-4999-6c56-094c-dd9114bdb35a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Aquarium/Slim_Aquarium_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "90e6f275-4d58-7a80-cdaa-bdbeca6712a3",
+          "displayName": "Shorty (Neptune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/90e6f275-4d58-7a80-cdaa-bdbeca6712a3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/90e6f275-4d58-7a80-cdaa-bdbeca6712a3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/90e6f275-4d58-7a80-cdaa-bdbeca6712a3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Aquarium/Chromas/Standard/Slim_Aquarium_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "d7f15e4a-446f-88bd-9daa-49b26d121ab3",
+          "displayName": "Shorty (Neptune) niveau 3\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d7f15e4a-446f-88bd-9daa-49b26d121ab3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d7f15e4a-446f-88bd-9daa-49b26d121ab3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d7f15e4a-446f-88bd-9daa-49b26d121ab3/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6390e29f-45fa-4f2c-3d59-cab0638e5e70_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Aquarium/Chromas/v1/Slim_Aquarium_v1_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "93266c2b-400f-da62-24a0-739f51d33cc1",
+          "displayName": "Shorty (Neptune)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/93266c2b-400f-da62-24a0-739f51d33cc1/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3def624b-44d0-226e-aa6c-73b73d849b17_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Aquarium/Levels/Slim_Aquarium_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "e40ba2a2-4b91-8144-0b62-7c8ede15bced",
+          "displayName": "Shorty (Neptune) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::FishAnimation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/88db08d6-4bee-4a6c-c461-138998c84d15_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Aquarium/Levels/Slim_Aquarium_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "e70308c1-437a-d393-5c9a-7386bf8a7e28",
+          "displayName": "Shorty (Neptune) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::KillBanner",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9ef35208-4c55-3e4c-283e-e0a28b15f996_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Aquarium/Levels/Slim_Aquarium_Lv3_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4c583a37-42d7-23db-5e38-1eafe96f2b9d",
+      "displayName": "Shorty (Vengeance de Gaïa)",
+      "themeUuid": "f3427ce8-4ad1-9ece-7b37-22befb459dad",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4c583a37-42d7-23db-5e38-1eafe96f2b9d/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/4c583a37-42d7-23db-5e38-1eafe96f2b9d/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Ashen2/Slim_Ashen2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "17448e46-4be1-6f91-ba25-1a9f74a988c6",
+          "displayName": "Shorty (Vengeance de Gaïa)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/17448e46-4be1-6f91-ba25-1a9f74a988c6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/17448e46-4be1-6f91-ba25-1a9f74a988c6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/17448e46-4be1-6f91-ba25-1a9f74a988c6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Ashen2/Chromas/Standard/Slim_Ashen2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "fe757a99-4ba2-1c52-e662-36b0db5de65f",
+          "displayName": "Shorty (Vengeance de Gaïa) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fe757a99-4ba2-1c52-e662-36b0db5de65f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fe757a99-4ba2-1c52-e662-36b0db5de65f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/fe757a99-4ba2-1c52-e662-36b0db5de65f/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/669f7b01-4b63-decd-4069-108dfa57eae7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Ashen2/Chromas/v1/Slim_Ashen2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "3e8d5260-4fbd-fb24-a5eb-58bc3f6d84fe",
+          "displayName": "Shorty (Vengeance de Gaïa) niveau 4\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3e8d5260-4fbd-fb24-a5eb-58bc3f6d84fe/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3e8d5260-4fbd-fb24-a5eb-58bc3f6d84fe/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3e8d5260-4fbd-fb24-a5eb-58bc3f6d84fe/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/46746113-4257-94e0-cae6-79b30ed5fb6b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Ashen2/Chromas/v2/Slim_Ashen2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "9952adbc-40da-7620-b970-608e12f02db4",
+          "displayName": "Shorty (Vengeance de Gaïa) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9952adbc-40da-7620-b970-608e12f02db4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9952adbc-40da-7620-b970-608e12f02db4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9952adbc-40da-7620-b970-608e12f02db4/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/732a4924-4024-1ba8-f28a-79882f98501d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Ashen2/Chromas/V3/Slim_Ashen2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f6e05633-45d6-461e-3c04-6cb03fa644aa",
+          "displayName": "Shorty (Vengeance de Gaïa)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f6e05633-45d6-461e-3c04-6cb03fa644aa/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ad689645-4c8d-7e61-4dae-709a833e25f5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Ashen2/Levels/Slim_Ashen2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "c75140b4-4b4f-01b1-5311-cbb3830b38eb",
+          "displayName": "Shorty (Vengeance de Gaïa) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/85f140a7-4807-8dd4-b673-00a469fe887a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Ashen2/Levels/Slim_Ashen2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "71396d13-4117-6319-49b3-0a857b655569",
+          "displayName": "Shorty (Vengeance de Gaïa) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f445e703-4da0-e0e6-6dbc-b99f1bcc6c5f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Ashen2/Levels/Slim_Ashen2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "32947f14-47c0-a983-c9a7-d8b5e39d306e",
+          "displayName": "Shorty (Vengeance de Gaïa) niveau 4 ",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8b640540-473b-f206-0528-e7958887dc20_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Ashen2/Levels/Slim_Ashen2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0581fb92-4b2d-0ede-6bfc-8d93fde11f74",
+      "displayName": "Shorty (Karabasan)",
+      "themeUuid": "f38e6667-4d60-3686-12e8-9d8ab950b9ff",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0581fb92-4b2d-0ede-6bfc-8d93fde11f74/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/BountyHunter/Slim_BountyHunter_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "74019079-43d3-2757-bf40-9792c930034e",
+          "displayName": "Shorty (Karabasan)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/74019079-43d3-2757-bf40-9792c930034e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/74019079-43d3-2757-bf40-9792c930034e/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/BountyHunter/Chromas/Standard/Slim_BountyHunter_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f1f9cde8-4810-86a0-1c95-4ab214d4f6b8",
+          "displayName": "Shorty (Karabasan)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f1f9cde8-4810-86a0-1c95-4ab214d4f6b8/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/BountyHunter/Levels/Slim_BountyHunter_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "acedb6db-407b-5d62-9c27-07bbb2313fe3",
+      "displayName": "Shorty (Pierre runique)",
+      "themeUuid": "65d8e156-4e4c-f9de-844f-3fa05a9624e4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/acedb6db-407b-5d62-9c27-07bbb2313fe3/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Codex/Slim_Codex_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9c81a88b-47d1-0813-1534-088e9e9678d6",
+          "displayName": "Shorty (Pierre runique)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9c81a88b-47d1-0813-1534-088e9e9678d6/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Codex/Chromas/Standard/Slim_Codex_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f990616a-44ab-ec78-fe3d-8b9ce27a5d18",
+          "displayName": "Shorty (Pierre runique)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f990616a-44ab-ec78-fe3d-8b9ce27a5d18/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Codex/Levels/Slim_Codex_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1c9fc347-4e1f-e9b1-eb1c-ad9a90f0f376",
+      "displayName": "Shorty (Doom Wing)",
+      "themeUuid": "0b75a3c6-424e-3477-be55-eb9eed827501",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1c9fc347-4e1f-e9b1-eb1c-ad9a90f0f376/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/CuteButLethal/Slim_CuteButLethal_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ef714452-44a8-9599-83bb-2f8f279bbd5c",
+          "displayName": "Shorty (Doom Wing)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ef714452-44a8-9599-83bb-2f8f279bbd5c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ef714452-44a8-9599-83bb-2f8f279bbd5c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/CuteButLethal/Chromas/Standard/Slim_CuteButLethal_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3d0988c5-427c-d1e0-8ace-ff89bd0bbe8b",
+          "displayName": "Shorty (Doom Wing)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3d0988c5-427c-d1e0-8ace-ff89bd0bbe8b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/CuteButLethal/Levels/Slim_CuteButLethal_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "c9572061-4ee1-ff7d-b60c-ebac198d3706",
+      "displayName": "Shorty (Prélude au chaos)",
+      "themeUuid": "651caaec-459e-3e7c-0a16-d587226186d7",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/c9572061-4ee1-ff7d-b60c-ebac198d3706/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/c9572061-4ee1-ff7d-b60c-ebac198d3706/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/DemonStone/Slim_DemonStone_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "737ba496-4e0a-2e8a-ad46-27a8c58fb3ed",
+          "displayName": "Shorty (Prélude au chaos)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/737ba496-4e0a-2e8a-ad46-27a8c58fb3ed/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/737ba496-4e0a-2e8a-ad46-27a8c58fb3ed/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/737ba496-4e0a-2e8a-ad46-27a8c58fb3ed/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/DemonStone/Chromas/Standard/Slim_DemonStone_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "b63b0226-40d0-f52d-1a7c-b6a7555d703d",
+          "displayName": "Shorty (Prélude au chaos) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b63b0226-40d0-f52d-1a7c-b6a7555d703d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b63b0226-40d0-f52d-1a7c-b6a7555d703d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b63b0226-40d0-f52d-1a7c-b6a7555d703d/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c0529c83-4b4e-98df-cf1e-2492c633d5c4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/DemonStone/Chromas/v4/Slim_DemonStone_v4_PrimaryAsset"
+        },
+        {
+          "uuid": "51e5bab7-48d8-b8e3-3cf6-cbb1994eae0a",
+          "displayName": "Shorty (Prélude au chaos) niveau 4\n(variante 2 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/51e5bab7-48d8-b8e3-3cf6-cbb1994eae0a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/51e5bab7-48d8-b8e3-3cf6-cbb1994eae0a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/51e5bab7-48d8-b8e3-3cf6-cbb1994eae0a/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/135d5541-4c29-f180-e1e6-70bbcab12a41_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/DemonStone/Chromas/v2/Slim_DemonStone_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "0164afa0-47dc-3c61-cd5b-8794b73c2540",
+          "displayName": "Shorty (Prélude au chaos) niveau 4\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0164afa0-47dc-3c61-cd5b-8794b73c2540/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0164afa0-47dc-3c61-cd5b-8794b73c2540/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0164afa0-47dc-3c61-cd5b-8794b73c2540/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/73e2514f-4bf4-a589-ac61-04ae570ee308_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/DemonStone/Chromas/v3/Slim_DemonStone_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "09fded5d-4add-00e7-d3c4-32b8f21c7944",
+          "displayName": "Shorty (Prélude au chaos)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/09fded5d-4add-00e7-d3c4-32b8f21c7944/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/55460ca5-427f-8e75-dd12-1ca8a9e3cd13_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/DemonStone/Levels/Slim_DemonStone_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "a0708cc3-4f93-228c-fba0-b3938c5efea5",
+          "displayName": "Shorty (Prélude au chaos) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c58f288d-4a83-3b31-436b-11956bf6b22a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/DemonStone/Levels/Slim_DemonStone_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "c977106d-4dc7-bbcd-74e4-efab54475915",
+          "displayName": "Shorty (Prélude au chaos) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fecbd7fd-41dc-a2a4-5b70-47a7128cceed_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/DemonStone/Levels/Slim_DemonStone_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "8ca69aa7-451a-1af5-e897-3b9d309e82a4",
+          "displayName": "Shorty (Prélude au chaos) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/02a0479d-4aca-58cf-5a7b-5a9da267c6e7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/DemonStone/Levels/Slim_DemonStone_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9a37b09b-4768-b368-52ef-58ac62564637",
+      "displayName": "Shorty (Amis crayonnés)",
+      "themeUuid": "540a0c01-43ad-809d-6347-12b48f90478b",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9a37b09b-4768-b368-52ef-58ac62564637/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Doodlebuds/Slim_Doodlebuds_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8341e29e-4faa-e5c6-b6db-c2bcfbdfbc55",
+          "displayName": "Shorty (Amis crayonnés)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8341e29e-4faa-e5c6-b6db-c2bcfbdfbc55/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8341e29e-4faa-e5c6-b6db-c2bcfbdfbc55/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8341e29e-4faa-e5c6-b6db-c2bcfbdfbc55/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Doodlebuds/Chromas/Standard/Slim_Doodlebuds_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "acb87714-4ea5-18b6-0d2a-fb8754340943",
+          "displayName": "Shorty (Amis crayonnés) niveau 2\n(variante 1 Tactipotes)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/acb87714-4ea5-18b6-0d2a-fb8754340943/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/acb87714-4ea5-18b6-0d2a-fb8754340943/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/acb87714-4ea5-18b6-0d2a-fb8754340943/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f260084b-411c-8e0c-6353-0f95bd360721_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Doodlebuds/Chromas/v1/Slim_Doodlebuds_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "a92fcaf4-4828-dea4-c00b-26b549011699",
+          "displayName": "Shorty (Amis crayonnés) niveau 2\n(variante 2 League of Legends)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a92fcaf4-4828-dea4-c00b-26b549011699/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a92fcaf4-4828-dea4-c00b-26b549011699/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a92fcaf4-4828-dea4-c00b-26b549011699/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/97e007da-49ec-9737-3dd6-6a97e922cf0a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Doodlebuds/Chromas/v2/Slim_Doodlebuds_v2_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "deb200a8-447c-0e47-5b92-e8aeb9cd5525",
+          "displayName": "Shorty (Amis crayonnés)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/deb200a8-447c-0e47-5b92-e8aeb9cd5525/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/89158522-44bf-f426-51e1-5ca94faeb55e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Doodlebuds/Levels/Slim_Doodlebuds_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ba0193f6-4c7d-1b7f-b9dc-4e883a6ba21a",
+          "displayName": "Shorty (Amis crayonnés) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::KillEffect",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0de88508-4588-8ada-cfd5-23a89006029b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Doodlebuds/Levels/Slim_Doodlebuds_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ee0acade-47fc-c212-7c16-41979c1ba1f3",
+      "displayName": "Shorty (Porte du Dragon)",
+      "themeUuid": "90427190-4d5c-d77b-07b6-35804b8c163b",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ee0acade-47fc-c212-7c16-41979c1ba1f3/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Dragongate/Slim_Dragongate_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "223c32b5-424b-bcf6-7909-3fa4bf51d370",
+          "displayName": "Shorty (Porte du Dragon)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/223c32b5-424b-bcf6-7909-3fa4bf51d370/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/223c32b5-424b-bcf6-7909-3fa4bf51d370/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Dragongate/Chromas/Standard/Slim_Dragongate_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9bf87c46-462c-ce18-ccd4-c7be8c27124f",
+          "displayName": "Shorty (Porte du Dragon)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9bf87c46-462c-ce18-ccd4-c7be8c27124f/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Dragongate/Levels/Slim_Dragongate_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "da41a901-493c-80f7-955b-dfa0c69629fd",
+      "displayName": "Shorty (Chromedek)",
+      "themeUuid": "e8223acc-4d50-f83e-0029-7d9fd9bf9bc1",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/da41a901-493c-80f7-955b-dfa0c69629fd/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Engine/Slim_Engine_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d48011de-4ccc-18e8-6352-e18cd9d02b6c",
+          "displayName": "Shorty (Chromedek)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d48011de-4ccc-18e8-6352-e18cd9d02b6c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d48011de-4ccc-18e8-6352-e18cd9d02b6c/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Engine/Chromas/Standard/Slim_Engine_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6ecbfb9c-4e04-fce3-3f1f-da914439235d",
+          "displayName": "Shorty (Chromedek)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6ecbfb9c-4e04-fce3-3f1f-da914439235d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Engine/Levels/Slim_Engine_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "3a921c7b-4e8f-8543-bee8-01ba6da86874",
+      "displayName": "Shorty (Collectif)",
+      "themeUuid": "e0652066-4c7f-2229-2921-749b044ffd48",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/3a921c7b-4e8f-8543-bee8-01ba6da86874/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Exo/Slim_Exo_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "abd361b4-43a6-728c-376a-529b1f599ab9",
+          "displayName": "Shorty (Collectif)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/abd361b4-43a6-728c-376a-529b1f599ab9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/abd361b4-43a6-728c-376a-529b1f599ab9/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Exo/Chromas/Standard/Slim_Exo_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d0a95805-4adb-95f7-3955-339d89769bec",
+          "displayName": "Shorty (Collectif)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d0a95805-4adb-95f7-3955-339d89769bec/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Exo/Levels/Slim_Exo_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "15588213-4d09-344b-c7e1-28af37374c82",
+      "displayName": "Shorty (Vélocité)",
+      "themeUuid": "c9fd69be-4bfd-b808-63f1-128cac4b35e5",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/15588213-4d09-344b-c7e1-28af37374c82/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Fiberglass/Slim_Fiberglass_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a1f3c919-432c-05f4-0afe-52a3a9c2475c",
+          "displayName": "Shorty (Vélocité)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a1f3c919-432c-05f4-0afe-52a3a9c2475c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a1f3c919-432c-05f4-0afe-52a3a9c2475c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a1f3c919-432c-05f4-0afe-52a3a9c2475c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Fiberglass/Chromas/Standard/Slim_Fiberglass_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "b8fdde04-416e-2d2b-6edd-34b3c628e944",
+          "displayName": "Shorty (Vélocité)\n(variante 1 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b8fdde04-416e-2d2b-6edd-34b3c628e944/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b8fdde04-416e-2d2b-6edd-34b3c628e944/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b8fdde04-416e-2d2b-6edd-34b3c628e944/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Fiberglass/Chromas/v1/Slim_Fiberglass_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "d620a5b8-42c7-cbd2-6ee4-fdad78367b1d",
+          "displayName": "Shorty (Vélocité)\n(variante 2 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d620a5b8-42c7-cbd2-6ee4-fdad78367b1d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d620a5b8-42c7-cbd2-6ee4-fdad78367b1d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d620a5b8-42c7-cbd2-6ee4-fdad78367b1d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Fiberglass/Chromas/v2/Slim_Fiberglass_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "ba8ff830-4e70-a8f3-3655-b69845e1e6ec",
+          "displayName": "Shorty (Vélocité)\n(variante 3 Aigue-marine)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ba8ff830-4e70-a8f3-3655-b69845e1e6ec/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ba8ff830-4e70-a8f3-3655-b69845e1e6ec/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ba8ff830-4e70-a8f3-3655-b69845e1e6ec/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Fiberglass/Chromas/v3/Slim_Fiberglass_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c6db7920-4d61-556e-7c06-19954b847cbe",
+          "displayName": "Shorty (Vélocité)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c6db7920-4d61-556e-7c06-19954b847cbe/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Fiberglass/Levels/Slim_Fiberglass_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1064fbd1-416c-bf00-0e30-a282a359847f",
+      "displayName": "Shorty (Vestiges)",
+      "themeUuid": "f1be220c-4370-c5e9-fa8e-2f9227ba81de",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1064fbd1-416c-bf00-0e30-a282a359847f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gothic/SawedOffShotgun_Gothic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ef08044d-4934-a38f-0ff9-63886354d59b",
+          "displayName": "Shorty (Vestiges)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ef08044d-4934-a38f-0ff9-63886354d59b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ef08044d-4934-a38f-0ff9-63886354d59b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gothic/Chromas/Standard/SawedOffShotgun_Gothic_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "907bab1f-4fca-982e-7645-41a941ef6626",
+          "displayName": "Shorty (Vestiges)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/907bab1f-4fca-982e-7645-41a941ef6626/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gothic/Levels/Slim_Gothic_Lv1_PrimaryAsset1"
+        }
+      ]
+    },
+    {
+      "uuid": "74d8ac90-453d-96ef-6cc6-20a65c58eb5c",
+      "displayName": "Shorty (Gelée fatale)",
+      "themeUuid": "7bad137e-4103-1ba8-9e13-738e3576970f",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/74d8ac90-453d-96ef-6cc6-20a65c58eb5c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gummy/Slim_Gummy_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4ef6bdeb-4626-7c77-f87d-f4bd7eae6b2d",
+          "displayName": "Shorty (Gelée fatale)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4ef6bdeb-4626-7c77-f87d-f4bd7eae6b2d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4ef6bdeb-4626-7c77-f87d-f4bd7eae6b2d/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gummy/Chromas/Standard/Slim_Gummy_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "89f20799-4afe-448d-a2e2-fdbdf26c120e",
+          "displayName": "Shorty (Gelée fatale)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/89f20799-4afe-448d-a2e2-fdbdf26c120e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gummy/Levels/Slim_Gummy_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "de88d366-4d2b-655f-345c-719b97ddf9d9",
+      "displayName": "Shorty (Nouvelles frontières)",
+      "themeUuid": "5b79f22b-470e-048e-6508-bc8cc39455ae",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/de88d366-4d2b-655f-345c-719b97ddf9d9/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/de88d366-4d2b-655f-345c-719b97ddf9d9/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gunslinger2/Slim_Gunslinger2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "23193fee-42c2-e7e4-9e76-60a2aee12057",
+          "displayName": "Shorty (Nouvelles frontières)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/23193fee-42c2-e7e4-9e76-60a2aee12057/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/23193fee-42c2-e7e4-9e76-60a2aee12057/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/23193fee-42c2-e7e4-9e76-60a2aee12057/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gunslinger2/Chromas/Standard/Slim_Gunslinger2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "3984a625-411f-2e56-2d8b-32bdb8636700",
+          "displayName": "Shorty (Nouvelles frontières) niveau 4\n(variante 1 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3984a625-411f-2e56-2d8b-32bdb8636700/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3984a625-411f-2e56-2d8b-32bdb8636700/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3984a625-411f-2e56-2d8b-32bdb8636700/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ec97393f-4d81-1394-921e-9b8be41dd0c7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gunslinger2/Chromas/v1/Slim_Gunslinger2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "0a91c670-4ae3-ec59-a557-7c97ebd969d4",
+          "displayName": "Shorty (Nouvelles frontières) niveau 4\n(variante 2 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0a91c670-4ae3-ec59-a557-7c97ebd969d4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0a91c670-4ae3-ec59-a557-7c97ebd969d4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0a91c670-4ae3-ec59-a557-7c97ebd969d4/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/838db386-422e-2089-ea3d-64963ef87ab8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gunslinger2/Chromas/v2/Slim_Gunslinger2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "83d8268d-481c-7d3e-4d96-33b5f1a725b6",
+          "displayName": "Shorty (Nouvelles frontières) niveau 4\n(variante 3 Cuivre)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/83d8268d-481c-7d3e-4d96-33b5f1a725b6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/83d8268d-481c-7d3e-4d96-33b5f1a725b6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/83d8268d-481c-7d3e-4d96-33b5f1a725b6/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f57d3972-45e0-c61b-f15a-5d9f5223be01_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gunslinger2/Chromas/V3/Slim_Gunslinger2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "af1619fa-42c0-31e3-cfaf-edaed2b1a055",
+          "displayName": "Shorty (Nouvelles frontières)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/af1619fa-42c0-31e3-cfaf-edaed2b1a055/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e6491ce8-43ba-a712-16fe-b3a7f37494ef_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gunslinger2/Levels/Slim_Gunslinger2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "a310aa66-4e4b-d80c-bee7-9f9ba061d8fa",
+          "displayName": "Shorty (Nouvelles frontières) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/687318a2-44b9-9f16-fcf5-5baf607a5fee_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gunslinger2/Levels/Slim_Gunslinger2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "8f45f007-40fc-c78b-8841-25aca160f6cd",
+          "displayName": "Shorty (Nouvelles frontières) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Transformation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8f45f007-40fc-c78b-8841-25aca160f6cd/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9d55afca-4b42-fb4e-a4ea-a3b4249f96b9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gunslinger2/Levels/Slim_Gunslinger2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "d31e4f0e-4048-4474-dd43-109ee72d4555",
+          "displayName": "Shorty (Nouvelles frontières) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4e68711f-4200-e401-5d95-cca1505d1fad_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Gunslinger2/Levels/Slim_Gunslinger2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4542410b-46ba-36f2-898d-c2815b504002",
+      "displayName": "Shorty (Primordium)",
+      "themeUuid": "f6a45750-4fe8-ec46-bb45-52bd41e22954",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4542410b-46ba-36f2-898d-c2815b504002/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/4542410b-46ba-36f2-898d-c2815b504002/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Hellfire/Slim_Hellfire_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e08406ae-45bb-9065-9ef0-f4b08acc4cdc",
+          "displayName": "Shorty (Primordium)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e08406ae-45bb-9065-9ef0-f4b08acc4cdc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e08406ae-45bb-9065-9ef0-f4b08acc4cdc/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e08406ae-45bb-9065-9ef0-f4b08acc4cdc/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Hellfire/Chromas/Standard/Slim_Hellfire_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "c19c23c7-419d-7967-a0c5-72a64e3c2cf8",
+          "displayName": "Shorty (Primordium) niveau 4\n(variante 1 Venin)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c19c23c7-419d-7967-a0c5-72a64e3c2cf8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c19c23c7-419d-7967-a0c5-72a64e3c2cf8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c19c23c7-419d-7967-a0c5-72a64e3c2cf8/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5bf90721-4b6c-b998-197c-388f85878b79_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Hellfire/Chromas/v1/Slim_Hellfire_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "b051ee64-4cda-2899-d34a-d396fd9edbb6",
+          "displayName": "Shorty (Primordium) niveau 4\n(variante 2 Cobalt)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b051ee64-4cda-2899-d34a-d396fd9edbb6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b051ee64-4cda-2899-d34a-d396fd9edbb6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b051ee64-4cda-2899-d34a-d396fd9edbb6/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fd0b9dd4-4a1c-d270-e97b-9d90a09394c9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Hellfire/Chromas/v2/Slim_Hellfire_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "5d977a6f-45c8-e782-c9bb-86a1f92a13e5",
+          "displayName": "Shorty (Primordium) niveau 4\n(variante 3 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5d977a6f-45c8-e782-c9bb-86a1f92a13e5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5d977a6f-45c8-e782-c9bb-86a1f92a13e5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5d977a6f-45c8-e782-c9bb-86a1f92a13e5/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3b46dc40-4d3a-b5a8-f2a7-c889edd71bc3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Hellfire/Chromas/V3/Slim_Hellfire_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "52539664-4c23-9a90-17d4-6aba28ee6463",
+          "displayName": "Shorty (Primordium)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/52539664-4c23-9a90-17d4-6aba28ee6463/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/68c91b66-4aa1-cd94-272c-24bd3731de78_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Hellfire/Levels/Slim_Hellfire_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "1727e584-4052-c9f8-15f7-c8af1b7b2cfd",
+          "displayName": "Shorty (Primordium) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d2d91903-454e-cd6f-6357-edb2236da096_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Hellfire/Levels/Slim_Hellfire_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "263b4aaf-4b36-af7d-56b5-fa8e6996b15f",
+          "displayName": "Shorty (Primordium) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/048ee161-4199-7d83-5e5c-799492a485be_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Hellfire/Levels/Slim_Hellfire_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "79402d26-492b-e69e-9a5c-448afdfc8e78",
+          "displayName": "Shorty (Primordium) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/7b41234d-482a-46a7-1856-9a8ae08fd875_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Hellfire/Levels/Slim_Hellfire_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7a3a9e66-4ac1-df74-193b-1984303f4f71",
+      "displayName": "Shorty (Monarque)",
+      "themeUuid": "a176fd9a-41fa-a4b3-1ec9-29a4cde6940c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7a3a9e66-4ac1-df74-193b-1984303f4f71/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Houndstooth/Slim_Houndstooth_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c6d322a1-4bf0-9cce-0d92-f78ddfddda8b",
+          "displayName": "Shorty (Monarque)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c6d322a1-4bf0-9cce-0d92-f78ddfddda8b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c6d322a1-4bf0-9cce-0d92-f78ddfddda8b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Houndstooth/Chromas/Standard/Slim_Houndstooth_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a8718add-47cd-30ad-12cf-eea925286a91",
+          "displayName": "Shorty (Monarque)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a8718add-47cd-30ad-12cf-eea925286a91/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Houndstooth/Levels/Slim_Houndstooth_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5ebe29d1-46d9-03d6-825c-719e003d15ad",
+      "displayName": "Shorty (Garde-fou)",
+      "themeUuid": "365432d5-4acc-6b9e-4fc5-5b854d2e50f3",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5ebe29d1-46d9-03d6-825c-719e003d15ad/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/IndustrialX/Slim_IndustrialX_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "555b89ad-4937-5664-78b5-df842f1e83a0",
+          "displayName": "Shorty (Garde-fou)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/555b89ad-4937-5664-78b5-df842f1e83a0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/555b89ad-4937-5664-78b5-df842f1e83a0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/IndustrialX/Chromas/Standard/Slim_IndustrialX_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "5b530fe6-4c9d-0225-bda1-9ba39dd79c4d",
+          "displayName": "Shorty (Garde-fou)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5b530fe6-4c9d-0225-bda1-9ba39dd79c4d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/IndustrialX/Levels/Slim_IndustrialX_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e7ec70cb-4e16-255e-caa4-fea9a78c8084",
+      "displayName": "Shorty (Enchevêtrement)",
+      "themeUuid": "789fd8ce-4dc6-d602-1036-53846e76b65d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e7ec70cb-4e16-255e-caa4-fea9a78c8084/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Intertwine/Slim_Intertwine_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "81ea2bb0-40ab-616c-55d1-308a1f7ba7d8",
+          "displayName": "Shorty (Enchevêtrement)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/81ea2bb0-40ab-616c-55d1-308a1f7ba7d8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/81ea2bb0-40ab-616c-55d1-308a1f7ba7d8/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Intertwine/Chromas/Standard/Slim_Intertwine_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9184b2aa-4b81-556b-b1e7-39b007fc8634",
+          "displayName": "Shorty (Enchevêtrement)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9184b2aa-4b81-556b-b1e7-39b007fc8634/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Intertwine/Levels/Slim_Intertwine_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "039207fd-4911-9d6b-b7ba-e3ade36ef77e",
+      "displayName": "Shorty (Prisme II)",
+      "themeUuid": "b7ce48c8-412e-b318-8f8d-f88893db886a",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/039207fd-4911-9d6b-b7ba-e3ade36ef77e/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Iridescence3/Slim_Iridescence3_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "49ba0b3a-4418-7362-c671-bca65b913fc0",
+          "displayName": "Shorty (Prisme II)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/49ba0b3a-4418-7362-c671-bca65b913fc0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/49ba0b3a-4418-7362-c671-bca65b913fc0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Iridescence3/Chromas/Standard/Slim_Iridescence3_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "61f62d77-4f80-7664-2ea9-538f6fc4b241",
+          "displayName": "Shorty (Prisme II)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/61f62d77-4f80-7664-2ea9-538f6fc4b241/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Iridescence3/Levels/Slim_Iridescence3_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1505ed97-4323-1a7b-7688-93a1e35e844f",
+      "displayName": "Shorty (Aquatica)",
+      "themeUuid": "258021a5-4609-5cd2-d034-3487237fd345",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1505ed97-4323-1a7b-7688-93a1e35e844f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Jellyfish/Slim_Jellyfish_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7c37259e-419d-920a-46da-9d8940a0f581",
+          "displayName": "Shorty (Aquatica)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7c37259e-419d-920a-46da-9d8940a0f581/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7c37259e-419d-920a-46da-9d8940a0f581/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Jellyfish/Chromas/Standard/Slim_Jellyfish_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8146aa01-4aed-b421-f304-3cad2e7056ff",
+          "displayName": "Shorty (Aquatica)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8146aa01-4aed-b421-f304-3cad2e7056ff/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Jellyfish/Levels/Slim_Jellyfish_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "310b80d8-4e1b-b4f0-b713-9dad458ce734",
+      "displayName": "Shorty (Wunderkind)",
+      "themeUuid": "dfffc0f0-4d14-b358-ab2c-1fa303b5564d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/310b80d8-4e1b-b4f0-b713-9dad458ce734/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Killjoy/Slim_Killjoy_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "eb54deca-4ae4-07c5-f506-8f9f2ec6331b",
+          "displayName": "Shorty (Wunderkind)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/eb54deca-4ae4-07c5-f506-8f9f2ec6331b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/eb54deca-4ae4-07c5-f506-8f9f2ec6331b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Killjoy/Chromas/Standard/Slim_Killjoy_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f9688e62-42c5-9f10-f160-49abaee2e02c",
+          "displayName": "Shorty (Wunderkind)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f9688e62-42c5-9f10-f160-49abaee2e02c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Killjoy/Levels/Slim_Killjoy_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "da994f02-4faa-8118-2ecd-5dac66c728e5",
+      "displayName": "Shorty (Perchoir)",
+      "themeUuid": "ed226cc8-4a04-93da-a70e-17b25f3d50e8",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/da994f02-4faa-8118-2ecd-5dac66c728e5/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Meadowland/Slim_Meadowland_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "de89fde3-40da-4095-3dd2-51840b51d424",
+          "displayName": "Shorty (Perchoir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/de89fde3-40da-4095-3dd2-51840b51d424/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/de89fde3-40da-4095-3dd2-51840b51d424/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/de89fde3-40da-4095-3dd2-51840b51d424/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Meadowland/Chromas/Standard/Slim_Meadowland_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "8b6eca1e-48b7-d465-a2e3-11a7f1df61ea",
+          "displayName": "Shorty (Perchoir)\n(variante 1 Printemps)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8b6eca1e-48b7-d465-a2e3-11a7f1df61ea/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8b6eca1e-48b7-d465-a2e3-11a7f1df61ea/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8b6eca1e-48b7-d465-a2e3-11a7f1df61ea/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Meadowland/Chromas/v1/Slim_Meadowland_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "01bf54fb-4000-5295-bf21-e7a57a372f28",
+          "displayName": "Shorty (Perchoir)\n(variante 2 Été)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/01bf54fb-4000-5295-bf21-e7a57a372f28/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/01bf54fb-4000-5295-bf21-e7a57a372f28/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/01bf54fb-4000-5295-bf21-e7a57a372f28/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Meadowland/Chromas/v2/Slim_Meadowland_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "a607589d-406a-250d-6723-969909c4debf",
+          "displayName": "Shorty (Perchoir)\n(variante 3 Hiver)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a607589d-406a-250d-6723-969909c4debf/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a607589d-406a-250d-6723-969909c4debf/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a607589d-406a-250d-6723-969909c4debf/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Meadowland/Chromas/V3/Slim_Meadowland_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "41b8e495-4032-386b-63a3-ef9b1d32fe60",
+          "displayName": "Shorty (Perchoir)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/41b8e495-4032-386b-63a3-ef9b1d32fe60/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Meadowland/Levels/Slim_Meadowland_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "fcb18a37-4a0d-ecd3-ee2c-c38496ed5ae2",
+      "displayName": "Shorty (Genèse)",
+      "themeUuid": "a68dde93-4011-c401-ae94-22b43d267598",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Nexus/Slim_Nexus_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "25533658-431e-9634-6cb5-c7b94e535c87",
+          "displayName": "Shorty (Genèse)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/25533658-431e-9634-6cb5-c7b94e535c87/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Nexus/Chromas/Standard/Slim_Nexus_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f5f8fb4f-4c3a-ee60-ed0c-bfb8cded09fc",
+          "displayName": "Shorty (Genèse)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f5f8fb4f-4c3a-ee60-ed0c-bfb8cded09fc/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Nexus/Levels/Slim_Nexus_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b36dad11-4105-6c08-0486-17ba96d0f2a4",
+      "displayName": "Shorty (Oni)",
+      "themeUuid": "8a34391f-4d1f-6b22-859f-628bff79d381",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b36dad11-4105-6c08-0486-17ba96d0f2a4/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Oni/SawedOffShotgun_Oni_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "212df9b7-4f66-ce5d-687a-a8a80c7b5976",
+          "displayName": "Shorty (Oni)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/212df9b7-4f66-ce5d-687a-a8a80c7b5976/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/212df9b7-4f66-ce5d-687a-a8a80c7b5976/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/212df9b7-4f66-ce5d-687a-a8a80c7b5976/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Oni/Chromas/Standard/SawedOffShotgun_Oni_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "1c6f1255-410d-5927-0c48-24b3e43cb468",
+          "displayName": "Shorty (Oni) niveau 4\n(variante 1 Kumo)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1c6f1255-410d-5927-0c48-24b3e43cb468/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1c6f1255-410d-5927-0c48-24b3e43cb468/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1c6f1255-410d-5927-0c48-24b3e43cb468/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Oni/Chromas/Black/SawedOffShotgun_Oni_Black_PrimaryAsset"
+        },
+        {
+          "uuid": "114f03d3-44ca-27d6-9dbe-22bd65a8a3b9",
+          "displayName": "Shorty (Oni) niveau 4\n(variante 2 Hana)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/114f03d3-44ca-27d6-9dbe-22bd65a8a3b9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/114f03d3-44ca-27d6-9dbe-22bd65a8a3b9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/114f03d3-44ca-27d6-9dbe-22bd65a8a3b9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Oni/Chromas/Green/SawedOffShotgun_Oni_Green_PrimaryAsset"
+        },
+        {
+          "uuid": "779efcc7-4756-14fa-6226-e4909008f56a",
+          "displayName": "Shorty (Oni) niveau 4\n(variante 3 Tsubame)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/779efcc7-4756-14fa-6226-e4909008f56a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/779efcc7-4756-14fa-6226-e4909008f56a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/779efcc7-4756-14fa-6226-e4909008f56a/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Oni/Chromas/White/SawedOffShotgun_Oni_White_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a2950772-447a-f2db-be24-19b0e0ed736f",
+          "displayName": "Shorty (Oni)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a2950772-447a-f2db-be24-19b0e0ed736f/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4ee54682-40e8-d2f7-b916-d3a91ed2f0ba_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Oni/Levels/SawedOffShotgun_Oni_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "75a66462-49d7-134a-03e1-bc8c3b7fda7a",
+          "displayName": "Shorty (Oni) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/75a66462-49d7-134a-03e1-bc8c3b7fda7a/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4f41f4ea-4321-a652-5a57-ef83552e912b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Oni/Levels/SawedOffShotgun_Oni_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "02461d7f-4f0a-f25f-94b2-ee960d0734d7",
+          "displayName": "Shorty (Oni) niveau 3",
+          "levelItem": null,
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1385aa15-48df-2990-90ca-1cbfa25329f6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Oni/Levels/SawedOffShotgun_Oni_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "25e2a599-4564-708a-b80e-afbeb6781372",
+          "displayName": "Shorty (Oni) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/25e2a599-4564-708a-b80e-afbeb6781372/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9693f069-4376-b294-5cef-b982f1598b7e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Oni/Levels/SawedOffShotgun_Oni_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9428e52d-4611-c8ff-1b63-7b8e386fe8cb",
+      "displayName": "Shorty (Venimeux)",
+      "themeUuid": "ad7c6d69-421d-6929-561d-3fbbe1fb596b",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9428e52d-4611-c8ff-1b63-7b8e386fe8cb/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Pandemic/SawedOffShotgun_Pandemic_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1c197677-4fc6-e4c8-69f3-389888e5b063",
+          "displayName": "Shorty (Venimeux)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1c197677-4fc6-e4c8-69f3-389888e5b063/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1c197677-4fc6-e4c8-69f3-389888e5b063/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Pandemic/Chromas/Standard/SawedOffShotgun_Pandemic_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6f90d1ed-4acc-d925-4a8a-60913f14d16b",
+          "displayName": "Shorty (Venimeux)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6f90d1ed-4acc-d925-4a8a-60913f14d16b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Pandemic/SawedOffShotgun_Pandemic_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "df0e23fe-4529-a9d5-c4c6-eaae086bda65",
+      "displayName": "Shorty (Changement de teinte)",
+      "themeUuid": "1c969f97-457f-74d1-4f1a-a58268f7d39f",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/df0e23fe-4529-a9d5-c4c6-eaae086bda65/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Pink/Slim_Pink_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "73db26ce-42da-5971-7d83-8ba0fb998612",
+          "displayName": "Shorty (Changement de teinte)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/73db26ce-42da-5971-7d83-8ba0fb998612/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Pink/Chromas/Standard/Slim_Pink_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "31629ef7-47ac-908e-369b-16beabc02c5b",
+          "displayName": "Shorty (Changement de teinte)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/31629ef7-47ac-908e-369b-16beabc02c5b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Pink/Levels/Slim_Pink_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "075e4cf0-469b-25dc-8d6f-2995fbb093de",
+      "displayName": "Skin favori aléatoire",
+      "themeUuid": "0d7a5bfb-4850-098e-1821-d989bbfd58a8",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/075e4cf0-469b-25dc-8d6f-2995fbb093de/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Random/Slim_Random_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "38f0b73a-4c02-26ed-dbd0-409a2f8e33ce",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/38f0b73a-4c02-26ed-dbd0-409a2f8e33ce/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Random/Chromas/Standard/Slim_Random_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6afa5e36-4a90-7a2c-30b7-23be5ba2588b",
+          "displayName": "Skin favori aléatoire",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6afa5e36-4a90-7a2c-30b7-23be5ba2588b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Random/Levels/Slim_Random_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "73ade1d7-47d1-680b-defe-268df2ad073b",
+      "displayName": "Shorty (Transition)",
+      "themeUuid": "8bf0299e-4e9d-4047-07e7-aab04fade37b",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/73ade1d7-47d1-680b-defe-268df2ad073b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SkatePark/Slim_SkatePark_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0aff787a-46ef-4197-2e11-938d58bbd764",
+          "displayName": "Shorty (Transition)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0aff787a-46ef-4197-2e11-938d58bbd764/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0aff787a-46ef-4197-2e11-938d58bbd764/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0aff787a-46ef-4197-2e11-938d58bbd764/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SkatePark/Chromas/Standard/Slim_SkatePark_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "f5e43893-461f-f057-7419-81be02163f95",
+          "displayName": "Shorty (Transition)\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f5e43893-461f-f057-7419-81be02163f95/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f5e43893-461f-f057-7419-81be02163f95/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f5e43893-461f-f057-7419-81be02163f95/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SkatePark/Chromas/v1/Slim_SkatePark_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "27cd4e6f-480a-9a90-9e43-eab89c8bff19",
+          "displayName": "Shorty (Transition)\n(variante 2 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/27cd4e6f-480a-9a90-9e43-eab89c8bff19/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/27cd4e6f-480a-9a90-9e43-eab89c8bff19/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/27cd4e6f-480a-9a90-9e43-eab89c8bff19/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SkatePark/Chromas/v2/Slim_SkatePark_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "95e181ba-4355-c07e-d13a-84bb655da638",
+          "displayName": "Shorty (Transition)\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/95e181ba-4355-c07e-d13a-84bb655da638/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/95e181ba-4355-c07e-d13a-84bb655da638/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/95e181ba-4355-c07e-d13a-84bb655da638/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SkatePark/Chromas/V3/Slim_SkatePark_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "42a5b584-468b-0812-3041-7cb8b36cc0f8",
+          "displayName": "Shorty (Transition)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/42a5b584-468b-0812-3041-7cb8b36cc0f8/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SkatePark/Levels/Slim_SkatePark_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "160d661d-4152-6914-8069-c393914759cb",
+      "displayName": "Shorty (Sentinelles de la lumière)",
+      "themeUuid": "7c85c5c1-4a47-eb3f-c81e-4693dd8b2a62",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/160d661d-4152-6914-8069-c393914759cb/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/160d661d-4152-6914-8069-c393914759cb/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SoL2/Slim_SOL2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8d6c9af5-4827-d46c-5245-49a7287f225c",
+          "displayName": "Shorty (Sentinelles de la lumière)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8d6c9af5-4827-d46c-5245-49a7287f225c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8d6c9af5-4827-d46c-5245-49a7287f225c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8d6c9af5-4827-d46c-5245-49a7287f225c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SoL2/Chromas/Standard/Slim_SOL2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "2f095b09-4bae-3868-bf00-678748f7c083",
+          "displayName": "Shorty (Sentinelles de la lumière) niveau 4\n(variante 1 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2f095b09-4bae-3868-bf00-678748f7c083/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2f095b09-4bae-3868-bf00-678748f7c083/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2f095b09-4bae-3868-bf00-678748f7c083/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3619f817-4a3b-daea-39d4-4fb10ff3de1c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SoL2/Chromas/v1/Slim_SOL2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "104c561d-448d-59d9-9b42-bda69469122f",
+          "displayName": "Shorty (Sentinelles de la lumière) niveau 4\n(variante 2 Rouge/Vert)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/104c561d-448d-59d9-9b42-bda69469122f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/104c561d-448d-59d9-9b42-bda69469122f/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0e9dd0d7-4510-7966-8fde-8b995d1b0e45_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SoL2/Chromas/v2/Slim_SOL2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "46e88e9f-46b0-89ea-5874-f7b8a9666a91",
+          "displayName": "Shorty (Sentinelles de la lumière) niveau 4\n(variante 3 Bleu/Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/46e88e9f-46b0-89ea-5874-f7b8a9666a91/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/46e88e9f-46b0-89ea-5874-f7b8a9666a91/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/46e88e9f-46b0-89ea-5874-f7b8a9666a91/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f94035fe-4b0e-d4af-70a4-6196f487cd4a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SoL2/Chromas/V3/Slim_SOL2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6e81e078-46db-2314-07da-10b7326071b1",
+          "displayName": "Shorty (Sentinelles de la lumière)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6e81e078-46db-2314-07da-10b7326071b1/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8babfb3e-4379-cba3-34ac-7e8e2ed51d78_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SoL2/Levels/Slim_SOL2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "062da487-44f0-5adb-69d1-368e0af713e7",
+          "displayName": "Shorty (Sentinelles de la lumière) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0ad1982a-400e-7f6a-7dcc-ff8ffa4f173c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SoL2/Levels/Slim_SOL2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "682ebe29-4312-e006-0ebc-309ad02dcfd6",
+          "displayName": "Shorty (Sentinelles de la lumière) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b0008927-4e6d-44eb-eb4f-459c7e47e1d6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SoL2/Levels/Slim_SOL2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "8a8e330b-419d-a1d5-2c17-03bd37772ca1",
+          "displayName": "Shorty (Sentinelles de la lumière) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ffbaef04-469c-286d-c4a1-93b3f45de1f9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/SoL2/Levels/Slim_SOL2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "48ad078a-4dae-2b85-a945-f4b6d1efecbb",
+      "displayName": "Shorty (Standard)",
+      "themeUuid": "5a629df4-4765-0214-bd40-fbb96542941f",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/48ad078a-4dae-2b85-a945-f4b6d1efecbb/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Standard/SawedOffShotgun_Standard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "95608504-4c8b-1408-1612-0f8200421c49",
+          "displayName": "Shorty",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/95608504-4c8b-1408-1612-0f8200421c49/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/95608504-4c8b-1408-1612-0f8200421c49/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Standard/Chromas/Standard/SawedOffShotgun_Standard_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a7f92a1c-4465-5ea3-7745-bd876117f4a7",
+          "displayName": "Shorty",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a7f92a1c-4465-5ea3-7745-bd876117f4a7/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Standard/SawedOffShotgun_Standard_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a39bd1bb-4b17-4d57-c505-7eb15caffa4d",
+      "displayName": "Shorty (Aérosol)",
+      "themeUuid": "625f8165-44d8-0104-33da-e38da60cdb11",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a39bd1bb-4b17-4d57-c505-7eb15caffa4d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/StreetArt/Slim_StreetArt_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "acefbdfb-40e8-4d41-d879-d188dc6e01a1",
+          "displayName": "Shorty (Aérosol)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/acefbdfb-40e8-4d41-d879-d188dc6e01a1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/acefbdfb-40e8-4d41-d879-d188dc6e01a1/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/StreetArt/Chromas/Standard/Slim_StreetArt_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "1db941af-4587-c6a4-5885-dbb77fefcb32",
+          "displayName": "Shorty (Aérosol)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1db941af-4587-c6a4-5885-dbb77fefcb32/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/StreetArt/Levels/Slim_StreetArt_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ae2ea89b-495e-2902-f67f-3490c1a03754",
+      "displayName": "Shorty (Tilde)",
+      "themeUuid": "8a046174-4736-8d37-3f2f-9b88c9873040",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ae2ea89b-495e-2902-f67f-3490c1a03754/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/StreetWear/Slim_StreetWear_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "69df9ff4-4441-12ff-94fc-1f84b37ad8a5",
+          "displayName": "Shorty (Tilde)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/69df9ff4-4441-12ff-94fc-1f84b37ad8a5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/69df9ff4-4441-12ff-94fc-1f84b37ad8a5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/69df9ff4-4441-12ff-94fc-1f84b37ad8a5/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/StreetWear/Chromas/Standard/Slim_StreetWear_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "e39170f2-4ea0-b96d-0aca-e9a77596a06d",
+          "displayName": "Shorty (Tilde)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e39170f2-4ea0-b96d-0aca-e9a77596a06d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e39170f2-4ea0-b96d-0aca-e9a77596a06d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e39170f2-4ea0-b96d-0aca-e9a77596a06d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/StreetWear/Chromas/v1/Slim_StreetWear_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "8b394e0c-4a59-714a-02f3-538856f874e7",
+          "displayName": "Shorty (Tilde)\n(variante 2 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8b394e0c-4a59-714a-02f3-538856f874e7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8b394e0c-4a59-714a-02f3-538856f874e7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8b394e0c-4a59-714a-02f3-538856f874e7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/StreetWear/Chromas/v2/Slim_StreetWear_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "19434883-4320-5a89-9c57-24b417e0ae09",
+          "displayName": "Shorty (Tilde)\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/19434883-4320-5a89-9c57-24b417e0ae09/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/19434883-4320-5a89-9c57-24b417e0ae09/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/19434883-4320-5a89-9c57-24b417e0ae09/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/StreetWear/Chromas/V3/Slim_StreetWear_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "10cf91e9-4902-3898-3857-b4ad13882e71",
+          "displayName": "Shorty (Tilde)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/10cf91e9-4902-3898-3857-b4ad13882e71/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/StreetWear/Levels/Slim_StreetWear_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9f487473-4037-5b0a-8cc6-aab4ead88880",
+      "displayName": "Shorty (Amoureux de l'amour)",
+      "themeUuid": "cf8a6ff6-446c-cf90-1b50-f3bdcd7b3d48",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9f487473-4037-5b0a-8cc6-aab4ead88880/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Superstar/Slim_Superstar_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9b5d06ff-4d88-2a95-afce-96a228cbb8bf",
+          "displayName": "Shorty (Amoureux de l'amour)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9b5d06ff-4d88-2a95-afce-96a228cbb8bf/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9b5d06ff-4d88-2a95-afce-96a228cbb8bf/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Superstar/Chromas/Standard/Slim_Superstar_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "836d69fe-4a12-e316-5754-5a8fb3992474",
+          "displayName": "Shorty (Amoureux de l'amour)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/836d69fe-4a12-e316-5754-5a8fb3992474/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Superstar/Levels/Slim_Superstar_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b48639f6-4dbd-f0a3-8fd2-2a9d531fa6a0",
+      "displayName": "Shorty (Tisseur de nuages)",
+      "themeUuid": "a8adfa7d-4885-1d34-e5a2-0cba551ed6ae",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b48639f6-4dbd-f0a3-8fd2-2a9d531fa6a0/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Tattoo/Slim_Tattoo_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "dbc57d4e-416b-69ad-f394-d192dcde22e2",
+          "displayName": "Shorty (Tisseur de nuages)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/dbc57d4e-416b-69ad-f394-d192dcde22e2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/dbc57d4e-416b-69ad-f394-d192dcde22e2/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Tattoo/Chromas/Standard/Slim_Tattoo_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d34cfeb6-4639-8713-26cc-3fb96c8c559e",
+          "displayName": "Shorty (Tisseur de nuages)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d34cfeb6-4639-8713-26cc-3fb96c8c559e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Tattoo/Levels/Slim_Tattoo_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7b51fc8a-4a5c-712e-c663-e6a7eeb61d91",
+      "displayName": "Shorty (Tigre)",
+      "themeUuid": "70de389d-4629-3644-5694-e29230dcbd62",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7b51fc8a-4a5c-712e-c663-e6a7eeb61d91/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Tiger/Slim_Tiger_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a62fbde2-4a37-fd48-0f87-ec86cb66c5bf",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a62fbde2-4a37-fd48-0f87-ec86cb66c5bf/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Tiger/Chromas/Standard/Slim_Tiger_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9f282aa1-4d3e-7595-83ca-0a97fc89ba31",
+          "displayName": "Shorty (Tigre)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9f282aa1-4d3e-7595-83ca-0a97fc89ba31/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Tiger/Levels/Slim_Tiger_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e917273f-42d1-3a8d-7c9e-54afd6e5e68d",
+      "displayName": "Shorty (Cartographeur)",
+      "themeUuid": "3ee7e544-4203-ab2c-a6f1-07835b437a71",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e917273f-42d1-3a8d-7c9e-54afd6e5e68d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Topography/Slim_Topography_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "763d5a76-493f-4978-be73-c0a06d79a741",
+          "displayName": "Shorty (Cartographeur)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/763d5a76-493f-4978-be73-c0a06d79a741/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/763d5a76-493f-4978-be73-c0a06d79a741/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Topography/Chromas/Standard/Slim_Topography_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "673149d4-463f-27a5-163f-78a599244fc3",
+          "displayName": "Shorty (Cartographeur)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/673149d4-463f-27a5-163f-78a599244fc3/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Topography/Levels/Slim_Topography_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "30635237-4877-4ea4-5ac4-239474d3a662",
+      "displayName": "Shorty (Terres désolées)",
+      "themeUuid": "04bb8aa5-4bab-cd4e-e1f0-d9aa3b7bd79d",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/30635237-4877-4ea4-5ac4-239474d3a662/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Wasteland/Slim_Wasteland_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "701655f9-43d8-1c72-f567-acac565fd353",
+          "displayName": "Shorty (Terres désolées)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/701655f9-43d8-1c72-f567-acac565fd353/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/701655f9-43d8-1c72-f567-acac565fd353/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Wasteland/Chromas/Standard/Slim_Wasteland_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a88a4c80-4913-a111-0fba-878adddd381a",
+          "displayName": "Shorty (Terres désolées)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a88a4c80-4913-a111-0fba-878adddd381a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Slim/Wasteland/Levels/Slim_Wasteland_Lv1_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}

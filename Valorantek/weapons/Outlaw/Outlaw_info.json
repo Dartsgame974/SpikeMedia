@@ -1,0 +1,1255 @@
+{
+  "uuid": "5f0aaf7a-4289-3998-d5ff-eb9a5cf7ef5c",
+  "displayName": "Outlaw",
+  "category": "EEquippableCategory::Sniper",
+  "defaultSkinUuid": "740b9572-44b1-57bf-767e-6aa01811f94d",
+  "displayIcon": "https://media.valorant-api.com/weapons/5f0aaf7a-4289-3998-d5ff-eb9a5cf7ef5c/displayicon.png",
+  "killStreamIcon": "https://media.valorant-api.com/weapons/5f0aaf7a-4289-3998-d5ff-eb9a5cf7ef5c/killstreamicon.png",
+  "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/DS_Gun_PrimaryAsset",
+  "weaponStats": {
+    "fireRate": 2.75,
+    "magazineSize": 2,
+    "runSpeedMultiplier": 0.8,
+    "equipTimeSeconds": 1.25,
+    "reloadTimeSeconds": 3.8,
+    "firstBulletAccuracy": 3.5,
+    "shotgunPelletCount": -1,
+    "wallPenetration": "EWallPenetrationDisplayType::High",
+    "feature": null,
+    "fireMode": "EWeaponFireModeDisplayType::SemiAutomatic",
+    "altFireType": "EWeaponAltFireDisplayType::ADS",
+    "adsStats": {
+      "zoomMultiplier": 3.5,
+      "fireRate": 2.75,
+      "runSpeedMultiplier": 0.8,
+      "burstCount": -1,
+      "firstBulletAccuracy": -1
+    },
+    "altShotgunStats": null,
+    "airBurstStats": null,
+    "damageRanges": [
+      {
+        "rangeStartMeters": 0,
+        "rangeEndMeters": 50,
+        "headDamage": 238,
+        "bodyDamage": 140,
+        "legDamage": 119
+      }
+    ]
+  },
+  "shopData": {
+    "cost": 2400,
+    "category": "Sniper Rifles",
+    "shopOrderPriority": 0,
+    "categoryText": "Fusils de sniper",
+    "gridPosition": {
+      "row": 0,
+      "column": 4
+    },
+    "canBeTrashed": true,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/weapons/5f0aaf7a-4289-3998-d5ff-eb9a5cf7ef5c/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/DS_Gun_Purchasable"
+  },
+  "skins": [
+    {
+      "uuid": "fdeb2877-4030-e396-f0cb-998868362c12",
+      "displayName": "Outlaw (RGX 11z Pro)",
+      "themeUuid": "629ff769-4e6b-016a-8fe5-5897bc64e3f0",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/fdeb2877-4030-e396-f0cb-998868362c12/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/fdeb2877-4030-e396-f0cb-998868362c12/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/DS_Gun_Afterglow3_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e85036a7-4f8c-a621-d6cc-c98a6d385dfa",
+          "displayName": "Outlaw (RGX 11z Pro)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e85036a7-4f8c-a621-d6cc-c98a6d385dfa/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e85036a7-4f8c-a621-d6cc-c98a6d385dfa/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e85036a7-4f8c-a621-d6cc-c98a6d385dfa/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/Chromas/Standard/DS_Gun_Afterglow3_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "a7e371d4-420b-f126-2ac4-d1b214f5a985",
+          "displayName": "Outlaw (RGX 11z Pro) niveau 5\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a7e371d4-420b-f126-2ac4-d1b214f5a985/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a7e371d4-420b-f126-2ac4-d1b214f5a985/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a7e371d4-420b-f126-2ac4-d1b214f5a985/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3b954e79-44c8-0a51-364c-00a54b3e7d67_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/Chromas/v1/DS_Gun_Afterglow3_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "cba542ef-496f-2efa-bde6-999a9400d3f0",
+          "displayName": "Outlaw (RGX 11z Pro) niveau 5\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cba542ef-496f-2efa-bde6-999a9400d3f0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cba542ef-496f-2efa-bde6-999a9400d3f0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/cba542ef-496f-2efa-bde6-999a9400d3f0/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/62b63b8e-4dd9-d4e6-62ca-7f8ddad0dedb_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/Chromas/v2/DS_Gun_Afterglow3_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "c65b8d90-4ed8-5567-4103-e3ab38df1855",
+          "displayName": "Outlaw (RGX 11z Pro) niveau 5\n(variante 3 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c65b8d90-4ed8-5567-4103-e3ab38df1855/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c65b8d90-4ed8-5567-4103-e3ab38df1855/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c65b8d90-4ed8-5567-4103-e3ab38df1855/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/633b20c3-41d7-670f-b9c3-b8b9f673e3b7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/Chromas/V3/DS_Gun_Afterglow3_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a519475f-4326-481c-6900-989911df4ce0",
+          "displayName": "Outlaw (RGX 11z Pro)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a519475f-4326-481c-6900-989911df4ce0/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9a540ce9-45d7-5651-9324-e3afc351c777_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/Levels/DS_Gun_Afterglow3_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "805f10e0-41a4-629f-62c6-aa96e337bba1",
+          "displayName": "Outlaw (RGX 11z Pro) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/13496c63-4eee-95ae-2216-35b968151260_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/Levels/DS_Gun_Afterglow3_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "fb2bbabe-4811-0783-c607-b18e05278253",
+          "displayName": "Outlaw (RGX 11z Pro) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/80605dfb-4ab6-cc4d-0609-3b8f539450c9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/Levels/DS_Gun_Afterglow3_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "b34edc0a-425d-5c24-ba36-e5b8101d4ac6",
+          "displayName": "Outlaw (RGX 11z Pro) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f6dee4cb-4f8a-6193-f56e-e3841d4ed6f9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/Levels/DS_Gun_Afterglow3_Lv4_PrimaryAsset"
+        },
+        {
+          "uuid": "ce3e11b5-4c90-fb97-0048-5f8d93cefa1f",
+          "displayName": "Outlaw (RGX 11z Pro) niveau 5",
+          "levelItem": "EEquippableSkinLevelItem::KillCounter",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/653842bd-4a01-b6c2-8639-aeaf18e63f41_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Afterglow3/Levels/DS_Gun_Afterglow3_Lv5_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "6d73609b-4256-7bf7-46aa-9887c6918992",
+      "displayName": "Outlaw (Araxys)",
+      "themeUuid": "b997274a-420c-e200-1988-3c99e0072f0b",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/6d73609b-4256-7bf7-46aa-9887c6918992/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/6d73609b-4256-7bf7-46aa-9887c6918992/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Antares2/DS_Gun_Antares2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "03655fd9-4969-1a6f-43ff-13ade5e6c28b",
+          "displayName": "Outlaw (Araxys)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/03655fd9-4969-1a6f-43ff-13ade5e6c28b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/03655fd9-4969-1a6f-43ff-13ade5e6c28b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/03655fd9-4969-1a6f-43ff-13ade5e6c28b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Antares2/Chromas/Standard/DS_Gun_Antares2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "65a00cf2-41aa-c384-4646-b781482a0f05",
+          "displayName": "Outlaw (Araxys) niveau 4\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/65a00cf2-41aa-c384-4646-b781482a0f05/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/65a00cf2-41aa-c384-4646-b781482a0f05/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/65a00cf2-41aa-c384-4646-b781482a0f05/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/490661d0-4f88-9b11-c0b4-f5b0bfd12e3a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Antares2/Chromas/v1/DS_Gun_Antares2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "9c0d3fa2-4d12-ba80-947d-cbbbb2e1e39c",
+          "displayName": "Outlaw (Araxys) niveau 4\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9c0d3fa2-4d12-ba80-947d-cbbbb2e1e39c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9c0d3fa2-4d12-ba80-947d-cbbbb2e1e39c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9c0d3fa2-4d12-ba80-947d-cbbbb2e1e39c/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/edd911e7-4c51-39b3-6046-f9841a25b2a8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Antares2/Chromas/v2/DS_Gun_Antares2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "3cc42407-4a35-3f6b-b046-658ac13ca00e",
+          "displayName": "Outlaw (Araxys) niveau 4\n(variante 3 Argent)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3cc42407-4a35-3f6b-b046-658ac13ca00e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3cc42407-4a35-3f6b-b046-658ac13ca00e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3cc42407-4a35-3f6b-b046-658ac13ca00e/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c583e8c4-4d32-2c7d-2d26-37af5e9ccba6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Antares2/Chromas/V3/DS_Gun_Antares2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "81ad1b09-4385-7702-36a9-538b65b2a3d8",
+          "displayName": "Outlaw (Araxys)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/81ad1b09-4385-7702-36a9-538b65b2a3d8/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/468a2e0e-4377-3a52-9d62-4caf248989ea_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Antares2/Levels/DS_Gun_Antares2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "8fb4f3cb-480d-f3de-1ea5-a0911e1d9317",
+          "displayName": "Outlaw (Araxys) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ab9b35de-4132-e7a5-61f6-699fe17e1ae6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Antares2/Levels/DS_Gun_Antares2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "e0e4a8c8-4426-0b1e-1abe-01b79d15c59b",
+          "displayName": "Outlaw (Araxys) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/47845b74-4894-a6d9-56a1-7198b825bfd3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Antares2/Levels/DS_Gun_Antares2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "955af6cd-4599-917d-10d7-dea7f5ecbeb3",
+          "displayName": "Outlaw (Araxys) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/2efe2ae3-4015-ca32-8544-45ad370eff2d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Antares2/Levels/DS_Gun_Antares2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "68b8bf1e-48ad-0f98-e99c-9381f6c53083",
+      "displayName": "Outlaw (Foudre)",
+      "themeUuid": "f878c27c-4f7a-35fe-bdb4-2691b7f03f1d",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/68b8bf1e-48ad-0f98-e99c-9381f6c53083/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/68b8bf1e-48ad-0f98-e99c-9381f6c53083/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Bolt/DS_Gun_Bolt_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3d67c5cf-4e49-6262-c39f-2f8526f7cfd0",
+          "displayName": "Outlaw (Foudre)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3d67c5cf-4e49-6262-c39f-2f8526f7cfd0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3d67c5cf-4e49-6262-c39f-2f8526f7cfd0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3d67c5cf-4e49-6262-c39f-2f8526f7cfd0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Bolt/Chromas/Standard/DS_Gun_Bolt_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "c900ef9d-4573-63a8-b7a2-73be5017de15",
+          "displayName": "Outlaw (Foudre) niveau 4\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c900ef9d-4573-63a8-b7a2-73be5017de15/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c900ef9d-4573-63a8-b7a2-73be5017de15/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c900ef9d-4573-63a8-b7a2-73be5017de15/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1a6b4e6f-41c5-4d52-01d0-35a5b13936ec_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Bolt/Chromas/v1/DS_Gun_Bolt_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "67c12ea0-4bad-7e6a-2f31-b19a4c3e0dab",
+          "displayName": "Outlaw (Foudre) niveau 4\r\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/67c12ea0-4bad-7e6a-2f31-b19a4c3e0dab/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/67c12ea0-4bad-7e6a-2f31-b19a4c3e0dab/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/67c12ea0-4bad-7e6a-2f31-b19a4c3e0dab/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/acb8a323-475f-124f-70f3-f884260675e2_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Bolt/Chromas/v2/DS_Gun_Bolt_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "c613f51f-4805-c82c-366c-e5805f2309f2",
+          "displayName": "Outlaw (Foudre) niveau 4\r\n(variante 3 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c613f51f-4805-c82c-366c-e5805f2309f2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c613f51f-4805-c82c-366c-e5805f2309f2/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c613f51f-4805-c82c-366c-e5805f2309f2/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c261e8c6-49b6-5217-a113-e9b604bfaa87_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Bolt/Chromas/V3/DS_Gun_Bolt_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "638e5e7a-48e0-39bc-df25-1f83a4d2fbfb",
+          "displayName": "Outlaw (Foudre)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/638e5e7a-48e0-39bc-df25-1f83a4d2fbfb/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a16700d2-40d0-75e5-15f7-6fbbe1ab2643_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Bolt/Levels/DS_Gun_Bolt_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "d79110f8-4cbf-7f59-1587-63844e501eb1",
+          "displayName": "Outlaw (Foudre) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ee6f24b4-4606-f5b3-b31d-af9fe3b80b20_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Bolt/Levels/DS_Gun_Bolt_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "df39d6d3-456a-d1be-3ee5-04872b3b4bab",
+          "displayName": "Outlaw (Foudre) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/df39d6d3-456a-d1be-3ee5-04872b3b4bab/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/49deb3bd-4e0b-3f5b-af0e-c48706bba1e9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Bolt/Levels/DS_Gun_Bolt_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "9eabc10b-47e2-d297-2b5f-7194fcab3dc0",
+          "displayName": "Outlaw (Foudre) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5d2052d9-4349-e7be-83fa-9cb190da5bb6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Bolt/Levels/DS_Gun_Bolt_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e5bb1bb2-46ea-412a-b9df-08ade950be46",
+      "displayName": "Outlaw (ATLAS // CMD)",
+      "themeUuid": "a09ce81e-4690-e0c1-f3c5-6fa70f935074",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e5bb1bb2-46ea-412a-b9df-08ade950be46/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Brigade/DS_Gun_Brigade_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7554154b-462f-2386-76c3-789cb96220ab",
+          "displayName": "Outlaw (ATLAS // CMD)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7554154b-462f-2386-76c3-789cb96220ab/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7554154b-462f-2386-76c3-789cb96220ab/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Brigade/Chromas/Standard/DS_Gun_Brigade_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e75a157b-4e6f-42c0-46ef-7384d9c98874",
+          "displayName": "Outlaw (ATLAS // CMD)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e75a157b-4e6f-42c0-46ef-7384d9c98874/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Brigade/Levels/DS_Gun_Brigade_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0a9993ce-40fc-7de3-c396-e591064dc6d8",
+      "displayName": "Outlaw (Ouverture)",
+      "themeUuid": "13f016d1-4815-3b33-27a4-fb938bc7ab7a",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0a9993ce-40fc-7de3-c396-e591064dc6d8/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Camera/DS_Gun_Camera_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c2c2cd39-425e-4eb0-2e5a-beb2c5f063c9",
+          "displayName": "Outlaw (Ouverture)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c2c2cd39-425e-4eb0-2e5a-beb2c5f063c9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c2c2cd39-425e-4eb0-2e5a-beb2c5f063c9/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Camera/Chromas/Standard/DS_Gun_Camera_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "4cc07107-42c9-6bf7-7214-ea98cc44f962",
+          "displayName": "Outlaw (Ouverture)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/4cc07107-42c9-6bf7-7214-ea98cc44f962/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Camera/Levels/DS_Gun_Camera_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "75b361a9-4adf-c3e8-6764-12be8933468a",
+      "displayName": "Outlaw (Overlay)",
+      "themeUuid": "20cc6d1c-4f39-bc92-d03f-7fbdc4784bdd",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/75b361a9-4adf-c3e8-6764-12be8933468a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Cartridge/DS_Gun_Cartridge_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4524c359-4869-284f-5d82-b88358f76c36",
+          "displayName": "Outlaw (Overlay)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4524c359-4869-284f-5d82-b88358f76c36/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4524c359-4869-284f-5d82-b88358f76c36/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4524c359-4869-284f-5d82-b88358f76c36/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Cartridge/Chromas/Standard/DS_Gun_Cartridge_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "250b16ce-4249-d70b-7442-26b3d449d3b6",
+          "displayName": "Outlaw (Overlay)\n(variante 1 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/250b16ce-4249-d70b-7442-26b3d449d3b6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/250b16ce-4249-d70b-7442-26b3d449d3b6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/250b16ce-4249-d70b-7442-26b3d449d3b6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Cartridge/Chromas/v1/DS_Gun_Cartridge_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "a86ca6e4-4949-89a2-8055-fb9503dd2aea",
+          "displayName": "Outlaw (Overlay)\n(variante 2 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a86ca6e4-4949-89a2-8055-fb9503dd2aea/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a86ca6e4-4949-89a2-8055-fb9503dd2aea/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a86ca6e4-4949-89a2-8055-fb9503dd2aea/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Cartridge/Chromas/v2/DS_Gun_Cartridge_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "7b6b9c47-4f10-40ea-3c88-a284e9f28dec",
+          "displayName": "Outlaw (Overlay)\n(variante 3 Gris)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7b6b9c47-4f10-40ea-3c88-a284e9f28dec/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7b6b9c47-4f10-40ea-3c88-a284e9f28dec/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7b6b9c47-4f10-40ea-3c88-a284e9f28dec/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Cartridge/Chromas/V3/DS_Gun_Cartridge_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3d59fa6d-4908-0f00-da25-4baed1a1c288",
+          "displayName": "Outlaw (Overlay)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3d59fa6d-4908-0f00-da25-4baed1a1c288/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Cartridge/Levels/DS_Gun_Cartridge_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4d808fd5-4d3d-2721-407d-338b89349a2e",
+      "displayName": "Outlaw (Phaseguard)",
+      "themeUuid": "ac741228-4609-cb05-4320-cf8cd3610f87",
+      "contentTierUuid": "411e4a55-4e59-7757-41f0-86a53f101bb5",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4d808fd5-4d3d-2721-407d-338b89349a2e/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/4d808fd5-4d3d-2721-407d-338b89349a2e/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Commando/DS_Gun_Commando_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "12335c7b-40c6-1b4f-379d-db92e7aec2fb",
+          "displayName": "Outlaw (Phaseguard)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/12335c7b-40c6-1b4f-379d-db92e7aec2fb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/12335c7b-40c6-1b4f-379d-db92e7aec2fb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/12335c7b-40c6-1b4f-379d-db92e7aec2fb/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Commando/Chromas/Standard/DS_Gun_Commando_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "186ab3fd-451f-8cf7-7ca1-42b615fe6afd",
+          "displayName": "Outlaw (Phaseguard) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/186ab3fd-451f-8cf7-7ca1-42b615fe6afd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/186ab3fd-451f-8cf7-7ca1-42b615fe6afd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/186ab3fd-451f-8cf7-7ca1-42b615fe6afd/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1eeb3584-434b-0f3f-b120-3087093daea8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Commando/Chromas/v1/DS_Gun_Commando_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "57e588ff-4a61-2822-86e4-f4a0ee1160ee",
+          "displayName": "Outlaw (Phaseguard) niveau 4\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/57e588ff-4a61-2822-86e4-f4a0ee1160ee/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/57e588ff-4a61-2822-86e4-f4a0ee1160ee/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/57e588ff-4a61-2822-86e4-f4a0ee1160ee/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b084cbd7-40c5-c885-4fef-c7b8fdeae173_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Commando/Chromas/v2/DS_Gun_Commando_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "b505c951-47b0-c2e1-db3e-2ab4a77aec15",
+          "displayName": "Outlaw (Phaseguard) niveau 4\n(variante 3 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b505c951-47b0-c2e1-db3e-2ab4a77aec15/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b505c951-47b0-c2e1-db3e-2ab4a77aec15/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b505c951-47b0-c2e1-db3e-2ab4a77aec15/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/2939644f-43ae-292f-bcea-619a3ae8aa5c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Commando/Chromas/V3/DS_Gun_Commando_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "fd6dfbcd-4a70-559b-d27e-62b914b7c21b",
+          "displayName": "Outlaw (Phaseguard)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fd6dfbcd-4a70-559b-d27e-62b914b7c21b/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6e0e5b55-4a04-22ac-0015-44987facc4b1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Commando/Levels/DS_Gun_Commando_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "778b0aac-4e45-21bc-6e24-51932afd0d1e",
+          "displayName": "Outlaw (Phaseguard) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/bae52f08-4b7a-080e-b0a9-0aab1f3b4188_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Commando/Levels/DS_Gun_Commando_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "aef0c152-47d2-1874-f7aa-728ea93ec174",
+          "displayName": "Outlaw (Phaseguard) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/aef0c152-47d2-1874-f7aa-728ea93ec174/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/736e36bb-4dea-b2a9-23ea-e4a1b7f0860b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Commando/Levels/DS_Gun_Commando_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "25184da1-455c-7977-311a-88bc3e98c8e7",
+          "displayName": "Outlaw (Phaseguard) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4761ab3b-4f73-d494-d955-c896f907f2fb_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Commando/Levels/DS_Gun_Commando_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4a874e74-420d-fa8c-f899-4e80788ba63b",
+      "displayName": "Outlaw (Éclaireur lunaire)",
+      "themeUuid": "79e7a00e-44c4-0863-954a-cfbfc6676412",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4a874e74-420d-fa8c-f899-4e80788ba63b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Frontier/DS_Gun_Frontier_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c864493c-4e8b-b6e1-7d07-799b284e63fd",
+          "displayName": "Outlaw (Éclaireur lunaire)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c864493c-4e8b-b6e1-7d07-799b284e63fd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c864493c-4e8b-b6e1-7d07-799b284e63fd/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Frontier/Chromas/Standard/DS_Gun_Frontier_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "efd2f811-4dae-b4dc-c9b2-d8a3fe9f27c2",
+          "displayName": "Outlaw (Éclaireur lunaire)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/efd2f811-4dae-b4dc-c9b2-d8a3fe9f27c2/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Frontier/Levels/DS_Gun_Frontier_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ca2dd4ea-4e12-e676-84bc-0b977a23ac24",
+      "displayName": "Outlaw (EX.O)",
+      "themeUuid": "378e1ef1-4047-a4dc-013e-2196a66ca564",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ca2dd4ea-4e12-e676-84bc-0b977a23ac24/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/ca2dd4ea-4e12-e676-84bc-0b977a23ac24/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Hologram/DS_Gun_Hologram_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1822d9d9-4319-61c8-581d-7dbb27dbf3d0",
+          "displayName": "Outlaw (EX.O)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1822d9d9-4319-61c8-581d-7dbb27dbf3d0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1822d9d9-4319-61c8-581d-7dbb27dbf3d0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1822d9d9-4319-61c8-581d-7dbb27dbf3d0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Hologram/Chromas/Standard/DS_Gun_Hologram_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "9307042d-4fa2-68e8-155b-24a3a7176cbd",
+          "displayName": "Outlaw (EX.O) niveau 4\n(variante 1 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9307042d-4fa2-68e8-155b-24a3a7176cbd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9307042d-4fa2-68e8-155b-24a3a7176cbd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9307042d-4fa2-68e8-155b-24a3a7176cbd/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ff7dd1a2-41b0-f3ae-c029-e5832372bdaf_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Hologram/Chromas/v1/DS_Gun_Hologram_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "7773e6ef-4563-f597-dd2a-de8d444e7d9e",
+          "displayName": "Outlaw (EX.O) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7773e6ef-4563-f597-dd2a-de8d444e7d9e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7773e6ef-4563-f597-dd2a-de8d444e7d9e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7773e6ef-4563-f597-dd2a-de8d444e7d9e/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b7768573-44d7-92f9-c95f-1b89d9b3f627_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Hologram/Chromas/v2/DS_Gun_Hologram_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "206bf7d5-4a41-e0c7-1d4e-a9ae276f0ac3",
+          "displayName": "Outlaw (EX.O) niveau 4\n(variante 3 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/206bf7d5-4a41-e0c7-1d4e-a9ae276f0ac3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/206bf7d5-4a41-e0c7-1d4e-a9ae276f0ac3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/206bf7d5-4a41-e0c7-1d4e-a9ae276f0ac3/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b2ab4956-4000-afac-2d92-1089bfd74c55_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Hologram/Chromas/V3/DS_Gun_Hologram_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f3672738-41e2-550d-ec4c-0dac79b3b426",
+          "displayName": "Outlaw (EX.O)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f3672738-41e2-550d-ec4c-0dac79b3b426/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f9fe297a-4f91-6cf7-70cc-139e7ec4de10_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Hologram/Levels/DS_Gun_Hologram_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "2a069ae3-4312-9d4b-0128-5aa989f166c6",
+          "displayName": "Outlaw (EX.O) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/80203c09-415f-a109-f500-97854691e342_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Hologram/Levels/DS_Gun_Hologram_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "39e3ac7f-4b9c-cc0a-ff14-a494d8464fb7",
+          "displayName": "Outlaw (EX.O) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5ffbe12e-4f06-d47c-bee1-ec9e67f30975_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Hologram/Levels/DS_Gun_Hologram_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "6ddf1c4d-4b09-eaa3-9032-75b51d61318b",
+          "displayName": "Outlaw (EX.O) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/609c42b5-4f44-c16d-8613-b49508cf0314_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Hologram/Levels/DS_Gun_Hologram_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b3cdf3a4-4547-f73a-f8aa-f390c1d3f42c",
+      "displayName": "Outlaw (Prisme//Rechargé)",
+      "themeUuid": "d7df36a9-411a-2c0a-c8ec-bbb42166606d",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b3cdf3a4-4547-f73a-f8aa-f390c1d3f42c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Iridescence4/DS_Gun_Iridescence4_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7ab22263-4c7a-ee26-7e49-b6947faa45e7",
+          "displayName": "Outlaw (Prisme//Rechargé)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7ab22263-4c7a-ee26-7e49-b6947faa45e7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7ab22263-4c7a-ee26-7e49-b6947faa45e7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7ab22263-4c7a-ee26-7e49-b6947faa45e7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Iridescence4/Chromas/Standard/DS_Gun_Iridescence4_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "032f6423-40d5-7fb4-3e14-64b2d1e59bba",
+          "displayName": "Outlaw (Prisme//Rechargé)\n(variante 1 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/032f6423-40d5-7fb4-3e14-64b2d1e59bba/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/032f6423-40d5-7fb4-3e14-64b2d1e59bba/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/032f6423-40d5-7fb4-3e14-64b2d1e59bba/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Iridescence4/Chromas/v1/DS_Gun_Iridescence4_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "aa0fd9a6-4222-bbc6-adff-4f8e71bd8b7d",
+          "displayName": "Outlaw (Prisme//Rechargé)\n(variante 2 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/aa0fd9a6-4222-bbc6-adff-4f8e71bd8b7d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/aa0fd9a6-4222-bbc6-adff-4f8e71bd8b7d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/aa0fd9a6-4222-bbc6-adff-4f8e71bd8b7d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Iridescence4/Chromas/v2/DS_Gun_Iridescence4_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "d49f55a7-48c6-11b4-9e34-88bdeb7fab08",
+          "displayName": "Outlaw (Prisme//Rechargé)\n(variante 3 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d49f55a7-48c6-11b4-9e34-88bdeb7fab08/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d49f55a7-48c6-11b4-9e34-88bdeb7fab08/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d49f55a7-48c6-11b4-9e34-88bdeb7fab08/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Iridescence4/Chromas/V3/DS_Gun_Iridescence4_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0215edbb-4d4c-ef7a-3b4f-aba2e0c1014a",
+          "displayName": "Outlaw (Prisme//Rechargé)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0215edbb-4d4c-ef7a-3b4f-aba2e0c1014a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Iridescence4/Levels/DS_Gun_Iridescence4_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2a86630c-4bb0-a9e3-69aa-0d96c788797f",
+      "displayName": "Outlaw (Aquatica)",
+      "themeUuid": "258021a5-4609-5cd2-d034-3487237fd345",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2a86630c-4bb0-a9e3-69aa-0d96c788797f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Jellyfish/DS_Gun_Jellyfish_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "9c9583ce-4c70-0359-038c-3f8dd080b2fa",
+          "displayName": "Outlaw (Aquatica)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9c9583ce-4c70-0359-038c-3f8dd080b2fa/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9c9583ce-4c70-0359-038c-3f8dd080b2fa/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Jellyfish/Chromas/Standard/DS_Gun_Jellyfish_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0b8760b7-44b1-c749-83c7-4ebe37298ba8",
+          "displayName": "Outlaw (Aquatica)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0b8760b7-44b1-c749-83c7-4ebe37298ba8/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Jellyfish/Levels/DS_Gun_Jellyfish_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "20c9c715-44dc-e58f-5fdf-4593b24cf6fb",
+      "displayName": "Outlaw (Âme en fusion)",
+      "themeUuid": "4b924064-4241-8288-4218-088e0d7397fd",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/20c9c715-44dc-e58f-5fdf-4593b24cf6fb/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Liberate/DS_Gun_Liberate_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7569a29f-4add-3982-b891-54a532e9155c",
+          "displayName": "Outlaw (Âme en fusion)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7569a29f-4add-3982-b891-54a532e9155c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7569a29f-4add-3982-b891-54a532e9155c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7569a29f-4add-3982-b891-54a532e9155c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Liberate/Chromas/Standard/DS_Gun_Liberate_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "1feb5686-4db2-49fe-0eac-6a9cf3508b25",
+          "displayName": "Outlaw (Âme en fusion)\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1feb5686-4db2-49fe-0eac-6a9cf3508b25/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1feb5686-4db2-49fe-0eac-6a9cf3508b25/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1feb5686-4db2-49fe-0eac-6a9cf3508b25/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Liberate/Chromas/v1/DS_Gun_Liberate_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "f1173f2e-4d8b-c153-ecc1-338acbda4ca8",
+          "displayName": "Outlaw (Âme en fusion)\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f1173f2e-4d8b-c153-ecc1-338acbda4ca8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f1173f2e-4d8b-c153-ecc1-338acbda4ca8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f1173f2e-4d8b-c153-ecc1-338acbda4ca8/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Liberate/Chromas/v2/DS_Gun_Liberate_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "6b70969c-4073-2bc5-9733-e38b2afa3745",
+          "displayName": "Outlaw (Âme en fusion)\n(variante 3 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6b70969c-4073-2bc5-9733-e38b2afa3745/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6b70969c-4073-2bc5-9733-e38b2afa3745/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6b70969c-4073-2bc5-9733-e38b2afa3745/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Liberate/Chromas/V3/DS_Gun_Liberate_V3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "fc793b9e-4644-0b7f-8240-47818532bb3d",
+          "displayName": "Outlaw (Âme en fusion)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/fc793b9e-4644-0b7f-8240-47818532bb3d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Liberate/Levels/DS_Gun_Liberate_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4fdeaf87-406c-303e-a620-b1a06ebe05de",
+      "displayName": "Outlaw (Châtiment)",
+      "themeUuid": "cce84786-45b7-3007-d84f-e2a98776a9dc",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4fdeaf87-406c-303e-a620-b1a06ebe05de/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Lightning2/DS_Gun_Lightning2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8f3c1b5a-450b-f275-b9be-f2a558834079",
+          "displayName": "Outlaw (Châtiment)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8f3c1b5a-450b-f275-b9be-f2a558834079/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8f3c1b5a-450b-f275-b9be-f2a558834079/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Lightning2/Chromas/Standard/DS_Gun_Lightning2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "47880ef7-421c-0e93-0ea5-72ae2b654818",
+          "displayName": "Outlaw (Châtiment)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/47880ef7-421c-0e93-0ea5-72ae2b654818/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Lightning2/Levels/DS_Gun_Lightning2_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "bd9c41dd-42b1-8555-78c1-81a36016bc03",
+      "displayName": "Skin favori aléatoire",
+      "themeUuid": "0d7a5bfb-4850-098e-1821-d989bbfd58a8",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bd9c41dd-42b1-8555-78c1-81a36016bc03/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Random/DS_Gun_Random_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "031401e8-4907-de2c-5097-b88eb90ad540",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/031401e8-4907-de2c-5097-b88eb90ad540/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Random/Chromas/Standard/DS_Gun_Random_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d45b04d5-44d9-2671-2070-11b8efae759c",
+          "displayName": "SKIN FAVORI ALÉATOIRE",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d45b04d5-44d9-2671-2070-11b8efae759c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Random/Levels/DS_Gun_Random_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ae6ca820-4795-5054-76f8-a186b636b231",
+      "displayName": "Outlaw (Clés de l'Elysium)",
+      "themeUuid": "fcd79774-406b-07d7-51e5-08831f19633b",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ae6ca820-4795-5054-76f8-a186b636b231/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/ScorchTheSky/DS_Gun_ScorchTheSky_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1d816974-4409-eb19-9697-4ca6985b93e6",
+          "displayName": "Outlaw (Clés de l'Elysium)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1d816974-4409-eb19-9697-4ca6985b93e6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1d816974-4409-eb19-9697-4ca6985b93e6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1d816974-4409-eb19-9697-4ca6985b93e6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/ScorchTheSky/Chromas/Standard/DS_Gun_ScorchTheSky_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "7404829b-46a5-5c2f-0c6d-75b8c0ceb5ac",
+          "displayName": "Outlaw (Clés de l'Elysium)\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7404829b-46a5-5c2f-0c6d-75b8c0ceb5ac/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7404829b-46a5-5c2f-0c6d-75b8c0ceb5ac/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7404829b-46a5-5c2f-0c6d-75b8c0ceb5ac/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/ScorchTheSky/Chromas/v1/DS_Gun_ScorchTheSky_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "3a5c9e73-4292-b133-1ac5-5384e6f991a5",
+          "displayName": "Outlaw (Clés de l'Elysium)\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3a5c9e73-4292-b133-1ac5-5384e6f991a5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3a5c9e73-4292-b133-1ac5-5384e6f991a5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3a5c9e73-4292-b133-1ac5-5384e6f991a5/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/ScorchTheSky/Chromas/v2/DS_Gun_ScorchTheSky_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "2f9499ea-4ab6-32a3-7c9f-cda8874f82eb",
+          "displayName": "Outlaw (Clés de l'Elysium)\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2f9499ea-4ab6-32a3-7c9f-cda8874f82eb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2f9499ea-4ab6-32a3-7c9f-cda8874f82eb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2f9499ea-4ab6-32a3-7c9f-cda8874f82eb/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/ScorchTheSky/Chromas/V3/DS_Gun_ScorchTheSky_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9acce26e-499d-bc02-98f2-22af6f9cca23",
+          "displayName": "Outlaw (Clés de l'Elysium)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9acce26e-499d-bc02-98f2-22af6f9cca23/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/ScorchTheSky/Levels/DS_Gun_ScorchTheSky_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "64ad2f5d-488e-434b-cf20-a6a05e44f471",
+      "displayName": "Outlaw (Byteshift)",
+      "themeUuid": "f13bddc7-4124-a3b3-fd55-fcaacec73b81",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/64ad2f5d-488e-434b-cf20-a6a05e44f471/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Sleek/DS_Gun_Sleek_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2800c7ad-4cbd-5b5f-e704-e98615e216f6",
+          "displayName": "Outlaw (Byteshift)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2800c7ad-4cbd-5b5f-e704-e98615e216f6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2800c7ad-4cbd-5b5f-e704-e98615e216f6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2800c7ad-4cbd-5b5f-e704-e98615e216f6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Sleek/Chromas/Standard/DS_Gun_Sleek_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "c53d1682-4c1e-ef1a-2238-67808692c01e",
+          "displayName": "Outlaw (Byteshift)\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c53d1682-4c1e-ef1a-2238-67808692c01e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c53d1682-4c1e-ef1a-2238-67808692c01e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c53d1682-4c1e-ef1a-2238-67808692c01e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Sleek/Chromas/v1/DS_Gun_Sleek_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "be951a45-4d2b-43d5-1182-9394018a9278",
+          "displayName": "Outlaw (Byteshift)\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/be951a45-4d2b-43d5-1182-9394018a9278/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/be951a45-4d2b-43d5-1182-9394018a9278/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/be951a45-4d2b-43d5-1182-9394018a9278/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Sleek/Chromas/v2/DS_Gun_Sleek_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "a2cb1646-465f-3f0f-bc1e-ad907f912a1e",
+          "displayName": "Outlaw (Byteshift)\n(variante 3 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a2cb1646-465f-3f0f-bc1e-ad907f912a1e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a2cb1646-465f-3f0f-bc1e-ad907f912a1e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a2cb1646-465f-3f0f-bc1e-ad907f912a1e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Sleek/Chromas/V3/DS_Gun_Sleek_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c9621cf5-4015-984c-63c6-04991e5e1cdf",
+          "displayName": "Outlaw (Byteshift)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c9621cf5-4015-984c-63c6-04991e5e1cdf/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Sleek/Levels/DS_Gun_Sleek_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1a097db1-4778-7049-b62e-6fa071ad7193",
+      "displayName": "Outlaw (Mystyosotis)",
+      "themeUuid": "882ea344-4034-7da9-5b17-229a42f602ec",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1a097db1-4778-7049-b62e-6fa071ad7193/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/1a097db1-4778-7049-b62e-6fa071ad7193/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Spirit2/DS_Gun_Spirit2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6b6a6645-4f5c-c9fc-b20c-33a025b21ecb",
+          "displayName": "Outlaw (Mystyosotis)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6b6a6645-4f5c-c9fc-b20c-33a025b21ecb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6b6a6645-4f5c-c9fc-b20c-33a025b21ecb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6b6a6645-4f5c-c9fc-b20c-33a025b21ecb/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Spirit2/Chromas/Standard/DS_Gun_Spirit2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "f6f9772f-41b4-fdc9-bcb8-40b6905082fa",
+          "displayName": "Outlaw (Mystyosotis) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f6f9772f-41b4-fdc9-bcb8-40b6905082fa/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f6f9772f-41b4-fdc9-bcb8-40b6905082fa/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f6f9772f-41b4-fdc9-bcb8-40b6905082fa/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/72362051-4792-990d-4ce9-07aa8299f8c3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Spirit2/Chromas/v1/DS_Gun_Spirit2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "e0af5106-420e-15e9-497f-d997519cd59d",
+          "displayName": "Outlaw (Mystyosotis) niveau 4\n(variante 2 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e0af5106-420e-15e9-497f-d997519cd59d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e0af5106-420e-15e9-497f-d997519cd59d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e0af5106-420e-15e9-497f-d997519cd59d/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f01b5e88-4c05-6ee0-5071-628ae5e7daee_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Spirit2/Chromas/v2/DS_Gun_Spirit2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "da3c49c6-4522-be6e-80e2-21beab580904",
+          "displayName": "Outlaw (Mystyosotis) niveau 4\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/da3c49c6-4522-be6e-80e2-21beab580904/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/da3c49c6-4522-be6e-80e2-21beab580904/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/da3c49c6-4522-be6e-80e2-21beab580904/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/69f41874-42c3-c0ad-88d5-ddaa6b27965f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Spirit2/Chromas/V3/DS_Gun_Spirit2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a5796d39-4071-3f56-0b06-0a89abdd130b",
+          "displayName": "Outlaw (Mystyosotis)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a5796d39-4071-3f56-0b06-0a89abdd130b/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/50ef9151-4850-65b9-b33c-7783c83eac6a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Spirit2/Levels/DS_Gun_Spirit2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "391fbadf-47e9-0fd2-cc62-9b95039747ba",
+          "displayName": "Outlaw (Mystyosotis) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b98eb9c7-4a52-045f-864c-b69c7031e544_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Spirit2/Levels/DS_Gun_Spirit2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "88c960e3-429a-2593-d7c2-aab35810fc41",
+          "displayName": "Outlaw (Mystyosotis) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/88c960e3-429a-2593-d7c2-aab35810fc41/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/72f65abf-492e-e92f-68c3-b089f311ae29_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Spirit2/Levels/DS_Gun_Spirit2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "7763db3d-4d44-2e7f-04e0-e2b7c5491265",
+          "displayName": "Outlaw (Mystyosotis) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/60ddcdf3-4251-ec8b-3557-4ab06997198f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Spirit2/Levels/DS_Gun_Spirit2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "740b9572-44b1-57bf-767e-6aa01811f94d",
+      "displayName": "Outlaw (Standard)",
+      "themeUuid": "5a629df4-4765-0214-bd40-fbb96542941f",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/740b9572-44b1-57bf-767e-6aa01811f94d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Standard/DS_Gun_Standard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "66c8d241-4f7c-6652-3aaa-51bafffbd493",
+          "displayName": "Outlaw",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/66c8d241-4f7c-6652-3aaa-51bafffbd493/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/66c8d241-4f7c-6652-3aaa-51bafffbd493/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Standard/Chromas/DS_Gun_Standard_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e4d16fc0-47a2-323f-0564-9495418237e8",
+          "displayName": "Outlaw",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e4d16fc0-47a2-323f-0564-9495418237e8/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Standard/DS_Gun_Standard_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "db1044ad-4da2-d981-92ce-8685a1ead1a4",
+      "displayName": "Outlaw (Amoureux de l'amour)",
+      "themeUuid": "cf8a6ff6-446c-cf90-1b50-f3bdcd7b3d48",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/db1044ad-4da2-d981-92ce-8685a1ead1a4/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Superstar/DS_Gun_Superstar_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1785c300-46d0-47bc-d035-54ada5bd292b",
+          "displayName": "Outlaw (Amoureux de l'amour)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1785c300-46d0-47bc-d035-54ada5bd292b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1785c300-46d0-47bc-d035-54ada5bd292b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Superstar/Chromas/Standard/DS_Gun_Superstar_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9f796ae3-491d-28dc-1beb-9bb81a5e231a",
+          "displayName": "Outlaw (Amoureux de l'amour)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9f796ae3-491d-28dc-1beb-9bb81a5e231a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Superstar/Levels/DS_Gun_Superstar_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9decabd1-4d9f-156d-4bea-4f973e57119f",
+      "displayName": "Outlaw (Tisseur de nuages)",
+      "themeUuid": "a8adfa7d-4885-1d34-e5a2-0cba551ed6ae",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9decabd1-4d9f-156d-4bea-4f973e57119f/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Tattoo/DS_Gun_Tattoo_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "cdef4c94-4c3e-8e2c-c35a-728d0960f038",
+          "displayName": "Outlaw (Tisseur de nuages)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cdef4c94-4c3e-8e2c-c35a-728d0960f038/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cdef4c94-4c3e-8e2c-c35a-728d0960f038/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Tattoo/Chromas/Standard/DS_Gun_Tattoo_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ddcb7b54-4f92-0f69-0484-ab967036a97b",
+          "displayName": "Outlaw (Tisseur de nuages)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ddcb7b54-4f92-0f69-0484-ab967036a97b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Tattoo/Levels/DS_Gun_Tattoo_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9fbeb60b-4c22-d736-b335-43ad53d0bc69",
+      "displayName": "Outlaw (Ego)",
+      "themeUuid": "54e935e3-446f-5184-ba3a-f096c595b146",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9fbeb60b-4c22-d736-b335-43ad53d0bc69/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/9fbeb60b-4c22-d736-b335-43ad53d0bc69/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Unstoppable/DS_Gun_Unstoppable_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "bb8acb8d-42a0-01ce-c342-168b674aab2d",
+          "displayName": "Outlaw (Ego)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bb8acb8d-42a0-01ce-c342-168b674aab2d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bb8acb8d-42a0-01ce-c342-168b674aab2d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/bb8acb8d-42a0-01ce-c342-168b674aab2d/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Unstoppable/Chromas/Standard/DS_Gun_Unstoppable_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "56c6efe6-44f8-8c6c-3ab9-1a8a4f7c80ee",
+          "displayName": "Outlaw (Ego)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/56c6efe6-44f8-8c6c-3ab9-1a8a4f7c80ee/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/56c6efe6-44f8-8c6c-3ab9-1a8a4f7c80ee/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/56c6efe6-44f8-8c6c-3ab9-1a8a4f7c80ee/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Unstoppable/Chromas/v1/DS_Gun_Unstoppable_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "d61375ca-466d-75a5-7e65-65a863ee79d6",
+          "displayName": "Outlaw (Ego)\n(variante 2 Brun)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d61375ca-466d-75a5-7e65-65a863ee79d6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d61375ca-466d-75a5-7e65-65a863ee79d6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d61375ca-466d-75a5-7e65-65a863ee79d6/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Unstoppable/Chromas/v2/DS_Gun_Unstoppable_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "d637f729-49f4-cbce-3d0d-a0bbefb7e522",
+          "displayName": "Outlaw (Ego)\n(variante 3 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d637f729-49f4-cbce-3d0d-a0bbefb7e522/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d637f729-49f4-cbce-3d0d-a0bbefb7e522/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d637f729-49f4-cbce-3d0d-a0bbefb7e522/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Unstoppable/Chromas/V3/DS_Gun_Unstoppable_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d76e97cf-4a23-cafa-fe60-439a8ca7b37a",
+          "displayName": "Outlaw (Ego)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d76e97cf-4a23-cafa-fe60-439a8ca7b37a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Unstoppable/Levels/DS_Gun_Unstoppable_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a69950ce-460e-fa01-3b91-0ca6f9eac329",
+      "displayName": "Outlaw (Holomoku)",
+      "themeUuid": "d165cc5a-499c-7172-05a8-ff91132ca4a9",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a69950ce-460e-fa01-3b91-0ca6f9eac329/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Voyager/DS_Gun_Voyager_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "718571ae-4015-bd40-6442-cfae5748d8f2",
+          "displayName": "Outlaw (Holomoku)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/718571ae-4015-bd40-6442-cfae5748d8f2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/718571ae-4015-bd40-6442-cfae5748d8f2/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/718571ae-4015-bd40-6442-cfae5748d8f2/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Voyager/Chromas/Standard/DS_Gun_Voyager_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "eaaddc2f-427b-b69a-0820-b09c070417a9",
+          "displayName": "Outlaw (Holomoku)\n(variante 1 Profondeurs)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/eaaddc2f-427b-b69a-0820-b09c070417a9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/eaaddc2f-427b-b69a-0820-b09c070417a9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/eaaddc2f-427b-b69a-0820-b09c070417a9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Voyager/Chromas/v1/DS_Gun_Voyager_v1_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "225c346d-4429-36cd-304a-6c8125f694d5",
+          "displayName": "Outlaw (Holomoku)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/225c346d-4429-36cd-304a-6c8125f694d5/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Voyager/Levels/DS_Gun_Voyager_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "04b1d687-4e86-1011-56a4-a9816cf3f5e0",
+      "displayName": "Outlaw (Terres désolées)",
+      "themeUuid": "4b50f796-45f7-d38c-a519-388b2f2a945d",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/04b1d687-4e86-1011-56a4-a9816cf3f5e0/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Wasteland2/DS_Gun_Wasteland2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "12120d07-41f2-d2c4-f476-82a5687f1e62",
+          "displayName": "Outlaw (Terres désolées)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/12120d07-41f2-d2c4-f476-82a5687f1e62/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/12120d07-41f2-d2c4-f476-82a5687f1e62/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Wasteland2/Chromas/Standard/DS_Gun_Wasteland2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8fec472e-481b-3722-56d0-4cb5341f77d9",
+          "displayName": "Outlaw (Terres désolées)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8fec472e-481b-3722-56d0-4cb5341f77d9/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/SniperRifles/Doublesniper/Wasteland2/Levels/DS_Gun_Wasteland2_Lv1_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}

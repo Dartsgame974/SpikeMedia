@@ -1,0 +1,2177 @@
+{
+  "uuid": "55d8a0f4-4274-ca67-fe2c-06ab45efdf58",
+  "displayName": "Ares",
+  "category": "EEquippableCategory::Heavy",
+  "defaultSkinUuid": "5305d9c4-4f46-fbf4-9e9a-dea772c263b5",
+  "displayIcon": "https://media.valorant-api.com/weapons/55d8a0f4-4274-ca67-fe2c-06ab45efdf58/displayicon.png",
+  "killStreamIcon": "https://media.valorant-api.com/weapons/55d8a0f4-4274-ca67-fe2c-06ab45efdf58/killstreamicon.png",
+  "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LMGPrimaryAsset",
+  "weaponStats": {
+    "fireRate": 13,
+    "magazineSize": 50,
+    "runSpeedMultiplier": 0.76,
+    "equipTimeSeconds": 1.25,
+    "reloadTimeSeconds": 3.25,
+    "firstBulletAccuracy": 1,
+    "shotgunPelletCount": 1,
+    "wallPenetration": "EWallPenetrationDisplayType::High",
+    "feature": null,
+    "fireMode": null,
+    "altFireType": "EWeaponAltFireDisplayType::ADS",
+    "adsStats": {
+      "zoomMultiplier": 1.15,
+      "fireRate": 13,
+      "runSpeedMultiplier": 0.76,
+      "burstCount": 1,
+      "firstBulletAccuracy": 0.9
+    },
+    "altShotgunStats": null,
+    "airBurstStats": null,
+    "damageRanges": [
+      {
+        "rangeStartMeters": 0,
+        "rangeEndMeters": 30,
+        "headDamage": 75,
+        "bodyDamage": 30,
+        "legDamage": 25.5
+      },
+      {
+        "rangeStartMeters": 30,
+        "rangeEndMeters": 50,
+        "headDamage": 70,
+        "bodyDamage": 28,
+        "legDamage": 23.800001
+      }
+    ]
+  },
+  "shopData": {
+    "cost": 1600,
+    "category": "Heavy Weapons",
+    "shopOrderPriority": 0,
+    "categoryText": "Armes lourdes",
+    "gridPosition": {
+      "row": 1,
+      "column": 1
+    },
+    "canBeTrashed": true,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/weapons/55d8a0f4-4274-ca67-fe2c-06ab45efdf58/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LightMachineGunPurchase"
+  },
+  "skins": [
+    {
+      "uuid": "37cacef1-4ff3-fafb-b0e0-f1b14ce9449d",
+      "displayName": "Ares (Perforateur spatial)",
+      "themeUuid": "55ba6998-4677-1908-0d2a-f893006fcb1c",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/37cacef1-4ff3-fafb-b0e0-f1b14ce9449d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/AlienSky/LMG_AlienSky_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "4aac3ed7-461d-1b10-5107-0a952f2c4c5f",
+          "displayName": "Ares (Perforateur spatial)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4aac3ed7-461d-1b10-5107-0a952f2c4c5f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4aac3ed7-461d-1b10-5107-0a952f2c4c5f/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/AlienSky/Chromas/Standard/LMG_AlienSky_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3739f569-4bb9-4dda-c0d7-c2b31d24574f",
+          "displayName": "Ares (Perforateur spatial)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3739f569-4bb9-4dda-c0d7-c2b31d24574f/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/AlienSky/Levels/LMG_AlienSky_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e9fce399-4abc-bb3c-8992-f887918ce327",
+      "displayName": "Ares (VALORANT GO! Vol. 2)",
+      "themeUuid": "82738de9-4992-ebfd-8c47-7384a6b9eb7b",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e9fce399-4abc-bb3c-8992-f887918ce327/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/e9fce399-4abc-bb3c-8992-f887918ce327/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Anime2/LMG_Anime2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "825648b2-4c6f-4bb7-6d47-43a9734a18ab",
+          "displayName": "Ares (VALORANT GO! Vol. 2)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/825648b2-4c6f-4bb7-6d47-43a9734a18ab/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/825648b2-4c6f-4bb7-6d47-43a9734a18ab/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Anime2/Chromas/Standard/LMG_Anime2_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "1203a0b8-4044-a7de-1751-87b30b9574e8",
+          "displayName": "Ares (VALORANT GO! Vol. 2)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1203a0b8-4044-a7de-1751-87b30b9574e8/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Anime2/Levels/LMG_Anime2_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8b9855f2-4cc6-0c44-3e7c-d0b2a32c6950",
+      "displayName": "Ares (Aristocrate)",
+      "themeUuid": "38f408dc-416e-eda9-3ac5-21892c5f5ad1",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8b9855f2-4cc6-0c44-3e7c-d0b2a32c6950/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ArtDeco/LightMachineGun_ArtDeco_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "45b00d43-4b76-8953-a87d-50b43c309d98",
+          "displayName": "Ares (Aristocrate)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/45b00d43-4b76-8953-a87d-50b43c309d98/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/45b00d43-4b76-8953-a87d-50b43c309d98/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ArtDeco/Chromas/Standard/LightMachineGun_ArtDeco_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "a2045403-40f7-2926-f955-028b6867c79a",
+          "displayName": "Ares (Aristocrate)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/a2045403-40f7-2926-f955-028b6867c79a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ArtDeco/Levels/LightMachineGun_ArtDeco_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1e5ee5bf-43d5-28ee-b2f7-96a53b783dc2",
+      "displayName": "Ares (Vengeance de Gaïa)",
+      "themeUuid": "f3427ce8-4ad1-9ece-7b37-22befb459dad",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1e5ee5bf-43d5-28ee-b2f7-96a53b783dc2/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/1e5ee5bf-43d5-28ee-b2f7-96a53b783dc2/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Ashen2/LMG_Ashen2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "88d5c68f-4f03-d276-705d-84981eff0c71",
+          "displayName": "Ares (Vengeance de Gaïa)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/88d5c68f-4f03-d276-705d-84981eff0c71/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/88d5c68f-4f03-d276-705d-84981eff0c71/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/88d5c68f-4f03-d276-705d-84981eff0c71/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Ashen2/Chromas/Standard/LMG_Ashen2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "9a1234a0-4167-a3c9-ec45-da8dbbf30f11",
+          "displayName": "Ares (Vengeance de Gaïa) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/9a1234a0-4167-a3c9-ec45-da8dbbf30f11/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/9a1234a0-4167-a3c9-ec45-da8dbbf30f11/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/9a1234a0-4167-a3c9-ec45-da8dbbf30f11/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1d957c9c-4984-110f-5fc4-c0b84cc698ca_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Ashen2/Chromas/v1/LMG_Ashen2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "b4a9316d-4a84-d75b-bc59-5cb41841b4ca",
+          "displayName": "Ares (Vengeance de Gaïa) niveau 4\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b4a9316d-4a84-d75b-bc59-5cb41841b4ca/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b4a9316d-4a84-d75b-bc59-5cb41841b4ca/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b4a9316d-4a84-d75b-bc59-5cb41841b4ca/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/05f0d1c2-49b9-fad5-0d19-b78c0aef2e28_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Ashen2/Chromas/v2/LMG_Ashen2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "be415d39-4460-0f90-4e63-e8b0ae7b6008",
+          "displayName": "Ares (Vengeance de Gaïa) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/be415d39-4460-0f90-4e63-e8b0ae7b6008/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/be415d39-4460-0f90-4e63-e8b0ae7b6008/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/be415d39-4460-0f90-4e63-e8b0ae7b6008/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/566efa25-4636-9232-a918-ac8ac050f6b9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Ashen2/Chromas/V3/LMG_Ashen2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0767c288-4ac6-4a8c-6f76-be8ca91e2991",
+          "displayName": "Ares (Vengeance de Gaïa)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0767c288-4ac6-4a8c-6f76-be8ca91e2991/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/dce84e7e-4496-33ef-ea78-6dbd3ffdf857_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Ashen2/Levels/LMG_Ashen2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "5d07b5f8-4f20-b0f5-a4a3-7297a27d0e95",
+          "displayName": "Ares (Vengeance de Gaïa) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c4db157d-4d6d-df23-33e2-a2b532c2ec2f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Ashen2/Levels/LMG_Ashen2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "cd281fde-40b1-2073-8c1c-afba2b3dbb39",
+          "displayName": "Ares (Vengeance de Gaïa) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/819bd4d1-411d-e0fc-b3d9-ada59700b378_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Ashen2/Levels/LMG_Ashen2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "fb45bedd-4596-43dc-19cf-c99863cf83d0",
+          "displayName": "Ares (Vengeance de Gaïa) niveau 4 ",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/96aff6ca-4bc4-765f-69ab-84a0dfc6ef5f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Ashen2/Levels/LMG_Ashen2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "bb004222-4ecd-e109-e875-069c820548fa",
+      "displayName": "Ares (Explorateur)",
+      "themeUuid": "24510d1a-4601-6a3e-fef0-99a09072f4cd",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bb004222-4ecd-e109-e875-069c820548fa/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Astronaut/LMG_Astronaut_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "2e38d5d2-4bbb-69c3-1a90-688164dcf2f6",
+          "displayName": "Ares (Explorateur)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2e38d5d2-4bbb-69c3-1a90-688164dcf2f6/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Astronaut/Chromas/Standard/LMG_Astronaut_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "433e7f5e-4aaa-940e-4003-99bc0df92c17",
+          "displayName": "Ares (Explorateur)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/433e7f5e-4aaa-940e-4003-99bc0df92c17/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Astronaut/Levels/LMG_Astronaut_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a609cb96-44aa-f949-c357-e4883fe664d1",
+      "displayName": "Ares (Brigade bourdonnante)",
+      "themeUuid": "21f74546-490a-fc6e-7504-0395b9cb6370",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a609cb96-44aa-f949-c357-e4883fe664d1/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/BeeaTeam/LMG_BeeaTeam_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "a5e6c6a0-411a-f55a-2c37-4a83e26fdc08",
+          "displayName": "Ares (Brigade bourdonnante)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a5e6c6a0-411a-f55a-2c37-4a83e26fdc08/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a5e6c6a0-411a-f55a-2c37-4a83e26fdc08/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/BeeaTeam/Chromas/Standard/LMG_BeeaTeam_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6359946e-4d47-f420-eae6-17a6154da32a",
+          "displayName": "Ares (Brigade bourdonnante)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6359946e-4d47-f420-eae6-17a6154da32a/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/BeeaTeam/Levels/LMG_BeeaTeam_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ac65b631-4bd1-b0fa-3313-0da74d4eba9d",
+      "displayName": "Ares (Nébuleuse)",
+      "themeUuid": "7e1b7375-4b1d-9e2f-14f2-acb278400826",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ac65b631-4bd1-b0fa-3313-0da74d4eba9d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Cosmos/LMG_Cosmos_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0856fa2a-472a-2cc6-fb33-1c984d6cecba",
+          "displayName": "Ares (Nébuleuse)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0856fa2a-472a-2cc6-fb33-1c984d6cecba/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0856fa2a-472a-2cc6-fb33-1c984d6cecba/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Cosmos/Chromas/Standard/LMG_Cosmos_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7d3c0ac4-42ce-7111-2c86-43be3d2e86a7",
+          "displayName": "Ares (Nébuleuse)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7d3c0ac4-42ce-7111-2c86-43be3d2e86a7/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Cosmos/Levels/LMG_Cosmos_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "35beb433-425e-7072-7ac3-9ca95d1d1fd9",
+      "displayName": "Ares (Amis crayonnés)",
+      "themeUuid": "540a0c01-43ad-809d-6347-12b48f90478b",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/35beb433-425e-7072-7ac3-9ca95d1d1fd9/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Doodlebuds/LMG_Doodlebuds_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d16d060c-4a96-077a-4d6f-e399e57125f3",
+          "displayName": "Ares (Amis crayonnés)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d16d060c-4a96-077a-4d6f-e399e57125f3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d16d060c-4a96-077a-4d6f-e399e57125f3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d16d060c-4a96-077a-4d6f-e399e57125f3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Doodlebuds/Chromas/Standard/LMG_Doodlebuds_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "22e563d3-4a87-bb96-dcd8-fc92bc76aa07",
+          "displayName": "Ares (Amis crayonnés) niveau 2\n(variante 1 Tactipotes)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/22e563d3-4a87-bb96-dcd8-fc92bc76aa07/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/22e563d3-4a87-bb96-dcd8-fc92bc76aa07/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/22e563d3-4a87-bb96-dcd8-fc92bc76aa07/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e533e91b-4383-907f-67ed-36a9f197be29_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Doodlebuds/Chromas/v1/LMG_Doodlebuds_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "2c372b76-480b-c619-cce2-399790ff0254",
+          "displayName": "Ares (Amis crayonnés) niveau 2\n(variante 2 League of Legends)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2c372b76-480b-c619-cce2-399790ff0254/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2c372b76-480b-c619-cce2-399790ff0254/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2c372b76-480b-c619-cce2-399790ff0254/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e631a14c-4d9f-efeb-b249-e6b53f36b628_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Doodlebuds/Chromas/v2/LMG_Doodlebuds_v2_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8e0c9fac-4d40-0a04-cf4a-4bb553952164",
+          "displayName": "Ares (Amis crayonnés)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8e0c9fac-4d40-0a04-cf4a-4bb553952164/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/69653ad7-481f-9601-e3af-38b6dc7ec566_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Doodlebuds/Levels/LMG_Doodlebuds_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "700f9bc6-448d-1159-64ad-ea98035581d1",
+          "displayName": "Ares (Amis crayonnés) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::KillEffect",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e0c5665a-49d3-3525-2749-609b7835825b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Doodlebuds/Levels/LMG_Doodlebuds_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5bbf3175-411f-af59-c8ee-4395a61b3858",
+      "displayName": "Ares (Porte du Dragon)",
+      "themeUuid": "90427190-4d5c-d77b-07b6-35804b8c163b",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5bbf3175-411f-af59-c8ee-4395a61b3858/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Dragongate/LMG_Dragongate_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "76d4cfc8-4830-9ce5-9632-a3bb86557ad7",
+          "displayName": "Ares (Porte du Dragon)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/76d4cfc8-4830-9ce5-9632-a3bb86557ad7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/76d4cfc8-4830-9ce5-9632-a3bb86557ad7/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Dragongate/Chromas/Standard/LMG_Dragongate_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ed3fcae2-403a-2fa7-4c9b-889b4d70c40d",
+          "displayName": "Ares (Porte du Dragon)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ed3fcae2-403a-2fa7-4c9b-889b4d70c40d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Dragongate/Levels/LMG_Dragongate_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e901bdeb-405f-d06c-0733-6783274d85b0",
+      "displayName": "Ares (Singularité)",
+      "themeUuid": "738936d8-5551-4748-9660-44909304f74b",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e901bdeb-405f-d06c-0733-6783274d85b0/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Edge/LightMachineGun_Edge_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e56c230f-447d-034f-fe57-ce935b3f8c55",
+          "displayName": "Ares (Singularité)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e56c230f-447d-034f-fe57-ce935b3f8c55/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e56c230f-447d-034f-fe57-ce935b3f8c55/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e56c230f-447d-034f-fe57-ce935b3f8c55/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Edge/Chromas/Standard/LightMachineGun_Edge_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "e0c5286e-48ff-41af-a524-9b8daf11f9d8",
+          "displayName": "Ares (Singularité) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e0c5286e-48ff-41af-a524-9b8daf11f9d8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e0c5286e-48ff-41af-a524-9b8daf11f9d8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e0c5286e-48ff-41af-a524-9b8daf11f9d8/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Edge/Chromas/Blue/LightMachineGun_Edge_Blue_PrimaryAsset"
+        },
+        {
+          "uuid": "712019a2-415b-c0b2-9228-08892eb0b1f2",
+          "displayName": "Ares (Singularité) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/712019a2-415b-c0b2-9228-08892eb0b1f2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/712019a2-415b-c0b2-9228-08892eb0b1f2/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/712019a2-415b-c0b2-9228-08892eb0b1f2/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Edge/Chromas/Red/LightMachineGun_Edge_Red_PrimaryAsset"
+        },
+        {
+          "uuid": "4f6c7938-4b3d-e30d-e9b7-9e97f801fe62",
+          "displayName": "Ares (Singularité) niveau 4\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4f6c7938-4b3d-e30d-e9b7-9e97f801fe62/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4f6c7938-4b3d-e30d-e9b7-9e97f801fe62/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4f6c7938-4b3d-e30d-e9b7-9e97f801fe62/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Edge/Chromas/Purple/LightMachineGun_Edge_Purple_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "642ee168-4f9e-1f5f-be72-01b3a41ac086",
+          "displayName": "Ares (Singularité)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/642ee168-4f9e-1f5f-be72-01b3a41ac086/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/31277939-4cc5-0346-a8f3-8396a4428a71_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Edge/Levels/LightMachineGun_Edge_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "485df72f-423e-4e53-51a2-68a3c2a929db",
+          "displayName": "Ares (Singularité) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/485df72f-423e-4e53-51a2-68a3c2a929db/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4d76b9a6-4c2d-c5f7-07e7-8d9667d9e879_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Edge/Levels/LightMachineGun_Edge_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "b080be2c-457a-61a2-d3b2-429b32e62345",
+          "displayName": "Ares (Singularité) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/b080be2c-457a-61a2-d3b2-429b32e62345/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/2c8179c3-42fd-0d26-8fde-c595200c99d8_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Edge/Levels/LightMachineGun_Edge_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "6b12682c-4813-d34f-322d-67b0211e1e6d",
+          "displayName": "Ares (Singularité) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/cbf3d0f1-468e-cba8-d9ea-dd8420de12b6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Edge/Levels/LMG_Edge_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4e04647a-4cfc-64f8-4643-f6b7dbcb2943",
+      "displayName": "Ares (Rush)",
+      "themeUuid": "00347950-4139-2bc2-b594-bc8293ce9342",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4e04647a-4cfc-64f8-4643-f6b7dbcb2943/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Electroflux/LightMachineGun_Electroflux_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "d2c1a05e-44ca-5bf9-21ad-48b989e164d2",
+          "displayName": "Ares (Rush)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d2c1a05e-44ca-5bf9-21ad-48b989e164d2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d2c1a05e-44ca-5bf9-21ad-48b989e164d2/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Electroflux/Chromas/Standard/LightMachineGun_Electroflux_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "bad7ae62-4f6a-8974-ab73-7ba6405ca898",
+          "displayName": "Ares (Rush)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/bad7ae62-4f6a-8974-ab73-7ba6405ca898/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Electroflux/Levels/LightMachineGun_Electroflux_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "556646c0-46dd-6986-00df-a78d1c17f268",
+      "displayName": "Ares (Collectif)",
+      "themeUuid": "e0652066-4c7f-2229-2921-749b044ffd48",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/556646c0-46dd-6986-00df-a78d1c17f268/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Exo/LMG_Exo_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0b299873-40d8-d0aa-0a06-04a1b7eb5bc7",
+          "displayName": "Ares (Collectif)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0b299873-40d8-d0aa-0a06-04a1b7eb5bc7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0b299873-40d8-d0aa-0a06-04a1b7eb5bc7/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Exo/Chromas/Standard/LMG_Exo_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "65bb772a-41f2-8b25-a1af-75a79d596203",
+          "displayName": "Ares (Collectif)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/65bb772a-41f2-8b25-a1af-75a79d596203/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Exo/Levels/LMG_Exo_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "04b1358c-4702-dd82-a135-368384b685dd",
+      "displayName": "Ares (Flamboyant)",
+      "themeUuid": "39a6524c-4842-a05c-e420-27ab8d022cea",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/04b1358c-4702-dd82-a135-368384b685dd/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Fury/LMG_Fury_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f72769f3-4a87-fa60-b4ef-8287a718760d",
+          "displayName": "Ares (Flamboyant)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f72769f3-4a87-fa60-b4ef-8287a718760d/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f72769f3-4a87-fa60-b4ef-8287a718760d/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Fury/Chromas/Standard/LMG_Fury_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e5b8e4ac-4092-6968-704c-df8acaf0ac1d",
+          "displayName": "Ares (Flamboyant)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e5b8e4ac-4092-6968-704c-df8acaf0ac1d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Fury/Levels/LMG_Fury_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "b4803277-468a-f798-7120-718963b94d7a",
+      "displayName": "Ares (Numhex)",
+      "themeUuid": "e69b5e5b-453d-6666-aded-7494c2d1b9fc",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b4803277-468a-f798-7120-718963b94d7a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hex/LMG_Hex_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7e2bb264-470b-72bc-942b-3593c797fcae",
+          "displayName": "Ares (Numhex)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7e2bb264-470b-72bc-942b-3593c797fcae/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7e2bb264-470b-72bc-942b-3593c797fcae/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7e2bb264-470b-72bc-942b-3593c797fcae/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hex/Chromas/Standard/LMG_Hex_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "4566f17e-4249-e60b-caef-b48dc8168106",
+          "displayName": "Ares (Numhex)\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/4566f17e-4249-e60b-caef-b48dc8168106/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/4566f17e-4249-e60b-caef-b48dc8168106/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/4566f17e-4249-e60b-caef-b48dc8168106/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hex/Chromas/v1/LMG_Hex_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "f2585317-48cd-e343-fb7f-ff96bb5358e0",
+          "displayName": "Ares (Numhex)\n(variante 2 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f2585317-48cd-e343-fb7f-ff96bb5358e0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f2585317-48cd-e343-fb7f-ff96bb5358e0/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f2585317-48cd-e343-fb7f-ff96bb5358e0/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hex/Chromas/v2/LMG_Hex_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "bf12c267-439c-38cd-1749-febc136973b2",
+          "displayName": "Ares (Numhex)\n(variante 3 Or)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/bf12c267-439c-38cd-1749-febc136973b2/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/bf12c267-439c-38cd-1749-febc136973b2/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/bf12c267-439c-38cd-1749-febc136973b2/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hex/Chromas/V3/LMG_Hex_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "cba40da2-40b5-7f53-14f8-60a82bcdeee8",
+          "displayName": "Ares (Numhex)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/cba40da2-40b5-7f53-14f8-60a82bcdeee8/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hex/Levels/LMG_Hex_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "84fbc17e-485f-06ec-f3cb-2eaf700cafd3",
+      "displayName": "Ares (Hiéroglyphes)",
+      "themeUuid": "e642dcd9-475a-cd9c-6dc1-54b530c8645c",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/84fbc17e-485f-06ec-f3cb-2eaf700cafd3/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hieroglyphs/LMG_Hieroglyphs_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "56e1c2ce-4759-a18b-be8c-9c8373b8e7da",
+          "displayName": "Ares (Hiéroglyphes)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/56e1c2ce-4759-a18b-be8c-9c8373b8e7da/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/56e1c2ce-4759-a18b-be8c-9c8373b8e7da/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hieroglyphs/Chromas/Standard/LMG_Hieroglyphs_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0a0d85b3-447a-49f8-d0ce-199091762d7e",
+          "displayName": "Ares (Hiéroglyphes)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0a0d85b3-447a-49f8-d0ce-199091762d7e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hieroglyphs/Levels/LMG_Hieroglyphs_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e089be41-4242-b28d-1894-bbba193957a2",
+      "displayName": "Ares (Infanterie)",
+      "themeUuid": "ba8d1971-47ea-fe7c-20c2-2f95c63d567d",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e089be41-4242-b28d-1894-bbba193957a2/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Historical/LMG_Historical_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ae8e1d37-46b6-9b74-ffd9-1fa1b5bac490",
+          "displayName": "Ares (Infanterie)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ae8e1d37-46b6-9b74-ffd9-1fa1b5bac490/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ae8e1d37-46b6-9b74-ffd9-1fa1b5bac490/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Historical/Chromas/Standard/LMG_Historical_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6df8b470-4248-e29d-2879-bd840ed224c1",
+          "displayName": "Ares (Infanterie)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6df8b470-4248-e29d-2879-bd840ed224c1/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Historical/Levels/LMG_Historical_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9d2b497b-434d-07fc-ea0f-ee96de4bffa1",
+      "displayName": "Ares (Aile d'or)",
+      "themeUuid": "40c6802a-425b-938e-369b-afbc5503fc85",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9d2b497b-434d-07fc-ea0f-ee96de4bffa1/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hohloma/LMG_Hohloma_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "69636ccb-4cb8-17a5-d5e9-0db277e53972",
+          "displayName": "Ares (Aile d'or)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/69636ccb-4cb8-17a5-d5e9-0db277e53972/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hohloma/Chromas/Standard/LMG_Hohloma_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6916019f-405f-b5f1-d2c6-2d8e4c27cf17",
+          "displayName": "Ares (Aile d'or)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6916019f-405f-b5f1-d2c6-2d8e4c27cf17/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Hohloma/Levels/LMG_Hohloma_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4308fe43-44c1-9fe8-d5f9-95be2bc70d51",
+      "displayName": "Ares (Avant-poste)",
+      "themeUuid": "36cbae3e-495f-0fae-968f-2b84c97fa146",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4308fe43-44c1-9fe8-d5f9-95be2bc70d51/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Industrial/LMG_Industrial_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "7a0165c2-4790-d7d2-2500-2e87e6c85e2b",
+          "displayName": "Ares (Avant-poste)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7a0165c2-4790-d7d2-2500-2e87e6c85e2b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7a0165c2-4790-d7d2-2500-2e87e6c85e2b/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Industrial/Chromas/Standard/LMG_Industrial_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "81694ace-47b3-3d95-9b88-59983d351471",
+          "displayName": "Ares (Avant-poste)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/81694ace-47b3-3d95-9b88-59983d351471/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Industrial/Levels/LMG_Industrial_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "841c9aab-4005-f7fd-3b67-24b335100fb4",
+      "displayName": "Ares (Prisme)",
+      "themeUuid": "7e94d78a-498e-67cb-de3d-80a36cee46cf",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/841c9aab-4005-f7fd-3b67-24b335100fb4/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Iridescence/LightMachineGun_Iridescence_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8c464ead-4b0d-1590-9880-57a5b6407d4e",
+          "displayName": "Ares (Prisme)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8c464ead-4b0d-1590-9880-57a5b6407d4e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8c464ead-4b0d-1590-9880-57a5b6407d4e/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Iridescence/Chromas/Standard/LightMachineGun_Iridescence_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "29be6d9e-48b2-1229-4f7d-4da1c20deda9",
+          "displayName": "Ares (Prisme)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/29be6d9e-48b2-1229-4f7d-4da1c20deda9/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Iridescence/Levels/LightMachineGun_IridescenceLv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2edbde3f-4ccc-9251-d92f-21bc9046b999",
+      "displayName": "Ares (Aquatica)",
+      "themeUuid": "258021a5-4609-5cd2-d034-3487237fd345",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2edbde3f-4ccc-9251-d92f-21bc9046b999/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Jellyfish/LMG_Jellyfish_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "720d03ed-45f0-0d03-5d72-228712014fa4",
+          "displayName": "Ares (Aquatica)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/720d03ed-45f0-0d03-5d72-228712014fa4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/720d03ed-45f0-0d03-5d72-228712014fa4/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Jellyfish/Chromas/Standard/LMG_Jellyfish_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ad8383b0-4fe4-f6cb-ee55-03b9cd43a4e7",
+          "displayName": "Ares (Aquatica)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ad8383b0-4fe4-f6cb-ee55-03b9cd43a4e7/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Jellyfish/Levels/LMG_Jellyfish_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5d79b1d4-4855-fb37-aa20-b8844d0af7dc",
+      "displayName": "Ares (Yoonseul)",
+      "themeUuid": "6c7becf6-4df3-4b48-2195-94bad9b5773a",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5d79b1d4-4855-fb37-aa20-b8844d0af7dc/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Jinju/LMG_Jinju_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "07a5f73d-47ea-415d-719f-44aaf6854a28",
+          "displayName": "Ares (Yoonseul)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/07a5f73d-47ea-415d-719f-44aaf6854a28/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/07a5f73d-47ea-415d-719f-44aaf6854a28/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Jinju/Chromas/Standard/LMG_Jinju_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d8c0b3cf-4495-6560-049d-70aef036bce0",
+          "displayName": "Ares (Yoonseul)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d8c0b3cf-4495-6560-049d-70aef036bce0/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Jinju/Levels/LMG_Jinju_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ff0a538f-4ee6-a3e7-f7a8-a0b5a76e027b",
+      "displayName": "Ares (Monstruocité)",
+      "themeUuid": "f45db2a2-40a8-df24-aed8-f9971e578cde",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ff0a538f-4ee6-a3e7-f7a8-a0b5a76e027b/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LittleNightmare/LMG_LittleNightmare_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "1d83fa5f-42bb-54d4-9607-0ab57e0194b1",
+          "displayName": "Ares (Monstruocité)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1d83fa5f-42bb-54d4-9607-0ab57e0194b1/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1d83fa5f-42bb-54d4-9607-0ab57e0194b1/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1d83fa5f-42bb-54d4-9607-0ab57e0194b1/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LittleNightmare/Chromas/Standard/LMG_LittleNightmare_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "c143f8b5-4f06-4f14-ced5-288793e76725",
+          "displayName": "Ares (Monstruocité)\n(variante 1 Marron)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c143f8b5-4f06-4f14-ced5-288793e76725/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c143f8b5-4f06-4f14-ced5-288793e76725/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c143f8b5-4f06-4f14-ced5-288793e76725/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LittleNightmare/Chromas/v1/LMG_LittleNightmare_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "62c75670-4325-e684-0dc8-ba8d2a69c4b7",
+          "displayName": "Ares (Monstruocité)\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/62c75670-4325-e684-0dc8-ba8d2a69c4b7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/62c75670-4325-e684-0dc8-ba8d2a69c4b7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/62c75670-4325-e684-0dc8-ba8d2a69c4b7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LittleNightmare/Chromas/v2/LMG_LittleNightmare_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "8e260534-4a27-e97d-28dc-0f8a50256705",
+          "displayName": "Ares (Monstruocité)\n(variante 3 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8e260534-4a27-e97d-28dc-0f8a50256705/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8e260534-4a27-e97d-28dc-0f8a50256705/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8e260534-4a27-e97d-28dc-0f8a50256705/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LittleNightmare/Chromas/V3/LMG_LittleNightmare_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "de269cd5-448a-7374-db37-ad8e54a4d70d",
+          "displayName": "Ares (Monstruocité)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/de269cd5-448a-7374-db37-ad8e54a4d70d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LittleNightmare/Levels/LMG_LittleNightmare_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "7aa16eb6-45ef-1446-fdaa-5f8fbbd04bee",
+      "displayName": "Ares (Nunca Olvidados)",
+      "themeUuid": "0bd86c01-4db4-2197-37b8-dfa752e07142",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/7aa16eb6-45ef-1446-fdaa-5f8fbbd04bee/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LosMuertos/LMG_LosMuertos_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f721e71c-4209-3c13-d0aa-59a1dd698933",
+          "displayName": "Ares (Nunca Olvidados)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f721e71c-4209-3c13-d0aa-59a1dd698933/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f721e71c-4209-3c13-d0aa-59a1dd698933/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f721e71c-4209-3c13-d0aa-59a1dd698933/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LosMuertos/Chromas/Standard/LMG_LosMuertos_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "5766206f-4a89-9c66-f8b9-5abfdfed2375",
+          "displayName": "Ares (Nunca Olvidados)\n(variante 1 Vivant)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5766206f-4a89-9c66-f8b9-5abfdfed2375/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5766206f-4a89-9c66-f8b9-5abfdfed2375/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c55913f7-4aca-b0b2-6d69-7699b7a92d8a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LosMuertos/Chromas/v1/LMG_LosMuertos_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "e30a5369-477a-7b23-ef1f-1ea04f3ff15d",
+          "displayName": "Ares (Nunca Olvidados)\n(variante 2 Éternel)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e30a5369-477a-7b23-ef1f-1ea04f3ff15d/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e30a5369-477a-7b23-ef1f-1ea04f3ff15d/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f87ebaa7-4f89-ae16-c1bb-53ab91963305_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LosMuertos/Chromas/v2/LMG_LosMuertos_v2_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0dc1eefc-4b8f-e4c5-0c71-d680abcf73e7",
+          "displayName": "Ares (Nunca Olvidados)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0dc1eefc-4b8f-e4c5-0c71-d680abcf73e7/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/16db0918-4eac-5377-fddc-ac83ef5916d7_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/LosMuertos/Levels/LMG_LosMuertos_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d21e2975-4586-635c-3fe4-e6be738243b3",
+      "displayName": "Ares (Céleste)",
+      "themeUuid": "5f05430b-422f-ac69-8218-818dfa3a3be7",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d21e2975-4586-635c-3fe4-e6be738243b3/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/d21e2975-4586-635c-3fe4-e6be738243b3/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Lunar/LMG_Lunar_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "be74e099-4391-a1f6-9296-f2a15eae3725",
+          "displayName": "Ares (Céleste)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/be74e099-4391-a1f6-9296-f2a15eae3725/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Lunar/Chromas/Standard/LMG_Lunar_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "46048768-4499-72f7-820b-7cbe1d4ad844",
+          "displayName": "Ares (Céleste)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/46048768-4499-72f7-820b-7cbe1d4ad844/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Lunar/Levels/LMG_Lunar_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0fac1dcf-48d0-c6c4-675e-2a8013bc879c",
+      "displayName": "Ares (Magepunk)",
+      "themeUuid": "df7fbc2f-4801-df74-7c08-0bb09ce3904c",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0fac1dcf-48d0-c6c4-675e-2a8013bc879c/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Magepunk2/LMG_Magepunk2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6b923549-4b03-89ec-2544-0e964cb314dd",
+          "displayName": "Ares (Magepunk)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6b923549-4b03-89ec-2544-0e964cb314dd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6b923549-4b03-89ec-2544-0e964cb314dd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6b923549-4b03-89ec-2544-0e964cb314dd/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Magepunk2/Chromas/Standard/LMG_Magepunk2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "2645c6cd-45e2-623e-4c42-c2baaf398127",
+          "displayName": "Ares (Magepunk) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/2645c6cd-45e2-623e-4c42-c2baaf398127/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/2645c6cd-45e2-623e-4c42-c2baaf398127/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/2645c6cd-45e2-623e-4c42-c2baaf398127/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b77cb701-4b7a-58a8-6c19-7192cf7c1e1e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Magepunk2/Chromas/v1/LMG_Magepunk2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "c058a9cb-42a9-4477-aca7-088fe6564398",
+          "displayName": "Ares (Magepunk) niveau 4\n(variante 2 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c058a9cb-42a9-4477-aca7-088fe6564398/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c058a9cb-42a9-4477-aca7-088fe6564398/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c058a9cb-42a9-4477-aca7-088fe6564398/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/12678498-45a8-3a3e-916b-a6a805f6effa_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Magepunk2/Chromas/v2/LMG_Magepunk2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "d9eb669a-422b-20f0-4708-c39fd340d340",
+          "displayName": "Ares (Magepunk) niveau 4\n(variante 3 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d9eb669a-422b-20f0-4708-c39fd340d340/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d9eb669a-422b-20f0-4708-c39fd340d340/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d9eb669a-422b-20f0-4708-c39fd340d340/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/715bc922-47ae-515d-6594-a78e728c9b13_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Magepunk2/Chromas/V3/LMG_Magepunk2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "857ad950-486a-d199-7bf2-7092aaf88ae2",
+          "displayName": "Ares (Magepunk)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/857ad950-486a-d199-7bf2-7092aaf88ae2/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/d827980e-4bf2-b29f-aed4-ccadfd64d25d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Magepunk2/Levels/LMG_Magepunk2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "8be22b38-4655-5c1c-4235-2f96a85ddf4c",
+          "displayName": "Ares (Magepunk) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e76757d7-471d-6be1-3bb3-e2b4996caefe_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Magepunk2/Levels/LMG_Magepunk2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "0d2861a4-495b-4f66-c416-f78605ecc9aa",
+          "displayName": "Ares (Magepunk) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0898b8b7-4e37-49fb-3e43-fab0749c1f7b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Magepunk2/Levels/LMG_Magepunk2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "ddc01ea7-4ecc-617e-da04-2491064e592b",
+          "displayName": "Ares (Magepunk) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/7f82d2a7-47dd-bb81-10fe-678e90897e69_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Magepunk2/Levels/LMG_Magepunk2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "cd8eb70d-443c-d9fd-48cd-98bace9d5132",
+      "displayName": "Ares (Minima)",
+      "themeUuid": "d51e0044-49dc-f11a-d981-cba8a1a762e0",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/cd8eb70d-443c-d9fd-48cd-98bace9d5132/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Minima/LMG_Minima_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0577d5b6-40a5-2edd-f4dc-9b88676b3667",
+          "displayName": "Ares (Minima)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0577d5b6-40a5-2edd-f4dc-9b88676b3667/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0577d5b6-40a5-2edd-f4dc-9b88676b3667/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Minima/Chromas/Standard/LMG_Minima_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "792656ff-445c-fa7f-301a-8490f638b168",
+          "displayName": "Ares (Minima)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/792656ff-445c-fa7f-301a-8490f638b168/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Minima/Levels/LMG_Minima_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "26bb8b5c-4b3f-e0f6-39f7-bfa6eae59c00",
+      "displayName": "Ares (Valeureux héros)",
+      "themeUuid": "651c2cf1-4437-b77d-120d-41a1225acd50",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/26bb8b5c-4b3f-e0f6-39f7-bfa6eae59c00/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/26bb8b5c-4b3f-e0f6-39f7-bfa6eae59c00/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/MonkeyKing/LMG_MonkeyKing_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "5f60fee1-4be2-a820-fde3-a299b44d0e92",
+          "displayName": "Ares (Valeureux héros)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5f60fee1-4be2-a820-fde3-a299b44d0e92/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5f60fee1-4be2-a820-fde3-a299b44d0e92/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5f60fee1-4be2-a820-fde3-a299b44d0e92/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/MonkeyKing/Chromas/Standard/LMG_MonkeyKing_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "ac8851fd-41c9-4469-3ecb-f995a5f31c3a",
+          "displayName": "Ares (Valeureux héros) niveau 4\n(variante 1 Coucher de soleil)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ac8851fd-41c9-4469-3ecb-f995a5f31c3a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ac8851fd-41c9-4469-3ecb-f995a5f31c3a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ac8851fd-41c9-4469-3ecb-f995a5f31c3a/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4ba2b73e-4b82-bd59-627e-57b9f9429551_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/MonkeyKing/Chromas/v1/LMG_MonkeyKing_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "f6320a94-4e9a-33c1-9b83-9f999e566e4c",
+          "displayName": "Ares (Valeureux héros) niveau 4\n(variante 2 Soir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f6320a94-4e9a-33c1-9b83-9f999e566e4c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f6320a94-4e9a-33c1-9b83-9f999e566e4c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f6320a94-4e9a-33c1-9b83-9f999e566e4c/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/2bb043ac-4003-95ca-762c-e8a2ad335c34_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/MonkeyKing/Chromas/v2/LMG_MonkeyKing_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "79b9531e-403f-4d56-538d-d78be4972abc",
+          "displayName": "Ares (Valeureux héros) niveau 4\n(variante 3 Nuit)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/79b9531e-403f-4d56-538d-d78be4972abc/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/79b9531e-403f-4d56-538d-d78be4972abc/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/79b9531e-403f-4d56-538d-d78be4972abc/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/ef9ef09a-4e9a-75c2-492f-5ab8c43d67c6_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/MonkeyKing/Chromas/V3/LMG_MonkeyKing_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "6ab209eb-4596-c1f5-0262-22ac9f2beaa0",
+          "displayName": "Ares (Valeureux héros)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6ab209eb-4596-c1f5-0262-22ac9f2beaa0/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/73bc1803-4993-afa1-bc4e-e6b3e55bda9e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/MonkeyKing/Levels/LMG_MonkeyKing_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ac03faa8-4823-4129-4283-3293e99bc00a",
+          "displayName": "Ares (Valeureux héros) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ac03faa8-4823-4129-4283-3293e99bc00a/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b7947cf0-4384-e0fc-f2a0-4dba3dc988d4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/MonkeyKing/Levels/LMG_MonkeyKing_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "9ff5fcf6-4eb6-f707-80de-998c2ea83595",
+          "displayName": "Ares (Valeureux héros) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9ff5fcf6-4eb6-f707-80de-998c2ea83595/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/80c57e20-4691-1a0d-d507-d18bbc039fdc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/MonkeyKing/Levels/LMG_MonkeyKing_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "898f1020-498d-1001-70a2-f3bca2bf4c40",
+          "displayName": "Ares (Valeureux héros) niveau 4 ",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/6671e46f-4847-6b95-54dc-aea1877fe048_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/MonkeyKing/Levels/LMG_MonkeyKing_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "de06622c-4bf3-d9af-2191-11bf1c55ca54",
+      "displayName": "Ares (Montage)",
+      "themeUuid": "bc5c1995-4c72-5463-5ad5-77913f5b463a",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/de06622c-4bf3-d9af-2191-11bf1c55ca54/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Montage/LMG_Montage_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3d54e034-4d0b-948e-17dc-998d96960bcc",
+          "displayName": "Ares (Montage)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3d54e034-4d0b-948e-17dc-998d96960bcc/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/3d54e034-4d0b-948e-17dc-998d96960bcc/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Montage/Chromas/Standard/LMG_Montage_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "0459c343-4aa9-bd43-4656-20b99fcab29e",
+          "displayName": "Ares (Montage)\r\n(variante 1 Rose)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0459c343-4aa9-bd43-4656-20b99fcab29e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0459c343-4aa9-bd43-4656-20b99fcab29e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Montage/Chromas/v1/LMG_Montage_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "aed9ad6b-4f5b-a5b2-3313-06b3a8c346db",
+          "displayName": "Ares (Montage)\r\n(variante 2 Violet)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/aed9ad6b-4f5b-a5b2-3313-06b3a8c346db/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/aed9ad6b-4f5b-a5b2-3313-06b3a8c346db/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Montage/Chromas/v2/LMG_Montage_v2_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "75108dab-4db7-e906-30b9-d484a66e2a0b",
+          "displayName": "Ares (Montage)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/75108dab-4db7-e906-30b9-d484a66e2a0b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Montage/Levels/LMG_Montage_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "0f4b0478-4759-911d-c44b-2a907534789d",
+      "displayName": "Ares (Ion)",
+      "themeUuid": "c8b4657e-4832-e294-7681-1eb634f6f96a",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/0f4b0478-4759-911d-c44b-2a907534789d/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/0f4b0478-4759-911d-c44b-2a907534789d/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oblivion2/LMG_Oblivion2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0129321b-4e7e-6a56-d4f5-f690d8fb6909",
+          "displayName": "Ares (Ion)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0129321b-4e7e-6a56-d4f5-f690d8fb6909/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0129321b-4e7e-6a56-d4f5-f690d8fb6909/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0129321b-4e7e-6a56-d4f5-f690d8fb6909/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oblivion2/Chromas/Standard/LMG_Oblivion2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "ecc43648-49ba-f0d7-8981-e1ab4f7cd192",
+          "displayName": "Ares (Ion) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ecc43648-49ba-f0d7-8981-e1ab4f7cd192/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ecc43648-49ba-f0d7-8981-e1ab4f7cd192/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ecc43648-49ba-f0d7-8981-e1ab4f7cd192/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5f3fc4f9-48f4-2bb6-53e1-1c8bcbed19f5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oblivion2/Chromas/v1/LMG_Oblivion2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "5ec7b626-4789-f017-d7d7-dfb5980e0418",
+          "displayName": "Ares (Ion) niveau 4\n(variante 2 Jaune)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5ec7b626-4789-f017-d7d7-dfb5980e0418/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5ec7b626-4789-f017-d7d7-dfb5980e0418/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5ec7b626-4789-f017-d7d7-dfb5980e0418/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5f9afc3f-4b08-8971-2766-0fab6ed29fcc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oblivion2/Chromas/v2/LMG_Oblivion2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "267ac45e-471b-c985-47e3-2995fa1294bb",
+          "displayName": "Ares (Ion) niveau 4\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/267ac45e-471b-c985-47e3-2995fa1294bb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/267ac45e-471b-c985-47e3-2995fa1294bb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/267ac45e-471b-c985-47e3-2995fa1294bb/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/973996b9-4036-65b9-f750-43a27d413474_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oblivion2/Chromas/V3/LMG_Oblivion2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c6c7ffc4-4892-6393-38b3-1b92837a8038",
+          "displayName": "Ares (Ion)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c6c7ffc4-4892-6393-38b3-1b92837a8038/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a101e4fa-4736-dad6-9de3-4dad9c86e37c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oblivion2/Levels/LMG_Oblivion2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "c36fda0b-4ea8-9052-d6e4-4298a213154d",
+          "displayName": "Ares (Ion) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1aa1ca6d-4dd3-89fb-0206-4ba5b53a8523_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oblivion2/Levels/LMG_Oblivion2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "8710d3a0-4c50-9f52-5076-f78418701e57",
+          "displayName": "Ares (Ion) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f99ca418-4e9e-2950-ce6f-03a0fa020b54_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oblivion2/Levels/LMG_Oblivion2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "5d746e26-4d66-a65f-1364-0e8cd49eae72",
+          "displayName": "Ares (Ion) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/03947d97-42bb-35eb-97d5-b2b7efd88631_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oblivion2/Levels/LMG_Oblivion2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "759bca71-4764-19f8-8890-239eedb78fa3",
+      "displayName": "Ares (Oni)",
+      "themeUuid": "a547897d-4bd4-7c77-f5e6-55973f0e89ef",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/759bca71-4764-19f8-8890-239eedb78fa3/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/759bca71-4764-19f8-8890-239eedb78fa3/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oni2/LMG_Oni2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "17834ae1-4dd6-315e-b94e-038689d2e45f",
+          "displayName": "Ares (Oni)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/17834ae1-4dd6-315e-b94e-038689d2e45f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/17834ae1-4dd6-315e-b94e-038689d2e45f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/17834ae1-4dd6-315e-b94e-038689d2e45f/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oni2/Chromas/Standard/LMG_Oni2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "049b342d-4e47-0554-e866-ec96ff0a55e8",
+          "displayName": "Ares (Oni) niveau 4\n(variante 1 Kumo)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/049b342d-4e47-0554-e866-ec96ff0a55e8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/049b342d-4e47-0554-e866-ec96ff0a55e8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/049b342d-4e47-0554-e866-ec96ff0a55e8/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/18fa5c04-40f0-1128-043b-85af7ba43508_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oni2/Chromas/v1/LMG_Oni2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "15c92b4c-4e17-1c49-64b7-608a886e435a",
+          "displayName": "Ares (Oni) niveau 4\n(variante 2 Hana)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/15c92b4c-4e17-1c49-64b7-608a886e435a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/15c92b4c-4e17-1c49-64b7-608a886e435a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/15c92b4c-4e17-1c49-64b7-608a886e435a/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c4b41fe0-4143-6ba8-7d28-fc984e05e1b9_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oni2/Chromas/v2/LMG_Oni2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "cc1c3f90-43d5-5675-72d4-fb8e50b488a6",
+          "displayName": "Ares (Oni) niveau 4\n(variante 3 Tsubame)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cc1c3f90-43d5-5675-72d4-fb8e50b488a6/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cc1c3f90-43d5-5675-72d4-fb8e50b488a6/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/cc1c3f90-43d5-5675-72d4-fb8e50b488a6/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/b8640e76-4a67-ab8a-06da-a79eba95b62e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oni2/Chromas/V3/LMG_Oni2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8b829b66-44ad-c5d3-4e03-f5bc3c6f5d12",
+          "displayName": "Ares (Oni)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8b829b66-44ad-c5d3-4e03-f5bc3c6f5d12/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/87e1b81d-443d-1ca7-cd87-0fb3e8509ab3_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oni2/Levels/LMG_Oni2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "beb8982e-4a8b-080c-fb3b-f7b0892cc81a",
+          "displayName": "Ares (Oni) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/18999c09-436e-fa23-c1fd-f3aed91a19fc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oni2/Levels/LMG_Oni2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "42953fea-4360-3026-5c01-96817e765505",
+          "displayName": "Ares (Oni) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/240685da-4692-5945-91b7-35940b9d3d90_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oni2/Levels/LMG_Oni2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "6d39bae9-4077-6d39-6a13-b4a98f9b4630",
+          "displayName": "Ares (Oni) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a09ff036-4289-0e59-36e8-8c9b7e777727_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Oni2/Levels/LMG_Oni2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "4e459b3b-4dab-934f-1d77-bdbe75b6fcca",
+      "displayName": "Ares (9 vies)",
+      "themeUuid": "d271bf9f-42f0-3f1d-0198-d6b046c6b9e4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/4e459b3b-4dab-934f-1d77-bdbe75b6fcca/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Pets/LMG_Pets_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "03658360-4ce5-a08c-50af-aebdfe0427b9",
+          "displayName": "Ares (9 vies)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/03658360-4ce5-a08c-50af-aebdfe0427b9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/03658360-4ce5-a08c-50af-aebdfe0427b9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/03658360-4ce5-a08c-50af-aebdfe0427b9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Pets/Chromas/Standard/LMG_Pets_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "03e40507-4577-eeee-360b-709f53c46015",
+          "displayName": "Ares (9 vies)\n(variante 1 Raze)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/03e40507-4577-eeee-360b-709f53c46015/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/03e40507-4577-eeee-360b-709f53c46015/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/03e40507-4577-eeee-360b-709f53c46015/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Pets/Chromas/v1/LMG_Pets_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "83240b7d-4cdd-738f-4512-a4a3d42dfae7",
+          "displayName": "Ares (9 vies)\n(variante 2 Reyna)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/83240b7d-4cdd-738f-4512-a4a3d42dfae7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/83240b7d-4cdd-738f-4512-a4a3d42dfae7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/83240b7d-4cdd-738f-4512-a4a3d42dfae7/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Pets/Chromas/v2/LMG_Pets_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "1f85fd23-4a1f-71cb-a164-468d0eecd981",
+          "displayName": "Ares (9 vies)\n(variante 3 Viper)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/1f85fd23-4a1f-71cb-a164-468d0eecd981/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/1f85fd23-4a1f-71cb-a164-468d0eecd981/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/1f85fd23-4a1f-71cb-a164-468d0eecd981/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Pets/Chromas/V3/LMG_Pets_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c7528a68-41cb-380b-4753-06b2e5f1e01c",
+          "displayName": "Ares (9 vies)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c7528a68-41cb-380b-4753-06b2e5f1e01c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Pets/Levels/LMG_Pets_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ff555802-4633-0c8b-93f8-b8887666e3ad",
+      "displayName": "Ares (POLYfrog)",
+      "themeUuid": "deb5db21-438b-e5a1-2ee7-bc8830ea6a1f",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ff555802-4633-0c8b-93f8-b8887666e3ad/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Polyfrog/LMG_Polyfrog_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3c0d0c63-4c14-c181-f53c-b8b174b8c1ec",
+          "displayName": "Ares (POLYfrog)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3c0d0c63-4c14-c181-f53c-b8b174b8c1ec/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3c0d0c63-4c14-c181-f53c-b8b174b8c1ec/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Polyfrog/Chromas/Standard/LMG_Polyfrog_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9b61f5ca-4aa2-8557-37b2-a1b05f30c678",
+          "displayName": "Ares (POLYfrog)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9b61f5ca-4aa2-8557-37b2-a1b05f30c678/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Polyfrog/Levels/LMG_Polyfrog_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "398ef7c2-4055-980e-a8b4-669ca8bc5084",
+      "displayName": "Ares (Cochon divin)",
+      "themeUuid": "ab6f77b8-4567-90f1-dfab-ef919869a560",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/398ef7c2-4055-980e-a8b4-669ca8bc5084/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Polypig/LMG_Polypig_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "de0daf79-4b90-98af-14c7-5ea1c5d99ac6",
+          "displayName": "Ares (Cochon divin)",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/de0daf79-4b90-98af-14c7-5ea1c5d99ac6/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Polypig/Chromas/Standard/LMG_Polypig_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "75e66837-47b4-0aec-cf8e-8b96f3af7d6b",
+          "displayName": "Ares (Cochon divin)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/75e66837-47b4-0aec-cf8e-8b96f3af7d6b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Polypig/Levels/LMG_Polypig_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "e4b7f196-4f05-825f-e795-a59fc829195d",
+      "displayName": "Ares (Puzzle)",
+      "themeUuid": "b371ffce-41a1-07f9-d1ce-aa93a6ef1787",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/e4b7f196-4f05-825f-e795-a59fc829195d/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Puzzle/LMG_Puzzle_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c86f666e-4e82-0e74-6f94-7ca040e11be3",
+          "displayName": "Ares (Puzzle)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c86f666e-4e82-0e74-6f94-7ca040e11be3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c86f666e-4e82-0e74-6f94-7ca040e11be3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c86f666e-4e82-0e74-6f94-7ca040e11be3/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Puzzle/Chromas/Standard/LMG_Puzzle_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "cd892213-4727-1a04-7970-648c6ba9ffe8",
+          "displayName": "Ares (Puzzle)\n(variante 1 Killjoy)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/cd892213-4727-1a04-7970-648c6ba9ffe8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/cd892213-4727-1a04-7970-648c6ba9ffe8/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/cd892213-4727-1a04-7970-648c6ba9ffe8/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Puzzle/Chromas/v1/LMG_Puzzle_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "7ec12c6f-42d6-3105-3181-f986df3b1c5b",
+          "displayName": "Ares (Puzzle)\n(variante 2 Astra)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7ec12c6f-42d6-3105-3181-f986df3b1c5b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7ec12c6f-42d6-3105-3181-f986df3b1c5b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7ec12c6f-42d6-3105-3181-f986df3b1c5b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Puzzle/Chromas/v2/LMG_Puzzle_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "78621693-4fb7-422b-84ee-1ba64ea68076",
+          "displayName": "Ares (Puzzle)\n(variante 3 Yoru)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/78621693-4fb7-422b-84ee-1ba64ea68076/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/78621693-4fb7-422b-84ee-1ba64ea68076/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/78621693-4fb7-422b-84ee-1ba64ea68076/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Puzzle/Chromas/v3/LMG_Puzzle_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3ee60a8a-4736-5a6d-3713-00a05402481d",
+          "displayName": "Ares (Puzzle)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3ee60a8a-4736-5a6d-3713-00a05402481d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Puzzle/Levels/LMG_Puzzle_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "165116bf-497a-3ffa-38dc-c58d4475e225",
+      "displayName": "Ares (Première collision)",
+      "themeUuid": "ec019908-4bdb-5e0e-982e-9da14516c167",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/165116bf-497a-3ffa-38dc-c58d4475e225/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Radianite/LMG_Radianite_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "94a90423-43d7-16c5-9017-2fbe89d1b602",
+          "displayName": "Ares (Première collision)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/94a90423-43d7-16c5-9017-2fbe89d1b602/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/94a90423-43d7-16c5-9017-2fbe89d1b602/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Radianite/Chromas/Standard/LMG_Radianite_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7090c9c1-454e-6f83-1b4d-7b961b55cf01",
+          "displayName": "Ares (Première collision)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7090c9c1-454e-6f83-1b4d-7b961b55cf01/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Radianite/Levels/LMG_Radianite_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "acccab4a-4093-8a4a-f1d3-299071d763d3",
+      "displayName": "Skin favori aléatoire",
+      "themeUuid": "0d7a5bfb-4850-098e-1821-d989bbfd58a8",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/acccab4a-4093-8a4a-f1d3-299071d763d3/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Random/LMG_Random_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "0a59fa66-4f08-e72d-d818-d083b993e8cf",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0a59fa66-4f08-e72d-d818-d083b993e8cf/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Random/Chromas/Standard/LMG_Random_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "e507b35c-4a86-0663-0259-8da5f286d41c",
+          "displayName": "Skin favori aléatoire",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/e507b35c-4a86-0663-0259-8da5f286d41c/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Random/Levels/LMG_Random_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "9f3e2ba6-428f-c635-67e0-b8b7d9e3c2fc",
+      "displayName": "Ares (Sentinelles de la lumière)",
+      "themeUuid": "0c187570-4eff-2924-5e98-8bbb96b0216a",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/9f3e2ba6-428f-c635-67e0-b8b7d9e3c2fc/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/9f3e2ba6-428f-c635-67e0-b8b7d9e3c2fc/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/SOL/LMG_SOL_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "53abc8af-4233-f1fe-7653-6ba26f9eaefa",
+          "displayName": "Ares (Sentinelles de la lumière)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/53abc8af-4233-f1fe-7653-6ba26f9eaefa/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/53abc8af-4233-f1fe-7653-6ba26f9eaefa/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/53abc8af-4233-f1fe-7653-6ba26f9eaefa/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/SOL/Chromas/Standard/LMG_SOL_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "b4b0d84e-4947-6078-abcb-82b354549fc7",
+          "displayName": "Ares (Sentinelles de la lumière) niveau 4\n(variante 1 Rose)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b4b0d84e-4947-6078-abcb-82b354549fc7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b4b0d84e-4947-6078-abcb-82b354549fc7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/b4b0d84e-4947-6078-abcb-82b354549fc7/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a3459330-494d-0add-8e33-f5b32236f4fc_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/SOL/Chromas/v1/LMG_SOL_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "39ed0f62-4d30-6fae-b8d7-9c943d6984cb",
+          "displayName": "Ares (Sentinelles de la lumière) niveau 4\n(variante 2 Rouge/Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/39ed0f62-4d30-6fae-b8d7-9c943d6984cb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/39ed0f62-4d30-6fae-b8d7-9c943d6984cb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/39ed0f62-4d30-6fae-b8d7-9c943d6984cb/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/091737cb-48af-3486-c830-828fef1a8f18_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/SOL/Chromas/v2/LMG_SOL_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "ab9a4b7b-4037-c491-093d-e99e8070031f",
+          "displayName": "Ares (Sentinelles de la lumière) niveau 4\n(variante 3 Bleu/Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ab9a4b7b-4037-c491-093d-e99e8070031f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ab9a4b7b-4037-c491-093d-e99e8070031f/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ab9a4b7b-4037-c491-093d-e99e8070031f/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4f345ed4-485f-803b-08d8-0eb5c935601b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/SOL/Chromas/v3/LMG_SOL_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0ddbdf8c-43b0-e2f1-94f8-d6be9d2a2110",
+          "displayName": "Ares (Sentinelles de la lumière)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0ddbdf8c-43b0-e2f1-94f8-d6be9d2a2110/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8f8dc86f-4e93-8499-addf-75867750e397_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/SOL/Levels/LMG_SOL_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ba3ee5c5-478f-6a30-aa0c-85942ba2a7c0",
+          "displayName": "Ares (Sentinelles de la lumière) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/684aace3-4f49-0658-d003-0caeeef28f95_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/SOL/Levels/LMG_SOL_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "a92fc69d-4be1-74f5-938b-e0b27b2bb929",
+          "displayName": "Ares (Sentinelles de la lumière) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3bf2a87b-4382-5c71-5c21-cb9cc0cd1826_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/SOL/Levels/LMG_SOL_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "0725b4f4-44eb-5297-9ea2-18a333a95087",
+          "displayName": "Ares (Sentinelles de la lumière) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9744862e-4779-60df-a8d1-31914ba691b4_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/SOL/Levels/LMG_SOL_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2666f98d-4f88-8cb9-4927-629d75a6a7ad",
+      "displayName": "Ares (Sakura)",
+      "themeUuid": "3807f2f2-40c3-0fce-49cc-708961b60c75",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2666f98d-4f88-8cb9-4927-629d75a6a7ad/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Sakura/LightMachineGun_Sakura_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "e6444ff5-4466-5468-be0a-aa997a688422",
+          "displayName": "Ares (Sakura)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e6444ff5-4466-5468-be0a-aa997a688422/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e6444ff5-4466-5468-be0a-aa997a688422/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Sakura/Chromas/Standard/LightMachineGun_Sakura_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "9fbe39c6-42d7-b1db-9048-f0951ce2ff94",
+          "displayName": "Ares (Sakura)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/9fbe39c6-42d7-b1db-9048-f0951ce2ff94/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Sakura/Levels/LightMachineGun_Sakura_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d40afbc0-4cb6-d8ec-a5e8-23afdfdc9dc3",
+      "displayName": "Ares (Clés de l'Elysium)",
+      "themeUuid": "fcd79774-406b-07d7-51e5-08831f19633b",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d40afbc0-4cb6-d8ec-a5e8-23afdfdc9dc3/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ScorchTheSky/LMG_ScorchTheSky_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "8c219c09-479c-6f0e-a8cc-668f4a9e9d22",
+          "displayName": "Ares (Clés de l'Elysium)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/8c219c09-479c-6f0e-a8cc-668f4a9e9d22/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/8c219c09-479c-6f0e-a8cc-668f4a9e9d22/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/8c219c09-479c-6f0e-a8cc-668f4a9e9d22/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ScorchTheSky/Chromas/Standard/LMG_ScorchTheSky_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "ba59139b-4275-8843-b73c-ee9517fe29aa",
+          "displayName": "Ares (Clés de l'Elysium)\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ba59139b-4275-8843-b73c-ee9517fe29aa/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ba59139b-4275-8843-b73c-ee9517fe29aa/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ba59139b-4275-8843-b73c-ee9517fe29aa/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ScorchTheSky/Chromas/v1/LMG_ScorchTheSky_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "85c6c800-4320-37ba-0605-89a9ba93d91e",
+          "displayName": "Ares (Clés de l'Elysium)\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/85c6c800-4320-37ba-0605-89a9ba93d91e/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/85c6c800-4320-37ba-0605-89a9ba93d91e/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/85c6c800-4320-37ba-0605-89a9ba93d91e/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ScorchTheSky/Chromas/v2/LMG_ScorchTheSky_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "e3fd9be1-4934-5e67-b93c-bf9c06c74913",
+          "displayName": "Ares (Clés de l'Elysium)\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e3fd9be1-4934-5e67-b93c-bf9c06c74913/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e3fd9be1-4934-5e67-b93c-bf9c06c74913/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e3fd9be1-4934-5e67-b93c-bf9c06c74913/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ScorchTheSky/Chromas/V3/LMG_ScorchTheSky_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "8fe097f6-433f-546e-aaf2-5a99fed23576",
+          "displayName": "Ares (Clés de l'Elysium)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/8fe097f6-433f-546e-aaf2-5a99fed23576/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ScorchTheSky/Levels/LMG_ScorchTheSky_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "175393f4-4e60-7403-4a4d-95818f6cc007",
+      "displayName": "Ares (Hi-DR0)",
+      "themeUuid": "03b8ee42-4ada-6618-8cf5-31b98d30ac9d",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/175393f4-4e60-7403-4a4d-95818f6cc007/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ScubaRobot/LMG_ScubaRobot_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "09e2918b-4e63-8c70-0691-24ad015c8ea0",
+          "displayName": "Ares (Hi-DR0)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/09e2918b-4e63-8c70-0691-24ad015c8ea0/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/09e2918b-4e63-8c70-0691-24ad015c8ea0/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ScubaRobot/Chromas/Standard/LMG_ScubaRobot_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "406a740d-44c7-1039-3e70-b3bfac02c6f6",
+          "displayName": "Ares (Hi-DR0)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/406a740d-44c7-1039-3e70-b3bfac02c6f6/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/ScubaRobot/Levels/LMG_ScubaRobot_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "bef693e7-419c-af25-c26c-558b3e3bb473",
+      "displayName": "Ares (Silhouette)",
+      "themeUuid": "ac252b14-4c1d-cee9-22d1-8da59c412ba4",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/bef693e7-419c-af25-c26c-558b3e3bb473/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Shadowplay/LMG_Shadowplay_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "27caa17d-4447-a4af-47f2-76b3ca4c958f",
+          "displayName": "Ares (Silhouette)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/27caa17d-4447-a4af-47f2-76b3ca4c958f/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/27caa17d-4447-a4af-47f2-76b3ca4c958f/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Shadowplay/Chromas/Standard/LMG_Shadowplay_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ba8b956f-4856-4946-9ae0-248201f1ed9e",
+          "displayName": "Ares (Silhouette)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ba8b956f-4856-4946-9ae0-248201f1ed9e/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Shadowplay/Levels/LMG_Shadowplay_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "43538e40-48bf-0262-d4a7-bbba3c56df77",
+      "displayName": "Ares (Chute de neige)",
+      "themeUuid": "58df025f-4077-9764-20ec-76a73df87b44",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": null,
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Snowglobe/LMG_Snowglobe_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "84410f60-427f-bdbf-713f-15a115d97a44",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/84410f60-427f-bdbf-713f-15a115d97a44/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Snowglobe/Chromas/Standard/LMG_Snowglobe_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "f8295d0b-4378-f4ff-342d-178f6d86ac88",
+          "displayName": "Ares (Chute de neige)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/f8295d0b-4378-f4ff-342d-178f6d86ac88/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Snowglobe/Levels/LMG_Snowglobe_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "d29d764d-41ce-5a4d-0a96-7b8b91da16fd",
+      "displayName": "Ares (Mailles de titan)",
+      "themeUuid": "85c47e07-405d-9104-7462-a1b226532bc7",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/d29d764d-41ce-5a4d-0a96-7b8b91da16fd/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spikes/LMG_Spikes_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3288078d-415c-8611-3ac6-eebdc4f579d3",
+          "displayName": "Ares (Mailles de titan)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3288078d-415c-8611-3ac6-eebdc4f579d3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3288078d-415c-8611-3ac6-eebdc4f579d3/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spikes/Chromas/Standard/LMG_Spikes_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "2317e839-44cd-2301-80a8-c4ac63c626ac",
+          "displayName": "Ares (Mailles de titan)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/2317e839-44cd-2301-80a8-c4ac63c626ac/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/a310c7ba-4321-425f-0079-c8a07dab15b5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spikes/Levels/LMG_Spikes_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "c976f29d-4a83-3a40-2907-8dadbb7c5940",
+      "displayName": "Ares (Mystyosotis)",
+      "themeUuid": "882ea344-4034-7da9-5b17-229a42f602ec",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/c976f29d-4a83-3a40-2907-8dadbb7c5940/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/c976f29d-4a83-3a40-2907-8dadbb7c5940/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spirit2/LMG_Spirit2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6efc009b-4373-8b90-00c6-87b343cac093",
+          "displayName": "Ares (Mystyosotis)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6efc009b-4373-8b90-00c6-87b343cac093/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6efc009b-4373-8b90-00c6-87b343cac093/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6efc009b-4373-8b90-00c6-87b343cac093/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spirit2/Chromas/Standard/LMG_Spirit2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "0b95cf9d-4f7d-655a-9a5d-10b8040f1ff5",
+          "displayName": "Ares (Mystyosotis) niveau 4\n(variante 1 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/0b95cf9d-4f7d-655a-9a5d-10b8040f1ff5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/0b95cf9d-4f7d-655a-9a5d-10b8040f1ff5/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/0b95cf9d-4f7d-655a-9a5d-10b8040f1ff5/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/39e2eaa0-49e9-6e76-86f9-a682d5eb6d6e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spirit2/Chromas/v1/LMG_Spirit2_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "5fd69b27-4d63-5813-dd16-9da7cca65edd",
+          "displayName": "Ares (Mystyosotis) niveau 4\n(variante 2 Orange)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/5fd69b27-4d63-5813-dd16-9da7cca65edd/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/5fd69b27-4d63-5813-dd16-9da7cca65edd/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/5fd69b27-4d63-5813-dd16-9da7cca65edd/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/1b89385b-4c55-6b64-9fa7-e39d23cc3801_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spirit2/Chromas/v2/LMG_Spirit2_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "f4c1bdb4-4ac8-7722-0d3a-078228703459",
+          "displayName": "Ares (Mystyosotis) niveau 4\n(variante 3 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f4c1bdb4-4ac8-7722-0d3a-078228703459/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f4c1bdb4-4ac8-7722-0d3a-078228703459/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f4c1bdb4-4ac8-7722-0d3a-078228703459/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4fe8f6fd-4806-c849-ce74-9db93cffc9a5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spirit2/Chromas/V3/LMG_Spirit2_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "31a074a4-4b4f-3042-1054-c7ad29d1234f",
+          "displayName": "Ares (Mystyosotis)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/31a074a4-4b4f-3042-1054-c7ad29d1234f/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/5fb5f0cd-4377-a736-5498-32b24da89271_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spirit2/Levels/LMG_Spirit2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "8c765e78-4a4d-3f62-226e-e99d67b1bd2d",
+          "displayName": "Ares (Mystyosotis) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e37ed051-49bb-dc75-b6f4-11b8008daa8f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spirit2/Levels/LMG_Spirit2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "6b189a79-4071-01b2-74e2-909ac8bf0a27",
+          "displayName": "Ares (Mystyosotis) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/6b189a79-4071-01b2-74e2-909ac8bf0a27/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/bb26c67c-4744-686b-aa28-d08f3c7f419e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spirit2/Levels/LMG_Spirit2_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "af694a32-4032-d954-c6d8-638a62452dff",
+          "displayName": "Ares (Mystyosotis) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/968a28d7-483e-f3c1-3778-a2b6e0b53064_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Spirit2/Levels/LMG_Spirit2_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "5305d9c4-4f46-fbf4-9e9a-dea772c263b5",
+      "displayName": "Ares (Standard)",
+      "themeUuid": "5a629df4-4765-0214-bd40-fbb96542941f",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/5305d9c4-4f46-fbf4-9e9a-dea772c263b5/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Standard/LightMachineGun_Standard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "b33de820-4061-8b85-31ce-808f1a2c58f5",
+          "displayName": "Ares",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b33de820-4061-8b85-31ce-808f1a2c58f5/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b33de820-4061-8b85-31ce-808f1a2c58f5/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Standard/Chromas/Standard/LightMachineGun_Standard_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "0f5f60f4-4c94-e4b2-ceab-e2b4e8b41784",
+          "displayName": "Ares",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/0f5f60f4-4c94-e4b2-ceab-e2b4e8b41784/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Standard/LightMachineGun_Standard_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "921d59b7-4cfc-40ff-761b-b1b9515c341a",
+      "displayName": "Ares (Haloforme)",
+      "themeUuid": "169b75dd-4fdd-a664-9b86-7782ddb7db2f",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/921d59b7-4cfc-40ff-761b-b1b9515c341a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Utopia/LMG_Utopia_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "b5a6100b-446e-36ef-610c-179cbee7faf8",
+          "displayName": "Ares (Haloforme)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/b5a6100b-446e-36ef-610c-179cbee7faf8/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b5a6100b-446e-36ef-610c-179cbee7faf8/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Utopia/Chromas/Standard/LMG_Utopia_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "ca4f11b9-46af-87cf-4785-cfacc475f2a0",
+          "displayName": "Ares (Haloforme)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ca4f11b9-46af-87cf-4785-cfacc475f2a0/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/Utopia/Levels/LMG_Utopia_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "80bb82f9-4891-7340-c8d8-7daac5567ee2",
+      "displayName": "Ares (Âme obscure)",
+      "themeUuid": "bdb3cbb7-4297-6caf-27e4-53a068f00dce",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/80bb82f9-4891-7340-c8d8-7daac5567ee2/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/80bb82f9-4891-7340-c8d8-7daac5567ee2/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/VoidBorn/LMG_VoidBorn_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "c1b58212-4352-d213-3a3c-7ba98d5789af",
+          "displayName": "Ares (Âme obscure)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/c1b58212-4352-d213-3a3c-7ba98d5789af/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/c1b58212-4352-d213-3a3c-7ba98d5789af/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/c1b58212-4352-d213-3a3c-7ba98d5789af/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/VoidBorn/Chromas/Standard/LMG_VoidBorn_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "ac88f99f-46b2-6976-dac0-4fa64f6984b7",
+          "displayName": "Ares (Âme obscure) niveau 4\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ac88f99f-46b2-6976-dac0-4fa64f6984b7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ac88f99f-46b2-6976-dac0-4fa64f6984b7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ac88f99f-46b2-6976-dac0-4fa64f6984b7/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/8347c063-4515-9a8d-9b22-a0882ca10e90_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/VoidBorn/Chromas/v1/LMG_VoidBorn_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "6efb6f9d-4617-0a37-2e3e-e0a73e6e0b95",
+          "displayName": "Ares (Âme obscure) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6efb6f9d-4617-0a37-2e3e-e0a73e6e0b95/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6efb6f9d-4617-0a37-2e3e-e0a73e6e0b95/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/6efb6f9d-4617-0a37-2e3e-e0a73e6e0b95/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/50d2d3d7-446b-e330-0766-b3a2106c9b6b_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/VoidBorn/Chromas/v2/LMG_VoidBorn_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "66d4e453-4bec-333b-1e7a-1e9b6f136bc7",
+          "displayName": "Ares (Âme obscure) niveau 4\n(variante 3 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/66d4e453-4bec-333b-1e7a-1e9b6f136bc7/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/66d4e453-4bec-333b-1e7a-1e9b6f136bc7/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/66d4e453-4bec-333b-1e7a-1e9b6f136bc7/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/84ff2556-4b0e-4f6c-1a55-3b8742167f08_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/VoidBorn/Chromas/V3/LMG_VoidBorn_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "80364c73-44fa-65e6-3d07-d88b3e4d1fd9",
+          "displayName": "Ares (Âme obscure)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/80364c73-44fa-65e6-3d07-d88b3e4d1fd9/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/2c272acb-4d1b-ac6f-1395-25a59f65f258_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/VoidBorn/Levels/LMG_VoidBorn_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ffe22b27-4467-6823-81e8-de81a447c7b7",
+          "displayName": "Ares (Âme obscure) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/46bbb350-4e59-450c-6566-ba932608963e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/VoidBorn/Levels/LMG_VoidBorn_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "34cbc722-450d-b4f3-a25b-6692739378be",
+          "displayName": "Ares (Âme obscure) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/34cbc722-450d-b4f3-a25b-6692739378be/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/f78842e0-473b-77fa-73a9-d69c253e8601_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/VoidBorn/Levels/LMG_VoidBorn_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "11b835ab-422d-b2b8-c5c6-07ad67cec387",
+          "displayName": "Ares (Âme obscure) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/318dd3b5-43af-fd5d-76b2-928d07ebe88a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/LMG/VoidBorn/Levels/LMG_VoidBorn_Lv4_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}

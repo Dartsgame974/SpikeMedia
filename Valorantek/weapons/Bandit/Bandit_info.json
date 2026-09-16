@@ -1,0 +1,411 @@
+{
+  "uuid": "410b2e0b-4ceb-1321-1727-20858f7f3477",
+  "displayName": "Bandit",
+  "category": "EEquippableCategory::Sidearm",
+  "defaultSkinUuid": "b576b9f1-407d-310a-6009-6287fb6829bc",
+  "displayIcon": "https://media.valorant-api.com/weapons/410b2e0b-4ceb-1321-1727-20858f7f3477/displayicon.png",
+  "killStreamIcon": "https://media.valorant-api.com/weapons/410b2e0b-4ceb-1321-1727-20858f7f3477/killstreamicon.png",
+  "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Compact_PrimaryAsset",
+  "weaponStats": {
+    "fireRate": 5.1,
+    "magazineSize": 8,
+    "runSpeedMultiplier": 0.85,
+    "equipTimeSeconds": 0.75,
+    "reloadTimeSeconds": 1.5,
+    "firstBulletAccuracy": 0.275,
+    "shotgunPelletCount": -1,
+    "wallPenetration": "EWallPenetrationDisplayType::Medium",
+    "feature": null,
+    "fireMode": "EWeaponFireModeDisplayType::SemiAutomatic",
+    "altFireType": null,
+    "adsStats": null,
+    "altShotgunStats": null,
+    "airBurstStats": null,
+    "damageRanges": [
+      {
+        "rangeStartMeters": 0,
+        "rangeEndMeters": 10,
+        "headDamage": 152,
+        "bodyDamage": 39,
+        "legDamage": 33
+      },
+      {
+        "rangeStartMeters": 10,
+        "rangeEndMeters": 30,
+        "headDamage": 128,
+        "bodyDamage": 39,
+        "legDamage": 33
+      },
+      {
+        "rangeStartMeters": 30,
+        "rangeEndMeters": 50,
+        "headDamage": 112,
+        "bodyDamage": 34,
+        "legDamage": 28
+      }
+    ]
+  },
+  "shopData": {
+    "cost": 600,
+    "category": "Pistols",
+    "shopOrderPriority": 0,
+    "categoryText": "Armes de poing",
+    "gridPosition": {
+      "row": 0,
+      "column": 3
+    },
+    "canBeTrashed": true,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/weapons/410b2e0b-4ceb-1321-1727-20858f7f3477/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Compact_Purchasable"
+  },
+  "skins": [
+    {
+      "uuid": "b576b9f1-407d-310a-6009-6287fb6829bc",
+      "displayName": "Bandit (Standard)",
+      "themeUuid": "5a629df4-4765-0214-bd40-fbb96542941f",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/b576b9f1-407d-310a-6009-6287fb6829bc/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Compact_Standard_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "ff308f94-427d-e6d3-8fcb-258f5d4c2c29",
+          "displayName": "Bandit",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ff308f94-427d-e6d3-8fcb-258f5d4c2c29/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ff308f94-427d-e6d3-8fcb-258f5d4c2c29/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Standard/Chromas/Standard/Compact_Standard_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "7bf8a186-42f3-0028-c096-4fb539a31be2",
+          "displayName": "Bandit",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/7bf8a186-42f3-0028-c096-4fb539a31be2/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Standard/Compact_Standard_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a2cb19e6-407c-f19b-ffae-e9be7fe25abd",
+      "displayName": "Bandit (Pleine vitesse)",
+      "themeUuid": "dfdf796e-4af5-e202-fd8d-75b21f44fc19",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a2cb19e6-407c-f19b-ffae-e9be7fe25abd/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/CrashOut/Compact_CrashOut_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "aa3cc912-4a9c-7d99-b458-ccae301a87be",
+          "displayName": "Bandit (Pleine vitesse)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/aa3cc912-4a9c-7d99-b458-ccae301a87be/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/aa3cc912-4a9c-7d99-b458-ccae301a87be/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/CrashOut/Chromas/Standard/Compact_CrashOut_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "29f343b9-4387-b17f-dfdf-2bb1f66cd75b",
+          "displayName": "Bandit (Pleine vitesse)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/29f343b9-4387-b17f-dfdf-2bb1f66cd75b/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/CrashOut/Levels/Compact_CrashOut_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "2505a3cf-4604-d6ff-5785-d981df847fb7",
+      "displayName": "Bandit (Âme en fusion)",
+      "themeUuid": "4b924064-4241-8288-4218-088e0d7397fd",
+      "contentTierUuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/2505a3cf-4604-d6ff-5785-d981df847fb7/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Liberate/Compact_Liberate_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "716281c1-454d-d454-142d-03ae37b913ce",
+          "displayName": "Bandit (Âme en fusion)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/716281c1-454d-d454-142d-03ae37b913ce/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/716281c1-454d-d454-142d-03ae37b913ce/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/716281c1-454d-d454-142d-03ae37b913ce/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Liberate/Chromas/Standard/Compact_Liberate_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "a17f4d76-4254-cb64-0a63-b18f518a766b",
+          "displayName": "Bandit (Âme en fusion)\n(variante 1 Violet)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a17f4d76-4254-cb64-0a63-b18f518a766b/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a17f4d76-4254-cb64-0a63-b18f518a766b/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a17f4d76-4254-cb64-0a63-b18f518a766b/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Liberate/Chromas/v1/Compact_Liberate_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "ba5bf29a-484b-30c2-46d1-6091c0b1b085",
+          "displayName": "Bandit (Âme en fusion)\r\n(variante 2 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ba5bf29a-484b-30c2-46d1-6091c0b1b085/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ba5bf29a-484b-30c2-46d1-6091c0b1b085/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ba5bf29a-484b-30c2-46d1-6091c0b1b085/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Liberate/Chromas/v2/Compact_Liberate_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "39517179-4d0d-3cd8-aaaf-ee9d6320e555",
+          "displayName": "Bandit (Âme en fusion)\n(variante 3 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/39517179-4d0d-3cd8-aaaf-ee9d6320e555/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/39517179-4d0d-3cd8-aaaf-ee9d6320e555/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/39517179-4d0d-3cd8-aaaf-ee9d6320e555/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Liberate/Chromas/V3/Compact_Liberate_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "d8606d62-4a88-39d6-4e65-3993b0f3f9b2",
+          "displayName": "Bandit (Âme en fusion)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/d8606d62-4a88-39d6-4e65-3993b0f3f9b2/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Liberate/Levels/Compact_Liberate_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "8911ce5b-485d-3a9b-ffa1-199ca6c067c1",
+      "displayName": "Bandit (Origami)",
+      "themeUuid": "97fca73b-4f4f-2dbc-e2ec-85b69f357728",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/8911ce5b-485d-3a9b-ffa1-199ca6c067c1/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Origami/Compact_Origami_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "6e96c515-415a-d7c6-270e-8c85231e8363",
+          "displayName": "Bandit (Origami)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/6e96c515-415a-d7c6-270e-8c85231e8363/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/6e96c515-415a-d7c6-270e-8c85231e8363/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Origami/Chromas/Standard/Compact_Origami_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "15fb7ca6-4540-dc10-a01b-1ba03cd8cfba",
+          "displayName": "Bandit (Origami)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/15fb7ca6-4540-dc10-a01b-1ba03cd8cfba/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Origami/Levels/Compact_Origami_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "1c9e4c40-4cb7-cbc8-1368-8f9feaa08f65",
+      "displayName": "Skin favori aléatoire",
+      "themeUuid": "0d7a5bfb-4850-098e-1821-d989bbfd58a8",
+      "contentTierUuid": null,
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/1c9e4c40-4cb7-cbc8-1368-8f9feaa08f65/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Random/Compact_Random_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "b6bb99ef-4a48-dab2-c409-6c880e8ec2a9",
+          "displayName": "Standard",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/b6bb99ef-4a48-dab2-c409-6c880e8ec2a9/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Random/Chromas/Standard/Compact_Random_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c998beef-4c66-f39c-87af-c1a86074035d",
+          "displayName": "SKIN FAVORI ALÉATOIRE",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c998beef-4c66-f39c-87af-c1a86074035d/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Random/Levels/Compact_Random_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "902a3bcb-4164-3315-fe03-2088fb897ce4",
+      "displayName": "Bandit (Renégat)",
+      "themeUuid": "a2a9355b-4274-c82d-893b-2396c460e1ce",
+      "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/902a3bcb-4164-3315-fe03-2088fb897ce4/displayicon.png",
+      "wallpaper": "https://media.valorant-api.com/weaponskins/902a3bcb-4164-3315-fe03-2088fb897ce4/wallpaper.png",
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Rogue/Compact_Rogue_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "f8cd2463-4de6-2f96-561b-c0ab717995f9",
+          "displayName": "Bandit (Renégat)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/f8cd2463-4de6-2f96-561b-c0ab717995f9/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/f8cd2463-4de6-2f96-561b-c0ab717995f9/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/f8cd2463-4de6-2f96-561b-c0ab717995f9/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Rogue/Chromas/Standard/Compact_Rogue_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "d3864035-4c79-6d51-58af-1790c3a59cee",
+          "displayName": "Bandit (Renégat) niveau 4\n(variante 1 Vert)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/d3864035-4c79-6d51-58af-1790c3a59cee/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/d3864035-4c79-6d51-58af-1790c3a59cee/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/d3864035-4c79-6d51-58af-1790c3a59cee/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/af81df1d-4930-e563-9ff9-29a82461e2ab_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Rogue/Chromas/v1/Compact_Rogue_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "e45b9cdd-46c6-13fa-6ac1-3bb5e12387cb",
+          "displayName": "Bandit (Renégat) niveau 4\n(variante 2 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/e45b9cdd-46c6-13fa-6ac1-3bb5e12387cb/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/e45b9cdd-46c6-13fa-6ac1-3bb5e12387cb/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/e45b9cdd-46c6-13fa-6ac1-3bb5e12387cb/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/9b42c434-4dd9-db2a-3fb7-dfae7cceea72_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Rogue/Chromas/v2/Compact_Rogue_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "7a305cd6-4398-6506-fc38-6499b7e4a961",
+          "displayName": "Bandit (Renégat) niveau 4\n(variante 3 Bleu)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/7a305cd6-4398-6506-fc38-6499b7e4a961/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/7a305cd6-4398-6506-fc38-6499b7e4a961/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/7a305cd6-4398-6506-fc38-6499b7e4a961/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/cac858c1-45e3-a23b-5455-22b15035cc2f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Rogue/Chromas/V3/Compact_Rogue_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "38821bf5-4ff1-2263-b2c9-55bf78e3f411",
+          "displayName": "Bandit (Renégat)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/38821bf5-4ff1-2263-b2c9-55bf78e3f411/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/cf206f21-47d0-aaf5-e952-2e80d513761a_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Rogue/Levels/Compact_Rogue_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "8593aa61-4e4a-ba66-69dd-dfbded285b67",
+          "displayName": "Bandit (Renégat) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/0c523c37-4508-9ace-4642-e2a713ef5443_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Rogue/Levels/Compact_Rogue_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "1df236e6-4b3f-3a5b-f99f-c08a463ac6f6",
+          "displayName": "Bandit (Renégat) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/1df236e6-4b3f-3a5b-f99f-c08a463ac6f6/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/4c6c4fde-4af4-a2a4-f2b5-64a10ecf8600_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Rogue/Levels/Compact_Rogue_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "75947fc9-4fdd-55ea-5a63-1a920336c8e7",
+          "displayName": "Bandit (Renégat) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/92e538ef-4ac2-a2a6-2371-089a6baee2a5_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Rogue/Levels/Compact_Rogue_Lv4_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "ff766c80-4c4a-269d-2164-3ebb341de27a",
+      "displayName": "Bandit (Pilleur)",
+      "themeUuid": "2a43a7c0-45b5-2dbb-5c48-be8b40c35d9a",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "contentEditionUuid": null,
+      "displayIcon": "https://media.valorant-api.com/weaponskins/ff766c80-4c4a-269d-2164-3ebb341de27a/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Soulstealer3/Compact_Soulstealer3_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "fd2f03bd-4de4-653b-a33a-46800191601c",
+          "displayName": "Bandit (Pilleur)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/fd2f03bd-4de4-653b-a33a-46800191601c/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/fd2f03bd-4de4-653b-a33a-46800191601c/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/fd2f03bd-4de4-653b-a33a-46800191601c/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Soulstealer3/Chromas/Standard/Compact_Soulstealer3_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "128e7525-43ee-728e-d5bb-bb8e52b9741a",
+          "displayName": "Bandit (Pilleur) niveau 4\r\n(variante 1 Rouge)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/128e7525-43ee-728e-d5bb-bb8e52b9741a/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/128e7525-43ee-728e-d5bb-bb8e52b9741a/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/128e7525-43ee-728e-d5bb-bb8e52b9741a/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/fa605cef-4650-9c8f-ec62-eab51b322879_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Soulstealer3/Chromas/v1/Compact_Soulstealer3_v1_PrimaryAsset"
+        },
+        {
+          "uuid": "78017b5e-4739-88f1-d4f5-77ba84025745",
+          "displayName": "Bandit (Pilleur) niveau 4\r\n(variante 2 Noir)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/78017b5e-4739-88f1-d4f5-77ba84025745/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/78017b5e-4739-88f1-d4f5-77ba84025745/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/78017b5e-4739-88f1-d4f5-77ba84025745/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/7d21bb42-4c1e-5130-069d-06a55334e1c1_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Soulstealer3/Chromas/v2/Compact_Soulstealer3_v2_PrimaryAsset"
+        },
+        {
+          "uuid": "a3160f25-4bd5-d279-eb02-69a48ab73eb3",
+          "displayName": "Bandit (Pilleur) niveau 4\r\n(variante 3 Blanc)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/a3160f25-4bd5-d279-eb02-69a48ab73eb3/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/a3160f25-4bd5-d279-eb02-69a48ab73eb3/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/a3160f25-4bd5-d279-eb02-69a48ab73eb3/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/34c4605c-45eb-18d5-c808-bb9b677aa81e_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Soulstealer3/Chromas/V3/Compact_Soulstealer3_v3_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "3abfabeb-40d5-3aa2-0509-5d929b5bf1b3",
+          "displayName": "Bandit (Pilleur)",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/3abfabeb-40d5-3aa2-0509-5d929b5bf1b3/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/11f73c9d-4867-223c-28e0-5b91f8ae818c_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Soulstealer3/Levels/Compact_Soulstealer3_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "ffc33888-43b1-031e-7594-c185ed840a8c",
+          "displayName": "Bandit (Pilleur) niveau 2",
+          "levelItem": "EEquippableSkinLevelItem::VFX",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/e9b9d5d0-4a82-38d9-1634-4ca83d64f045_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Soulstealer3/Levels/Compact_Soulstealer3_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "c1255e86-4a31-c051-42e7-4db690b22199",
+          "displayName": "Bandit (Pilleur) niveau 3",
+          "levelItem": "EEquippableSkinLevelItem::Animation",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c1255e86-4a31-c051-42e7-4db690b22199/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/3cb06dc1-4df8-349e-f988-fab28aed4c6f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Soulstealer3/Levels/Compact_Soulstealer3_Lv3_PrimaryAsset"
+        },
+        {
+          "uuid": "61314489-4132-9f71-ee02-258bd3e62cce",
+          "displayName": "Bandit (Pilleur) niveau 4",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-13.02/c1563bbb-46a8-656e-54d8-6e9b4261ee7d_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/Sidearms/Compact/Soulstealer3/Levels/Compact_Soulstealer3_Lv4_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}
