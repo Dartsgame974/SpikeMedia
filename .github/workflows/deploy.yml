@@ -40,6 +40,11 @@ jobs:
       - name: Build Web Application
         run: npm run build
 
+      - name: Copy Media Directories to Dist
+        run: |
+          cp -r Characters dist/ || true
+          cp -r Valorantek dist/ || true
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
