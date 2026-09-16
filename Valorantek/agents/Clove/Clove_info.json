@@ -1,0 +1,71 @@
+{
+  "uuid": "1dbf2edd-4729-0984-3115-daa5eed44993",
+  "displayName": "Clove",
+  "description": "Clove, l'intenable Écossais·e, déstabilise l'ennemi dans le feu de l'action comme le froid de la mort. Iel sème le trouble dans les rangs ennemis, même depuis sa tombe, car sa mort ne dure jamais très longtemps.",
+  "developerName": "Smonk",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+  "backgroundGradientColors": [
+    "4b1d80ff",
+    "0f1923ff",
+    "c347c7ff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Smonk/Smonk_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+    "displayName": "Contrôleur",
+    "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+  },
+  "recruitmentData": {
+    "counterId": "1064ba88-4cd9-8d5b-cbe5-d784b3568820",
+    "milestoneId": "ac3d5972-4ad9-003f-3da8-5881db5a19ec",
+    "milestoneThreshold": 200000,
+    "useLevelVpCostOverride": false,
+    "levelVpCostOverride": 0,
+    "startDate": "2024-03-25T13:00:00Z",
+    "endDate": "2024-04-24T22:00:00Z"
+  },
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "displayName": "Coup de boost",
+      "description": "ACTIVEZ pour absorber la force vitale d'un ennemi tombé au combat que Clove a blessé ou tué, ce qui vous accélère et vous fait gagner des PV temporaires.",
+      "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Ruse",
+      "description": "ÉQUIPEZ-vous d'une vue du champ de bataille. TIREZ pour définir les endroits où poser les nuages de Clove. Utilisez le TIR SECONDAIRE pour confirmer, ce qui lance des nuages qui bloquent la vision dans les zones sélectionnées. Clove peut utiliser cette compétence après sa mort.",
+      "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Toujours debout",
+      "description": "Après votre mort, ACTIVEZ pour revenir à la vie. De retour parmi les vivants, vous avez un certain temps pour réussir une élimination ou une assistance blessante, sans quoi vous mourez. RÉACTIVEZ pour annuler prématurément.",
+      "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Trouble-fête",
+      "description": "ÉQUIPEZ-vous d'un fragment d'essence d'immortalité. TIREZ pour lancer le fragment, lequel explose après un court délai en atterrissant au sol et désagrège temporairement toutes les cibles touchées.",
+      "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

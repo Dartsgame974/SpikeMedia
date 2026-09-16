@@ -1,0 +1,72 @@
+{
+  "uuid": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+  "displayName": "Jett",
+  "description": "Représentante de sa patrie, la Corée du Sud, Jett dispose d'un style de combat basé sur l'agilité et l'esquive, ce qui lui permet de prendre des risques qu'elle seule peut se permettre de prendre. Elle tourne autour des affrontements et découpe ses ennemis avant même qu'ils ne s'en rendent compte.",
+  "developerName": "Wushu",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Esquive",
+    "Mobilité"
+  ],
+  "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+  "backgroundGradientColors": [
+    "25607aff",
+    "0f1923ff",
+    "0f1923ff",
+    "25607aff"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Wushu/Wushu_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": true,
+  "role": {
+    "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+    "displayName": "Duelliste",
+    "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Courant ascendant",
+      "description": "Vous vous propulsez INSTANTANÉMENT dans les airs.",
+      "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Vent arrière",
+      "description": "ACTIVEZ pour préparer une rafale de vent pendant une durée limitée. RÉUTILISEZ la compétence pour vous propulser dans la direction vers laquelle vous vous dirigez. Si vous êtes immobile, vous vous propulsez vers l'avant. Vous regagnez une charge de Vent arrière toutes les deux éliminations.",
+      "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Averse",
+      "description": "Lancez INSTANTANÉMENT un projectile. Lorsqu'il touche une surface, il libère un nuage qui bloque la vision pendant un court instant. MAINTENEZ la touche de la compétence pour courber la fumée dans la direction de votre réticule.",
+      "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Tempête de lames",
+      "description": "ÉQUIPEZ-vous d'un ensemble de couteaux de lancer extrêmement précis. TIREZ pour lancer un seul couteau (se recharge en cas d'élimination). Utilisez le TIR SECONDAIRE pour lancer tous les couteaux restants (ne se recharge pas).",
+      "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+    },
+    {
+      "slot": "Passive",
+      "displayName": "Vol",
+      "description": "Maintenir la touche de saut tout en tombant vous permet de planer.",
+      "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

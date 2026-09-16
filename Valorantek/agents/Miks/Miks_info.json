@@ -1,0 +1,65 @@
+{
+  "uuid": "7c8a4701-4de6-9355-b254-e09bc2a34b72",
+  "displayName": "Miks",
+  "description": "Tout droit venu de Croatie, Miks monte sur scène en canalisant une énergie sonore pure. Avec sa passion contagieuse et ses pouvoirs soniques, il rassemble son escouade pour avancer à l'unisson et donner le rythme sur le champ de bataille.",
+  "developerName": "Iris",
+  "releaseDate": "2026-03-18T15:00:00Z",
+  "characterTags": null,
+  "displayIcon": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/minimapportrait.png",
+  "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/homescreenpromotileimage.png",
+  "background": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/background.png",
+  "backgroundGradientColors": [
+    "462b75ff",
+    "0f1923ff",
+    "344673ff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Iris/Iris_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+    "displayName": "Contrôleur",
+    "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+  },
+  "recruitmentData": {
+    "counterId": "7c8a4701-4de6-9355-b254-e09bc2a34b72",
+    "milestoneId": "0e5f4b8f-4f50-4a07-fa17-c7b55a1c72d1",
+    "milestoneThreshold": 200000,
+    "useLevelVpCostOverride": false,
+    "levelVpCostOverride": 0,
+    "startDate": "2026-03-17T22:00:00Z",
+    "endDate": "2026-04-15T22:00:00Z"
+  },
+  "abilities": [
+    {
+      "slot": "Ability2",
+      "displayName": "Forme d'onde",
+      "description": "ÉQUIPEZ-vous d'une carte tactique. TIREZ pour définir les positions. Utilisez le TIR SECONDAIRE pour déployer des fumigènes aux positions sélectionnées.",
+      "displayIcon": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Harmonisation",
+      "description": "ÉQUIPEZ Harmonisation. Visez un allié et TIREZ pour activer un Stimulant de combat et un bonus de vitesse sur vous-même et l'allié. Ce Stimulant se réinitialise à chaque élimination. Utilisez le TIR SECONDAIRE pour accorder le Stimulant et le bonus de vitesse uniquement à vous-même.",
+      "displayIcon": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Basse sismique",
+      "description": "ÉQUIPEZ Basse sismique. TIREZ pour accumuler et libérer de la Radiance sonique vers l'avant, repoussant, assourdissant et ralentissant les joueurs.",
+      "displayIcon": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/ultimate/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

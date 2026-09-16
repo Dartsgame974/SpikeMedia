@@ -1,0 +1,63 @@
+{
+  "uuid": "95b78ed7-4637-86d9-7e41-71ba8c293152",
+  "displayName": "Harbor",
+  "description": "Venu de la côte indienne, Harbor déferle sur le terrain grâce à une technologie antique qui lui permet de contrôler l'eau. Il déchaîne des torrents bouillonnants et de terribles lames d'eau pour protéger ses alliés et noyer ses adversaires.",
+  "developerName": "Mage",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+  "backgroundGradientColors": [
+    "275146ff",
+    "0f1923ff",
+    "11434eff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Mage/Mage_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+    "displayName": "Contrôleur",
+    "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Marée haute",
+      "description": "ÉQUIPEZ-vous de Marée haute. TIREZ pour lancer de l'eau vers l'avant, parallèlement au sol. MAINTENEZ LE TIR pour la guider dans la direction du réticule et faire apparaître un mur liquide sur son passage. Utilisez le TIR SECONDAIRE pour arrêter la compétence prématurément. Tous les joueurs traversant Marée haute sont ralentis.",
+      "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Tempête déferlante",
+      "description": "ÉQUIPEZ-vous de Tempête déferlante. TIREZ pour lancer et créer un tourbillon explosif qui rend myopes et ralentit les joueurs qui se trouvent à l'intérieur après un court instant.",
+      "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Dôme aqueux",
+      "description": "ÉQUIPEZ-vous de Dôme aqueux. ACTIVEZ pour placer un fumigène d'eau à l'emplacement ciblé. MAINTENEZ LE TIR tout en visant pour éloigner le marqueur et MAINTENEZ LE TIR SECONDAIRE pour le rapprocher. RECHARGEZ pour repasser en visée. RÉACTIVEZ pour protéger le fumigène d'eau et repousser les balles qui l'atteignent. Le fumigène d'eau protégé peut être détruit.",
+      "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Raz-de-marée",
+      "description": "ÉQUIPEZ-vous de Raz-de-marée. TIREZ pour libérer toute la puissance de votre relique et libérer un torrent d'eau vers l'avant qui rend myopes et ralentit les ennemis touchés.",
+      "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

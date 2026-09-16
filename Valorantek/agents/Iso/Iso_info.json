@@ -1,0 +1,71 @@
+{
+  "uuid": "0e38b510-41a8-5780-5e8f-568b2a4f2d6c",
+  "displayName": "Iso",
+  "description": "Venu de Chine et spécialiste de missions délicates, Iso se fond dans le flux de radianite pour démanteler les réseaux ennemis. Capable de restructurer l'énergie ambiante en protection pare-balles, rien ne l'arrêtera sur le chemin de son prochain duel à mort.",
+  "developerName": "Sequoia",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+  "backgroundGradientColors": [
+    "30336eff",
+    "0f1923ff",
+    "20155dff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Sequoia/Sequoia_BasePrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": false,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+    "displayName": "Duelliste",
+    "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+  },
+  "recruitmentData": {
+    "counterId": "23012172-4c2f-13cf-f70c-d584a8050cba",
+    "milestoneId": "c4c1c4eb-4fb0-8a33-9cbe-1d902363d698",
+    "milestoneThreshold": 200000,
+    "useLevelVpCostOverride": false,
+    "levelVpCostOverride": 0,
+    "startDate": "2023-10-31T13:00:00Z",
+    "endDate": "2023-11-29T22:00:00Z"
+  },
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Sape",
+      "description": "ÉQUIPEZ-vous d'un carreau moléculaire. TIREZ pour le lancer vers l'avant, ce qui rend brièvement vulnérables et neutralise tous les joueurs touchés. Le carreau peut traverser les objets solides, murs y compris.",
+      "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Duel à huis clos",
+      "description": "ÉQUIPEZ-vous d'une arène interdimensionnelle. Utilisez le TIR PRINCIPAL pour produire une colonne d'énergie sur le terrain, vous soignant vous et le premier ennemi touché et l'attirant  avec vous dans l'arène et pour un duel à mort.",
+      "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Tir couplé",
+      "description": "Vous commencez INSTANTANÉMENT à vous concentrer. Une fois concentré : vous gagnez un bouclier absorbant une salve de dégâts de n'importe quelle source, vous rechargez plus vite et vous entrez dans un état fluide pendant lequel les ennemis que vous avez tués ou blessés génèrent un orbe d'énergie. Tirez sur cet orbe pour actualiser votre état fluide et votre bouclier existant, ou pour gagner un nouveau bouclier.",
+      "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Contingence",
+      "description": "PRÉPAREZ une concentration d'énergie prismatique. Utilisez le TIR PRINCIPAL pour projeter un mur d'énergie indestructible qui bloque les balles. Utilisez le TIR SECONDAIRE pour projeter un mur plus lent.",
+      "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

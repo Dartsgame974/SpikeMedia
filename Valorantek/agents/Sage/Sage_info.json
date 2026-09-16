@@ -1,0 +1,66 @@
+{
+  "uuid": "569fdd95-4d10-43ab-ca70-79becc718b46",
+  "displayName": "Sage",
+  "description": "Véritable pilier originaire de Chine, Sage assure sa sécurité et celle de son équipe où qu'elle aille. Elle peut réanimer ses alliés tombés au combat et repousser les assauts ennemis pour offrir des oasis de tranquillité sur un champ de bataille infernal.",
+  "developerName": "Thorne",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Récupération",
+    "Temporisation"
+  ],
+  "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+  "backgroundGradientColors": [
+    "1f5148ff",
+    "0f1923ff",
+    "102d23ff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Thorne/Thorne_PrimaryAsset",
+  "isFullPortraitRightFacing": true,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": true,
+  "role": {
+    "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+    "displayName": "Sentinelle",
+    "description": "Les sentinelles sont des experts de la défense qui verrouillent l'accès aux zones et surveillent les flancs, tant en attaque qu'en défense.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Orbe de lenteur",
+      "description": "ÉQUIPEZ-vous d'un orbe ralentissant. TIREZ pour lancer l'orbe devant vous. Lorsqu'il touche le sol, l'orbe explose et crée un champ persistant qui ralentit les joueurs qui s'y trouvent et qui réduit la vitesse de leurs ruées.",
+      "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Orbe de soin",
+      "description": "ÉQUIPEZ-vous d'un orbe de soin. TIREZ en visant un allié blessé pour lui rendre des PV sur la durée. Si vous avez subi des dégâts, utilisez le TIR SECONDAIRE pour récupérer des PV sur la durée.",
+      "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Orbe barrière",
+      "description": "ÉQUIPEZ-vous d'un orbe barrière. TIRER permet de placer un mur qui se renforce après quelques secondes. Le TIR SECONDAIRE fait pivoter le cibleur.",
+      "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Résurrection",
+      "description": "ÉQUIPEZ-vous d'une compétence de résurrection. TIREZ en visant un allié mort pour le ramener à la vie. Après une courte canalisation, votre allié est ramené à la vie avec tous ses PV.",
+      "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

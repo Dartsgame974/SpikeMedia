@@ -1,0 +1,69 @@
+{
+  "uuid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+  "displayName": "Astra",
+  "description": "L'agent ghanéen Astra canalise les énergies du cosmos pour façonner le champ de bataille à sa convenance. Avec une maîtrise complète de sa forme astrale et un talent pour la planification stratégique, elle a toujours une large avance sur ses ennemis.",
+  "developerName": "Rift",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+  "backgroundGradientColors": [
+    "26146cff",
+    "0f1923ff",
+    "5210c6ff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Rift/Rift_PrimaryAsset",
+  "isFullPortraitRightFacing": true,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+    "displayName": "Contrôleur",
+    "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Impulsion nova",
+      "description": "Placez des étoiles sous sa forme astrale (touche d'ultime).\n\nACTIVEZ une étoile pour faire exploser une impulsion nova. L'impulsion nova se charge brièvement avant d'exploser, désorientant tous les joueurs dans son rayon d'effet.",
+      "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Nébuleuse / Dissipation",
+      "description": "Placez des étoiles sous sa forme astrale (touche d'ultime). \n\nACTIVEZ une étoile pour la transformer en nébuleuse (fumigène). UTILISEZ une étoile pour la dissiper, ce qui vous permettra d'en placer une autre à un autre endroit après un délai. La dissipation forme brièvement une fausse nébuleuse à l'emplacement de l'étoile.",
+      "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Puits de gravité",
+      "description": "Placez des étoiles sous sa forme astrale (touche d'ultime).\n\nACTIVEZ une étoile pour former un puits de gravité. Les joueurs dans la zone sont attirés vers le centre avant qu'il n'explose. L'explosion applique l'altération d'état Vulnérable aux joueurs piégés.",
+      "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Forme astrale / Division\ncosmique",
+      "description": "ACTIVEZ pour entrer en forme astrale, ce qui vous permet de placer des étoiles en TIRANT. Vous pouvez ensuite réactiver ces étoiles pour les transformer en impulsion nova, nébuleuse ou puits de gravité.\n\nLorsque Division cosmique est chargée, utilisez le TIR SECONDAIRE en forme astrale pour viser, puis TIREZ pour sélectionner deux emplacements. Une division cosmique infinie connectera les deux points sélectionnés. Division cosmique bloque les balles et les sons.",
+      "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+    },
+    {
+      "slot": "Passive",
+      "displayName": "Forme astrale",
+      "description": "ACTIVEZ votre ultime pour entrer en forme astrale et TIREZ pour placer des étoiles. Visez ces étoiles avec Impulsion nova, Nébuleuse ou Puits de gravité pour utiliser ces compétences.",
+      "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

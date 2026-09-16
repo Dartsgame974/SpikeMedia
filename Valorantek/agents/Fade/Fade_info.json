@@ -1,0 +1,63 @@
+{
+  "uuid": "dade69b4-4f5a-8528-247b-219e5a1facd6",
+  "displayName": "Fade",
+  "description": "Originaire de Türkiye, la chasseuse de primes Fade utilise le pouvoir des cauchemars pour s'emparer des secrets ennemis. Elle traque ses cibles et révèle leurs plus grandes peurs pour mieux les briser dans l'obscurité.",
+  "developerName": "BountyHunter",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+  "backgroundGradientColors": [
+    "1d2846ff",
+    "0f1923ff",
+    "18344cff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/BountyHunter/BountyHunter_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+    "displayName": "Initiateur",
+    "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Capture",
+      "description": "ÉQUIPEZ-vous d'un nœud de peur brute. TIREZ pour le lancer. Le nœud tombe au bout d'un certain temps. RÉUTILISEZ la compétence pour faire tomber le nœud plus tôt. À l'impact, le nœud éclate et retient les ennemis proches. Les ennemis retenus sont assourdis et leurs PV se désagrègent.",
+      "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Hanteur",
+      "description": "ÉQUIPEZ-vous d'un observateur terrifiant. TIREZ pour le lancer. L'observateur tombe au bout d'un certain temps. RÉUTILISEZ la compétence pour faire tomber l'observateur plus tôt. L'observateur se déchaîne à l'impact, révélant les ennemis dans son champ de vision et créant des pistes de terreur qui mènent à eux. Les ennemis peuvent détruire l'observateur.",
+      "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Rôdeur",
+      "description": "ÉQUIPEZ-vous d'un rôdeur. TIREZ pour lancer le rôdeur devant vous. MAINTENEZ LE TIR pour guider le rôdeur dans la direction de votre réticule. Le rôdeur pourchasse le premier ennemi ou suit la première piste de terreur qu'il voit. S'il atteint un ennemi, il le rend myope.",
+      "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Nuit tombante",
+      "description": "ÉQUIPEZ-vous du pouvoir du Cauchemar. TIREZ pour envoyer une vague d'énergie cauchemardesque inarrêtable. Les ennemis pris dans la vague laissent une piste de terreur derrière eux, sont assourdis et leurs PV se désagrègent.",
+      "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

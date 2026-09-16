@@ -1,0 +1,66 @@
+{
+  "uuid": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+  "displayName": "Reyna",
+  "description": "Originaire du cœur du Mexique, Reyna est une experte des combats singuliers qui se renforce à chaque élimination qu'elle réussit. Son efficacité n'est limitée que par son habileté, ce qui la rend très dépendante de ses propres performances. ",
+  "developerName": "Vampire",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Esquive",
+    "Auto-subsistance"
+  ],
+  "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+  "backgroundGradientColors": [
+    "662d62ff",
+    "0f1923ff",
+    "2f2664ff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Vampire/Vampire_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+    "displayName": "Duelliste",
+    "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Dévoration",
+      "description": "Récolte des âmes : les ennemis qui meurent dans les 3 sec après que Reyna les a blessés laissent des orbes d'âme qui durent 3 sec.\r\nDévoration : vous consommez INSTANTANÉMENT un orbe d'âme pour rapidement regagner des PV temporaires. Si IMPÉRATRICE est active, Dévoration se lance automatiquement, ne consomme pas d'orbe d'âme et rend des PV permanents.",
+      "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Rebuffade",
+      "description": "Vous consommez INSTANTANÉMENT un orbe d'âme proche et devenez intangible pendant un court instant. Si IMPÉRATRICE est active, vous devenez également invisible.",
+      "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Œillade",
+      "description": "ÉQUIPEZ-vous d'un œil éthéré destructible. ACTIVEZ pour lancer l'œil vers l'avant sur une courte distance. L'œil rend myopes tous les ennemis qui le regardent.",
+      "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Impératrice",
+      "description": "Entrez INSTANTANÉMENT en furie et gagnez l'effet Stimulant de combat, ce qui augmente considérablement vos vitesses de tir, de changement d'arme et de rechargement. Vous gagnez une infinité de charges pour les compétences se servant de Récolte des âmes.",
+      "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

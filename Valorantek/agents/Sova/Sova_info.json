@@ -1,0 +1,72 @@
+{
+  "uuid": "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+  "displayName": "Sova",
+  "description": "Né dans l'hiver éternel de la toundra russe, Sova traque, trouve et élimine ses ennemis avec une efficacité et une précision redoutables. Ses incroyables talents d'éclaireur et son arc personnalisé lui garantissent que sa cible ne fuira jamais très longtemps. ",
+  "developerName": "Hunter",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Détection",
+    "Dégâts de zone"
+  ],
+  "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+  "backgroundGradientColors": [
+    "355285ff",
+    "0f1923ff",
+    "101c47ff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Hunter/Hunter_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": true,
+  "role": {
+    "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+    "displayName": "Initiateur",
+    "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Électroflèche",
+      "description": "ÉQUIPEZ-vous d'un arc et d'une flèche électrique. TIREZ pour décocher la flèche, qui explose à l'impact et blesse les joueurs proches. MAINTENEZ LE TIR pour augmenter la portée du projectile. Utilisez le TIR SECONDAIRE pour ajouter jusqu'à deux rebonds à cette flèche.",
+      "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Flèche de reconnaissance",
+      "description": "ÉQUIPEZ-vous d'un arc et d'une flèche de reconnaissance. TIREZ pour décocher la flèche, qui s'active à l'impact et révèle la position des ennemis proches se trouvant dans sa ligne de vue. Les ennemis peuvent détruire cette flèche. MAINTENEZ LE TIR pour augmenter la portée du projectile. Utilisez le TIR SECONDAIRE pour ajouter jusqu'à deux rebonds à cette flèche. ",
+      "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Drone rapace",
+      "description": "ÉQUIPEZ-vous d'un drone rapace. TIREZ pour déployer et prendre le contrôle du drone. Quand vous contrôlez le drone, TIREZ pour envoyer une fléchette de marquage. Cette fléchette révélera la position de tout joueur qu'elle a touché. Les ennemis peuvent détruire le drone rapace.",
+      "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Fureur du chasseur",
+      "description": "ÉQUIPEZ-vous d'un arc et de trois projectiles d'énergie à longue portée capables de traverser les murs. TIREZ pour décocher un projectile d'énergie en ligne droite, qui inflige des dégâts et révèle la position des ennemis touchés. Cette compétence peut être RÉUTILISÉE jusqu'à deux fois de plus tant que la compétence est active.",
+      "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+    },
+    {
+      "slot": "Passive",
+      "displayName": "Tireur habile",
+      "description": "L'arc personnalisé de Sova peut tirer des flèches qui rebondissent sur le décor. Maintenir la touche de tir charge la puissance de tir de l'arc. La lâcher lance la flèche. Appuyez sur la touche de tir secondaire pour modifier le nombre de rebonds. Vos flèches peuvent rebondir sur le décor. Maintenir le clic gauche augmente la portée du tir. Le clic droit permet de modifier le nombre de rebonds. La flèche est tirée quand vous relâchez le clic gauche.",
+      "displayIcon": null
+    }
+  ],
+  "voiceLine": null
+}

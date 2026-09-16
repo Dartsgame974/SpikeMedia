@@ -1,0 +1,63 @@
+{
+  "uuid": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+  "displayName": "Skye",
+  "description": "Originaire d'Australie, Skye et sa bande de bêtes sauvages ouvrent la voie à travers les territoires hostiles. Grâce à ses créations qui entravent l'ennemi et à sa faculté à soigner les autres, l'équipe est plus forte et plus en sécurité quand elle compte Skye dans ses rangs.",
+  "developerName": "Guide",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+  "backgroundGradientColors": [
+    "436a51ff",
+    "0f1923ff",
+    "4f1413ff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Guide/Guide_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+    "displayName": "Initiateur",
+    "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Éclaireur",
+      "description": "ÉQUIPEZ-vous d'une breloque Tigre de Tasmanie. TIREZ pour lancer et prendre le contrôle du prédateur. Lorsque vous le contrôlez, TIREZ pour bondir en avant, ce qui provoque une explosion désorientante à l'impact et blesse les ennemis directement touchés.",
+      "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Guide éclatant",
+      "description": "ÉQUIPEZ-vous d'une breloque Faucon. TIREZ pour lancer l'oiseau devant vous. MAINTENEZ LE TIR pour guider le faucon dans la direction de votre réticule. RÉUTILISEZ la compétence pendant que le faucon est dans les airs pour le transformer en lumière. La lumière atteint son intensité maximale après une courte durée de vol.",
+      "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Revitalisation",
+      "description": "ÉQUIPEZ-vous d'une breloque de soin. MAINTENEZ LE TIR pour effectuer une canalisation qui soigne les alliés à portée et dans la ligne de mire. Peut être réutilisé jusqu'à épuisement de la capacité de soin. Skye ne peut pas se soigner.",
+      "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Traqueurs",
+      "description": "ÉQUIPEZ-vous d'une breloque Traqueurs. TIREZ pour lancer trois traqueurs qui pourchasseront les trois ennemis les plus proches. Si un traqueur atteint sa cible, il réduit le champ de vision de celle-ci et la ralentit. Les ennemis peuvent détruire les traqueurs.",
+      "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

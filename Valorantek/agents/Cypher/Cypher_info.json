@@ -1,0 +1,66 @@
+{
+  "uuid": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+  "displayName": "Cypher",
+  "description": "Véritable réseau de surveillance à lui tout seul, le vendeur d'informations marocain Cypher est capable de traquer les moindres déplacements de l'ennemi. Il révèle tous les secrets. Il détecte toutes les manœuvres. Rien n'échappe à Cypher.",
+  "developerName": "Gumshoe",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Détection",
+    "Confinement défensif"
+  ],
+  "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+  "backgroundGradientColors": [
+    "2f5078ff",
+    "0f1923ff",
+    "3f3f6cff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Gumshoe/Gumshoe_PrimaryAsset",
+  "isFullPortraitRightFacing": true,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+    "displayName": "Sentinelle",
+    "description": "Les sentinelles sont des experts de la défense qui verrouillent l'accès aux zones et surveillent les flancs, tant en attaque qu'en défense.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Cybercage",
+      "description": "Lancez INSTANTANÉMENT la cybercage devant Cypher. ACTIVEZ pour créer une zone qui bloque la vision et qui émet un signal sonore quand des ennemis la traversent.",
+      "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Caméra espionne",
+      "description": "ÉQUIPEZ-vous d'une caméra espionne. TIREZ pour placer la caméra espionne à l'endroit ciblé. RÉUTILISEZ cette compétence pour prendre le contrôle de la caméra. Quand vous contrôlez la caméra, TIREZ pour envoyer une fléchette de marquage. Cette fléchette révélera la position de tout joueur qu'elle a touché. La caméra peut être ramassée pour être REDÉPLOYÉE.",
+      "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Fil de détente",
+      "description": "ÉQUIPEZ-vous d'un fil de détente. TIREZ pour placer un fil de détente dissimulé et destructible, créant une ligne qui va du point de placement au mur opposé. Les joueurs ennemis qui franchissent le fil de détente seront ralentis et révélés après un court instant s'ils ne détruisent pas le dispositif dans les temps. Le fil peut être ramassé pour être REDÉPLOYÉ.",
+      "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Vol neural",
+      "description": "Utilisez cette compétence INSTANTANÉMENT sur le cadavre ennemi ciblé pour télécharger des informations sur son équipe. Après un bref délai, la position de tous les joueurs ennemis en vie est révélée deux fois.",
+      "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

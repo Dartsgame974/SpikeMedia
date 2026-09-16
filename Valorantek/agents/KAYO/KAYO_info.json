@@ -1,0 +1,63 @@
+{
+  "uuid": "601dbbe7-43ce-be57-2a40-4abd24953621",
+  "displayName": "KAY/O",
+  "description": "KAY/O est une machine de guerre conçue dans un but précis : neutraliser les radiants. La neutralisation des compétences ennemies réduit les possibilités de riposte des adversaires, ce qui confère un avantage décisif à son équipe.",
+  "developerName": "Grenadier",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+  "backgroundGradientColors": [
+    "1c2a69ff",
+    "0f1923ff",
+    "1a1e4bff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Grenadier/Grenadier_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+    "displayName": "Initiateur",
+    "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+  },
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "displayName": "FRAG/ment",
+      "description": "ÉQUIPEZ-vous d'un fragment explosif. TIREZ pour le lancer. Utilisez le TIR SECONDAIRE pour le lancer en cloche. Le fragment se colle au sol et explose à plusieurs reprises, infligeant des dégâts quasi mortels au centre de chaque explosion.",
+      "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "MÉMOIRE/flash",
+      "description": "ÉQUIPEZ-vous d'une grenade aveuglante. TIREZ pour faire un lancer tendu. Utilisez le TIR SECONDAIRE pour la lancer en cloche (plus faible, mais explose plus rapidement). La grenade explose après un court instant et aveugle tous ceux qui voient l'explosion.",
+      "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "POINT/zéro",
+      "description": "ÉQUIPEZ-vous d'une lame neutralisante. TIREZ pour la lancer. La lame se colle à la première surface touchée. Après un délai, elle neutralise tous ceux dans le rayon de l'explosion. Les ennemis peuvent détruire cette lame.",
+      "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "CMD/null",
+      "description": "Entrez INSTANTANÉMENT en surcharge, ce qui permet à KAY/O d'émettre des vagues d'énergie radianite polarisée dans un très large rayon. Les ennemis touchés par ces vagues sont neutralisés pendant un court instant. Pendant la surcharge, KAY/O gagne l'effet Stimulant de combat et peut être restabilisé s'il est mis à terre.",
+      "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}

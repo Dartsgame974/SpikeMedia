@@ -1,0 +1,71 @@
+{
+  "uuid": "b444168c-4e35-8076-db47-ef9bf368f384",
+  "displayName": "Tejo",
+  "description": "Originaire de Colombie, Tejo est un conseiller vétéran dans le domaine du renseignement. Son système de guidage balistique force les ennemis à perdre du terrain, voire la vie. Ses frappes chirurgicales lui permettent de garder les ennemis sous son emprise.",
+  "developerName": "Cashew",
+  "releaseDate": "2025-01-08T22:00:00Z",
+  "characterTags": null,
+  "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+  "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+  "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+  "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+  "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+  "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
+  "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+  "homeScreenPromoTileImage": null,
+  "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+  "backgroundGradientColors": [
+    "80451bff",
+    "0f1923ff",
+    "ffffffff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Cashew/Cashew_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": false,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+    "displayName": "Initiateur",
+    "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
+    "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+  },
+  "recruitmentData": {
+    "counterId": "b444168c-4e35-8076-db47-ef9bf368f384",
+    "milestoneId": "8a4cead3-4885-ee5b-5cce-808c0f12937f",
+    "milestoneThreshold": 200000,
+    "useLevelVpCostOverride": false,
+    "levelVpCostOverride": 0,
+    "startDate": "2025-01-08T22:00:00Z",
+    "endDate": "2025-02-05T22:00:00Z"
+  },
+  "abilities": [
+    {
+      "slot": "Ability2",
+      "displayName": "Salve autoguidée",
+      "description": "ÉQUIPEZ-vous d'un système de ciblage en réalité augmentée. TIREZ pour cibler jusqu'à deux positions sur la carte. Utilisez le TIR SECONDAIRE pour lancer des missiles autonomes qui iront jusqu'aux positions ciblées et exploseront de manière répétée pour infliger des dégâts à l'arrivée.",
+      "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Livraison spéciale",
+      "description": "ÉQUIPEZ-vous d'une grenade adhésive. TIREZ pour la lancer. La grenade se colle à la première surface touchée et explose, désorientant les cibles touchées et leur infligeant des dégâts. Le TIR SECONDAIRE permet de lancer la grenade en la faisant rebondir une fois.",
+      "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Apocalypse",
+      "description": "ÉQUIPEZ-vous d'une carte tactique. TIREZ pour sélectionner le point d'origine de la frappe. TIREZ à nouveau pour définir le point d'arrivée et lancer l'attaque, ce qui provoque une série d'explosions aux dégâts mortels sur la ligne ainsi tracée. Utilisez le TIR SECONDAIRE pendant le ciblage pour annuler le point d'origine.",
+      "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Drone furtif",
+      "description": "ÉQUIPEZ-vous d'un drone furtif. TIREZ pour lancer le drone vers l'avant et en prendre le contrôle. TIREZ à nouveau pour déclencher une impulsion qui neutralise et révèle les ennemis touchés.",
+      "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+    }
+  ],
+  "voiceLine": null
+}
