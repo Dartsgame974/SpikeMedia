@@ -1,5 +1,6 @@
 import React from 'react';
 import { Search, Radio, Disc, ExternalLink, Box } from 'lucide-react';
+import { toAssetUrl } from '../utils/urlHelper';
 
 export default function Header({ activeTab, setActiveTab, onOpenSearch, stats }) {
   return (
@@ -8,10 +9,8 @@ export default function Header({ activeTab, setActiveTab, onOpenSearch, stats })
         
         {/* Logo & Brand */}
         <div className="flex items-center gap-3 cursor-pointer shrink-0" onClick={() => setActiveTab('agents')}>
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#FF4655] to-[#990011] p-0.5 shadow-lg shadow-[#FF4655]/20 flex items-center justify-center shrink-0">
-            <div className="w-full h-full bg-[#0B0E14] rounded-[7px] flex items-center justify-center">
-              <Radio className="w-5 h-5 text-[#FF4655]" />
-            </div>
+          <div className="w-10 h-10 rounded-xl bg-[#131722] border border-white/10 p-1.5 shadow-lg shadow-[#FF4655]/10 flex items-center justify-center shrink-0 hover:border-[#FF4655]/50 transition-colors">
+            <img src={toAssetUrl('logo.svg')} alt="Spike Media Logo" className="w-full h-full object-contain" />
           </div>
           <div className="shrink-0">
             <div className="flex items-center gap-2">

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Radio, ShieldAlert, Heart, ExternalLink, Mail, Twitter, Instagram } from 'lucide-react';
+import { ShieldAlert, Heart, ExternalLink, Mail, Twitter, Instagram } from 'lucide-react';
+import { toAssetUrl } from '../utils/urlHelper';
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
           </div>
           <div className="space-y-1">
             <div className="flex items-center gap-2">
-              <h3 className="font-display font-bold text-base text-white">Support Site Hosting</h3>
+              <h3 className="font-display font-bold text-base text-[#FFFFFF]">Support Site Hosting</h3>
               <span className="text-[10px] uppercase font-display px-2 py-0.5 rounded bg-[#FF5E5B]/20 text-[#FF5E5B] border border-[#FF5E5B]/30">
                 Ko-fi
               </span>
@@ -28,7 +29,7 @@ export default function Footer() {
           href="https://ko-fi.com/dartsgame"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-5 py-3 rounded-xl bg-[#FF5E5B] hover:bg-[#ff726f] text-white text-xs font-bold flex items-center gap-2 shadow-lg shadow-[#FF5E5B]/20 transition-all active:scale-95 shrink-0"
+          className="px-5 py-3 rounded-xl bg-[#FF5E5B] hover:bg-[#ff726f] text-[#FFFFFF] text-xs font-bold flex items-center gap-2 shadow-lg shadow-[#FF5E5B]/20 transition-all active:scale-95 shrink-0"
         >
           Support on Ko-fi
           <ExternalLink className="w-4 h-4" />
@@ -42,10 +43,8 @@ export default function Footer() {
           
           {/* Brand & Vibe Coding Note */}
           <div className="flex items-start gap-4">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#FF4655] to-[#990011] p-0.5 flex items-center justify-center shrink-0 mt-1">
-              <div className="w-full h-full bg-[#0B0E14] rounded-[10px] flex items-center justify-center">
-                <Radio className="w-5 h-5 text-[#FF4655]" />
-              </div>
+            <div className="w-10 h-10 rounded-xl bg-[#131722] border border-white/10 p-1.5 flex items-center justify-center shrink-0 mt-1">
+              <img src={toAssetUrl('logo.svg')} alt="Spike Media Logo" className="w-full h-full object-contain" />
             </div>
             <div className="space-y-1">
               <span className="font-display text-lg font-bold text-white tracking-tight">SPIKE MEDIA</span>
