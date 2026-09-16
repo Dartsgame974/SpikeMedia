@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Radio, Disc, ExternalLink, Box } from 'lucide-react';
+import { Search, Radio, Disc, ExternalLink, Box, Code } from 'lucide-react';
 import { toAssetUrl } from '../utils/urlHelper';
 
 export default function Header({ activeTab, setActiveTab, onOpenSearch, stats }) {
@@ -59,6 +59,18 @@ export default function Header({ activeTab, setActiveTab, onOpenSearch, stats })
           >
             <Box className="w-3.5 h-3.5 shrink-0 text-[#00F0FF]" />
             <span className="whitespace-nowrap">Game Assets</span>
+          </button>
+
+          <button
+            onClick={() => setActiveTab('codenames')}
+            className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all whitespace-nowrap shrink-0 ${
+              activeTab === 'codenames'
+                ? 'bg-[#FF4655] text-white shadow-md shadow-[#FF4655]/20'
+                : 'text-slate-400 hover:text-slate-200 hover:bg-white/5'
+            }`}
+          >
+            <Code className="w-3.5 h-3.5 shrink-0 text-[#FF4655]" />
+            <span className="whitespace-nowrap">Codenames</span>
           </button>
 
           <button

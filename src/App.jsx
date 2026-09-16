@@ -4,6 +4,7 @@ import AgentGrid from './components/AgentGrid';
 import AgentDetailModal from './components/AgentDetailModal';
 import UISFXSection from './components/UISFXSection';
 import GameAssetsSection from './components/GameAssetsSection';
+import CodenamesSection from './components/CodenamesSection';
 import RecommendedSites from './components/RecommendedSites';
 import SearchOverlay from './components/SearchOverlay';
 import CodenamesModal from './components/CodenamesModal';
@@ -14,7 +15,7 @@ import { toAssetUrl } from './utils/urlHelper';
 export default function App() {
   const [registryData, setRegistryData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState('agents'); // 'agents', 'ui', 'gameassets', 'community'
+  const [activeTab, setActiveTab] = useState('agents'); // 'agents', 'ui', 'gameassets', 'codenames', 'community'
   const [selectedAgent, setSelectedAgent] = useState(null);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isCodenamesOpen, setIsCodenamesOpen] = useState(false);
@@ -130,8 +131,12 @@ export default function App() {
               </button>
 
               <button
-                onClick={() => setIsCodenamesOpen(true)}
-                className="px-4 py-2 rounded-xl text-xs font-semibold bg-[#FF4655]/10 hover:bg-[#FF4655]/20 text-[#FF4655] border border-[#FF4655]/20 flex items-center gap-2 transition-colors"
+                onClick={() => setActiveTab('codenames')}
+                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
+                  activeTab === 'codenames'
+                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                    : 'bg-[#FF4655]/10 hover:bg-[#FF4655]/20 text-[#FF4655] border border-[#FF4655]/20'
+                }`}
               >
                 <Code className="w-3.5 h-3.5" />
                 Codenames Index
@@ -173,6 +178,12 @@ export default function App() {
 
             {activeTab === 'gameassets' && (
               <GameAssetsSection
+                registry={registryData}
+              />
+            )}
+
+            {activeTab === 'codenames' && (
+              <CodenamesSection
                 registry={registryData}
               />
             )}
