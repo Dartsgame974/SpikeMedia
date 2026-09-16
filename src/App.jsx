@@ -17,16 +17,20 @@ export default function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const fetchRegistry = useCallback(() => {
-    // Dynamic server API first, fallback to timestamped static JSON
+    const baseUrl = import.meta.env.BASE_URL || './';
+    const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
     const primaryUrl = '/api/registry';
-    const fallbackUrl = `/registry.json?t=${Date.now()}`;
+    const fallbackUrl = `${cleanBase}registry.json?t=${Date.now()}`;
 
     fetch(primaryUrl)
       .then(res => {
         if (!res.ok) throw new Error('API unavailable, fallback to static JSON');
         return res.json();
       })
-      .catch(() => fetch(fallbackUrl).then(res => res.json()))
+      .catch(() => fetch(fallbackUrl).then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status} when fetching static registry`);
+        return res.json();
+      }))
       .then(data => {
         setRegistryData(data);
         setIsLoading(false);
