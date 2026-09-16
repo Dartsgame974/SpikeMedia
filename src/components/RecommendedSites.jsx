@@ -117,6 +117,14 @@ export default function RecommendedSites() {
 
   const featuredCreators = [
     {
+      name: 'valohabercisi',
+      handle: '@valohabercisi',
+      url: 'https://x.com/valohabercisi',
+      tag: 'Top Dataminer & Leaker',
+      image: toAssetUrl('resources/valohabercisi.webp'),
+      desc: 'The most relevant, trusted, and well-known Valorant dataminer and leaker in the community.'
+    },
+    {
       name: 'BDERADIANTE',
       handle: '@BDERADIANTE',
       url: 'https://x.com/BDERADIANTE',
