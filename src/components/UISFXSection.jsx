@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Radio, Search, Disc } from 'lucide-react';
 import AudioPlayerSlim from './AudioPlayerSlim';
+import { toAssetUrl } from '../utils/urlHelper';
 
 export default function UISFXSection({ uiCategories }) {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -104,7 +105,7 @@ export default function UISFXSection({ uiCategories }) {
                   <AudioPlayerSlim
                     key={idx}
                     title={clip.name}
-                    src={`/${clip.relPath}`}
+                    src={toAssetUrl(clip.relPath)}
                     filename={`UI_${cat}_${clip.filename}`}
                   />
                 ))}

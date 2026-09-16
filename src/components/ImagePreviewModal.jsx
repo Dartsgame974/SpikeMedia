@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { X, Download, Copy, Check, ExternalLink } from 'lucide-react';
+import { toAssetUrl } from '../utils/urlHelper';
 
 export default function ImagePreviewModal({ image, onClose }) {
   const [copied, setCopied] = useState(false);
@@ -14,8 +15,9 @@ export default function ImagePreviewModal({ image, onClose }) {
 
   if (!image) return null;
 
-  const src = typeof image === 'string' ? image : image.src || image.path || image.relPath;
-  const fullUrl = `${window.location.origin}${src.startsWith('/') ? src : '/' + src}`;
+  const rawSrc = typeof image === 'string' ? image : image.src || image.path || image.relPath;
+  const src = toAssetUrl(rawSrc);
+  const fullUrl = rawSrc.startsWith('http') ? rawSrc : new URL(src, window.location.href).href;
   const title = image.title || image.name || image.filename || 'Image Asset';
 
   const handleCopyLink = (e) => {
@@ -28,7 +30,7 @@ export default function ImagePreviewModal({ image, onClose }) {
   const handleDownload = (e) => {
     e.stopPropagation();
     const a = document.createElement('a');
-    a.href = fullUrl;
+    a.href = src;
     a.download = image.filename || `${title.replace(/\s+/g, '_')}.png`;
     document.body.appendChild(a);
     a.click();
@@ -96,7 +98,7 @@ export default function ImagePreviewModal({ image, onClose }) {
         {/* Large Image Canvas */}
         <div className="flex-1 p-6 flex items-center justify-center bg-[#0B0E14] overflow-auto min-h-[50vh]">
           <img
-            src={src.startsWith('/') ? src : `/${src}`}
+            src={src}
             alt={title}
             className="max-h-[75vh] max-w-full object-contain rounded-xl drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)]"
           />

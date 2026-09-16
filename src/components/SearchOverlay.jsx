@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, X, Disc, User, Volume2, Image, ChevronRight } from 'lucide-react';
 import AudioPlayerSlim from './AudioPlayerSlim';
+import { toAssetUrl } from '../utils/urlHelper';
 
 export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent }) {
   const [query, setQuery] = useState('');
@@ -90,7 +91,7 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
                   >
                     <div className="flex items-center gap-3">
                       {agent.assets?.squareIcon ? (
-                        <img src={`/${agent.assets.squareIcon}`} alt="" className="w-9 h-9 rounded-lg object-cover" />
+                        <img src={toAssetUrl(agent.assets.squareIcon)} alt="" className="w-9 h-9 rounded-lg object-cover" />
                       ) : (
                         <div className="w-9 h-9 rounded-lg bg-white/5 flex items-center justify-center font-bold text-xs text-slate-400">
                           {agent.name.substring(0, 2)}
@@ -122,7 +123,7 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
                   <AudioPlayerSlim
                     key={idx}
                     title={`[${clip.category}] ${clip.name}`}
-                    src={`/${clip.relPath}`}
+                    src={toAssetUrl(clip.relPath)}
                     filename={`${clip.category}_${clip.filename}`}
                   />
                 ))}

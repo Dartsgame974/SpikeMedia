@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { X, Download, Disc, Image, Volume2, Copy, Check, Eye } from 'lucide-react';
 import AudioPlayerSlim from './AudioPlayerSlim';
 import ImagePreviewModal from './ImagePreviewModal';
+import { toAssetUrl } from '../utils/urlHelper';
 
 export default function AgentDetailModal({ agent, onClose }) {
   const [activeTab, setActiveTab] = useState('starterpack');
@@ -10,7 +11,6 @@ export default function AgentDetailModal({ agent, onClose }) {
 
   if (!agent) return null;
 
-  // Use fullPortrait cropped at top half for large crisp banner background
   const bannerPortrait = agent.assets?.fullPortrait || agent.assets?.bustPortrait;
   const bustPortrait = agent.assets?.bustPortrait || agent.assets?.fullPortrait;
   const fullPortrait = agent.assets?.fullPortrait;
@@ -29,7 +29,7 @@ export default function AgentDetailModal({ agent, onClose }) {
   const handleDownloadAsset = (path, name, e) => {
     if (e) e.stopPropagation();
     const a = document.createElement('a');
-    a.href = `/${path}`;
+    a.href = toAssetUrl(path);
     a.download = name || `${agent.name}_asset.png`;
     document.body.appendChild(a);
     a.click();
@@ -38,8 +38,7 @@ export default function AgentDetailModal({ agent, onClose }) {
 
   const handleCopyAssetLink = (path, e) => {
     if (e) e.stopPropagation();
-    const cleanPath = path.startsWith('/') ? path : `/${path}`;
-    const fullUrl = `${window.location.origin}${cleanPath}`;
+    const fullUrl = toAssetUrl(path);
     navigator.clipboard.writeText(fullUrl);
     setCopiedPath(path);
     setCopiedType('link');
@@ -52,8 +51,8 @@ export default function AgentDetailModal({ agent, onClose }) {
   const handleCopyImageAsset = async (path, e) => {
     if (e) e.stopPropagation();
     try {
-      const cleanPath = path.startsWith('/') ? path : `/${path}`;
-      const response = await fetch(cleanPath);
+      const fullUrl = toAssetUrl(path);
+      const response = await fetch(fullUrl);
       const blob = await response.blob();
       let pngBlob = blob;
       if (blob.type !== 'image/png') {
@@ -94,26 +93,24 @@ export default function AgentDetailModal({ agent, onClose }) {
           />
         )}
 
-        {/* Banner Header framing the top half of Full Portrait cleanly */}
+        {/* Banner Header */}
         <div className="relative h-64 sm:h-72 bg-gradient-to-r from-[#161B22] via-[#0F141C] to-[#1C2230] p-6 flex flex-col justify-end overflow-hidden shrink-0 border-b border-white/5">
           {wallpaper && (
             <img
-              src={`/${wallpaper}`}
+              src={toAssetUrl(wallpaper)}
               alt=""
               className="absolute inset-0 w-full h-full object-cover opacity-20 filter blur-[2px]"
             />
           )}
 
-          {/* Top half of Full Portrait framed large on right side */}
           {bannerPortrait && (
             <img
-              src={`/${bannerPortrait}`}
+              src={toAssetUrl(bannerPortrait)}
               alt={agent.name}
               className="absolute right-4 sm:right-12 top-0 h-[140%] object-cover object-top drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)] pointer-events-none"
             />
           )}
 
-          {/* Close Button */}
           <button
             onClick={onClose}
             className="absolute top-4 right-4 p-2 rounded-full bg-[#0B0E14]/80 hover:bg-[#FF4655] text-slate-400 hover:text-white transition-colors border border-white/10 z-10"
@@ -122,12 +119,11 @@ export default function AgentDetailModal({ agent, onClose }) {
             <X className="w-5 h-5" />
           </button>
 
-          {/* Agent Meta Header */}
           <div className="relative z-10 max-w-xl space-y-3">
             <div className="flex items-center gap-2">
               {agent.roleIconPath ? (
                 <div className="px-3 py-1 rounded-full bg-[#0B0E14]/90 border border-white/10 flex items-center gap-2 text-xs font-display font-medium text-slate-200">
-                  <img src={`/${agent.roleIconPath}`} alt="" className="w-4 h-4 object-contain shrink-0" />
+                  <img src={toAssetUrl(agent.roleIconPath)} alt="" className="w-4 h-4 object-contain shrink-0" />
                   <span className="whitespace-nowrap">{agent.role || 'Valorant Agent'}</span>
                 </div>
               ) : (
@@ -146,7 +142,7 @@ export default function AgentDetailModal({ agent, onClose }) {
             <div className="flex items-center gap-4">
               {squareIcon && (
                 <img
-                  src={`/${squareIcon}`}
+                  src={toAssetUrl(squareIcon)}
                   alt=""
                   onClick={() => setPreviewImage({ src: squareIcon, title: `${agent.name} Square Icon` })}
                   className="w-16 h-16 rounded-2xl border-2 border-[#FF4655] shadow-lg shadow-[#FF4655]/30 object-cover shrink-0 cursor-pointer hover:scale-105 transition-transform"
@@ -162,7 +158,7 @@ export default function AgentDetailModal({ agent, onClose }) {
           </div>
         </div>
 
-        {/* Modal Navigation Tabs (Single line whitespace-nowrap) */}
+        {/* Navigation Tabs */}
         <div className="px-6 pt-4 bg-[#0F141C] border-b border-white/5 flex items-center justify-between shrink-0">
           <div className="flex items-center gap-2 overflow-x-auto scrollbar-none">
             <button
@@ -191,29 +187,23 @@ export default function AgentDetailModal({ agent, onClose }) {
           </div>
         </div>
 
-        {/* Modal Content */}
+        {/* Content */}
         <div className="p-6 overflow-y-auto flex-1 space-y-6">
 
-          {/* TAB 1: MEDIA STARTER PACK */}
           {activeTab === 'starterpack' && (
             <div className="space-y-8">
-              
-              {/* Agent Artwork Cards */}
               <div className="space-y-3">
                 <h3 className="font-display text-xs font-bold text-slate-400 uppercase tracking-widest">
                   High-Resolution Portraits & Badges
                 </h3>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                  
-                  {/* Bust Portrait */}
                   {bustPortrait && (
                     <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
                       <div
                         onClick={() => setPreviewImage({ src: bustPortrait, title: `${agent.name} Bust Portrait` })}
                         className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
-                        title="Click for full-screen preview"
                       >
-                        <img src={`/${bustPortrait}`} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
+                        <img src={toAssetUrl(bustPortrait)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                           <Eye className="w-6 h-6 text-white" />
                         </div>
@@ -226,14 +216,12 @@ export default function AgentDetailModal({ agent, onClose }) {
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === bustPortrait ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
-                            title="Copy image link"
                           >
                             {copiedPath === bustPortrait ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
                             onClick={(e) => handleDownloadAsset(bustPortrait, `${agent.name}_bust_portrait.png`, e)}
                             className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
-                            title="Download Bust Portrait"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
@@ -242,15 +230,13 @@ export default function AgentDetailModal({ agent, onClose }) {
                     </div>
                   )}
 
-                  {/* Full Portrait */}
                   {fullPortrait && (
                     <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
                       <div
                         onClick={() => setPreviewImage({ src: fullPortrait, title: `${agent.name} Full Portrait` })}
                         className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
-                        title="Click for full-screen preview"
                       >
-                        <img src={`/${fullPortrait}`} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
+                        <img src={toAssetUrl(fullPortrait)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                           <Eye className="w-6 h-6 text-white" />
                         </div>
@@ -263,14 +249,12 @@ export default function AgentDetailModal({ agent, onClose }) {
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === fullPortrait ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
-                            title="Copy image link"
                           >
                             {copiedPath === fullPortrait ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
                             onClick={(e) => handleDownloadAsset(fullPortrait, `${agent.name}_full_portrait.png`, e)}
                             className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
-                            title="Download Full Portrait"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
@@ -279,15 +263,13 @@ export default function AgentDetailModal({ agent, onClose }) {
                     </div>
                   )}
 
-                  {/* Square Icon */}
                   {squareIcon && (
                     <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
                       <div
                         onClick={() => setPreviewImage({ src: squareIcon, title: `${agent.name} Square Icon` })}
                         className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
-                        title="Click for full-screen preview"
                       >
-                        <img src={`/${squareIcon}`} alt="" className="w-24 h-24 object-contain rounded-xl group-hover:scale-105 transition-transform" />
+                        <img src={toAssetUrl(squareIcon)} alt="" className="w-24 h-24 object-contain rounded-xl group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                           <Eye className="w-6 h-6 text-white" />
                         </div>
@@ -300,14 +282,12 @@ export default function AgentDetailModal({ agent, onClose }) {
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === squareIcon ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
-                            title="Copy image link"
                           >
                             {copiedPath === squareIcon ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
                             onClick={(e) => handleDownloadAsset(squareIcon, `${agent.name}_square_icon.png`, e)}
                             className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
-                            title="Download Square Icon"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
@@ -316,37 +296,31 @@ export default function AgentDetailModal({ agent, onClose }) {
                     </div>
                   )}
 
-                  {/* Killfeed Icons (Multiple Forms support ex: Veto Pine & Sym) */}
                   {(agent.assets?.killfeedIcons || [killfeedIcon]).filter(Boolean).map((kfIcon, idx) => (
                     <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
                       <div
-                        onClick={() => setPreviewImage({ src: kfIcon, title: `${agent.name} Killfeed Icon ${idx > 0 ? `(Form ${idx + 1} / Sym)` : ''}` })}
+                        onClick={() => setPreviewImage({ src: kfIcon, title: `${agent.name} Killfeed Icon` })}
                         className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
-                        title="Click for full-screen preview"
                       >
-                        <img src={`/${kfIcon}`} alt="" className="h-10 object-contain group-hover:scale-105 transition-transform" />
+                        <img src={toAssetUrl(kfIcon)} alt="" className="h-10 object-contain group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                           <Eye className="w-6 h-6 text-white" />
                         </div>
                       </div>
                       <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="font-medium text-slate-300 whitespace-nowrap">
-                          {idx === 0 ? 'Killfeed Icon' : `Killfeed (Form ${idx + 1})`}
-                        </span>
+                        <span className="font-medium text-slate-300 whitespace-nowrap">Killfeed Icon</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
                             onClick={(e) => handleCopyAssetLink(kfIcon, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === kfIcon ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
-                            title="Copy image link"
                           >
                             {copiedPath === kfIcon ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
-                            onClick={(e) => handleDownloadAsset(kfIcon, `${agent.name}_killfeed_icon_${idx + 1}.png`, e)}
+                            onClick={(e) => handleDownloadAsset(kfIcon, `${agent.name}_killfeed_icon.png`, e)}
                             className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
-                            title="Download Killfeed Icon"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
@@ -355,37 +329,31 @@ export default function AgentDetailModal({ agent, onClose }) {
                     </div>
                   ))}
 
-                  {/* Minimap Head Portraits (Multiple Forms support ex: Veto Pine & Sym) */}
                   {(agent.assets?.minimapPortraits || [minimapIcon]).filter(Boolean).map((mmPortrait, idx) => (
                     <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
                       <div
-                        onClick={() => setPreviewImage({ src: mmPortrait, title: `${agent.name} Minimap Head Portrait ${idx > 0 ? `(Form ${idx + 1} / Sym)` : ''}` })}
+                        onClick={() => setPreviewImage({ src: mmPortrait, title: `${agent.name} Minimap Portrait` })}
                         className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
-                        title="Click for full-screen preview"
                       >
-                        <img src={`/${mmPortrait}`} alt="" className="w-20 h-20 object-contain rounded-full border border-white/10 group-hover:scale-105 transition-transform" />
+                        <img src={toAssetUrl(mmPortrait)} alt="" className="w-20 h-20 object-contain rounded-full border border-white/10 group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                           <Eye className="w-6 h-6 text-white" />
                         </div>
                       </div>
                       <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="font-medium text-slate-300 whitespace-nowrap">
-                          {idx === 0 ? 'Minimap Portrait' : `Minimap (Form ${idx + 1})`}
-                        </span>
+                        <span className="font-medium text-slate-300 whitespace-nowrap">Minimap Portrait</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
                             onClick={(e) => handleCopyAssetLink(mmPortrait, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === mmPortrait ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
-                            title="Copy image link"
                           >
                             {copiedPath === mmPortrait ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
-                            onClick={(e) => handleDownloadAsset(mmPortrait, `${agent.name}_minimap_portrait_${idx + 1}.png`, e)}
+                            onClick={(e) => handleDownloadAsset(mmPortrait, `${agent.name}_minimap_portrait.png`, e)}
                             className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
-                            title="Download Minimap Head Portrait"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
@@ -393,11 +361,9 @@ export default function AgentDetailModal({ agent, onClose }) {
                       </div>
                     </div>
                   ))}
-
                 </div>
               </div>
 
-              {/* Ability Icons Grid */}
               {abilityIcons.length > 0 && (
                 <div className="space-y-3">
                   <h3 className="font-display text-xs font-bold text-slate-400 uppercase tracking-widest">
@@ -409,9 +375,8 @@ export default function AgentDetailModal({ agent, onClose }) {
                         <div
                           onClick={() => setPreviewImage({ src: abil.path, title: `${agent.name} - ${abil.filename}` })}
                           className="w-10 h-10 rounded bg-[#131722] p-1.5 flex items-center justify-center shrink-0 cursor-pointer hover:scale-105 transition-transform"
-                          title="Click to preview icon"
                         >
-                          <img src={`/${abil.path}`} alt="" className="w-full h-full object-contain opacity-90" />
+                          <img src={toAssetUrl(abil.path)} alt="" className="w-full h-full object-contain opacity-90" />
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="text-[11px] font-medium text-slate-300 truncate" title={abil.filename}>
@@ -424,14 +389,12 @@ export default function AgentDetailModal({ agent, onClose }) {
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === abil.path ? 'text-[#00F0FF] bg-[#00F0FF]/10' : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                             }`}
-                            title="Copy link"
                           >
                             {copiedPath === abil.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
                             onClick={(e) => handleDownloadAsset(abil.path, abil.filename, e)}
                             className="p-1.5 rounded bg-white/5 hover:bg-[#00F0FF] hover:text-black text-slate-400 transition-colors"
-                            title="Download icon"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
@@ -442,7 +405,6 @@ export default function AgentDetailModal({ agent, onClose }) {
                 </div>
               )}
 
-              {/* Minimap Icons Grid */}
               {minimapIcons.length > 0 && (
                 <div className="space-y-3">
                   <h3 className="font-display text-xs font-bold text-slate-400 uppercase tracking-widest">
@@ -454,9 +416,8 @@ export default function AgentDetailModal({ agent, onClose }) {
                         <div
                           onClick={() => setPreviewImage({ src: mm.path, title: `${agent.name} - Minimap Icon` })}
                           className="w-10 h-10 rounded bg-[#131722] p-1.5 flex items-center justify-center shrink-0 cursor-pointer hover:scale-105 transition-transform"
-                          title="Click to preview icon"
                         >
-                          <img src={`/${mm.path}`} alt="" className="w-full h-full object-contain" />
+                          <img src={toAssetUrl(mm.path)} alt="" className="w-full h-full object-contain" />
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="text-[11px] font-medium text-slate-300 truncate" title={mm.filename}>
@@ -469,14 +430,12 @@ export default function AgentDetailModal({ agent, onClose }) {
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === mm.path ? 'text-[#00F0FF] bg-[#00F0FF]/10' : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                             }`}
-                            title="Copy link"
                           >
                             {copiedPath === mm.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
                             onClick={(e) => handleDownloadAsset(mm.path, mm.filename, e)}
                             className="p-1.5 rounded bg-white/5 hover:bg-[#00F0FF] hover:text-black text-slate-400 transition-colors"
-                            title="Download minimap icon"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
@@ -486,11 +445,9 @@ export default function AgentDetailModal({ agent, onClose }) {
                   </div>
                 </div>
               )}
-
             </div>
           )}
 
-          {/* TAB 2: SFX LIBRARY */}
           {activeTab === 'sfx' && (
             <div className="space-y-6">
               {categoryNames.length > 0 ? (
@@ -508,7 +465,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                           <div className="flex items-center gap-3">
                             {iconPath ? (
                               <div className="w-8 h-8 rounded bg-[#131722] p-1 border border-white/10 flex items-center justify-center shrink-0">
-                                <img src={`/${iconPath}`} alt="" className="w-full h-full object-contain" />
+                                <img src={toAssetUrl(iconPath)} alt="" className="w-full h-full object-contain" />
                               </div>
                             ) : (
                               <Disc className="w-5 h-5 text-[#FF4655] shrink-0" />
@@ -527,7 +484,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                             <AudioPlayerSlim
                               key={idx}
                               title={clip.name}
-                              src={`/${clip.relPath}`}
+                              src={toAssetUrl(clip.relPath)}
                               filename={`${agent.name}_${clip.filename}`}
                             />
                           ))}

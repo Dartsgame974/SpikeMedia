@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import { ChevronRight } from 'lucide-react';
+import { toAssetUrl } from '../utils/urlHelper';
 
 export default function AgentGrid({ agents, roleIcons, onSelectAgent }) {
   const [selectedRole, setSelectedRole] = useState('All');
   const [searchTerm, setSearchTerm] = useState('');
 
   const roles = [
-    { key: 'All', label: 'All Agents', icon: roleIcons?.All ? `/${roleIcons.All}` : null },
-    { key: 'Duelist', label: 'Duelist', icon: roleIcons?.Duelist ? `/${roleIcons.Duelist}` : null },
-    { key: 'Initiator', label: 'Initiator', icon: roleIcons?.Initiator ? `/${roleIcons.Initiator}` : null },
-    { key: 'Controller', label: 'Controller', icon: roleIcons?.Controller ? `/${roleIcons.Controller}` : null },
-    { key: 'Sentinel', label: 'Sentinel', icon: roleIcons?.Sentinel ? `/${roleIcons.Sentinel}` : null }
+    { key: 'All', label: 'All Agents', icon: roleIcons?.All ? toAssetUrl(roleIcons.All) : null },
+    { key: 'Duelist', label: 'Duelist', icon: roleIcons?.Duelist ? toAssetUrl(roleIcons.Duelist) : null },
+    { key: 'Initiator', label: 'Initiator', icon: roleIcons?.Initiator ? toAssetUrl(roleIcons.Initiator) : null },
+    { key: 'Controller', label: 'Controller', icon: roleIcons?.Controller ? toAssetUrl(roleIcons.Controller) : null },
+    { key: 'Sentinel', label: 'Sentinel', icon: roleIcons?.Sentinel ? toAssetUrl(roleIcons.Sentinel) : null }
   ];
 
   const filteredAgents = agents.filter(agent => {
@@ -77,7 +78,7 @@ export default function AgentGrid({ agents, roleIcons, onSelectAgent }) {
               <div className="relative h-56 bg-gradient-to-b from-[#1C2230] via-[#131722] to-[#0F141C] flex items-start justify-center overflow-hidden">
                 {portrait ? (
                   <img
-                    src={`/${portrait}`}
+                    src={toAssetUrl(portrait)}
                     alt={agent.name}
                     className="w-full h-full object-cover object-top origin-top scale-[2.1] group-hover:scale-[2.25] transition-transform duration-300 pointer-events-none"
                     loading="lazy"
@@ -91,7 +92,7 @@ export default function AgentGrid({ agents, roleIcons, onSelectAgent }) {
                 {/* Official Role Icon Badge */}
                 {agent.roleIconPath && (
                   <div className="absolute top-2.5 left-2.5 px-2 py-1 rounded-full bg-[#0B0E14]/85 backdrop-blur-md border border-white/10 flex items-center gap-1.5 text-[10px] font-display font-medium text-slate-200">
-                    <img src={`/${agent.roleIconPath}`} alt="" className="w-3.5 h-3.5 object-contain shrink-0" />
+                    <img src={toAssetUrl(agent.roleIconPath)} alt="" className="w-3.5 h-3.5 object-contain shrink-0" />
                     <span className="whitespace-nowrap">{agent.role || 'Agent'}</span>
                   </div>
                 )}
@@ -110,7 +111,7 @@ export default function AgentGrid({ agents, roleIcons, onSelectAgent }) {
                 <div className="flex items-center gap-1.5 pt-1">
                   {agent.assets?.abilityIcons?.slice(0, 4).map((abil, idx) => (
                     <div key={idx} className="w-6 h-6 rounded bg-[#0B0E14] border border-white/5 p-0.5 flex items-center justify-center shrink-0">
-                      <img src={`/${abil.path}`} alt="" className="w-full h-full object-contain opacity-80 group-hover:opacity-100" />
+                      <img src={toAssetUrl(abil.path)} alt="" className="w-full h-full object-contain opacity-80 group-hover:opacity-100" />
                     </div>
                   ))}
                   {sfxCount > 0 && (

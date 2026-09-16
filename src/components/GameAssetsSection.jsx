@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Crosshair, Download, Image, Shield, Layers, Award, Box, Sparkles, Copy, Check, Eye, Film, Video, FileImage } from 'lucide-react';
 import ImagePreviewModal from './ImagePreviewModal';
+import { toAssetUrl } from '../utils/urlHelper';
 
 export default function GameAssetsSection({ registry }) {
   const [activeSubTab, setActiveSubTab] = useState('icons'); // 'icons', 'weapons', 'logos', 'ranks', 'backgrounds', 'overlays', 'spritesheets', 'misc'
@@ -22,7 +23,7 @@ export default function GameAssetsSection({ registry }) {
   const handleDownload = (path, name, e) => {
     if (e) e.stopPropagation();
     const a = document.createElement('a');
-    a.href = `/${path}`;
+    a.href = toAssetUrl(path);
     a.download = name || 'asset.png';
     document.body.appendChild(a);
     a.click();
@@ -31,8 +32,7 @@ export default function GameAssetsSection({ registry }) {
 
   const handleCopyLink = (path, e) => {
     if (e) e.stopPropagation();
-    const cleanPath = path.startsWith('/') ? path : `/${path}`;
-    const fullUrl = `${window.location.origin}${cleanPath}`;
+    const fullUrl = new URL(toAssetUrl(path), window.location.href).href;
     navigator.clipboard.writeText(fullUrl);
     setCopiedPath(path);
     setCopiedType('link');
@@ -45,8 +45,7 @@ export default function GameAssetsSection({ registry }) {
   const handleCopyImage = async (path, e) => {
     if (e) e.stopPropagation();
     try {
-      const cleanPath = path.startsWith('/') ? path : `/${path}`;
-      const response = await fetch(cleanPath);
+      const response = await fetch(toAssetUrl(path));
       const blob = await response.blob();
       
       let pngBlob = blob;
@@ -146,7 +145,7 @@ export default function GameAssetsSection({ registry }) {
           }`}
           title="Rankings & Competitive Badges"
         >
-          <img src="/Valorantek/ranks/Rang_27_RADIANT_icone_petite.png" alt="" className="w-4 h-4 object-contain shrink-0" />
+          <img src={toAssetUrl("Valorantek/ranks/Rang_27_RADIANT_icone_petite.png")} alt="" className="w-4 h-4 object-contain shrink-0" />
           <span className="truncate">Rankings ({imageLibraries.rankings?.length || 0})</span>
         </button>
 
@@ -252,7 +251,7 @@ export default function GameAssetsSection({ registry }) {
                           className="h-28 bg-[#0B0E14] rounded-xl p-2 flex items-center justify-center cursor-pointer relative"
                           title="Click for full-screen preview"
                         >
-                          <img src={`/${img.relPath}`} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                          <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
                         </div>
                         <div className="flex items-center justify-between text-xs pt-1">
                           <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
@@ -346,7 +345,7 @@ export default function GameAssetsSection({ registry }) {
                           className="h-32 bg-[#0B0E14] rounded-xl p-3 flex items-center justify-center cursor-pointer relative"
                           title="Click for full-screen preview"
                         >
-                          <img src={`/${img.relPath}`} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                          <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
                         </div>
                         <div className="flex items-center justify-between text-xs pt-1">
                           <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
@@ -402,7 +401,7 @@ export default function GameAssetsSection({ registry }) {
                 className="h-32 bg-[#0B0E14] rounded-xl p-3 flex items-center justify-center cursor-pointer relative"
                 title="Click for full-screen preview"
               >
-                <img src={`/${img.relPath}`} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
               </div>
               <div className="flex items-center justify-between text-xs">
                 <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
@@ -453,7 +452,7 @@ export default function GameAssetsSection({ registry }) {
                 className="h-28 bg-[#0B0E14] rounded-xl p-3 flex items-center justify-center cursor-pointer relative"
                 title="Click for full-screen preview"
               >
-                <img src={`/${img.relPath}`} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
               </div>
               <div className="flex items-center justify-between text-xs">
                 <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
@@ -544,7 +543,7 @@ export default function GameAssetsSection({ registry }) {
                           className="h-44 bg-[#0B0E14] rounded-xl overflow-hidden cursor-pointer relative"
                           title="Click for full-screen preview"
                         >
-                          <img src={`/${img.relPath}`} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                          <img src={toAssetUrl(img.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
                         </div>
                         <div className="flex items-center justify-between text-xs">
                           <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
@@ -613,7 +612,7 @@ export default function GameAssetsSection({ registry }) {
                 >
                   {sp.mp4 ? (
                     <video
-                      src={`/${sp.mp4}`}
+                      src={toAssetUrl(sp.mp4)}
                       autoPlay
                       loop
                       muted
@@ -621,9 +620,9 @@ export default function GameAssetsSection({ registry }) {
                       className="max-h-full max-w-full object-contain rounded-xl"
                     />
                   ) : sp.gif ? (
-                    <img src={`/${sp.gif}`} alt="" className="max-h-full max-w-full object-contain rounded-xl" />
+                    <img src={toAssetUrl(sp.gif)} alt="" className="max-h-full max-w-full object-contain rounded-xl" />
                   ) : (
-                    <img src={`/${sp.rawPng}`} alt="" className="max-h-full max-w-full object-contain rounded-xl" />
+                    <img src={toAssetUrl(sp.rawPng)} alt="" className="max-h-full max-w-full object-contain rounded-xl" />
                   )}
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center">
                     <Eye className="w-8 h-8 text-white" />
@@ -772,7 +771,7 @@ export default function GameAssetsSection({ registry }) {
                 className="h-32 bg-[#0B0E14] rounded-xl p-2 flex items-center justify-center cursor-pointer relative"
                 title="Click for full-screen preview"
               >
-                <img src={`/${img.relPath}`} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
               </div>
               <div className="flex items-center justify-between text-xs">
                 <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
@@ -823,7 +822,7 @@ export default function GameAssetsSection({ registry }) {
                 className="h-32 bg-[#0B0E14] rounded-xl p-2 flex items-center justify-center cursor-pointer relative"
                 title="Click for full-screen preview"
               >
-                <img src={`/${img.relPath}`} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
               </div>
               <div className="flex items-center justify-between text-xs">
                 <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>

@@ -81,7 +81,7 @@ export default function AudioPlayerSlim({ title, src, filename }) {
     e.stopPropagation();
     const a = document.createElement('a');
     a.href = src;
-    a.download = filename || title + '.wav';
+    a.download = filename || title + '.mp3';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
