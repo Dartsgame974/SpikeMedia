@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Crosshair, Download, Image, Shield, Layers, Award, Box, Sparkles, Copy, Check, Eye, Film, Video, FileImage } from 'lucide-react';
 import ImagePreviewModal from './ImagePreviewModal';
-import { toAssetUrl } from '../utils/urlHelper';
+import { toAssetUrl, getRealBundleDisplayName, getRealBundleCodename } from '../utils/urlHelper';
 
 export default function GameAssetsSection({ registry }) {
   const [activeSubTab, setActiveSubTab] = useState('icons'); // 'icons', 'weapons', 'logos', 'ranks', 'backgrounds', 'overlays', 'spritesheets', 'misc'
@@ -536,32 +536,29 @@ export default function GameAssetsSection({ registry }) {
                     <span className="text-slate-500 font-normal">({bgList.length} wallpapers)</span>
                   </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    {bgList.map((img, idx) => (
-                      <div key={idx} className="bg-[#131722] p-4 rounded-2xl border border-white/5 space-y-3 group hover:border-[#FF4655]/30 transition-all">
-                        <div
-                          onClick={() => setPreviewImage({ src: img.relPath, title: img.displayName || img.name })}
-                          className="h-44 bg-[#0B0E14] rounded-xl overflow-hidden cursor-pointer relative"
-                          title="Click for full-screen preview"
-                        >
-                          <img src={toAssetUrl(img.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-                        </div>
-                        <div className="space-y-2">
-                          <div className="flex items-center justify-between gap-2">
-                            <span className="font-bold text-white truncate text-sm" title={img.displayName || img.name}>
-                              {img.displayName || img.name}
-                            </span>
+                    {bgList.map((img, idx) => {
+                      const displayTitle = getRealBundleDisplayName(img);
+                      const displayCode = getRealBundleCodename(img);
+                      return (
+                        <div key={idx} className="bg-[#131722] p-4 rounded-2xl border border-white/5 space-y-3 group hover:border-[#FF4655]/30 transition-all">
+                          <div
+                            onClick={() => setPreviewImage({ src: img.relPath, title: displayTitle })}
+                            className="h-44 bg-[#0B0E14] rounded-xl overflow-hidden cursor-pointer relative"
+                            title="Click for full-screen preview"
+                          >
+                            <img src={toAssetUrl(img.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
                           </div>
-                          
-                          <div className="flex items-center justify-between gap-2 text-xs">
-                            {img.codename ? (
-                              <span className="text-[10px] font-mono text-[#00F0FF] bg-[#00F0FF]/10 px-1.5 py-0.5 rounded border border-[#00F0FF]/20 truncate" title={`Internal Codename: ${img.codename}`}>
-                                {img.codename}
+                          <div className="space-y-2">
+                            <div className="flex items-center justify-between gap-2">
+                              <span className="font-bold text-white truncate text-sm" title={displayTitle}>
+                                {displayTitle}
                               </span>
-                            ) : (
-                              <span className="text-[10px] font-mono text-slate-500 truncate" title={img.filename}>
-                                {img.name}
+                            </div>
+                            
+                            <div className="flex items-center justify-between gap-2 text-xs">
+                              <span className="text-[10px] font-mono text-[#00F0FF] bg-[#00F0FF]/10 px-1.5 py-0.5 rounded border border-[#00F0FF]/20 truncate" title={`Internal Codename: ${displayCode}`}>
+                                Codename: {displayCode}
                               </span>
-                            )}
 
                             <div className="flex items-center gap-1.5 shrink-0">
                               <button
@@ -597,7 +594,8 @@ export default function GameAssetsSection({ registry }) {
                           </div>
                         </div>
                       </div>
-                    ))}
+                    );
+                    })}
                   </div>
                 </div>
               );
