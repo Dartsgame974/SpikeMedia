@@ -1,8 +1,44 @@
 import React from 'react';
-import { ExternalLink, Layers, BookOpen, Youtube, Wrench, Eye, MessageSquare, Code, Terminal, Crosshair, Cpu, Sparkles, Radio } from 'lucide-react';
+import { ExternalLink, Layers, BookOpen, Youtube, Wrench, Eye, MessageSquare, Code, Terminal, Crosshair, Cpu, Sparkles, Radio, Box } from 'lucide-react';
 import { toAssetUrl } from '../utils/urlHelper';
 
 export default function RecommendedSites() {
+  const rigCreators = [
+    {
+      title: 'Gutemberg Nascimento (asapberg)',
+      desc: 'Creating high-quality character rigs, Blender tutorials, CG artwork, and 3D asset packs for Valorant animators.',
+      url: 'https://asapberg.gumroad.com/',
+      patreonUrl: 'https://www.patreon.com/c/u30962328/home?vanity=u30962328',
+      tag: '3D Rig Creator & CG Assets',
+      image: toAssetUrl('resources/gutemberg.webp'),
+      icon: <Box className="w-5 h-5 text-[#00F0FF]" />
+    },
+    {
+      title: 'Electro (mrelectro)',
+      desc: 'Popular 3D rigger and creator providing custom Valorant rigs, weapon props, and character models.',
+      url: 'https://mrelectro.gumroad.com/',
+      tag: 'Valorant Rig Creator',
+      image: toAssetUrl('resources/mrelectro.webp'),
+      icon: <Box className="w-5 h-5 text-[#FF4655]" />
+    },
+    {
+      title: 'Marcel - K RIG Auto RIG PRO',
+      desc: 'Advanced Auto-Rig Pro character rig system for Blender animators and cinematic scene builders.',
+      url: 'https://public-files.gumroad.com/nukqsepfdgj3q7npidf5mn23j2f8',
+      tag: 'Auto RIG PRO System',
+      image: toAssetUrl('resources/marcel_krig.webp'),
+      icon: <Wrench className="w-5 h-5 text-[#A855F7]" />
+    },
+    {
+      title: 'Paper Parachute - 3D Rank Models',
+      desc: 'Complete collection of 3D models and renders for Valorant Competitive Rank Icons (Iron to Radiant).',
+      url: 'https://paperparachute.gumroad.com/?section=yOJFbAQAGqZgpqgHyaS-Nw%3D%3D',
+      tag: '3D Rank Models',
+      image: toAssetUrl('resources/paperparachute.webp'),
+      icon: <Sparkles className="w-5 h-5 text-[#22C55E]" />
+    }
+  ];
+
   const communityDiscords = [
     {
       title: 'VALORANT 3D & Editing',
@@ -195,6 +231,84 @@ export default function RecommendedSites() {
   return (
     <section className="space-y-12">
       
+      {/* 3D Models, Rigs & Marketplace Creators */}
+      <div className="space-y-4">
+        <div className="flex items-center gap-3">
+          <div className="w-3 h-3 rounded-full bg-[#00F0FF]"></div>
+          <h2 className="font-display font-bold text-xl text-white tracking-tight flex items-center gap-2">
+            <Box className="w-5 h-5 text-[#00F0FF]" />
+            <span>3D Models & Rig Creators</span>
+          </h2>
+        </div>
+        <p className="text-xs text-slate-400">
+          Top 3D character riggers, rank icon modelers, Blender asset stores, and Auto-Rig setups for Valorant 3D animators.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-2">
+          {rigCreators.map((item, idx) => (
+            <div
+              key={idx}
+              className="bg-[#131722] hover:bg-[#1C2230] border border-white/10 hover:border-[#00F0FF]/50 rounded-3xl p-4 transition-all group flex flex-col justify-between space-y-4 shadow-xl hover:shadow-[#00F0FF]/10 overflow-hidden"
+            >
+              {/* Mini Banner Screenshot Preview */}
+              <div className="h-44 bg-[#0B0E14] rounded-2xl overflow-hidden relative border border-white/5 flex items-center justify-center">
+                {item.image ? (
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-br from-[#161B22] to-[#0F141C] flex items-center justify-center">
+                    {item.icon}
+                  </div>
+                )}
+                <div className="absolute top-3 right-3 flex items-center gap-2">
+                  <span className="text-[10px] font-display uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#0B0E14]/80 backdrop-blur-md border border-white/10 text-[#00F0FF] font-semibold">
+                    {item.tag}
+                  </span>
+                </div>
+              </div>
+
+              {/* Title & Description */}
+              <div className="space-y-1.5 px-1">
+                <h3 className="font-display font-bold text-base text-white group-hover:text-[#00F0FF] transition-colors">
+                  {item.title}
+                </h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  {item.desc}
+                </p>
+              </div>
+
+              {/* Action Buttons */}
+              <div className="pt-3 border-t border-white/5 flex items-center justify-between gap-2">
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 py-2 px-3 bg-white/5 hover:bg-[#00F0FF] hover:text-black border border-white/10 rounded-xl text-xs font-semibold text-white transition-colors flex items-center justify-center gap-1.5"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  <span>Gumroad Shop</span>
+                </a>
+
+                {item.patreonUrl && (
+                  <a
+                    href={item.patreonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="py-2 px-3 bg-[#FF4655]/10 hover:bg-[#FF4655] hover:text-white border border-[#FF4655]/30 rounded-xl text-xs font-semibold text-[#FF4655] transition-colors flex items-center justify-center gap-1.5"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" />
+                    <span>Patreon</span>
+                  </a>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Interactive Web Tools with Official OG Embed Screenshots & Banners */}
       <div className="space-y-4">
         <div className="flex items-center gap-3">
