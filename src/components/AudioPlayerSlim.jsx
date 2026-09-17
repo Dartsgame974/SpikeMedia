@@ -136,9 +136,9 @@ function AudioPlayerSlim({ title, src, filename }) {
 
       {/* Audio Title & Static SVG Waveform (Zero CPU Load) */}
       <div className="flex-1 min-w-0 flex flex-col justify-center gap-1 cursor-pointer" onClick={handleSeek}>
-        <div className="flex items-center justify-between text-xs gap-2">
-          <div className="flex items-center gap-1.5 truncate">
-            <span className="font-medium text-slate-200 truncate group-hover:text-white transition-colors" title={title}>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between text-xs gap-1 sm:gap-2">
+          <div className="flex flex-wrap items-center gap-1.5 min-w-0">
+            <span className="font-semibold text-slate-100 text-xs sm:text-xs group-hover:text-[#00F0FF] transition-colors break-words" title={title}>
               {title}
             </span>
             {isIdle && (
@@ -157,7 +157,7 @@ function AudioPlayerSlim({ title, src, filename }) {
               </span>
             )}
           </div>
-          <span className="font-display text-[10px] text-slate-400 shrink-0">
+          <span className="font-display text-[10px] text-slate-400 shrink-0 self-end sm:self-auto">
             {formatTime(currentTime)} {duration > 0 ? `/ ${formatTime(duration)}` : ''}
           </span>
         </div>

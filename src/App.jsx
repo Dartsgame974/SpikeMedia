@@ -9,7 +9,7 @@ import RecommendedSites from './components/RecommendedSites';
 import SearchOverlay from './components/SearchOverlay';
 import CodenamesModal from './components/CodenamesModal';
 import Footer from './components/Footer';
-import { Disc, Radio, Search, Sparkles, Loader2, Box, Code } from 'lucide-react';
+import { Disc, Radio, Search, Sparkles, Loader2, Box, Code, ChevronRight } from 'lucide-react';
 import { toAssetUrl } from './utils/urlHelper';
 
 export default function App() {
@@ -105,61 +105,76 @@ export default function App() {
               Explore, stream, and download individual agent abilities, killfeed icons, minimap icons, high-res portraits, weapons, and general UI sound effects.
             </p>
 
-            <div className="flex flex-wrap items-center gap-3 pt-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-wrap items-center gap-2.5 pt-3">
               <button
                 onClick={() => handleTabChange('agents')}
-                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
+                className={`px-4 py-3 rounded-2xl text-xs font-display font-bold flex items-center justify-between gap-3 transition-all active:scale-[0.98] ${
                   activeTab === 'agents'
-                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
-                    : 'bg-[#131722] text-slate-300 hover:text-white border border-white/10'
+                    ? 'bg-[#FF4655] text-white shadow-xl shadow-[#FF4655]/30 border-2 border-[#FF4655]'
+                    : 'bg-[#131722] hover:bg-[#1C2230] text-slate-100 border border-white/15 hover:border-[#FF4655]/50 shadow-md'
                 }`}
               >
-                <Disc className="w-4 h-4" />
-                Browse {stats.agentsCount} Agents
+                <div className="flex items-center gap-2.5">
+                  <Disc className="w-4 h-4 text-[#FF4655]" />
+                  <span>Browse Agents ({stats.agentsCount})</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-slate-400" />
               </button>
 
               <button
                 onClick={() => handleTabChange('ui')}
-                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
+                className={`px-4 py-3 rounded-2xl text-xs font-display font-bold flex items-center justify-between gap-3 transition-all active:scale-[0.98] ${
                   activeTab === 'ui'
-                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
-                    : 'bg-[#131722] text-slate-300 hover:text-white border border-white/10'
+                    ? 'bg-[#FF4655] text-white shadow-xl shadow-[#FF4655]/30 border-2 border-[#FF4655]'
+                    : 'bg-[#131722] hover:bg-[#1C2230] text-slate-100 border border-white/15 hover:border-[#00F0FF]/50 shadow-md'
                 }`}
               >
-                <Radio className="w-4 h-4 text-[#00F0FF]" />
-                UI SFX Catalog
+                <div className="flex items-center gap-2.5">
+                  <Radio className="w-4 h-4 text-[#00F0FF]" />
+                  <span>UI SFX Catalog</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-slate-400" />
               </button>
 
               <button
                 onClick={() => handleTabChange('gameassets')}
-                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
+                className={`px-4 py-3 rounded-2xl text-xs font-display font-bold flex items-center justify-between gap-3 transition-all active:scale-[0.98] ${
                   activeTab === 'gameassets'
-                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
-                    : 'bg-[#131722] text-slate-300 hover:text-white border border-white/10'
+                    ? 'bg-[#FF4655] text-white shadow-xl shadow-[#FF4655]/30 border-2 border-[#FF4655]'
+                    : 'bg-[#131722] hover:bg-[#1C2230] text-slate-100 border border-white/15 hover:border-[#00F0FF]/50 shadow-md'
                 }`}
               >
-                <Box className="w-4 h-4 text-[#00F0FF]" />
-                Weapons & Assets
+                <div className="flex items-center gap-2.5">
+                  <Box className="w-4 h-4 text-[#00F0FF]" />
+                  <span>Weapons & Assets</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-slate-400" />
               </button>
 
               <button
                 onClick={() => handleTabChange('codenames')}
-                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
+                className={`px-4 py-3 rounded-2xl text-xs font-display font-bold flex items-center justify-between gap-3 transition-all active:scale-[0.98] ${
                   activeTab === 'codenames'
-                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
-                    : 'bg-[#FF4655]/10 hover:bg-[#FF4655]/20 text-[#FF4655] border border-[#FF4655]/20'
+                    ? 'bg-[#FF4655] text-white shadow-xl shadow-[#FF4655]/30 border-2 border-[#FF4655]'
+                    : 'bg-[#131722] hover:bg-[#1C2230] text-slate-100 border border-white/15 hover:border-[#FF4655]/50 shadow-md'
                 }`}
               >
-                <Code className="w-3.5 h-3.5" />
-                Codenames Index
+                <div className="flex items-center gap-2.5">
+                  <Code className="w-4 h-4 text-[#FF4655]" />
+                  <span>Codenames Index</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-slate-400" />
               </button>
 
               <button
                 onClick={() => setIsSearchOpen(true)}
-                className="px-4 py-2 rounded-xl text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 flex items-center gap-2 transition-colors"
+                className="px-4 py-3 rounded-2xl text-xs font-display font-bold bg-white/10 hover:bg-white/15 text-white border border-white/20 flex items-center justify-between gap-2.5 transition-colors shadow-md active:scale-[0.98]"
               >
-                <Search className="w-3.5 h-3.5" />
-                Quick Search
+                <div className="flex items-center gap-2">
+                  <Search className="w-4 h-4 text-slate-300" />
+                  <span>Quick Search</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-slate-400" />
               </button>
             </div>
           </div>

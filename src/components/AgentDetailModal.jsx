@@ -194,31 +194,31 @@ export default function AgentDetailModal({ agent, onClose }) {
           </div>
         </div>
 
-        {/* Navigation Tabs */}
-        <div className="px-6 pt-4 bg-[#0F141C] border-b border-white/5 flex items-center justify-between shrink-0">
-          <div className="flex items-center gap-2 overflow-x-auto scrollbar-none">
+        {/* Navigation Tabs (2-Column Segmented Control Grid for Mobile & Desktop) */}
+        <div className="px-4 sm:px-6 pt-4 pb-3 bg-[#0F141C] border-b border-white/5 shrink-0">
+          <div className="grid grid-cols-2 p-1 bg-[#0B0E14] border border-white/10 rounded-2xl gap-1 max-w-lg mx-auto sm:mx-0 shadow-inner">
             <button
               onClick={() => handleTabChange('starterpack')}
-              className={`px-4 py-2.5 text-xs font-semibold border-b-2 transition-all flex items-center gap-2 whitespace-nowrap shrink-0 ${
+              className={`py-2.5 px-3 text-xs font-display font-bold rounded-xl transition-all flex items-center justify-center gap-2 ${
                 activeTab === 'starterpack'
-                  ? 'border-[#FF4655] text-white'
-                  : 'border-transparent text-slate-400 hover:text-slate-200'
+                  ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-white/5'
               }`}
             >
               <Image className="w-4 h-4 text-[#00F0FF] shrink-0" />
-              <span className="whitespace-nowrap">1. Media Packaging (Starter Pack)</span>
+              <span>1. Media Packaging</span>
             </button>
 
             <button
               onClick={() => handleTabChange('sfx')}
-              className={`px-4 py-2.5 text-xs font-semibold border-b-2 transition-all flex items-center gap-2 whitespace-nowrap shrink-0 ${
+              className={`py-2.5 px-3 text-xs font-display font-bold rounded-xl transition-all flex items-center justify-center gap-2 ${
                 activeTab === 'sfx'
-                  ? 'border-[#FF4655] text-white'
-                  : 'border-transparent text-slate-400 hover:text-slate-200'
+                  ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-white/5'
               }`}
             >
-              <Volume2 className="w-4 h-4 text-[#FF4655] shrink-0" />
-              <span className="whitespace-nowrap">2. Agent SFX Library</span>
+              <Volume2 className="w-4 h-4 text-[#00F0FF] shrink-0" />
+              <span>2. Agent SFX Library</span>
             </button>
           </div>
         </div>
@@ -570,8 +570,8 @@ export default function AgentDetailModal({ agent, onClose }) {
                 <div className="space-y-5">
                   {/* SFX Filter Header & Search Bar */}
                   <div className="bg-[#0B0E14] p-4 rounded-2xl border border-white/10 space-y-4 shadow-xl">
-                    {/* Category Pills Bar */}
-                    <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-thin scrollbar-thumb-white/10">
+                    {/* Category Pills Bar (Wrapping on Mobile for Instant Visibility) */}
+                    <div className="flex flex-wrap items-center gap-2">
                       <button
                         onClick={() => handleSfxCategoryChange('All')}
                         className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-2 shrink-0 ${
