@@ -5,11 +5,12 @@ import AgentDetailModal from './components/AgentDetailModal';
 import UISFXSection from './components/UISFXSection';
 import GameAssetsSection from './components/GameAssetsSection';
 import CodenamesSection from './components/CodenamesSection';
+import ShowcaseVideo from './components/ShowcaseVideo';
 import RecommendedSites from './components/RecommendedSites';
 import SearchOverlay from './components/SearchOverlay';
 import CodenamesModal from './components/CodenamesModal';
 import Footer from './components/Footer';
-import { Disc, Radio, Search, Sparkles, Loader2, Box, Code, ChevronRight } from 'lucide-react';
+import { Disc, Radio, Search, Sparkles, Loader2, Box, Code, ChevronRight, Film } from 'lucide-react';
 import { toAssetUrl } from './utils/urlHelper';
 
 export default function App() {
@@ -210,6 +211,12 @@ export default function App() {
 
             {activeTab === 'gameassets' && (
               <GameAssetsSection
+                registry={registryData}
+              />
+            )}
+
+            {activeTab === 'showcase' && (
+              <ShowcaseVideo
                 registry={registryData}
               />
             )}

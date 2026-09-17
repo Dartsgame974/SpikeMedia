@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Radio, Disc, ExternalLink, Box, Code, Menu, X, ChevronRight } from 'lucide-react';
+import { Search, Radio, Disc, ExternalLink, Box, Code, Menu, X, ChevronRight, Film } from 'lucide-react';
 import { toAssetUrl } from '../utils/urlHelper';
 
 export default function Header({ activeTab, setActiveTab, onOpenSearch, stats }) {
@@ -9,6 +9,7 @@ export default function Header({ activeTab, setActiveTab, onOpenSearch, stats })
     { id: 'agents', label: 'Agents', icon: Disc, color: 'text-white' },
     { id: 'ui', label: 'UI SFX', icon: Radio, color: 'text-[#00F0FF]' },
     { id: 'gameassets', label: 'Game Assets', icon: Box, color: 'text-[#00F0FF]' },
+    { id: 'showcase', label: 'Motion Showcase', icon: Film, color: 'text-[#FF4655]' },
     { id: 'codenames', label: 'Codenames', icon: Code, color: 'text-[#FF4655]' },
     { id: 'community', label: 'Resources', icon: ExternalLink, color: 'text-slate-300' },
   ];
