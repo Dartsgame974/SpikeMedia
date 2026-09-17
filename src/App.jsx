@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useTransition } from 'react';
 import Header from './components/Header';
 import AgentGrid from './components/AgentGrid';
 import AgentDetailModal from './components/AgentDetailModal';
@@ -16,6 +16,7 @@ export default function App() {
   const [registryData, setRegistryData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('agents'); // 'agents', 'ui', 'gameassets', 'codenames', 'community'
+  const [isPendingTab, startTabTransition] = useTransition();
   const [selectedAgent, setSelectedAgent] = useState(null);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isCodenamesOpen, setIsCodenamesOpen] = useState(false);
@@ -49,18 +50,29 @@ export default function App() {
     fetchRegistry();
   }, [fetchRegistry]);
 
+  const handleTabChange = (tabId) => {
+    startTabTransition(() => {
+      setActiveTab(tabId);
+    });
+  };
+
   const stats = {
     agentsCount: registryData?.agentsCount || 0,
     uiCategoriesCount: Object.keys(registryData?.uiCategories || {}).length
   };
 
   return (
-    <div className="min-h-screen bg-[#0B0E14] text-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-[#0B0E14] text-slate-100 flex flex-col font-sans relative">
       
+      {/* Top Animated Progress Line for Instant Feedback */}
+      {isPendingTab && (
+        <div className="fixed top-0 left-0 right-0 z-50 h-1 bg-gradient-to-r from-[#FF4655] via-[#00F0FF] to-[#FF4655] animate-pulse" />
+      )}
+
       {/* Header */}
       <Header
         activeTab={activeTab}
-        setActiveTab={setActiveTab}
+        setActiveTab={handleTabChange}
         onOpenSearch={() => setIsSearchOpen(true)}
         stats={stats}
       />
@@ -95,7 +107,7 @@ export default function App() {
 
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <button
-                onClick={() => setActiveTab('agents')}
+                onClick={() => handleTabChange('agents')}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'agents'
                     ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
@@ -107,7 +119,7 @@ export default function App() {
               </button>
 
               <button
-                onClick={() => setActiveTab('ui')}
+                onClick={() => handleTabChange('ui')}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'ui'
                     ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
@@ -119,7 +131,7 @@ export default function App() {
               </button>
 
               <button
-                onClick={() => setActiveTab('gameassets')}
+                onClick={() => handleTabChange('gameassets')}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'gameassets'
                     ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
@@ -131,7 +143,7 @@ export default function App() {
               </button>
 
               <button
-                onClick={() => setActiveTab('codenames')}
+                onClick={() => handleTabChange('codenames')}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'codenames'
                     ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
@@ -158,6 +170,11 @@ export default function App() {
           <div className="py-24 flex flex-col items-center justify-center gap-3 text-slate-400 font-display text-sm">
             <Loader2 className="w-8 h-8 text-[#FF4655] animate-spin" />
             <span>Loading Valorant Asset Index...</span>
+          </div>
+        ) : isPendingTab ? (
+          <div className="py-24 flex flex-col items-center justify-center gap-3 text-slate-400 font-display text-sm">
+            <Loader2 className="w-8 h-8 text-[#00F0FF] animate-spin" />
+            <span>Loading section...</span>
           </div>
         ) : (
           <>
@@ -227,5 +244,3 @@ export default function App() {
     </div>
   );
 }
-
-

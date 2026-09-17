@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useDeferredValue, useTransition } from 'react';
-import { Radio, Disc, Flame, MapPin, Zap, Shield, Sparkles, Search, ChevronDown } from 'lucide-react';
+import { Radio, Disc, Flame, MapPin, Zap, Shield, Sparkles, Search, ChevronDown, Loader2 } from 'lucide-react';
 import AudioPlayerSlim from './AudioPlayerSlim';
 import { toAssetUrl } from '../utils/urlHelper';
 
@@ -175,6 +175,13 @@ export default function UISFXSection({ uiCategories }) {
       </div>
 
       {/* Audio Playlists Grid with Lazy Chunk Limit */}
+      {isPending && (
+        <div className="flex items-center justify-center gap-2.5 p-3 bg-[#131722] rounded-xl border border-[#00F0FF]/30 text-[#00F0FF] text-xs font-display font-semibold animate-pulse shadow-lg shadow-[#00F0FF]/10">
+          <Loader2 className="w-4 h-4 animate-spin text-[#00F0FF]" />
+          <span>Updating audio catalog view...</span>
+        </div>
+      )}
+
       <div className={`space-y-6 transition-opacity duration-200 ${isPending ? 'opacity-60' : 'opacity-100'}`}>
         {filteredCategories.length === 0 ? (
           <div className="bg-[#131722]/60 p-12 rounded-2xl border border-white/5 text-center space-y-2">
