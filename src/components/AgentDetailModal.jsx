@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Download, Disc, Image, Volume2, Copy, Check, Eye } from 'lucide-react';
+import { X, Download, Disc, Image, Volume2, Copy, Check, Eye, Search, Filter, Sparkles, Music } from 'lucide-react';
 import AudioPlayerSlim from './AudioPlayerSlim';
 import ImagePreviewModal from './ImagePreviewModal';
 import { toAssetUrl } from '../utils/urlHelper';
@@ -8,6 +8,11 @@ export default function AgentDetailModal({ agent, onClose }) {
   const [activeTab, setActiveTab] = useState('starterpack');
   const [previewImage, setPreviewImage] = useState(null);
   const [copiedPath, setCopiedPath] = useState(null);
+
+  // SFX Tab filters
+  const [sfxCategory, setSfxCategory] = useState('All');
+  const [sfxSearch, setSfxSearch] = useState('');
+  const [sfxTagFilter, setSfxTagFilter] = useState('');
 
   if (!agent) return null;
 
@@ -483,59 +488,221 @@ export default function AgentDetailModal({ agent, onClose }) {
             </div>
           )}
 
-          {activeTab === 'sfx' && (
-            <div className="space-y-6">
-              {categoryNames.length > 0 ? (
-                <div className="space-y-6">
-                  {categoryNames.map(catName => {
-                    const catObj = audioCategories[catName];
-                    const clips = catObj?.clips || (Array.isArray(catObj) ? catObj : []);
-                    const iconPath = catObj?.icon;
+          {activeTab === 'sfx' && (() => {
+            let totalSFXClips = 0;
+            const parsedCategories = categoryNames.map(catName => {
+              const catObj = audioCategories[catName];
+              const clips = catObj?.clips || (Array.isArray(catObj) ? catObj : []);
+              const iconPath = catObj?.icon;
+              totalSFXClips += clips.length;
+              return { name: catName, clips, iconPath };
+            }).filter(cat => cat.clips.length > 0);
 
-                    if (clips.length === 0) return null;
+            const soundTags = [
+              { label: 'All Types', value: '' },
+              { label: 'Idle', value: 'idle' },
+              { label: 'Equip', value: 'equip' },
+              { label: 'Cast', value: 'cast' },
+              { label: 'Hit', value: 'hit' },
+              { label: 'Loop', value: 'loop' },
+              { label: 'Run / Move', value: 'run' },
+            ];
 
-                    return (
-                      <div key={catName} className="space-y-3 bg-[#0B0E14]/60 p-4 rounded-2xl border border-white/5">
-                        <div className="flex items-center justify-between border-b border-white/5 pb-3">
-                          <div className="flex items-center gap-3">
-                            {iconPath ? (
-                              <div className="w-8 h-8 rounded bg-[#131722] p-1 border border-white/10 flex items-center justify-center shrink-0">
-                                <img src={toAssetUrl(iconPath)} alt="" className="w-full h-full object-contain" />
-                              </div>
-                            ) : (
-                              <Disc className="w-5 h-5 text-[#FF4655] shrink-0" />
-                            )}
-                            <h3 className="font-display text-sm font-bold text-white uppercase tracking-wider">
-                              {catName}
-                            </h3>
-                          </div>
-                          <span className="text-xs font-display text-slate-400 whitespace-nowrap">
-                            {clips.length} audio clips
+            const filteredCategories = parsedCategories.map(cat => {
+              if (sfxCategory !== 'All' && sfxCategory !== cat.name) {
+                return { ...cat, clips: [] };
+              }
+
+              const matchingClips = cat.clips.filter(clip => {
+                const clipName = (clip.name || clip.filename || '').toLowerCase();
+                const matchesSearch = !sfxSearch || clipName.includes(sfxSearch.toLowerCase());
+                const matchesTag = !sfxTagFilter || clipName.includes(sfxTagFilter.toLowerCase());
+                return matchesSearch && matchesTag;
+              });
+
+              return { ...cat, clips: matchingClips };
+            }).filter(cat => cat.clips.length > 0);
+
+            const totalFilteredClips = filteredCategories.reduce((acc, cat) => acc + cat.clips.length, 0);
+
+            return (
+              <div className="space-y-5">
+                {/* SFX Filter Header & Search Bar */}
+                <div className="bg-[#0B0E14] p-4 rounded-2xl border border-white/10 space-y-4 shadow-xl">
+                  {/* Category Pills Bar */}
+                  <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-thin scrollbar-thumb-white/10">
+                    <button
+                      onClick={() => setSfxCategory('All')}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-2 shrink-0 ${
+                        sfxCategory === 'All'
+                          ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                          : 'bg-[#131722] text-slate-400 hover:text-white border border-white/5 hover:border-white/20'
+                      }`}
+                    >
+                      <Music className="w-3.5 h-3.5" />
+                      <span>All Categories</span>
+                      <span className={`px-1.5 py-0.5 rounded-md text-[10px] ${
+                        sfxCategory === 'All' ? 'bg-black/30 text-white' : 'bg-white/5 text-slate-400'
+                      }`}>
+                        {totalSFXClips}
+                      </span>
+                    </button>
+
+                    {parsedCategories.map(cat => {
+                      const isActive = sfxCategory === cat.name;
+                      const displayName = cat.name.replace(/_/g, ' ');
+
+                      return (
+                        <button
+                          key={cat.name}
+                          onClick={() => setSfxCategory(cat.name)}
+                          className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-2 shrink-0 ${
+                            isActive
+                              ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                              : 'bg-[#131722] text-slate-400 hover:text-white border border-white/5 hover:border-white/20'
+                          }`}
+                        >
+                          {cat.iconPath ? (
+                            <img src={toAssetUrl(cat.iconPath)} alt="" className="w-4 h-4 object-contain shrink-0" />
+                          ) : (
+                            <Disc className="w-3.5 h-3.5 text-[#00F0FF] shrink-0" />
+                          )}
+                          <span className="whitespace-nowrap">{displayName}</span>
+                          <span className={`px-1.5 py-0.5 rounded-md text-[10px] ${
+                            isActive ? 'bg-black/30 text-white' : 'bg-white/5 text-slate-400'
+                          }`}>
+                            {cat.clips.length}
                           </span>
-                        </div>
+                        </button>
+                      );
+                    })}
+                  </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
-                          {clips.map((clip, idx) => (
-                            <AudioPlayerSlim
-                              key={idx}
-                              title={clip.name}
-                              src={toAssetUrl(clip.relPath)}
-                              filename={`${agent.name}_${clip.filename}`}
-                            />
-                          ))}
-                        </div>
+                  {/* Search Bar & Tag Badges */}
+                  <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-1 border-t border-white/5">
+                    {/* Search Input */}
+                    <div className="relative flex-1 min-w-[200px]">
+                      <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+                      <input
+                        type="text"
+                        value={sfxSearch}
+                        onChange={(e) => setSfxSearch(e.target.value)}
+                        placeholder={`Search SFX audio clips for ${agent.name}...`}
+                        className="w-full pl-9 pr-8 py-2 rounded-xl bg-[#131722] border border-white/10 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#FF4655] transition-colors"
+                      />
+                      {sfxSearch && (
+                        <button
+                          onClick={() => setSfxSearch('')}
+                          className="absolute right-2.5 top-1/2 -translate-y-1/2 p-0.5 text-slate-400 hover:text-white transition-colors"
+                        >
+                          <X className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
+
+                    {/* Quick Tag Pills */}
+                    <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 shrink-0">
+                      <span className="text-[11px] font-display text-slate-500 uppercase tracking-wider font-semibold mr-1 shrink-0 flex items-center gap-1">
+                        <Filter className="w-3 h-3 text-[#00F0FF]" /> Type:
+                      </span>
+                      {soundTags.map(tag => {
+                        const isTagActive = sfxTagFilter === tag.value;
+                        return (
+                          <button
+                            key={tag.value}
+                            onClick={() => setSfxTagFilter(tag.value)}
+                            className={`px-2.5 py-1 rounded-lg text-[11px] font-display transition-all whitespace-nowrap shrink-0 ${
+                              isTagActive
+                                ? 'bg-[#00F0FF]/20 text-[#00F0FF] border border-[#00F0FF]/40 font-bold'
+                                : 'bg-[#131722] text-slate-400 hover:text-slate-200 border border-white/5'
+                            }`}
+                          >
+                            {tag.label}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+
+                  {/* Active Filter Summary Bar */}
+                  {(sfxSearch || sfxTagFilter || sfxCategory !== 'All') && (
+                    <div className="flex items-center justify-between text-xs text-slate-400 pt-2 border-t border-white/5">
+                      <div className="flex items-center gap-2">
+                        <Sparkles className="w-3.5 h-3.5 text-[#00F0FF]" />
+                        <span>Showing <strong className="text-white">{totalFilteredClips}</strong> of {totalSFXClips} audio clips</span>
                       </div>
-                    );
-                  })}
+                      <button
+                        onClick={() => {
+                          setSfxCategory('All');
+                          setSfxSearch('');
+                          setSfxTagFilter('');
+                        }}
+                        className="text-xs text-[#FF4655] hover:underline font-display font-medium"
+                      >
+                        Reset Filters
+                      </button>
+                    </div>
+                  )}
                 </div>
-              ) : (
-                <div className="py-12 text-center text-slate-500 font-display text-sm">
-                  No specific SFX clips indexed for {agent.name}.
-                </div>
-              )}
-            </div>
-          )}
 
+                {/* SFX Clips Display Grid */}
+                {filteredCategories.length > 0 ? (
+                  <div className="space-y-6">
+                    {filteredCategories.map(cat => {
+                      const displayName = cat.name.replace(/_/g, ' ');
+
+                      return (
+                        <div key={cat.name} className="space-y-3 bg-[#0B0E14]/60 p-4 rounded-2xl border border-white/5">
+                          <div className="flex items-center justify-between border-b border-white/5 pb-3">
+                            <div className="flex items-center gap-3">
+                              {cat.iconPath ? (
+                                <div className="w-8 h-8 rounded bg-[#131722] p-1 border border-white/10 flex items-center justify-center shrink-0">
+                                  <img src={toAssetUrl(cat.iconPath)} alt="" className="w-full h-full object-contain" />
+                                </div>
+                              ) : (
+                                <Disc className="w-5 h-5 text-[#FF4655] shrink-0" />
+                              )}
+                              <h3 className="font-display text-sm font-bold text-white uppercase tracking-wider">
+                                {displayName}
+                              </h3>
+                            </div>
+                            <span className="text-xs font-display text-slate-400 whitespace-nowrap">
+                              {cat.clips.length} audio clips
+                            </span>
+                          </div>
+
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
+                            {cat.clips.map((clip, idx) => (
+                              <AudioPlayerSlim
+                                key={idx}
+                                title={clip.name}
+                                src={toAssetUrl(clip.relPath)}
+                                filename={`${agent.name}_${clip.filename}`}
+                              />
+                            ))}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  <div className="py-12 bg-[#0B0E14]/40 rounded-2xl border border-white/5 text-center text-slate-400 font-display text-sm space-y-2">
+                    <p className="font-semibold text-white">No audio clips found matching your search or filters.</p>
+                    <button
+                      onClick={() => {
+                        setSfxCategory('All');
+                        setSfxSearch('');
+                        setSfxTagFilter('');
+                      }}
+                      className="px-4 py-2 rounded-xl bg-[#FF4655] text-white text-xs font-display font-medium hover:bg-[#FF4655]/80 transition-colors inline-block mt-2"
+                    >
+                      Clear All Filters
+                    </button>
+                  </div>
+                )}
+              </div>
+            );
+          })()}
         </div>
 
       </div>
