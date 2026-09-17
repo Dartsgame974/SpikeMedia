@@ -52213,6 +52213,1406 @@
         "relPath": "Valorantek/SFX/UI/Win & Loose/UI_EOG_Victory_SFX_V2 (SFX).wav",
         "sizeBytes": 1819412
       }
+    ],
+    "Maps - Fracture (Canyon - Portes Automatiques)": [
+      {
+        "name": "BG Canyon AutoDoor Close (1001720751)",
+        "filename": "Play_BG_Canyon_AutoDoor_Close (1001720751).mp3",
+        "relPath": "Valorantek/SFX/Maps/Fracture_Canyon/Play_BG_Canyon_AutoDoor_Close (1001720751).mp3",
+        "sizeBytes": 29948
+      },
+      {
+        "name": "BG Canyon AutoDoor Open (1027005348)",
+        "filename": "Play_BG_Canyon_AutoDoor_Open (1027005348).mp3",
+        "relPath": "Valorantek/SFX/Maps/Fracture_Canyon/Play_BG_Canyon_AutoDoor_Open (1027005348).mp3",
+        "sizeBytes": 30020
+      }
+    ],
+    "Maps - Lotus (Jam - Portes de Pierre Rotatives)": [
+      {
+        "name": "Jam StoneDoor Break (831393006)",
+        "filename": "Play_Jam_StoneDoor_Break (831393006).mp3",
+        "relPath": "Valorantek/SFX/Maps/Lotus_Jam/Play_Jam_StoneDoor_Break (831393006).mp3",
+        "sizeBytes": 33932
+      },
+      {
+        "name": "Jam StoneDoor End (825796732)",
+        "filename": "Play_Jam_StoneDoor_End (825796732).mp3",
+        "relPath": "Valorantek/SFX/Maps/Lotus_Jam/Play_Jam_StoneDoor_End (825796732).mp3",
+        "sizeBytes": 28292
+      },
+      {
+        "name": "Jam StoneDoor Start Rotate (960131100)",
+        "filename": "Play_Jam_StoneDoor_Start_Rotate (960131100).mp3",
+        "relPath": "Valorantek/SFX/Maps/Lotus_Jam/Play_Jam_StoneDoor_Start_Rotate (960131100).mp3",
+        "sizeBytes": 132788
+      },
+      {
+        "name": "Jam StoneDoor Start Rotate (960131100)",
+        "filename": "Stop_Jam_StoneDoor_Start_Rotate (960131100).mp3",
+        "relPath": "Valorantek/SFX/Maps/Lotus_Jam/Stop_Jam_StoneDoor_Start_Rotate (960131100).mp3",
+        "sizeBytes": 132788
+      }
+    ],
+    "Maps - Bind (Duality - Teleporteurs & Portes)": [
+      {
+        "name": "HFX SlidingAirlockDoor Close End (113844867)",
+        "filename": "Play_HFX_SlidingAirlockDoor_Close_End (113844867).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_HFX_SlidingAirlockDoor_Close_End (113844867).mp3",
+        "sizeBytes": 11180
+      },
+      {
+        "name": "HFX SlidingAirlockDoor Close Start (674518428)",
+        "filename": "Play_HFX_SlidingAirlockDoor_Close_Start (674518428).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_HFX_SlidingAirlockDoor_Close_Start (674518428).mp3",
+        "sizeBytes": 9212
+      },
+      {
+        "name": "HFX SlidingAirlockDoor Open End (391618173)",
+        "filename": "Play_HFX_SlidingAirlockDoor_Open_End (391618173).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_HFX_SlidingAirlockDoor_Open_End (391618173).mp3",
+        "sizeBytes": 7100
+      },
+      {
+        "name": "HFX SlidingAirlockDoor Open Start (52484566)",
+        "filename": "Play_HFX_SlidingAirlockDoor_Open_Start (52484566).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_HFX_SlidingAirlockDoor_Open_Start (52484566).mp3",
+        "sizeBytes": 16988
+      },
+      {
+        "name": "Object Enter Portal (629596334)",
+        "filename": "Play_Object_Enter_Portal (629596334).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Object_Enter_Portal (629596334).mp3",
+        "sizeBytes": 28892
+      },
+      {
+        "name": "Object Enter Portal (690005637)",
+        "filename": "Play_Object_Enter_Portal (690005637).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Object_Enter_Portal (690005637).mp3",
+        "sizeBytes": 22652
+      },
+      {
+        "name": "Object Enter Portal (872344916)",
+        "filename": "Play_Object_Enter_Portal (872344916).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Object_Enter_Portal (872344916).mp3",
+        "sizeBytes": 25316
+      },
+      {
+        "name": "Object Enter Portal 1P (629596334)",
+        "filename": "Play_Object_Enter_Portal_1P (629596334).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Object_Enter_Portal_1P (629596334).mp3",
+        "sizeBytes": 28844
+      },
+      {
+        "name": "Object Enter Portal 1P (690005637)",
+        "filename": "Play_Object_Enter_Portal_1P (690005637).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Object_Enter_Portal_1P (690005637).mp3",
+        "sizeBytes": 22652
+      },
+      {
+        "name": "Object Enter Portal 1P (872344916)",
+        "filename": "Play_Object_Enter_Portal_1P (872344916).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Object_Enter_Portal_1P (872344916).mp3",
+        "sizeBytes": 25316
+      },
+      {
+        "name": "Teleporter CharacterTeleport 1P (1071232599)",
+        "filename": "Play_Teleporter_CharacterTeleport_1P (1071232599).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Teleporter_CharacterTeleport_1P (1071232599).mp3",
+        "sizeBytes": 32804
+      },
+      {
+        "name": "Teleporter CharacterTeleport 1P (891065875)",
+        "filename": "Play_Teleporter_CharacterTeleport_1P (891065875).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Teleporter_CharacterTeleport_1P (891065875).mp3",
+        "sizeBytes": 33260
+      },
+      {
+        "name": "Teleporter LocationEnter 3P (389441789)",
+        "filename": "Play_Teleporter_LocationEnter_3P (389441789).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Teleporter_LocationEnter_3P (389441789).mp3",
+        "sizeBytes": 31916
+      },
+      {
+        "name": "Teleporter LocationEnter 3P (407441360)",
+        "filename": "Play_Teleporter_LocationEnter_3P (407441360).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Teleporter_LocationEnter_3P (407441360).mp3",
+        "sizeBytes": 28652
+      },
+      {
+        "name": "Teleporter LocationExit 3P (1036858966)",
+        "filename": "Play_Teleporter_LocationExit_3P (1036858966).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Teleporter_LocationExit_3P (1036858966).mp3",
+        "sizeBytes": 33020
+      },
+      {
+        "name": "Teleporter LocationExit 3P (37190761)",
+        "filename": "Play_Teleporter_LocationExit_3P (37190761).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Duality/Play_Teleporter_LocationExit_3P (37190761).mp3",
+        "sizeBytes": 23444
+      }
+    ],
+    "Maps - The Range (Poveglia - Mannequins Cibles)": [
+      {
+        "name": "range dummy explode 01 (SFX)",
+        "filename": "range_dummy_explode_01 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/The_Range_Poveglia/range_dummy_explode_01 (SFX).mp3",
+        "sizeBytes": 15836
+      },
+      {
+        "name": "range dummy explode 02 (SFX)",
+        "filename": "range_dummy_explode_02 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/The_Range_Poveglia/range_dummy_explode_02 (SFX).mp3",
+        "sizeBytes": 15380
+      },
+      {
+        "name": "range dummy explode 03 (SFX)",
+        "filename": "range_dummy_explode_03 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/The_Range_Poveglia/range_dummy_explode_03 (SFX).mp3",
+        "sizeBytes": 16844
+      },
+      {
+        "name": "range dummy explode 04 (SFX)",
+        "filename": "range_dummy_explode_04 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/The_Range_Poveglia/range_dummy_explode_04 (SFX).mp3",
+        "sizeBytes": 16028
+      },
+      {
+        "name": "range dummy spawn 01 (SFX)",
+        "filename": "range_dummy_spawn_01 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/The_Range_Poveglia/range_dummy_spawn_01 (SFX).mp3",
+        "sizeBytes": 6476
+      },
+      {
+        "name": "range dummy spawn 02 (SFX)",
+        "filename": "range_dummy_spawn_02 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/The_Range_Poveglia/range_dummy_spawn_02 (SFX).mp3",
+        "sizeBytes": 6572
+      },
+      {
+        "name": "range dummy spawn 03 (SFX)",
+        "filename": "range_dummy_spawn_03 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/The_Range_Poveglia/range_dummy_spawn_03 (SFX).mp3",
+        "sizeBytes": 6668
+      },
+      {
+        "name": "range dummy spawn 04 (SFX)",
+        "filename": "range_dummy_spawn_04 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/The_Range_Poveglia/range_dummy_spawn_04 (SFX).mp3",
+        "sizeBytes": 6284
+      }
+    ],
+    "Barrières de Spawn & Zones (Spawn Barriers)": [
+      {
+        "name": "Rad Barrier Dissolve (1005067658)",
+        "filename": "Play_Rad_Barrier_Dissolve (1005067658).mp3",
+        "relPath": "Valorantek/SFX/Barriers/Play_Rad_Barrier_Dissolve (1005067658).mp3",
+        "sizeBytes": 176972
+      },
+      {
+        "name": "Rad Barrier Amb Loop (1005067658)",
+        "filename": "Stop_Rad_Barrier_Amb_Loop (1005067658).mp3",
+        "relPath": "Valorantek/SFX/Barriers/Stop_Rad_Barrier_Amb_Loop (1005067658).mp3",
+        "sizeBytes": 176972
+      },
+      {
+        "name": "Rad Barrier Amb (SFX)",
+        "filename": "Rad_Barrier_Amb (SFX).mp3",
+        "relPath": "Valorantek/SFX/Barriers/Rad_Barrier_Amb (SFX).mp3",
+        "sizeBytes": 176972
+      },
+      {
+        "name": "Rad Barrier Dissolve (SFX)",
+        "filename": "Rad_Barrier_Dissolve (SFX).mp3",
+        "relPath": "Valorantek/SFX/Barriers/Rad_Barrier_Dissolve (SFX).mp3",
+        "sizeBytes": 42716
+      },
+      {
+        "name": "Rad Barrier Flash (SFX)",
+        "filename": "Rad_Barrier_Flash (SFX).mp3",
+        "relPath": "Valorantek/SFX/Barriers/Rad_Barrier_Flash (SFX).mp3",
+        "sizeBytes": 43868
+      }
+    ],
+    "Modes de Jeu & Escalade (GunGame)": [
+      {
+        "name": "GunGame RazeUlt Reload (SFX)",
+        "filename": "GunGame_RazeUlt_Reload (SFX).mp3",
+        "relPath": "Valorantek/SFX/GunGame/GunGame_RazeUlt_Reload (SFX).mp3",
+        "sizeBytes": 28484
+      },
+      {
+        "name": "GunGame Spawn Ally (SFX)",
+        "filename": "GunGame_Spawn_Ally (SFX).mp3",
+        "relPath": "Valorantek/SFX/GunGame/GunGame_Spawn_Ally (SFX).mp3",
+        "sizeBytes": 72332
+      },
+      {
+        "name": "GunGame Spawn enemy (SFX)",
+        "filename": "GunGame_Spawn_enemy (SFX).mp3",
+        "relPath": "Valorantek/SFX/GunGame/GunGame_Spawn_enemy (SFX).mp3",
+        "sizeBytes": 68132
+      },
+      {
+        "name": "GunGame UI FinalRound Ally (SFX)",
+        "filename": "GunGame_UI_FinalRound_Ally (SFX).mp3",
+        "relPath": "Valorantek/SFX/GunGame/GunGame_UI_FinalRound_Ally (SFX).mp3",
+        "sizeBytes": 56156
+      },
+      {
+        "name": "GunGame UI FinalRound Enemy (SFX)",
+        "filename": "GunGame_UI_FinalRound_Enemy (SFX).mp3",
+        "relPath": "Valorantek/SFX/GunGame/GunGame_UI_FinalRound_Enemy (SFX).mp3",
+        "sizeBytes": 52940
+      },
+      {
+        "name": "GunGame UI TeamLevelUp (SFX)",
+        "filename": "GunGame_UI_TeamLevelUp (SFX).mp3",
+        "relPath": "Valorantek/SFX/GunGame/GunGame_UI_TeamLevelUp (SFX).mp3",
+        "sizeBytes": 61892
+      }
+    ],
+    "Maps - Bind (Duality - Teleporteurs & Alarmi)": [
+      {
+        "name": "portal A alarm 01 (SFX)",
+        "filename": "portal_A_alarm_01 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Portals/portal_A_alarm_01 (SFX).mp3",
+        "sizeBytes": 28652
+      },
+      {
+        "name": "portal b alarm 01 (SFX)",
+        "filename": "portal_b_alarm_01 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Portals/portal_b_alarm_01 (SFX).mp3",
+        "sizeBytes": 33020
+      },
+      {
+        "name": "Teleport Arrive 3P (SFX)",
+        "filename": "Teleport_Arrive_3P (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Portals/Teleport_Arrive_3P (SFX).mp3",
+        "sizeBytes": 23444
+      },
+      {
+        "name": "Teleport Depart 3P (SFX)",
+        "filename": "Teleport_Depart_3P (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Bind_Portals/Teleport_Depart_3P (SFX).mp3",
+        "sizeBytes": 31940
+      }
+    ],
+    "Spike - Operations & Stages (Plantation & Impulsions)": [
+      {
+        "name": "Bomb Defuse Shut Down (583190891)",
+        "filename": "Play_Bomb_Defuse_Shut_Down (583190891).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Defuse_Shut_Down (583190891).mp3",
+        "sizeBytes": 73916
+      },
+      {
+        "name": "Bomb Drop Bounce (1029426558)",
+        "filename": "Play_Bomb_Drop_Bounce (1029426558).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (1029426558).mp3",
+        "sizeBytes": 8876
+      },
+      {
+        "name": "Bomb Drop Bounce (1046114732)",
+        "filename": "Play_Bomb_Drop_Bounce (1046114732).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (1046114732).mp3",
+        "sizeBytes": 5924
+      },
+      {
+        "name": "Bomb Drop Bounce (1052821130)",
+        "filename": "Play_Bomb_Drop_Bounce (1052821130).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (1052821130).mp3",
+        "sizeBytes": 8396
+      },
+      {
+        "name": "Bomb Drop Bounce (1069876360)",
+        "filename": "Play_Bomb_Drop_Bounce (1069876360).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (1069876360).mp3",
+        "sizeBytes": 5636
+      },
+      {
+        "name": "Bomb Drop Bounce (161205967)",
+        "filename": "Play_Bomb_Drop_Bounce (161205967).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (161205967).mp3",
+        "sizeBytes": 11420
+      },
+      {
+        "name": "Bomb Drop Bounce (171992602)",
+        "filename": "Play_Bomb_Drop_Bounce (171992602).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (171992602).mp3",
+        "sizeBytes": 5276
+      },
+      {
+        "name": "Bomb Drop Bounce (177796325)",
+        "filename": "Play_Bomb_Drop_Bounce (177796325).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (177796325).mp3",
+        "sizeBytes": 8636
+      },
+      {
+        "name": "Bomb Drop Bounce (190409654)",
+        "filename": "Play_Bomb_Drop_Bounce (190409654).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (190409654).mp3",
+        "sizeBytes": 4988
+      },
+      {
+        "name": "Bomb Drop Bounce (199097039)",
+        "filename": "Play_Bomb_Drop_Bounce (199097039).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (199097039).mp3",
+        "sizeBytes": 12764
+      },
+      {
+        "name": "Bomb Drop Bounce (219648442)",
+        "filename": "Play_Bomb_Drop_Bounce (219648442).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (219648442).mp3",
+        "sizeBytes": 11468
+      },
+      {
+        "name": "Bomb Drop Bounce (237201986)",
+        "filename": "Play_Bomb_Drop_Bounce (237201986).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (237201986).mp3",
+        "sizeBytes": 8276
+      },
+      {
+        "name": "Bomb Drop Bounce (253354181)",
+        "filename": "Play_Bomb_Drop_Bounce (253354181).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (253354181).mp3",
+        "sizeBytes": 13652
+      },
+      {
+        "name": "Bomb Drop Bounce (265865014)",
+        "filename": "Play_Bomb_Drop_Bounce (265865014).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (265865014).mp3",
+        "sizeBytes": 5612
+      },
+      {
+        "name": "Bomb Drop Bounce (282905057)",
+        "filename": "Play_Bomb_Drop_Bounce (282905057).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (282905057).mp3",
+        "sizeBytes": 5324
+      },
+      {
+        "name": "Bomb Drop Bounce (290943027)",
+        "filename": "Play_Bomb_Drop_Bounce (290943027).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (290943027).mp3",
+        "sizeBytes": 5156
+      },
+      {
+        "name": "Bomb Drop Bounce (368945639)",
+        "filename": "Play_Bomb_Drop_Bounce (368945639).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (368945639).mp3",
+        "sizeBytes": 5324
+      },
+      {
+        "name": "Bomb Drop Bounce (375984268)",
+        "filename": "Play_Bomb_Drop_Bounce (375984268).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (375984268).mp3",
+        "sizeBytes": 15164
+      },
+      {
+        "name": "Bomb Drop Bounce (401593430)",
+        "filename": "Play_Bomb_Drop_Bounce (401593430).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (401593430).mp3",
+        "sizeBytes": 7052
+      },
+      {
+        "name": "Bomb Drop Bounce (40255771)",
+        "filename": "Play_Bomb_Drop_Bounce (40255771).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (40255771).mp3",
+        "sizeBytes": 5996
+      },
+      {
+        "name": "Bomb Drop Bounce (426910850)",
+        "filename": "Play_Bomb_Drop_Bounce (426910850).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (426910850).mp3",
+        "sizeBytes": 6404
+      },
+      {
+        "name": "Bomb Drop Bounce (449320618)",
+        "filename": "Play_Bomb_Drop_Bounce (449320618).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (449320618).mp3",
+        "sizeBytes": 5372
+      },
+      {
+        "name": "Bomb Drop Bounce (45421366)",
+        "filename": "Play_Bomb_Drop_Bounce (45421366).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (45421366).mp3",
+        "sizeBytes": 4292
+      },
+      {
+        "name": "Bomb Drop Bounce (468936201)",
+        "filename": "Play_Bomb_Drop_Bounce (468936201).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (468936201).mp3",
+        "sizeBytes": 5708
+      },
+      {
+        "name": "Bomb Drop Bounce (469779407)",
+        "filename": "Play_Bomb_Drop_Bounce (469779407).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (469779407).mp3",
+        "sizeBytes": 10892
+      },
+      {
+        "name": "Bomb Drop Bounce (522723253)",
+        "filename": "Play_Bomb_Drop_Bounce (522723253).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (522723253).mp3",
+        "sizeBytes": 10028
+      },
+      {
+        "name": "Bomb Drop Bounce (545916780)",
+        "filename": "Play_Bomb_Drop_Bounce (545916780).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (545916780).mp3",
+        "sizeBytes": 5900
+      },
+      {
+        "name": "Bomb Drop Bounce (580333072)",
+        "filename": "Play_Bomb_Drop_Bounce (580333072).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (580333072).mp3",
+        "sizeBytes": 7388
+      },
+      {
+        "name": "Bomb Drop Bounce (610394627)",
+        "filename": "Play_Bomb_Drop_Bounce (610394627).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (610394627).mp3",
+        "sizeBytes": 7292
+      },
+      {
+        "name": "Bomb Drop Bounce (617691304)",
+        "filename": "Play_Bomb_Drop_Bounce (617691304).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (617691304).mp3",
+        "sizeBytes": 4988
+      },
+      {
+        "name": "Bomb Drop Bounce (623430681)",
+        "filename": "Play_Bomb_Drop_Bounce (623430681).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (623430681).mp3",
+        "sizeBytes": 11996
+      },
+      {
+        "name": "Bomb Drop Bounce (624898095)",
+        "filename": "Play_Bomb_Drop_Bounce (624898095).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (624898095).mp3",
+        "sizeBytes": 5756
+      },
+      {
+        "name": "Bomb Drop Bounce (632411004)",
+        "filename": "Play_Bomb_Drop_Bounce (632411004).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (632411004).mp3",
+        "sizeBytes": 6836
+      },
+      {
+        "name": "Bomb Drop Bounce (674396226)",
+        "filename": "Play_Bomb_Drop_Bounce (674396226).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (674396226).mp3",
+        "sizeBytes": 10700
+      },
+      {
+        "name": "Bomb Drop Bounce (680167432)",
+        "filename": "Play_Bomb_Drop_Bounce (680167432).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (680167432).mp3",
+        "sizeBytes": 7628
+      },
+      {
+        "name": "Bomb Drop Bounce (689039688)",
+        "filename": "Play_Bomb_Drop_Bounce (689039688).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (689039688).mp3",
+        "sizeBytes": 6812
+      },
+      {
+        "name": "Bomb Drop Bounce (69494118)",
+        "filename": "Play_Bomb_Drop_Bounce (69494118).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (69494118).mp3",
+        "sizeBytes": 11228
+      },
+      {
+        "name": "Bomb Drop Bounce (697728064)",
+        "filename": "Play_Bomb_Drop_Bounce (697728064).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (697728064).mp3",
+        "sizeBytes": 7340
+      },
+      {
+        "name": "Bomb Drop Bounce (702523718)",
+        "filename": "Play_Bomb_Drop_Bounce (702523718).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (702523718).mp3",
+        "sizeBytes": 4892
+      },
+      {
+        "name": "Bomb Drop Bounce (714086820)",
+        "filename": "Play_Bomb_Drop_Bounce (714086820).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (714086820).mp3",
+        "sizeBytes": 7148
+      },
+      {
+        "name": "Bomb Drop Bounce (741464836)",
+        "filename": "Play_Bomb_Drop_Bounce (741464836).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (741464836).mp3",
+        "sizeBytes": 10412
+      },
+      {
+        "name": "Bomb Drop Bounce (743737160)",
+        "filename": "Play_Bomb_Drop_Bounce (743737160).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (743737160).mp3",
+        "sizeBytes": 10820
+      },
+      {
+        "name": "Bomb Drop Bounce (747857237)",
+        "filename": "Play_Bomb_Drop_Bounce (747857237).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (747857237).mp3",
+        "sizeBytes": 5492
+      },
+      {
+        "name": "Bomb Drop Bounce (752569044)",
+        "filename": "Play_Bomb_Drop_Bounce (752569044).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (752569044).mp3",
+        "sizeBytes": 5756
+      },
+      {
+        "name": "Bomb Drop Bounce (758648193)",
+        "filename": "Play_Bomb_Drop_Bounce (758648193).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (758648193).mp3",
+        "sizeBytes": 5900
+      },
+      {
+        "name": "Bomb Drop Bounce (774493066)",
+        "filename": "Play_Bomb_Drop_Bounce (774493066).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (774493066).mp3",
+        "sizeBytes": 9404
+      },
+      {
+        "name": "Bomb Drop Bounce (774648223)",
+        "filename": "Play_Bomb_Drop_Bounce (774648223).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (774648223).mp3",
+        "sizeBytes": 8084
+      },
+      {
+        "name": "Bomb Drop Bounce (780788475)",
+        "filename": "Play_Bomb_Drop_Bounce (780788475).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (780788475).mp3",
+        "sizeBytes": 9452
+      },
+      {
+        "name": "Bomb Drop Bounce (824056433)",
+        "filename": "Play_Bomb_Drop_Bounce (824056433).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (824056433).mp3",
+        "sizeBytes": 5420
+      },
+      {
+        "name": "Bomb Drop Bounce (836220013)",
+        "filename": "Play_Bomb_Drop_Bounce (836220013).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (836220013).mp3",
+        "sizeBytes": 9164
+      },
+      {
+        "name": "Bomb Drop Bounce (845035414)",
+        "filename": "Play_Bomb_Drop_Bounce (845035414).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (845035414).mp3",
+        "sizeBytes": 5036
+      },
+      {
+        "name": "Bomb Drop Bounce (871697084)",
+        "filename": "Play_Bomb_Drop_Bounce (871697084).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (871697084).mp3",
+        "sizeBytes": 13004
+      },
+      {
+        "name": "Bomb Drop Bounce (87838513)",
+        "filename": "Play_Bomb_Drop_Bounce (87838513).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (87838513).mp3",
+        "sizeBytes": 8204
+      },
+      {
+        "name": "Bomb Drop Bounce (941791322)",
+        "filename": "Play_Bomb_Drop_Bounce (941791322).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (941791322).mp3",
+        "sizeBytes": 5852
+      },
+      {
+        "name": "Bomb Drop Bounce (950017513)",
+        "filename": "Play_Bomb_Drop_Bounce (950017513).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (950017513).mp3",
+        "sizeBytes": 8948
+      },
+      {
+        "name": "Bomb Drop Bounce (965457296)",
+        "filename": "Play_Bomb_Drop_Bounce (965457296).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (965457296).mp3",
+        "sizeBytes": 5036
+      },
+      {
+        "name": "Bomb Drop Bounce (968563523)",
+        "filename": "Play_Bomb_Drop_Bounce (968563523).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (968563523).mp3",
+        "sizeBytes": 5324
+      },
+      {
+        "name": "Bomb Drop Bounce (977739365)",
+        "filename": "Play_Bomb_Drop_Bounce (977739365).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (977739365).mp3",
+        "sizeBytes": 6428
+      },
+      {
+        "name": "Bomb Drop Bounce (980752977)",
+        "filename": "Play_Bomb_Drop_Bounce (980752977).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (980752977).mp3",
+        "sizeBytes": 4508
+      },
+      {
+        "name": "Bomb Drop Bounce (981226861)",
+        "filename": "Play_Bomb_Drop_Bounce (981226861).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (981226861).mp3",
+        "sizeBytes": 5420
+      },
+      {
+        "name": "Bomb Drop Bounce (983773538)",
+        "filename": "Play_Bomb_Drop_Bounce (983773538).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (983773538).mp3",
+        "sizeBytes": 5876
+      },
+      {
+        "name": "Bomb Drop Bounce (999760011)",
+        "filename": "Play_Bomb_Drop_Bounce (999760011).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Bounce (999760011).mp3",
+        "sizeBytes": 10340
+      },
+      {
+        "name": "Bomb Drop Land (1017052484)",
+        "filename": "Play_Bomb_Drop_Land (1017052484).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (1017052484).mp3",
+        "sizeBytes": 8156
+      },
+      {
+        "name": "Bomb Drop Land (1029426558)",
+        "filename": "Play_Bomb_Drop_Land (1029426558).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (1029426558).mp3",
+        "sizeBytes": 8876
+      },
+      {
+        "name": "Bomb Drop Land (1049409082)",
+        "filename": "Play_Bomb_Drop_Land (1049409082).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (1049409082).mp3",
+        "sizeBytes": 5780
+      },
+      {
+        "name": "Bomb Drop Land (107339743)",
+        "filename": "Play_Bomb_Drop_Land (107339743).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (107339743).mp3",
+        "sizeBytes": 13796
+      },
+      {
+        "name": "Bomb Drop Land (107564448)",
+        "filename": "Play_Bomb_Drop_Land (107564448).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (107564448).mp3",
+        "sizeBytes": 8252
+      },
+      {
+        "name": "Bomb Drop Land (108489784)",
+        "filename": "Play_Bomb_Drop_Land (108489784).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (108489784).mp3",
+        "sizeBytes": 9452
+      },
+      {
+        "name": "Bomb Drop Land (157477139)",
+        "filename": "Play_Bomb_Drop_Land (157477139).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (157477139).mp3",
+        "sizeBytes": 11108
+      },
+      {
+        "name": "Bomb Drop Land (18405126)",
+        "filename": "Play_Bomb_Drop_Land (18405126).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (18405126).mp3",
+        "sizeBytes": 8132
+      },
+      {
+        "name": "Bomb Drop Land (22747042)",
+        "filename": "Play_Bomb_Drop_Land (22747042).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (22747042).mp3",
+        "sizeBytes": 8540
+      },
+      {
+        "name": "Bomb Drop Land (256826002)",
+        "filename": "Play_Bomb_Drop_Land (256826002).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (256826002).mp3",
+        "sizeBytes": 7772
+      },
+      {
+        "name": "Bomb Drop Land (259297820)",
+        "filename": "Play_Bomb_Drop_Land (259297820).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (259297820).mp3",
+        "sizeBytes": 8996
+      },
+      {
+        "name": "Bomb Drop Land (295490100)",
+        "filename": "Play_Bomb_Drop_Land (295490100).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (295490100).mp3",
+        "sizeBytes": 8444
+      },
+      {
+        "name": "Bomb Drop Land (341709229)",
+        "filename": "Play_Bomb_Drop_Land (341709229).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (341709229).mp3",
+        "sizeBytes": 7820
+      },
+      {
+        "name": "Bomb Drop Land (349207258)",
+        "filename": "Play_Bomb_Drop_Land (349207258).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (349207258).mp3",
+        "sizeBytes": 9116
+      },
+      {
+        "name": "Bomb Drop Land (356483865)",
+        "filename": "Play_Bomb_Drop_Land (356483865).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (356483865).mp3",
+        "sizeBytes": 9644
+      },
+      {
+        "name": "Bomb Drop Land (35810526)",
+        "filename": "Play_Bomb_Drop_Land (35810526).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (35810526).mp3",
+        "sizeBytes": 7124
+      },
+      {
+        "name": "Bomb Drop Land (387363965)",
+        "filename": "Play_Bomb_Drop_Land (387363965).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (387363965).mp3",
+        "sizeBytes": 9164
+      },
+      {
+        "name": "Bomb Drop Land (390116133)",
+        "filename": "Play_Bomb_Drop_Land (390116133).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (390116133).mp3",
+        "sizeBytes": 12092
+      },
+      {
+        "name": "Bomb Drop Land (401189263)",
+        "filename": "Play_Bomb_Drop_Land (401189263).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (401189263).mp3",
+        "sizeBytes": 8564
+      },
+      {
+        "name": "Bomb Drop Land (42975049)",
+        "filename": "Play_Bomb_Drop_Land (42975049).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (42975049).mp3",
+        "sizeBytes": 13652
+      },
+      {
+        "name": "Bomb Drop Land (430713231)",
+        "filename": "Play_Bomb_Drop_Land (430713231).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (430713231).mp3",
+        "sizeBytes": 6044
+      },
+      {
+        "name": "Bomb Drop Land (443069665)",
+        "filename": "Play_Bomb_Drop_Land (443069665).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (443069665).mp3",
+        "sizeBytes": 7676
+      },
+      {
+        "name": "Bomb Drop Land (481085213)",
+        "filename": "Play_Bomb_Drop_Land (481085213).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (481085213).mp3",
+        "sizeBytes": 5876
+      },
+      {
+        "name": "Bomb Drop Land (48706319)",
+        "filename": "Play_Bomb_Drop_Land (48706319).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (48706319).mp3",
+        "sizeBytes": 9572
+      },
+      {
+        "name": "Bomb Drop Land (493866865)",
+        "filename": "Play_Bomb_Drop_Land (493866865).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (493866865).mp3",
+        "sizeBytes": 7844
+      },
+      {
+        "name": "Bomb Drop Land (50235433)",
+        "filename": "Play_Bomb_Drop_Land (50235433).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (50235433).mp3",
+        "sizeBytes": 9404
+      },
+      {
+        "name": "Bomb Drop Land (523744674)",
+        "filename": "Play_Bomb_Drop_Land (523744674).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (523744674).mp3",
+        "sizeBytes": 6236
+      },
+      {
+        "name": "Bomb Drop Land (541204721)",
+        "filename": "Play_Bomb_Drop_Land (541204721).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (541204721).mp3",
+        "sizeBytes": 9524
+      },
+      {
+        "name": "Bomb Drop Land (552704188)",
+        "filename": "Play_Bomb_Drop_Land (552704188).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (552704188).mp3",
+        "sizeBytes": 10940
+      },
+      {
+        "name": "Bomb Drop Land (559791921)",
+        "filename": "Play_Bomb_Drop_Land (559791921).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (559791921).mp3",
+        "sizeBytes": 10412
+      },
+      {
+        "name": "Bomb Drop Land (575380936)",
+        "filename": "Play_Bomb_Drop_Land (575380936).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (575380936).mp3",
+        "sizeBytes": 7580
+      },
+      {
+        "name": "Bomb Drop Land (596399123)",
+        "filename": "Play_Bomb_Drop_Land (596399123).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (596399123).mp3",
+        "sizeBytes": 8204
+      },
+      {
+        "name": "Bomb Drop Land (604415207)",
+        "filename": "Play_Bomb_Drop_Land (604415207).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (604415207).mp3",
+        "sizeBytes": 9452
+      },
+      {
+        "name": "Bomb Drop Land (612890764)",
+        "filename": "Play_Bomb_Drop_Land (612890764).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (612890764).mp3",
+        "sizeBytes": 9884
+      },
+      {
+        "name": "Bomb Drop Land (615756522)",
+        "filename": "Play_Bomb_Drop_Land (615756522).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (615756522).mp3",
+        "sizeBytes": 11756
+      },
+      {
+        "name": "Bomb Drop Land (62267319)",
+        "filename": "Play_Bomb_Drop_Land (62267319).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (62267319).mp3",
+        "sizeBytes": 5780
+      },
+      {
+        "name": "Bomb Drop Land (646975039)",
+        "filename": "Play_Bomb_Drop_Land (646975039).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (646975039).mp3",
+        "sizeBytes": 7340
+      },
+      {
+        "name": "Bomb Drop Land (655283447)",
+        "filename": "Play_Bomb_Drop_Land (655283447).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (655283447).mp3",
+        "sizeBytes": 9932
+      },
+      {
+        "name": "Bomb Drop Land (691077170)",
+        "filename": "Play_Bomb_Drop_Land (691077170).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (691077170).mp3",
+        "sizeBytes": 7412
+      },
+      {
+        "name": "Bomb Drop Land (691963236)",
+        "filename": "Play_Bomb_Drop_Land (691963236).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (691963236).mp3",
+        "sizeBytes": 6908
+      },
+      {
+        "name": "Bomb Drop Land (703566003)",
+        "filename": "Play_Bomb_Drop_Land (703566003).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (703566003).mp3",
+        "sizeBytes": 8948
+      },
+      {
+        "name": "Bomb Drop Land (713746573)",
+        "filename": "Play_Bomb_Drop_Land (713746573).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (713746573).mp3",
+        "sizeBytes": 9788
+      },
+      {
+        "name": "Bomb Drop Land (71485344)",
+        "filename": "Play_Bomb_Drop_Land (71485344).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (71485344).mp3",
+        "sizeBytes": 15236
+      },
+      {
+        "name": "Bomb Drop Land (715511699)",
+        "filename": "Play_Bomb_Drop_Land (715511699).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (715511699).mp3",
+        "sizeBytes": 9644
+      },
+      {
+        "name": "Bomb Drop Land (723405101)",
+        "filename": "Play_Bomb_Drop_Land (723405101).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (723405101).mp3",
+        "sizeBytes": 16604
+      },
+      {
+        "name": "Bomb Drop Land (760498340)",
+        "filename": "Play_Bomb_Drop_Land (760498340).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (760498340).mp3",
+        "sizeBytes": 10316
+      },
+      {
+        "name": "Bomb Drop Land (774648223)",
+        "filename": "Play_Bomb_Drop_Land (774648223).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (774648223).mp3",
+        "sizeBytes": 8084
+      },
+      {
+        "name": "Bomb Drop Land (778392899)",
+        "filename": "Play_Bomb_Drop_Land (778392899).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (778392899).mp3",
+        "sizeBytes": 6956
+      },
+      {
+        "name": "Bomb Drop Land (785630158)",
+        "filename": "Play_Bomb_Drop_Land (785630158).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (785630158).mp3",
+        "sizeBytes": 11156
+      },
+      {
+        "name": "Bomb Drop Land (788220242)",
+        "filename": "Play_Bomb_Drop_Land (788220242).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (788220242).mp3",
+        "sizeBytes": 10988
+      },
+      {
+        "name": "Bomb Drop Land (801793811)",
+        "filename": "Play_Bomb_Drop_Land (801793811).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (801793811).mp3",
+        "sizeBytes": 8924
+      },
+      {
+        "name": "Bomb Drop Land (854975434)",
+        "filename": "Play_Bomb_Drop_Land (854975434).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (854975434).mp3",
+        "sizeBytes": 7196
+      },
+      {
+        "name": "Bomb Drop Land (857126667)",
+        "filename": "Play_Bomb_Drop_Land (857126667).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (857126667).mp3",
+        "sizeBytes": 12092
+      },
+      {
+        "name": "Bomb Drop Land (93347465)",
+        "filename": "Play_Bomb_Drop_Land (93347465).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (93347465).mp3",
+        "sizeBytes": 7052
+      },
+      {
+        "name": "Bomb Drop Land (944529956)",
+        "filename": "Play_Bomb_Drop_Land (944529956).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (944529956).mp3",
+        "sizeBytes": 11708
+      },
+      {
+        "name": "Bomb Drop Land (949288596)",
+        "filename": "Play_Bomb_Drop_Land (949288596).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (949288596).mp3",
+        "sizeBytes": 9476
+      },
+      {
+        "name": "Bomb Drop Land (950017513)",
+        "filename": "Play_Bomb_Drop_Land (950017513).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (950017513).mp3",
+        "sizeBytes": 8948
+      },
+      {
+        "name": "Bomb Drop Land (959380378)",
+        "filename": "Play_Bomb_Drop_Land (959380378).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (959380378).mp3",
+        "sizeBytes": 9236
+      },
+      {
+        "name": "Bomb Drop Land (971825289)",
+        "filename": "Play_Bomb_Drop_Land (971825289).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (971825289).mp3",
+        "sizeBytes": 9092
+      },
+      {
+        "name": "Bomb Drop Land (989580424)",
+        "filename": "Play_Bomb_Drop_Land (989580424).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (989580424).mp3",
+        "sizeBytes": 7004
+      },
+      {
+        "name": "Bomb Drop Land (999760011)",
+        "filename": "Play_Bomb_Drop_Land (999760011).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Drop_Land (999760011).mp3",
+        "sizeBytes": 10340
+      },
+      {
+        "name": "Bomb Foley Plant Grabs With Lift Post Open (756297722)",
+        "filename": "Play_Bomb_Foley_Plant_Grabs_With_Lift_Post_Open (756297722).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Foley_Plant_Grabs_With_Lift_Post_Open (756297722).mp3",
+        "sizeBytes": 25652
+      },
+      {
+        "name": "Bomb Foley Plant Slam (966068874)",
+        "filename": "Play_Bomb_Foley_Plant_Slam (966068874).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Foley_Plant_Slam (966068874).mp3",
+        "sizeBytes": 7508
+      },
+      {
+        "name": "Bomb Foley Start Movement (29559311)",
+        "filename": "Play_Bomb_Foley_Start_Movement (29559311).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Foley_Start_Movement (29559311).mp3",
+        "sizeBytes": 11468
+      },
+      {
+        "name": "Bomb Open Mechanical Part 1 (199054218)",
+        "filename": "Play_Bomb_Open_Mechanical_Part_1 (199054218).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Open_Mechanical_Part_1 (199054218).mp3",
+        "sizeBytes": 20732
+      },
+      {
+        "name": "Bomb Open Part 01 (99568597)",
+        "filename": "Play_Bomb_Open_Part_01 (99568597).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Open_Part_01 (99568597).mp3",
+        "sizeBytes": 17252
+      },
+      {
+        "name": "Bomb Open Part 02 (653615419)",
+        "filename": "Play_Bomb_Open_Part_02 (653615419).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Open_Part_02 (653615419).mp3",
+        "sizeBytes": 17660
+      },
+      {
+        "name": "Bomb Open Part 03 (455028873)",
+        "filename": "Play_Bomb_Open_Part_03 (455028873).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Open_Part_03 (455028873).mp3",
+        "sizeBytes": 39068
+      },
+      {
+        "name": "Bomb Open Part 04 (957790318)",
+        "filename": "Play_Bomb_Open_Part_04 (957790318).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Open_Part_04 (957790318).mp3",
+        "sizeBytes": 17924
+      },
+      {
+        "name": "Bomb Plant Big Hit (785060064)",
+        "filename": "Play_Bomb_Plant_Big_Hit (785060064).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Plant_Big_Hit (785060064).mp3",
+        "sizeBytes": 19220
+      },
+      {
+        "name": "Bomb Plant Intro 01 (998447475)",
+        "filename": "Play_Bomb_Plant_Intro_01 (998447475).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Plant_Intro_01 (998447475).mp3",
+        "sizeBytes": 27188
+      },
+      {
+        "name": "Bomb Plant Outro 01 (162618248)",
+        "filename": "Play_Bomb_Plant_Outro_01 (162618248).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Plant_Outro_01 (162618248).mp3",
+        "sizeBytes": 9524
+      },
+      {
+        "name": "Bomb Plant Outro 02 (600873242)",
+        "filename": "Play_Bomb_Plant_Outro_02 (600873242).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Plant_Outro_02 (600873242).mp3",
+        "sizeBytes": 5516
+      },
+      {
+        "name": "Bomb Plant Outro 03 (254585614)",
+        "filename": "Play_Bomb_Plant_Outro_03 (254585614).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Plant_Outro_03 (254585614).mp3",
+        "sizeBytes": 11876
+      },
+      {
+        "name": "Bomb Plant Outro 04 (61635483)",
+        "filename": "Play_Bomb_Plant_Outro_04 (61635483).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Plant_Outro_04 (61635483).mp3",
+        "sizeBytes": 9860
+      },
+      {
+        "name": "Bomb Plant Outro 05 (153664614)",
+        "filename": "Play_Bomb_Plant_Outro_05 (153664614).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Bomb_Plant_Outro_05 (153664614).mp3",
+        "sizeBytes": 12164
+      },
+      {
+        "name": "Rad Bomb Kill 1P (148063400)",
+        "filename": "Play_Rad_Bomb_Kill_1P (148063400).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Bomb_Kill_1P (148063400).mp3",
+        "sizeBytes": 30140
+      },
+      {
+        "name": "Rad Bomb Kill 1P (322863318)",
+        "filename": "Play_Rad_Bomb_Kill_1P (322863318).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Bomb_Kill_1P (322863318).mp3",
+        "sizeBytes": 31412
+      },
+      {
+        "name": "Rad Bomb Kill 1P (388239633)",
+        "filename": "Play_Rad_Bomb_Kill_1P (388239633).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Bomb_Kill_1P (388239633).mp3",
+        "sizeBytes": 30332
+      },
+      {
+        "name": "Rad Bomb Kill 3P (287048151)",
+        "filename": "Play_Rad_Bomb_Kill_3P (287048151).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Bomb_Kill_3P (287048151).mp3",
+        "sizeBytes": 26108
+      },
+      {
+        "name": "Rad Bomb Kill 3P (551766276)",
+        "filename": "Play_Rad_Bomb_Kill_3P (551766276).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Bomb_Kill_3P (551766276).mp3",
+        "sizeBytes": 25196
+      },
+      {
+        "name": "Rad Bomb Kill 3P (756196685)",
+        "filename": "Play_Rad_Bomb_Kill_3P (756196685).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Bomb_Kill_3P (756196685).mp3",
+        "sizeBytes": 25676
+      },
+      {
+        "name": "Rad Bomb Ring (846346525)",
+        "filename": "Play_Rad_Bomb_Ring (846346525).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Bomb_Ring (846346525).mp3",
+        "sizeBytes": 149516
+      },
+      {
+        "name": "Rad Trans Stage 1 (358105812)",
+        "filename": "Play_Rad_Trans_Stage_1 (358105812).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_1 (358105812).mp3",
+        "sizeBytes": 38660
+      },
+      {
+        "name": "Rad Trans Stage 1 (559517481)",
+        "filename": "Play_Rad_Trans_Stage_1 (559517481).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_1 (559517481).mp3",
+        "sizeBytes": 232940
+      },
+      {
+        "name": "Rad Trans Stage 2 (265052247)",
+        "filename": "Play_Rad_Trans_Stage_2 (265052247).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_2 (265052247).mp3",
+        "sizeBytes": 138884
+      },
+      {
+        "name": "Rad Trans Stage 2 (377530536)",
+        "filename": "Play_Rad_Trans_Stage_2 (377530536).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_2 (377530536).mp3",
+        "sizeBytes": 103772
+      },
+      {
+        "name": "Rad Trans Stage 2 (746671779)",
+        "filename": "Play_Rad_Trans_Stage_2 (746671779).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_2 (746671779).mp3",
+        "sizeBytes": 43340
+      },
+      {
+        "name": "Rad Trans Stage 3 (1032937211)",
+        "filename": "Play_Rad_Trans_Stage_3 (1032937211).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_3 (1032937211).mp3",
+        "sizeBytes": 47252
+      },
+      {
+        "name": "Rad Trans Stage 3 (574335326)",
+        "filename": "Play_Rad_Trans_Stage_3 (574335326).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_3 (574335326).mp3",
+        "sizeBytes": 86108
+      },
+      {
+        "name": "Rad Trans Stage 3 (742217028)",
+        "filename": "Play_Rad_Trans_Stage_3 (742217028).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_3 (742217028).mp3",
+        "sizeBytes": 57308
+      },
+      {
+        "name": "Rad Trans Stage 3 (762482533)",
+        "filename": "Play_Rad_Trans_Stage_3 (762482533).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_3 (762482533).mp3",
+        "sizeBytes": 107276
+      },
+      {
+        "name": "Rad Trans Stage 4 (782396283)",
+        "filename": "Play_Rad_Trans_Stage_4 (782396283).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_4 (782396283).mp3",
+        "sizeBytes": 93404
+      },
+      {
+        "name": "Rad Trans Stage 4 (972628599)",
+        "filename": "Play_Rad_Trans_Stage_4 (972628599).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_4 (972628599).mp3",
+        "sizeBytes": 55652
+      },
+      {
+        "name": "Rad Trans Stage 5 (454787569)",
+        "filename": "Play_Rad_Trans_Stage_5 (454787569).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_5 (454787569).mp3",
+        "sizeBytes": 31292
+      },
+      {
+        "name": "Spike Plant F Start (630425475)",
+        "filename": "Play_Spike_Plant_F_Start (630425475).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Spike_Plant_F_Start (630425475).mp3",
+        "sizeBytes": 21644
+      },
+      {
+        "name": "Spike Plant Start (628863363)",
+        "filename": "Play_Spike_Plant_Start (628863363).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Spike_Plant_Start (628863363).mp3",
+        "sizeBytes": 21860
+      },
+      {
+        "name": "Rad Trans Stage 3 NPE (1037112620)",
+        "filename": "Play_Rad_Trans_Stage_3_NPE (1037112620).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Play_Rad_Trans_Stage_3_NPE (1037112620).mp3",
+        "sizeBytes": 43316
+      },
+      {
+        "name": "Rad Field Stage 3 (SFX)",
+        "filename": "Rad_Field_Stage_3 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Rad_Field_Stage_3 (SFX).mp3",
+        "sizeBytes": 56468
+      },
+      {
+        "name": "Rad Field Stage 4 (SFX)",
+        "filename": "Rad_Field_Stage_4 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Rad_Field_Stage_4 (SFX).mp3",
+        "sizeBytes": 93404
+      },
+      {
+        "name": "Rad Pulse Riser Stage 4 (SFX)",
+        "filename": "Rad_Pulse_Riser_Stage_4 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Rad_Pulse_Riser_Stage_4 (SFX).mp3",
+        "sizeBytes": 107276
+      },
+      {
+        "name": "Rad Pulse Stage 3 (SFX)",
+        "filename": "Rad_Pulse_Stage_3 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Rad_Pulse_Stage_3 (SFX).mp3",
+        "sizeBytes": 57308
+      },
+      {
+        "name": "Rad Pulse Stage 4 (SFX)",
+        "filename": "Rad_Pulse_Stage_4 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Rad_Pulse_Stage_4 (SFX).mp3",
+        "sizeBytes": 55652
+      },
+      {
+        "name": "Rad Trans Stage 1 (SFX)",
+        "filename": "Rad_Trans_Stage_1 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Rad_Trans_Stage_1 (SFX).mp3",
+        "sizeBytes": 38660
+      },
+      {
+        "name": "Rad Trans Stage 3 (SFX)",
+        "filename": "Rad_Trans_Stage_3 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Rad_Trans_Stage_3 (SFX).mp3",
+        "sizeBytes": 22772
+      },
+      {
+        "name": "Rad Trans Stage 5 (SFX)",
+        "filename": "Rad_Trans_Stage_5 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Rad_Trans_Stage_5 (SFX).mp3",
+        "sizeBytes": 31292
+      },
+      {
+        "name": "Rad Pulse Stage 1and2 LoopForNPE (SFX)",
+        "filename": "Rad_Pulse_Stage_1and2_LoopForNPE (SFX).mp3",
+        "relPath": "Valorantek/SFX/Spike/Operations/Rad_Pulse_Stage_1and2_LoopForNPE (SFX).mp3",
+        "sizeBytes": 43316
+      }
+    ],
+    "Spike - Main Spike (Sons Principaux)": [
+      {
+        "name": "Ares Mode Bomb BarrierCountdown (904809858)",
+        "filename": "Play_Ares_Mode_Bomb_BarrierCountdown (904809858).mp3",
+        "relPath": "Valorantek/SFX/Spike/Main_Spike/Play_Ares_Mode_Bomb_BarrierCountdown (904809858).mp3",
+        "sizeBytes": 460748
+      },
+      {
+        "name": "Bomb Plant Big Hit (785060064)",
+        "filename": "Play_Bomb_Plant_Big_Hit (785060064).mp3",
+        "relPath": "Valorantek/SFX/Spike/Main_Spike/Play_Bomb_Plant_Big_Hit (785060064).mp3",
+        "sizeBytes": 19220
+      },
+      {
+        "name": "Spike Plant F Start (630425475)",
+        "filename": "Play_Spike_Plant_F_Start (630425475).mp3",
+        "relPath": "Valorantek/SFX/Spike/Main_Spike/Play_Spike_Plant_F_Start (630425475).mp3",
+        "sizeBytes": 21644
+      },
+      {
+        "name": "Spike Plant Start (628863363)",
+        "filename": "Play_Spike_Plant_Start (628863363).mp3",
+        "relPath": "Valorantek/SFX/Spike/Main_Spike/Play_Spike_Plant_Start (628863363).mp3",
+        "sizeBytes": 21860
+      },
+      {
+        "name": "Bomb Beep Long (437828768)",
+        "filename": "Stop_Bomb_Beep_Long (437828768).mp3",
+        "relPath": "Valorantek/SFX/Spike/Main_Spike/Stop_Bomb_Beep_Long (437828768).mp3",
+        "sizeBytes": 20034
+      },
+      {
+        "name": "Bomb Beep Long (699703246)",
+        "filename": "Stop_Bomb_Beep_Long (699703246).mp3",
+        "relPath": "Valorantek/SFX/Spike/Main_Spike/Stop_Bomb_Beep_Long (699703246).mp3",
+        "sizeBytes": 10988
+      }
+    ],
+    "Maps - Summit (Plummet - Portes Coupe-Feu)": [
+      {
+        "name": "Plummet FireDoor Run (406901626)",
+        "filename": "Stop_Plummet_FireDoor_Run (406901626).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Stop_Plummet_FireDoor_Run (406901626).mp3",
+        "sizeBytes": 21164
+      },
+      {
+        "name": "Plummet FireDoor Debris (SFX)",
+        "filename": "Plummet_FireDoor_Debris (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Plummet_FireDoor_Debris (SFX).mp3",
+        "sizeBytes": 28340
+      },
+      {
+        "name": "Plummet FireDoor Run OptC (SFX)",
+        "filename": "Plummet_FireDoor_Run_OptC (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Plummet_FireDoor_Run_OptC (SFX).mp3",
+        "sizeBytes": 21164
+      },
+      {
+        "name": "Plummet FireDoor Slam OptC (SFX)",
+        "filename": "Plummet_FireDoor_Slam_OptC (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Plummet_FireDoor_Slam_OptC (SFX).mp3",
+        "sizeBytes": 15692
+      },
+      {
+        "name": "Plummet FireDoor Start OptC (SFX)",
+        "filename": "Plummet_FireDoor_Start_OptC (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Plummet_FireDoor_Start_OptC (SFX).mp3",
+        "sizeBytes": 13724
+      },
+      {
+        "name": "Plummet FireDoor Switch Hit 01 (SFX)",
+        "filename": "Plummet_FireDoor_Switch_Hit_01 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Plummet_FireDoor_Switch_Hit_01 (SFX).mp3",
+        "sizeBytes": 8132
+      },
+      {
+        "name": "Plummet FireDoor Switch Hit 02 (SFX)",
+        "filename": "Plummet_FireDoor_Switch_Hit_02 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Plummet_FireDoor_Switch_Hit_02 (SFX).mp3",
+        "sizeBytes": 8372
+      },
+      {
+        "name": "Plummet FireDoor Switch Hit 03 (SFX)",
+        "filename": "Plummet_FireDoor_Switch_Hit_03 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Plummet_FireDoor_Switch_Hit_03 (SFX).mp3",
+        "sizeBytes": 8804
+      },
+      {
+        "name": "Plummet FireDoor Switch Hit 04 (SFX)",
+        "filename": "Plummet_FireDoor_Switch_Hit_04 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Plummet_FireDoor_Switch_Hit_04 (SFX).mp3",
+        "sizeBytes": 9140
+      },
+      {
+        "name": "Plummet FireDoor Switch Hit 05 (SFX)",
+        "filename": "Plummet_FireDoor_Switch_Hit_05 (SFX).mp3",
+        "relPath": "Valorantek/SFX/Maps/Summit_Plummet/Plummet_FireDoor_Switch_Hit_05 (SFX).mp3",
+        "sizeBytes": 17852
+      }
     ]
   },
   "killfeedIcons": [

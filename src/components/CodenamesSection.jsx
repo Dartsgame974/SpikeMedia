@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Code, Shield, Crosshair, Box, Layers, Copy, Check, Sparkles } from 'lucide-react';
+import { Search, Code, Shield, Crosshair, Box, Layers, Copy, Check, MapPin } from 'lucide-react';
 import { toAssetUrl } from '../utils/urlHelper';
 
 export default function CodenamesSection({ registry }) {
-  const [codenamesData, setCodenamesData] = useState({ agents: [], weapons: [], bundles: [], skins: [] });
+  const [codenamesData, setCodenamesData] = useState({ agents: [], weapons: [], maps: [], bundles: [], skins: [] });
   const [loading, setLoading] = useState(true);
-  const [activeSubTab, setActiveSubTab] = useState('agents'); // 'agents', 'weapons', 'bundles', 'skins'
+  const [activeSubTab, setActiveSubTab] = useState('agents'); // 'agents', 'weapons', 'maps', 'bundles', 'skins'
   const [searchQuery, setSearchQuery] = useState('');
   const [copiedCode, setCopiedCode] = useState(null);
 
@@ -46,6 +46,10 @@ export default function CodenamesSection({ registry }) {
     !query || a.displayName.toLowerCase().includes(query) || (a.developerName && a.developerName.toLowerCase().includes(query)) || (a.role && a.role.toLowerCase().includes(query))
   );
 
+  const filteredMaps = (codenamesData.maps || []).filter(m =>
+    !query || m.displayName.toLowerCase().includes(query) || (m.developerName && m.developerName.toLowerCase().includes(query))
+  );
+
   const filteredWeapons = (codenamesData.weapons || []).filter(w => 
     !query || w.displayName.toLowerCase().includes(query) || w.codename.toLowerCase().includes(query) || (w.category && w.category.toLowerCase().includes(query))
   );
@@ -75,7 +79,7 @@ export default function CodenamesSection({ registry }) {
                 </span>
               </div>
               <p className="text-xs text-slate-400 max-w-2xl">
-                Complete mapping between Valorant internal developer codenames and official English display names for Agents, Weapons, Bundles, and Skins.
+                Complete mapping between Valorant internal developer codenames and official English display names for Agents, Maps, Weapons, Bundles, and Skins.
               </p>
             </div>
           </div>
@@ -85,6 +89,11 @@ export default function CodenamesSection({ registry }) {
           <div>
             <span className="text-[#FF4655] font-bold text-sm block">{agentsList.length}</span>
             <span className="text-[10px] text-slate-400 uppercase font-display">Agents</span>
+          </div>
+          <div className="w-px h-6 bg-white/10" />
+          <div>
+            <span className="text-emerald-400 font-bold text-sm block">{(codenamesData.maps || []).length}</span>
+            <span className="text-[10px] text-slate-400 uppercase font-display">Maps</span>
           </div>
           <div className="w-px h-6 bg-white/10" />
           <div>
@@ -105,7 +114,7 @@ export default function CodenamesSection({ registry }) {
           <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />
           <input
             type="text"
-            placeholder="Search by developer codename or English display name (e.g. Aggrobot, Gekko, Afterglow3, RGX 11z Pro, HMG, Odin)..."
+            placeholder="Search by developer codename or English display name (e.g. Canyon, Fracture, Duality, Bind, Bonsai, Split, Aggrobot, Gekko, Odin)..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-[#0B0E14] border border-white/10 rounded-xl pl-10 pr-4 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#FF4655] transition-colors"
@@ -124,6 +133,18 @@ export default function CodenamesSection({ registry }) {
           >
             <Shield className="w-4 h-4" />
             <span>Agents ({filteredAgents.length})</span>
+          </button>
+
+          <button
+            onClick={() => setActiveSubTab('maps')}
+            className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all shrink-0 ${
+              activeSubTab === 'maps'
+                ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/20'
+                : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+            }`}
+          >
+            <MapPin className="w-4 h-4 text-emerald-400" />
+            <span>Maps ({filteredMaps.length})</span>
           </button>
 
           <button
@@ -218,7 +239,49 @@ export default function CodenamesSection({ registry }) {
             </div>
           )}
 
-          {/* 2. BUNDLES TAB */}
+          {/* 2. MAPS TAB */}
+          {activeSubTab === 'maps' && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {filteredMaps.map((mapItem, idx) => (
+                <div 
+                  key={idx}
+                  className="bg-[#131722] p-4 rounded-2xl border border-white/5 hover:border-emerald-500/40 transition-all flex items-center justify-between gap-3 group relative overflow-hidden"
+                >
+                  <div className="flex items-center gap-3 overflow-hidden">
+                    {mapItem.displayIcon ? (
+                      <img src={mapItem.displayIcon} alt="" className="w-12 h-12 rounded-xl object-cover bg-[#0B0E14] p-1 border border-white/5 shrink-0" />
+                    ) : (
+                      <div className="w-12 h-12 rounded-xl bg-[#0B0E14] border border-white/5 flex items-center justify-center text-[#00F0FF] font-bold text-sm shrink-0">
+                        {mapItem.displayName.slice(0, 2)}
+                      </div>
+                    )}
+                    <div className="space-y-0.5 truncate">
+                      <h4 className="font-display font-bold text-sm text-white truncate group-hover:text-emerald-400 transition-colors">
+                        {mapItem.displayName}
+                      </h4>
+                      <span className="text-[10px] font-mono text-emerald-400 bg-emerald-400/10 px-1.5 py-0.5 rounded border border-emerald-400/20 truncate font-semibold inline-block">
+                        {mapItem.developerName}
+                      </span>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={(e) => handleCopy(mapItem.developerName, e)}
+                    title="Copy map codename"
+                    className="p-2 rounded-xl bg-white/5 hover:bg-emerald-500 text-slate-400 hover:text-white transition-colors shrink-0"
+                  >
+                    {copiedCode === mapItem.developerName ? (
+                      <Check className="w-4 h-4 text-emerald-400" />
+                    ) : (
+                      <Copy className="w-4 h-4" />
+                    )}
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* 3. BUNDLES TAB */}
           {activeSubTab === 'bundles' && (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {filteredBundles.map((b, idx) => (

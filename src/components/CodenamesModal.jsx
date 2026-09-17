@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { X, Search, Code, Shield, Crosshair, Box, Layers, Copy, Check } from 'lucide-react';
+import { X, Search, Code, Shield, Crosshair, Box, Layers, Copy, Check, MapPin } from 'lucide-react';
 import { toAssetUrl } from '../utils/urlHelper';
 
 export default function CodenamesModal({ onClose }) {
-  const [data, setData] = useState({ agents: [], weapons: [], bundles: [], skins: [] });
+  const [data, setData] = useState({ agents: [], weapons: [], maps: [], bundles: [], skins: [] });
   const [loading, setLoading] = useState(true);
-  const [activeSubTab, setActiveSubTab] = useState('agents'); // 'agents', 'weapons', 'bundles', 'skins'
+  const [activeSubTab, setActiveSubTab] = useState('agents'); // 'agents', 'weapons', 'maps', 'bundles', 'skins'
   const [searchQuery, setSearchQuery] = useState('');
   const [copiedCode, setCopiedCode] = useState(null);
 
@@ -31,11 +31,15 @@ export default function CodenamesModal({ onClose }) {
   const query = searchQuery.toLowerCase().trim();
 
   const filteredAgents = (data.agents || []).filter(a => 
-    !query || a.displayName.toLowerCase().includes(query) || a.developerName.toLowerCase().includes(query) || a.role.toLowerCase().includes(query)
+    !query || a.displayName.toLowerCase().includes(query) || a.developerName.toLowerCase().includes(query) || (a.role && a.role.toLowerCase().includes(query))
+  );
+
+  const filteredMaps = (data.maps || []).filter(m =>
+    !query || m.displayName.toLowerCase().includes(query) || m.developerName.toLowerCase().includes(query)
   );
 
   const filteredWeapons = (data.weapons || []).filter(w => 
-    !query || w.displayName.toLowerCase().includes(query) || w.codename.toLowerCase().includes(query) || w.category.toLowerCase().includes(query)
+    !query || w.displayName.toLowerCase().includes(query) || w.codename.toLowerCase().includes(query) || (w.category && w.category.toLowerCase().includes(query))
   );
 
   const filteredBundles = (data.bundles || []).filter(b => 
@@ -85,7 +89,7 @@ export default function CodenamesModal({ onClose }) {
             <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />
             <input
               type="text"
-              placeholder="Search by codename or English display name (e.g., Aggrobot, Gekko, Afterglow3, Altitude, Odin)..."
+              placeholder="Search by codename or English display name (e.g., Canyon, Fracture, Duality, Bind, Bonsai, Split, Odin)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-[#0B0E14] border border-white/10 rounded-xl pl-10 pr-4 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#FF4655] transition-colors"
@@ -104,6 +108,18 @@ export default function CodenamesModal({ onClose }) {
             >
               <Shield className="w-3.5 h-3.5" />
               <span>Agents ({filteredAgents.length})</span>
+            </button>
+
+            <button
+              onClick={() => setActiveSubTab('maps')}
+              className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-2 transition-all whitespace-nowrap ${
+                activeSubTab === 'maps'
+                  ? 'bg-[#FF4655] text-white shadow-md shadow-[#FF4655]/20'
+                  : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+              }`}
+            >
+              <MapPin className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Maps ({filteredMaps.length})</span>
             </button>
 
             <button
@@ -181,6 +197,46 @@ export default function CodenamesModal({ onClose }) {
                       >
                         {copiedCode === agent.developerName ? (
                           <Check className="w-4 h-4 text-green-400" />
+                        ) : (
+                          <Copy className="w-4 h-4" />
+                        )}
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* MAPS TAB */}
+              {activeSubTab === 'maps' && (
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                  {filteredMaps.map((mapItem, idx) => (
+                    <div 
+                      key={idx}
+                      className="p-3.5 rounded-2xl bg-[#131722] border border-white/5 hover:border-emerald-500/40 transition-all flex items-center justify-between gap-3 group"
+                    >
+                      <div className="flex items-center gap-3 overflow-hidden">
+                        {mapItem.displayIcon ? (
+                          <img src={mapItem.displayIcon} alt="" className="w-10 h-10 rounded-xl object-cover bg-black/40 p-1 shrink-0" />
+                        ) : (
+                          <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center text-emerald-400 text-xs font-bold shrink-0">
+                            {mapItem.displayName.slice(0, 2)}
+                          </div>
+                        )}
+                        <div className="truncate">
+                          <h4 className="font-display font-bold text-sm text-white truncate">{mapItem.displayName}</h4>
+                          <span className="text-[11px] font-mono text-emerald-400 font-semibold block truncate">
+                            {mapItem.developerName}
+                          </span>
+                        </div>
+                      </div>
+
+                      <button
+                        onClick={() => handleCopy(mapItem.developerName)}
+                        title="Copy map codename"
+                        className="p-2 rounded-lg bg-white/5 hover:bg-emerald-500 text-slate-400 hover:text-white transition-colors shrink-0"
+                      >
+                        {copiedCode === mapItem.developerName ? (
+                          <Check className="w-4 h-4 text-emerald-400" />
                         ) : (
                           <Copy className="w-4 h-4" />
                         )}
