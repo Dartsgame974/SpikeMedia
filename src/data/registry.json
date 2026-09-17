@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T02:39:34.051Z",
+  "generatedAt": "2026-09-17T02:48:07.633Z",
   "roleIcons": {
     "All": "Valorantek/Icons/Roles/TX_UI_RoleIcon_All.png",
     "Controller": "Valorantek/Icons/Roles/TX_UI_RoleIcon_Controller.png",
@@ -26297,7 +26297,7 @@
     }
   ],
   "uiCategories": {
-    "Barrières de Spawn & Zones (Spawn Barriers)": [
+    "Spawn Barriers & Zones": [
       {
         "name": "Play_Rad_Barrier_Dissolve (1005067658)",
         "filename": "Play_Rad_Barrier_Dissolve (1005067658).mp3",
@@ -26329,7 +26329,7 @@
         "sizeBytes": 176972
       }
     ],
-    "Modes de Jeu & Escalade (GunGame)": [
+    "Game Modes & Escalation": [
       {
         "name": "GunGame_RazeUlt_Reload",
         "filename": "GunGame_RazeUlt_Reload (SFX).mp3",
@@ -26633,7 +26633,7 @@
         "sizeBytes": 6284
       }
     ],
-    "Maps - Bind (Duality - Teleporteurs & Portes)": [
+    "Maps - Bind (Duality - Teleporters & Doors)": [
       {
         "name": "Play_HFX_SlidingAirlockDoor_Close_End (113844867)",
         "filename": "Play_HFX_SlidingAirlockDoor_Close_End (113844867).mp3",
@@ -26731,7 +26731,7 @@
         "sizeBytes": 23444
       }
     ],
-    "Maps - Bind (Duality - Teleporteurs & Alarmi)": [
+    "Maps - Bind (Duality - Teleporters & Alarms)": [
       {
         "name": "portal_A_alarm_01",
         "filename": "portal_A_alarm_01 (SFX).mp3",
@@ -26757,7 +26757,7 @@
         "sizeBytes": 31940
       }
     ],
-    "Maps - Fracture (Canyon - Portes Automatiques)": [
+    "Maps - Fracture (Canyon - Automatic Doors)": [
       {
         "name": "Play_BG_Canyon_AutoDoor_Close (1001720751)",
         "filename": "Play_BG_Canyon_AutoDoor_Close (1001720751).mp3",
@@ -26771,7 +26771,7 @@
         "sizeBytes": 30020
       }
     ],
-    "Maps - Lotus (Jam - Portes de Pierre Rotatives)": [
+    "Maps - Lotus (Jam - Rotating Stone Doors)": [
       {
         "name": "Play_Jam_StoneDoor_Break (831393006)",
         "filename": "Play_Jam_StoneDoor_Break (831393006).mp3",
@@ -26797,7 +26797,7 @@
         "sizeBytes": 132788
       }
     ],
-    "Maps - Summit (Plummet - Portes Coupe-Feu)": [
+    "Maps - Summit (Plummet - Fire Doors)": [
       {
         "name": "Plummet_FireDoor_Debris",
         "filename": "Plummet_FireDoor_Debris (SFX).mp3",
@@ -26859,7 +26859,7 @@
         "sizeBytes": 21164
       }
     ],
-    "Maps - The Range (Poveglia - Mannequins Cibles)": [
+    "Maps - The Range (Poveglia - Target Dummies)": [
       {
         "name": "range_dummy_explode_01",
         "filename": "range_dummy_explode_01 (SFX).mp3",
@@ -26931,7 +26931,7 @@
         "sizeBytes": 9980
       }
     ],
-    "Commons Abilitys": [
+    "Common Abilities": [
       {
         "name": "blind fade reyna omen",
         "filename": "blind fade reyna omen.mp3",
@@ -27509,7 +27509,7 @@
         "sizeBytes": 9667
       }
     ],
-    "Flexs": [
+    "Flexes": [
       {
         "name": "Totem_Airhorn_Action_A_1",
         "filename": "Totem_Airhorn_Action_A_1 (SFX).mp3",
@@ -27907,7 +27907,7 @@
         "sizeBytes": 4916
       }
     ],
-    "Carton Rouge Foot": [
+    "Red Card Soccer": [
       {
         "name": "Totem_Penalty_Card_Flip_Flush_01",
         "filename": "Totem_Penalty_Card_Flip_Flush_01 (SFX).mp3",
@@ -28189,7 +28189,7 @@
         "sizeBytes": 9667
       }
     ],
-    "Classoc Spray": [
+    "Classic Spray": [
       {
         "name": "spraycan_spray_01",
         "filename": "spraycan_spray_01 (SFX).mp3",
@@ -29247,7 +29247,7 @@
         "sizeBytes": 23444
       }
     ],
-    "Win & Loose": [
+    "Win & Loss": [
       {
         "name": "UI_EOG_Defeat_SFX_V2",
         "filename": "UI_EOG_Defeat_SFX_V2 (SFX).mp3",
@@ -29267,7 +29267,7 @@
         "sizeBytes": 143876
       }
     ],
-    "Spike - Main Spike (Sons Principaux)": [
+    "Spike - Main Spike": [
       {
         "name": "Play_Ares_Mode_Bomb_BarrierCountdown (904809858)",
         "filename": "Play_Ares_Mode_Bomb_BarrierCountdown (904809858).mp3",
@@ -29305,7 +29305,7 @@
         "sizeBytes": 10988
       }
     ],
-    "Spike - Operations & Stages (Plantation & Impulsions)": [
+    "Spike - Operations & Stages": [
       {
         "name": "Play_Bomb_Defuse_Shut_Down (583190891)",
         "filename": "Play_Bomb_Defuse_Shut_Down (583190891).mp3",

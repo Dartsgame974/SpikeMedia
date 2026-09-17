@@ -357,16 +357,34 @@ if (fs.existsSync(agentsDir)) {
 
 // 4. Index Global UI SFX
 const sfxFolderCategoryMap = {
-  'spike/main_spike': 'Spike - Main Spike (Sons Principaux)',
-  'spike/operations': 'Spike - Operations & Stages (Plantation & Impulsions)',
-  'barriers': 'Barrières de Spawn & Zones (Spawn Barriers)',
-  'gungame': 'Modes de Jeu & Escalade (GunGame)',
-  'maps/bind_duality': 'Maps - Bind (Duality - Teleporteurs & Portes)',
-  'maps/bind_portals': 'Maps - Bind (Duality - Teleporteurs & Alarmi)',
-  'maps/fracture_canyon': 'Maps - Fracture (Canyon - Portes Automatiques)',
-  'maps/lotus_jam': 'Maps - Lotus (Jam - Portes de Pierre Rotatives)',
-  'maps/summit_plummet': 'Maps - Summit (Plummet - Portes Coupe-Feu)',
-  'maps/the_range_poveglia': 'Maps - The Range (Poveglia - Mannequins Cibles)'
+  'spike/main_spike': 'Spike - Main Spike',
+  'spike/operations': 'Spike - Operations & Stages',
+  'barriers': 'Spawn Barriers & Zones',
+  'gungame': 'Game Modes & Escalation',
+  'maps/bind_duality': 'Maps - Bind (Duality - Teleporters & Doors)',
+  'maps/bind_portals': 'Maps - Bind (Duality - Teleporters & Alarms)',
+  'maps/fracture_canyon': 'Maps - Fracture (Canyon - Automatic Doors)',
+  'maps/lotus_jam': 'Maps - Lotus (Jam - Rotating Stone Doors)',
+  'maps/summit_plummet': 'Maps - Summit (Plummet - Fire Doors)',
+  'maps/the_range_poveglia': 'Maps - The Range (Poveglia - Target Dummies)'
+};
+
+const categoryTranslations = {
+  'Barrières de Spawn & Zones (Spawn Barriers)': 'Spawn Barriers & Zones',
+  'Modes de Jeu & Escalade (GunGame)': 'Game Modes & Escalation',
+  'Maps - Bind (Duality - Teleporteurs & Portes)': 'Maps - Bind (Duality - Teleporters & Doors)',
+  'Maps - Bind (Duality - Teleporteurs & Alarmi)': 'Maps - Bind (Duality - Teleporters & Alarms)',
+  'Maps - Fracture (Canyon - Portes Automatiques)': 'Maps - Fracture (Canyon - Automatic Doors)',
+  'Maps - Lotus (Jam - Portes de Pierre Rotatives)': 'Maps - Lotus (Jam - Rotating Stone Doors)',
+  'Maps - Summit (Plummet - Portes Coupe-Feu)': 'Maps - Summit (Plummet - Fire Doors)',
+  'Maps - The Range (Poveglia - Mannequins Cibles)': 'Maps - The Range (Poveglia - Target Dummies)',
+  'Spike - Main Spike (Sons Principaux)': 'Spike - Main Spike',
+  'Spike - Operations & Stages (Plantation & Impulsions)': 'Spike - Operations & Stages',
+  'Commons Abilitys': 'Common Abilities',
+  'Carton Rouge Foot': 'Red Card Soccer',
+  'Classoc Spray': 'Classic Spray',
+  'Win & Loose': 'Win & Loss',
+  'Flexs': 'Flexes'
 };
 
 const uiCategories = {};
@@ -382,6 +400,7 @@ function scanFolderForUiSfx(dirPath, baseRel = '') {
     if (!catName) {
       catName = path.basename(dirPath);
     }
+    catName = categoryTranslations[catName] || catName;
 
     if (catName !== 'Agents' && catName !== 'SFX' && catName !== 'UI') {
       if (!uiCategories[catName]) uiCategories[catName] = [];
