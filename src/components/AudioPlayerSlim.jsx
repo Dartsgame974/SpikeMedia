@@ -99,6 +99,20 @@ export default function AudioPlayerSlim({ title, src, filename }) {
 
   const progressRatio = duration > 0 ? currentTime / duration : 0;
 
+  const isIdle = useMemo(() => {
+    const t = (title || '').toLowerCase();
+    const f = (filename || '').toLowerCase();
+    const s = (src || '').toLowerCase();
+    return t.includes('idle') || f.includes('idle') || s.includes('idle');
+  }, [title, filename, src]);
+
+  const isLoop = useMemo(() => {
+    const t = (title || '').toLowerCase();
+    const f = (filename || '').toLowerCase();
+    const s = (src || '').toLowerCase();
+    return t.includes('loop') || f.includes('loop') || s.includes('loop');
+  }, [title, filename, src]);
+
   return (
     <div className="flex items-center gap-3 px-3 py-2 bg-[#131722]/90 hover:bg-[#1C2230] border border-white/5 hover:border-[#FF4655]/30 rounded-xl transition-colors group">
       <audio ref={audioRef} src={src} preload="none" />
@@ -115,11 +129,23 @@ export default function AudioPlayerSlim({ title, src, filename }) {
 
       {/* Audio Title & Static SVG Waveform (Zero CPU Load) */}
       <div className="flex-1 min-w-0 flex flex-col justify-center gap-1 cursor-pointer" onClick={handleSeek}>
-        <div className="flex items-center justify-between text-xs">
-          <span className="font-medium text-slate-200 truncate group-hover:text-white transition-colors" title={title}>
-            {title}
-          </span>
-          <span className="font-display text-[10px] text-slate-400 shrink-0 ml-2">
+        <div className="flex items-center justify-between text-xs gap-2">
+          <div className="flex items-center gap-1.5 truncate">
+            <span className="font-medium text-slate-200 truncate group-hover:text-white transition-colors" title={title}>
+              {title}
+            </span>
+            {isIdle && (
+              <span className="text-[9px] font-mono uppercase tracking-widest px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30 shrink-0 font-bold">
+                Idle
+              </span>
+            )}
+            {isLoop && !isIdle && (
+              <span className="text-[9px] font-mono uppercase tracking-widest px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 border border-purple-500/30 shrink-0 font-bold">
+                Loop
+              </span>
+            )}
+          </div>
+          <span className="font-display text-[10px] text-slate-400 shrink-0">
             {formatTime(currentTime)} {duration > 0 ? `/ ${formatTime(duration)}` : ''}
           </span>
         </div>
