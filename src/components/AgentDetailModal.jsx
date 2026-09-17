@@ -219,10 +219,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                         <span className="font-medium text-slate-300 whitespace-nowrap">Bust Portrait</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyAssetLink(bustPortrait, e)}
+                            onClick={(e) => handleCopyImageAsset(bustPortrait, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === bustPortrait ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
+                            title="Copy image to clipboard"
                           >
                             {copiedPath === bustPortrait ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
@@ -252,10 +253,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                         <span className="font-medium text-slate-300 whitespace-nowrap">Full Portrait</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyAssetLink(fullPortrait, e)}
+                            onClick={(e) => handleCopyImageAsset(fullPortrait, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === fullPortrait ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
+                            title="Copy image to clipboard"
                           >
                             {copiedPath === fullPortrait ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
@@ -285,10 +287,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                         <span className="font-medium text-slate-300 whitespace-nowrap">Square Icon</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyAssetLink(squareIcon, e)}
+                            onClick={(e) => handleCopyImageAsset(squareIcon, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === squareIcon ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
+                            title="Copy image to clipboard"
                           >
                             {copiedPath === squareIcon ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
@@ -318,10 +321,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                         <span className="font-medium text-slate-300 whitespace-nowrap">Killfeed Icon</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyAssetLink(kfIcon, e)}
+                            onClick={(e) => handleCopyImageAsset(kfIcon, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === kfIcon ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
+                            title="Copy image to clipboard"
                           >
                             {copiedPath === kfIcon ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
@@ -351,10 +355,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                         <span className="font-medium text-slate-300 whitespace-nowrap">Minimap Portrait</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyAssetLink(mmPortrait, e)}
+                            onClick={(e) => handleCopyImageAsset(mmPortrait, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === mmPortrait ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
+                            title="Copy image to clipboard"
                           >
                             {copiedPath === mmPortrait ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
@@ -384,10 +389,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                         <span className="font-medium text-slate-300 truncate" title={art.name}>{art.name}</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyAssetLink(art.path, e)}
+                            onClick={(e) => handleCopyImageAsset(art.path, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === art.path ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
+                            title="Copy image to clipboard"
                           >
                             {copiedPath === art.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
@@ -425,10 +431,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                         </div>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyAssetLink(abil.path, e)}
+                            onClick={(e) => handleCopyImageAsset(abil.path, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === abil.path ? 'text-[#00F0FF] bg-[#00F0FF]/10' : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                             }`}
+                            title="Copy image to clipboard"
                           >
                             {copiedPath === abil.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
@@ -466,10 +473,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                         </div>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyAssetLink(mm.path, e)}
+                            onClick={(e) => handleCopyImageAsset(mm.path, e)}
                             className={`p-1.5 rounded transition-colors ${
                               copiedPath === mm.path ? 'text-[#00F0FF] bg-[#00F0FF]/10' : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                             }`}
+                            title="Copy image to clipboard"
                           >
                             {copiedPath === mm.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>

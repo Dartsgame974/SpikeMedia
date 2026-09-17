@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { X, Download, Copy, Check, ExternalLink } from 'lucide-react';
+import { X, Download, Copy, Check, Image as ImageIcon, Link as LinkIcon } from 'lucide-react';
 import { toAssetUrl } from '../utils/urlHelper';
+import { copyImageAsset, copyLinkText } from '../utils/copyHelper';
 
 export default function ImagePreviewModal({ image, onClose }) {
-  const [copied, setCopied] = useState(false);
+  const [copiedType, setCopiedType] = useState(null); // 'image' | 'link' | null
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -20,11 +21,18 @@ export default function ImagePreviewModal({ image, onClose }) {
   const fullUrl = rawSrc.startsWith('http') ? rawSrc : new URL(src, window.location.href).href;
   const title = image.title || image.name || image.filename || 'Image Asset';
 
-  const handleCopyLink = (e) => {
+  const handleCopyImage = async (e) => {
     e.stopPropagation();
-    navigator.clipboard.writeText(fullUrl);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    const result = await copyImageAsset(rawSrc);
+    setCopiedType(result || 'image');
+    setTimeout(() => setCopiedType(null), 2000);
+  };
+
+  const handleCopyLink = async (e) => {
+    e.stopPropagation();
+    await copyLinkText(rawSrc);
+    setCopiedType('link');
+    setTimeout(() => setCopiedType(null), 2000);
   };
 
   const handleDownload = (e) => {
@@ -47,37 +55,51 @@ export default function ImagePreviewModal({ image, onClose }) {
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Top Bar */}
-        <div className="flex items-center justify-between px-6 py-4 bg-[#0F141C] border-b border-white/5 shrink-0">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 px-6 py-4 bg-[#0F141C] border-b border-white/5 shrink-0">
           <div className="flex items-center gap-3 truncate max-w-xl">
             <h3 className="font-display font-bold text-lg text-white truncate">
               {title}
             </h3>
-            {copied && (
+            {copiedType && (
               <span className="px-2.5 py-0.5 rounded-full bg-[#00F0FF]/10 text-[#00F0FF] border border-[#00F0FF]/20 text-xs font-display font-medium shrink-0 animate-fade-in">
-                Link Copied!
+                {copiedType === 'image' ? 'Image Copied!' : 'Link Copied!'}
               </span>
             )}
           </div>
 
-          <div className="flex items-center gap-2 shrink-0">
-            {/* Copy Direct URL Button */}
+          <div className="flex items-center gap-2 shrink-0 flex-wrap">
+            {/* Copy Image Button */}
+            <button
+              onClick={handleCopyImage}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 border ${
+                copiedType === 'image'
+                  ? 'bg-[#00F0FF] text-black border-[#00F0FF]'
+                  : 'bg-[#00F0FF]/10 text-[#00F0FF] hover:bg-[#00F0FF]/20 border-[#00F0FF]/30'
+              }`}
+              title="Copy image directly to clipboard"
+            >
+              {copiedType === 'image' ? <Check className="w-4 h-4" /> : <ImageIcon className="w-4 h-4" />}
+              <span className="whitespace-nowrap">{copiedType === 'image' ? 'Image Copied!' : 'Copy Image'}</span>
+            </button>
+
+            {/* Copy Direct URL Link Button */}
             <button
               onClick={handleCopyLink}
-              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 border ${
-                copied
-                  ? 'bg-[#00F0FF] text-black border-[#00F0FF]'
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 border ${
+                copiedType === 'link'
+                  ? 'bg-white text-black border-white'
                   : 'bg-[#1C2230] text-slate-300 hover:text-white border-white/10 hover:border-white/20'
               }`}
-              title="Copy direct image URL to clipboard"
+              title="Copy direct image URL link"
             >
-              {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
-              <span className="whitespace-nowrap">{copied ? 'Copied!' : 'Copy Link'}</span>
+              {copiedType === 'link' ? <Check className="w-4 h-4" /> : <LinkIcon className="w-4 h-4" />}
+              <span className="whitespace-nowrap">{copiedType === 'link' ? 'Link Copied!' : 'Copy Link'}</span>
             </button>
 
             {/* Download Button */}
             <button
               onClick={handleDownload}
-              className="px-3.5 py-1.5 rounded-xl bg-[#FF4655] hover:bg-[#FF4655]/90 text-white text-xs font-semibold shadow-md shadow-[#FF4655]/20 transition-all flex items-center gap-2 shrink-0"
+              className="px-3.5 py-1.5 rounded-xl bg-[#FF4655] hover:bg-[#FF4655]/90 text-white text-xs font-semibold shadow-md shadow-[#FF4655]/20 transition-all flex items-center gap-1.5 shrink-0"
               title="Download image file"
             >
               <Download className="w-4 h-4" />
@@ -87,7 +109,7 @@ export default function ImagePreviewModal({ image, onClose }) {
             {/* Close Button */}
             <button
               onClick={onClose}
-              className="p-2 rounded-full bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors border border-white/5 ml-2"
+              className="p-2 rounded-full bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors border border-white/5 ml-1"
               title="Close preview"
             >
               <X className="w-5 h-5" />
