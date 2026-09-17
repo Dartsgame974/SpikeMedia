@@ -356,34 +356,54 @@ if (fs.existsSync(agentsDir)) {
 }
 
 // 4. Index Global UI SFX
-const uiSfxBaseDirs = [
-  path.join(VALORANTEK_DIR, 'SFX', 'SFX'),
-  path.join(VALORANTEK_DIR, 'SFX', 'UI'),
-  path.join(VALORANTEK_DIR, 'SFX')
-];
+const sfxFolderCategoryMap = {
+  'spike/main_spike': 'Spike - Main Spike (Sons Principaux)',
+  'spike/operations': 'Spike - Operations & Stages (Plantation & Impulsions)',
+  'barriers': 'Barrières de Spawn & Zones (Spawn Barriers)',
+  'gungame': 'Modes de Jeu & Escalade (GunGame)',
+  'maps/bind_duality': 'Maps - Bind (Duality - Teleporteurs & Portes)',
+  'maps/bind_portals': 'Maps - Bind (Duality - Teleporteurs & Alarmi)',
+  'maps/fracture_canyon': 'Maps - Fracture (Canyon - Portes Automatiques)',
+  'maps/lotus_jam': 'Maps - Lotus (Jam - Portes de Pierre Rotatives)',
+  'maps/summit_plummet': 'Maps - Summit (Plummet - Portes Coupe-Feu)',
+  'maps/the_range_poveglia': 'Maps - The Range (Poveglia - Mannequins Cibles)'
+};
+
 const uiCategories = {};
 
-for (const baseDir of uiSfxBaseDirs) {
-  if (fs.existsSync(baseDir)) {
-    const entries = fs.readdirSync(baseDir, { withFileTypes: true });
-    for (const entry of entries) {
-      if (entry.isDirectory() && entry.name !== 'Agents' && entry.name !== 'SFX' && entry.name !== 'UI') {
-        const catPath = path.join(baseDir, entry.name);
-        const clips = scanDirAudio(catPath);
-        if (clips.length > 0) {
-          if (!uiCategories[entry.name]) {
-            uiCategories[entry.name] = [];
-          }
-          for (const clip of clips) {
-            if (!uiCategories[entry.name].some(c => c.filename === clip.filename)) {
-              uiCategories[entry.name].push(clip);
-            }
-          }
+function scanFolderForUiSfx(dirPath, baseRel = '') {
+  if (!fs.existsSync(dirPath)) return;
+  const entries = fs.readdirSync(dirPath, { withFileTypes: true });
+
+  const audioClips = scanDirAudio(dirPath);
+  if (audioClips.length > 0 && baseRel) {
+    const normRel = baseRel.replace(/\\/g, '/').toLowerCase();
+    let catName = sfxFolderCategoryMap[normRel];
+    if (!catName) {
+      catName = path.basename(dirPath);
+    }
+
+    if (catName !== 'Agents' && catName !== 'SFX' && catName !== 'UI') {
+      if (!uiCategories[catName]) uiCategories[catName] = [];
+      for (const clip of audioClips) {
+        if (!uiCategories[catName].some(c => c.filename === clip.filename)) {
+          uiCategories[catName].push(clip);
         }
       }
     }
   }
+
+  for (const entry of entries) {
+    if (entry.isDirectory() && entry.name !== 'Agents') {
+      const subPath = path.join(dirPath, entry.name);
+      const subRel = baseRel ? path.join(baseRel, entry.name) : entry.name;
+      scanFolderForUiSfx(subPath, subRel);
+    }
+  }
 }
+
+scanFolderForUiSfx(path.join(VALORANTEK_DIR, 'SFX'));
+scanFolderForUiSfx(path.join(PUBLIC_DIR, 'Valorantek', 'SFX'));
 
 // 5. Index Weapons
 const weaponsDir = path.join(VALORANTEK_DIR, 'weapons');
@@ -480,6 +500,20 @@ const imageLibraries = {
   valorantGradient: scanDirImages(path.join(VALORANTEK_DIR, 'Valorant Gradient'))
 };
 
+// 9. Preserve mapsData from existing registry file if present
+let mapsData = [];
+const srcRegistryFile = path.join(__dirname, 'src', 'data', 'registry.json');
+if (fs.existsSync(srcRegistryFile)) {
+  try {
+    const existingObj = JSON.parse(fs.readFileSync(srcRegistryFile, 'utf-8'));
+    if (Array.isArray(existingObj.mapsData) && existingObj.mapsData.length > 0) {
+      mapsData = existingObj.mapsData;
+    }
+  } catch (e) {
+    console.warn('Could not preserve existing mapsData:', e.message);
+  }
+}
+
 const registry = {
   generatedAt: new Date().toISOString(),
   roleIcons,
@@ -487,8 +521,20 @@ const registry = {
   agents: agentsList,
   uiCategories,
   weapons: weaponsList,
-  imageLibraries
+  imageLibraries,
+  mapsData
 };
 
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(registry, null, 2));
-console.log(`[GitHub Pages] Registry generated with 100% English Spells & UI SFX tree (Movement excluded) for ${agentsList.length} agents at ${OUTPUT_FILE}`);
+
+if (fs.existsSync(srcRegistryFile)) {
+  fs.writeFileSync(srcRegistryFile, JSON.stringify(registry, null, 2));
+}
+
+const distRegistryPath = path.join(__dirname, 'dist', 'registry.json');
+if (fs.existsSync(path.dirname(distRegistryPath))) {
+  fs.writeFileSync(distRegistryPath, JSON.stringify(registry, null, 2));
+}
+
+console.log(`[GitHub Pages] Registry generated successfully with ${agentsList.length} agents, ${Object.keys(uiCategories).length} UI categories, and ${mapsData.length} maps at ${OUTPUT_FILE}`);
+
