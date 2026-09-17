@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { Play, Pause, Download, Volume2, VolumeX, Copy, Check } from 'lucide-react';
 
-export default function AudioPlayerSlim({ title, src, filename }) {
+function AudioPlayerSlim({ title, src, filename }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -213,3 +213,5 @@ export default function AudioPlayerSlim({ title, src, filename }) {
     </div>
   );
 }
+
+export default React.memo(AudioPlayerSlim);
