@@ -106,6 +106,13 @@ export default function AudioPlayerSlim({ title, src, filename }) {
     return t.includes('idle') || f.includes('idle') || s.includes('idle');
   }, [title, filename, src]);
 
+  const isEquip = useMemo(() => {
+    const t = (title || '').toLowerCase();
+    const f = (filename || '').toLowerCase();
+    const s = (src || '').toLowerCase();
+    return t.includes('equip') || f.includes('equip') || s.includes('equip') || t.includes('draw') || f.includes('draw');
+  }, [title, filename, src]);
+
   const isLoop = useMemo(() => {
     const t = (title || '').toLowerCase();
     const f = (filename || '').toLowerCase();
@@ -137,6 +144,11 @@ export default function AudioPlayerSlim({ title, src, filename }) {
             {isIdle && (
               <span className="text-[9px] font-mono uppercase tracking-widest px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30 shrink-0 font-bold">
                 Idle
+              </span>
+            )}
+            {isEquip && (
+              <span className="text-[9px] font-mono uppercase tracking-widest px-1.5 py-0.5 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shrink-0 font-bold">
+                Equip
               </span>
             )}
             {isLoop && !isIdle && (
