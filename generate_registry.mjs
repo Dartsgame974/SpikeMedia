@@ -110,6 +110,16 @@ function resolveDisplayName(filename, rawName) {
   };
 }
 
+function getThumbPath(fullPath) {
+  const ext = path.extname(fullPath);
+  const base = fullPath.slice(0, -ext.length);
+  const thumbFullPath = `${base}_thumb.webp`;
+  if (fs.existsSync(thumbFullPath)) {
+    return getRelativePath(thumbFullPath);
+  }
+  return getRelativePath(fullPath);
+}
+
 function scanDirImages(dirPath) {
   let results = [];
   if (!fs.existsSync(dirPath)) return results;
@@ -119,7 +129,7 @@ function scanDirImages(dirPath) {
     const fullPath = path.join(dirPath, entry.name);
     if (entry.isDirectory()) {
       results = results.concat(scanDirImages(fullPath));
-    } else if (entry.isFile() && (entry.name.endsWith('.png') || entry.name.endsWith('.jpg') || entry.name.endsWith('.webp') || entry.name.endsWith('.svg'))) {
+    } else if (entry.isFile() && !entry.name.endsWith('_thumb.webp') && (entry.name.endsWith('.png') || entry.name.endsWith('.jpg') || entry.name.endsWith('.webp') || entry.name.endsWith('.svg'))) {
       const rawName = entry.name.replace(/\.[^/.]+$/, '');
       const meta = resolveDisplayName(entry.name, rawName);
       results.push({
@@ -128,6 +138,7 @@ function scanDirImages(dirPath) {
         codename: meta.codename,
         filename: entry.name,
         relPath: getRelativePath(fullPath),
+        thumbPath: getThumbPath(fullPath),
         sizeBytes: fs.statSync(fullPath).size
       });
     }
@@ -263,12 +274,13 @@ if (fs.existsSync(agentsDir)) {
     if (fs.existsSync(postersFolderPath)) {
       const pFiles = fs.readdirSync(postersFolderPath);
       for (const pf of pFiles) {
-        if (pf.endsWith('.jpg') || pf.endsWith('.png') || pf.endsWith('.webp')) {
+        if (!pf.endsWith('_thumb.webp') && (pf.endsWith('.jpg') || pf.endsWith('.png') || pf.endsWith('.webp'))) {
           const pfPath = path.join(postersFolderPath, pf);
           assets.posters.push({
             filename: pf,
             name: pf.replace(/\.[^/.]+$/, ''),
             relPath: getRelativePath(pfPath),
+            thumbPath: getThumbPath(pfPath),
             sizeBytes: fs.statSync(pfPath).size
           });
         }

@@ -440,7 +440,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                           onClick={() => setPreviewImage({ src: poster.relPath, title: `${agent.name} - ${poster.name}` })}
                           className="h-48 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-1 cursor-pointer relative"
                         >
-                          <img src={toAssetUrl(poster.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                          <img src={toAssetUrl(poster.thumbPath || poster.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
                           <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                             <Eye className="w-6 h-6 text-white" />
                           </div>
@@ -579,7 +579,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                         onClick={() => setPreviewImage({ src: poster.relPath, title: `${agent.name} - ${poster.name}` })}
                         className="h-56 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-1 cursor-pointer relative"
                       >
-                        <img src={toAssetUrl(poster.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <img src={toAssetUrl(poster.thumbPath || poster.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                           <Eye className="w-7 h-7 text-white" />
                         </div>

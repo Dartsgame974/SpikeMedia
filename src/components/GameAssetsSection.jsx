@@ -371,7 +371,7 @@ export default function GameAssetsSection({ registry }) {
                           className="h-28 bg-[#0B0E14] rounded-xl p-2 flex items-center justify-center cursor-pointer relative"
                           title="Click for full-screen preview"
                         >
-                          <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                          <img src={toAssetUrl(img.thumbPath || img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" loading="lazy" decoding="async" />
                         </div>
                         <div className="flex items-center justify-between text-xs pt-1">
                           <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
@@ -465,7 +465,7 @@ export default function GameAssetsSection({ registry }) {
                           className="h-32 bg-[#0B0E14] rounded-xl p-3 flex items-center justify-center cursor-pointer relative"
                           title="Click for full-screen preview"
                         >
-                          <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                          <img src={toAssetUrl(img.thumbPath || img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" loading="lazy" decoding="async" />
                         </div>
                         <div className="flex items-center justify-between text-xs pt-1">
                           <span className="font-medium text-slate-300 truncate" title={img.displayName || img.name}>{img.displayName || img.name}</span>
@@ -521,7 +521,7 @@ export default function GameAssetsSection({ registry }) {
                 className="h-32 bg-[#0B0E14] rounded-xl p-3 flex items-center justify-center cursor-pointer relative"
                 title="Click for full-screen preview"
               >
-                <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                <img src={toAssetUrl(img.thumbPath || img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" loading="lazy" decoding="async" />
               </div>
               <div className="flex items-center justify-between text-xs">
                 <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
@@ -572,7 +572,7 @@ export default function GameAssetsSection({ registry }) {
                 className="h-28 bg-[#0B0E14] rounded-xl p-3 flex items-center justify-center cursor-pointer relative"
                 title="Click for full-screen preview"
               >
-                <img src={toAssetUrl(img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                <img src={toAssetUrl(img.thumbPath || img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" loading="lazy" decoding="async" />
               </div>
               <div className="flex items-center justify-between text-xs">
                 <span className="font-medium text-slate-300 truncate" title={img.name}>{img.name}</span>
@@ -666,7 +666,7 @@ export default function GameAssetsSection({ registry }) {
                             className="h-44 bg-[#0B0E14] rounded-xl overflow-hidden cursor-pointer relative"
                             title="Click for full-screen preview"
                           >
-                            <img src={toAssetUrl(img.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                            <img src={toAssetUrl(img.thumbPath || img.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" decoding="async" />
                           </div>
                           <div className="space-y-2">
                             <div className="flex items-center justify-between gap-2">
