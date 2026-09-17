@@ -25,7 +25,7 @@ export default function App() {
     const baseUrl = import.meta.env.BASE_URL || './';
     const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
     const primaryUrl = '/api/registry';
-    const fallbackUrl = `${cleanBase}registry.json?t=${Date.now()}`;
+    const fallbackUrl = `${cleanBase}registry.json`;
 
     fetch(primaryUrl)
       .then(res => {

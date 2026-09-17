@@ -12,6 +12,10 @@ export default function GameAssetsSection({ registry }) {
   const [previewImage, setPreviewImage] = useState(null);
   const [copiedPath, setCopiedPath] = useState(null);
   const [copiedType, setCopiedType] = useState(null);
+  const [visibleCounts, setVisibleCounts] = useState({});
+
+  const getLimit = (key, defaultLimit = 36) => visibleCounts[key] || defaultLimit;
+  const handleShowMore = (key, step = 36) => setVisibleCounts(prev => ({ ...prev, [key]: (prev[key] || 36) + step }));
 
   const weapons = registry?.weapons || [];
   const mapsData = registry?.mapsData || [];
@@ -364,7 +368,7 @@ export default function GameAssetsSection({ registry }) {
                     <span className="text-slate-500 font-normal">({iconsList.length} items)</span>
                   </h3>
                   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-                    {iconsList.map((img, idx) => (
+                    {iconsList.slice(0, getLimit(cat, 36)).map((img, idx) => (
                       <div key={idx} className="bg-[#131722] p-3 rounded-2xl border border-white/5 flex flex-col justify-between space-y-2 group hover:border-[#00F0FF]/30 transition-all">
                         <div
                           onClick={() => setPreviewImage({ src: img.relPath, title: img.name })}
@@ -410,6 +414,16 @@ export default function GameAssetsSection({ registry }) {
                       </div>
                     ))}
                   </div>
+                  {iconsList.length > getLimit(cat, 36) && (
+                    <div className="pt-2 flex justify-center">
+                      <button
+                        onClick={() => handleShowMore(cat, 48)}
+                        className="px-4 py-2 rounded-xl text-xs font-display font-semibold bg-[#131722] hover:bg-[#00F0FF] hover:text-black text-slate-300 border border-white/10 transition-colors"
+                      >
+                        Show More ({iconsList.length - getLimit(cat, 36)} remaining)
+                      </button>
+                    </div>
+                  )}
                 </div>
               );
             })}
@@ -656,7 +670,7 @@ export default function GameAssetsSection({ registry }) {
                     <span className="text-slate-500 font-normal">({bgList.length} wallpapers)</span>
                   </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    {bgList.map((img, idx) => {
+                    {bgList.slice(0, getLimit(`bg_${cat}`, 24)).map((img, idx) => {
                       const displayTitle = getRealBundleDisplayName(img);
                       const displayCode = getRealBundleCodename(img);
                       return (
@@ -717,6 +731,16 @@ export default function GameAssetsSection({ registry }) {
                     );
                     })}
                   </div>
+                  {bgList.length > getLimit(`bg_${cat}`, 24) && (
+                    <div className="pt-2 flex justify-center">
+                      <button
+                        onClick={() => handleShowMore(`bg_${cat}`, 24)}
+                        className="px-4 py-2 rounded-xl text-xs font-display font-semibold bg-[#131722] hover:bg-[#FF4655] hover:text-white text-slate-300 border border-white/10 transition-colors"
+                      >
+                        Show More Wallpapers ({bgList.length - getLimit(`bg_${cat}`, 24)} remaining)
+                      </button>
+                    </div>
+                  )}
                 </div>
               );
             })}
