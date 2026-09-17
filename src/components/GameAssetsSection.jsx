@@ -383,7 +383,7 @@ export default function GameAssetsSection({ registry }) {
                                   ? 'bg-purple-600 text-white'
                                   : 'bg-purple-600/20 hover:bg-purple-600 text-purple-300 hover:text-white border border-purple-500/30'
                               }`}
-                              title="Copy image to clipboard"
+                              title="Copier l'image dans le presse-papier"
                             >
                               {copiedPath === img.relPath && copiedType === 'image' ? <Check className="w-3.5 h-3.5" /> : <FileImage className="w-3.5 h-3.5" />}
                             </button>
@@ -394,7 +394,7 @@ export default function GameAssetsSection({ registry }) {
                                   ? 'text-[#00F0FF] bg-[#00F0FF]/10'
                                   : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                               }`}
-                              title="Copy link"
+                              title="Copier le lien"
                             >
                               {copiedPath === img.relPath && copiedType === 'link' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                             </button>
@@ -477,7 +477,7 @@ export default function GameAssetsSection({ registry }) {
                                   ? 'bg-purple-600 text-white'
                                   : 'bg-purple-600/20 hover:bg-purple-600 text-purple-300 hover:text-white border border-purple-500/30'
                               }`}
-                              title="Copy image to clipboard"
+                              title="Copier l'image dans le presse-papier"
                             >
                               {copiedPath === img.relPath && copiedType === 'image' ? <Check className="w-3.5 h-3.5" /> : <FileImage className="w-3.5 h-3.5" />}
                             </button>
@@ -488,7 +488,7 @@ export default function GameAssetsSection({ registry }) {
                                   ? 'text-[#00F0FF] bg-[#00F0FF]/10'
                                   : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                               }`}
-                              title="Copy link"
+                              title="Copier le lien"
                             >
                               {copiedPath === img.relPath && copiedType === 'link' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                             </button>
@@ -533,7 +533,7 @@ export default function GameAssetsSection({ registry }) {
                         ? 'bg-purple-600 text-white'
                         : 'bg-purple-600/20 hover:bg-purple-600 text-purple-300 hover:text-white border border-purple-500/30'
                     }`}
-                    title="Copy image to clipboard"
+                    title="Copier l'image dans le presse-papier"
                   >
                     {copiedPath === img.relPath && copiedType === 'image' ? <Check className="w-3.5 h-3.5" /> : <FileImage className="w-3.5 h-3.5" />}
                   </button>
@@ -544,7 +544,7 @@ export default function GameAssetsSection({ registry }) {
                         ? 'text-[#00F0FF] bg-[#00F0FF]/10'
                         : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                     }`}
-                    title="Copy link"
+                    title="Copier le lien"
                   >
                     {copiedPath === img.relPath && copiedType === 'link' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                   </button>
@@ -584,7 +584,7 @@ export default function GameAssetsSection({ registry }) {
                         ? 'bg-purple-600 text-white'
                         : 'bg-purple-600/20 hover:bg-purple-600 text-purple-300 hover:text-white border border-purple-500/30'
                     }`}
-                    title="Copy image to clipboard"
+                    title="Copier l'image dans le presse-papier"
                   >
                     {copiedPath === img.relPath && copiedType === 'image' ? <Check className="w-3.5 h-3.5" /> : <FileImage className="w-3.5 h-3.5" />}
                   </button>
@@ -595,7 +595,7 @@ export default function GameAssetsSection({ registry }) {
                         ? 'text-[#00F0FF] bg-[#00F0FF]/10'
                         : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                     }`}
-                    title="Copy link"
+                    title="Copier le lien"
                   >
                     {copiedPath === img.relPath && copiedType === 'link' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                   </button>
@@ -780,10 +780,10 @@ export default function GameAssetsSection({ registry }) {
                           ? 'bg-purple-600 text-white'
                           : 'bg-purple-600/20 hover:bg-purple-600 text-purple-300 hover:text-white border border-purple-500/30'
                       }`}
-                      title="Copy image to clipboard"
+                      title="Copier l'image dans le presse-papier"
                     >
                       {copiedPath === sp.rawPng && copiedType === 'image' ? <Check className="w-3 h-3" /> : <FileImage className="w-3 h-3" />}
-                      <span>Copy Image</span>
+                      <span>Copier Image</span>
                     </button>
                     <button
                       onClick={(e) => handleCopyLink(sp.rawPng, e)}
@@ -792,7 +792,7 @@ export default function GameAssetsSection({ registry }) {
                           ? 'bg-[#00F0FF] text-black'
                           : 'bg-[#00F0FF]/10 hover:bg-[#00F0FF] text-[#00F0FF] hover:text-black border border-[#00F0FF]/20'
                       }`}
-                      title="Copy link"
+                      title="Copier le lien"
                     >
                       {copiedPath === sp.rawPng && copiedType === 'link' ? <Check className="w-3 h-3" /> : <Copy className="w-3.5 h-3.5" />}
                       <span>Copy Link</span>
@@ -918,7 +918,7 @@ export default function GameAssetsSection({ registry }) {
                         ? 'bg-purple-600 text-white'
                         : 'bg-purple-600/20 hover:bg-purple-600 text-purple-300 hover:text-white border border-purple-500/30'
                     }`}
-                    title="Copy image to clipboard"
+                    title="Copier l'image dans le presse-papier"
                   >
                     {copiedPath === img.relPath && copiedType === 'image' ? <Check className="w-3.5 h-3.5" /> : <FileImage className="w-3.5 h-3.5" />}
                   </button>
@@ -929,7 +929,7 @@ export default function GameAssetsSection({ registry }) {
                         ? 'text-[#00F0FF] bg-[#00F0FF]/10'
                         : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                     }`}
-                    title="Copy link"
+                    title="Copier le lien"
                   >
                     {copiedPath === img.relPath && copiedType === 'link' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                   </button>
@@ -969,7 +969,7 @@ export default function GameAssetsSection({ registry }) {
                         ? 'bg-purple-600 text-white'
                         : 'bg-purple-600/20 hover:bg-purple-600 text-purple-300 hover:text-white border border-purple-500/30'
                     }`}
-                    title="Copy image to clipboard"
+                    title="Copier l'image dans le presse-papier"
                   >
                     {copiedPath === img.relPath && copiedType === 'image' ? <Check className="w-3.5 h-3.5" /> : <FileImage className="w-3.5 h-3.5" />}
                   </button>
@@ -980,7 +980,7 @@ export default function GameAssetsSection({ registry }) {
                         ? 'text-[#00F0FF] bg-[#00F0FF]/10'
                         : 'text-slate-400 hover:text-[#00F0FF] hover:bg-white/5'
                     }`}
-                    title="Copy link"
+                    title="Copier le lien"
                   >
                     {copiedPath === img.relPath && copiedType === 'link' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                   </button>

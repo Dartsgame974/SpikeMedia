@@ -55,6 +55,13 @@ export default function RecommendedSites() {
 
   const onlineTools = [
     {
+      title: 'Official Valorant Wiki (PlayValorant)',
+      desc: 'Official Valorant Wiki - The definitive, official partnership wiki for Valorant game info, agent stats, weapon damage models, lore, and updates. Highly recommended over Fandom for accurate game data.',
+      url: 'https://wiki.playvalorant.com/en-us/',
+      tag: 'Official Partnership Wiki',
+      icon: <BookOpen className="w-5 h-5 text-[#FF4655]" />
+    },
+    {
       title: 'Upscayl - Free & Local AI Image Upscaler',
       desc: '100% free, open-source, and local AI image upscaler powered by Real-ESRGAN. Upscales low-res textures, render stills, and artwork without generative AI hallucinations.',
       url: 'https://upscayl.org/',
@@ -125,6 +132,13 @@ export default function RecommendedSites() {
   ];
 
   const featuredCreators = [
+    {
+      name: 'KINGDOM LABORATORIES',
+      handle: '@KLaboratories',
+      url: 'https://x.com/KLaboratories',
+      tag: 'Lore & Content Creation',
+      desc: 'KINGDOM LABORATORIES - Official lore, games, server news, and content creation fan page. Essential creator account for deep lore and game updates.'
+    },
     {
       name: 'valohabercisi',
       handle: '@valohabercisi',

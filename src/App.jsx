@@ -1,22 +1,22 @@
-import React, { useState, useEffect, useCallback, useTransition } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Header from './components/Header';
 import AgentGrid from './components/AgentGrid';
 import AgentDetailModal from './components/AgentDetailModal';
 import UISFXSection from './components/UISFXSection';
 import GameAssetsSection from './components/GameAssetsSection';
+import FontsSection from './components/FontsSection';
 import CodenamesSection from './components/CodenamesSection';
 import RecommendedSites from './components/RecommendedSites';
 import SearchOverlay from './components/SearchOverlay';
 import CodenamesModal from './components/CodenamesModal';
 import Footer from './components/Footer';
-import { Disc, Radio, Search, Sparkles, Loader2, Box, Code, ChevronRight } from 'lucide-react';
+import { Disc, Radio, Search, Sparkles, Loader2, Box, Code, Type } from 'lucide-react';
 import { toAssetUrl } from './utils/urlHelper';
 
 export default function App() {
   const [registryData, setRegistryData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState('agents'); // 'agents', 'ui', 'gameassets', 'codenames', 'community'
-  const [isPendingTab, startTabTransition] = useTransition();
+  const [activeTab, setActiveTab] = useState('agents'); // 'agents', 'ui', 'gameassets', 'fonts', 'codenames', 'community'
   const [selectedAgent, setSelectedAgent] = useState(null);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isCodenamesOpen, setIsCodenamesOpen] = useState(false);
@@ -50,29 +50,18 @@ export default function App() {
     fetchRegistry();
   }, [fetchRegistry]);
 
-  const handleTabChange = (tabId) => {
-    startTabTransition(() => {
-      setActiveTab(tabId);
-    });
-  };
-
   const stats = {
     agentsCount: registryData?.agentsCount || 0,
     uiCategoriesCount: Object.keys(registryData?.uiCategories || {}).length
   };
 
   return (
-    <div className="min-h-screen bg-[#0B0E14] text-slate-100 flex flex-col font-sans relative">
+    <div className="min-h-screen bg-[#0B0E14] text-slate-100 flex flex-col font-sans">
       
-      {/* Top Animated Progress Line for Instant Feedback */}
-      {isPendingTab && (
-        <div className="fixed top-0 left-0 right-0 z-50 h-1 bg-gradient-to-r from-[#FF4655] via-[#00F0FF] to-[#FF4655] animate-pulse" />
-      )}
-
       {/* Header */}
       <Header
         activeTab={activeTab}
-        setActiveTab={handleTabChange}
+        setActiveTab={setActiveTab}
         onOpenSearch={() => setIsSearchOpen(true)}
         stats={stats}
       />
@@ -102,79 +91,76 @@ export default function App() {
             </h1>
 
             <p className="text-sm text-slate-300 leading-relaxed">
-              Explore, stream, and download individual agent abilities, killfeed icons, minimap icons, high-res portraits, weapons, and general UI sound effects.
+              Explore, stream, and download individual agent abilities, killfeed icons, minimap icons, high-res portraits, posters, typography fonts, weapons, and general UI sound effects.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-wrap items-center gap-2.5 pt-3">
+            <div className="flex flex-wrap items-center gap-3 pt-2">
               <button
-                onClick={() => handleTabChange('agents')}
-                className={`px-4 py-3 rounded-2xl text-xs font-display font-bold flex items-center justify-between gap-3 transition-all active:scale-[0.98] ${
+                onClick={() => setActiveTab('agents')}
+                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'agents'
-                    ? 'bg-[#FF4655] text-white shadow-xl shadow-[#FF4655]/30 border-2 border-[#FF4655]'
-                    : 'bg-[#131722] hover:bg-[#1C2230] text-slate-100 border border-white/15 hover:border-[#FF4655]/50 shadow-md'
+                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                    : 'bg-[#131722] text-slate-300 hover:text-white border border-white/10'
                 }`}
               >
-                <div className="flex items-center gap-2.5">
-                  <Disc className="w-4 h-4 text-[#FF4655]" />
-                  <span>Browse Agents ({stats.agentsCount})</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-slate-400" />
+                <Disc className="w-4 h-4" />
+                Browse {stats.agentsCount} Agents
               </button>
 
               <button
-                onClick={() => handleTabChange('ui')}
-                className={`px-4 py-3 rounded-2xl text-xs font-display font-bold flex items-center justify-between gap-3 transition-all active:scale-[0.98] ${
+                onClick={() => setActiveTab('ui')}
+                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'ui'
-                    ? 'bg-[#FF4655] text-white shadow-xl shadow-[#FF4655]/30 border-2 border-[#FF4655]'
-                    : 'bg-[#131722] hover:bg-[#1C2230] text-slate-100 border border-white/15 hover:border-[#00F0FF]/50 shadow-md'
+                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                    : 'bg-[#131722] text-slate-300 hover:text-white border border-white/10'
                 }`}
               >
-                <div className="flex items-center gap-2.5">
-                  <Radio className="w-4 h-4 text-[#00F0FF]" />
-                  <span>UI SFX Catalog</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-slate-400" />
+                <Radio className="w-4 h-4 text-[#00F0FF]" />
+                UI SFX Catalog
               </button>
 
               <button
-                onClick={() => handleTabChange('gameassets')}
-                className={`px-4 py-3 rounded-2xl text-xs font-display font-bold flex items-center justify-between gap-3 transition-all active:scale-[0.98] ${
+                onClick={() => setActiveTab('gameassets')}
+                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'gameassets'
-                    ? 'bg-[#FF4655] text-white shadow-xl shadow-[#FF4655]/30 border-2 border-[#FF4655]'
-                    : 'bg-[#131722] hover:bg-[#1C2230] text-slate-100 border border-white/15 hover:border-[#00F0FF]/50 shadow-md'
+                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                    : 'bg-[#131722] text-slate-300 hover:text-white border border-white/10'
                 }`}
               >
-                <div className="flex items-center gap-2.5">
-                  <Box className="w-4 h-4 text-[#00F0FF]" />
-                  <span>Weapons & Assets</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-slate-400" />
+                <Box className="w-4 h-4 text-[#00F0FF]" />
+                Weapons & Assets
               </button>
 
               <button
-                onClick={() => handleTabChange('codenames')}
-                className={`px-4 py-3 rounded-2xl text-xs font-display font-bold flex items-center justify-between gap-3 transition-all active:scale-[0.98] ${
-                  activeTab === 'codenames'
-                    ? 'bg-[#FF4655] text-white shadow-xl shadow-[#FF4655]/30 border-2 border-[#FF4655]'
-                    : 'bg-[#131722] hover:bg-[#1C2230] text-slate-100 border border-white/15 hover:border-[#FF4655]/50 shadow-md'
+                onClick={() => setActiveTab('fonts')}
+                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
+                  activeTab === 'fonts'
+                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                    : 'bg-[#131722] text-slate-300 hover:text-white border border-white/10'
                 }`}
               >
-                <div className="flex items-center gap-2.5">
-                  <Code className="w-4 h-4 text-[#FF4655]" />
-                  <span>Codenames Index</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-slate-400" />
+                <Type className="w-4 h-4 text-[#00F0FF]" />
+                Fonts Catalog
+              </button>
+
+              <button
+                onClick={() => setActiveTab('codenames')}
+                className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
+                  activeTab === 'codenames'
+                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                    : 'bg-[#FF4655]/10 hover:bg-[#FF4655]/20 text-[#FF4655] border border-[#FF4655]/20'
+                }`}
+              >
+                <Code className="w-3.5 h-3.5" />
+                Codenames Index
               </button>
 
               <button
                 onClick={() => setIsSearchOpen(true)}
-                className="px-4 py-3 rounded-2xl text-xs font-display font-bold bg-white/10 hover:bg-white/15 text-white border border-white/20 flex items-center justify-between gap-2.5 transition-colors shadow-md active:scale-[0.98]"
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 flex items-center gap-2 transition-colors"
               >
-                <div className="flex items-center gap-2">
-                  <Search className="w-4 h-4 text-slate-300" />
-                  <span>Quick Search</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-slate-400" />
+                <Search className="w-3.5 h-3.5" />
+                Quick Search
               </button>
             </div>
           </div>
@@ -185,11 +171,6 @@ export default function App() {
           <div className="py-24 flex flex-col items-center justify-center gap-3 text-slate-400 font-display text-sm">
             <Loader2 className="w-8 h-8 text-[#FF4655] animate-spin" />
             <span>Loading Valorant Asset Index...</span>
-          </div>
-        ) : isPendingTab ? (
-          <div className="py-24 flex flex-col items-center justify-center gap-3 text-slate-400 font-display text-sm">
-            <Loader2 className="w-8 h-8 text-[#00F0FF] animate-spin" />
-            <span>Loading section...</span>
           </div>
         ) : (
           <>
@@ -212,6 +193,10 @@ export default function App() {
               <GameAssetsSection
                 registry={registryData}
               />
+            )}
+
+            {activeTab === 'fonts' && (
+              <FontsSection />
             )}
 
             {activeTab === 'codenames' && (
@@ -259,3 +244,5 @@ export default function App() {
     </div>
   );
 }
+
+

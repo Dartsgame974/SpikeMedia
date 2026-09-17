@@ -38,6 +38,78 @@ function scanDirAudio(dirPath) {
   return results;
 }
 
+let codenameMap = {};
+const mapPath = path.join(PUBLIC_DIR, 'codename_map.json');
+if (fs.existsSync(mapPath)) {
+  try {
+    codenameMap = JSON.parse(fs.readFileSync(mapPath, 'utf-8'));
+  } catch (err) {
+    console.warn('Could not load codename_map.json:', err.message);
+  }
+}
+
+function extractCodename(filename) {
+  const nameNoExt = filename.replace(/\.[^/.]+$/, '');
+  const m = nameNoExt.match(/GN_([A-Za-z0-9_]+)_Bundle/i) 
+         || nameNoExt.match(/Bundle_([A-Za-z0-9_]+)/i)
+         || nameNoExt.match(/AnimatedStoreBundle_([A-Za-z0-9_]+)/i);
+  if (m) return m[1];
+  return nameNoExt.replace(/^GN_/, '').replace(/_Bundle_Featured$/, '').replace(/_Bundle_Purchase$/, '').replace(/_Feature$/, '').replace(/_MASTER$/, '').replace(/^Bundle_/, '').replace(/^TX_UI_/, '');
+}
+
+const vctTeams = {
+  'koi': 'VCT KOI', 'fnatic': 'VCT FNATIC', 'fnc': 'VCT FNATIC', 'sentinels': 'VCT Sentinels', 'sen': 'VCT Sentinels',
+  'paperrex': 'VCT Paper Rex', 'prx': 'VCT Paper Rex', 'vitality': 'VCT Team Vitality', 'vit': 'VCT Team Vitality',
+  'gentlemates': 'VCT Gentle Mates', 'm8': 'VCT Gentle Mates', 'karmine': 'VCT Karmine Corp', 'kc': 'VCT Karmine Corp',
+  'loud': 'VCT LOUD', 'drx': 'VCT DRX', 't1': 'VCT T1', 'edg': 'VCT EDward Gaming', 'navi': 'VCT Natus Vincere',
+  'g2': 'VCT G2 Esports', 'c9': 'VCT Cloud9', 'nrg': 'VCT NRG', 'krx': 'VCT DRX', 'zeta': 'VCT ZETA DIVISION',
+  'dfm': 'VCT DetonatioN FocusMe', 'bleed': 'VCT BLEED', 'bilibili': 'VCT Bilibili Gaming', 'blg': 'VCT Bilibili Gaming',
+  'trace': 'VCT Trace Esports', 'giantx': 'VCT GIANTX', 'gx': 'VCT GIANTX', 'heretics': 'VCT Team Heretics',
+  'th': 'VCT Team Heretics', 'kru': 'VCT KRÜ Esports', 'leviatan': 'VCT Leviatán', 'lev': 'VCT Leviatán',
+  'mibr': 'VCT MIBR', '100t': 'VCT 100 Thieves', 'talon': 'VCT Talon Esports', 'secret': 'VCT Team Secret',
+  'rrq': 'VCT Rex Regum Qeon', 'global': 'VCT Global Esports', 'ge': 'VCT Global Esports', 'furia': 'VCT FURIA', 'fur': 'VCT FURIA'
+};
+
+function resolveDisplayName(filename, rawName) {
+  const nameNoExt = filename.replace(/\.[^/.]+$/, '');
+  
+  // 1. VCT Team Capsules check
+  for (const [teamCode, teamName] of Object.entries(vctTeams)) {
+    const pattern = new RegExp('\\b' + teamCode + '\\b', 'i');
+    if (pattern.test(nameNoExt) || nameNoExt.toLowerCase().includes(`_${teamCode}_`) || nameNoExt.toLowerCase().startsWith(`bundle_${teamCode}`) || nameNoExt.toLowerCase().startsWith(`${teamCode}_`)) {
+      return {
+        displayName: `${teamName} Team Capsule`,
+        codename: `VCT_${teamCode.toUpperCase()}`
+      };
+    }
+  }
+
+  const code = extractCodename(filename);
+  const codeClean = code.replace(/_/g, '').toLowerCase();
+  let matched = codenameMap[codeClean] || codenameMap[code.toLowerCase()];
+  
+  if (matched) {
+    const suffixes = [' Knuckle Knife', ' Knife', ' Blade', ' Staff', ' Sword', ' Dagger', ' Axe', ' Hammer', ' Scythe', ' Katana', ' Vandal', ' Phantom', ' Operator', ' Odin', ' Ares', ' Spectre', ' Stinger', ' Bucky', ' Judge', ' Guardian', ' Marshal', ' Classic', ' Shorty', ' Frenzy', ' Ghost', ' Sheriff', ' Melee', ' Outlaw'];
+    for (const suff of suffixes) {
+      if (matched.includes(suff)) {
+        matched = matched.replace(suff, '');
+        break;
+      }
+    }
+    const finalTitle = (!matched.endsWith('Bundle') && !matched.includes('Vol.') && !matched.includes('Champions')) ? `${matched} Bundle` : matched;
+    return {
+      displayName: finalTitle,
+      codename: code
+    };
+  }
+
+  const cleanFallback = nameNoExt.replace(/^GN_/, '').replace(/_Bundle_Featured$/, '').replace(/_Bundle_Purchase$/, '').replace(/_Feature$/, '').replace(/_MASTER$/, '').replace(/^Bundle_/, '').replace(/^TX_UI_/, '').replace(/_/g, ' ');
+  return {
+    displayName: cleanFallback,
+    codename: code
+  };
+}
+
 function scanDirImages(dirPath) {
   let results = [];
   if (!fs.existsSync(dirPath)) return results;
@@ -48,8 +120,12 @@ function scanDirImages(dirPath) {
     if (entry.isDirectory()) {
       results = results.concat(scanDirImages(fullPath));
     } else if (entry.isFile() && (entry.name.endsWith('.png') || entry.name.endsWith('.jpg') || entry.name.endsWith('.webp') || entry.name.endsWith('.svg'))) {
+      const rawName = entry.name.replace(/\.[^/.]+$/, '');
+      const meta = resolveDisplayName(entry.name, rawName);
       results.push({
-        name: entry.name.replace(/\.[^/.]+$/, ''),
+        name: rawName,
+        displayName: meta.displayName,
+        codename: meta.codename,
         filename: entry.name,
         relPath: getRelativePath(fullPath),
         sizeBytes: fs.statSync(fullPath).size
@@ -128,7 +204,7 @@ if (fs.existsSync(agentsDir)) {
         const json = JSON.parse(fs.readFileSync(infoFile, 'utf-8'));
         meta.name = json.displayName || folderName;
         meta.developerName = json.developerName || '';
-        meta.description = '';
+        meta.description = ''; // Omit residual localized description
         meta.tags = json.characterTags || [];
         if (json.role) {
           meta.role = json.role.displayName || 'Unknown';
@@ -147,7 +223,7 @@ if (fs.existsSync(agentsDir)) {
     };
     const normRole = roleKeyMap[meta.role?.toLowerCase()] || 'Duelist';
     meta.role = normRole;
-    meta.tags = [];
+    meta.tags = []; // Purge all localized French tags
 
     if (roleIcons[normRole]) {
       meta.roleIconPath = roleIcons[normRole];
@@ -162,32 +238,39 @@ if (fs.existsSync(agentsDir)) {
       killfeedIcon: null,
       minimapIcon: null,
       abilityIcons: [],
-      extraArtworks: []
+      posters: []
     };
 
     const filesInFolder = fs.readdirSync(folderPath);
     for (const file of filesInFolder) {
       const filePath = path.join(folderPath, file);
       if (fs.statSync(filePath).isFile()) {
-        const fileLower = file.toLowerCase();
-        if (fileLower.endsWith('.png') || fileLower.endsWith('.jpg') || fileLower.endsWith('.webp')) {
-          if (file.includes('icone_carree') || file.includes('icone_petite')) {
-            assets.squareIcon = getRelativePath(filePath);
-          } else if (file.includes('portrait_buste')) {
-            assets.bustPortrait = getRelativePath(filePath);
-          } else if (file.includes('portrait_complet')) {
-            if (!assets.fullPortrait) assets.fullPortrait = getRelativePath(filePath);
-          } else if (file.includes('fond_ecran')) {
-            assets.wallpaper = getRelativePath(filePath);
-          } else if (file.includes('icone_killfeed')) {
-            assets.killfeedIcon = getRelativePath(filePath);
-          } else {
-            assets.extraArtworks.push({
-              name: file.replace(/\.[^/.]+$/, '').replace(/_/g, ' '),
-              filename: file,
-              path: getRelativePath(filePath)
-            });
-          }
+        if (file.includes('icone_carree') || file.includes('icone_petite')) {
+          assets.squareIcon = getRelativePath(filePath);
+        } else if (file.includes('portrait_buste')) {
+          assets.bustPortrait = getRelativePath(filePath);
+        } else if (file.includes('portrait_complet')) {
+          if (!assets.fullPortrait) assets.fullPortrait = getRelativePath(filePath);
+        } else if (file.includes('fond_ecran')) {
+          assets.wallpaper = getRelativePath(filePath);
+        } else if (file.includes('icone_killfeed')) {
+          assets.killfeedIcon = getRelativePath(filePath);
+        }
+      }
+    }
+
+    const postersFolderPath = path.join(folderPath, 'posters');
+    if (fs.existsSync(postersFolderPath)) {
+      const pFiles = fs.readdirSync(postersFolderPath);
+      for (const pf of pFiles) {
+        if (pf.endsWith('.jpg') || pf.endsWith('.png') || pf.endsWith('.webp')) {
+          const pfPath = path.join(postersFolderPath, pf);
+          assets.posters.push({
+            filename: pf,
+            name: pf.replace(/\.[^/.]+$/, ''),
+            relPath: getRelativePath(pfPath),
+            sizeBytes: fs.statSync(pfPath).size
+          });
         }
       }
     }
@@ -294,7 +377,7 @@ if (fs.existsSync(agentsDir)) {
     }
     assets.minimapIcons = minimapIcons;
 
-    // Agent SFX Scanning (GitHub Version: Spells & Abilities & Special Effects ONLY, exclude Movement/Footsteps)
+    // Agent SFX Scanning from 100% English SFX/UI/Agents (Deduplicated)
     let agentSfxDir = path.join(VALORANTEK_DIR, 'SFX', 'UI', 'Agents', folderName);
     if (!fs.existsSync(agentSfxDir) && meta.developerName) {
       agentSfxDir = path.join(VALORANTEK_DIR, 'SFX', 'UI', 'Agents', meta.developerName);
@@ -311,12 +394,6 @@ if (fs.existsSync(agentsDir)) {
       for (const entry of subEntries) {
         const fullPath = path.join(dir, entry.name);
         if (entry.isDirectory()) {
-          // EXCLUDE MOVEMENT / DEPLACEMENTS FOR GITHUB VERSION AS REQUESTED
-          const nameLower = entry.name.toLowerCase();
-          if (nameLower.includes('movement') || nameLower.includes('deplacement') || nameLower.includes('footstep')) {
-            continue;
-          }
-
           const children = fs.readdirSync(fullPath, { withFileTypes: true });
           const hasSubDirs = children.some(c => c.isDirectory());
 
@@ -469,7 +546,7 @@ if (fs.existsSync(backgroundDir)) {
   }
 }
 
-// 7. Index Spritesheets with Animated Formats
+// 7. Index Spritesheets with Animated Formats (GIF, MOV, MP4, raw PNG)
 const spritesheetDir = path.join(VALORANTEK_DIR, 'Spritesheet');
 const spritesheetsList = [];
 if (fs.existsSync(spritesheetDir)) {
@@ -556,4 +633,3 @@ if (fs.existsSync(path.dirname(distRegistryPath))) {
 }
 
 console.log(`[GitHub Pages] Registry generated successfully with ${agentsList.length} agents, ${Object.keys(uiCategories).length} UI categories, and ${mapsData.length} maps at ${OUTPUT_FILE}`);
-
