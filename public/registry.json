@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T05:14:51.057Z",
+  "generatedAt": "2026-09-17T05:19:10.131Z",
   "roleIcons": {
     "All": "Valorantek/Icons/Roles/TX_UI_RoleIcon_All.png",
     "Controller": "Valorantek/Icons/Roles/TX_UI_RoleIcon_Controller.png",
@@ -826,7 +826,20 @@
             "path": "Valorantek/agents/Breach/abilities/Breach_X_Onde_sismique.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "VALORANT_Breach_Dark.jpg",
+            "name": "VALORANT_Breach_Dark",
+            "relPath": "Valorantek/agents/Breach/posters/VALORANT_Breach_Dark.jpg",
+            "sizeBytes": 4951848
+          },
+          {
+            "filename": "VALORANT_Breach_Light.jpg",
+            "name": "VALORANT_Breach_Light",
+            "relPath": "Valorantek/agents/Breach/posters/VALORANT_Breach_Light.jpg",
+            "sizeBytes": 4692716
+          }
+        ],
         "minimapPortraits": [
           "Valorantek/Icons/Minimap/Minimap_Thumbnails/TX_MinimapPortrait_Breach.png"
         ],
@@ -1356,7 +1369,20 @@
             "path": "Valorantek/agents/Brimstone/abilities/Brimstone_X_Rayon_orbital.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "VALORANT_Brimm_Dark.jpg",
+            "name": "VALORANT_Brimm_Dark",
+            "relPath": "Valorantek/agents/Brimstone/posters/VALORANT_Brimm_Dark.jpg",
+            "sizeBytes": 5111788
+          },
+          {
+            "filename": "VALORANT_Brimm_Light.jpg",
+            "name": "VALORANT_Brimm_Light",
+            "relPath": "Valorantek/agents/Brimstone/posters/VALORANT_Brimm_Light.jpg",
+            "sizeBytes": 4741378
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Brimstone.png"
         ],
@@ -4406,7 +4432,20 @@
             "path": "Valorantek/agents/Cypher/abilities/Cypher_X_Vol_neural.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "VALORANT_Cypher_Dark.jpg",
+            "name": "VALORANT_Cypher_Dark",
+            "relPath": "Valorantek/agents/Cypher/posters/VALORANT_Cypher_Dark.jpg",
+            "sizeBytes": 4686228
+          },
+          {
+            "filename": "VALORANT_Cypher_Light.jpg",
+            "name": "VALORANT_Cypher_Light",
+            "relPath": "Valorantek/agents/Cypher/posters/VALORANT_Cypher_Light.jpg",
+            "sizeBytes": 4542920
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Cypher.png"
         ],
@@ -5343,7 +5382,56 @@
             "path": "Valorantek/agents/Deadlock/abilities/Deadlock_X_Annihilation.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "California Sand DL TYPE_dl.png",
+            "name": "California Sand DL TYPE_dl",
+            "relPath": "Valorantek/agents/Deadlock/posters/California Sand DL TYPE_dl.png",
+            "sizeBytes": 5296728
+          },
+          {
+            "filename": "Deadlock Intro Frame 2.png",
+            "name": "Deadlock Intro Frame 2",
+            "relPath": "Valorantek/agents/Deadlock/posters/Deadlock Intro Frame 2.png",
+            "sizeBytes": 2648390
+          },
+          {
+            "filename": "DL_Tease_16x9_v1.jpg",
+            "name": "DL_Tease_16x9_v1",
+            "relPath": "Valorantek/agents/Deadlock/posters/DL_Tease_16x9_v1.jpg",
+            "sizeBytes": 1487318
+          },
+          {
+            "filename": "Ep_7_Keyart_4k.jpg",
+            "name": "Ep_7_Keyart_4k",
+            "relPath": "Valorantek/agents/Deadlock/posters/Ep_7_Keyart_4k.jpg",
+            "sizeBytes": 1192202
+          },
+          {
+            "filename": "VALORANT_Deadlock_Wallpapers_4k_Dark1.jpg",
+            "name": "VALORANT_Deadlock_Wallpapers_4k_Dark1",
+            "relPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_Dark1.jpg",
+            "sizeBytes": 2731986
+          },
+          {
+            "filename": "VALORANT_Deadlock_Wallpapers_4k_Dark2.jpg",
+            "name": "VALORANT_Deadlock_Wallpapers_4k_Dark2",
+            "relPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_Dark2.jpg",
+            "sizeBytes": 2336637
+          },
+          {
+            "filename": "VALORANT_Deadlock_Wallpapers_4k_light1.jpg",
+            "name": "VALORANT_Deadlock_Wallpapers_4k_light1",
+            "relPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_light1.jpg",
+            "sizeBytes": 3334893
+          },
+          {
+            "filename": "VALORANT_Deadlock_Wallpapers_4k_light2.jpg",
+            "name": "VALORANT_Deadlock_Wallpapers_4k_light2",
+            "relPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_light2.jpg",
+            "sizeBytes": 3186777
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Deadlock.png"
         ],
@@ -6970,7 +7058,62 @@
             "path": "Valorantek/agents/Gekko/abilities/Gekko_X_Mordicus.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_1.jpg",
+            "name": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_1",
+            "relPath": "Valorantek/agents/Gekko/posters/Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_1.jpg",
+            "sizeBytes": 1217090
+          },
+          {
+            "filename": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_2.jpg",
+            "name": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_2",
+            "relPath": "Valorantek/agents/Gekko/posters/Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_2.jpg",
+            "sizeBytes": 1099171
+          },
+          {
+            "filename": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_3.jpg",
+            "name": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_3",
+            "relPath": "Valorantek/agents/Gekko/posters/Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_3.jpg",
+            "sizeBytes": 929053
+          },
+          {
+            "filename": "Gekko_Dark_1.png",
+            "name": "Gekko_Dark_1",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Dark_1.png",
+            "sizeBytes": 2155991
+          },
+          {
+            "filename": "Gekko_Dark_2.png",
+            "name": "Gekko_Dark_2",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Dark_2.png",
+            "sizeBytes": 1781431
+          },
+          {
+            "filename": "Gekko_Green_.png",
+            "name": "Gekko_Green_",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Green_.png",
+            "sizeBytes": 2466948
+          },
+          {
+            "filename": "Gekko_Light_1.png",
+            "name": "Gekko_Light_1",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Light_1.png",
+            "sizeBytes": 2371711
+          },
+          {
+            "filename": "Gekko_Light_2.png",
+            "name": "Gekko_Light_2",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Light_2.png",
+            "sizeBytes": 2359983
+          },
+          {
+            "filename": "Gekko_Purple_.png",
+            "name": "Gekko_Purple_",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Purple_.png",
+            "sizeBytes": 1941499
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Gekko.png"
         ],
@@ -7983,7 +8126,56 @@
             "path": "Valorantek/agents/Harbor/abilities/Harbor_X_Raz-de-marée.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "1-Light_Harbor.png",
+            "name": "1-Light_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/1-Light_Harbor.png",
+            "sizeBytes": 3305388
+          },
+          {
+            "filename": "1-NightMode_Harbor.png",
+            "name": "1-NightMode_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/1-NightMode_Harbor.png",
+            "sizeBytes": 2619244
+          },
+          {
+            "filename": "2-Light_Harbor.png",
+            "name": "2-Light_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/2-Light_Harbor.png",
+            "sizeBytes": 3512697
+          },
+          {
+            "filename": "2-NightMode_Harbor.png",
+            "name": "2-NightMode_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/2-NightMode_Harbor.png",
+            "sizeBytes": 2313045
+          },
+          {
+            "filename": "3-Light _ Green_Harbor.png",
+            "name": "3-Light _ Green_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/3-Light _ Green_Harbor.png",
+            "sizeBytes": 3427526
+          },
+          {
+            "filename": "3_NightMode_Harbor.png",
+            "name": "3_NightMode_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/3_NightMode_Harbor.png",
+            "sizeBytes": 1947750
+          },
+          {
+            "filename": "Ep5_3_Harbor_Endcard_3.png",
+            "name": "Ep5_3_Harbor_Endcard_3",
+            "relPath": "Valorantek/agents/Harbor/posters/Ep5_3_Harbor_Endcard_3.png",
+            "sizeBytes": 9601513
+          },
+          {
+            "filename": "Harbor Wallpaper 1.png",
+            "name": "Harbor Wallpaper 1",
+            "relPath": "Valorantek/agents/Harbor/posters/Harbor Wallpaper 1.png",
+            "sizeBytes": 2853990
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Kilfeed_Assist_Damage.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Mage.png"
@@ -8845,6 +9037,36 @@
         ],
         "posters": [
           {
+            "filename": "e7a3_ISO_Xbox_Desktop Horiz 1920x1080 (No copy No Logo).png",
+            "name": "e7a3_ISO_Xbox_Desktop Horiz 1920x1080 (No copy No Logo)",
+            "relPath": "Valorantek/agents/Iso/posters/e7a3_ISO_Xbox_Desktop Horiz 1920x1080 (No copy No Logo).png",
+            "sizeBytes": 1357460
+          },
+          {
+            "filename": "Ep7a3_ISO_ Roit Client Login Page 1440p.png",
+            "name": "Ep7a3_ISO_ Roit Client Login Page 1440p",
+            "relPath": "Valorantek/agents/Iso/posters/Ep7a3_ISO_ Roit Client Login Page 1440p.png",
+            "sizeBytes": 1694741
+          },
+          {
+            "filename": "Ep7a3_ISO_Nvidia_4k_3840x2160.png",
+            "name": "Ep7a3_ISO_Nvidia_4k_3840x2160",
+            "relPath": "Valorantek/agents/Iso/posters/Ep7a3_ISO_Nvidia_4k_3840x2160.png",
+            "sizeBytes": 2588249
+          },
+          {
+            "filename": "Ep7_Act3_KV_EndCard_16x9_4k.jpg",
+            "name": "Ep7_Act3_KV_EndCard_16x9_4k",
+            "relPath": "Valorantek/agents/Iso/posters/Ep7_Act3_KV_EndCard_16x9_4k.jpg",
+            "sizeBytes": 2129554
+          },
+          {
+            "filename": "Ep7_Act3_KV_EndCard_21x9_4k.jpg",
+            "name": "Ep7_Act3_KV_EndCard_21x9_4k",
+            "relPath": "Valorantek/agents/Iso/posters/Ep7_Act3_KV_EndCard_21x9_4k.jpg",
+            "sizeBytes": 2239264
+          },
+          {
             "filename": "POSER CHAMP 2024 3VERTICAL ISO.jpg",
             "name": "POSER CHAMP 2024 3VERTICAL ISO",
             "relPath": "Valorantek/agents/Iso/posters/POSER CHAMP 2024 3VERTICAL ISO.jpg",
@@ -9487,6 +9709,12 @@
         ],
         "posters": [
           {
+            "filename": "China_CG_Jett_Jump_Full.jpg",
+            "name": "China_CG_Jett_Jump_Full",
+            "relPath": "Valorantek/agents/Jett/posters/China_CG_Jett_Jump_Full.jpg",
+            "sizeBytes": 9349882
+          },
+          {
             "filename": "POSER CHAMP 2024 4horizontal JETT.jpg",
             "name": "POSER CHAMP 2024 4horizontal JETT",
             "relPath": "Valorantek/agents/Jett/posters/POSER CHAMP 2024 4horizontal JETT.jpg",
@@ -9497,6 +9725,60 @@
             "name": "POSER CHAMP 2024 5VERTICAL JETT",
             "relPath": "Valorantek/agents/Jett/posters/POSER CHAMP 2024 5VERTICAL JETT.jpg",
             "sizeBytes": 1078906
+          },
+          {
+            "filename": "VALORANT_Jett.jpg",
+            "name": "VALORANT_Jett",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett.jpg",
+            "sizeBytes": 2051029
+          },
+          {
+            "filename": "VALORANT_Jett_Dark.jpg",
+            "name": "VALORANT_Jett_Dark",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Dark.jpg",
+            "sizeBytes": 4679451
+          },
+          {
+            "filename": "VALORANT_JETT_Duotoned.jpg",
+            "name": "VALORANT_JETT_Duotoned",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_JETT_Duotoned.jpg",
+            "sizeBytes": 1409716
+          },
+          {
+            "filename": "VALORANT_JETT_LIGHT.jpg",
+            "name": "VALORANT_JETT_LIGHT",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_JETT_LIGHT.jpg",
+            "sizeBytes": 4609647
+          },
+          {
+            "filename": "VALORANT_Jett_Red (1).jpg",
+            "name": "VALORANT_Jett_Red (1)",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Red (1).jpg",
+            "sizeBytes": 2319421
+          },
+          {
+            "filename": "VALORANT_Jett_Red.jpg",
+            "name": "VALORANT_Jett_Red",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Red.jpg",
+            "sizeBytes": 2319421
+          },
+          {
+            "filename": "VALORANT_Jett_Type.jpg",
+            "name": "VALORANT_Jett_Type",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Type.jpg",
+            "sizeBytes": 1760964
+          },
+          {
+            "filename": "VALORANT_phx_jett_2.jpg",
+            "name": "VALORANT_phx_jett_2",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_phx_jett_2.jpg",
+            "sizeBytes": 2421038
+          },
+          {
+            "filename": "VALORANT_phx_jett_brand.jpg",
+            "name": "VALORANT_phx_jett_brand",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_phx_jett_brand.jpg",
+            "sizeBytes": 2141364
           }
         ],
         "minimapPortraits": [
@@ -10985,7 +11267,32 @@
             "path": "Valorantek/agents/Killjoy/abilities/Killjoy_X_Confinement.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "KillJoy_Wallpapers_blue1.jpg",
+            "name": "KillJoy_Wallpapers_blue1",
+            "relPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_blue1.jpg",
+            "sizeBytes": 5115478
+          },
+          {
+            "filename": "KillJoy_Wallpapers_blue2.jpg",
+            "name": "KillJoy_Wallpapers_blue2",
+            "relPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_blue2.jpg",
+            "sizeBytes": 5004919
+          },
+          {
+            "filename": "KillJoy_Wallpapers_LIGHT.jpg",
+            "name": "KillJoy_Wallpapers_LIGHT",
+            "relPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_LIGHT.jpg",
+            "sizeBytes": 4932231
+          },
+          {
+            "filename": "KillJoy_Wallpapers_Red.jpg",
+            "name": "KillJoy_Wallpapers_Red",
+            "relPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_Red.jpg",
+            "sizeBytes": 5001493
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Killjoy1.png"
         ],
@@ -15791,6 +16098,18 @@
             "name": "POSER CHAMP 2024 5VERTICALOMEN",
             "relPath": "Valorantek/agents/Omen/posters/POSER CHAMP 2024 5VERTICALOMEN.jpg",
             "sizeBytes": 601204
+          },
+          {
+            "filename": "VALORANT_Omen_Dark.jpg",
+            "name": "VALORANT_Omen_Dark",
+            "relPath": "Valorantek/agents/Omen/posters/VALORANT_Omen_Dark.jpg",
+            "sizeBytes": 4982331
+          },
+          {
+            "filename": "VALORANT_Omen_Light.jpg",
+            "name": "VALORANT_Omen_Light",
+            "relPath": "Valorantek/agents/Omen/posters/VALORANT_Omen_Light.jpg",
+            "sizeBytes": 4890329
           }
         ],
         "killfeedIcons": [
@@ -16229,7 +16548,32 @@
             "path": "Valorantek/agents/Phoenix/abilities/Phoenix_X_Revanche.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "VALORANT_Phoenix_Dark.jpg",
+            "name": "VALORANT_Phoenix_Dark",
+            "relPath": "Valorantek/agents/Phoenix/posters/VALORANT_Phoenix_Dark.jpg",
+            "sizeBytes": 4838113
+          },
+          {
+            "filename": "VALORANT_Phoenix_Light.jpg",
+            "name": "VALORANT_Phoenix_Light",
+            "relPath": "Valorantek/agents/Phoenix/posters/VALORANT_Phoenix_Light.jpg",
+            "sizeBytes": 4588261
+          },
+          {
+            "filename": "VALORANT_PHX.jpg",
+            "name": "VALORANT_PHX",
+            "relPath": "Valorantek/agents/Phoenix/posters/VALORANT_PHX.jpg",
+            "sizeBytes": 1914414
+          },
+          {
+            "filename": "VALORANT_phx_jett.jpg",
+            "name": "VALORANT_phx_jett",
+            "relPath": "Valorantek/agents/Phoenix/posters/VALORANT_phx_jett.jpg",
+            "sizeBytes": 2353337
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Phoenix.png"
         ],
@@ -16830,7 +17174,20 @@
             "path": "Valorantek/agents/Raze/abilities/Raze_X_Bouquet_final.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "VALORANT_Raze_Dark.jpg",
+            "name": "VALORANT_Raze_Dark",
+            "relPath": "Valorantek/agents/Raze/posters/VALORANT_Raze_Dark.jpg",
+            "sizeBytes": 5144021
+          },
+          {
+            "filename": "VALORANT_Raze_Light.jpg",
+            "name": "VALORANT_Raze_Light",
+            "relPath": "Valorantek/agents/Raze/posters/VALORANT_Raze_Light.jpg",
+            "sizeBytes": 4910071
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Raze.png"
         ],
@@ -17814,7 +18171,38 @@
             "path": "Valorantek/agents/Reyna/abilities/Reyna_X_Impératrice.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "Reyna_Wallpaper_1.jpg",
+            "name": "Reyna_Wallpaper_1",
+            "relPath": "Valorantek/agents/Reyna/posters/Reyna_Wallpaper_1.jpg",
+            "sizeBytes": 1753720
+          },
+          {
+            "filename": "VALORANT_Reyna_Dark.jpg",
+            "name": "VALORANT_Reyna_Dark",
+            "relPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_Dark.jpg",
+            "sizeBytes": 4910554
+          },
+          {
+            "filename": "VALORANT_Reyna_Dark_2.jpg",
+            "name": "VALORANT_Reyna_Dark_2",
+            "relPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_Dark_2.jpg",
+            "sizeBytes": 4603079
+          },
+          {
+            "filename": "VALORANT_Reyna_light.jpg",
+            "name": "VALORANT_Reyna_light",
+            "relPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_light.jpg",
+            "sizeBytes": 4740217
+          },
+          {
+            "filename": "VALORANT_Reyna_Red.jpg",
+            "name": "VALORANT_Reyna_Red",
+            "relPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_Red.jpg",
+            "sizeBytes": 4771330
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Reyna.png"
         ],
@@ -18174,7 +18562,68 @@
             "path": "Valorantek/agents/Sage/abilities/Sage_X_Résurrection.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "LNY_Sage-1_TravelPrep.jpg",
+            "name": "LNY_Sage-1_TravelPrep",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-1_TravelPrep.jpg",
+            "sizeBytes": 4349953
+          },
+          {
+            "filename": "LNY_Sage-2_ShoppingA.jpg",
+            "name": "LNY_Sage-2_ShoppingA",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-2_ShoppingA.jpg",
+            "sizeBytes": 2727164
+          },
+          {
+            "filename": "LNY_Sage-2_ShoppingB.jpg",
+            "name": "LNY_Sage-2_ShoppingB",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-2_ShoppingB.jpg",
+            "sizeBytes": 2620426
+          },
+          {
+            "filename": "LNY_Sage-2_ShoppingC.jpg",
+            "name": "LNY_Sage-2_ShoppingC",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-2_ShoppingC.jpg",
+            "sizeBytes": 2736849
+          },
+          {
+            "filename": "LNY_Sage-3_NightMarket.jpg",
+            "name": "LNY_Sage-3_NightMarket",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-3_NightMarket.jpg",
+            "sizeBytes": 3329109
+          },
+          {
+            "filename": "LNY_Sage-4_BeachDay.jpg",
+            "name": "LNY_Sage-4_BeachDay",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-4_BeachDay.jpg",
+            "sizeBytes": 3789929
+          },
+          {
+            "filename": "LNY_Sage-5_CallBack.jpg",
+            "name": "LNY_Sage-5_CallBack",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-5_CallBack.jpg",
+            "sizeBytes": 3298899
+          },
+          {
+            "filename": "LNY_Sage-6_WrapUp.jpg",
+            "name": "LNY_Sage-6_WrapUp",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-6_WrapUp.jpg",
+            "sizeBytes": 2661996
+          },
+          {
+            "filename": "VALORANT_Sage_dark.jpg",
+            "name": "VALORANT_Sage_dark",
+            "relPath": "Valorantek/agents/Sage/posters/VALORANT_Sage_dark.jpg",
+            "sizeBytes": 4744588
+          },
+          {
+            "filename": "VALORANT_Sage_Light.jpg",
+            "name": "VALORANT_Sage_Light",
+            "relPath": "Valorantek/agents/Sage/posters/VALORANT_Sage_Light.jpg",
+            "sizeBytes": 4527535
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Sage1.png"
         ],
@@ -18768,7 +19217,32 @@
             "path": "Valorantek/agents/Skye/abilities/Skye_X_Traqueurs.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "Skye_KeyArt_PR_1.jpg",
+            "name": "Skye_KeyArt_PR_1",
+            "relPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_1.jpg",
+            "sizeBytes": 5348336
+          },
+          {
+            "filename": "Skye_KeyArt_PR_2.jpg",
+            "name": "Skye_KeyArt_PR_2",
+            "relPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_2.jpg",
+            "sizeBytes": 5773129
+          },
+          {
+            "filename": "Skye_KeyArt_PR_3.jpg",
+            "name": "Skye_KeyArt_PR_3",
+            "relPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_3.jpg",
+            "sizeBytes": 5395172
+          },
+          {
+            "filename": "Skye_KeyArt_PR_4.jpg",
+            "name": "Skye_KeyArt_PR_4",
+            "relPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_4.jpg",
+            "sizeBytes": 5431995
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Skye.png"
         ],
@@ -19927,7 +20401,20 @@
             "path": "Valorantek/agents/Sova/abilities/Sova_X_Fureur_du_chasseur.png"
           }
         ],
-        "posters": [],
+        "posters": [
+          {
+            "filename": "VALORANT_Sova_Dark.jpg",
+            "name": "VALORANT_Sova_Dark",
+            "relPath": "Valorantek/agents/Sova/posters/VALORANT_Sova_Dark.jpg",
+            "sizeBytes": 4892038
+          },
+          {
+            "filename": "VALORANT_Sova_Light.jpg",
+            "name": "VALORANT_Sova_Light",
+            "relPath": "Valorantek/agents/Sova/posters/VALORANT_Sova_Light.jpg",
+            "sizeBytes": 4600614
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Sova1.png"
         ],
@@ -23099,10 +23586,52 @@
         ],
         "posters": [
           {
+            "filename": "FirstLook_Viper_Concept.jpg",
+            "name": "FirstLook_Viper_Concept",
+            "relPath": "Valorantek/agents/Viper/posters/FirstLook_Viper_Concept.jpg",
+            "sizeBytes": 5434844
+          },
+          {
             "filename": "VALORANT STANDARS THUMBNAIL 3VIPER.jpg",
             "name": "VALORANT STANDARS THUMBNAIL 3VIPER",
             "relPath": "Valorantek/agents/Viper/posters/VALORANT STANDARS THUMBNAIL 3VIPER.jpg",
             "sizeBytes": 475606
+          },
+          {
+            "filename": "VALORANT_Viper.jpg",
+            "name": "VALORANT_Viper",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_Viper.jpg",
+            "sizeBytes": 1511903
+          },
+          {
+            "filename": "VALORANT_VIPER_2 (1).jpg",
+            "name": "VALORANT_VIPER_2 (1)",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_VIPER_2 (1).jpg",
+            "sizeBytes": 1822584
+          },
+          {
+            "filename": "VALORANT_VIPER_2.jpg",
+            "name": "VALORANT_VIPER_2",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_VIPER_2.jpg",
+            "sizeBytes": 1822584
+          },
+          {
+            "filename": "VALORANT_Viper_Dark.jpg",
+            "name": "VALORANT_Viper_Dark",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_Viper_Dark.jpg",
+            "sizeBytes": 4707771
+          },
+          {
+            "filename": "VALORANT_Viper_Light.jpg",
+            "name": "VALORANT_Viper_Light",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_Viper_Light.jpg",
+            "sizeBytes": 4712731
+          },
+          {
+            "filename": "Vertical Viper.jpg",
+            "name": "Vertical Viper",
+            "relPath": "Valorantek/agents/Viper/posters/Vertical Viper.jpg",
+            "sizeBytes": 1108432
           }
         ],
         "killfeedIcons": [
@@ -33120,6 +33649,278 @@
     },
     "logos": [
       {
+        "name": "V_Bug_Negative_Grey",
+        "displayName": "V Bug Negative Grey",
+        "codename": "V_Bug_Negative_Grey",
+        "filename": "V_Bug_Negative_Grey.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Bug_Negative_Grey.png",
+        "sizeBytes": 42919
+      },
+      {
+        "name": "V_Bug_Negative_Off-White",
+        "displayName": "V Bug Negative Off-White",
+        "codename": "V_Bug_Negative_Off-White",
+        "filename": "V_Bug_Negative_Off-White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Bug_Negative_Off-White.png",
+        "sizeBytes": 42995
+      },
+      {
+        "name": "V_Bug_Negative_Red",
+        "displayName": "V Bug Negative Red",
+        "codename": "V_Bug_Negative_Red",
+        "filename": "V_Bug_Negative_Red.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Bug_Negative_Red.png",
+        "sizeBytes": 42744
+      },
+      {
+        "name": "V_Bug_Negative_White",
+        "displayName": "V Bug Negative White",
+        "codename": "V_Bug_Negative_White",
+        "filename": "V_Bug_Negative_White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Bug_Negative_White.png",
+        "sizeBytes": 42138
+      },
+      {
+        "name": "V_Bug_Positive_Black",
+        "displayName": "V Bug Positive Black",
+        "codename": "V_Bug_Positive_Black",
+        "filename": "V_Bug_Positive_Black.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Bug_Positive_Black.png",
+        "sizeBytes": 42682
+      },
+      {
+        "name": "V_Bug_Positive_Grey",
+        "displayName": "V Bug Positive Grey",
+        "codename": "V_Bug_Positive_Grey",
+        "filename": "V_Bug_Positive_Grey.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Bug_Positive_Grey.png",
+        "sizeBytes": 42852
+      },
+      {
+        "name": "V_Bug_Positive_Navy",
+        "displayName": "V Bug Positive Navy",
+        "codename": "V_Bug_Positive_Navy",
+        "filename": "V_Bug_Positive_Navy.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Bug_Positive_Navy.png",
+        "sizeBytes": 42771
+      },
+      {
+        "name": "V_Bug_Positive_Red",
+        "displayName": "V Bug Positive Red",
+        "codename": "V_Bug_Positive_Red",
+        "filename": "V_Bug_Positive_Red.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Bug_Positive_Red.png",
+        "sizeBytes": 42599
+      },
+      {
+        "name": "V_Lockup_Horizontal_Black",
+        "displayName": "V Lockup Horizontal Black",
+        "codename": "V_Lockup_Horizontal_Black",
+        "filename": "V_Lockup_Horizontal_Black.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Horizontal_Black.png",
+        "sizeBytes": 54908
+      },
+      {
+        "name": "V_Lockup_Horizontal_Neg_Grey",
+        "displayName": "V Lockup Horizontal Neg Grey",
+        "codename": "V_Lockup_Horizontal_Neg_Grey",
+        "filename": "V_Lockup_Horizontal_Neg_Grey.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Horizontal_Neg_Grey.png",
+        "sizeBytes": 55041
+      },
+      {
+        "name": "V_Lockup_Horizontal_Neg_Off-White",
+        "displayName": "V Lockup Horizontal Neg Off-White",
+        "codename": "V_Lockup_Horizontal_Neg_Off-White",
+        "filename": "V_Lockup_Horizontal_Neg_Off-White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Horizontal_Neg_Off-White.png",
+        "sizeBytes": 55149
+      },
+      {
+        "name": "V_Lockup_Horizontal_Neg_Red",
+        "displayName": "V Lockup Horizontal Neg Red",
+        "codename": "V_Lockup_Horizontal_Neg_Red",
+        "filename": "V_Lockup_Horizontal_Neg_Red.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Horizontal_Neg_Red.png",
+        "sizeBytes": 54726
+      },
+      {
+        "name": "V_Lockup_Horizontal_Neg_White",
+        "displayName": "V Lockup Horizontal Neg White",
+        "codename": "V_Lockup_Horizontal_Neg_White",
+        "filename": "V_Lockup_Horizontal_Neg_White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Horizontal_Neg_White.png",
+        "sizeBytes": 52749
+      },
+      {
+        "name": "V_Lockup_Horizontal_Pos_Grey",
+        "displayName": "V Lockup Horizontal Pos Grey",
+        "codename": "V_Lockup_Horizontal_Pos_Grey",
+        "filename": "V_Lockup_Horizontal_Pos_Grey.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Horizontal_Pos_Grey.png",
+        "sizeBytes": 55267
+      },
+      {
+        "name": "V_Lockup_Horizontal_Pos_Off-White",
+        "displayName": "V Lockup Horizontal Pos Off-White",
+        "codename": "V_Lockup_Horizontal_Pos_Off-White",
+        "filename": "V_Lockup_Horizontal_Pos_Off-White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Horizontal_Pos_Off-White.png",
+        "sizeBytes": 55129
+      },
+      {
+        "name": "V_Lockup_Horizontal_Pos_Red",
+        "displayName": "V Lockup Horizontal Pos Red",
+        "codename": "V_Lockup_Horizontal_Pos_Red",
+        "filename": "V_Lockup_Horizontal_Pos_Red.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Horizontal_Pos_Red.png",
+        "sizeBytes": 54821
+      },
+      {
+        "name": "V_Lockup_Vertical Black",
+        "displayName": "V Lockup Vertical Black",
+        "codename": "V_Lockup_Vertical Black",
+        "filename": "V_Lockup_Vertical Black.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Vertical Black.png",
+        "sizeBytes": 94836
+      },
+      {
+        "name": "V_Lockup_Vertical_Grey",
+        "displayName": "V Lockup Vertical Grey",
+        "codename": "V_Lockup_Vertical_Grey",
+        "filename": "V_Lockup_Vertical_Grey.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Vertical_Grey.png",
+        "sizeBytes": 96022
+      },
+      {
+        "name": "V_Lockup_Vertical_Navy",
+        "displayName": "V Lockup Vertical Navy",
+        "codename": "V_Lockup_Vertical_Navy",
+        "filename": "V_Lockup_Vertical_Navy.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Vertical_Navy.png",
+        "sizeBytes": 96178
+      },
+      {
+        "name": "V_Lockup_Vertical_Off-White",
+        "displayName": "V Lockup Vertical Off-White",
+        "codename": "V_Lockup_Vertical_Off-White",
+        "filename": "V_Lockup_Vertical_Off-White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Vertical_Off-White.png",
+        "sizeBytes": 96699
+      },
+      {
+        "name": "V_Lockup_Vertical_Red",
+        "displayName": "V Lockup Vertical Red",
+        "codename": "V_Lockup_Vertical_Red",
+        "filename": "V_Lockup_Vertical_Red.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Vertical_Red.png",
+        "sizeBytes": 93245
+      },
+      {
+        "name": "V_Lockup_Vertical_White",
+        "displayName": "V Lockup Vertical White",
+        "codename": "V_Lockup_Vertical_White",
+        "filename": "V_Lockup_Vertical_White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Vertical_White.png",
+        "sizeBytes": 87256
+      },
+      {
+        "name": "V_Logomark_Black",
+        "displayName": "V Logomark Black",
+        "codename": "V_Logomark_Black",
+        "filename": "V_Logomark_Black.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logomark_Black.png",
+        "sizeBytes": 62795
+      },
+      {
+        "name": "V_Logomark_Grey",
+        "displayName": "V Logomark Grey",
+        "codename": "V_Logomark_Grey",
+        "filename": "V_Logomark_Grey.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logomark_Grey.png",
+        "sizeBytes": 63735
+      },
+      {
+        "name": "V_Logomark_Navy",
+        "displayName": "V Logomark Navy",
+        "codename": "V_Logomark_Navy",
+        "filename": "V_Logomark_Navy.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logomark_Navy.png",
+        "sizeBytes": 64512
+      },
+      {
+        "name": "V_Logomark_Off-White",
+        "displayName": "V Logomark Off-White",
+        "codename": "V_Logomark_Off-White",
+        "filename": "V_Logomark_Off-White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logomark_Off-White.png",
+        "sizeBytes": 62292
+      },
+      {
+        "name": "V_Logomark_Red",
+        "displayName": "V Logomark Red",
+        "codename": "V_Logomark_Red",
+        "filename": "V_Logomark_Red.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logomark_Red.png",
+        "sizeBytes": 62107
+      },
+      {
+        "name": "V_Logomark_White",
+        "displayName": "V Logomark White",
+        "codename": "V_Logomark_White",
+        "filename": "V_Logomark_White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logomark_White.png",
+        "sizeBytes": 63800
+      },
+      {
+        "name": "V_Logotype_Black",
+        "displayName": "V Logotype Black",
+        "codename": "V_Logotype_Black",
+        "filename": "V_Logotype_Black.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logotype_Black.png",
+        "sizeBytes": 79635
+      },
+      {
+        "name": "V_Logotype_Grey",
+        "displayName": "V Logotype Grey",
+        "codename": "V_Logotype_Grey",
+        "filename": "V_Logotype_Grey.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logotype_Grey.png",
+        "sizeBytes": 80198
+      },
+      {
+        "name": "V_Logotype_Navy",
+        "displayName": "V Logotype Navy",
+        "codename": "V_Logotype_Navy",
+        "filename": "V_Logotype_Navy.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logotype_Navy.png",
+        "sizeBytes": 80629
+      },
+      {
+        "name": "V_Logotype_Off-White",
+        "displayName": "V Logotype Off-White",
+        "codename": "V_Logotype_Off-White",
+        "filename": "V_Logotype_Off-White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logotype_Off-White.png",
+        "sizeBytes": 80359
+      },
+      {
+        "name": "V_Logotype_Red",
+        "displayName": "V Logotype Red",
+        "codename": "V_Logotype_Red",
+        "filename": "V_Logotype_Red.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logotype_Red.png",
+        "sizeBytes": 79011
+      },
+      {
+        "name": "V_Logotype_White",
+        "displayName": "V Logotype White",
+        "codename": "V_Logotype_White",
+        "filename": "V_Logotype_White.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Logotype_White.png",
+        "sizeBytes": 74113
+      },
+      {
         "name": "TX_icon_animemeat",
         "displayName": "TX icon animemeat",
         "codename": "TX_icon_animemeat",
@@ -33528,6 +34329,54 @@
         "sizeBytes": 4863
       },
       {
+        "name": "VALORANT_logo4",
+        "displayName": "VALORANT logo4",
+        "codename": "VALORANT_logo4",
+        "filename": "VALORANT_logo4.jpg",
+        "relPath": "Valorantek/Logos/Valorant Logo Wallpapers/VALORANT_logo4.jpg",
+        "sizeBytes": 805647
+      },
+      {
+        "name": "VALORANT_Logo_V",
+        "displayName": "VALORANT Logo V",
+        "codename": "VALORANT_Logo_V",
+        "filename": "VALORANT_Logo_V.jpg",
+        "relPath": "Valorantek/Logos/Valorant Logo Wallpapers/VALORANT_Logo_V.jpg",
+        "sizeBytes": 798754
+      },
+      {
+        "name": "VALORANT_Logo_V_galleryimage",
+        "displayName": "VALORANT Logo V galleryimage",
+        "codename": "VALORANT_Logo_V_galleryimage",
+        "filename": "VALORANT_Logo_V_galleryimage.jpg",
+        "relPath": "Valorantek/Logos/Valorant Logo Wallpapers/VALORANT_Logo_V_galleryimage.jpg",
+        "sizeBytes": 202523
+      },
+      {
+        "name": "VALORANT_Logo_V_thumbnail",
+        "displayName": "VALORANT Logo V thumbnail",
+        "codename": "VALORANT_Logo_V_thumbnail",
+        "filename": "VALORANT_Logo_V_thumbnail.jpg",
+        "relPath": "Valorantek/Logos/Valorant Logo Wallpapers/VALORANT_Logo_V_thumbnail.jpg",
+        "sizeBytes": 164294
+      },
+      {
+        "name": "VALORANT_V_Red",
+        "displayName": "VALORANT V Red",
+        "codename": "VALORANT_V_Red",
+        "filename": "VALORANT_V_Red.jpg",
+        "relPath": "Valorantek/Logos/Valorant Logo Wallpapers/VALORANT_V_Red.jpg",
+        "sizeBytes": 852252
+      },
+      {
+        "name": "VALORANT_logo4",
+        "displayName": "VALORANT logo4",
+        "codename": "VALORANT_logo4",
+        "filename": "VALORANT_logo4.jpg",
+        "relPath": "Valorantek/Logos/VALORANT_logo4.jpg",
+        "sizeBytes": 805647
+      },
+      {
         "name": "Valorant_logo_cutout",
         "displayName": "Valorant logo cutout",
         "codename": "Valorant_logo_cutout",
@@ -33542,6 +34391,38 @@
         "filename": "Valorant_logo_outline.png",
         "relPath": "Valorantek/Logos/Valorant_logo_outline.png",
         "sizeBytes": 2497
+      },
+      {
+        "name": "VALORANT_Logo_V",
+        "displayName": "VALORANT Logo V",
+        "codename": "VALORANT_Logo_V",
+        "filename": "VALORANT_Logo_V.jpg",
+        "relPath": "Valorantek/Logos/VALORANT_Logo_V.jpg",
+        "sizeBytes": 798754
+      },
+      {
+        "name": "VALORANT_Logo_V_galleryimage",
+        "displayName": "VALORANT Logo V galleryimage",
+        "codename": "VALORANT_Logo_V_galleryimage",
+        "filename": "VALORANT_Logo_V_galleryimage.jpg",
+        "relPath": "Valorantek/Logos/VALORANT_Logo_V_galleryimage.jpg",
+        "sizeBytes": 202523
+      },
+      {
+        "name": "VALORANT_Logo_V_thumbnail",
+        "displayName": "VALORANT Logo V thumbnail",
+        "codename": "VALORANT_Logo_V_thumbnail",
+        "filename": "VALORANT_Logo_V_thumbnail.jpg",
+        "relPath": "Valorantek/Logos/VALORANT_Logo_V_thumbnail.jpg",
+        "sizeBytes": 164294
+      },
+      {
+        "name": "VALORANT_V_Red",
+        "displayName": "VALORANT V Red",
+        "codename": "VALORANT_V_Red",
+        "filename": "VALORANT_V_Red.jpg",
+        "relPath": "Valorantek/Logos/VALORANT_V_Red.jpg",
+        "sizeBytes": 852252
       },
       {
         "name": "VAL_S25_logo",
@@ -33590,6 +34471,278 @@
         "filename": "Val_V26_Act4_Logo.png",
         "relPath": "Valorantek/Logos/Val_V26_Act4_Logo.png",
         "sizeBytes": 42249
+      },
+      {
+        "name": "V_Bug_Negative_Grey",
+        "displayName": "V Bug Negative Grey",
+        "codename": "V_Bug_Negative_Grey",
+        "filename": "V_Bug_Negative_Grey.png",
+        "relPath": "Valorantek/Logos/V_Bug_Negative_Grey.png",
+        "sizeBytes": 42919
+      },
+      {
+        "name": "V_Bug_Negative_Off-White",
+        "displayName": "V Bug Negative Off-White",
+        "codename": "V_Bug_Negative_Off-White",
+        "filename": "V_Bug_Negative_Off-White.png",
+        "relPath": "Valorantek/Logos/V_Bug_Negative_Off-White.png",
+        "sizeBytes": 42995
+      },
+      {
+        "name": "V_Bug_Negative_Red",
+        "displayName": "V Bug Negative Red",
+        "codename": "V_Bug_Negative_Red",
+        "filename": "V_Bug_Negative_Red.png",
+        "relPath": "Valorantek/Logos/V_Bug_Negative_Red.png",
+        "sizeBytes": 42744
+      },
+      {
+        "name": "V_Bug_Negative_White",
+        "displayName": "V Bug Negative White",
+        "codename": "V_Bug_Negative_White",
+        "filename": "V_Bug_Negative_White.png",
+        "relPath": "Valorantek/Logos/V_Bug_Negative_White.png",
+        "sizeBytes": 42138
+      },
+      {
+        "name": "V_Bug_Positive_Black",
+        "displayName": "V Bug Positive Black",
+        "codename": "V_Bug_Positive_Black",
+        "filename": "V_Bug_Positive_Black.png",
+        "relPath": "Valorantek/Logos/V_Bug_Positive_Black.png",
+        "sizeBytes": 42682
+      },
+      {
+        "name": "V_Bug_Positive_Grey",
+        "displayName": "V Bug Positive Grey",
+        "codename": "V_Bug_Positive_Grey",
+        "filename": "V_Bug_Positive_Grey.png",
+        "relPath": "Valorantek/Logos/V_Bug_Positive_Grey.png",
+        "sizeBytes": 42852
+      },
+      {
+        "name": "V_Bug_Positive_Navy",
+        "displayName": "V Bug Positive Navy",
+        "codename": "V_Bug_Positive_Navy",
+        "filename": "V_Bug_Positive_Navy.png",
+        "relPath": "Valorantek/Logos/V_Bug_Positive_Navy.png",
+        "sizeBytes": 42771
+      },
+      {
+        "name": "V_Bug_Positive_Red",
+        "displayName": "V Bug Positive Red",
+        "codename": "V_Bug_Positive_Red",
+        "filename": "V_Bug_Positive_Red.png",
+        "relPath": "Valorantek/Logos/V_Bug_Positive_Red.png",
+        "sizeBytes": 42599
+      },
+      {
+        "name": "V_Lockup_Horizontal_Black",
+        "displayName": "V Lockup Horizontal Black",
+        "codename": "V_Lockup_Horizontal_Black",
+        "filename": "V_Lockup_Horizontal_Black.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Horizontal_Black.png",
+        "sizeBytes": 54908
+      },
+      {
+        "name": "V_Lockup_Horizontal_Neg_Grey",
+        "displayName": "V Lockup Horizontal Neg Grey",
+        "codename": "V_Lockup_Horizontal_Neg_Grey",
+        "filename": "V_Lockup_Horizontal_Neg_Grey.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Horizontal_Neg_Grey.png",
+        "sizeBytes": 55041
+      },
+      {
+        "name": "V_Lockup_Horizontal_Neg_Off-White",
+        "displayName": "V Lockup Horizontal Neg Off-White",
+        "codename": "V_Lockup_Horizontal_Neg_Off-White",
+        "filename": "V_Lockup_Horizontal_Neg_Off-White.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Horizontal_Neg_Off-White.png",
+        "sizeBytes": 55149
+      },
+      {
+        "name": "V_Lockup_Horizontal_Neg_Red",
+        "displayName": "V Lockup Horizontal Neg Red",
+        "codename": "V_Lockup_Horizontal_Neg_Red",
+        "filename": "V_Lockup_Horizontal_Neg_Red.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Horizontal_Neg_Red.png",
+        "sizeBytes": 54726
+      },
+      {
+        "name": "V_Lockup_Horizontal_Neg_White",
+        "displayName": "V Lockup Horizontal Neg White",
+        "codename": "V_Lockup_Horizontal_Neg_White",
+        "filename": "V_Lockup_Horizontal_Neg_White.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Horizontal_Neg_White.png",
+        "sizeBytes": 52749
+      },
+      {
+        "name": "V_Lockup_Horizontal_Pos_Grey",
+        "displayName": "V Lockup Horizontal Pos Grey",
+        "codename": "V_Lockup_Horizontal_Pos_Grey",
+        "filename": "V_Lockup_Horizontal_Pos_Grey.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Horizontal_Pos_Grey.png",
+        "sizeBytes": 55267
+      },
+      {
+        "name": "V_Lockup_Horizontal_Pos_Off-White",
+        "displayName": "V Lockup Horizontal Pos Off-White",
+        "codename": "V_Lockup_Horizontal_Pos_Off-White",
+        "filename": "V_Lockup_Horizontal_Pos_Off-White.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Horizontal_Pos_Off-White.png",
+        "sizeBytes": 55129
+      },
+      {
+        "name": "V_Lockup_Horizontal_Pos_Red",
+        "displayName": "V Lockup Horizontal Pos Red",
+        "codename": "V_Lockup_Horizontal_Pos_Red",
+        "filename": "V_Lockup_Horizontal_Pos_Red.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Horizontal_Pos_Red.png",
+        "sizeBytes": 54821
+      },
+      {
+        "name": "V_Lockup_Vertical Black",
+        "displayName": "V Lockup Vertical Black",
+        "codename": "V_Lockup_Vertical Black",
+        "filename": "V_Lockup_Vertical Black.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Vertical Black.png",
+        "sizeBytes": 94836
+      },
+      {
+        "name": "V_Lockup_Vertical_Grey",
+        "displayName": "V Lockup Vertical Grey",
+        "codename": "V_Lockup_Vertical_Grey",
+        "filename": "V_Lockup_Vertical_Grey.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Vertical_Grey.png",
+        "sizeBytes": 96022
+      },
+      {
+        "name": "V_Lockup_Vertical_Navy",
+        "displayName": "V Lockup Vertical Navy",
+        "codename": "V_Lockup_Vertical_Navy",
+        "filename": "V_Lockup_Vertical_Navy.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Vertical_Navy.png",
+        "sizeBytes": 96178
+      },
+      {
+        "name": "V_Lockup_Vertical_Off-White",
+        "displayName": "V Lockup Vertical Off-White",
+        "codename": "V_Lockup_Vertical_Off-White",
+        "filename": "V_Lockup_Vertical_Off-White.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Vertical_Off-White.png",
+        "sizeBytes": 96699
+      },
+      {
+        "name": "V_Lockup_Vertical_Red",
+        "displayName": "V Lockup Vertical Red",
+        "codename": "V_Lockup_Vertical_Red",
+        "filename": "V_Lockup_Vertical_Red.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Vertical_Red.png",
+        "sizeBytes": 93245
+      },
+      {
+        "name": "V_Lockup_Vertical_White",
+        "displayName": "V Lockup Vertical White",
+        "codename": "V_Lockup_Vertical_White",
+        "filename": "V_Lockup_Vertical_White.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Vertical_White.png",
+        "sizeBytes": 87256
+      },
+      {
+        "name": "V_Logomark_Black",
+        "displayName": "V Logomark Black",
+        "codename": "V_Logomark_Black",
+        "filename": "V_Logomark_Black.png",
+        "relPath": "Valorantek/Logos/V_Logomark_Black.png",
+        "sizeBytes": 62795
+      },
+      {
+        "name": "V_Logomark_Grey",
+        "displayName": "V Logomark Grey",
+        "codename": "V_Logomark_Grey",
+        "filename": "V_Logomark_Grey.png",
+        "relPath": "Valorantek/Logos/V_Logomark_Grey.png",
+        "sizeBytes": 63735
+      },
+      {
+        "name": "V_Logomark_Navy",
+        "displayName": "V Logomark Navy",
+        "codename": "V_Logomark_Navy",
+        "filename": "V_Logomark_Navy.png",
+        "relPath": "Valorantek/Logos/V_Logomark_Navy.png",
+        "sizeBytes": 64512
+      },
+      {
+        "name": "V_Logomark_Off-White",
+        "displayName": "V Logomark Off-White",
+        "codename": "V_Logomark_Off-White",
+        "filename": "V_Logomark_Off-White.png",
+        "relPath": "Valorantek/Logos/V_Logomark_Off-White.png",
+        "sizeBytes": 62292
+      },
+      {
+        "name": "V_Logomark_Red",
+        "displayName": "V Logomark Red",
+        "codename": "V_Logomark_Red",
+        "filename": "V_Logomark_Red.png",
+        "relPath": "Valorantek/Logos/V_Logomark_Red.png",
+        "sizeBytes": 62107
+      },
+      {
+        "name": "V_Logomark_White",
+        "displayName": "V Logomark White",
+        "codename": "V_Logomark_White",
+        "filename": "V_Logomark_White.png",
+        "relPath": "Valorantek/Logos/V_Logomark_White.png",
+        "sizeBytes": 63800
+      },
+      {
+        "name": "V_Logotype_Black",
+        "displayName": "V Logotype Black",
+        "codename": "V_Logotype_Black",
+        "filename": "V_Logotype_Black.png",
+        "relPath": "Valorantek/Logos/V_Logotype_Black.png",
+        "sizeBytes": 79635
+      },
+      {
+        "name": "V_Logotype_Grey",
+        "displayName": "V Logotype Grey",
+        "codename": "V_Logotype_Grey",
+        "filename": "V_Logotype_Grey.png",
+        "relPath": "Valorantek/Logos/V_Logotype_Grey.png",
+        "sizeBytes": 80198
+      },
+      {
+        "name": "V_Logotype_Navy",
+        "displayName": "V Logotype Navy",
+        "codename": "V_Logotype_Navy",
+        "filename": "V_Logotype_Navy.png",
+        "relPath": "Valorantek/Logos/V_Logotype_Navy.png",
+        "sizeBytes": 80629
+      },
+      {
+        "name": "V_Logotype_Off-White",
+        "displayName": "V Logotype Off-White",
+        "codename": "V_Logotype_Off-White",
+        "filename": "V_Logotype_Off-White.png",
+        "relPath": "Valorantek/Logos/V_Logotype_Off-White.png",
+        "sizeBytes": 80359
+      },
+      {
+        "name": "V_Logotype_Red",
+        "displayName": "V Logotype Red",
+        "codename": "V_Logotype_Red",
+        "filename": "V_Logotype_Red.png",
+        "relPath": "Valorantek/Logos/V_Logotype_Red.png",
+        "sizeBytes": 79011
+      },
+      {
+        "name": "V_Logotype_White",
+        "displayName": "V Logotype White",
+        "codename": "V_Logotype_White",
+        "filename": "V_Logotype_White.png",
+        "relPath": "Valorantek/Logos/V_Logotype_White.png",
+        "sizeBytes": 74113
       }
     ],
     "backgrounds": [
@@ -38834,6 +39987,326 @@
         "sizeBytes": 128001
       },
       {
+        "name": "China_CG_A2_Full",
+        "displayName": "China CG A2 Full",
+        "codename": "China_CG_A2_Full",
+        "filename": "China_CG_A2_Full.jpg",
+        "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_A2_Full.jpg",
+        "sizeBytes": 14559253
+      },
+      {
+        "name": "China_CG_EndMap_Full",
+        "displayName": "China CG EndMap Full",
+        "codename": "China_CG_EndMap_Full",
+        "filename": "China_CG_EndMap_Full.jpg",
+        "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_EndMap_Full.jpg",
+        "sizeBytes": 7755873
+      },
+      {
+        "name": "China_CG_Haven_Overlook",
+        "displayName": "China CG Haven Overlook",
+        "codename": "China_CG_Haven_Overlook",
+        "filename": "China_CG_Haven_Overlook.jpg",
+        "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_Haven_Overlook.jpg",
+        "sizeBytes": 8166219
+      },
+      {
+        "name": "China_CG_Jett_Jump_Full",
+        "displayName": "China CG Jett Jump Full",
+        "codename": "China_CG_Jett_Jump_Full",
+        "filename": "China_CG_Jett_Jump_Full.jpg",
+        "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_Jett_Jump_Full.jpg",
+        "sizeBytes": 9349882
+      },
+      {
+        "name": "China_CG_phxcool_fullres",
+        "displayName": "China CG phxcool fullres",
+        "codename": "China_CG_phxcool_fullres",
+        "filename": "China_CG_phxcool_fullres.jpg",
+        "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_phxcool_fullres.jpg",
+        "sizeBytes": 6593745
+      },
+      {
+        "name": "China_CG_Sagefire_Full",
+        "displayName": "China CG Sagefire Full",
+        "codename": "China_CG_Sagefire_Full",
+        "filename": "China_CG_Sagefire_Full.jpg",
+        "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_Sagefire_Full.jpg",
+        "sizeBytes": 14069074
+      },
+      {
+        "name": "China_PreRegistration_KV",
+        "displayName": "China PreRegistration KV",
+        "codename": "China_PreRegistration_KV",
+        "filename": "China_PreRegistration_KV.jpg",
+        "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_PreRegistration_KV.jpg",
+        "sizeBytes": 2891912
+      },
+      {
+        "name": "Valorant_CloseBeta_Final_design",
+        "displayName": "Valorant CloseBeta Final design",
+        "codename": "Valorant_CloseBeta_Final_design",
+        "filename": "Valorant_CloseBeta_Final_design.jpg",
+        "relPath": "Valorantek/Backgrounds/China & Beta Key Art/Valorant_CloseBeta_Final_design.jpg",
+        "sizeBytes": 2742480
+      },
+      {
+        "name": "Valorant_Launch_KV_424_designpass_F",
+        "displayName": "Valorant Launch KV 424 designpass F",
+        "codename": "Valorant_Launch_KV_424_designpass_F",
+        "filename": "Valorant_Launch_KV_424_designpass_F.jpg",
+        "relPath": "Valorantek/Backgrounds/China & Beta Key Art/Valorant_Launch_KV_424_designpass_F.jpg",
+        "sizeBytes": 3344199
+      },
+      {
+        "name": "Beta Key Art_VALORANT",
+        "displayName": "Beta Key Art VALORANT",
+        "codename": "Beta Key Art_VALORANT",
+        "filename": "Beta Key Art_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Beta Key Art_VALORANT.jpg",
+        "sizeBytes": 6374900
+      },
+      {
+        "name": "L10_Sillos_Final",
+        "displayName": "L10 Sillos Final",
+        "codename": "L10_Sillos_Final",
+        "filename": "L10_Sillos_Final.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/L10_Sillos_Final.jpg",
+        "sizeBytes": 15101217
+      },
+      {
+        "name": "VALORANT_Jett",
+        "displayName": "VALORANT Jett",
+        "codename": "VALORANT_Jett",
+        "filename": "VALORANT_Jett.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett.jpg",
+        "sizeBytes": 2051029
+      },
+      {
+        "name": "VALORANT_JETT_Duotoned",
+        "displayName": "VALORANT JETT Duotoned",
+        "codename": "VALORANT_JETT_Duotoned",
+        "filename": "VALORANT_JETT_Duotoned.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_JETT_Duotoned.jpg",
+        "sizeBytes": 1409716
+      },
+      {
+        "name": "VALORANT_Jett_Red (1)",
+        "displayName": "VALORANT Jett Red (1)",
+        "codename": "VALORANT_Jett_Red (1)",
+        "filename": "VALORANT_Jett_Red (1).jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett_Red (1).jpg",
+        "sizeBytes": 2319421
+      },
+      {
+        "name": "VALORANT_Jett_Type",
+        "displayName": "VALORANT Jett Type",
+        "codename": "VALORANT_Jett_Type",
+        "filename": "VALORANT_Jett_Type.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett_Type.jpg",
+        "sizeBytes": 1760964
+      },
+      {
+        "name": "VALORANT_Logo_V",
+        "displayName": "VALORANT Logo V",
+        "codename": "VALORANT_Logo_V",
+        "filename": "VALORANT_Logo_V.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Logo_V.jpg",
+        "sizeBytes": 798754
+      },
+      {
+        "name": "VALORANT_PHX",
+        "displayName": "VALORANT PHX",
+        "codename": "VALORANT_PHX",
+        "filename": "VALORANT_PHX.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_PHX.jpg",
+        "sizeBytes": 1914414
+      },
+      {
+        "name": "VALORANT_phx_jett",
+        "displayName": "VALORANT phx jett",
+        "codename": "VALORANT_phx_jett",
+        "filename": "VALORANT_phx_jett.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_phx_jett.jpg",
+        "sizeBytes": 2353337
+      },
+      {
+        "name": "VALORANT_phx_jett_brand",
+        "displayName": "VALORANT phx jett brand",
+        "codename": "VALORANT_phx_jett_brand",
+        "filename": "VALORANT_phx_jett_brand.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_phx_jett_brand.jpg",
+        "sizeBytes": 2141364
+      },
+      {
+        "name": "VALORANT_Viper",
+        "displayName": "VALORANT Viper",
+        "codename": "VALORANT_Viper",
+        "filename": "VALORANT_Viper.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Viper.jpg",
+        "sizeBytes": 1511903
+      },
+      {
+        "name": "VALORANT_VIPER_2 (1)",
+        "displayName": "VALORANT VIPER 2 (1)",
+        "codename": "VALORANT_VIPER_2 (1)",
+        "filename": "VALORANT_VIPER_2 (1).jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_VIPER_2 (1).jpg",
+        "sizeBytes": 1822584
+      },
+      {
+        "name": "Vertical Viper",
+        "displayName": "Vertical Viper",
+        "codename": "Vertical Viper",
+        "filename": "Vertical Viper.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical Viper.jpg",
+        "sizeBytes": 1108432
+      },
+      {
+        "name": "Vertical_jett",
+        "displayName": "Vertical jett",
+        "codename": "Vertical_jett",
+        "filename": "Vertical_jett.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical_jett.jpg",
+        "sizeBytes": 1194306
+      },
+      {
+        "name": "Vertical_Phx",
+        "displayName": "Vertical Phx",
+        "codename": "Vertical_Phx",
+        "filename": "Vertical_Phx.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical_Phx.jpg",
+        "sizeBytes": 1161740
+      },
+      {
+        "name": "FirstLook_ClassicRevolverConcept_VALORANT",
+        "displayName": "FirstLook ClassicRevolverConcept VALORANT",
+        "codename": "FirstLook_ClassicRevolverConcept_VALORANT",
+        "filename": "FirstLook_ClassicRevolverConcept_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_ClassicRevolverConcept_VALORANT.jpg",
+        "sizeBytes": 890572
+      },
+      {
+        "name": "FirstLook_CypherAbilitiesConcept",
+        "displayName": "FirstLook CypherAbilitiesConcept",
+        "codename": "FirstLook_CypherAbilitiesConcept",
+        "filename": "FirstLook_CypherAbilitiesConcept.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_CypherAbilitiesConcept.jpg",
+        "sizeBytes": 112055
+      },
+      {
+        "name": "FirstLook_CypherCharConcept",
+        "displayName": "FirstLook CypherCharConcept",
+        "codename": "FirstLook_CypherCharConcept",
+        "filename": "FirstLook_CypherCharConcept.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_CypherCharConcept.jpg",
+        "sizeBytes": 684549
+      },
+      {
+        "name": "FirstLook_JettCharacterConcept",
+        "displayName": "FirstLook JettCharacterConcept",
+        "codename": "FirstLook_JettCharacterConcept",
+        "filename": "FirstLook_JettCharacterConcept.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_JettCharacterConcept.jpg",
+        "sizeBytes": 885103
+      },
+      {
+        "name": "FirstLook_KingdomConcept_VALORANT",
+        "displayName": "FirstLook KingdomConcept VALORANT",
+        "codename": "FirstLook_KingdomConcept_VALORANT",
+        "filename": "FirstLook_KingdomConcept_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_KingdomConcept_VALORANT.jpg",
+        "sizeBytes": 2780006
+      },
+      {
+        "name": "FirstLook_PhoenixCharConcept",
+        "displayName": "FirstLook PhoenixCharConcept",
+        "codename": "FirstLook_PhoenixCharConcept",
+        "filename": "FirstLook_PhoenixCharConcept.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_PhoenixCharConcept.jpg",
+        "sizeBytes": 12078833
+      },
+      {
+        "name": "FirstLook_PhoenixFireConcept",
+        "displayName": "FirstLook PhoenixFireConcept",
+        "codename": "FirstLook_PhoenixFireConcept",
+        "filename": "FirstLook_PhoenixFireConcept.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_PhoenixFireConcept.jpg",
+        "sizeBytes": 1092843
+      },
+      {
+        "name": "FirstLook_PhoenixFlameConcept",
+        "displayName": "FirstLook PhoenixFlameConcept",
+        "codename": "FirstLook_PhoenixFlameConcept",
+        "filename": "FirstLook_PhoenixFlameConcept.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_PhoenixFlameConcept.jpg",
+        "sizeBytes": 161943
+      },
+      {
+        "name": "FirstLook_SageHealConcept",
+        "displayName": "FirstLook SageHealConcept",
+        "codename": "FirstLook_SageHealConcept",
+        "filename": "FirstLook_SageHealConcept.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_SageHealConcept.jpg",
+        "sizeBytes": 203019
+      },
+      {
+        "name": "FirstLook_SovaConcept",
+        "displayName": "FirstLook SovaConcept",
+        "codename": "FirstLook_SovaConcept",
+        "filename": "FirstLook_SovaConcept.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_SovaConcept.jpg",
+        "sizeBytes": 1354242
+      },
+      {
+        "name": "FirstLook_SovaRevolverConcept_VALORANT",
+        "displayName": "FirstLook SovaRevolverConcept VALORANT",
+        "codename": "FirstLook_SovaRevolverConcept_VALORANT",
+        "filename": "FirstLook_SovaRevolverConcept_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_SovaRevolverConcept_VALORANT.jpg",
+        "sizeBytes": 1231847
+      },
+      {
+        "name": "FirstLook_SpikeConcepts_VALORANT",
+        "displayName": "FirstLook SpikeConcepts VALORANT",
+        "codename": "FirstLook_SpikeConcepts_VALORANT",
+        "filename": "FirstLook_SpikeConcepts_VALORANT.png",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_SpikeConcepts_VALORANT.png",
+        "sizeBytes": 4280715
+      },
+      {
+        "name": "FirstLook_Viper_Concept",
+        "displayName": "FirstLook Viper Concept",
+        "codename": "FirstLook_Viper_Concept",
+        "filename": "FirstLook_Viper_Concept.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_Viper_Concept.jpg",
+        "sizeBytes": 5434844
+      },
+      {
+        "name": "Wallpaper_Schematic_Weapons",
+        "displayName": "Wallpaper Schematic Weapons",
+        "codename": "Wallpaper_Schematic_Weapons",
+        "filename": "Wallpaper_Schematic_Weapons.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/Wallpaper_Schematic_Weapons.jpg",
+        "sizeBytes": 6067636
+      },
+      {
+        "name": "Wallpaper_Schematic_Weapons_galleryimage",
+        "displayName": "Wallpaper Schematic Weapons galleryimage",
+        "codename": "Wallpaper_Schematic_Weapons_galleryimage",
+        "filename": "Wallpaper_Schematic_Weapons_galleryimage.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/Wallpaper_Schematic_Weapons_galleryimage.jpg",
+        "sizeBytes": 3699460
+      },
+      {
+        "name": "Wallpaper_Schematic_Weapons_thumbnail",
+        "displayName": "Wallpaper Schematic Weapons thumbnail",
+        "codename": "Wallpaper_Schematic_Weapons_thumbnail",
+        "filename": "Wallpaper_Schematic_Weapons_thumbnail.jpg",
+        "relPath": "Valorantek/Backgrounds/Concepts & Sketches/Wallpaper_Schematic_Weapons_thumbnail.jpg",
+        "sizeBytes": 3588139
+      },
+      {
         "name": "Crosshair_BG_Texture",
         "displayName": "Crosshair BG Texture",
         "codename": "Crosshair_BG_Texture",
@@ -38842,12 +40315,732 @@
         "sizeBytes": 168814
       },
       {
+        "name": "E8a1_Cineposter_4x5_IG",
+        "displayName": "E8a1 Cineposter 4x5 IG",
+        "codename": "E8a1_Cineposter_4x5_IG",
+        "filename": "E8a1_Cineposter_4x5_IG.jpg",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/E8a1_Cineposter_4x5_IG.jpg",
+        "sizeBytes": 1736908
+      },
+      {
+        "name": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
+        "displayName": "Ep8a1 Defiance Riot Client - Launch Game Background 2560x1440 ",
+        "codename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
+        "filename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+        "sizeBytes": 2675192
+      },
+      {
+        "name": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+        "displayName": "Ep8a1 Defiance Riot Client Login Page 1440p",
+        "codename": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+        "filename": "Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+        "sizeBytes": 2730881
+      },
+      {
+        "name": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+        "displayName": "Ep8a1 Defiance Youtube Box Art 1000x1400",
+        "codename": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+        "filename": "Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+        "sizeBytes": 1206046
+      },
+      {
+        "name": "Ep8a1_Defiance_Youtube Cover_",
+        "displayName": "Ep8a1 Defiance Youtube Cover ",
+        "codename": "Ep8a1_Defiance_Youtube Cover_",
+        "filename": "Ep8a1_Defiance_Youtube Cover_.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube Cover_.png",
+        "sizeBytes": 2711064
+      },
+      {
+        "name": "Ep8A1_Riot Games.com Product Card 1920x1080_",
+        "displayName": "Ep8A1 Riot Games.com Product Card 1920x1080 ",
+        "codename": "Ep8A1_Riot Games.com Product Card 1920x1080_",
+        "filename": "Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+        "sizeBytes": 562403
+      },
+      {
+        "name": "Valorant_EP-8-Teaser_The-arrival",
+        "displayName": "Valorant EP-8-Teaser The-arrival",
+        "codename": "Valorant_EP-8-Teaser_The-arrival",
+        "filename": "Valorant_EP-8-Teaser_The-arrival.jpg",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP-8-Teaser_The-arrival.jpg",
+        "sizeBytes": 995676
+      },
+      {
+        "name": "Valorant_EP8_Teaser_Cypher Reborn",
+        "displayName": "Valorant EP8 Teaser Cypher Reborn",
+        "codename": "Valorant_EP8_Teaser_Cypher Reborn",
+        "filename": "Valorant_EP8_Teaser_Cypher Reborn.jpg",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Cypher Reborn.jpg",
+        "sizeBytes": 913459
+      },
+      {
+        "name": "Valorant_EP8_Teaser_Omen and the Outlaw",
+        "displayName": "Valorant EP8 Teaser Omen and the Outlaw",
+        "codename": "Valorant_EP8_Teaser_Omen and the Outlaw",
+        "filename": "Valorant_EP8_Teaser_Omen and the Outlaw.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Omen and the Outlaw.png",
+        "sizeBytes": 5602827
+      },
+      {
+        "name": "Valorant_EP8_Teaser_Sova the Specialist",
+        "displayName": "Valorant EP8 Teaser Sova the Specialist",
+        "codename": "Valorant_EP8_Teaser_Sova the Specialist",
+        "filename": "Valorant_EP8_Teaser_Sova the Specialist.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Sova the Specialist.png",
+        "sizeBytes": 10004792
+      },
+      {
+        "name": "FirstLook_CreepCreep_VALORANT",
+        "displayName": "FirstLook CreepCreep VALORANT",
+        "codename": "FirstLook_CreepCreep_VALORANT",
+        "filename": "FirstLook_CreepCreep_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/First Look Screenshots/FirstLook_CreepCreep_VALORANT.jpg",
+        "sizeBytes": 3374894
+      },
+      {
+        "name": "FirstLook_Dragon_VALORANT",
+        "displayName": "FirstLook Dragon VALORANT",
+        "codename": "FirstLook_Dragon_VALORANT",
+        "filename": "FirstLook_Dragon_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/First Look Screenshots/FirstLook_Dragon_VALORANT.jpg",
+        "sizeBytes": 4817332
+      },
+      {
+        "name": "FirstLook_Fire_VALORANT",
+        "displayName": "FirstLook Fire VALORANT",
+        "codename": "FirstLook_Fire_VALORANT",
+        "filename": "FirstLook_Fire_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/First Look Screenshots/FirstLook_Fire_VALORANT.jpg",
+        "sizeBytes": 4365480
+      },
+      {
+        "name": "FirstLook_Smoke_VALORANT",
+        "displayName": "FirstLook Smoke VALORANT",
+        "codename": "FirstLook_Smoke_VALORANT",
+        "filename": "FirstLook_Smoke_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/First Look Screenshots/FirstLook_Smoke_VALORANT.jpg",
+        "sizeBytes": 4160459
+      },
+      {
+        "name": "Reveal_BSite_VALORANT",
+        "displayName": "Reveal BSite VALORANT",
+        "codename": "Reveal_BSite_VALORANT",
+        "filename": "Reveal_BSite_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_BSite_VALORANT.jpg",
+        "sizeBytes": 3675841
+      },
+      {
+        "name": "Reveal_Canopy_VALORANT",
+        "displayName": "Reveal Canopy VALORANT",
+        "codename": "Reveal_Canopy_VALORANT",
+        "filename": "Reveal_Canopy_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_Canopy_VALORANT.jpg",
+        "sizeBytes": 1872214
+      },
+      {
+        "name": "Reveal_Hallway_VALORANT",
+        "displayName": "Reveal Hallway VALORANT",
+        "codename": "Reveal_Hallway_VALORANT",
+        "filename": "Reveal_Hallway_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_Hallway_VALORANT.jpg",
+        "sizeBytes": 3564841
+      },
+      {
+        "name": "Reveal_ReactorA_VALORANT",
+        "displayName": "Reveal ReactorA VALORANT",
+        "codename": "Reveal_ReactorA_VALORANT",
+        "filename": "Reveal_ReactorA_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_ReactorA_VALORANT.jpg",
+        "sizeBytes": 4477349
+      },
+      {
+        "name": "Reveal_Window_VALORANT",
+        "displayName": "Reveal Window VALORANT",
+        "codename": "Reveal_Window_VALORANT",
+        "filename": "Reveal_Window_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_Window_VALORANT.jpg",
+        "sizeBytes": 4893486
+      },
+      {
+        "name": "FFA_Deathmatch_Desktop",
+        "displayName": "FFA Deathmatch Desktop",
+        "codename": "FFA_Deathmatch_Desktop",
+        "filename": "FFA_Deathmatch_Desktop.jpg",
+        "relPath": "Valorantek/Backgrounds/Game Modes/FFA_Deathmatch_Desktop.jpg",
+        "sizeBytes": 5464984
+      },
+      {
+        "name": "FFA_Deathmatch_Desktop_galleryimage",
+        "displayName": "FFA Deathmatch Desktop galleryimage",
+        "codename": "FFA_Deathmatch_Desktop_galleryimage",
+        "filename": "FFA_Deathmatch_Desktop_galleryimage.jpg",
+        "relPath": "Valorantek/Backgrounds/Game Modes/FFA_Deathmatch_Desktop_galleryimage.jpg",
+        "sizeBytes": 3440976
+      },
+      {
+        "name": "FFA_Deathmatch_Desktop_Thumbnail",
+        "displayName": "FFA Deathmatch Desktop Thumbnail",
+        "codename": "FFA_Deathmatch_Desktop_Thumbnail",
+        "filename": "FFA_Deathmatch_Desktop_Thumbnail.jpg",
+        "relPath": "Valorantek/Backgrounds/Game Modes/FFA_Deathmatch_Desktop_Thumbnail.jpg",
+        "sizeBytes": 3317870
+      },
+      {
+        "name": "Beta Key Art_VALORANT",
+        "displayName": "Beta Key Art VALORANT",
+        "codename": "Beta Key Art_VALORANT",
+        "filename": "Beta Key Art_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Beta Key Art_VALORANT.jpg",
+        "sizeBytes": 6374900
+      },
+      {
+        "name": "California Sand DL TYPE_dl",
+        "displayName": "California Sand DL TYPE dl",
+        "codename": "California Sand DL TYPE_dl",
+        "filename": "California Sand DL TYPE_dl.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/California Sand DL TYPE_dl.png",
+        "sizeBytes": 5296728
+      },
+      {
+        "name": "China_CG_A2_Full",
+        "displayName": "China CG A2 Full",
+        "codename": "China_CG_A2_Full",
+        "filename": "China_CG_A2_Full.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/China_CG_A2_Full.jpg",
+        "sizeBytes": 14559253
+      },
+      {
+        "name": "China_CG_phxcool_fullres",
+        "displayName": "China CG phxcool fullres",
+        "codename": "China_CG_phxcool_fullres",
+        "filename": "China_CG_phxcool_fullres.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/China_CG_phxcool_fullres.jpg",
+        "sizeBytes": 6593745
+      },
+      {
+        "name": "China_CG_Sagefire_Full",
+        "displayName": "China CG Sagefire Full",
+        "codename": "China_CG_Sagefire_Full",
+        "filename": "China_CG_Sagefire_Full.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/China_CG_Sagefire_Full.jpg",
+        "sizeBytes": 14069074
+      },
+      {
+        "name": "China_PreRegistration_KV",
+        "displayName": "China PreRegistration KV",
+        "codename": "China_PreRegistration_KV",
+        "filename": "China_PreRegistration_KV.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/China_PreRegistration_KV.jpg",
+        "sizeBytes": 2891912
+      },
+      {
+        "name": "DL_Tease_16x9_v1",
+        "displayName": "DL Tease 16x9 v1",
+        "codename": "DL_Tease_16x9_v1",
+        "filename": "DL_Tease_16x9_v1.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/DL_Tease_16x9_v1.jpg",
+        "sizeBytes": 1487318
+      },
+      {
+        "name": "E8a1_Cineposter_4x5_IG",
+        "displayName": "E8a1 Cineposter 4x5 IG",
+        "codename": "E8a1_Cineposter_4x5_IG",
+        "filename": "E8a1_Cineposter_4x5_IG.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/E8a1_Cineposter_4x5_IG.jpg",
+        "sizeBytes": 1736908
+      },
+      {
+        "name": "Ep7_Act3_KV_EndCard_16x9_4k",
+        "displayName": "Ep7 Act3 KV EndCard 16x9 4k",
+        "codename": "Ep7_Act3_KV_EndCard_16x9_4k",
+        "filename": "Ep7_Act3_KV_EndCard_16x9_4k.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep7_Act3_KV_EndCard_16x9_4k.jpg",
+        "sizeBytes": 2129554
+      },
+      {
+        "name": "Ep7_Act3_KV_EndCard_21x9_4k",
+        "displayName": "Ep7 Act3 KV EndCard 21x9 4k",
+        "codename": "Ep7_Act3_KV_EndCard_21x9_4k",
+        "filename": "Ep7_Act3_KV_EndCard_21x9_4k.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep7_Act3_KV_EndCard_21x9_4k.jpg",
+        "sizeBytes": 2239264
+      },
+      {
+        "name": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
+        "displayName": "Ep8a1 Defiance Riot Client - Launch Game Background 2560x1440 ",
+        "codename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
+        "filename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+        "sizeBytes": 2675192
+      },
+      {
+        "name": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+        "displayName": "Ep8a1 Defiance Riot Client Login Page 1440p",
+        "codename": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+        "filename": "Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+        "sizeBytes": 2730881
+      },
+      {
+        "name": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+        "displayName": "Ep8a1 Defiance Youtube Box Art 1000x1400",
+        "codename": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+        "filename": "Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+        "sizeBytes": 1206046
+      },
+      {
+        "name": "Ep8a1_Defiance_Youtube Cover_",
+        "displayName": "Ep8a1 Defiance Youtube Cover ",
+        "codename": "Ep8a1_Defiance_Youtube Cover_",
+        "filename": "Ep8a1_Defiance_Youtube Cover_.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Youtube Cover_.png",
+        "sizeBytes": 2711064
+      },
+      {
+        "name": "Ep8A1_Riot Games.com Product Card 1920x1080_",
+        "displayName": "Ep8A1 Riot Games.com Product Card 1920x1080 ",
+        "codename": "Ep8A1_Riot Games.com Product Card 1920x1080_",
+        "filename": "Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+        "sizeBytes": 562403
+      },
+      {
+        "name": "Ep_7_Keyart_4k",
+        "displayName": "Ep 7 Keyart 4k",
+        "codename": "Ep_7_Keyart_4k",
+        "filename": "Ep_7_Keyart_4k.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep_7_Keyart_4k.jpg",
+        "sizeBytes": 1192202
+      },
+      {
+        "name": "FirstLook_CreepCreep_VALORANT",
+        "displayName": "FirstLook CreepCreep VALORANT",
+        "codename": "FirstLook_CreepCreep_VALORANT",
+        "filename": "FirstLook_CreepCreep_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/FirstLook_CreepCreep_VALORANT.jpg",
+        "sizeBytes": 3374894
+      },
+      {
+        "name": "FirstLook_Dragon_VALORANT",
+        "displayName": "FirstLook Dragon VALORANT",
+        "codename": "FirstLook_Dragon_VALORANT",
+        "filename": "FirstLook_Dragon_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/FirstLook_Dragon_VALORANT.jpg",
+        "sizeBytes": 4817332
+      },
+      {
+        "name": "FirstLook_Fire_VALORANT",
+        "displayName": "FirstLook Fire VALORANT",
+        "codename": "FirstLook_Fire_VALORANT",
+        "filename": "FirstLook_Fire_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/FirstLook_Fire_VALORANT.jpg",
+        "sizeBytes": 4365480
+      },
+      {
+        "name": "FirstLook_Smoke_VALORANT",
+        "displayName": "FirstLook Smoke VALORANT",
+        "codename": "FirstLook_Smoke_VALORANT",
+        "filename": "FirstLook_Smoke_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/FirstLook_Smoke_VALORANT.jpg",
+        "sizeBytes": 4160459
+      },
+      {
+        "name": "Gekko_Dark_1",
+        "displayName": "Gekko Dark 1",
+        "codename": "Gekko_Dark_1",
+        "filename": "Gekko_Dark_1.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Dark_1.png",
+        "sizeBytes": 2155991
+      },
+      {
+        "name": "Gekko_Dark_2",
+        "displayName": "Gekko Dark 2",
+        "codename": "Gekko_Dark_2",
+        "filename": "Gekko_Dark_2.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Dark_2.png",
+        "sizeBytes": 1781431
+      },
+      {
+        "name": "Gekko_Green_",
+        "displayName": "Gekko Green ",
+        "codename": "Gekko_Green_",
+        "filename": "Gekko_Green_.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Green_.png",
+        "sizeBytes": 2466948
+      },
+      {
+        "name": "Gekko_Light_1",
+        "displayName": "Gekko Light 1",
+        "codename": "Gekko_Light_1",
+        "filename": "Gekko_Light_1.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Light_1.png",
+        "sizeBytes": 2371711
+      },
+      {
+        "name": "Gekko_Light_2",
+        "displayName": "Gekko Light 2",
+        "codename": "Gekko_Light_2",
+        "filename": "Gekko_Light_2.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Light_2.png",
+        "sizeBytes": 2359983
+      },
+      {
+        "name": "Gekko_Purple_",
+        "displayName": "Gekko Purple ",
+        "codename": "Gekko_Purple_",
+        "filename": "Gekko_Purple_.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Purple_.png",
+        "sizeBytes": 1941499
+      },
+      {
+        "name": "KillJoy_Wallpapers_blue1",
+        "displayName": "KillJoy Wallpapers blue1",
+        "codename": "KillJoy_Wallpapers_blue1",
+        "filename": "KillJoy_Wallpapers_blue1.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/KillJoy_Wallpapers_blue1.jpg",
+        "sizeBytes": 5115478
+      },
+      {
+        "name": "KillJoy_Wallpapers_blue2",
+        "displayName": "KillJoy Wallpapers blue2",
+        "codename": "KillJoy_Wallpapers_blue2",
+        "filename": "KillJoy_Wallpapers_blue2.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/KillJoy_Wallpapers_blue2.jpg",
+        "sizeBytes": 5004919
+      },
+      {
+        "name": "KillJoy_Wallpapers_LIGHT",
+        "displayName": "KillJoy Wallpapers LIGHT",
+        "codename": "KillJoy_Wallpapers_LIGHT",
+        "filename": "KillJoy_Wallpapers_LIGHT.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/KillJoy_Wallpapers_LIGHT.jpg",
+        "sizeBytes": 4932231
+      },
+      {
+        "name": "KillJoy_Wallpapers_Red",
+        "displayName": "KillJoy Wallpapers Red",
+        "codename": "KillJoy_Wallpapers_Red",
+        "filename": "KillJoy_Wallpapers_Red.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/KillJoy_Wallpapers_Red.jpg",
+        "sizeBytes": 5001493
+      },
+      {
+        "name": "L10_Sillos_Final",
+        "displayName": "L10 Sillos Final",
+        "codename": "L10_Sillos_Final",
+        "filename": "L10_Sillos_Final.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/L10_Sillos_Final.jpg",
+        "sizeBytes": 15101217
+      },
+      {
+        "name": "LNY_Sage-1_TravelPrep",
+        "displayName": "LNY Sage-1 TravelPrep",
+        "codename": "LNY_Sage-1_TravelPrep",
+        "filename": "LNY_Sage-1_TravelPrep.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-1_TravelPrep.jpg",
+        "sizeBytes": 4349953
+      },
+      {
+        "name": "LNY_Sage-2_ShoppingA",
+        "displayName": "LNY Sage-2 ShoppingA",
+        "codename": "LNY_Sage-2_ShoppingA",
+        "filename": "LNY_Sage-2_ShoppingA.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-2_ShoppingA.jpg",
+        "sizeBytes": 2727164
+      },
+      {
+        "name": "LNY_Sage-2_ShoppingB",
+        "displayName": "LNY Sage-2 ShoppingB",
+        "codename": "LNY_Sage-2_ShoppingB",
+        "filename": "LNY_Sage-2_ShoppingB.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-2_ShoppingB.jpg",
+        "sizeBytes": 2620426
+      },
+      {
+        "name": "LNY_Sage-2_ShoppingC",
+        "displayName": "LNY Sage-2 ShoppingC",
+        "codename": "LNY_Sage-2_ShoppingC",
+        "filename": "LNY_Sage-2_ShoppingC.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-2_ShoppingC.jpg",
+        "sizeBytes": 2736849
+      },
+      {
+        "name": "LNY_Sage-3_NightMarket",
+        "displayName": "LNY Sage-3 NightMarket",
+        "codename": "LNY_Sage-3_NightMarket",
+        "filename": "LNY_Sage-3_NightMarket.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-3_NightMarket.jpg",
+        "sizeBytes": 3329109
+      },
+      {
+        "name": "LNY_Sage-4_BeachDay",
+        "displayName": "LNY Sage-4 BeachDay",
+        "codename": "LNY_Sage-4_BeachDay",
+        "filename": "LNY_Sage-4_BeachDay.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-4_BeachDay.jpg",
+        "sizeBytes": 3789929
+      },
+      {
+        "name": "LNY_Sage-5_CallBack",
+        "displayName": "LNY Sage-5 CallBack",
+        "codename": "LNY_Sage-5_CallBack",
+        "filename": "LNY_Sage-5_CallBack.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-5_CallBack.jpg",
+        "sizeBytes": 3298899
+      },
+      {
+        "name": "LNY_Sage-6_WrapUp",
+        "displayName": "LNY Sage-6 WrapUp",
+        "codename": "LNY_Sage-6_WrapUp",
+        "filename": "LNY_Sage-6_WrapUp.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-6_WrapUp.jpg",
+        "sizeBytes": 2661996
+      },
+      {
+        "name": "Reyna_Wallpaper_1",
+        "displayName": "Reyna Wallpaper 1",
+        "codename": "Reyna_Wallpaper_1",
+        "filename": "Reyna_Wallpaper_1.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Reyna_Wallpaper_1.jpg",
+        "sizeBytes": 1753720
+      },
+      {
+        "name": "Skye_KeyArt_PR_1",
+        "displayName": "Skye KeyArt PR 1",
+        "codename": "Skye_KeyArt_PR_1",
+        "filename": "Skye_KeyArt_PR_1.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Skye_KeyArt_PR_1.jpg",
+        "sizeBytes": 5348336
+      },
+      {
+        "name": "Skye_KeyArt_PR_2",
+        "displayName": "Skye KeyArt PR 2",
+        "codename": "Skye_KeyArt_PR_2",
+        "filename": "Skye_KeyArt_PR_2.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Skye_KeyArt_PR_2.jpg",
+        "sizeBytes": 5773129
+      },
+      {
+        "name": "Skye_KeyArt_PR_3",
+        "displayName": "Skye KeyArt PR 3",
+        "codename": "Skye_KeyArt_PR_3",
+        "filename": "Skye_KeyArt_PR_3.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Skye_KeyArt_PR_3.jpg",
+        "sizeBytes": 5395172
+      },
+      {
+        "name": "Skye_KeyArt_PR_4",
+        "displayName": "Skye KeyArt PR 4",
+        "codename": "Skye_KeyArt_PR_4",
+        "filename": "Skye_KeyArt_PR_4.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Skye_KeyArt_PR_4.jpg",
+        "sizeBytes": 5431995
+      },
+      {
+        "name": "ValorantWallpaper_johnslatte1",
+        "displayName": "ValorantWallpaper johnslatte1",
+        "codename": "ValorantWallpaper_johnslatte1",
+        "filename": "ValorantWallpaper_johnslatte1.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/ValorantWallpaper_johnslatte1.jpg",
+        "sizeBytes": 1377445
+      },
+      {
+        "name": "ValorantWallpaper_johnslatte2",
+        "displayName": "ValorantWallpaper johnslatte2",
+        "codename": "ValorantWallpaper_johnslatte2",
+        "filename": "ValorantWallpaper_johnslatte2.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/ValorantWallpaper_johnslatte2.jpg",
+        "sizeBytes": 1417514
+      },
+      {
+        "name": "ValorantWallpaper_johnslatte3",
+        "displayName": "ValorantWallpaper johnslatte3",
+        "codename": "ValorantWallpaper_johnslatte3",
+        "filename": "ValorantWallpaper_johnslatte3.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/ValorantWallpaper_johnslatte3.jpg",
+        "sizeBytes": 1465480
+      },
+      {
+        "name": "Valorant_CloseBeta_Final_design",
+        "displayName": "Valorant CloseBeta Final design",
+        "codename": "Valorant_CloseBeta_Final_design",
+        "filename": "Valorant_CloseBeta_Final_design.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_CloseBeta_Final_design.jpg",
+        "sizeBytes": 2742480
+      },
+      {
+        "name": "Valorant_EP-8-Teaser_The-arrival",
+        "displayName": "Valorant EP-8-Teaser The-arrival",
+        "codename": "Valorant_EP-8-Teaser_The-arrival",
+        "filename": "Valorant_EP-8-Teaser_The-arrival.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP-8-Teaser_The-arrival.jpg",
+        "sizeBytes": 995676
+      },
+      {
+        "name": "Valorant_EP8_Teaser_Cypher Reborn",
+        "displayName": "Valorant EP8 Teaser Cypher Reborn",
+        "codename": "Valorant_EP8_Teaser_Cypher Reborn",
+        "filename": "Valorant_EP8_Teaser_Cypher Reborn.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Cypher Reborn.jpg",
+        "sizeBytes": 913459
+      },
+      {
+        "name": "Valorant_EP8_Teaser_Omen and the Outlaw",
+        "displayName": "Valorant EP8 Teaser Omen and the Outlaw",
+        "codename": "Valorant_EP8_Teaser_Omen and the Outlaw",
+        "filename": "Valorant_EP8_Teaser_Omen and the Outlaw.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Omen and the Outlaw.png",
+        "sizeBytes": 5602827
+      },
+      {
+        "name": "Valorant_EP8_Teaser_Sova the Specialist",
+        "displayName": "Valorant EP8 Teaser Sova the Specialist",
+        "codename": "Valorant_EP8_Teaser_Sova the Specialist",
+        "filename": "Valorant_EP8_Teaser_Sova the Specialist.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Sova the Specialist.png",
+        "sizeBytes": 10004792
+      },
+      {
+        "name": "VALORANT_Jett",
+        "displayName": "VALORANT Jett",
+        "codename": "VALORANT_Jett",
+        "filename": "VALORANT_Jett.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/VALORANT_Jett.jpg",
+        "sizeBytes": 2051029
+      },
+      {
+        "name": "Valorant_Launch_KV_424_designpass_F",
+        "displayName": "Valorant Launch KV 424 designpass F",
+        "codename": "Valorant_Launch_KV_424_designpass_F",
+        "filename": "Valorant_Launch_KV_424_designpass_F.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_Launch_KV_424_designpass_F.jpg",
+        "sizeBytes": 3344199
+      },
+      {
+        "name": "VALORANT_PHX",
+        "displayName": "VALORANT PHX",
+        "codename": "VALORANT_PHX",
+        "filename": "VALORANT_PHX.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/VALORANT_PHX.jpg",
+        "sizeBytes": 1914414
+      },
+      {
+        "name": "VALORANT_Viper",
+        "displayName": "VALORANT Viper",
+        "codename": "VALORANT_Viper",
+        "filename": "VALORANT_Viper.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/VALORANT_Viper.jpg",
+        "sizeBytes": 1511903
+      },
+      {
+        "name": "Vertical_jett",
+        "displayName": "Vertical jett",
+        "codename": "Vertical_jett",
+        "filename": "Vertical_jett.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Vertical_jett.jpg",
+        "sizeBytes": 1194306
+      },
+      {
+        "name": "Vertical_Phx",
+        "displayName": "Vertical Phx",
+        "codename": "Vertical_Phx",
+        "filename": "Vertical_Phx.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Vertical_Phx.jpg",
+        "sizeBytes": 1161740
+      },
+      {
         "name": "Loading_vignette",
         "displayName": "Loading vignette",
         "codename": "Loading_vignette",
         "filename": "Loading_vignette.png",
         "relPath": "Valorantek/Backgrounds/Loading_vignette.png",
         "sizeBytes": 79915
+      },
+      {
+        "name": "China_CG_EndMap_Full",
+        "displayName": "China CG EndMap Full",
+        "codename": "China_CG_EndMap_Full",
+        "filename": "China_CG_EndMap_Full.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/China_CG_EndMap_Full.jpg",
+        "sizeBytes": 7755873
+      },
+      {
+        "name": "China_CG_Haven_Overlook",
+        "displayName": "China CG Haven Overlook",
+        "codename": "China_CG_Haven_Overlook",
+        "filename": "China_CG_Haven_Overlook.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/China_CG_Haven_Overlook.jpg",
+        "sizeBytes": 8166219
+      },
+      {
+        "name": "FFA_Deathmatch_Desktop",
+        "displayName": "FFA Deathmatch Desktop",
+        "codename": "FFA_Deathmatch_Desktop",
+        "filename": "FFA_Deathmatch_Desktop.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/FFA_Deathmatch_Desktop.jpg",
+        "sizeBytes": 5464984
+      },
+      {
+        "name": "FFA_Deathmatch_Desktop_galleryimage",
+        "displayName": "FFA Deathmatch Desktop galleryimage",
+        "codename": "FFA_Deathmatch_Desktop_galleryimage",
+        "filename": "FFA_Deathmatch_Desktop_galleryimage.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/FFA_Deathmatch_Desktop_galleryimage.jpg",
+        "sizeBytes": 3440976
+      },
+      {
+        "name": "FFA_Deathmatch_Desktop_Thumbnail",
+        "displayName": "FFA Deathmatch Desktop Thumbnail",
+        "codename": "FFA_Deathmatch_Desktop_Thumbnail",
+        "filename": "FFA_Deathmatch_Desktop_Thumbnail.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/FFA_Deathmatch_Desktop_Thumbnail.jpg",
+        "sizeBytes": 3317870
+      },
+      {
+        "name": "Reveal_BSite_VALORANT",
+        "displayName": "Reveal BSite VALORANT",
+        "codename": "Reveal_BSite_VALORANT",
+        "filename": "Reveal_BSite_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_BSite_VALORANT.jpg",
+        "sizeBytes": 3675841
+      },
+      {
+        "name": "Reveal_Canopy_VALORANT",
+        "displayName": "Reveal Canopy VALORANT",
+        "codename": "Reveal_Canopy_VALORANT",
+        "filename": "Reveal_Canopy_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_Canopy_VALORANT.jpg",
+        "sizeBytes": 1872214
+      },
+      {
+        "name": "Reveal_Hallway_VALORANT",
+        "displayName": "Reveal Hallway VALORANT",
+        "codename": "Reveal_Hallway_VALORANT",
+        "filename": "Reveal_Hallway_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_Hallway_VALORANT.jpg",
+        "sizeBytes": 3564841
+      },
+      {
+        "name": "Reveal_ReactorA_VALORANT",
+        "displayName": "Reveal ReactorA VALORANT",
+        "codename": "Reveal_ReactorA_VALORANT",
+        "filename": "Reveal_ReactorA_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_ReactorA_VALORANT.jpg",
+        "sizeBytes": 4477349
+      },
+      {
+        "name": "Reveal_Window_VALORANT",
+        "displayName": "Reveal Window VALORANT",
+        "codename": "Reveal_Window_VALORANT",
+        "filename": "Reveal_Window_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_Window_VALORANT.jpg",
+        "sizeBytes": 4893486
       },
       {
         "name": "Loading_Ascent",
@@ -39106,6 +41299,46 @@
         "sizeBytes": 825271
       },
       {
+        "name": "VALORANT_phx_jett_2",
+        "displayName": "VALORANT phx jett 2",
+        "codename": "VALORANT_phx_jett_2",
+        "filename": "VALORANT_phx_jett_2.jpg",
+        "relPath": "Valorantek/Backgrounds/Phoenix & Jett Key Art/VALORANT_phx_jett_2.jpg",
+        "sizeBytes": 2421038
+      },
+      {
+        "name": "VALORANT_phx_jett_brand",
+        "displayName": "VALORANT phx jett brand",
+        "codename": "VALORANT_phx_jett_brand",
+        "filename": "VALORANT_phx_jett_brand.jpg",
+        "relPath": "Valorantek/Backgrounds/Phoenix & Jett Key Art/VALORANT_phx_jett_brand.jpg",
+        "sizeBytes": 2141364
+      },
+      {
+        "name": "ValorantWallpaper_johnslatte1",
+        "displayName": "ValorantWallpaper johnslatte1",
+        "codename": "ValorantWallpaper_johnslatte1",
+        "filename": "ValorantWallpaper_johnslatte1.jpg",
+        "relPath": "Valorantek/Backgrounds/Promotional Wallpapers/ValorantWallpaper_johnslatte1.jpg",
+        "sizeBytes": 1377445
+      },
+      {
+        "name": "ValorantWallpaper_johnslatte2",
+        "displayName": "ValorantWallpaper johnslatte2",
+        "codename": "ValorantWallpaper_johnslatte2",
+        "filename": "ValorantWallpaper_johnslatte2.jpg",
+        "relPath": "Valorantek/Backgrounds/Promotional Wallpapers/ValorantWallpaper_johnslatte2.jpg",
+        "sizeBytes": 1417514
+      },
+      {
+        "name": "ValorantWallpaper_johnslatte3",
+        "displayName": "ValorantWallpaper johnslatte3",
+        "codename": "ValorantWallpaper_johnslatte3",
+        "filename": "ValorantWallpaper_johnslatte3.jpg",
+        "relPath": "Valorantek/Backgrounds/Promotional Wallpapers/ValorantWallpaper_johnslatte3.jpg",
+        "sizeBytes": 1465480
+      },
+      {
         "name": "TX_UI_BackgroundCurrency",
         "displayName": "BackgroundCurrency",
         "codename": "BackgroundCurrency",
@@ -39288,6 +41521,30 @@
         "filename": "V26A5_In-Client_Loading_Screen_ROW1.png",
         "relPath": "Valorantek/Backgrounds/V26A5_In-Client_Loading_Screen_ROW1.png",
         "sizeBytes": 2176051
+      },
+      {
+        "name": "Wallpaper_Schematic_Weapons",
+        "displayName": "Wallpaper Schematic Weapons",
+        "codename": "Wallpaper_Schematic_Weapons",
+        "filename": "Wallpaper_Schematic_Weapons.jpg",
+        "relPath": "Valorantek/Backgrounds/Weapons Schematic/Wallpaper_Schematic_Weapons.jpg",
+        "sizeBytes": 6067636
+      },
+      {
+        "name": "Wallpaper_Schematic_Weapons_galleryimage",
+        "displayName": "Wallpaper Schematic Weapons galleryimage",
+        "codename": "Wallpaper_Schematic_Weapons_galleryimage",
+        "filename": "Wallpaper_Schematic_Weapons_galleryimage.jpg",
+        "relPath": "Valorantek/Backgrounds/Weapons Schematic/Wallpaper_Schematic_Weapons_galleryimage.jpg",
+        "sizeBytes": 3699460
+      },
+      {
+        "name": "Wallpaper_Schematic_Weapons_thumbnail",
+        "displayName": "Wallpaper Schematic Weapons thumbnail",
+        "codename": "Wallpaper_Schematic_Weapons_thumbnail",
+        "filename": "Wallpaper_Schematic_Weapons_thumbnail.jpg",
+        "relPath": "Valorantek/Backgrounds/Weapons Schematic/Wallpaper_Schematic_Weapons_thumbnail.jpg",
+        "sizeBytes": 3588139
       }
     ],
     "backgroundCategories": {
@@ -44535,6 +46792,332 @@
           "sizeBytes": 128001
         }
       ],
+      "China & Beta Key Art": [
+        {
+          "name": "China_CG_A2_Full",
+          "displayName": "China CG A2 Full",
+          "codename": "China_CG_A2_Full",
+          "filename": "China_CG_A2_Full.jpg",
+          "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_A2_Full.jpg",
+          "sizeBytes": 14559253
+        },
+        {
+          "name": "China_CG_EndMap_Full",
+          "displayName": "China CG EndMap Full",
+          "codename": "China_CG_EndMap_Full",
+          "filename": "China_CG_EndMap_Full.jpg",
+          "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_EndMap_Full.jpg",
+          "sizeBytes": 7755873
+        },
+        {
+          "name": "China_CG_Haven_Overlook",
+          "displayName": "China CG Haven Overlook",
+          "codename": "China_CG_Haven_Overlook",
+          "filename": "China_CG_Haven_Overlook.jpg",
+          "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_Haven_Overlook.jpg",
+          "sizeBytes": 8166219
+        },
+        {
+          "name": "China_CG_Jett_Jump_Full",
+          "displayName": "China CG Jett Jump Full",
+          "codename": "China_CG_Jett_Jump_Full",
+          "filename": "China_CG_Jett_Jump_Full.jpg",
+          "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_Jett_Jump_Full.jpg",
+          "sizeBytes": 9349882
+        },
+        {
+          "name": "China_CG_phxcool_fullres",
+          "displayName": "China CG phxcool fullres",
+          "codename": "China_CG_phxcool_fullres",
+          "filename": "China_CG_phxcool_fullres.jpg",
+          "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_phxcool_fullres.jpg",
+          "sizeBytes": 6593745
+        },
+        {
+          "name": "China_CG_Sagefire_Full",
+          "displayName": "China CG Sagefire Full",
+          "codename": "China_CG_Sagefire_Full",
+          "filename": "China_CG_Sagefire_Full.jpg",
+          "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_CG_Sagefire_Full.jpg",
+          "sizeBytes": 14069074
+        },
+        {
+          "name": "China_PreRegistration_KV",
+          "displayName": "China PreRegistration KV",
+          "codename": "China_PreRegistration_KV",
+          "filename": "China_PreRegistration_KV.jpg",
+          "relPath": "Valorantek/Backgrounds/China & Beta Key Art/China_PreRegistration_KV.jpg",
+          "sizeBytes": 2891912
+        },
+        {
+          "name": "Valorant_CloseBeta_Final_design",
+          "displayName": "Valorant CloseBeta Final design",
+          "codename": "Valorant_CloseBeta_Final_design",
+          "filename": "Valorant_CloseBeta_Final_design.jpg",
+          "relPath": "Valorantek/Backgrounds/China & Beta Key Art/Valorant_CloseBeta_Final_design.jpg",
+          "sizeBytes": 2742480
+        },
+        {
+          "name": "Valorant_Launch_KV_424_designpass_F",
+          "displayName": "Valorant Launch KV 424 designpass F",
+          "codename": "Valorant_Launch_KV_424_designpass_F",
+          "filename": "Valorant_Launch_KV_424_designpass_F.jpg",
+          "relPath": "Valorantek/Backgrounds/China & Beta Key Art/Valorant_Launch_KV_424_designpass_F.jpg",
+          "sizeBytes": 3344199
+        }
+      ],
+      "Closed Beta Key Art": [
+        {
+          "name": "Beta Key Art_VALORANT",
+          "displayName": "Beta Key Art VALORANT",
+          "codename": "Beta Key Art_VALORANT",
+          "filename": "Beta Key Art_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Beta Key Art_VALORANT.jpg",
+          "sizeBytes": 6374900
+        },
+        {
+          "name": "L10_Sillos_Final",
+          "displayName": "L10 Sillos Final",
+          "codename": "L10_Sillos_Final",
+          "filename": "L10_Sillos_Final.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/L10_Sillos_Final.jpg",
+          "sizeBytes": 15101217
+        },
+        {
+          "name": "VALORANT_Jett",
+          "displayName": "VALORANT Jett",
+          "codename": "VALORANT_Jett",
+          "filename": "VALORANT_Jett.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett.jpg",
+          "sizeBytes": 2051029
+        },
+        {
+          "name": "VALORANT_JETT_Duotoned",
+          "displayName": "VALORANT JETT Duotoned",
+          "codename": "VALORANT_JETT_Duotoned",
+          "filename": "VALORANT_JETT_Duotoned.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_JETT_Duotoned.jpg",
+          "sizeBytes": 1409716
+        },
+        {
+          "name": "VALORANT_Jett_Red (1)",
+          "displayName": "VALORANT Jett Red (1)",
+          "codename": "VALORANT_Jett_Red (1)",
+          "filename": "VALORANT_Jett_Red (1).jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett_Red (1).jpg",
+          "sizeBytes": 2319421
+        },
+        {
+          "name": "VALORANT_Jett_Type",
+          "displayName": "VALORANT Jett Type",
+          "codename": "VALORANT_Jett_Type",
+          "filename": "VALORANT_Jett_Type.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett_Type.jpg",
+          "sizeBytes": 1760964
+        },
+        {
+          "name": "VALORANT_Logo_V",
+          "displayName": "VALORANT Logo V",
+          "codename": "VALORANT_Logo_V",
+          "filename": "VALORANT_Logo_V.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Logo_V.jpg",
+          "sizeBytes": 798754
+        },
+        {
+          "name": "VALORANT_PHX",
+          "displayName": "VALORANT PHX",
+          "codename": "VALORANT_PHX",
+          "filename": "VALORANT_PHX.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_PHX.jpg",
+          "sizeBytes": 1914414
+        },
+        {
+          "name": "VALORANT_phx_jett",
+          "displayName": "VALORANT phx jett",
+          "codename": "VALORANT_phx_jett",
+          "filename": "VALORANT_phx_jett.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_phx_jett.jpg",
+          "sizeBytes": 2353337
+        },
+        {
+          "name": "VALORANT_phx_jett_brand",
+          "displayName": "VALORANT phx jett brand",
+          "codename": "VALORANT_phx_jett_brand",
+          "filename": "VALORANT_phx_jett_brand.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_phx_jett_brand.jpg",
+          "sizeBytes": 2141364
+        },
+        {
+          "name": "VALORANT_Viper",
+          "displayName": "VALORANT Viper",
+          "codename": "VALORANT_Viper",
+          "filename": "VALORANT_Viper.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Viper.jpg",
+          "sizeBytes": 1511903
+        },
+        {
+          "name": "VALORANT_VIPER_2 (1)",
+          "displayName": "VALORANT VIPER 2 (1)",
+          "codename": "VALORANT_VIPER_2 (1)",
+          "filename": "VALORANT_VIPER_2 (1).jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_VIPER_2 (1).jpg",
+          "sizeBytes": 1822584
+        },
+        {
+          "name": "Vertical Viper",
+          "displayName": "Vertical Viper",
+          "codename": "Vertical Viper",
+          "filename": "Vertical Viper.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical Viper.jpg",
+          "sizeBytes": 1108432
+        },
+        {
+          "name": "Vertical_jett",
+          "displayName": "Vertical jett",
+          "codename": "Vertical_jett",
+          "filename": "Vertical_jett.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical_jett.jpg",
+          "sizeBytes": 1194306
+        },
+        {
+          "name": "Vertical_Phx",
+          "displayName": "Vertical Phx",
+          "codename": "Vertical_Phx",
+          "filename": "Vertical_Phx.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical_Phx.jpg",
+          "sizeBytes": 1161740
+        }
+      ],
+      "Concepts & Sketches": [
+        {
+          "name": "FirstLook_ClassicRevolverConcept_VALORANT",
+          "displayName": "FirstLook ClassicRevolverConcept VALORANT",
+          "codename": "FirstLook_ClassicRevolverConcept_VALORANT",
+          "filename": "FirstLook_ClassicRevolverConcept_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_ClassicRevolverConcept_VALORANT.jpg",
+          "sizeBytes": 890572
+        },
+        {
+          "name": "FirstLook_CypherAbilitiesConcept",
+          "displayName": "FirstLook CypherAbilitiesConcept",
+          "codename": "FirstLook_CypherAbilitiesConcept",
+          "filename": "FirstLook_CypherAbilitiesConcept.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_CypherAbilitiesConcept.jpg",
+          "sizeBytes": 112055
+        },
+        {
+          "name": "FirstLook_CypherCharConcept",
+          "displayName": "FirstLook CypherCharConcept",
+          "codename": "FirstLook_CypherCharConcept",
+          "filename": "FirstLook_CypherCharConcept.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_CypherCharConcept.jpg",
+          "sizeBytes": 684549
+        },
+        {
+          "name": "FirstLook_JettCharacterConcept",
+          "displayName": "FirstLook JettCharacterConcept",
+          "codename": "FirstLook_JettCharacterConcept",
+          "filename": "FirstLook_JettCharacterConcept.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_JettCharacterConcept.jpg",
+          "sizeBytes": 885103
+        },
+        {
+          "name": "FirstLook_KingdomConcept_VALORANT",
+          "displayName": "FirstLook KingdomConcept VALORANT",
+          "codename": "FirstLook_KingdomConcept_VALORANT",
+          "filename": "FirstLook_KingdomConcept_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_KingdomConcept_VALORANT.jpg",
+          "sizeBytes": 2780006
+        },
+        {
+          "name": "FirstLook_PhoenixCharConcept",
+          "displayName": "FirstLook PhoenixCharConcept",
+          "codename": "FirstLook_PhoenixCharConcept",
+          "filename": "FirstLook_PhoenixCharConcept.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_PhoenixCharConcept.jpg",
+          "sizeBytes": 12078833
+        },
+        {
+          "name": "FirstLook_PhoenixFireConcept",
+          "displayName": "FirstLook PhoenixFireConcept",
+          "codename": "FirstLook_PhoenixFireConcept",
+          "filename": "FirstLook_PhoenixFireConcept.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_PhoenixFireConcept.jpg",
+          "sizeBytes": 1092843
+        },
+        {
+          "name": "FirstLook_PhoenixFlameConcept",
+          "displayName": "FirstLook PhoenixFlameConcept",
+          "codename": "FirstLook_PhoenixFlameConcept",
+          "filename": "FirstLook_PhoenixFlameConcept.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_PhoenixFlameConcept.jpg",
+          "sizeBytes": 161943
+        },
+        {
+          "name": "FirstLook_SageHealConcept",
+          "displayName": "FirstLook SageHealConcept",
+          "codename": "FirstLook_SageHealConcept",
+          "filename": "FirstLook_SageHealConcept.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_SageHealConcept.jpg",
+          "sizeBytes": 203019
+        },
+        {
+          "name": "FirstLook_SovaConcept",
+          "displayName": "FirstLook SovaConcept",
+          "codename": "FirstLook_SovaConcept",
+          "filename": "FirstLook_SovaConcept.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_SovaConcept.jpg",
+          "sizeBytes": 1354242
+        },
+        {
+          "name": "FirstLook_SovaRevolverConcept_VALORANT",
+          "displayName": "FirstLook SovaRevolverConcept VALORANT",
+          "codename": "FirstLook_SovaRevolverConcept_VALORANT",
+          "filename": "FirstLook_SovaRevolverConcept_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_SovaRevolverConcept_VALORANT.jpg",
+          "sizeBytes": 1231847
+        },
+        {
+          "name": "FirstLook_SpikeConcepts_VALORANT",
+          "displayName": "FirstLook SpikeConcepts VALORANT",
+          "codename": "FirstLook_SpikeConcepts_VALORANT",
+          "filename": "FirstLook_SpikeConcepts_VALORANT.png",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_SpikeConcepts_VALORANT.png",
+          "sizeBytes": 4280715
+        },
+        {
+          "name": "FirstLook_Viper_Concept",
+          "displayName": "FirstLook Viper Concept",
+          "codename": "FirstLook_Viper_Concept",
+          "filename": "FirstLook_Viper_Concept.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/FirstLook_Viper_Concept.jpg",
+          "sizeBytes": 5434844
+        },
+        {
+          "name": "Wallpaper_Schematic_Weapons",
+          "displayName": "Wallpaper Schematic Weapons",
+          "codename": "Wallpaper_Schematic_Weapons",
+          "filename": "Wallpaper_Schematic_Weapons.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/Wallpaper_Schematic_Weapons.jpg",
+          "sizeBytes": 6067636
+        },
+        {
+          "name": "Wallpaper_Schematic_Weapons_galleryimage",
+          "displayName": "Wallpaper Schematic Weapons galleryimage",
+          "codename": "Wallpaper_Schematic_Weapons_galleryimage",
+          "filename": "Wallpaper_Schematic_Weapons_galleryimage.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/Wallpaper_Schematic_Weapons_galleryimage.jpg",
+          "sizeBytes": 3699460
+        },
+        {
+          "name": "Wallpaper_Schematic_Weapons_thumbnail",
+          "displayName": "Wallpaper Schematic Weapons thumbnail",
+          "codename": "Wallpaper_Schematic_Weapons_thumbnail",
+          "filename": "Wallpaper_Schematic_Weapons_thumbnail.jpg",
+          "relPath": "Valorantek/Backgrounds/Concepts & Sketches/Wallpaper_Schematic_Weapons_thumbnail.jpg",
+          "sizeBytes": 3588139
+        }
+      ],
       "General Backgrounds": [
         {
           "name": "Crosshair_BG_Texture",
@@ -44673,6 +47256,736 @@
           "filename": "V26A5_In-Client_Loading_Screen_ROW1.png",
           "relPath": "Valorantek/Backgrounds/V26A5_In-Client_Loading_Screen_ROW1.png",
           "sizeBytes": 2176051
+        }
+      ],
+      "Episode & Act Key Art": [
+        {
+          "name": "E8a1_Cineposter_4x5_IG",
+          "displayName": "E8a1 Cineposter 4x5 IG",
+          "codename": "E8a1_Cineposter_4x5_IG",
+          "filename": "E8a1_Cineposter_4x5_IG.jpg",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/E8a1_Cineposter_4x5_IG.jpg",
+          "sizeBytes": 1736908
+        },
+        {
+          "name": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
+          "displayName": "Ep8a1 Defiance Riot Client - Launch Game Background 2560x1440 ",
+          "codename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
+          "filename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+          "sizeBytes": 2675192
+        },
+        {
+          "name": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+          "displayName": "Ep8a1 Defiance Riot Client Login Page 1440p",
+          "codename": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+          "filename": "Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+          "sizeBytes": 2730881
+        },
+        {
+          "name": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+          "displayName": "Ep8a1 Defiance Youtube Box Art 1000x1400",
+          "codename": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+          "filename": "Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+          "sizeBytes": 1206046
+        },
+        {
+          "name": "Ep8a1_Defiance_Youtube Cover_",
+          "displayName": "Ep8a1 Defiance Youtube Cover ",
+          "codename": "Ep8a1_Defiance_Youtube Cover_",
+          "filename": "Ep8a1_Defiance_Youtube Cover_.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube Cover_.png",
+          "sizeBytes": 2711064
+        },
+        {
+          "name": "Ep8A1_Riot Games.com Product Card 1920x1080_",
+          "displayName": "Ep8A1 Riot Games.com Product Card 1920x1080 ",
+          "codename": "Ep8A1_Riot Games.com Product Card 1920x1080_",
+          "filename": "Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+          "sizeBytes": 562403
+        },
+        {
+          "name": "Valorant_EP-8-Teaser_The-arrival",
+          "displayName": "Valorant EP-8-Teaser The-arrival",
+          "codename": "Valorant_EP-8-Teaser_The-arrival",
+          "filename": "Valorant_EP-8-Teaser_The-arrival.jpg",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP-8-Teaser_The-arrival.jpg",
+          "sizeBytes": 995676
+        },
+        {
+          "name": "Valorant_EP8_Teaser_Cypher Reborn",
+          "displayName": "Valorant EP8 Teaser Cypher Reborn",
+          "codename": "Valorant_EP8_Teaser_Cypher Reborn",
+          "filename": "Valorant_EP8_Teaser_Cypher Reborn.jpg",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Cypher Reborn.jpg",
+          "sizeBytes": 913459
+        },
+        {
+          "name": "Valorant_EP8_Teaser_Omen and the Outlaw",
+          "displayName": "Valorant EP8 Teaser Omen and the Outlaw",
+          "codename": "Valorant_EP8_Teaser_Omen and the Outlaw",
+          "filename": "Valorant_EP8_Teaser_Omen and the Outlaw.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Omen and the Outlaw.png",
+          "sizeBytes": 5602827
+        },
+        {
+          "name": "Valorant_EP8_Teaser_Sova the Specialist",
+          "displayName": "Valorant EP8 Teaser Sova the Specialist",
+          "codename": "Valorant_EP8_Teaser_Sova the Specialist",
+          "filename": "Valorant_EP8_Teaser_Sova the Specialist.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Sova the Specialist.png",
+          "sizeBytes": 10004792
+        }
+      ],
+      "First Look Screenshots": [
+        {
+          "name": "FirstLook_CreepCreep_VALORANT",
+          "displayName": "FirstLook CreepCreep VALORANT",
+          "codename": "FirstLook_CreepCreep_VALORANT",
+          "filename": "FirstLook_CreepCreep_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/First Look Screenshots/FirstLook_CreepCreep_VALORANT.jpg",
+          "sizeBytes": 3374894
+        },
+        {
+          "name": "FirstLook_Dragon_VALORANT",
+          "displayName": "FirstLook Dragon VALORANT",
+          "codename": "FirstLook_Dragon_VALORANT",
+          "filename": "FirstLook_Dragon_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/First Look Screenshots/FirstLook_Dragon_VALORANT.jpg",
+          "sizeBytes": 4817332
+        },
+        {
+          "name": "FirstLook_Fire_VALORANT",
+          "displayName": "FirstLook Fire VALORANT",
+          "codename": "FirstLook_Fire_VALORANT",
+          "filename": "FirstLook_Fire_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/First Look Screenshots/FirstLook_Fire_VALORANT.jpg",
+          "sizeBytes": 4365480
+        },
+        {
+          "name": "FirstLook_Smoke_VALORANT",
+          "displayName": "FirstLook Smoke VALORANT",
+          "codename": "FirstLook_Smoke_VALORANT",
+          "filename": "FirstLook_Smoke_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/First Look Screenshots/FirstLook_Smoke_VALORANT.jpg",
+          "sizeBytes": 4160459
+        },
+        {
+          "name": "Reveal_BSite_VALORANT",
+          "displayName": "Reveal BSite VALORANT",
+          "codename": "Reveal_BSite_VALORANT",
+          "filename": "Reveal_BSite_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_BSite_VALORANT.jpg",
+          "sizeBytes": 3675841
+        },
+        {
+          "name": "Reveal_Canopy_VALORANT",
+          "displayName": "Reveal Canopy VALORANT",
+          "codename": "Reveal_Canopy_VALORANT",
+          "filename": "Reveal_Canopy_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_Canopy_VALORANT.jpg",
+          "sizeBytes": 1872214
+        },
+        {
+          "name": "Reveal_Hallway_VALORANT",
+          "displayName": "Reveal Hallway VALORANT",
+          "codename": "Reveal_Hallway_VALORANT",
+          "filename": "Reveal_Hallway_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_Hallway_VALORANT.jpg",
+          "sizeBytes": 3564841
+        },
+        {
+          "name": "Reveal_ReactorA_VALORANT",
+          "displayName": "Reveal ReactorA VALORANT",
+          "codename": "Reveal_ReactorA_VALORANT",
+          "filename": "Reveal_ReactorA_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_ReactorA_VALORANT.jpg",
+          "sizeBytes": 4477349
+        },
+        {
+          "name": "Reveal_Window_VALORANT",
+          "displayName": "Reveal Window VALORANT",
+          "codename": "Reveal_Window_VALORANT",
+          "filename": "Reveal_Window_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/First Look Screenshots/Reveal_Window_VALORANT.jpg",
+          "sizeBytes": 4893486
+        }
+      ],
+      "Game Modes": [
+        {
+          "name": "FFA_Deathmatch_Desktop",
+          "displayName": "FFA Deathmatch Desktop",
+          "codename": "FFA_Deathmatch_Desktop",
+          "filename": "FFA_Deathmatch_Desktop.jpg",
+          "relPath": "Valorantek/Backgrounds/Game Modes/FFA_Deathmatch_Desktop.jpg",
+          "sizeBytes": 5464984
+        },
+        {
+          "name": "FFA_Deathmatch_Desktop_galleryimage",
+          "displayName": "FFA Deathmatch Desktop galleryimage",
+          "codename": "FFA_Deathmatch_Desktop_galleryimage",
+          "filename": "FFA_Deathmatch_Desktop_galleryimage.jpg",
+          "relPath": "Valorantek/Backgrounds/Game Modes/FFA_Deathmatch_Desktop_galleryimage.jpg",
+          "sizeBytes": 3440976
+        },
+        {
+          "name": "FFA_Deathmatch_Desktop_Thumbnail",
+          "displayName": "FFA Deathmatch Desktop Thumbnail",
+          "codename": "FFA_Deathmatch_Desktop_Thumbnail",
+          "filename": "FFA_Deathmatch_Desktop_Thumbnail.jpg",
+          "relPath": "Valorantek/Backgrounds/Game Modes/FFA_Deathmatch_Desktop_Thumbnail.jpg",
+          "sizeBytes": 3317870
+        }
+      ],
+      "Key Art & Official Media": [
+        {
+          "name": "Beta Key Art_VALORANT",
+          "displayName": "Beta Key Art VALORANT",
+          "codename": "Beta Key Art_VALORANT",
+          "filename": "Beta Key Art_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Beta Key Art_VALORANT.jpg",
+          "sizeBytes": 6374900
+        },
+        {
+          "name": "California Sand DL TYPE_dl",
+          "displayName": "California Sand DL TYPE dl",
+          "codename": "California Sand DL TYPE_dl",
+          "filename": "California Sand DL TYPE_dl.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/California Sand DL TYPE_dl.png",
+          "sizeBytes": 5296728
+        },
+        {
+          "name": "China_CG_A2_Full",
+          "displayName": "China CG A2 Full",
+          "codename": "China_CG_A2_Full",
+          "filename": "China_CG_A2_Full.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/China_CG_A2_Full.jpg",
+          "sizeBytes": 14559253
+        },
+        {
+          "name": "China_CG_phxcool_fullres",
+          "displayName": "China CG phxcool fullres",
+          "codename": "China_CG_phxcool_fullres",
+          "filename": "China_CG_phxcool_fullres.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/China_CG_phxcool_fullres.jpg",
+          "sizeBytes": 6593745
+        },
+        {
+          "name": "China_CG_Sagefire_Full",
+          "displayName": "China CG Sagefire Full",
+          "codename": "China_CG_Sagefire_Full",
+          "filename": "China_CG_Sagefire_Full.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/China_CG_Sagefire_Full.jpg",
+          "sizeBytes": 14069074
+        },
+        {
+          "name": "China_PreRegistration_KV",
+          "displayName": "China PreRegistration KV",
+          "codename": "China_PreRegistration_KV",
+          "filename": "China_PreRegistration_KV.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/China_PreRegistration_KV.jpg",
+          "sizeBytes": 2891912
+        },
+        {
+          "name": "DL_Tease_16x9_v1",
+          "displayName": "DL Tease 16x9 v1",
+          "codename": "DL_Tease_16x9_v1",
+          "filename": "DL_Tease_16x9_v1.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/DL_Tease_16x9_v1.jpg",
+          "sizeBytes": 1487318
+        },
+        {
+          "name": "E8a1_Cineposter_4x5_IG",
+          "displayName": "E8a1 Cineposter 4x5 IG",
+          "codename": "E8a1_Cineposter_4x5_IG",
+          "filename": "E8a1_Cineposter_4x5_IG.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/E8a1_Cineposter_4x5_IG.jpg",
+          "sizeBytes": 1736908
+        },
+        {
+          "name": "Ep7_Act3_KV_EndCard_16x9_4k",
+          "displayName": "Ep7 Act3 KV EndCard 16x9 4k",
+          "codename": "Ep7_Act3_KV_EndCard_16x9_4k",
+          "filename": "Ep7_Act3_KV_EndCard_16x9_4k.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep7_Act3_KV_EndCard_16x9_4k.jpg",
+          "sizeBytes": 2129554
+        },
+        {
+          "name": "Ep7_Act3_KV_EndCard_21x9_4k",
+          "displayName": "Ep7 Act3 KV EndCard 21x9 4k",
+          "codename": "Ep7_Act3_KV_EndCard_21x9_4k",
+          "filename": "Ep7_Act3_KV_EndCard_21x9_4k.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep7_Act3_KV_EndCard_21x9_4k.jpg",
+          "sizeBytes": 2239264
+        },
+        {
+          "name": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
+          "displayName": "Ep8a1 Defiance Riot Client - Launch Game Background 2560x1440 ",
+          "codename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
+          "filename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+          "sizeBytes": 2675192
+        },
+        {
+          "name": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+          "displayName": "Ep8a1 Defiance Riot Client Login Page 1440p",
+          "codename": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+          "filename": "Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+          "sizeBytes": 2730881
+        },
+        {
+          "name": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+          "displayName": "Ep8a1 Defiance Youtube Box Art 1000x1400",
+          "codename": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+          "filename": "Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+          "sizeBytes": 1206046
+        },
+        {
+          "name": "Ep8a1_Defiance_Youtube Cover_",
+          "displayName": "Ep8a1 Defiance Youtube Cover ",
+          "codename": "Ep8a1_Defiance_Youtube Cover_",
+          "filename": "Ep8a1_Defiance_Youtube Cover_.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Youtube Cover_.png",
+          "sizeBytes": 2711064
+        },
+        {
+          "name": "Ep8A1_Riot Games.com Product Card 1920x1080_",
+          "displayName": "Ep8A1 Riot Games.com Product Card 1920x1080 ",
+          "codename": "Ep8A1_Riot Games.com Product Card 1920x1080_",
+          "filename": "Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+          "sizeBytes": 562403
+        },
+        {
+          "name": "Ep_7_Keyart_4k",
+          "displayName": "Ep 7 Keyart 4k",
+          "codename": "Ep_7_Keyart_4k",
+          "filename": "Ep_7_Keyart_4k.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep_7_Keyart_4k.jpg",
+          "sizeBytes": 1192202
+        },
+        {
+          "name": "FirstLook_CreepCreep_VALORANT",
+          "displayName": "FirstLook CreepCreep VALORANT",
+          "codename": "FirstLook_CreepCreep_VALORANT",
+          "filename": "FirstLook_CreepCreep_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/FirstLook_CreepCreep_VALORANT.jpg",
+          "sizeBytes": 3374894
+        },
+        {
+          "name": "FirstLook_Dragon_VALORANT",
+          "displayName": "FirstLook Dragon VALORANT",
+          "codename": "FirstLook_Dragon_VALORANT",
+          "filename": "FirstLook_Dragon_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/FirstLook_Dragon_VALORANT.jpg",
+          "sizeBytes": 4817332
+        },
+        {
+          "name": "FirstLook_Fire_VALORANT",
+          "displayName": "FirstLook Fire VALORANT",
+          "codename": "FirstLook_Fire_VALORANT",
+          "filename": "FirstLook_Fire_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/FirstLook_Fire_VALORANT.jpg",
+          "sizeBytes": 4365480
+        },
+        {
+          "name": "FirstLook_Smoke_VALORANT",
+          "displayName": "FirstLook Smoke VALORANT",
+          "codename": "FirstLook_Smoke_VALORANT",
+          "filename": "FirstLook_Smoke_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/FirstLook_Smoke_VALORANT.jpg",
+          "sizeBytes": 4160459
+        },
+        {
+          "name": "Gekko_Dark_1",
+          "displayName": "Gekko Dark 1",
+          "codename": "Gekko_Dark_1",
+          "filename": "Gekko_Dark_1.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Dark_1.png",
+          "sizeBytes": 2155991
+        },
+        {
+          "name": "Gekko_Dark_2",
+          "displayName": "Gekko Dark 2",
+          "codename": "Gekko_Dark_2",
+          "filename": "Gekko_Dark_2.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Dark_2.png",
+          "sizeBytes": 1781431
+        },
+        {
+          "name": "Gekko_Green_",
+          "displayName": "Gekko Green ",
+          "codename": "Gekko_Green_",
+          "filename": "Gekko_Green_.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Green_.png",
+          "sizeBytes": 2466948
+        },
+        {
+          "name": "Gekko_Light_1",
+          "displayName": "Gekko Light 1",
+          "codename": "Gekko_Light_1",
+          "filename": "Gekko_Light_1.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Light_1.png",
+          "sizeBytes": 2371711
+        },
+        {
+          "name": "Gekko_Light_2",
+          "displayName": "Gekko Light 2",
+          "codename": "Gekko_Light_2",
+          "filename": "Gekko_Light_2.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Light_2.png",
+          "sizeBytes": 2359983
+        },
+        {
+          "name": "Gekko_Purple_",
+          "displayName": "Gekko Purple ",
+          "codename": "Gekko_Purple_",
+          "filename": "Gekko_Purple_.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Purple_.png",
+          "sizeBytes": 1941499
+        },
+        {
+          "name": "KillJoy_Wallpapers_blue1",
+          "displayName": "KillJoy Wallpapers blue1",
+          "codename": "KillJoy_Wallpapers_blue1",
+          "filename": "KillJoy_Wallpapers_blue1.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/KillJoy_Wallpapers_blue1.jpg",
+          "sizeBytes": 5115478
+        },
+        {
+          "name": "KillJoy_Wallpapers_blue2",
+          "displayName": "KillJoy Wallpapers blue2",
+          "codename": "KillJoy_Wallpapers_blue2",
+          "filename": "KillJoy_Wallpapers_blue2.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/KillJoy_Wallpapers_blue2.jpg",
+          "sizeBytes": 5004919
+        },
+        {
+          "name": "KillJoy_Wallpapers_LIGHT",
+          "displayName": "KillJoy Wallpapers LIGHT",
+          "codename": "KillJoy_Wallpapers_LIGHT",
+          "filename": "KillJoy_Wallpapers_LIGHT.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/KillJoy_Wallpapers_LIGHT.jpg",
+          "sizeBytes": 4932231
+        },
+        {
+          "name": "KillJoy_Wallpapers_Red",
+          "displayName": "KillJoy Wallpapers Red",
+          "codename": "KillJoy_Wallpapers_Red",
+          "filename": "KillJoy_Wallpapers_Red.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/KillJoy_Wallpapers_Red.jpg",
+          "sizeBytes": 5001493
+        },
+        {
+          "name": "L10_Sillos_Final",
+          "displayName": "L10 Sillos Final",
+          "codename": "L10_Sillos_Final",
+          "filename": "L10_Sillos_Final.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/L10_Sillos_Final.jpg",
+          "sizeBytes": 15101217
+        },
+        {
+          "name": "LNY_Sage-1_TravelPrep",
+          "displayName": "LNY Sage-1 TravelPrep",
+          "codename": "LNY_Sage-1_TravelPrep",
+          "filename": "LNY_Sage-1_TravelPrep.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-1_TravelPrep.jpg",
+          "sizeBytes": 4349953
+        },
+        {
+          "name": "LNY_Sage-2_ShoppingA",
+          "displayName": "LNY Sage-2 ShoppingA",
+          "codename": "LNY_Sage-2_ShoppingA",
+          "filename": "LNY_Sage-2_ShoppingA.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-2_ShoppingA.jpg",
+          "sizeBytes": 2727164
+        },
+        {
+          "name": "LNY_Sage-2_ShoppingB",
+          "displayName": "LNY Sage-2 ShoppingB",
+          "codename": "LNY_Sage-2_ShoppingB",
+          "filename": "LNY_Sage-2_ShoppingB.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-2_ShoppingB.jpg",
+          "sizeBytes": 2620426
+        },
+        {
+          "name": "LNY_Sage-2_ShoppingC",
+          "displayName": "LNY Sage-2 ShoppingC",
+          "codename": "LNY_Sage-2_ShoppingC",
+          "filename": "LNY_Sage-2_ShoppingC.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-2_ShoppingC.jpg",
+          "sizeBytes": 2736849
+        },
+        {
+          "name": "LNY_Sage-3_NightMarket",
+          "displayName": "LNY Sage-3 NightMarket",
+          "codename": "LNY_Sage-3_NightMarket",
+          "filename": "LNY_Sage-3_NightMarket.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-3_NightMarket.jpg",
+          "sizeBytes": 3329109
+        },
+        {
+          "name": "LNY_Sage-4_BeachDay",
+          "displayName": "LNY Sage-4 BeachDay",
+          "codename": "LNY_Sage-4_BeachDay",
+          "filename": "LNY_Sage-4_BeachDay.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-4_BeachDay.jpg",
+          "sizeBytes": 3789929
+        },
+        {
+          "name": "LNY_Sage-5_CallBack",
+          "displayName": "LNY Sage-5 CallBack",
+          "codename": "LNY_Sage-5_CallBack",
+          "filename": "LNY_Sage-5_CallBack.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-5_CallBack.jpg",
+          "sizeBytes": 3298899
+        },
+        {
+          "name": "LNY_Sage-6_WrapUp",
+          "displayName": "LNY Sage-6 WrapUp",
+          "codename": "LNY_Sage-6_WrapUp",
+          "filename": "LNY_Sage-6_WrapUp.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/LNY_Sage-6_WrapUp.jpg",
+          "sizeBytes": 2661996
+        },
+        {
+          "name": "Reyna_Wallpaper_1",
+          "displayName": "Reyna Wallpaper 1",
+          "codename": "Reyna_Wallpaper_1",
+          "filename": "Reyna_Wallpaper_1.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Reyna_Wallpaper_1.jpg",
+          "sizeBytes": 1753720
+        },
+        {
+          "name": "Skye_KeyArt_PR_1",
+          "displayName": "Skye KeyArt PR 1",
+          "codename": "Skye_KeyArt_PR_1",
+          "filename": "Skye_KeyArt_PR_1.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Skye_KeyArt_PR_1.jpg",
+          "sizeBytes": 5348336
+        },
+        {
+          "name": "Skye_KeyArt_PR_2",
+          "displayName": "Skye KeyArt PR 2",
+          "codename": "Skye_KeyArt_PR_2",
+          "filename": "Skye_KeyArt_PR_2.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Skye_KeyArt_PR_2.jpg",
+          "sizeBytes": 5773129
+        },
+        {
+          "name": "Skye_KeyArt_PR_3",
+          "displayName": "Skye KeyArt PR 3",
+          "codename": "Skye_KeyArt_PR_3",
+          "filename": "Skye_KeyArt_PR_3.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Skye_KeyArt_PR_3.jpg",
+          "sizeBytes": 5395172
+        },
+        {
+          "name": "Skye_KeyArt_PR_4",
+          "displayName": "Skye KeyArt PR 4",
+          "codename": "Skye_KeyArt_PR_4",
+          "filename": "Skye_KeyArt_PR_4.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Skye_KeyArt_PR_4.jpg",
+          "sizeBytes": 5431995
+        },
+        {
+          "name": "ValorantWallpaper_johnslatte1",
+          "displayName": "ValorantWallpaper johnslatte1",
+          "codename": "ValorantWallpaper_johnslatte1",
+          "filename": "ValorantWallpaper_johnslatte1.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/ValorantWallpaper_johnslatte1.jpg",
+          "sizeBytes": 1377445
+        },
+        {
+          "name": "ValorantWallpaper_johnslatte2",
+          "displayName": "ValorantWallpaper johnslatte2",
+          "codename": "ValorantWallpaper_johnslatte2",
+          "filename": "ValorantWallpaper_johnslatte2.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/ValorantWallpaper_johnslatte2.jpg",
+          "sizeBytes": 1417514
+        },
+        {
+          "name": "ValorantWallpaper_johnslatte3",
+          "displayName": "ValorantWallpaper johnslatte3",
+          "codename": "ValorantWallpaper_johnslatte3",
+          "filename": "ValorantWallpaper_johnslatte3.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/ValorantWallpaper_johnslatte3.jpg",
+          "sizeBytes": 1465480
+        },
+        {
+          "name": "Valorant_CloseBeta_Final_design",
+          "displayName": "Valorant CloseBeta Final design",
+          "codename": "Valorant_CloseBeta_Final_design",
+          "filename": "Valorant_CloseBeta_Final_design.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_CloseBeta_Final_design.jpg",
+          "sizeBytes": 2742480
+        },
+        {
+          "name": "Valorant_EP-8-Teaser_The-arrival",
+          "displayName": "Valorant EP-8-Teaser The-arrival",
+          "codename": "Valorant_EP-8-Teaser_The-arrival",
+          "filename": "Valorant_EP-8-Teaser_The-arrival.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP-8-Teaser_The-arrival.jpg",
+          "sizeBytes": 995676
+        },
+        {
+          "name": "Valorant_EP8_Teaser_Cypher Reborn",
+          "displayName": "Valorant EP8 Teaser Cypher Reborn",
+          "codename": "Valorant_EP8_Teaser_Cypher Reborn",
+          "filename": "Valorant_EP8_Teaser_Cypher Reborn.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Cypher Reborn.jpg",
+          "sizeBytes": 913459
+        },
+        {
+          "name": "Valorant_EP8_Teaser_Omen and the Outlaw",
+          "displayName": "Valorant EP8 Teaser Omen and the Outlaw",
+          "codename": "Valorant_EP8_Teaser_Omen and the Outlaw",
+          "filename": "Valorant_EP8_Teaser_Omen and the Outlaw.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Omen and the Outlaw.png",
+          "sizeBytes": 5602827
+        },
+        {
+          "name": "Valorant_EP8_Teaser_Sova the Specialist",
+          "displayName": "Valorant EP8 Teaser Sova the Specialist",
+          "codename": "Valorant_EP8_Teaser_Sova the Specialist",
+          "filename": "Valorant_EP8_Teaser_Sova the Specialist.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Sova the Specialist.png",
+          "sizeBytes": 10004792
+        },
+        {
+          "name": "VALORANT_Jett",
+          "displayName": "VALORANT Jett",
+          "codename": "VALORANT_Jett",
+          "filename": "VALORANT_Jett.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/VALORANT_Jett.jpg",
+          "sizeBytes": 2051029
+        },
+        {
+          "name": "Valorant_Launch_KV_424_designpass_F",
+          "displayName": "Valorant Launch KV 424 designpass F",
+          "codename": "Valorant_Launch_KV_424_designpass_F",
+          "filename": "Valorant_Launch_KV_424_designpass_F.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_Launch_KV_424_designpass_F.jpg",
+          "sizeBytes": 3344199
+        },
+        {
+          "name": "VALORANT_PHX",
+          "displayName": "VALORANT PHX",
+          "codename": "VALORANT_PHX",
+          "filename": "VALORANT_PHX.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/VALORANT_PHX.jpg",
+          "sizeBytes": 1914414
+        },
+        {
+          "name": "VALORANT_Viper",
+          "displayName": "VALORANT Viper",
+          "codename": "VALORANT_Viper",
+          "filename": "VALORANT_Viper.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/VALORANT_Viper.jpg",
+          "sizeBytes": 1511903
+        },
+        {
+          "name": "Vertical_jett",
+          "displayName": "Vertical jett",
+          "codename": "Vertical_jett",
+          "filename": "Vertical_jett.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Vertical_jett.jpg",
+          "sizeBytes": 1194306
+        },
+        {
+          "name": "Vertical_Phx",
+          "displayName": "Vertical Phx",
+          "codename": "Vertical_Phx",
+          "filename": "Vertical_Phx.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Vertical_Phx.jpg",
+          "sizeBytes": 1161740
+        }
+      ],
+      "Map Artwork & Posters": [
+        {
+          "name": "China_CG_EndMap_Full",
+          "displayName": "China CG EndMap Full",
+          "codename": "China_CG_EndMap_Full",
+          "filename": "China_CG_EndMap_Full.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/China_CG_EndMap_Full.jpg",
+          "sizeBytes": 7755873
+        },
+        {
+          "name": "China_CG_Haven_Overlook",
+          "displayName": "China CG Haven Overlook",
+          "codename": "China_CG_Haven_Overlook",
+          "filename": "China_CG_Haven_Overlook.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/China_CG_Haven_Overlook.jpg",
+          "sizeBytes": 8166219
+        },
+        {
+          "name": "FFA_Deathmatch_Desktop",
+          "displayName": "FFA Deathmatch Desktop",
+          "codename": "FFA_Deathmatch_Desktop",
+          "filename": "FFA_Deathmatch_Desktop.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/FFA_Deathmatch_Desktop.jpg",
+          "sizeBytes": 5464984
+        },
+        {
+          "name": "FFA_Deathmatch_Desktop_galleryimage",
+          "displayName": "FFA Deathmatch Desktop galleryimage",
+          "codename": "FFA_Deathmatch_Desktop_galleryimage",
+          "filename": "FFA_Deathmatch_Desktop_galleryimage.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/FFA_Deathmatch_Desktop_galleryimage.jpg",
+          "sizeBytes": 3440976
+        },
+        {
+          "name": "FFA_Deathmatch_Desktop_Thumbnail",
+          "displayName": "FFA Deathmatch Desktop Thumbnail",
+          "codename": "FFA_Deathmatch_Desktop_Thumbnail",
+          "filename": "FFA_Deathmatch_Desktop_Thumbnail.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/FFA_Deathmatch_Desktop_Thumbnail.jpg",
+          "sizeBytes": 3317870
+        },
+        {
+          "name": "Reveal_BSite_VALORANT",
+          "displayName": "Reveal BSite VALORANT",
+          "codename": "Reveal_BSite_VALORANT",
+          "filename": "Reveal_BSite_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_BSite_VALORANT.jpg",
+          "sizeBytes": 3675841
+        },
+        {
+          "name": "Reveal_Canopy_VALORANT",
+          "displayName": "Reveal Canopy VALORANT",
+          "codename": "Reveal_Canopy_VALORANT",
+          "filename": "Reveal_Canopy_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_Canopy_VALORANT.jpg",
+          "sizeBytes": 1872214
+        },
+        {
+          "name": "Reveal_Hallway_VALORANT",
+          "displayName": "Reveal Hallway VALORANT",
+          "codename": "Reveal_Hallway_VALORANT",
+          "filename": "Reveal_Hallway_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_Hallway_VALORANT.jpg",
+          "sizeBytes": 3564841
+        },
+        {
+          "name": "Reveal_ReactorA_VALORANT",
+          "displayName": "Reveal ReactorA VALORANT",
+          "codename": "Reveal_ReactorA_VALORANT",
+          "filename": "Reveal_ReactorA_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_ReactorA_VALORANT.jpg",
+          "sizeBytes": 4477349
+        },
+        {
+          "name": "Reveal_Window_VALORANT",
+          "displayName": "Reveal Window VALORANT",
+          "codename": "Reveal_Window_VALORANT",
+          "filename": "Reveal_Window_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Artwork & Posters/Reveal_Window_VALORANT.jpg",
+          "sizeBytes": 4893486
         }
       ],
       "Map Loading Screen": [
@@ -44935,6 +48248,50 @@
           "sizeBytes": 825271
         }
       ],
+      "Phoenix & Jett Key Art": [
+        {
+          "name": "VALORANT_phx_jett_2",
+          "displayName": "VALORANT phx jett 2",
+          "codename": "VALORANT_phx_jett_2",
+          "filename": "VALORANT_phx_jett_2.jpg",
+          "relPath": "Valorantek/Backgrounds/Phoenix & Jett Key Art/VALORANT_phx_jett_2.jpg",
+          "sizeBytes": 2421038
+        },
+        {
+          "name": "VALORANT_phx_jett_brand",
+          "displayName": "VALORANT phx jett brand",
+          "codename": "VALORANT_phx_jett_brand",
+          "filename": "VALORANT_phx_jett_brand.jpg",
+          "relPath": "Valorantek/Backgrounds/Phoenix & Jett Key Art/VALORANT_phx_jett_brand.jpg",
+          "sizeBytes": 2141364
+        }
+      ],
+      "Promotional Wallpapers": [
+        {
+          "name": "ValorantWallpaper_johnslatte1",
+          "displayName": "ValorantWallpaper johnslatte1",
+          "codename": "ValorantWallpaper_johnslatte1",
+          "filename": "ValorantWallpaper_johnslatte1.jpg",
+          "relPath": "Valorantek/Backgrounds/Promotional Wallpapers/ValorantWallpaper_johnslatte1.jpg",
+          "sizeBytes": 1377445
+        },
+        {
+          "name": "ValorantWallpaper_johnslatte2",
+          "displayName": "ValorantWallpaper johnslatte2",
+          "codename": "ValorantWallpaper_johnslatte2",
+          "filename": "ValorantWallpaper_johnslatte2.jpg",
+          "relPath": "Valorantek/Backgrounds/Promotional Wallpapers/ValorantWallpaper_johnslatte2.jpg",
+          "sizeBytes": 1417514
+        },
+        {
+          "name": "ValorantWallpaper_johnslatte3",
+          "displayName": "ValorantWallpaper johnslatte3",
+          "codename": "ValorantWallpaper_johnslatte3",
+          "filename": "ValorantWallpaper_johnslatte3.jpg",
+          "relPath": "Valorantek/Backgrounds/Promotional Wallpapers/ValorantWallpaper_johnslatte3.jpg",
+          "sizeBytes": 1465480
+        }
+      ],
       "Store": [
         {
           "name": "TX_UI_BackgroundCurrency",
@@ -44951,6 +48308,32 @@
           "filename": "TX_UI_StoreMask.png",
           "relPath": "Valorantek/Backgrounds/Store/TX_UI_StoreMask.png",
           "sizeBytes": 725608
+        }
+      ],
+      "Weapons Schematic": [
+        {
+          "name": "Wallpaper_Schematic_Weapons",
+          "displayName": "Wallpaper Schematic Weapons",
+          "codename": "Wallpaper_Schematic_Weapons",
+          "filename": "Wallpaper_Schematic_Weapons.jpg",
+          "relPath": "Valorantek/Backgrounds/Weapons Schematic/Wallpaper_Schematic_Weapons.jpg",
+          "sizeBytes": 6067636
+        },
+        {
+          "name": "Wallpaper_Schematic_Weapons_galleryimage",
+          "displayName": "Wallpaper Schematic Weapons galleryimage",
+          "codename": "Wallpaper_Schematic_Weapons_galleryimage",
+          "filename": "Wallpaper_Schematic_Weapons_galleryimage.jpg",
+          "relPath": "Valorantek/Backgrounds/Weapons Schematic/Wallpaper_Schematic_Weapons_galleryimage.jpg",
+          "sizeBytes": 3699460
+        },
+        {
+          "name": "Wallpaper_Schematic_Weapons_thumbnail",
+          "displayName": "Wallpaper Schematic Weapons thumbnail",
+          "codename": "Wallpaper_Schematic_Weapons_thumbnail",
+          "filename": "Wallpaper_Schematic_Weapons_thumbnail.jpg",
+          "relPath": "Valorantek/Backgrounds/Weapons Schematic/Wallpaper_Schematic_Weapons_thumbnail.jpg",
+          "sizeBytes": 3588139
         }
       ]
     },
