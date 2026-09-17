@@ -54173,5 +54173,282 @@
       "name": "Wraith_Q_InActive",
       "path": "Valorantek/Icons/Minimap/TX_UI_Minimap_Wraith_Q_InActive.png"
     }
+  ],
+  "mapsData": [
+    {
+      "uuid": "7eaecc1b-4337-bbf6-6ab9-04b8f06b3319",
+      "displayName": "Ascent",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/listviewicon.png",
+      "coordinates": "45°26'BF'N,12°20'Q'E",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "d960549e-485c-e861-8d71-aa9d1aed12a2",
+      "displayName": "Split",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/listviewicon.png",
+      "coordinates": "35°41'CD'N,139°41'WX'E",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "b529448b-4d60-346e-e89e-00a4c527a405",
+      "displayName": "Fracture",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/listviewicon.png",
+      "coordinates": "35°48'BI\"N 106°08'YQ\"W",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba",
+      "displayName": "Bind",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/listviewicon.png",
+      "coordinates": "34°2'A'N,6°51'Z'W",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "a9009649-421f-d5d5-f80c-0cbe02c125bb",
+      "displayName": "Skirmish A",
+      "category": "Training & Special",
+      "minimap": null,
+      "splash": "https://media.valorant-api.com/maps/a9009649-421f-d5d5-f80c-0cbe02c125bb/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/a9009649-421f-d5d5-f80c-0cbe02c125bb/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/a9009649-421f-d5d5-f80c-0cbe02c125bb/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "a38a3f9a-4042-844c-8970-a3ac2f7ce93d",
+      "displayName": "Skirmish B",
+      "category": "Training & Special",
+      "minimap": null,
+      "splash": "https://media.valorant-api.com/maps/a38a3f9a-4042-844c-8970-a3ac2f7ce93d/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/a38a3f9a-4042-844c-8970-a3ac2f7ce93d/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/a38a3f9a-4042-844c-8970-a3ac2f7ce93d/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "a264de0f-4a04-9c78-c97a-a6b192ce6e86",
+      "displayName": "Skirmish C",
+      "category": "Training & Special",
+      "minimap": null,
+      "splash": "https://media.valorant-api.com/maps/a264de0f-4a04-9c78-c97a-a6b192ce6e86/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/a264de0f-4a04-9c78-c97a-a6b192ce6e86/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/a264de0f-4a04-9c78-c97a-a6b192ce6e86/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "4490f1d6-4818-bf5f-9b3a-9c9a8dbb52ed",
+      "displayName": "Skirmish E",
+      "category": "Training & Special",
+      "minimap": null,
+      "splash": "https://media.valorant-api.com/maps/4490f1d6-4818-bf5f-9b3a-9c9a8dbb52ed/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/4490f1d6-4818-bf5f-9b3a-9c9a8dbb52ed/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/4490f1d6-4818-bf5f-9b3a-9c9a8dbb52ed/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "1c7555fc-4bc6-3b98-9674-789d47ef6c50",
+      "displayName": "Skirmish D",
+      "category": "Training & Special",
+      "minimap": null,
+      "splash": "https://media.valorant-api.com/maps/1c7555fc-4bc6-3b98-9674-789d47ef6c50/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/1c7555fc-4bc6-3b98-9674-789d47ef6c50/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/1c7555fc-4bc6-3b98-9674-789d47ef6c50/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "2fb9a4fd-47b8-4e7d-a969-74b4046ebd53",
+      "displayName": "Breeze",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/listviewicon.png",
+      "coordinates": "26°11'AG\"N 71°10'WY\"W",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "690b3ed2-4dff-945b-8223-6da834e30d24",
+      "displayName": "District",
+      "category": "Team Deathmatch (TDM)",
+      "minimap": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "12452a9d-48c3-0b02-e7eb-0381c3520404",
+      "displayName": "Kasbah",
+      "category": "Team Deathmatch (TDM)",
+      "minimap": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "2c09d728-42d5-30d8-43dc-96a05cc7ee9d",
+      "displayName": "Drift",
+      "category": "Team Deathmatch (TDM)",
+      "minimap": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "d6336a5a-428f-c591-98db-c8a291159134",
+      "displayName": "Glitch",
+      "category": "Team Deathmatch (TDM)",
+      "minimap": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "de28aa9b-4cbe-1003-320e-6cb3ec309557",
+      "displayName": "Piazza",
+      "category": "Team Deathmatch (TDM)",
+      "minimap": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "224b0a95-48b9-f703-1bd8-67aca101a61f",
+      "displayName": "Abyss",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/listviewicon.png",
+      "coordinates": "70° 50' AJ\" N, 9° 00' VX\" W",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "2fe4ed3a-450a-948b-6d6b-e89a78e680a9",
+      "displayName": "Lotus",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/listviewicon.png",
+      "coordinates": "14°07'AD.4\"N8 74°53'XY\"E8",
+      "description": "A/B/C Sites"
+    },
+    {
+      "uuid": "92584fbe-486a-b1b2-9faa-39b0f486b498",
+      "displayName": "Sunset",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/listviewicon.png",
+      "coordinates": "34° 2′ C″ N, 118° 12′ YT″ W",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "1f10dab3-4294-3827-fa35-c2aa00213cf3",
+      "displayName": "Basic Training",
+      "category": "Training & Special",
+      "minimap": null,
+      "splash": "https://media.valorant-api.com/maps/1f10dab3-4294-3827-fa35-c2aa00213cf3/splash.png",
+      "backgroundImage": null,
+      "listViewIcon": "https://media.valorant-api.com/maps/1f10dab3-4294-3827-fa35-c2aa00213cf3/listviewicon.png",
+      "coordinates": null,
+      "description": "Valorant Map Asset"
+    },
+    {
+      "uuid": "fd267378-4d1d-484f-ff52-77821ed10dc2",
+      "displayName": "Pearl",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/listviewicon.png",
+      "coordinates": "38°42'ED\"N8 9°08'XS\"W8",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "756da597-416b-c0f2-f47b-afbdf28670bc",
+      "displayName": "Summit",
+      "category": "Training & Special",
+      "minimap": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/listviewicon.png",
+      "coordinates": "29° 18' FC\" N, 110° 25' ZQ\" E",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "e2ad5c54-4114-a870-9641-8ea21279579a",
+      "displayName": "Icebox",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/listviewicon.png",
+      "coordinates": "76°44' A\"N 149°30' Z\"E",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "ee613ee9-28b7-4beb-9666-08db13bb2244",
+      "displayName": "The Range",
+      "category": "Training & Special",
+      "minimap": null,
+      "splash": "https://media.valorant-api.com/maps/ee613ee9-28b7-4beb-9666-08db13bb2244/splash.png",
+      "backgroundImage": null,
+      "listViewIcon": "https://media.valorant-api.com/maps/ee613ee9-28b7-4beb-9666-08db13bb2244/listviewicon.png",
+      "coordinates": "45°26'FF'N,12°20'Q'E",
+      "description": "45°26'FF'N,12°20'Q'E"
+    },
+    {
+      "uuid": "1c18ab1f-420d-0d8b-71d0-77ad3c439115",
+      "displayName": "Corrode",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/listviewicon.png",
+      "coordinates": "48° 38' FH\" N8, 1° 33' YV\" W8",
+      "description": "A/B Sites"
+    },
+    {
+      "uuid": "2bee0dc9-4ffe-519b-1cbd-7fbe763a6047",
+      "displayName": "Haven",
+      "category": "Competitive / Unrated",
+      "minimap": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+      "splash": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/splash.png",
+      "backgroundImage": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/stylizedbackgroundimage.png",
+      "listViewIcon": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/listviewicon.png",
+      "coordinates": "27°28'A'N,89°38'WZ'E",
+      "description": "A/B/C Sites"
+    }
   ]
 }

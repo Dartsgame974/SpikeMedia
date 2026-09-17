@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { Crosshair, Download, Image, Shield, Layers, Award, Box, Sparkles, Copy, Check, Eye, Film, Video, FileImage } from 'lucide-react';
+import { Crosshair, Download, Image, Shield, Layers, Award, Box, Sparkles, Copy, Check, Eye, Film, Video, FileImage, MapPin } from 'lucide-react';
 import ImagePreviewModal from './ImagePreviewModal';
 import { toAssetUrl, getRealBundleDisplayName, getRealBundleCodename } from '../utils/urlHelper';
 
 export default function GameAssetsSection({ registry }) {
-  const [activeSubTab, setActiveSubTab] = useState('icons'); // 'icons', 'weapons', 'logos', 'ranks', 'backgrounds', 'overlays', 'spritesheets', 'misc'
+  const [activeSubTab, setActiveSubTab] = useState('icons'); // 'icons', 'maps', 'weapons', 'logos', 'ranks', 'backgrounds', 'overlays', 'spritesheets', 'misc'
   const [selectedIconSubCat, setSelectedIconSubCat] = useState('All');
+  const [selectedMapCat, setSelectedMapCat] = useState('All');
   const [selectedBgCat, setSelectedBgCat] = useState('All');
   const [selectedWeaponFolder, setSelectedWeaponFolder] = useState('All');
   const [previewImage, setPreviewImage] = useState(null);
@@ -13,6 +14,7 @@ export default function GameAssetsSection({ registry }) {
   const [copiedType, setCopiedType] = useState(null);
 
   const weapons = registry?.weapons || [];
+  const mapsData = registry?.mapsData || [];
   const imageLibraries = registry?.imageLibraries || {};
   const iconCategories = imageLibraries?.iconCategories || {};
   const iconCatNames = Object.keys(iconCategories);
@@ -113,6 +115,19 @@ export default function GameAssetsSection({ registry }) {
         </button>
 
         <button
+          onClick={() => setActiveSubTab('maps')}
+          className={`px-3 py-2 rounded-xl text-xs font-semibold flex items-center justify-center gap-1.5 transition-all min-w-0 ${
+            activeSubTab === 'maps'
+              ? 'bg-[#FF4655] text-white shadow-md'
+              : 'text-slate-400 hover:text-white hover:bg-white/5'
+          }`}
+          title="Full Valorant Maps & Overhead Tactical Minimap Grids"
+        >
+          <MapPin className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+          <span className="truncate">Maps ({mapsData.length})</span>
+        </button>
+
+        <button
           onClick={() => setActiveSubTab('weapons')}
           className={`px-3 py-2 rounded-xl text-xs font-semibold flex items-center justify-center gap-1.5 transition-all min-w-0 ${
             activeSubTab === 'weapons'
@@ -198,6 +213,111 @@ export default function GameAssetsSection({ registry }) {
           <span className="truncate">Misc ({imageLibraries.misc?.length || 0})</span>
         </button>
       </div>
+
+      {/* MAPS & MINIMAPS CATALOG TAB */}
+      {activeSubTab === 'maps' && (() => {
+        const mapCategories = ['All', 'Competitive / Unrated', 'Team Deathmatch (TDM)', 'Training & Special'];
+        const filteredMapsList = mapsData.filter(m => selectedMapCat === 'All' || m.category === selectedMapCat);
+
+        return (
+          <div className="space-y-6">
+            {/* Category Filter Pills */}
+            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+              {mapCategories.map(cat => (
+                <button
+                  key={cat}
+                  onClick={() => setSelectedMapCat(cat)}
+                  className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap shrink-0 transition-all ${
+                    selectedMapCat === cat
+                      ? 'bg-[#FF4655] text-white shadow-md shadow-[#FF4655]/20'
+                      : 'bg-[#131722] text-slate-400 hover:text-white border border-white/5'
+                  }`}
+                >
+                  {cat} ({cat === 'All' ? mapsData.length : mapsData.filter(m => m.category === cat).length})
+                </button>
+              ))}
+            </div>
+
+            {/* Maps Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {filteredMapsList.map((mapItem, idx) => {
+                const mapImg = mapItem.minimap || mapItem.splash || mapItem.backgroundImage;
+                if (!mapImg) return null;
+
+                return (
+                  <div
+                    key={idx}
+                    className="bg-[#131722] p-4 rounded-2xl border border-white/5 hover:border-emerald-500/40 transition-all flex flex-col justify-between space-y-3 group relative overflow-hidden"
+                  >
+                    {/* Map Header Info */}
+                    <div className="space-y-1">
+                      <div className="flex items-center justify-between gap-2">
+                        <h4 className="font-display font-bold text-base text-white truncate group-hover:text-emerald-400 transition-colors">
+                          {mapItem.displayName}
+                        </h4>
+                        <span className={`px-2 py-0.5 rounded text-[10px] font-display font-semibold shrink-0 ${
+                          mapItem.category === 'Team Deathmatch (TDM)'
+                            ? 'bg-purple-500/10 text-purple-400 border border-purple-500/20'
+                            : mapItem.category === 'Competitive / Unrated'
+                            ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
+                            : 'bg-blue-500/10 text-blue-400 border border-blue-500/20'
+                        }`}>
+                          {mapItem.category === 'Team Deathmatch (TDM)' ? 'TDM' : mapItem.category === 'Competitive / Unrated' ? 'Ranked' : 'Special'}
+                        </span>
+                      </div>
+                      {mapItem.coordinates && (
+                        <p className="text-[10px] font-mono text-slate-500 truncate">{mapItem.coordinates}</p>
+                      )}
+                    </div>
+
+                    {/* Image Box */}
+                    <div
+                      onClick={() => setPreviewImage({ src: mapImg, title: `${mapItem.displayName} Map Asset` })}
+                      className="h-56 bg-[#0B0E14] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative border border-white/5"
+                    >
+                      <img
+                        src={toAssetUrl(mapImg)}
+                        alt={mapItem.displayName}
+                        className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform drop-shadow-md"
+                      />
+                      <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+                        <Eye className="w-6 h-6 text-white" />
+                      </div>
+                    </div>
+
+                    {/* Card Footer Actions */}
+                    <div className="flex items-center justify-between pt-1 border-t border-white/5 text-xs">
+                      <span className="text-[11px] font-mono text-slate-400 truncate">
+                        {mapItem.minimap ? 'Tactical Minimap' : 'Map Splash Art'}
+                      </span>
+                      <div className="flex items-center gap-1 shrink-0">
+                        <button
+                          onClick={(e) => handleCopyImage(mapImg, e)}
+                          className={`p-1.5 rounded transition-colors ${
+                            copiedPath === mapImg && copiedType === 'image'
+                              ? 'bg-[#00F0FF]/20 text-[#00F0FF]'
+                              : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                          }`}
+                          title="Copy image to clipboard"
+                        >
+                          {copiedPath === mapImg && copiedType === 'image' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                        </button>
+                        <button
+                          onClick={(e) => handleDownload(mapImg, `${mapItem.displayName}_map.png`, e)}
+                          className="p-1.5 rounded bg-white/5 hover:bg-emerald-500 text-slate-300 hover:text-white transition-colors"
+                          title="Download map image"
+                        >
+                          <Download className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })()}
 
       {/* ICONS CATALOG TAB */}
       {activeSubTab === 'icons' && (
