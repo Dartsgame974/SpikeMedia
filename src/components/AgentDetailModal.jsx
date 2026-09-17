@@ -181,6 +181,23 @@ export default function AgentDetailModal({ agent, onClose }) {
             </button>
 
             <button
+              onClick={() => setActiveTab('posters')}
+              className={`px-4 py-2.5 text-xs font-semibold border-b-2 transition-all flex items-center gap-2 whitespace-nowrap shrink-0 ${
+                activeTab === 'posters'
+                  ? 'border-[#FF4655] text-white'
+                  : 'border-transparent text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <Sparkles className="w-4 h-4 text-[#FF4655] shrink-0" />
+              <span className="whitespace-nowrap">2. Official Posters & Key Art</span>
+              {agent.assets?.posters?.length > 0 && (
+                <span className="px-1.5 py-0.5 rounded-full text-[10px] bg-[#FF4655]/20 text-[#FF4655] border border-[#FF4655]/30 font-bold">
+                  {agent.assets.posters.length}
+                </span>
+              )}
+            </button>
+
+            <button
               onClick={() => setActiveTab('sfx')}
               className={`px-4 py-2.5 text-xs font-semibold border-b-2 transition-all flex items-center gap-2 whitespace-nowrap shrink-0 ${
                 activeTab === 'sfx'
@@ -188,8 +205,8 @@ export default function AgentDetailModal({ agent, onClose }) {
                   : 'border-transparent text-slate-400 hover:text-slate-200'
               }`}
             >
-              <Volume2 className="w-4 h-4 text-[#FF4655] shrink-0" />
-              <span className="whitespace-nowrap">2. Agent SFX Library</span>
+              <Volume2 className="w-4 h-4 text-[#00F0FF] shrink-0" />
+              <span className="whitespace-nowrap">3. Agent SFX Library</span>
             </button>
           </div>
         </div>
@@ -535,6 +552,65 @@ export default function AgentDetailModal({ agent, onClose }) {
                       </div>
                     ))}
                   </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {activeTab === 'posters' && (
+            <div className="space-y-6">
+              <div className="flex items-center justify-between border-b border-white/5 pb-3">
+                <div className="flex items-center gap-2">
+                  <Sparkles className="w-4 h-4 text-[#FF4655]" />
+                  <h3 className="font-display text-sm font-bold text-white uppercase tracking-wider">
+                    Official {agent.name} Posters & Key Art Gallery
+                  </h3>
+                </div>
+                <span className="text-xs text-slate-400 font-display">
+                  {agent.assets?.posters?.length || 0} high-res posters
+                </span>
+              </div>
+
+              {agent.assets?.posters?.length > 0 ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+                  {agent.assets.posters.map((poster, idx) => (
+                    <div key={idx} className="bg-[#0B0E14] p-3.5 rounded-2xl border border-white/10 space-y-3 flex flex-col justify-between group hover:border-[#FF4655]/50 transition-all shadow-xl">
+                      <div
+                        onClick={() => setPreviewImage({ src: poster.relPath, title: `${agent.name} - ${poster.name}` })}
+                        className="h-56 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-1 cursor-pointer relative"
+                      >
+                        <img src={toAssetUrl(poster.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                          <Eye className="w-7 h-7 text-white" />
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between text-xs pt-1">
+                        <span className="font-bold text-white truncate max-w-[180px]" title={poster.name}>{poster.name}</span>
+                        <div className="flex items-center gap-1.5 shrink-0">
+                          <button
+                            onClick={(e) => handleCopyImageAsset(poster.relPath, e)}
+                            className={`p-2 rounded-lg transition-colors ${
+                              copiedPath === poster.relPath ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                            }`}
+                            title="Copy image to clipboard"
+                          >
+                            {copiedPath === poster.relPath ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                          </button>
+                          <button
+                            onClick={(e) => handleDownloadAsset(poster.relPath, poster.filename, e)}
+                            className="p-2 rounded-lg bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
+                            title="Download poster"
+                          >
+                            <Download className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="py-16 text-center text-slate-400 font-display text-xs bg-[#0B0E14] rounded-2xl border border-white/5">
+                  No additional posters available for {agent.name} yet.
                 </div>
               )}
             </div>
