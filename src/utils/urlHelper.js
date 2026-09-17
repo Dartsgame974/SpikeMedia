@@ -6,7 +6,9 @@ export function toAssetUrl(path) {
   const baseUrl = import.meta.env.BASE_URL || './';
   const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
 
-  return `${cleanBase}${cleanPath}`;
+  // Safely encode URI segments while keeping folder slashes intact
+  const encodedParts = cleanPath.split('/').map(segment => encodeURIComponent(segment));
+  return `${cleanBase}${encodedParts.join('/')}`;
 }
 
 const BUNDLE_CODENAME_MAP = {

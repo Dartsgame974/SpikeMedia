@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T05:22:56.594Z",
+  "generatedAt": "2026-09-17T09:17:27.475Z",
   "roleIcons": {
     "All": "Valorantek/Icons/Roles/TX_UI_RoleIcon_All.png",
     "Controller": "Valorantek/Icons/Roles/TX_UI_RoleIcon_Controller.png",
@@ -3431,27 +3431,27 @@
         ],
         "posters": [
           {
-            "filename": "CLOVE BG &.jpg",
-            "name": "CLOVE BG &",
-            "relPath": "Valorantek/agents/Clove/posters/CLOVE BG &.jpg",
-            "sizeBytes": 2089562
-          },
-          {
-            "filename": "clove BG2.jpg",
-            "name": "clove BG2",
-            "relPath": "Valorantek/agents/Clove/posters/clove BG2.jpg",
+            "filename": "clove_BG2.jpg",
+            "name": "clove_BG2",
+            "relPath": "Valorantek/agents/Clove/posters/clove_BG2.jpg",
             "sizeBytes": 2407515
           },
           {
-            "filename": "CLOVE POSTER CHAMP 2024 1.jpg",
-            "name": "CLOVE POSTER CHAMP 2024 1",
-            "relPath": "Valorantek/agents/Clove/posters/CLOVE POSTER CHAMP 2024 1.jpg",
+            "filename": "CLOVE_BG_&.jpg",
+            "name": "CLOVE_BG_&",
+            "relPath": "Valorantek/agents/Clove/posters/CLOVE_BG_&.jpg",
+            "sizeBytes": 2089562
+          },
+          {
+            "filename": "CLOVE_POSTER_CHAMP_2024_1.jpg",
+            "name": "CLOVE_POSTER_CHAMP_2024_1",
+            "relPath": "Valorantek/agents/Clove/posters/CLOVE_POSTER_CHAMP_2024_1.jpg",
             "sizeBytes": 721354
           },
           {
-            "filename": "POSER CHAMP 2024 1VERTICAL clove.jpg",
-            "name": "POSER CHAMP 2024 1VERTICAL clove",
-            "relPath": "Valorantek/agents/Clove/posters/POSER CHAMP 2024 1VERTICAL clove.jpg",
+            "filename": "POSER_CHAMP_2024_1VERTICAL_clove.jpg",
+            "name": "POSER_CHAMP_2024_1VERTICAL_clove",
+            "relPath": "Valorantek/agents/Clove/posters/POSER_CHAMP_2024_1VERTICAL_clove.jpg",
             "sizeBytes": 1202896
           }
         ],
@@ -5384,15 +5384,15 @@
         ],
         "posters": [
           {
-            "filename": "California Sand DL TYPE_dl.png",
-            "name": "California Sand DL TYPE_dl",
-            "relPath": "Valorantek/agents/Deadlock/posters/California Sand DL TYPE_dl.png",
+            "filename": "California_Sand_DL_TYPE_dl.png",
+            "name": "California_Sand_DL_TYPE_dl",
+            "relPath": "Valorantek/agents/Deadlock/posters/California_Sand_DL_TYPE_dl.png",
             "sizeBytes": 5296728
           },
           {
-            "filename": "Deadlock Intro Frame 2.png",
-            "name": "Deadlock Intro Frame 2",
-            "relPath": "Valorantek/agents/Deadlock/posters/Deadlock Intro Frame 2.png",
+            "filename": "Deadlock_Intro_Frame_2.png",
+            "name": "Deadlock_Intro_Frame_2",
+            "relPath": "Valorantek/agents/Deadlock/posters/Deadlock_Intro_Frame_2.png",
             "sizeBytes": 2648390
           },
           {
@@ -7090,9 +7090,9 @@
             "sizeBytes": 1781431
           },
           {
-            "filename": "Gekko_Green_.png",
-            "name": "Gekko_Green_",
-            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Green_.png",
+            "filename": "Gekko_Green.png",
+            "name": "Gekko_Green",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Green.png",
             "sizeBytes": 2466948
           },
           {
@@ -7108,9 +7108,9 @@
             "sizeBytes": 2359983
           },
           {
-            "filename": "Gekko_Purple_.png",
-            "name": "Gekko_Purple_",
-            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Purple_.png",
+            "filename": "Gekko_Purple.png",
+            "name": "Gekko_Purple",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Purple.png",
             "sizeBytes": 1941499
           }
         ],
@@ -8152,9 +8152,9 @@
             "sizeBytes": 2313045
           },
           {
-            "filename": "3-Light _ Green_Harbor.png",
-            "name": "3-Light _ Green_Harbor",
-            "relPath": "Valorantek/agents/Harbor/posters/3-Light _ Green_Harbor.png",
+            "filename": "3-Light_Green_Harbor.png",
+            "name": "3-Light_Green_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/3-Light_Green_Harbor.png",
             "sizeBytes": 3427526
           },
           {
@@ -8170,9 +8170,9 @@
             "sizeBytes": 9601513
           },
           {
-            "filename": "Harbor Wallpaper 1.png",
-            "name": "Harbor Wallpaper 1",
-            "relPath": "Valorantek/agents/Harbor/posters/Harbor Wallpaper 1.png",
+            "filename": "Harbor_Wallpaper_1.png",
+            "name": "Harbor_Wallpaper_1",
+            "relPath": "Valorantek/agents/Harbor/posters/Harbor_Wallpaper_1.png",
             "sizeBytes": 2853990
           }
         ],
@@ -9037,22 +9037,22 @@
         ],
         "posters": [
           {
-            "filename": "e7a3_ISO_Xbox_Desktop Horiz 1920x1080 (No copy No Logo).png",
-            "name": "e7a3_ISO_Xbox_Desktop Horiz 1920x1080 (No copy No Logo)",
-            "relPath": "Valorantek/agents/Iso/posters/e7a3_ISO_Xbox_Desktop Horiz 1920x1080 (No copy No Logo).png",
+            "filename": "e7a3_ISO_Xbox_Desktop_Horiz_1920x1080_(No_copy_No_Logo).png",
+            "name": "e7a3_ISO_Xbox_Desktop_Horiz_1920x1080_(No_copy_No_Logo)",
+            "relPath": "Valorantek/agents/Iso/posters/e7a3_ISO_Xbox_Desktop_Horiz_1920x1080_(No_copy_No_Logo).png",
             "sizeBytes": 1357460
-          },
-          {
-            "filename": "Ep7a3_ISO_ Roit Client Login Page 1440p.png",
-            "name": "Ep7a3_ISO_ Roit Client Login Page 1440p",
-            "relPath": "Valorantek/agents/Iso/posters/Ep7a3_ISO_ Roit Client Login Page 1440p.png",
-            "sizeBytes": 1694741
           },
           {
             "filename": "Ep7a3_ISO_Nvidia_4k_3840x2160.png",
             "name": "Ep7a3_ISO_Nvidia_4k_3840x2160",
             "relPath": "Valorantek/agents/Iso/posters/Ep7a3_ISO_Nvidia_4k_3840x2160.png",
             "sizeBytes": 2588249
+          },
+          {
+            "filename": "Ep7a3_ISO_Roit_Client_Login_Page_1440p.png",
+            "name": "Ep7a3_ISO_Roit_Client_Login_Page_1440p",
+            "relPath": "Valorantek/agents/Iso/posters/Ep7a3_ISO_Roit_Client_Login_Page_1440p.png",
+            "sizeBytes": 1694741
           },
           {
             "filename": "Ep7_Act3_KV_EndCard_16x9_4k.jpg",
@@ -9067,15 +9067,15 @@
             "sizeBytes": 2239264
           },
           {
-            "filename": "POSER CHAMP 2024 3VERTICAL ISO.jpg",
-            "name": "POSER CHAMP 2024 3VERTICAL ISO",
-            "relPath": "Valorantek/agents/Iso/posters/POSER CHAMP 2024 3VERTICAL ISO.jpg",
+            "filename": "POSER_CHAMP_2024_3VERTICAL_ISO.jpg",
+            "name": "POSER_CHAMP_2024_3VERTICAL_ISO",
+            "relPath": "Valorantek/agents/Iso/posters/POSER_CHAMP_2024_3VERTICAL_ISO.jpg",
             "sizeBytes": 683250
           },
           {
-            "filename": "POSER CHAMP 2024 4VERTICAL ISO.jpg",
-            "name": "POSER CHAMP 2024 4VERTICAL ISO",
-            "relPath": "Valorantek/agents/Iso/posters/POSER CHAMP 2024 4VERTICAL ISO.jpg",
+            "filename": "POSER_CHAMP_2024_4VERTICAL_ISO.jpg",
+            "name": "POSER_CHAMP_2024_4VERTICAL_ISO",
+            "relPath": "Valorantek/agents/Iso/posters/POSER_CHAMP_2024_4VERTICAL_ISO.jpg",
             "sizeBytes": 1092717
           }
         ],
@@ -9715,15 +9715,15 @@
             "sizeBytes": 9349882
           },
           {
-            "filename": "POSER CHAMP 2024 4horizontal JETT.jpg",
-            "name": "POSER CHAMP 2024 4horizontal JETT",
-            "relPath": "Valorantek/agents/Jett/posters/POSER CHAMP 2024 4horizontal JETT.jpg",
+            "filename": "POSER_CHAMP_2024_4horizontal_JETT.jpg",
+            "name": "POSER_CHAMP_2024_4horizontal_JETT",
+            "relPath": "Valorantek/agents/Jett/posters/POSER_CHAMP_2024_4horizontal_JETT.jpg",
             "sizeBytes": 683867
           },
           {
-            "filename": "POSER CHAMP 2024 5VERTICAL JETT.jpg",
-            "name": "POSER CHAMP 2024 5VERTICAL JETT",
-            "relPath": "Valorantek/agents/Jett/posters/POSER CHAMP 2024 5VERTICAL JETT.jpg",
+            "filename": "POSER_CHAMP_2024_5VERTICAL_JETT.jpg",
+            "name": "POSER_CHAMP_2024_5VERTICAL_JETT",
+            "relPath": "Valorantek/agents/Jett/posters/POSER_CHAMP_2024_5VERTICAL_JETT.jpg",
             "sizeBytes": 1078906
           },
           {
@@ -9751,15 +9751,15 @@
             "sizeBytes": 4609647
           },
           {
-            "filename": "VALORANT_Jett_Red (1).jpg",
-            "name": "VALORANT_Jett_Red (1)",
-            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Red (1).jpg",
-            "sizeBytes": 2319421
-          },
-          {
             "filename": "VALORANT_Jett_Red.jpg",
             "name": "VALORANT_Jett_Red",
             "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Red.jpg",
+            "sizeBytes": 2319421
+          },
+          {
+            "filename": "VALORANT_Jett_Red_(1).jpg",
+            "name": "VALORANT_Jett_Red_(1)",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Red_(1).jpg",
             "sizeBytes": 2319421
           },
           {
@@ -16088,15 +16088,15 @@
         ],
         "posters": [
           {
-            "filename": "POSER CHAMP 2024 2VERTICAL omen .jpg",
-            "name": "POSER CHAMP 2024 2VERTICAL omen ",
-            "relPath": "Valorantek/agents/Omen/posters/POSER CHAMP 2024 2VERTICAL omen .jpg",
+            "filename": "POSER_CHAMP_2024_2VERTICAL_omen.jpg",
+            "name": "POSER_CHAMP_2024_2VERTICAL_omen",
+            "relPath": "Valorantek/agents/Omen/posters/POSER_CHAMP_2024_2VERTICAL_omen.jpg",
             "sizeBytes": 952135
           },
           {
-            "filename": "POSER CHAMP 2024 5VERTICALOMEN.jpg",
-            "name": "POSER CHAMP 2024 5VERTICALOMEN",
-            "relPath": "Valorantek/agents/Omen/posters/POSER CHAMP 2024 5VERTICALOMEN.jpg",
+            "filename": "POSER_CHAMP_2024_5VERTICALOMEN.jpg",
+            "name": "POSER_CHAMP_2024_5VERTICALOMEN",
+            "relPath": "Valorantek/agents/Omen/posters/POSER_CHAMP_2024_5VERTICALOMEN.jpg",
             "sizeBytes": 601204
           },
           {
@@ -23592,9 +23592,9 @@
             "sizeBytes": 5434844
           },
           {
-            "filename": "VALORANT STANDARS THUMBNAIL 3VIPER.jpg",
-            "name": "VALORANT STANDARS THUMBNAIL 3VIPER",
-            "relPath": "Valorantek/agents/Viper/posters/VALORANT STANDARS THUMBNAIL 3VIPER.jpg",
+            "filename": "VALORANT_STANDARS_THUMBNAIL_3VIPER.jpg",
+            "name": "VALORANT_STANDARS_THUMBNAIL_3VIPER",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_STANDARS_THUMBNAIL_3VIPER.jpg",
             "sizeBytes": 475606
           },
           {
@@ -23604,15 +23604,15 @@
             "sizeBytes": 1511903
           },
           {
-            "filename": "VALORANT_VIPER_2 (1).jpg",
-            "name": "VALORANT_VIPER_2 (1)",
-            "relPath": "Valorantek/agents/Viper/posters/VALORANT_VIPER_2 (1).jpg",
-            "sizeBytes": 1822584
-          },
-          {
             "filename": "VALORANT_VIPER_2.jpg",
             "name": "VALORANT_VIPER_2",
             "relPath": "Valorantek/agents/Viper/posters/VALORANT_VIPER_2.jpg",
+            "sizeBytes": 1822584
+          },
+          {
+            "filename": "VALORANT_VIPER_2_(1).jpg",
+            "name": "VALORANT_VIPER_2_(1)",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_VIPER_2_(1).jpg",
             "sizeBytes": 1822584
           },
           {
@@ -23628,9 +23628,9 @@
             "sizeBytes": 4712731
           },
           {
-            "filename": "Vertical Viper.jpg",
-            "name": "Vertical Viper",
-            "relPath": "Valorantek/agents/Viper/posters/Vertical Viper.jpg",
+            "filename": "Vertical_Viper.jpg",
+            "name": "Vertical_Viper",
+            "relPath": "Valorantek/agents/Viper/posters/Vertical_Viper.jpg",
             "sizeBytes": 1108432
           }
         ],
@@ -31848,11 +31848,11 @@
           "sizeBytes": 875
         },
         {
-          "name": "Night Market",
+          "name": "Night_Market",
           "displayName": "Night Market",
-          "codename": "Night Market",
-          "filename": "Night Market.png",
-          "relPath": "Valorantek/Icons/Main Interface/Main HeaderIcons/Night Market.png",
+          "codename": "Night_Market",
+          "filename": "Night_Market.png",
+          "relPath": "Valorantek/Icons/Main Interface/Main HeaderIcons/Night_Market.png",
           "sizeBytes": 595
         },
         {
@@ -33777,11 +33777,11 @@
         "sizeBytes": 54821
       },
       {
-        "name": "V_Lockup_Vertical Black",
+        "name": "V_Lockup_Vertical_Black",
         "displayName": "V Lockup Vertical Black",
-        "codename": "V_Lockup_Vertical Black",
-        "filename": "V_Lockup_Vertical Black.png",
-        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Vertical Black.png",
+        "codename": "V_Lockup_Vertical_Black",
+        "filename": "V_Lockup_Vertical_Black.png",
+        "relPath": "Valorantek/Logos/Official Brand Kit/V_Lockup_Vertical_Black.png",
         "sizeBytes": 94836
       },
       {
@@ -34601,11 +34601,11 @@
         "sizeBytes": 54821
       },
       {
-        "name": "V_Lockup_Vertical Black",
+        "name": "V_Lockup_Vertical_Black",
         "displayName": "V Lockup Vertical Black",
-        "codename": "V_Lockup_Vertical Black",
-        "filename": "V_Lockup_Vertical Black.png",
-        "relPath": "Valorantek/Logos/V_Lockup_Vertical Black.png",
+        "codename": "V_Lockup_Vertical_Black",
+        "filename": "V_Lockup_Vertical_Black.png",
+        "relPath": "Valorantek/Logos/V_Lockup_Vertical_Black.png",
         "sizeBytes": 94836
       },
       {
@@ -36331,11 +36331,11 @@
         "sizeBytes": 3857045
       },
       {
-        "name": "GN_Rogue_Bundle_Purchase_1920x1080__1_",
+        "name": "GN_Rogue_Bundle_Purchase_1920x1080_1",
         "displayName": "Rogue Bundle",
         "codename": "Rogue",
-        "filename": "GN_Rogue_Bundle_Purchase_1920x1080__1_.png",
-        "relPath": "Valorantek/Backgrounds/Bundle/GN_Rogue_Bundle_Purchase_1920x1080__1_.png",
+        "filename": "GN_Rogue_Bundle_Purchase_1920x1080_1.png",
+        "relPath": "Valorantek/Backgrounds/Bundle/GN_Rogue_Bundle_Purchase_1920x1080_1.png",
         "sizeBytes": 1195107
       },
       {
@@ -40059,11 +40059,11 @@
         "sizeBytes": 3344199
       },
       {
-        "name": "Beta Key Art_VALORANT",
+        "name": "Beta_Key_Art_VALORANT",
         "displayName": "Beta Key Art VALORANT",
-        "codename": "Beta Key Art_VALORANT",
-        "filename": "Beta Key Art_VALORANT.jpg",
-        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Beta Key Art_VALORANT.jpg",
+        "codename": "Beta_Key_Art_VALORANT",
+        "filename": "Beta_Key_Art_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Beta_Key_Art_VALORANT.jpg",
         "sizeBytes": 6374900
       },
       {
@@ -40091,11 +40091,11 @@
         "sizeBytes": 1409716
       },
       {
-        "name": "VALORANT_Jett_Red (1)",
+        "name": "VALORANT_Jett_Red_(1)",
         "displayName": "VALORANT Jett Red (1)",
-        "codename": "VALORANT_Jett_Red (1)",
-        "filename": "VALORANT_Jett_Red (1).jpg",
-        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett_Red (1).jpg",
+        "codename": "VALORANT_Jett_Red_(1)",
+        "filename": "VALORANT_Jett_Red_(1).jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett_Red_(1).jpg",
         "sizeBytes": 2319421
       },
       {
@@ -40147,20 +40147,12 @@
         "sizeBytes": 1511903
       },
       {
-        "name": "VALORANT_VIPER_2 (1)",
+        "name": "VALORANT_VIPER_2_(1)",
         "displayName": "VALORANT VIPER 2 (1)",
-        "codename": "VALORANT_VIPER_2 (1)",
-        "filename": "VALORANT_VIPER_2 (1).jpg",
-        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_VIPER_2 (1).jpg",
+        "codename": "VALORANT_VIPER_2_(1)",
+        "filename": "VALORANT_VIPER_2_(1).jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_VIPER_2_(1).jpg",
         "sizeBytes": 1822584
-      },
-      {
-        "name": "Vertical Viper",
-        "displayName": "Vertical Viper",
-        "codename": "Vertical Viper",
-        "filename": "Vertical Viper.jpg",
-        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical Viper.jpg",
-        "sizeBytes": 1108432
       },
       {
         "name": "Vertical_jett",
@@ -40177,6 +40169,14 @@
         "filename": "Vertical_Phx.jpg",
         "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical_Phx.jpg",
         "sizeBytes": 1161740
+      },
+      {
+        "name": "Vertical_Viper",
+        "displayName": "Vertical Viper",
+        "codename": "Vertical_Viper",
+        "filename": "Vertical_Viper.jpg",
+        "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical_Viper.jpg",
+        "sizeBytes": 1108432
       },
       {
         "name": "FirstLook_ClassicRevolverConcept_VALORANT",
@@ -40323,43 +40323,43 @@
         "sizeBytes": 1736908
       },
       {
-        "name": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
-        "displayName": "Ep8a1 Defiance Riot Client - Launch Game Background 2560x1440 ",
-        "codename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
-        "filename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
-        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+        "name": "Ep8a1_Defiance_Riot_Client_Launch_Game_Background_2560x1440",
+        "displayName": "Ep8a1 Defiance Riot Client Launch Game Background 2560x1440",
+        "codename": "Ep8a1_Defiance_Riot_Client_Launch_Game_Background_2560x1440",
+        "filename": "Ep8a1_Defiance_Riot_Client_Launch_Game_Background_2560x1440.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot_Client_Launch_Game_Background_2560x1440.png",
         "sizeBytes": 2675192
       },
       {
-        "name": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+        "name": "Ep8a1_Defiance_Riot_Client_Login_Page_1440p",
         "displayName": "Ep8a1 Defiance Riot Client Login Page 1440p",
-        "codename": "Ep8a1_Defiance_Riot Client Login Page 1440p",
-        "filename": "Ep8a1_Defiance_Riot Client Login Page 1440p.png",
-        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+        "codename": "Ep8a1_Defiance_Riot_Client_Login_Page_1440p",
+        "filename": "Ep8a1_Defiance_Riot_Client_Login_Page_1440p.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot_Client_Login_Page_1440p.png",
         "sizeBytes": 2730881
       },
       {
-        "name": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+        "name": "Ep8a1_Defiance_Youtube_Box_Art_1000x1400",
         "displayName": "Ep8a1 Defiance Youtube Box Art 1000x1400",
-        "codename": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
-        "filename": "Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
-        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+        "codename": "Ep8a1_Defiance_Youtube_Box_Art_1000x1400",
+        "filename": "Ep8a1_Defiance_Youtube_Box_Art_1000x1400.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube_Box_Art_1000x1400.png",
         "sizeBytes": 1206046
       },
       {
-        "name": "Ep8a1_Defiance_Youtube Cover_",
-        "displayName": "Ep8a1 Defiance Youtube Cover ",
-        "codename": "Ep8a1_Defiance_Youtube Cover_",
-        "filename": "Ep8a1_Defiance_Youtube Cover_.png",
-        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube Cover_.png",
+        "name": "Ep8a1_Defiance_Youtube_Cover",
+        "displayName": "Ep8a1 Defiance Youtube Cover",
+        "codename": "Ep8a1_Defiance_Youtube_Cover",
+        "filename": "Ep8a1_Defiance_Youtube_Cover.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube_Cover.png",
         "sizeBytes": 2711064
       },
       {
-        "name": "Ep8A1_Riot Games.com Product Card 1920x1080_",
-        "displayName": "Ep8A1 Riot Games.com Product Card 1920x1080 ",
-        "codename": "Ep8A1_Riot Games.com Product Card 1920x1080_",
-        "filename": "Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
-        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+        "name": "Ep8A1_Riot_Games_Product_Card_1920x1080",
+        "displayName": "Ep8A1 Riot Games Product Card 1920x1080",
+        "codename": "Ep8A1_Riot_Games_Product_Card_1920x1080",
+        "filename": "Ep8A1_Riot_Games_Product_Card_1920x1080.jpg",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8A1_Riot_Games_Product_Card_1920x1080.jpg",
         "sizeBytes": 562403
       },
       {
@@ -40371,27 +40371,27 @@
         "sizeBytes": 995676
       },
       {
-        "name": "Valorant_EP8_Teaser_Cypher Reborn",
+        "name": "Valorant_EP8_Teaser_Cypher_Reborn",
         "displayName": "Valorant EP8 Teaser Cypher Reborn",
-        "codename": "Valorant_EP8_Teaser_Cypher Reborn",
-        "filename": "Valorant_EP8_Teaser_Cypher Reborn.jpg",
-        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Cypher Reborn.jpg",
+        "codename": "Valorant_EP8_Teaser_Cypher_Reborn",
+        "filename": "Valorant_EP8_Teaser_Cypher_Reborn.jpg",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Cypher_Reborn.jpg",
         "sizeBytes": 913459
       },
       {
-        "name": "Valorant_EP8_Teaser_Omen and the Outlaw",
+        "name": "Valorant_EP8_Teaser_Omen_and_the_Outlaw",
         "displayName": "Valorant EP8 Teaser Omen and the Outlaw",
-        "codename": "Valorant_EP8_Teaser_Omen and the Outlaw",
-        "filename": "Valorant_EP8_Teaser_Omen and the Outlaw.png",
-        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Omen and the Outlaw.png",
+        "codename": "Valorant_EP8_Teaser_Omen_and_the_Outlaw",
+        "filename": "Valorant_EP8_Teaser_Omen_and_the_Outlaw.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Omen_and_the_Outlaw.png",
         "sizeBytes": 5602827
       },
       {
-        "name": "Valorant_EP8_Teaser_Sova the Specialist",
+        "name": "Valorant_EP8_Teaser_Sova_the_Specialist",
         "displayName": "Valorant EP8 Teaser Sova the Specialist",
-        "codename": "Valorant_EP8_Teaser_Sova the Specialist",
-        "filename": "Valorant_EP8_Teaser_Sova the Specialist.png",
-        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Sova the Specialist.png",
+        "codename": "Valorant_EP8_Teaser_Sova_the_Specialist",
+        "filename": "Valorant_EP8_Teaser_Sova_the_Specialist.png",
+        "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Sova_the_Specialist.png",
         "sizeBytes": 10004792
       },
       {
@@ -40491,19 +40491,19 @@
         "sizeBytes": 3317870
       },
       {
-        "name": "Beta Key Art_VALORANT",
+        "name": "Beta_Key_Art_VALORANT",
         "displayName": "Beta Key Art VALORANT",
-        "codename": "Beta Key Art_VALORANT",
-        "filename": "Beta Key Art_VALORANT.jpg",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Beta Key Art_VALORANT.jpg",
+        "codename": "Beta_Key_Art_VALORANT",
+        "filename": "Beta_Key_Art_VALORANT.jpg",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Beta_Key_Art_VALORANT.jpg",
         "sizeBytes": 6374900
       },
       {
-        "name": "California Sand DL TYPE_dl",
+        "name": "California_Sand_DL_TYPE_dl",
         "displayName": "California Sand DL TYPE dl",
-        "codename": "California Sand DL TYPE_dl",
-        "filename": "California Sand DL TYPE_dl.png",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/California Sand DL TYPE_dl.png",
+        "codename": "California_Sand_DL_TYPE_dl",
+        "filename": "California_Sand_DL_TYPE_dl.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/California_Sand_DL_TYPE_dl.png",
         "sizeBytes": 5296728
       },
       {
@@ -40547,14 +40547,6 @@
         "sizeBytes": 1487318
       },
       {
-        "name": "E8a1_Cineposter_4x5_IG",
-        "displayName": "E8a1 Cineposter 4x5 IG",
-        "codename": "E8a1_Cineposter_4x5_IG",
-        "filename": "E8a1_Cineposter_4x5_IG.jpg",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/E8a1_Cineposter_4x5_IG.jpg",
-        "sizeBytes": 1736908
-      },
-      {
         "name": "Ep7_Act3_KV_EndCard_16x9_4k",
         "displayName": "Ep7 Act3 KV EndCard 16x9 4k",
         "codename": "Ep7_Act3_KV_EndCard_16x9_4k",
@@ -40569,46 +40561,6 @@
         "filename": "Ep7_Act3_KV_EndCard_21x9_4k.jpg",
         "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep7_Act3_KV_EndCard_21x9_4k.jpg",
         "sizeBytes": 2239264
-      },
-      {
-        "name": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
-        "displayName": "Ep8a1 Defiance Riot Client - Launch Game Background 2560x1440 ",
-        "codename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
-        "filename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
-        "sizeBytes": 2675192
-      },
-      {
-        "name": "Ep8a1_Defiance_Riot Client Login Page 1440p",
-        "displayName": "Ep8a1 Defiance Riot Client Login Page 1440p",
-        "codename": "Ep8a1_Defiance_Riot Client Login Page 1440p",
-        "filename": "Ep8a1_Defiance_Riot Client Login Page 1440p.png",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Riot Client Login Page 1440p.png",
-        "sizeBytes": 2730881
-      },
-      {
-        "name": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
-        "displayName": "Ep8a1 Defiance Youtube Box Art 1000x1400",
-        "codename": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
-        "filename": "Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
-        "sizeBytes": 1206046
-      },
-      {
-        "name": "Ep8a1_Defiance_Youtube Cover_",
-        "displayName": "Ep8a1 Defiance Youtube Cover ",
-        "codename": "Ep8a1_Defiance_Youtube Cover_",
-        "filename": "Ep8a1_Defiance_Youtube Cover_.png",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Youtube Cover_.png",
-        "sizeBytes": 2711064
-      },
-      {
-        "name": "Ep8A1_Riot Games.com Product Card 1920x1080_",
-        "displayName": "Ep8A1 Riot Games.com Product Card 1920x1080 ",
-        "codename": "Ep8A1_Riot Games.com Product Card 1920x1080_",
-        "filename": "Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
-        "sizeBytes": 562403
       },
       {
         "name": "Ep_7_Keyart_4k",
@@ -40667,11 +40619,11 @@
         "sizeBytes": 1781431
       },
       {
-        "name": "Gekko_Green_",
-        "displayName": "Gekko Green ",
-        "codename": "Gekko_Green_",
-        "filename": "Gekko_Green_.png",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Green_.png",
+        "name": "Gekko_Green",
+        "displayName": "Gekko Green",
+        "codename": "Gekko_Green",
+        "filename": "Gekko_Green.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Green.png",
         "sizeBytes": 2466948
       },
       {
@@ -40691,11 +40643,11 @@
         "sizeBytes": 2359983
       },
       {
-        "name": "Gekko_Purple_",
-        "displayName": "Gekko Purple ",
-        "codename": "Gekko_Purple_",
-        "filename": "Gekko_Purple_.png",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Purple_.png",
+        "name": "Gekko_Purple",
+        "displayName": "Gekko Purple",
+        "codename": "Gekko_Purple",
+        "filename": "Gekko_Purple.png",
+        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Purple.png",
         "sizeBytes": 1941499
       },
       {
@@ -40873,38 +40825,6 @@
         "filename": "Valorant_CloseBeta_Final_design.jpg",
         "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_CloseBeta_Final_design.jpg",
         "sizeBytes": 2742480
-      },
-      {
-        "name": "Valorant_EP-8-Teaser_The-arrival",
-        "displayName": "Valorant EP-8-Teaser The-arrival",
-        "codename": "Valorant_EP-8-Teaser_The-arrival",
-        "filename": "Valorant_EP-8-Teaser_The-arrival.jpg",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP-8-Teaser_The-arrival.jpg",
-        "sizeBytes": 995676
-      },
-      {
-        "name": "Valorant_EP8_Teaser_Cypher Reborn",
-        "displayName": "Valorant EP8 Teaser Cypher Reborn",
-        "codename": "Valorant_EP8_Teaser_Cypher Reborn",
-        "filename": "Valorant_EP8_Teaser_Cypher Reborn.jpg",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Cypher Reborn.jpg",
-        "sizeBytes": 913459
-      },
-      {
-        "name": "Valorant_EP8_Teaser_Omen and the Outlaw",
-        "displayName": "Valorant EP8 Teaser Omen and the Outlaw",
-        "codename": "Valorant_EP8_Teaser_Omen and the Outlaw",
-        "filename": "Valorant_EP8_Teaser_Omen and the Outlaw.png",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Omen and the Outlaw.png",
-        "sizeBytes": 5602827
-      },
-      {
-        "name": "Valorant_EP8_Teaser_Sova the Specialist",
-        "displayName": "Valorant EP8 Teaser Sova the Specialist",
-        "codename": "Valorant_EP8_Teaser_Sova the Specialist",
-        "filename": "Valorant_EP8_Teaser_Sova the Specialist.png",
-        "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Sova the Specialist.png",
-        "sizeBytes": 10004792
       },
       {
         "name": "VALORANT_Jett",
@@ -41243,35 +41163,35 @@
         "sizeBytes": 1559023
       },
       {
-        "name": "Corrode 16 9 poster",
+        "name": "Corrode_16_9_poster",
         "displayName": "Corrode 16 9 poster",
-        "codename": "Corrode 16 9 poster",
-        "filename": "Corrode 16 9 poster.jpg",
-        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/Corrode 16 9 poster.jpg",
+        "codename": "Corrode_16_9_poster",
+        "filename": "Corrode_16_9_poster.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/Corrode_16_9_poster.jpg",
         "sizeBytes": 1738144
       },
       {
-        "name": "POSTER VALORANT V25 ACT IV POSTER 1 CORRODE",
+        "name": "POSTER_VALORANT_V25_ACT_IV_POSTER_1_CORRODE",
         "displayName": "POSTER VALORANT V25 ACT IV POSTER 1 CORRODE",
-        "codename": "POSTER VALORANT V25 ACT IV POSTER 1 CORRODE",
-        "filename": "POSTER VALORANT V25 ACT IV POSTER 1 CORRODE.jpg",
-        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER VALORANT V25 ACT IV POSTER 1 CORRODE.jpg",
+        "codename": "POSTER_VALORANT_V25_ACT_IV_POSTER_1_CORRODE",
+        "filename": "POSTER_VALORANT_V25_ACT_IV_POSTER_1_CORRODE.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER_VALORANT_V25_ACT_IV_POSTER_1_CORRODE.jpg",
         "sizeBytes": 907078
       },
       {
-        "name": "POSTER VALORANT V25 ACT IV POSTER 2 CORRODE",
+        "name": "POSTER_VALORANT_V25_ACT_IV_POSTER_2_CORRODE",
         "displayName": "POSTER VALORANT V25 ACT IV POSTER 2 CORRODE",
-        "codename": "POSTER VALORANT V25 ACT IV POSTER 2 CORRODE",
-        "filename": "POSTER VALORANT V25 ACT IV POSTER 2 CORRODE.jpg",
-        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER VALORANT V25 ACT IV POSTER 2 CORRODE.jpg",
+        "codename": "POSTER_VALORANT_V25_ACT_IV_POSTER_2_CORRODE",
+        "filename": "POSTER_VALORANT_V25_ACT_IV_POSTER_2_CORRODE.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER_VALORANT_V25_ACT_IV_POSTER_2_CORRODE.jpg",
         "sizeBytes": 971828
       },
       {
-        "name": "POSTER VALORANT V25 ACT IV POSTER 3 CORRODE",
+        "name": "POSTER_VALORANT_V25_ACT_IV_POSTER_3_CORRODE",
         "displayName": "POSTER VALORANT V25 ACT IV POSTER 3 CORRODE",
-        "codename": "POSTER VALORANT V25 ACT IV POSTER 3 CORRODE",
-        "filename": "POSTER VALORANT V25 ACT IV POSTER 3 CORRODE.jpg",
-        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER VALORANT V25 ACT IV POSTER 3 CORRODE.jpg",
+        "codename": "POSTER_VALORANT_V25_ACT_IV_POSTER_3_CORRODE",
+        "filename": "POSTER_VALORANT_V25_ACT_IV_POSTER_3_CORRODE.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER_VALORANT_V25_ACT_IV_POSTER_3_CORRODE.jpg",
         "sizeBytes": 967238
       },
       {
@@ -41283,20 +41203,20 @@
         "sizeBytes": 1996925
       },
       {
-        "name": "VALORANT STANDARS THUMBNAIL 2",
-        "displayName": "VALORANT STANDARS THUMBNAIL 2",
-        "codename": "VALORANT STANDARS THUMBNAIL 2",
-        "filename": "VALORANT STANDARS THUMBNAIL 2.jpg",
-        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/VALORANT STANDARS THUMBNAIL 2.jpg",
-        "sizeBytes": 703705
+        "name": "VALORANT_STANDARS_THUMBNAIL",
+        "displayName": "VALORANT STANDARS THUMBNAIL",
+        "codename": "VALORANT_STANDARS_THUMBNAIL",
+        "filename": "VALORANT_STANDARS_THUMBNAIL.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/VALORANT_STANDARS_THUMBNAIL.jpg",
+        "sizeBytes": 825271
       },
       {
-        "name": "VALORANT STANDARS THUMBNAIL",
-        "displayName": "VALORANT STANDARS THUMBNAIL",
-        "codename": "VALORANT STANDARS THUMBNAIL",
-        "filename": "VALORANT STANDARS THUMBNAIL.jpg",
-        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/VALORANT STANDARS THUMBNAIL.jpg",
-        "sizeBytes": 825271
+        "name": "VALORANT_STANDARS_THUMBNAIL_2",
+        "displayName": "VALORANT STANDARS THUMBNAIL 2",
+        "codename": "VALORANT_STANDARS_THUMBNAIL_2",
+        "filename": "VALORANT_STANDARS_THUMBNAIL_2.jpg",
+        "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/VALORANT_STANDARS_THUMBNAIL_2.jpg",
+        "sizeBytes": 703705
       },
       {
         "name": "VALORANT_phx_jett_2",
@@ -43136,11 +43056,11 @@
           "sizeBytes": 3857045
         },
         {
-          "name": "GN_Rogue_Bundle_Purchase_1920x1080__1_",
+          "name": "GN_Rogue_Bundle_Purchase_1920x1080_1",
           "displayName": "Rogue Bundle",
           "codename": "Rogue",
-          "filename": "GN_Rogue_Bundle_Purchase_1920x1080__1_.png",
-          "relPath": "Valorantek/Backgrounds/Bundle/GN_Rogue_Bundle_Purchase_1920x1080__1_.png",
+          "filename": "GN_Rogue_Bundle_Purchase_1920x1080_1.png",
+          "relPath": "Valorantek/Backgrounds/Bundle/GN_Rogue_Bundle_Purchase_1920x1080_1.png",
           "sizeBytes": 1195107
         },
         {
@@ -46868,11 +46788,11 @@
       ],
       "Closed Beta Key Art": [
         {
-          "name": "Beta Key Art_VALORANT",
+          "name": "Beta_Key_Art_VALORANT",
           "displayName": "Beta Key Art VALORANT",
-          "codename": "Beta Key Art_VALORANT",
-          "filename": "Beta Key Art_VALORANT.jpg",
-          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Beta Key Art_VALORANT.jpg",
+          "codename": "Beta_Key_Art_VALORANT",
+          "filename": "Beta_Key_Art_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Beta_Key_Art_VALORANT.jpg",
           "sizeBytes": 6374900
         },
         {
@@ -46900,11 +46820,11 @@
           "sizeBytes": 1409716
         },
         {
-          "name": "VALORANT_Jett_Red (1)",
+          "name": "VALORANT_Jett_Red_(1)",
           "displayName": "VALORANT Jett Red (1)",
-          "codename": "VALORANT_Jett_Red (1)",
-          "filename": "VALORANT_Jett_Red (1).jpg",
-          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett_Red (1).jpg",
+          "codename": "VALORANT_Jett_Red_(1)",
+          "filename": "VALORANT_Jett_Red_(1).jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_Jett_Red_(1).jpg",
           "sizeBytes": 2319421
         },
         {
@@ -46956,20 +46876,12 @@
           "sizeBytes": 1511903
         },
         {
-          "name": "VALORANT_VIPER_2 (1)",
+          "name": "VALORANT_VIPER_2_(1)",
           "displayName": "VALORANT VIPER 2 (1)",
-          "codename": "VALORANT_VIPER_2 (1)",
-          "filename": "VALORANT_VIPER_2 (1).jpg",
-          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_VIPER_2 (1).jpg",
+          "codename": "VALORANT_VIPER_2_(1)",
+          "filename": "VALORANT_VIPER_2_(1).jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/VALORANT_VIPER_2_(1).jpg",
           "sizeBytes": 1822584
-        },
-        {
-          "name": "Vertical Viper",
-          "displayName": "Vertical Viper",
-          "codename": "Vertical Viper",
-          "filename": "Vertical Viper.jpg",
-          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical Viper.jpg",
-          "sizeBytes": 1108432
         },
         {
           "name": "Vertical_jett",
@@ -46986,6 +46898,14 @@
           "filename": "Vertical_Phx.jpg",
           "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical_Phx.jpg",
           "sizeBytes": 1161740
+        },
+        {
+          "name": "Vertical_Viper",
+          "displayName": "Vertical Viper",
+          "codename": "Vertical_Viper",
+          "filename": "Vertical_Viper.jpg",
+          "relPath": "Valorantek/Backgrounds/Closed Beta Key Art/Vertical_Viper.jpg",
+          "sizeBytes": 1108432
         }
       ],
       "Concepts & Sketches": [
@@ -47268,43 +47188,43 @@
           "sizeBytes": 1736908
         },
         {
-          "name": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
-          "displayName": "Ep8a1 Defiance Riot Client - Launch Game Background 2560x1440 ",
-          "codename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
-          "filename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
-          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
+          "name": "Ep8a1_Defiance_Riot_Client_Launch_Game_Background_2560x1440",
+          "displayName": "Ep8a1 Defiance Riot Client Launch Game Background 2560x1440",
+          "codename": "Ep8a1_Defiance_Riot_Client_Launch_Game_Background_2560x1440",
+          "filename": "Ep8a1_Defiance_Riot_Client_Launch_Game_Background_2560x1440.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot_Client_Launch_Game_Background_2560x1440.png",
           "sizeBytes": 2675192
         },
         {
-          "name": "Ep8a1_Defiance_Riot Client Login Page 1440p",
+          "name": "Ep8a1_Defiance_Riot_Client_Login_Page_1440p",
           "displayName": "Ep8a1 Defiance Riot Client Login Page 1440p",
-          "codename": "Ep8a1_Defiance_Riot Client Login Page 1440p",
-          "filename": "Ep8a1_Defiance_Riot Client Login Page 1440p.png",
-          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot Client Login Page 1440p.png",
+          "codename": "Ep8a1_Defiance_Riot_Client_Login_Page_1440p",
+          "filename": "Ep8a1_Defiance_Riot_Client_Login_Page_1440p.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Riot_Client_Login_Page_1440p.png",
           "sizeBytes": 2730881
         },
         {
-          "name": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
+          "name": "Ep8a1_Defiance_Youtube_Box_Art_1000x1400",
           "displayName": "Ep8a1 Defiance Youtube Box Art 1000x1400",
-          "codename": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
-          "filename": "Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
-          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
+          "codename": "Ep8a1_Defiance_Youtube_Box_Art_1000x1400",
+          "filename": "Ep8a1_Defiance_Youtube_Box_Art_1000x1400.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube_Box_Art_1000x1400.png",
           "sizeBytes": 1206046
         },
         {
-          "name": "Ep8a1_Defiance_Youtube Cover_",
-          "displayName": "Ep8a1 Defiance Youtube Cover ",
-          "codename": "Ep8a1_Defiance_Youtube Cover_",
-          "filename": "Ep8a1_Defiance_Youtube Cover_.png",
-          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube Cover_.png",
+          "name": "Ep8a1_Defiance_Youtube_Cover",
+          "displayName": "Ep8a1 Defiance Youtube Cover",
+          "codename": "Ep8a1_Defiance_Youtube_Cover",
+          "filename": "Ep8a1_Defiance_Youtube_Cover.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8a1_Defiance_Youtube_Cover.png",
           "sizeBytes": 2711064
         },
         {
-          "name": "Ep8A1_Riot Games.com Product Card 1920x1080_",
-          "displayName": "Ep8A1 Riot Games.com Product Card 1920x1080 ",
-          "codename": "Ep8A1_Riot Games.com Product Card 1920x1080_",
-          "filename": "Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
-          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
+          "name": "Ep8A1_Riot_Games_Product_Card_1920x1080",
+          "displayName": "Ep8A1 Riot Games Product Card 1920x1080",
+          "codename": "Ep8A1_Riot_Games_Product_Card_1920x1080",
+          "filename": "Ep8A1_Riot_Games_Product_Card_1920x1080.jpg",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Ep8A1_Riot_Games_Product_Card_1920x1080.jpg",
           "sizeBytes": 562403
         },
         {
@@ -47316,27 +47236,27 @@
           "sizeBytes": 995676
         },
         {
-          "name": "Valorant_EP8_Teaser_Cypher Reborn",
+          "name": "Valorant_EP8_Teaser_Cypher_Reborn",
           "displayName": "Valorant EP8 Teaser Cypher Reborn",
-          "codename": "Valorant_EP8_Teaser_Cypher Reborn",
-          "filename": "Valorant_EP8_Teaser_Cypher Reborn.jpg",
-          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Cypher Reborn.jpg",
+          "codename": "Valorant_EP8_Teaser_Cypher_Reborn",
+          "filename": "Valorant_EP8_Teaser_Cypher_Reborn.jpg",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Cypher_Reborn.jpg",
           "sizeBytes": 913459
         },
         {
-          "name": "Valorant_EP8_Teaser_Omen and the Outlaw",
+          "name": "Valorant_EP8_Teaser_Omen_and_the_Outlaw",
           "displayName": "Valorant EP8 Teaser Omen and the Outlaw",
-          "codename": "Valorant_EP8_Teaser_Omen and the Outlaw",
-          "filename": "Valorant_EP8_Teaser_Omen and the Outlaw.png",
-          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Omen and the Outlaw.png",
+          "codename": "Valorant_EP8_Teaser_Omen_and_the_Outlaw",
+          "filename": "Valorant_EP8_Teaser_Omen_and_the_Outlaw.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Omen_and_the_Outlaw.png",
           "sizeBytes": 5602827
         },
         {
-          "name": "Valorant_EP8_Teaser_Sova the Specialist",
+          "name": "Valorant_EP8_Teaser_Sova_the_Specialist",
           "displayName": "Valorant EP8 Teaser Sova the Specialist",
-          "codename": "Valorant_EP8_Teaser_Sova the Specialist",
-          "filename": "Valorant_EP8_Teaser_Sova the Specialist.png",
-          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Sova the Specialist.png",
+          "codename": "Valorant_EP8_Teaser_Sova_the_Specialist",
+          "filename": "Valorant_EP8_Teaser_Sova_the_Specialist.png",
+          "relPath": "Valorantek/Backgrounds/Episode & Act Key Art/Valorant_EP8_Teaser_Sova_the_Specialist.png",
           "sizeBytes": 10004792
         }
       ],
@@ -47442,19 +47362,19 @@
       ],
       "Key Art & Official Media": [
         {
-          "name": "Beta Key Art_VALORANT",
+          "name": "Beta_Key_Art_VALORANT",
           "displayName": "Beta Key Art VALORANT",
-          "codename": "Beta Key Art_VALORANT",
-          "filename": "Beta Key Art_VALORANT.jpg",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Beta Key Art_VALORANT.jpg",
+          "codename": "Beta_Key_Art_VALORANT",
+          "filename": "Beta_Key_Art_VALORANT.jpg",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Beta_Key_Art_VALORANT.jpg",
           "sizeBytes": 6374900
         },
         {
-          "name": "California Sand DL TYPE_dl",
+          "name": "California_Sand_DL_TYPE_dl",
           "displayName": "California Sand DL TYPE dl",
-          "codename": "California Sand DL TYPE_dl",
-          "filename": "California Sand DL TYPE_dl.png",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/California Sand DL TYPE_dl.png",
+          "codename": "California_Sand_DL_TYPE_dl",
+          "filename": "California_Sand_DL_TYPE_dl.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/California_Sand_DL_TYPE_dl.png",
           "sizeBytes": 5296728
         },
         {
@@ -47498,14 +47418,6 @@
           "sizeBytes": 1487318
         },
         {
-          "name": "E8a1_Cineposter_4x5_IG",
-          "displayName": "E8a1 Cineposter 4x5 IG",
-          "codename": "E8a1_Cineposter_4x5_IG",
-          "filename": "E8a1_Cineposter_4x5_IG.jpg",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/E8a1_Cineposter_4x5_IG.jpg",
-          "sizeBytes": 1736908
-        },
-        {
           "name": "Ep7_Act3_KV_EndCard_16x9_4k",
           "displayName": "Ep7 Act3 KV EndCard 16x9 4k",
           "codename": "Ep7_Act3_KV_EndCard_16x9_4k",
@@ -47520,46 +47432,6 @@
           "filename": "Ep7_Act3_KV_EndCard_21x9_4k.jpg",
           "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep7_Act3_KV_EndCard_21x9_4k.jpg",
           "sizeBytes": 2239264
-        },
-        {
-          "name": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
-          "displayName": "Ep8a1 Defiance Riot Client - Launch Game Background 2560x1440 ",
-          "codename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_",
-          "filename": "Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png",
-          "sizeBytes": 2675192
-        },
-        {
-          "name": "Ep8a1_Defiance_Riot Client Login Page 1440p",
-          "displayName": "Ep8a1 Defiance Riot Client Login Page 1440p",
-          "codename": "Ep8a1_Defiance_Riot Client Login Page 1440p",
-          "filename": "Ep8a1_Defiance_Riot Client Login Page 1440p.png",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Riot Client Login Page 1440p.png",
-          "sizeBytes": 2730881
-        },
-        {
-          "name": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
-          "displayName": "Ep8a1 Defiance Youtube Box Art 1000x1400",
-          "codename": "Ep8a1_Defiance_Youtube Box Art 1000x1400",
-          "filename": "Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Youtube Box Art 1000x1400.png",
-          "sizeBytes": 1206046
-        },
-        {
-          "name": "Ep8a1_Defiance_Youtube Cover_",
-          "displayName": "Ep8a1 Defiance Youtube Cover ",
-          "codename": "Ep8a1_Defiance_Youtube Cover_",
-          "filename": "Ep8a1_Defiance_Youtube Cover_.png",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8a1_Defiance_Youtube Cover_.png",
-          "sizeBytes": 2711064
-        },
-        {
-          "name": "Ep8A1_Riot Games.com Product Card 1920x1080_",
-          "displayName": "Ep8A1 Riot Games.com Product Card 1920x1080 ",
-          "codename": "Ep8A1_Riot Games.com Product Card 1920x1080_",
-          "filename": "Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Ep8A1_Riot Games.com Product Card 1920x1080_.jpg",
-          "sizeBytes": 562403
         },
         {
           "name": "Ep_7_Keyart_4k",
@@ -47618,11 +47490,11 @@
           "sizeBytes": 1781431
         },
         {
-          "name": "Gekko_Green_",
-          "displayName": "Gekko Green ",
-          "codename": "Gekko_Green_",
-          "filename": "Gekko_Green_.png",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Green_.png",
+          "name": "Gekko_Green",
+          "displayName": "Gekko Green",
+          "codename": "Gekko_Green",
+          "filename": "Gekko_Green.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Green.png",
           "sizeBytes": 2466948
         },
         {
@@ -47642,11 +47514,11 @@
           "sizeBytes": 2359983
         },
         {
-          "name": "Gekko_Purple_",
-          "displayName": "Gekko Purple ",
-          "codename": "Gekko_Purple_",
-          "filename": "Gekko_Purple_.png",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Purple_.png",
+          "name": "Gekko_Purple",
+          "displayName": "Gekko Purple",
+          "codename": "Gekko_Purple",
+          "filename": "Gekko_Purple.png",
+          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Gekko_Purple.png",
           "sizeBytes": 1941499
         },
         {
@@ -47824,38 +47696,6 @@
           "filename": "Valorant_CloseBeta_Final_design.jpg",
           "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_CloseBeta_Final_design.jpg",
           "sizeBytes": 2742480
-        },
-        {
-          "name": "Valorant_EP-8-Teaser_The-arrival",
-          "displayName": "Valorant EP-8-Teaser The-arrival",
-          "codename": "Valorant_EP-8-Teaser_The-arrival",
-          "filename": "Valorant_EP-8-Teaser_The-arrival.jpg",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP-8-Teaser_The-arrival.jpg",
-          "sizeBytes": 995676
-        },
-        {
-          "name": "Valorant_EP8_Teaser_Cypher Reborn",
-          "displayName": "Valorant EP8 Teaser Cypher Reborn",
-          "codename": "Valorant_EP8_Teaser_Cypher Reborn",
-          "filename": "Valorant_EP8_Teaser_Cypher Reborn.jpg",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Cypher Reborn.jpg",
-          "sizeBytes": 913459
-        },
-        {
-          "name": "Valorant_EP8_Teaser_Omen and the Outlaw",
-          "displayName": "Valorant EP8 Teaser Omen and the Outlaw",
-          "codename": "Valorant_EP8_Teaser_Omen and the Outlaw",
-          "filename": "Valorant_EP8_Teaser_Omen and the Outlaw.png",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Omen and the Outlaw.png",
-          "sizeBytes": 5602827
-        },
-        {
-          "name": "Valorant_EP8_Teaser_Sova the Specialist",
-          "displayName": "Valorant EP8 Teaser Sova the Specialist",
-          "codename": "Valorant_EP8_Teaser_Sova the Specialist",
-          "filename": "Valorant_EP8_Teaser_Sova the Specialist.png",
-          "relPath": "Valorantek/Backgrounds/Key Art & Official Media/Valorant_EP8_Teaser_Sova the Specialist.png",
-          "sizeBytes": 10004792
         },
         {
           "name": "VALORANT_Jett",
@@ -48192,35 +48032,35 @@
           "sizeBytes": 1559023
         },
         {
-          "name": "Corrode 16 9 poster",
+          "name": "Corrode_16_9_poster",
           "displayName": "Corrode 16 9 poster",
-          "codename": "Corrode 16 9 poster",
-          "filename": "Corrode 16 9 poster.jpg",
-          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/Corrode 16 9 poster.jpg",
+          "codename": "Corrode_16_9_poster",
+          "filename": "Corrode_16_9_poster.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/Corrode_16_9_poster.jpg",
           "sizeBytes": 1738144
         },
         {
-          "name": "POSTER VALORANT V25 ACT IV POSTER 1 CORRODE",
+          "name": "POSTER_VALORANT_V25_ACT_IV_POSTER_1_CORRODE",
           "displayName": "POSTER VALORANT V25 ACT IV POSTER 1 CORRODE",
-          "codename": "POSTER VALORANT V25 ACT IV POSTER 1 CORRODE",
-          "filename": "POSTER VALORANT V25 ACT IV POSTER 1 CORRODE.jpg",
-          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER VALORANT V25 ACT IV POSTER 1 CORRODE.jpg",
+          "codename": "POSTER_VALORANT_V25_ACT_IV_POSTER_1_CORRODE",
+          "filename": "POSTER_VALORANT_V25_ACT_IV_POSTER_1_CORRODE.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER_VALORANT_V25_ACT_IV_POSTER_1_CORRODE.jpg",
           "sizeBytes": 907078
         },
         {
-          "name": "POSTER VALORANT V25 ACT IV POSTER 2 CORRODE",
+          "name": "POSTER_VALORANT_V25_ACT_IV_POSTER_2_CORRODE",
           "displayName": "POSTER VALORANT V25 ACT IV POSTER 2 CORRODE",
-          "codename": "POSTER VALORANT V25 ACT IV POSTER 2 CORRODE",
-          "filename": "POSTER VALORANT V25 ACT IV POSTER 2 CORRODE.jpg",
-          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER VALORANT V25 ACT IV POSTER 2 CORRODE.jpg",
+          "codename": "POSTER_VALORANT_V25_ACT_IV_POSTER_2_CORRODE",
+          "filename": "POSTER_VALORANT_V25_ACT_IV_POSTER_2_CORRODE.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER_VALORANT_V25_ACT_IV_POSTER_2_CORRODE.jpg",
           "sizeBytes": 971828
         },
         {
-          "name": "POSTER VALORANT V25 ACT IV POSTER 3 CORRODE",
+          "name": "POSTER_VALORANT_V25_ACT_IV_POSTER_3_CORRODE",
           "displayName": "POSTER VALORANT V25 ACT IV POSTER 3 CORRODE",
-          "codename": "POSTER VALORANT V25 ACT IV POSTER 3 CORRODE",
-          "filename": "POSTER VALORANT V25 ACT IV POSTER 3 CORRODE.jpg",
-          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER VALORANT V25 ACT IV POSTER 3 CORRODE.jpg",
+          "codename": "POSTER_VALORANT_V25_ACT_IV_POSTER_3_CORRODE",
+          "filename": "POSTER_VALORANT_V25_ACT_IV_POSTER_3_CORRODE.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/POSTER_VALORANT_V25_ACT_IV_POSTER_3_CORRODE.jpg",
           "sizeBytes": 967238
         },
         {
@@ -48232,20 +48072,20 @@
           "sizeBytes": 1996925
         },
         {
-          "name": "VALORANT STANDARS THUMBNAIL 2",
-          "displayName": "VALORANT STANDARS THUMBNAIL 2",
-          "codename": "VALORANT STANDARS THUMBNAIL 2",
-          "filename": "VALORANT STANDARS THUMBNAIL 2.jpg",
-          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/VALORANT STANDARS THUMBNAIL 2.jpg",
-          "sizeBytes": 703705
+          "name": "VALORANT_STANDARS_THUMBNAIL",
+          "displayName": "VALORANT STANDARS THUMBNAIL",
+          "codename": "VALORANT_STANDARS_THUMBNAIL",
+          "filename": "VALORANT_STANDARS_THUMBNAIL.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/VALORANT_STANDARS_THUMBNAIL.jpg",
+          "sizeBytes": 825271
         },
         {
-          "name": "VALORANT STANDARS THUMBNAIL",
-          "displayName": "VALORANT STANDARS THUMBNAIL",
-          "codename": "VALORANT STANDARS THUMBNAIL",
-          "filename": "VALORANT STANDARS THUMBNAIL.jpg",
-          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/VALORANT STANDARS THUMBNAIL.jpg",
-          "sizeBytes": 825271
+          "name": "VALORANT_STANDARS_THUMBNAIL_2",
+          "displayName": "VALORANT STANDARS THUMBNAIL 2",
+          "codename": "VALORANT_STANDARS_THUMBNAIL_2",
+          "filename": "VALORANT_STANDARS_THUMBNAIL_2.jpg",
+          "relPath": "Valorantek/Backgrounds/Map Posters & Visuals/VALORANT_STANDARS_THUMBNAIL_2.jpg",
+          "sizeBytes": 703705
         }
       ],
       "Phoenix & Jett Key Art": [
@@ -48435,11 +48275,11 @@
         "sizeBytes": 146024
       },
       {
-        "name": "TX_Icon_StandingFigure Console",
+        "name": "TX_Icon_StandingFigure_Console",
         "displayName": "TX Icon StandingFigure Console",
-        "codename": "TX_Icon_StandingFigure Console",
-        "filename": "TX_Icon_StandingFigure Console.png",
-        "relPath": "Valorantek/Rankings/TX_Icon_StandingFigure Console.png",
+        "codename": "TX_Icon_StandingFigure_Console",
+        "filename": "TX_Icon_StandingFigure_Console.png",
+        "relPath": "Valorantek/Rankings/TX_Icon_StandingFigure_Console.png",
         "sizeBytes": 6082
       },
       {
