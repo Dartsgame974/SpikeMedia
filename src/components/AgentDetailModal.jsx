@@ -120,8 +120,8 @@ export default function AgentDetailModal({ agent, onClose }) {
           />
         )}
 
-        {/* Banner Header */}
-        <div className="relative h-64 sm:h-72 bg-gradient-to-r from-[#161B22] via-[#0F141C] to-[#1C2230] p-6 flex flex-col justify-end overflow-hidden shrink-0 border-b border-white/5">
+        {/* Banner Header - Compact on mobile screens to ensure tabs are visible without scrolling */}
+        <div className="relative h-28 sm:h-72 bg-gradient-to-r from-[#161B22] via-[#0F141C] to-[#1C2230] p-3 sm:p-6 flex flex-col justify-end overflow-hidden shrink-0 border-b border-white/5">
           {wallpaper && (
             <img
               src={toAssetUrl(wallpaper)}
@@ -134,50 +134,50 @@ export default function AgentDetailModal({ agent, onClose }) {
             <img
               src={toAssetUrl(bannerPortrait)}
               alt={agent.name}
-              className="absolute right-4 sm:right-12 top-0 h-[140%] object-cover object-top drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)] pointer-events-none"
+              className="hidden sm:block absolute right-4 sm:right-12 top-0 h-[140%] object-cover object-top drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)] pointer-events-none"
             />
           )}
 
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 p-2 rounded-full bg-[#0B0E14]/80 hover:bg-[#FF4655] text-slate-400 hover:text-white transition-colors border border-white/10 z-10"
+            className="absolute top-3 right-3 sm:top-4 sm:right-4 p-1.5 sm:p-2 rounded-full bg-[#0B0E14]/80 hover:bg-[#FF4655] text-slate-400 hover:text-white transition-colors border border-white/10 z-10"
             title="Close modal"
           >
-            <X className="w-5 h-5" />
+            <X className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
 
-          <div className="relative z-10 max-w-xl space-y-3">
+          <div className="relative z-10 max-w-xl space-y-1.5 sm:space-y-3">
             <div className="flex items-center gap-2">
               {agent.roleIconPath ? (
-                <div className="px-3 py-1 rounded-full bg-[#0B0E14]/90 border border-white/10 flex items-center gap-2 text-xs font-display font-medium text-slate-200">
-                  <img src={toAssetUrl(agent.roleIconPath)} alt="" className="w-4 h-4 object-contain shrink-0" />
+                <div className="px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full bg-[#0B0E14]/90 border border-white/10 flex items-center gap-1.5 text-[10px] sm:text-xs font-display font-medium text-slate-200">
+                  <img src={toAssetUrl(agent.roleIconPath)} alt="" className="w-3.5 h-3.5 sm:w-4 sm:h-4 object-contain shrink-0" />
                   <span className="whitespace-nowrap">{agent.role || 'Valorant Agent'}</span>
                 </div>
               ) : (
-                <div className="px-3 py-1 rounded-full bg-[#0B0E14]/90 border border-white/10 text-xs font-display font-medium text-slate-200 whitespace-nowrap">
+                <div className="px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full bg-[#0B0E14]/90 border border-white/10 text-[10px] sm:text-xs font-display font-medium text-slate-200 whitespace-nowrap">
                   <span>{agent.role || 'Valorant Agent'}</span>
                 </div>
               )}
 
               {agent.developerName && (
-                <span className="text-xs font-display text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/5 whitespace-nowrap">
+                <span className="text-[10px] sm:text-xs font-display text-slate-400 bg-white/5 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-full border border-white/5 whitespace-nowrap">
                   Codename: {agent.developerName}
                 </span>
               )}
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 sm:gap-4">
               {squareIcon && (
                 <img
                   src={toAssetUrl(squareIcon)}
                   alt=""
                   onClick={() => setPreviewImage({ src: squareIcon, title: `${agent.name} Square Icon` })}
-                  className="w-16 h-16 rounded-2xl border-2 border-[#FF4655] shadow-lg shadow-[#FF4655]/30 object-cover shrink-0 cursor-pointer hover:scale-105 transition-transform"
+                  className="w-10 h-10 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl border-2 border-[#FF4655] shadow-lg shadow-[#FF4655]/30 object-cover shrink-0 cursor-pointer hover:scale-105 transition-transform"
                   title="Click to view full preview"
                 />
               )}
               <div>
-                <h1 className="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight">
+                <h1 className="font-display font-extrabold text-xl sm:text-4xl text-white tracking-tight">
                   {agent.name}
                 </h1>
               </div>
@@ -185,18 +185,18 @@ export default function AgentDetailModal({ agent, onClose }) {
           </div>
         </div>
 
-        {/* Navigation Tabs */}
-        <div className="px-6 pt-4 bg-[#0F141C] border-b border-white/5 flex items-center justify-between shrink-0">
-          <div className="flex items-center gap-2 overflow-x-auto scrollbar-none">
+        {/* Navigation Tabs - Sticky top on modal viewport */}
+        <div className="sticky top-0 z-20 px-3 sm:px-6 pt-2 sm:pt-4 bg-[#0F141C] border-b border-white/5 flex items-center justify-between shrink-0 shadow-md">
+          <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto scrollbar-none py-1">
             <button
               onClick={() => setActiveTab('starterpack')}
-              className={`px-4 py-2.5 text-xs font-semibold border-b-2 transition-all flex items-center gap-2 whitespace-nowrap shrink-0 ${
+              className={`px-3 sm:px-4 py-2 sm:py-2.5 text-[11px] sm:text-xs font-semibold border-b-2 transition-all flex items-center gap-1.5 sm:gap-2 whitespace-nowrap shrink-0 ${
                 activeTab === 'starterpack'
-                  ? 'border-[#FF4655] text-white'
+                  ? 'border-[#FF4655] text-white font-bold'
                   : 'border-transparent text-slate-400 hover:text-slate-200'
               }`}
             >
-              <Image className="w-4 h-4 text-[#00F0FF] shrink-0" />
+              <Image className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#00F0FF] shrink-0" />
               <span className="whitespace-nowrap">1. Media Packaging (Starter Pack)</span>
             </button>
 

@@ -1,13 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Code, Shield, Crosshair, Box, Layers, Copy, Check, MapPin, Gamepad2 } from 'lucide-react';
+import { Search, Code, Shield, Crosshair, Box, Layers, Copy, Check, MapPin, Gamepad2, Loader2 } from 'lucide-react';
 import { toAssetUrl } from '../utils/urlHelper';
 
 export default function CodenamesSection({ registry }) {
   const [codenamesData, setCodenamesData] = useState({ agents: [], weapons: [], maps: [], bundles: [], gameModes: [], skins: [] });
   const [loading, setLoading] = useState(true);
+  const [isSubTabLoading, setIsSubTabLoading] = useState(false);
   const [activeSubTab, setActiveSubTab] = useState('agents'); // 'agents', 'weapons', 'maps', 'bundles', 'gamemodes', 'skins'
   const [searchQuery, setSearchQuery] = useState('');
   const [copiedCode, setCopiedCode] = useState(null);
+
+  const handleSelectSubTab = (tab) => {
+    if (tab === activeSubTab) return;
+    setIsSubTabLoading(true);
+    setActiveSubTab(tab);
+    setTimeout(() => setIsSubTabLoading(false), 200);
+  };
 
   useEffect(() => {
     fetch(toAssetUrl('codenames.json'))
@@ -133,7 +141,7 @@ export default function CodenamesSection({ registry }) {
         {/* Sub Tab Navigation Buttons */}
         <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-thin">
           <button
-            onClick={() => setActiveSubTab('agents')}
+            onClick={() => handleSelectSubTab('agents')}
             className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all shrink-0 ${
               activeSubTab === 'agents'
                 ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/20'
@@ -145,7 +153,7 @@ export default function CodenamesSection({ registry }) {
           </button>
 
           <button
-            onClick={() => setActiveSubTab('maps')}
+            onClick={() => handleSelectSubTab('maps')}
             className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all shrink-0 ${
               activeSubTab === 'maps'
                 ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/20'
@@ -157,7 +165,7 @@ export default function CodenamesSection({ registry }) {
           </button>
 
           <button
-            onClick={() => setActiveSubTab('gamemodes')}
+            onClick={() => handleSelectSubTab('gamemodes')}
             className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all shrink-0 ${
               activeSubTab === 'gamemodes'
                 ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/20'
@@ -169,7 +177,7 @@ export default function CodenamesSection({ registry }) {
           </button>
 
           <button
-            onClick={() => setActiveSubTab('bundles')}
+            onClick={() => handleSelectSubTab('bundles')}
             className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all shrink-0 ${
               activeSubTab === 'bundles'
                 ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/20'
@@ -181,7 +189,7 @@ export default function CodenamesSection({ registry }) {
           </button>
 
           <button
-            onClick={() => setActiveSubTab('weapons')}
+            onClick={() => handleSelectSubTab('weapons')}
             className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all shrink-0 ${
               activeSubTab === 'weapons'
                 ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/20'
@@ -193,7 +201,7 @@ export default function CodenamesSection({ registry }) {
           </button>
 
           <button
-            onClick={() => setActiveSubTab('skins')}
+            onClick={() => handleSelectSubTab('skins')}
             className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all shrink-0 ${
               activeSubTab === 'skins'
                 ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/20'
@@ -207,8 +215,11 @@ export default function CodenamesSection({ registry }) {
       </div>
 
       {/* Main Grid View */}
-      {loading ? (
-        <div className="py-16 text-center text-xs text-slate-400">Loading Valorant Codenames Index...</div>
+      {loading || isSubTabLoading ? (
+        <div className="py-20 bg-[#131722] rounded-3xl border border-white/5 flex flex-col items-center justify-center gap-3 text-slate-400 font-display text-xs">
+          <Loader2 className="w-8 h-8 text-[#FF4655] animate-spin" />
+          <span>Loading codenames data...</span>
+        </div>
       ) : (
         <>
           {/* 1. AGENTS TAB */}

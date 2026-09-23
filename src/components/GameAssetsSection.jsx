@@ -1,8 +1,8 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   Crosshair, Download, Image, Shield, Layers, Award, Box, Sparkles, 
   Copy, Check, Eye, Film, FileImage, MapPin, Search, ChevronDown, 
-  ChevronRight, Menu, X, Filter, FolderTree, Compass, Tag, UserCheck, Users
+  ChevronRight, Menu, X, Filter, FolderTree, Compass, Tag, UserCheck, Users, Loader2
 } from 'lucide-react';
 import ImagePreviewModal from './ImagePreviewModal';
 import { toAssetUrl, getRealBundleDisplayName, getRealBundleCodename } from '../utils/urlHelper';
@@ -10,6 +10,15 @@ import { toAssetUrl, getRealBundleDisplayName, getRealBundleCodename } from '../
 export default function GameAssetsSection({ registry }) {
   // Main Sub-Tab selection
   const [activeSubTab, setActiveSubTab] = useState('agentWallpapers'); 
+  const [isAssetCategoryLoading, setIsAssetCategoryLoading] = useState(false);
+
+  const changeSubTab = (newTab) => {
+    if (newTab === activeSubTab) return;
+    setIsAssetCategoryLoading(true);
+    setActiveSubTab(newTab);
+    setIsMobileDrawerOpen(false);
+    setTimeout(() => setIsAssetCategoryLoading(false), 200);
+  };
   // Sub-category selectors
   const [selectedAgentWallpaperCat, setSelectedAgentWallpaperCat] = useState('All');
   const [selectedAgentPortraitCat, setSelectedAgentPortraitCat] = useState('All');
@@ -954,8 +963,16 @@ export default function GameAssetsSection({ registry }) {
             </div>
           </div>
 
-          {/* 1. AGENT WALLPAPERS TAB CONTENT */}
-          {activeSubTab === 'agentWallpapers' && (
+          {/* MAIN CONTENT DISPLAY VIEWS */}
+          {isAssetCategoryLoading ? (
+            <div className="py-20 bg-[#131722] rounded-3xl border border-white/5 flex flex-col items-center justify-center gap-3 text-slate-400 font-display text-xs">
+              <Loader2 className="w-8 h-8 text-[#FF4655] animate-spin" />
+              <span>Loading asset category...</span>
+            </div>
+          ) : (
+            <>
+              {/* 1. AGENT WALLPAPERS TAB CONTENT */}
+              {activeSubTab === 'agentWallpapers' && (
             <div className="space-y-6">
               {agentWallpaperAgents.map(agName => {
                 if (selectedAgentWallpaperCat !== 'All' && selectedAgentWallpaperCat !== agName) return null;
@@ -1520,6 +1537,9 @@ export default function GameAssetsSection({ registry }) {
                 </div>
               ))}
             </div>
+          )}
+
+            </>
           )}
 
         </main>
