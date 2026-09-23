@@ -1,3 +1,4 @@
+=== AGENTS ===
 Astra - Rift
 Breach - Breach
 Brimstone - Sarge
@@ -28,3 +29,21 @@ Vyse - Nox
 Waylay - Terra
 Yoru - Stealth
 
+=== GAME MODES ===
+All Random One Site - AROS
+Basic Training - NPEV2
+Bot Match - ExamplePlayerTestBot
+Deathmatch - Deathmatch
+Escalation - GunGame
+Knockout - Dodgeball
+Onboarding - NewPlayerExperience
+Replication - OneForAll
+Retake - FortCollins
+Skirmish - Skirmish
+Skirmish: Ascension - SkirmishAscension
+Snowball Fight - SnowballFight
+Spike Rush - QuickBomb
+Standard - Bomb
+Swiftplay - SwiftPlay
+Team Deathmatch - HURM
+The Range - ShootingRange
