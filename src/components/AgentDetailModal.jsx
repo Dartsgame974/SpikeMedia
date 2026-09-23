@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Download, Disc, Image, Volume2, Copy, Check, Eye, Search, Filter, Sparkles, Music } from 'lucide-react';
+import { X, Download, Disc, Image, Volume2, Copy, Check, Eye, Search, Filter, Sparkles, Music, Layers } from 'lucide-react';
 import AudioPlayerSlim from './AudioPlayerSlim';
 import ImagePreviewModal from './ImagePreviewModal';
 import { toAssetUrl } from '../utils/urlHelper';
@@ -9,12 +9,19 @@ export default function AgentDetailModal({ agent, onClose }) {
   const [previewImage, setPreviewImage] = useState(null);
   const [copiedPath, setCopiedPath] = useState(null);
 
+  // Gauntlet Chromas state
+  const [selectedChromaColor, setSelectedChromaColor] = useState('Blue');
+
   // SFX Tab filters
   const [sfxCategory, setSfxCategory] = useState('All');
   const [sfxSearch, setSfxSearch] = useState('');
   const [sfxTagFilter, setSfxTagFilter] = useState('');
 
   if (!agent) return null;
+
+  const gauntletChromas = agent.assets?.gauntletChromas || {};
+  const hasGauntletChromas = Object.keys(gauntletChromas).length > 0 && Object.values(gauntletChromas).some(c => (c.abilityDraftPortraits?.length > 0 || c.minimapPortraits?.length > 0 || c.killfeedIcons?.length > 0));
+  const hypePreview = agent.assets?.hypePreview;
 
   const bannerPortrait = agent.assets?.fullPortrait || agent.assets?.bustPortrait;
   const bustPortrait = agent.assets?.bustPortrait || agent.assets?.fullPortrait;
@@ -208,6 +215,23 @@ export default function AgentDetailModal({ agent, onClose }) {
               <Volume2 className="w-4 h-4 text-[#00F0FF] shrink-0" />
               <span className="whitespace-nowrap">3. Agent SFX Library</span>
             </button>
+
+            {hasGauntletChromas && (
+              <button
+                onClick={() => setActiveTab('gauntlet')}
+                className={`px-4 py-2.5 text-xs font-semibold border-b-2 transition-all flex items-center gap-2 whitespace-nowrap shrink-0 ${
+                  activeTab === 'gauntlet'
+                    ? 'border-[#FF4655] text-white'
+                    : 'border-transparent text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                <Layers className="w-4 h-4 text-purple-400 shrink-0" />
+                <span className="whitespace-nowrap">4. Gauntlet Mode Chromas</span>
+                <span className="px-1.5 py-0.5 rounded-full text-[10px] bg-purple-500/20 text-purple-300 border border-purple-500/30 font-bold">
+                  8 Colors
+                </span>
+              </button>
+            )}
           </div>
         </div>
 
@@ -281,6 +305,40 @@ export default function AgentDetailModal({ agent, onClose }) {
                           <button
                             onClick={(e) => handleDownloadAsset(fullPortrait, `${agent.name}_full_portrait.png`, e)}
                             className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
+                          >
+                            <Download className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {hypePreview && (
+                    <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-purple-500/40 transition-all">
+                      <div
+                        onClick={() => setPreviewImage({ src: hypePreview, title: `${agent.name} Hype Master Icon` })}
+                        className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                      >
+                        <img src={toAssetUrl(hypePreview)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
+                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                          <Eye className="w-6 h-6 text-white" />
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between text-xs pt-1">
+                        <span className="font-medium text-slate-300 whitespace-nowrap">Hype Master Icon</span>
+                        <div className="flex items-center gap-1 shrink-0">
+                          <button
+                            onClick={(e) => handleCopyImageAsset(hypePreview, e)}
+                            className={`p-1.5 rounded transition-colors ${
+                              copiedPath === hypePreview ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                            }`}
+                            title="Copy image to clipboard"
+                          >
+                            {copiedPath === hypePreview ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                          </button>
+                          <button
+                            onClick={(e) => handleDownloadAsset(hypePreview, `${agent.name}_hype_master_icon.png`, e)}
+                            className="p-1.5 rounded bg-white/5 hover:bg-purple-600 text-slate-300 hover:text-white transition-colors"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
@@ -831,6 +889,200 @@ export default function AgentDetailModal({ agent, onClose }) {
               </div>
             );
           })()}
+
+          {activeTab === 'gauntlet' && (
+            <div className="space-y-6">
+              <div className="bg-[#0B0E14] p-5 rounded-2xl border border-white/10 space-y-4 shadow-xl">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-white/5 pb-3">
+                  <div>
+                    <h3 className="font-display text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+                      <Layers className="w-4 h-4 text-purple-400" />
+                      <span>{agent.name} Gauntlet Mode Chromas ({selectedChromaColor})</span>
+                    </h3>
+                    <p className="text-xs text-slate-400 mt-1">
+                      Explore all 8 color variants of Ability Draft portraits, minimap icons, and killfeed badges for {agent.name}.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Color Selector Pills */}
+                <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-thin scrollbar-thumb-white/10">
+                  {[
+                    { name: 'Blue', bg: 'bg-blue-600' },
+                    { name: 'Cyan', bg: 'bg-cyan-500' },
+                    { name: 'Green', bg: 'bg-emerald-500' },
+                    { name: 'Orange', bg: 'bg-orange-500' },
+                    { name: 'Pink', bg: 'bg-pink-500' },
+                    { name: 'Purple', bg: 'bg-purple-600' },
+                    { name: 'Red', bg: 'bg-red-600' },
+                    { name: 'Yellow', bg: 'bg-yellow-500' }
+                  ].map(col => {
+                    const isSel = selectedChromaColor === col.name;
+                    return (
+                      <button
+                        key={col.name}
+                        onClick={() => setSelectedChromaColor(col.name)}
+                        className={`px-3.5 py-2 rounded-xl text-xs font-display font-bold transition-all flex items-center gap-2 shrink-0 ${
+                          isSel
+                            ? `${col.bg} text-white shadow-lg border-2 border-white scale-105`
+                            : 'bg-[#131722] text-slate-400 hover:text-white border border-white/5'
+                        }`}
+                      >
+                        <span className={`w-3 h-3 rounded-full ${col.bg} border border-white/30`} />
+                        <span>{col.name}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Selected Color Assets Grid */}
+              {(() => {
+                const activeChroma = gauntletChromas[selectedChromaColor] || { abilityDraftPortraits: [], minimapPortraits: [], killfeedIcons: [] };
+                return (
+                  <div className="space-y-6">
+                    {activeChroma.abilityDraftPortraits.length > 0 && (
+                      <div className="space-y-3">
+                        <h4 className="font-display text-xs font-bold text-slate-300 uppercase tracking-widest flex items-center gap-2">
+                          <Sparkles className="w-3.5 h-3.5 text-purple-400" />
+                          <span>Ability Draft Portraits ({selectedChromaColor})</span>
+                        </h4>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                          {activeChroma.abilityDraftPortraits.map((item, idx) => (
+                            <div key={idx} className="bg-[#0B0E14] p-4 rounded-2xl border border-white/10 flex flex-col justify-between space-y-3 group hover:border-purple-500/50 transition-all shadow-xl">
+                              <div
+                                onClick={() => setPreviewImage({ src: item.path, title: `${agent.name} ${selectedChromaColor} AbilityDraft Portrait (${item.state})` })}
+                                className="h-52 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                              >
+                                <img src={toAssetUrl(item.path)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+                                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                  <Eye className="w-7 h-7 text-white" />
+                                </div>
+                              </div>
+                              <div className="flex items-center justify-between text-xs pt-1">
+                                <div className="flex items-center gap-2">
+                                  <span className="font-bold text-white">State: {item.state}</span>
+                                  <span className="text-[10px] font-mono text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded border border-purple-500/20">{selectedChromaColor}</span>
+                                </div>
+                                <div className="flex items-center gap-1.5 shrink-0">
+                                  <button
+                                    onClick={(e) => handleCopyImageAsset(item.path, e)}
+                                    className={`p-1.5 rounded-lg transition-colors ${
+                                      copiedPath === item.path ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                                    }`}
+                                    title="Copy image to clipboard"
+                                  >
+                                    {copiedPath === item.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                                  </button>
+                                  <button
+                                    onClick={(e) => handleDownloadAsset(item.path, item.filename, e)}
+                                    className="p-1.5 rounded-lg bg-white/5 hover:bg-purple-600 text-slate-300 hover:text-white transition-colors"
+                                    title="Download portrait"
+                                  >
+                                    <Download className="w-3.5 h-3.5" />
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {activeChroma.minimapPortraits.length > 0 && (
+                      <div className="space-y-3">
+                        <h4 className="font-display text-xs font-bold text-slate-300 uppercase tracking-widest flex items-center gap-2">
+                          <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
+                          <span>Minimap Round Portraits ({selectedChromaColor})</span>
+                        </h4>
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                          {activeChroma.minimapPortraits.map((item, idx) => (
+                            <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/10 flex flex-col justify-between space-y-3 group hover:border-cyan-500/50 transition-all shadow-xl">
+                              <div
+                                onClick={() => setPreviewImage({ src: item.path, title: `${agent.name} ${selectedChromaColor} Minimap Portrait (${item.state})` })}
+                                className="h-36 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                              >
+                                <img src={toAssetUrl(item.path)} alt="" className="w-24 h-24 object-contain rounded-full border-2 border-white/10 group-hover:scale-105 transition-transform" />
+                                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                  <Eye className="w-6 h-6 text-white" />
+                                </div>
+                              </div>
+                              <div className="flex items-center justify-between text-xs pt-1">
+                                <span className="font-bold text-white text-[11px]">{item.state}</span>
+                                <div className="flex items-center gap-1 shrink-0">
+                                  <button
+                                    onClick={(e) => handleCopyImageAsset(item.path, e)}
+                                    className={`p-1 rounded transition-colors ${
+                                      copiedPath === item.path ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                                    }`}
+                                    title="Copy image to clipboard"
+                                  >
+                                    {copiedPath === item.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                                  </button>
+                                  <button
+                                    onClick={(e) => handleDownloadAsset(item.path, item.filename, e)}
+                                    className="p-1 rounded bg-white/5 hover:bg-cyan-500 text-slate-300 hover:text-white transition-colors"
+                                    title="Download minimap icon"
+                                  >
+                                    <Download className="w-3.5 h-3.5" />
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {activeChroma.killfeedIcons.length > 0 && (
+                      <div className="space-y-3">
+                        <h4 className="font-display text-xs font-bold text-slate-300 uppercase tracking-widest flex items-center gap-2">
+                          <Sparkles className="w-3.5 h-3.5 text-red-400" />
+                          <span>Killfeed Icons ({selectedChromaColor})</span>
+                        </h4>
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                          {activeChroma.killfeedIcons.map((item, idx) => (
+                            <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/10 flex flex-col justify-between space-y-3 group hover:border-red-500/50 transition-all shadow-xl">
+                              <div
+                                onClick={() => setPreviewImage({ src: item.path, title: `${agent.name} ${selectedChromaColor} Killfeed Icon (${item.state})` })}
+                                className="h-28 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                              >
+                                <img src={toAssetUrl(item.path)} alt="" className="h-10 object-contain group-hover:scale-105 transition-transform" />
+                                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                  <Eye className="w-6 h-6 text-white" />
+                                </div>
+                              </div>
+                              <div className="flex items-center justify-between text-xs pt-1">
+                                <span className="font-bold text-white text-[11px]">{item.state}</span>
+                                <div className="flex items-center gap-1 shrink-0">
+                                  <button
+                                    onClick={(e) => handleCopyImageAsset(item.path, e)}
+                                    className={`p-1 rounded transition-colors ${
+                                      copiedPath === item.path ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                                    }`}
+                                    title="Copy image to clipboard"
+                                  >
+                                    {copiedPath === item.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                                  </button>
+                                  <button
+                                    onClick={(e) => handleDownloadAsset(item.path, item.filename, e)}
+                                    className="p-1 rounded bg-white/5 hover:bg-red-500 text-slate-300 hover:text-white transition-colors"
+                                    title="Download killfeed icon"
+                                  >
+                                    <Download className="w-3.5 h-3.5" />
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
+            </div>
+          )}
         </div>
 
       </div>

@@ -248,9 +248,58 @@ if (fs.existsSync(agentsDir)) {
       wallpaper: null,
       killfeedIcon: null,
       minimapIcon: null,
+      hypePreview: null,
+      gauntletChromas: {},
       abilityIcons: [],
       posters: []
     };
+
+    // Hype Master Icon Preview
+    const masterIconsDir = path.join(VALORANTEK_DIR, 'Icons', 'Master Icons');
+    if (fs.existsSync(masterIconsDir)) {
+      const mFiles = fs.readdirSync(masterIconsDir);
+      const targetName = folderName.toLowerCase();
+      for (const mf of mFiles) {
+        if (mf.toLowerCase().includes(`hype_${targetName}.png`)) {
+          assets.hypePreview = getRelativePath(path.join(masterIconsDir, mf));
+          break;
+        }
+      }
+    }
+
+    // Gauntlet Mode Chromas (e.g. KAYO)
+    const gauntletFolderPath = path.join(folderPath, 'gauntlet');
+    if (fs.existsSync(gauntletFolderPath)) {
+      const gFiles = fs.readdirSync(gauntletFolderPath);
+      const colors = ['Blue', 'Cyan', 'Green', 'Orange', 'Pink', 'Purple', 'Red', 'Yellow'];
+      for (const color of colors) {
+        assets.gauntletChromas[color] = {
+          colorName: color,
+          abilityDraftPortraits: [],
+          minimapPortraits: [],
+          killfeedIcons: []
+        };
+      }
+
+      for (const gf of gFiles) {
+        if (!gf.endsWith('.png')) continue;
+        const gfPath = path.join(gauntletFolderPath, gf);
+        const rel = getRelativePath(gfPath);
+        for (const color of colors) {
+          if (gf.includes(`_${color}-`)) {
+            const state = gf.endsWith('-O.png') ? 'Active (O)' : (gf.endsWith('-X.png') ? 'Knocked (X)' : 'Standard');
+            const item = { filename: gf, path: rel, state };
+            if (gf.includes('AbilityDraft_Portrait')) {
+              assets.gauntletChromas[color].abilityDraftPortraits.push(item);
+            } else if (gf.includes('MinimapPortrait')) {
+              assets.gauntletChromas[color].minimapPortraits.push(item);
+            } else if (gf.includes('Killfeed')) {
+              assets.gauntletChromas[color].killfeedIcons.push(item);
+            }
+          }
+        }
+      }
+    }
 
     const filesInFolder = fs.readdirSync(folderPath);
     for (const file of filesInFolder) {
@@ -642,6 +691,15 @@ if (fs.existsSync(srcRegistryFile)) {
 const distRegistryPath = path.join(__dirname, 'dist', 'registry.json');
 if (fs.existsSync(path.dirname(distRegistryPath))) {
   fs.writeFileSync(distRegistryPath, JSON.stringify(registry, null, 2));
+}
+
+const ghPagesPublicReg = path.join(__dirname, 'SpikeMedia_GitHubPages', 'public', 'registry.json');
+const ghPagesSrcReg = path.join(__dirname, 'SpikeMedia_GitHubPages', 'src', 'data', 'registry.json');
+if (fs.existsSync(path.dirname(ghPagesPublicReg))) {
+  fs.writeFileSync(ghPagesPublicReg, JSON.stringify(registry, null, 2));
+}
+if (fs.existsSync(path.dirname(ghPagesSrcReg))) {
+  fs.writeFileSync(ghPagesSrcReg, JSON.stringify(registry, null, 2));
 }
 
 console.log(`[GitHub Pages] Registry generated successfully with ${agentsList.length} agents, ${Object.keys(uiCategories).length} UI categories, and ${mapsData.length} maps at ${OUTPUT_FILE}`);

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17",
+  "generatedAt": "2026-09-19",
   "agents": [
     {
       "developerName": "Rift",
@@ -69,7 +69,7 @@
       "displayName": "Harbor",
       "role": "Controller",
       "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-      "description": "Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him."
+      "description": "Hailing from India\u2019s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him."
     },
     {
       "developerName": "Sequoia",
@@ -167,7 +167,7 @@
       "displayName": "Tejo",
       "role": "Initiator",
       "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-      "description": "A veteran intelligence consultant from Colombia, Tejo’s ballistic guidance system pressures the enemy to relinquish their ground - or their lives. His targeted strikes keep opponents off balance and under his heel."
+      "description": "A veteran intelligence consultant from Colombia, Tejo\u2019s ballistic guidance system pressures the enemy to relinquish their ground - or their lives. His targeted strikes keep opponents off balance and under his heel."
     },
     {
       "developerName": "Pine",
@@ -1540,17 +1540,17 @@
     },
     {
       "codename": "VCTCaps25_KRUThemeBundle",
-      "displayName": "VCT x KRÜ",
+      "displayName": "VCT x KR\u00dc",
       "displayIcon": "https://media.valorant-api.com/bundles/c3b86226-4710-67b9-5578-d6907aa35da2/displayicon.png"
     },
     {
       "codename": "VCTCaps26_KRUThemeBundle",
-      "displayName": "VCT x KRÜ",
+      "displayName": "VCT x KR\u00dc",
       "displayIcon": "https://media.valorant-api.com/bundles/2286899f-4d35-b342-bbe9-b1b1a016e807/displayicon.png"
     },
     {
       "codename": "KRUThemeBundle",
-      "displayName": "VCT x KRÜ",
+      "displayName": "VCT x KR\u00dc",
       "displayIcon": "https://media.valorant-api.com/bundles/9374455b-42eb-279a-ac16-78ab89a4a259/displayicon.png"
     },
     {
@@ -1940,13 +1940,134 @@
     },
     {
       "codename": "HypedragonThemeBundle",
-      "displayName": "XERØFANG",
+      "displayName": "XER\u00d8FANG",
       "displayIcon": "https://media.valorant-api.com/bundles/8b97b3f5-4555-6818-5ed0-18b1fb4e1336/displayicon.png"
     },
     {
       "codename": "Alien",
       "displayName": "Xenohunter",
       "displayIcon": "https://media.valorant-api.com/bundles/3941ad01-4e3b-46e0-ba3a-ab94f7c67f98/displayicon.png"
+    }
+  ],
+  "gameModes": [
+    {
+      "developerName": "AROS",
+      "displayName": "All Random One Site",
+      "duration": "10-15 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/1cd8901f-47af-49cb-d758-e2afd0eb2a39/displayicon.png",
+      "description": "LIMITED TIME: Plant/defuse mode. One site, random agents, free loadouts, way more ultimates. First to 5 wins."
+    },
+    {
+      "developerName": "NPEV2",
+      "displayName": "Basic Training",
+      "duration": null,
+      "displayIcon": "https://media.valorant-api.com/gamemodes/2b470a47-40e0-ad02-73b4-7f8585fa108c/listviewicontall.png",
+      "description": "Replay the tutorial!"
+    },
+    {
+      "developerName": "ExamplePlayerTestBot",
+      "displayName": "Bot Match",
+      "duration": null,
+      "displayIcon": "https://media.valorant-api.com/gamemodes/d2d0f229-4514-517a-b10a-aaa0ef0d4a67/displayicon.png",
+      "description": ""
+    },
+    {
+      "developerName": "Deathmatch",
+      "displayName": "Deathmatch",
+      "duration": "7-9 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/a8790ec5-4237-f2f0-e93b-08a8e89865b2/displayicon.png",
+      "description": "Elimination mode. All gunplay, respawn instantly, no abilities, no economy. First to 40 kills wins."
+    },
+    {
+      "developerName": "GunGame",
+      "displayName": "Escalation",
+      "duration": "7-9 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/a4ed6518-4741-6dcb-35bd-f884aecdc859/displayicon.png",
+      "description": "Elimination mode. Team arsenal, weapon progression, eliminate to advance, race to finish. First to complete wins."
+    },
+    {
+      "developerName": "Dodgeball",
+      "displayName": "Knockout",
+      "duration": "10-15 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/1a4a3fd5-4966-62cb-7fe4-15b0317f5c80/displayicon.png",
+      "description": "LIMITED TIME: Elimination mode. Round-based, takedowns revive teammates, push the line, fight together. First to 4 rounds wins."
+    },
+    {
+      "developerName": "NewPlayerExperience",
+      "displayName": "Onboarding",
+      "duration": null,
+      "displayIcon": null,
+      "description": ""
+    },
+    {
+      "developerName": "OneForAll",
+      "displayName": "Replication",
+      "duration": "10-15 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/4744698a-4513-dc96-9c22-a9aa437e4a58/displayicon.png",
+      "description": "Same rules as unrated, but all players on the same team are the same agent. Set credits per round, first to 5 rounds wins."
+    },
+    {
+      "developerName": "FortCollins",
+      "displayName": "Retake",
+      "duration": "8-12 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/75b7b658-472c-0264-cbe6-049abf14f54b/displayicon.png",
+      "description": "LIMITED TIME: Defuse/Protect mode. Pre-planted spike, 3v3 teams, escalating loadouts, randomized ability selection. First to 5 wins."
+    },
+    {
+      "developerName": "Skirmish",
+      "displayName": "Skirmish",
+      "duration": "5-10 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/0e9805d8-4af6-5ffb-f467-55806a6bc484/displayicon.png",
+      "description": "Fast elimination battles on small-scale maps, customizable with cheats. First to 10 rounds wins."
+    },
+    {
+      "developerName": "SkirmishAscension",
+      "displayName": "Skirmish: Ascension",
+      "duration": "5-10 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/d08c45fe-4415-edcf-65a3-45885cc4349b/displayicon.png",
+      "description": "Fast elimination battles on small-scale maps, customizable with cheats. First to 10 rounds wins."
+    },
+    {
+      "developerName": "SnowballFight",
+      "displayName": "Snowball Fight",
+      "duration": "5-7 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/57038d6d-49b1-3a74-c5ef-3395d9f23a97/displayicon.png",
+      "description": "Launch snowballs, open presents, and ice skate in this fast festive 5v5 team deathmatch. No abilities, first to 50 kills wins."
+    },
+    {
+      "developerName": "QuickBomb",
+      "displayName": "Spike Rush",
+      "duration": "8-12 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/e921d1e6-416b-c31f-1291-74930c330b7b/displayicon.png",
+      "description": "Plant/defuse mode. Random weapons, powerup orbs, five spikes, shorter rounds. First to 4 wins."
+    },
+    {
+      "developerName": "Bomb",
+      "displayName": "Standard",
+      "duration": "30-40 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/96bd3920-4f36-d026-2b28-c683eb0bcac5/displayicon.png",
+      "description": "Plant/defuse mode. Unranked matches, full map pool, attack and defend, classic gameplay. First to 13 wins."
+    },
+    {
+      "developerName": "SwiftPlay",
+      "displayName": "Swiftplay",
+      "duration": "10-15 MIN",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/5d0f264b-4ebe-cc63-c147-809e1374484b/displayicon.png",
+      "description": "Plant/defuse mode. Quicker matches, same core rules, same objectives, accelerated economy. First to 5 wins."
+    },
+    {
+      "developerName": "HURM",
+      "displayName": "Team Deathmatch",
+      "duration": "8-10 MINS",
+      "displayIcon": "https://media.valorant-api.com/gamemodes/e086db66-47fd-e791-ca81-06a645ac7661/displayicon.png",
+      "description": "Elimination mode. Two teams, unique maps, recharging abilities, constant action. First to 100 kills wins."
+    },
+    {
+      "developerName": "ShootingRange",
+      "displayName": "The Range",
+      "duration": null,
+      "displayIcon": "https://media.valorant-api.com/gamemodes/e2dc3878-4fe5-d132-28f8-3d8c259efcc6/displayicon.png",
+      "description": "Warm up with all weapons and agents unlocked!"
     }
   ],
   "skins": [
@@ -2726,8 +2847,8 @@
     },
     {
       "codename": "Hypedragon",
-      "displayName": "XERØFANG Vandal ",
-      "theme": "XERØFANG ",
+      "displayName": "XER\u00d8FANG Vandal ",
+      "theme": "XER\u00d8FANG ",
       "displayIcon": "https://media.valorant-api.com/weaponskins/b6f79657-4a6d-e2ae-3d64-4fbcde2958a4/displayicon.png"
     },
     {
@@ -2849,190 +2970,6 @@
       "displayName": "Crimsonbeast Vandal",
       "theme": "Crimsonbeast",
       "displayIcon": "https://media.valorant-api.com/weaponskins/8b688de6-42d3-9430-8f38-32b0b3d1c2c6/displayicon.png"
-    }
-  ],
-  "maps": [
-    {
-      "developerName": "Ascent",
-      "displayName": "Ascent",
-      "displayIcon": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Ascent/Ascent_PrimaryAsset"
-    },
-    {
-      "developerName": "Bonsai",
-      "displayName": "Split",
-      "displayIcon": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Bonsai/Bonsai_PrimaryAsset"
-    },
-    {
-      "developerName": "Canyon",
-      "displayName": "Fracture",
-      "displayIcon": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Canyon/Canyon_PrimaryAsset"
-    },
-    {
-      "developerName": "Duality",
-      "displayName": "Bind",
-      "displayIcon": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Duality/Duality_PrimaryAsset"
-    },
-    {
-      "developerName": "Duel",
-      "displayName": "Skirmish A",
-      "displayIcon": "https://media.valorant-api.com/maps/a9009649-421f-d5d5-f80c-0cbe02c125bb/listviewicon.png",
-      "splash": "https://media.valorant-api.com/maps/a9009649-421f-d5d5-f80c-0cbe02c125bb/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Duel/Duel_1/Skirmish_1_PrimaryAsset"
-    },
-    {
-      "developerName": "Duel",
-      "displayName": "Skirmish B",
-      "displayIcon": "https://media.valorant-api.com/maps/a38a3f9a-4042-844c-8970-a3ac2f7ce93d/listviewicon.png",
-      "splash": "https://media.valorant-api.com/maps/a38a3f9a-4042-844c-8970-a3ac2f7ce93d/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Duel/Duel_2/Skirmish_2_PrimaryAsset"
-    },
-    {
-      "developerName": "Duel",
-      "displayName": "Skirmish C",
-      "displayIcon": "https://media.valorant-api.com/maps/a264de0f-4a04-9c78-c97a-a6b192ce6e86/listviewicon.png",
-      "splash": "https://media.valorant-api.com/maps/a264de0f-4a04-9c78-c97a-a6b192ce6e86/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Duel/Duel_3/Skirmish_3_PrimaryAsset"
-    },
-    {
-      "developerName": "Duel",
-      "displayName": "Skirmish E",
-      "displayIcon": "https://media.valorant-api.com/maps/4490f1d6-4818-bf5f-9b3a-9c9a8dbb52ed/listviewicon.png",
-      "splash": "https://media.valorant-api.com/maps/4490f1d6-4818-bf5f-9b3a-9c9a8dbb52ed/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Duel/Duel_Heady/Duel_Heady_PrimaryAsset"
-    },
-    {
-      "developerName": "Duel",
-      "displayName": "Skirmish D",
-      "displayIcon": "https://media.valorant-api.com/maps/1c7555fc-4bc6-3b98-9674-789d47ef6c50/listviewicon.png",
-      "splash": "https://media.valorant-api.com/maps/1c7555fc-4bc6-3b98-9674-789d47ef6c50/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Duel/Duel_platform/Skirmish_D_PrimaryAsset"
-    },
-    {
-      "developerName": "FoxTrot",
-      "displayName": "Breeze",
-      "displayIcon": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/FoxTrot/Foxtrot_PrimaryAsset"
-    },
-    {
-      "developerName": "HURM_HURM_Alley",
-      "displayName": "District",
-      "displayIcon": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/690b3ed2-4dff-945b-8223-6da834e30d24/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/HURM/HURM_Alley/HURM_Alley_PrimaryAsset"
-    },
-    {
-      "developerName": "HURM_HURM_Bowl",
-      "displayName": "Kasbah",
-      "displayIcon": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/12452a9d-48c3-0b02-e7eb-0381c3520404/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/HURM/HURM_Bowl/HURM_Bowl_PrimaryAsset"
-    },
-    {
-      "developerName": "HURM_HURM_Helix",
-      "displayName": "Drift",
-      "displayIcon": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/2c09d728-42d5-30d8-43dc-96a05cc7ee9d/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/HURM/HURM_Helix/HURM_Helix_PrimaryAsset"
-    },
-    {
-      "developerName": "HURM_HURM_HighTide",
-      "displayName": "Glitch",
-      "displayIcon": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/d6336a5a-428f-c591-98db-c8a291159134/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/HURM/HURM_HighTide/HURM_HighTide_PrimaryAsset"
-    },
-    {
-      "developerName": "HURM_HURM_Yard",
-      "displayName": "Piazza",
-      "displayIcon": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/HURM/HURM_Yard/HURM_Yard_PrimaryAsset"
-    },
-    {
-      "developerName": "Infinity",
-      "displayName": "Abyss",
-      "displayIcon": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Infinity/Infinity_PrimaryAsset"
-    },
-    {
-      "developerName": "Jam",
-      "displayName": "Lotus",
-      "displayIcon": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Jam/Jam_PrimaryAsset"
-    },
-    {
-      "developerName": "Juliett",
-      "displayName": "Sunset",
-      "displayIcon": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Juliett/Juliett_PrimaryAsset"
-    },
-    {
-      "developerName": "NPEV2",
-      "displayName": "Basic Training",
-      "displayIcon": "https://media.valorant-api.com/maps/1f10dab3-4294-3827-fa35-c2aa00213cf3/listviewicon.png",
-      "splash": "https://media.valorant-api.com/maps/1f10dab3-4294-3827-fa35-c2aa00213cf3/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/NPEV2/NPEV2_PrimaryAsset"
-    },
-    {
-      "developerName": "Pitt",
-      "displayName": "Pearl",
-      "displayIcon": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Pitt/Pitt_PrimaryAsset"
-    },
-    {
-      "developerName": "Plummet",
-      "displayName": "Summit",
-      "displayIcon": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/756da597-416b-c0f2-f47b-afbdf28670bc/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Plummet/Plummet_PrimaryAsset"
-    },
-    {
-      "developerName": "Port",
-      "displayName": "Icebox",
-      "displayIcon": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Port/Port_PrimaryAsset"
-    },
-    {
-      "developerName": "Poveglia",
-      "displayName": "The Range",
-      "displayIcon": "https://media.valorant-api.com/maps/ee613ee9-28b7-4beb-9666-08db13bb2244/listviewicon.png",
-      "splash": "https://media.valorant-api.com/maps/ee613ee9-28b7-4beb-9666-08db13bb2244/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Poveglia/Poveglia_PrimaryAsset"
-    },
-    {
-      "developerName": "PovegliaV2",
-      "displayName": "The Range",
-      "displayIcon": "https://media.valorant-api.com/maps/5914d1e0-40c4-cfdd-6b88-eba06347686c/listviewicon.png",
-      "splash": "https://media.valorant-api.com/maps/5914d1e0-40c4-cfdd-6b88-eba06347686c/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/PovegliaV2/PovegliaV2_PrimaryAsset"
-    },
-    {
-      "developerName": "Rook",
-      "displayName": "Corrode",
-      "displayIcon": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/1c18ab1f-420d-0d8b-71d0-77ad3c439115/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Rook/Rook_PrimaryAsset"
-    },
-    {
-      "developerName": "Triad",
-      "displayName": "Haven",
-      "displayIcon": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
-      "splash": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/splash.png",
-      "assetPath": "ShooterGame/Content/Maps/Triad/Triad_PrimaryAsset"
     }
   ]
 }
