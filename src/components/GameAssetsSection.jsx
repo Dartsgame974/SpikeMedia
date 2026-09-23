@@ -2,23 +2,29 @@ import React, { useState, useMemo } from 'react';
 import { 
   Crosshair, Download, Image, Shield, Layers, Award, Box, Sparkles, 
   Copy, Check, Eye, Film, FileImage, MapPin, Search, ChevronDown, 
-  ChevronRight, Menu, X, Filter, FolderTree, Compass, Tag
+  ChevronRight, Menu, X, Filter, FolderTree, Compass, Tag, UserCheck, Users
 } from 'lucide-react';
 import ImagePreviewModal from './ImagePreviewModal';
 import { toAssetUrl, getRealBundleDisplayName, getRealBundleCodename } from '../utils/urlHelper';
 
 export default function GameAssetsSection({ registry }) {
-  const [activeSubTab, setActiveSubTab] = useState('icons'); // 'icons', 'maps', 'weapons', 'logos', 'ranks', 'backgrounds', 'overlays', 'spritesheets', 'misc'
+  // Main Sub-Tab selection
+  const [activeSubTab, setActiveSubTab] = useState('agentWallpapers'); 
+  // Sub-category selectors
+  const [selectedAgentWallpaperCat, setSelectedAgentWallpaperCat] = useState('All');
+  const [selectedAgentPortraitCat, setSelectedAgentPortraitCat] = useState('All');
   const [selectedIconSubCat, setSelectedIconSubCat] = useState('All');
   const [selectedMapCat, setSelectedMapCat] = useState('All');
   const [selectedBgCat, setSelectedBgCat] = useState('All');
   const [selectedWeaponFolder, setSelectedWeaponFolder] = useState('All');
-  
+
   // Navigation & Search State
   const [searchSubCat, setSearchSubCat] = useState('');
   const [assetSearchQuery, setAssetSearchQuery] = useState('');
   const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
   const [expandedCategories, setExpandedCategories] = useState({
+    agentWallpapers: true,
+    agentPortraits: true,
     icons: true,
     maps: true,
     weapons: true,
@@ -33,13 +39,25 @@ export default function GameAssetsSection({ registry }) {
   const getLimit = (key, defaultLimit = 36) => visibleCounts[key] || defaultLimit;
   const handleShowMore = (key, step = 36) => setVisibleCounts(prev => ({ ...prev, [key]: (prev[key] || 36) + step }));
 
+  // Registry Assets Data
   const weapons = registry?.weapons || [];
   const mapsData = registry?.mapsData || [];
   const imageLibraries = registry?.imageLibraries || {};
+  
   const iconCategories = imageLibraries?.iconCategories || {};
   const iconCatNames = Object.keys(iconCategories);
+  
   const backgroundCategories = imageLibraries?.backgroundCategories || {};
   const bgCatNames = Object.keys(backgroundCategories);
+  
+  const agentWallpapersCategories = imageLibraries?.agentWallpapersCategories || {};
+  const agentWallpaperAgents = Object.keys(agentWallpapersCategories);
+  const allAgentWallpapers = imageLibraries?.allAgentWallpapers || [];
+
+  const agentFullPortraitsCategories = imageLibraries?.agentFullPortraitsCategories || {};
+  const agentPortraitAgents = Object.keys(agentFullPortraitsCategories);
+  const allAgentFullPortraits = imageLibraries?.allAgentFullPortraits || [];
+
   const spritesheets = imageLibraries?.spritesheets || [];
 
   const toggleCategoryExpand = (catKey, e) => {
@@ -103,7 +121,17 @@ export default function GameAssetsSection({ registry }) {
     }
   };
 
-  // Filtered Subcategories based on search query in sidebar
+  // Filtered lists for sidebar search query
+  const filteredAgentWallpaperAgents = useMemo(() => {
+    if (!searchSubCat.trim()) return agentWallpaperAgents;
+    return agentWallpaperAgents.filter(a => a.toLowerCase().includes(searchSubCat.toLowerCase()));
+  }, [agentWallpaperAgents, searchSubCat]);
+
+  const filteredAgentPortraitAgents = useMemo(() => {
+    if (!searchSubCat.trim()) return agentPortraitAgents;
+    return agentPortraitAgents.filter(a => a.toLowerCase().includes(searchSubCat.toLowerCase()));
+  }, [agentPortraitAgents, searchSubCat]);
+
   const filteredIconCatNames = useMemo(() => {
     if (!searchSubCat.trim()) return iconCatNames;
     return iconCatNames.filter(c => c.toLowerCase().includes(searchSubCat.toLowerCase()));
@@ -121,7 +149,7 @@ export default function GameAssetsSection({ registry }) {
 
   const mapCategories = ['All', 'Competitive / Unrated', 'Team Deathmatch (TDM)', 'Training & Special'];
 
-  // Left Sidebar Component Content
+  // Render Left Sidebar Navigation Tree
   const renderSidebarContent = () => (
     <div className="space-y-4">
       {/* Navigator Title */}
@@ -135,14 +163,14 @@ export default function GameAssetsSection({ registry }) {
         </span>
       </div>
 
-      {/* Subcategory Filter Input */}
+      {/* Live Search Input for Subcategories & Agents */}
       <div className="relative">
         <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
         <input
           type="text"
           value={searchSubCat}
           onChange={(e) => setSearchSubCat(e.target.value)}
-          placeholder="Filter categories..."
+          placeholder="Search agents or categories..."
           className="w-full pl-8 pr-3 py-1.5 rounded-xl bg-[#0B0E14] border border-white/10 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#00F0FF] transition-colors"
         />
         {searchSubCat && (
@@ -155,10 +183,154 @@ export default function GameAssetsSection({ registry }) {
         )}
       </div>
 
-      {/* Accordion Categories Tree */}
+      {/* Tree Accordion Options */}
       <div className="space-y-3 text-xs">
         
-        {/* 1. ICONS SECTION */}
+        {/* 1. AGENT WALLPAPERS SECTION */}
+        <div className="space-y-1 bg-[#0B0E14]/60 p-2.5 rounded-2xl border border-white/5">
+          <div
+            onClick={() => {
+              setActiveSubTab('agentWallpapers');
+              setIsMobileDrawerOpen(false);
+            }}
+            className={`w-full flex items-center justify-between p-2 rounded-xl cursor-pointer transition-all ${
+              activeSubTab === 'agentWallpapers'
+                ? 'bg-[#FF4655]/15 text-[#FF4655] font-bold border border-[#FF4655]/30'
+                : 'text-slate-300 hover:bg-white/5 hover:text-white'
+            }`}
+          >
+            <div className="flex items-center gap-2 min-w-0">
+              <Image className="w-4 h-4 text-[#FF4655] shrink-0" />
+              <span className="truncate font-display font-semibold">Agent Mastery Wallpapers</span>
+            </div>
+            <div className="flex items-center gap-1.5 shrink-0">
+              <span className="px-1.5 py-0.5 rounded text-[10px] bg-white/5 text-slate-400 font-mono">
+                {allAgentWallpapers.length}
+              </span>
+              <button
+                onClick={(e) => toggleCategoryExpand('agentWallpapers', e)}
+                className="p-1 hover:text-white text-slate-400 rounded"
+              >
+                {expandedCategories.agentWallpapers ? <ChevronDown className="w-3.5 h-3.5" /> : <ChevronRight className="w-3.5 h-3.5" />}
+              </button>
+            </div>
+          </div>
+
+          {expandedCategories.agentWallpapers && (
+            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-[#FF4655]/40 ml-2 mt-1">
+              <button
+                onClick={() => {
+                  setActiveSubTab('agentWallpapers');
+                  setSelectedAgentWallpaperCat('All');
+                  setIsMobileDrawerOpen(false);
+                }}
+                className={`w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between transition-colors text-xs ${
+                  activeSubTab === 'agentWallpapers' && selectedAgentWallpaperCat === 'All'
+                    ? 'bg-[#FF4655] text-white font-bold shadow-sm'
+                    : 'text-slate-400 hover:text-white hover:bg-white/5'
+                }`}
+              >
+                <span className="truncate">All Agent Wallpapers</span>
+                <span className="text-[10px] font-mono opacity-80">{allAgentWallpapers.length}</span>
+              </button>
+
+              {filteredAgentWallpaperAgents.map(agentName => (
+                <button
+                  key={agentName}
+                  onClick={() => {
+                    setActiveSubTab('agentWallpapers');
+                    setSelectedAgentWallpaperCat(agentName);
+                    setIsMobileDrawerOpen(false);
+                  }}
+                  className={`w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between transition-colors text-xs ${
+                    activeSubTab === 'agentWallpapers' && selectedAgentWallpaperCat === agentName
+                      ? 'bg-[#FF4655] text-white font-bold shadow-sm'
+                      : 'text-slate-400 hover:text-white hover:bg-white/5'
+                  }`}
+                >
+                  <span className="truncate">{agentName}</span>
+                  <span className="text-[10px] font-mono opacity-70 shrink-0 ml-1">
+                    {agentWallpapersCategories[agentName]?.length || 0}
+                  </span>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* 2. AGENT FULL PORTRAITS SECTION */}
+        <div className="space-y-1 bg-[#0B0E14]/60 p-2.5 rounded-2xl border border-white/5">
+          <div
+            onClick={() => {
+              setActiveSubTab('agentPortraits');
+              setIsMobileDrawerOpen(false);
+            }}
+            className={`w-full flex items-center justify-between p-2 rounded-xl cursor-pointer transition-all ${
+              activeSubTab === 'agentPortraits'
+                ? 'bg-[#FF4655]/15 text-[#FF4655] font-bold border border-[#FF4655]/30'
+                : 'text-slate-300 hover:bg-white/5 hover:text-white'
+            }`}
+          >
+            <div className="flex items-center gap-2 min-w-0">
+              <Users className="w-4 h-4 text-[#00F0FF] shrink-0" />
+              <span className="truncate font-display font-semibold">Full Portraits & Art</span>
+            </div>
+            <div className="flex items-center gap-1.5 shrink-0">
+              <span className="px-1.5 py-0.5 rounded text-[10px] bg-white/5 text-slate-400 font-mono">
+                {allAgentFullPortraits.length}
+              </span>
+              <button
+                onClick={(e) => toggleCategoryExpand('agentPortraits', e)}
+                className="p-1 hover:text-white text-slate-400 rounded"
+              >
+                {expandedCategories.agentPortraits ? <ChevronDown className="w-3.5 h-3.5" /> : <ChevronRight className="w-3.5 h-3.5" />}
+              </button>
+            </div>
+          </div>
+
+          {expandedCategories.agentPortraits && (
+            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-[#00F0FF]/40 ml-2 mt-1">
+              <button
+                onClick={() => {
+                  setActiveSubTab('agentPortraits');
+                  setSelectedAgentPortraitCat('All');
+                  setIsMobileDrawerOpen(false);
+                }}
+                className={`w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between transition-colors text-xs ${
+                  activeSubTab === 'agentPortraits' && selectedAgentPortraitCat === 'All'
+                    ? 'bg-[#00F0FF] text-black font-bold shadow-sm'
+                    : 'text-slate-400 hover:text-white hover:bg-white/5'
+                }`}
+              >
+                <span className="truncate">All Full Portraits</span>
+                <span className="text-[10px] font-mono opacity-80">{allAgentFullPortraits.length}</span>
+              </button>
+
+              {filteredAgentPortraitAgents.map(agentName => (
+                <button
+                  key={agentName}
+                  onClick={() => {
+                    setActiveSubTab('agentPortraits');
+                    setSelectedAgentPortraitCat(agentName);
+                    setIsMobileDrawerOpen(false);
+                  }}
+                  className={`w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between transition-colors text-xs ${
+                    activeSubTab === 'agentPortraits' && selectedAgentPortraitCat === agentName
+                      ? 'bg-[#00F0FF] text-black font-bold shadow-sm'
+                      : 'text-slate-400 hover:text-white hover:bg-white/5'
+                  }`}
+                >
+                  <span className="truncate">{agentName}</span>
+                  <span className="text-[10px] font-mono opacity-70 shrink-0 ml-1">
+                    {agentFullPortraitsCategories[agentName]?.length || 0}
+                  </span>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* 3. ICONS SECTION */}
         <div className="space-y-1 bg-[#0B0E14]/60 p-2.5 rounded-2xl border border-white/5">
           <div
             onClick={() => {
@@ -172,7 +344,7 @@ export default function GameAssetsSection({ registry }) {
             }`}
           >
             <div className="flex items-center gap-2 min-w-0">
-              <Sparkles className="w-4 h-4 text-[#00F0FF] shrink-0" />
+              <Sparkles className="w-4 h-4 text-purple-400 shrink-0" />
               <span className="truncate font-display font-semibold">Icons & UI Badges</span>
             </div>
             <div className="flex items-center gap-1.5 shrink-0">
@@ -188,9 +360,8 @@ export default function GameAssetsSection({ registry }) {
             </div>
           </div>
 
-          {/* Subcategories List for Icons */}
           {expandedCategories.icons && (
-            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-[#00F0FF]/30 ml-2 mt-1">
+            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-purple-500/40 ml-2 mt-1">
               <button
                 onClick={() => {
                   setActiveSubTab('icons');
@@ -199,7 +370,7 @@ export default function GameAssetsSection({ registry }) {
                 }}
                 className={`w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between transition-colors text-xs ${
                   activeSubTab === 'icons' && selectedIconSubCat === 'All'
-                    ? 'bg-[#FF4655] text-white font-bold shadow-sm'
+                    ? 'bg-purple-600 text-white font-bold shadow-sm'
                     : 'text-slate-400 hover:text-white hover:bg-white/5'
                 }`}
               >
@@ -217,7 +388,7 @@ export default function GameAssetsSection({ registry }) {
                   }}
                   className={`w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between transition-colors text-xs ${
                     activeSubTab === 'icons' && selectedIconSubCat === cat
-                      ? 'bg-[#FF4655] text-white font-bold shadow-sm'
+                      ? 'bg-purple-600 text-white font-bold shadow-sm'
                       : 'text-slate-400 hover:text-white hover:bg-white/5'
                   }`}
                 >
@@ -231,7 +402,7 @@ export default function GameAssetsSection({ registry }) {
           )}
         </div>
 
-        {/* 2. MAPS SECTION */}
+        {/* 4. MAPS SECTION */}
         <div className="space-y-1 bg-[#0B0E14]/60 p-2.5 rounded-2xl border border-white/5">
           <div
             onClick={() => {
@@ -262,7 +433,7 @@ export default function GameAssetsSection({ registry }) {
           </div>
 
           {expandedCategories.maps && (
-            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-emerald-500/30 ml-2 mt-1">
+            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-emerald-500/40 ml-2 mt-1">
               {mapCategories.map(cat => (
                 <button
                   key={cat}
@@ -287,7 +458,7 @@ export default function GameAssetsSection({ registry }) {
           )}
         </div>
 
-        {/* 3. WEAPONS SECTION */}
+        {/* 5. WEAPONS SECTION */}
         <div className="space-y-1 bg-[#0B0E14]/60 p-2.5 rounded-2xl border border-white/5">
           <div
             onClick={() => {
@@ -318,7 +489,7 @@ export default function GameAssetsSection({ registry }) {
           </div>
 
           {expandedCategories.weapons && (
-            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-amber-500/30 ml-2 mt-1">
+            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-amber-500/40 ml-2 mt-1">
               <button
                 onClick={() => {
                   setActiveSubTab('weapons');
@@ -357,7 +528,7 @@ export default function GameAssetsSection({ registry }) {
           )}
         </div>
 
-        {/* 4. BACKGROUNDS SECTION */}
+        {/* 6. GENERAL BACKGROUNDS SECTION */}
         <div className="space-y-1 bg-[#0B0E14]/60 p-2.5 rounded-2xl border border-white/5">
           <div
             onClick={() => {
@@ -371,8 +542,8 @@ export default function GameAssetsSection({ registry }) {
             }`}
           >
             <div className="flex items-center gap-2 min-w-0">
-              <Image className="w-4 h-4 text-purple-400 shrink-0" />
-              <span className="truncate font-display font-semibold">Wallpapers & Bundles</span>
+              <Image className="w-4 h-4 text-blue-400 shrink-0" />
+              <span className="truncate font-display font-semibold">General Wallpapers & Bundles</span>
             </div>
             <div className="flex items-center gap-1.5 shrink-0">
               <span className="px-1.5 py-0.5 rounded text-[10px] bg-white/5 text-slate-400 font-mono">
@@ -388,7 +559,7 @@ export default function GameAssetsSection({ registry }) {
           </div>
 
           {expandedCategories.backgrounds && (
-            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-purple-500/30 ml-2 mt-1">
+            <div className="pl-3 pr-1 py-1 space-y-1 border-l-2 border-blue-500/40 ml-2 mt-1">
               <button
                 onClick={() => {
                   setActiveSubTab('backgrounds');
@@ -397,11 +568,11 @@ export default function GameAssetsSection({ registry }) {
                 }}
                 className={`w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between transition-colors text-xs ${
                   activeSubTab === 'backgrounds' && selectedBgCat === 'All'
-                    ? 'bg-purple-600 text-white font-bold shadow-sm'
+                    ? 'bg-blue-600 text-white font-bold shadow-sm'
                     : 'text-slate-400 hover:text-white hover:bg-white/5'
                 }`}
               >
-                <span className="truncate">All Backgrounds</span>
+                <span className="truncate">All General Backgrounds</span>
                 <span className="text-[10px] font-mono opacity-80">{imageLibraries.backgrounds?.length || 0}</span>
               </button>
 
@@ -415,7 +586,7 @@ export default function GameAssetsSection({ registry }) {
                   }}
                   className={`w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between transition-colors text-xs ${
                     activeSubTab === 'backgrounds' && selectedBgCat === cat
-                      ? 'bg-purple-600 text-white font-bold shadow-sm'
+                      ? 'bg-blue-600 text-white font-bold shadow-sm'
                       : 'text-slate-400 hover:text-white hover:bg-white/5'
                   }`}
                 >
@@ -552,7 +723,7 @@ export default function GameAssetsSection({ registry }) {
             <h2 className="font-display font-extrabold text-2xl text-white">Valorant Game Assets & Image Library</h2>
           </div>
           <p className="text-xs text-slate-400 max-w-xl">
-            Explore high-resolution weapons, icon categories, rank badges, official logos, organized wallpapers, animated spritesheets, overlays, and player banner assets.
+            Browse 220+ agent wallpapers, 140+ 4K full portraits, weapons renders, icons, rank badges, official logos, overlays, and spritesheets.
           </p>
         </div>
 
@@ -562,7 +733,7 @@ export default function GameAssetsSection({ registry }) {
           className="md:hidden w-full sm:w-auto px-4 py-2.5 rounded-xl bg-[#FF4655] text-white font-display font-bold text-xs flex items-center justify-center gap-2 shadow-lg shadow-[#FF4655]/30"
         >
           <Filter className="w-4 h-4" />
-          <span>Browse Subcategories Panel</span>
+          <span>Browse Navigator Panel</span>
         </button>
       </div>
 
@@ -570,7 +741,7 @@ export default function GameAssetsSection({ registry }) {
       <div className="flex gap-6 items-start">
 
         {/* DESKTOP LEFT NAVIGATION SIDEBAR PANEL */}
-        <aside className="w-72 shrink-0 hidden md:block sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto bg-[#131722] border border-white/10 rounded-3xl p-4 shadow-2xl custom-scrollbar">
+        <aside className="w-80 shrink-0 hidden md:block sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto bg-[#131722] border border-white/10 rounded-3xl p-5 shadow-2xl custom-scrollbar">
           {renderSidebarContent()}
         </aside>
 
@@ -596,40 +767,328 @@ export default function GameAssetsSection({ registry }) {
         <main className="flex-1 min-w-0 space-y-6">
 
           {/* Top Active Category Breadcrumb & Filter Bar */}
-          <div className="bg-[#131722] p-4 rounded-2xl border border-white/5 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-md">
-            <div className="flex items-center gap-2 text-xs font-display">
-              <Compass className="w-4 h-4 text-[#00F0FF]" />
-              <span className="text-slate-400">Assets</span>
-              <span className="text-slate-600">/</span>
-              <span className="text-[#FF4655] font-bold uppercase tracking-wider">{activeSubTab}</span>
-              <span className="text-slate-600">/</span>
-              <span className="text-white font-semibold truncate max-w-[200px]">
-                {activeSubTab === 'icons' ? selectedIconSubCat : activeSubTab === 'maps' ? selectedMapCat : activeSubTab === 'weapons' ? selectedWeaponFolder : activeSubTab === 'backgrounds' ? selectedBgCat : 'All Items'}
-              </span>
+          <div className="bg-[#131722] p-4 rounded-3xl border border-white/5 space-y-4 shadow-lg">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/5 pb-3">
+              <div className="flex items-center gap-2 text-xs font-display">
+                <Compass className="w-4 h-4 text-[#00F0FF]" />
+                <span className="text-slate-400">Assets</span>
+                <span className="text-slate-600">/</span>
+                <span className="text-[#FF4655] font-bold uppercase tracking-wider">{activeSubTab}</span>
+                <span className="text-slate-600">/</span>
+                <span className="text-white font-semibold truncate max-w-[220px]">
+                  {activeSubTab === 'agentWallpapers' ? selectedAgentWallpaperCat : activeSubTab === 'agentPortraits' ? selectedAgentPortraitCat : activeSubTab === 'icons' ? selectedIconSubCat : activeSubTab === 'maps' ? selectedMapCat : activeSubTab === 'weapons' ? selectedWeaponFolder : activeSubTab === 'backgrounds' ? selectedBgCat : 'All Items'}
+                </span>
+              </div>
+
+              {/* In-View Asset Search Input */}
+              <div className="relative sm:w-64">
+                <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                <input
+                  type="text"
+                  value={assetSearchQuery}
+                  onChange={(e) => setAssetSearchQuery(e.target.value)}
+                  placeholder="Search in view..."
+                  className="w-full pl-8 pr-3 py-1.5 rounded-xl bg-[#0B0E14] border border-white/10 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#00F0FF]"
+                />
+                {assetSearchQuery && (
+                  <button
+                    onClick={() => setAssetSearchQuery('')}
+                    className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white text-xs"
+                  >
+                    <X className="w-3 h-3" />
+                  </button>
+                )}
+              </div>
             </div>
 
-            {/* In-View Asset Search Input */}
-            <div className="relative sm:w-64">
-              <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
-              <input
-                type="text"
-                value={assetSearchQuery}
-                onChange={(e) => setAssetSearchQuery(e.target.value)}
-                placeholder="Search in view..."
-                className="w-full pl-8 pr-3 py-1.5 rounded-xl bg-[#0B0E14] border border-white/10 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#00F0FF]"
-              />
-              {assetSearchQuery && (
-                <button
-                  onClick={() => setAssetSearchQuery('')}
-                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white text-xs"
-                >
-                  <X className="w-3 h-3" />
-                </button>
+            {/* MULTI-ROW WRAPPED PILLS SELECTOR FOR 100% VISIBILITY */}
+            <div className="flex flex-wrap gap-1.5 pt-1 max-h-48 overflow-y-auto custom-scrollbar">
+              {activeSubTab === 'agentWallpapers' && (
+                <>
+                  <button
+                    onClick={() => setSelectedAgentWallpaperCat('All')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all ${
+                      selectedAgentWallpaperCat === 'All'
+                        ? 'bg-[#FF4655] text-white shadow-md font-bold'
+                        : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                    }`}
+                  >
+                    All Agents ({allAgentWallpapers.length})
+                  </button>
+                  {agentWallpaperAgents.map(ag => (
+                    <button
+                      key={ag}
+                      onClick={() => setSelectedAgentWallpaperCat(ag)}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-1.5 ${
+                        selectedAgentWallpaperCat === ag
+                          ? 'bg-[#FF4655] text-white shadow-md font-bold'
+                          : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                      }`}
+                    >
+                      <span>{ag}</span>
+                      <span className="text-[10px] font-mono opacity-70">
+                        ({agentWallpapersCategories[ag]?.length || 0})
+                      </span>
+                    </button>
+                  ))}
+                </>
+              )}
+
+              {activeSubTab === 'agentPortraits' && (
+                <>
+                  <button
+                    onClick={() => setSelectedAgentPortraitCat('All')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all ${
+                      selectedAgentPortraitCat === 'All'
+                        ? 'bg-[#00F0FF] text-black shadow-md font-bold'
+                        : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                    }`}
+                  >
+                    All Agents ({allAgentFullPortraits.length})
+                  </button>
+                  {agentPortraitAgents.map(ag => (
+                    <button
+                      key={ag}
+                      onClick={() => setSelectedAgentPortraitCat(ag)}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-1.5 ${
+                        selectedAgentPortraitCat === ag
+                          ? 'bg-[#00F0FF] text-black shadow-md font-bold'
+                          : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                      }`}
+                    >
+                      <span>{ag}</span>
+                      <span className="text-[10px] font-mono opacity-70">
+                        ({agentFullPortraitsCategories[ag]?.length || 0})
+                      </span>
+                    </button>
+                  ))}
+                </>
+              )}
+
+              {activeSubTab === 'icons' && (
+                <>
+                  <button
+                    onClick={() => setSelectedIconSubCat('All')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all ${
+                      selectedIconSubCat === 'All'
+                        ? 'bg-purple-600 text-white shadow-md font-bold'
+                        : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                    }`}
+                  >
+                    All Icon Categories ({iconCatNames.length})
+                  </button>
+                  {iconCatNames.map(cat => (
+                    <button
+                      key={cat}
+                      onClick={() => setSelectedIconSubCat(cat)}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-1.5 ${
+                        selectedIconSubCat === cat
+                          ? 'bg-purple-600 text-white shadow-md font-bold'
+                          : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                      }`}
+                    >
+                      <span>{cat}</span>
+                      <span className="text-[10px] font-mono opacity-70">({iconCategories[cat]?.length || 0})</span>
+                    </button>
+                  ))}
+                </>
+              )}
+
+              {activeSubTab === 'weapons' && (
+                <>
+                  <button
+                    onClick={() => setSelectedWeaponFolder('All')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all ${
+                      selectedWeaponFolder === 'All'
+                        ? 'bg-amber-600 text-white shadow-md font-bold'
+                        : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                    }`}
+                  >
+                    All Weapons ({weapons.length})
+                  </button>
+                  {weapons.map(w => (
+                    <button
+                      key={w.name}
+                      onClick={() => setSelectedWeaponFolder(w.name)}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-1.5 ${
+                        selectedWeaponFolder === w.name
+                          ? 'bg-amber-600 text-white shadow-md font-bold'
+                          : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                      }`}
+                    >
+                      <span>{w.name}</span>
+                      <span className="text-[10px] font-mono opacity-70">({w.imagesCount})</span>
+                    </button>
+                  ))}
+                </>
+              )}
+
+              {activeSubTab === 'backgrounds' && (
+                <>
+                  <button
+                    onClick={() => setSelectedBgCat('All')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all ${
+                      selectedBgCat === 'All'
+                        ? 'bg-blue-600 text-white shadow-md font-bold'
+                        : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                    }`}
+                  >
+                    All General Backgrounds ({imageLibraries.backgrounds?.length || 0})
+                  </button>
+                  {bgCatNames.map(cat => (
+                    <button
+                      key={cat}
+                      onClick={() => setSelectedBgCat(cat)}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-1.5 ${
+                        selectedBgCat === cat
+                          ? 'bg-blue-600 text-white shadow-md font-bold'
+                          : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5'
+                      }`}
+                    >
+                      <span>{cat}</span>
+                      <span className="text-[10px] font-mono opacity-70">({backgroundCategories[cat]?.length || 0})</span>
+                    </button>
+                  ))}
+                </>
               )}
             </div>
           </div>
 
-          {/* 1. ICONS TAB CONTENT */}
+          {/* 1. AGENT WALLPAPERS TAB CONTENT */}
+          {activeSubTab === 'agentWallpapers' && (
+            <div className="space-y-6">
+              {agentWallpaperAgents.map(agName => {
+                if (selectedAgentWallpaperCat !== 'All' && selectedAgentWallpaperCat !== agName) return null;
+                let wallList = agentWallpapersCategories[agName] || [];
+                if (assetSearchQuery.trim()) {
+                  wallList = wallList.filter(img => img.name.toLowerCase().includes(assetSearchQuery.toLowerCase()));
+                }
+                if (wallList.length === 0) return null;
+
+                return (
+                  <div key={agName} className="space-y-3 bg-[#131722]/60 p-5 rounded-3xl border border-white/5">
+                    <h3 className="font-display text-xs font-bold text-slate-300 uppercase tracking-widest flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <Image className="w-3.5 h-3.5 text-[#FF4655]" />
+                        <span>{agName} Mastery Wallpapers & Banners</span>
+                      </div>
+                      <span className="text-slate-500 font-normal font-mono">({wallList.length} wallpapers)</span>
+                    </h3>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {wallList.slice(0, getLimit(`agwall_${agName}`, 24)).map((img, idx) => (
+                        <div key={idx} className="bg-[#131722] p-4 rounded-2xl border border-white/5 space-y-3 group hover:border-[#FF4655]/40 transition-all flex flex-col justify-between shadow-lg">
+                          <div
+                            onClick={() => setPreviewImage({ src: img.relPath, title: `${agName} - ${img.name}` })}
+                            className="h-44 bg-[#0B0E14] rounded-xl overflow-hidden cursor-pointer relative"
+                          >
+                            <img src={toAssetUrl(img.thumbPath || img.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
+                            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                              <Eye className="w-7 h-7 text-white" />
+                            </div>
+                          </div>
+                          <div className="space-y-2">
+                            <span className="font-bold text-white truncate text-xs block" title={img.name}>
+                              {img.name}
+                            </span>
+                            <div className="flex items-center justify-between text-xs">
+                              <span className="text-[10px] font-mono text-[#FF4655] bg-[#FF4655]/10 px-2 py-0.5 rounded border border-[#FF4655]/20">
+                                {agName}
+                              </span>
+                              <div className="flex items-center gap-1.5">
+                                <button
+                                  onClick={(e) => handleCopyImage(img.relPath, e)}
+                                  className="p-1 rounded bg-white/5 hover:bg-purple-600 text-slate-300 hover:text-white transition-colors"
+                                  title="Copy image"
+                                >
+                                  <FileImage className="w-3.5 h-3.5" />
+                                </button>
+                                <button
+                                  onClick={(e) => handleDownload(img.relPath, img.filename, e)}
+                                  className="px-2.5 py-1 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors text-xs font-semibold"
+                                >
+                                  Download
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          {/* 2. AGENT FULL PORTRAITS TAB CONTENT */}
+          {activeSubTab === 'agentPortraits' && (
+            <div className="space-y-6">
+              {agentPortraitAgents.map(agName => {
+                if (selectedAgentPortraitCat !== 'All' && selectedAgentPortraitCat !== agName) return null;
+                let portList = agentFullPortraitsCategories[agName] || [];
+                if (assetSearchQuery.trim()) {
+                  portList = portList.filter(img => img.name.toLowerCase().includes(assetSearchQuery.toLowerCase()));
+                }
+                if (portList.length === 0) return null;
+
+                return (
+                  <div key={agName} className="space-y-3 bg-[#131722]/60 p-5 rounded-3xl border border-white/5">
+                    <h3 className="font-display text-xs font-bold text-slate-300 uppercase tracking-widest flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <Users className="w-3.5 h-3.5 text-[#00F0FF]" />
+                        <span>{agName} Full Art & 4K Portraits</span>
+                      </div>
+                      <span className="text-slate-500 font-normal font-mono">({portList.length} renders)</span>
+                    </h3>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                      {portList.map((img, idx) => (
+                        <div key={idx} className="bg-[#131722] p-3.5 rounded-2xl border border-white/5 space-y-3 group hover:border-[#00F0FF]/40 transition-all flex flex-col justify-between shadow-lg">
+                          <div
+                            onClick={() => setPreviewImage({ src: img.relPath, title: `${agName} - ${img.name}` })}
+                            className="h-56 bg-[#0B0E14] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                          >
+                            <img src={toAssetUrl(img.thumbPath || img.relPath)} alt="" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
+                            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                              <Eye className="w-7 h-7 text-white" />
+                            </div>
+                          </div>
+                          <div className="space-y-2">
+                            <span className="font-bold text-white truncate text-xs block" title={img.name}>
+                              {img.name}
+                            </span>
+                            <div className="flex items-center justify-between text-xs">
+                              <span className="text-[10px] font-mono text-[#00F0FF] bg-[#00F0FF]/10 px-2 py-0.5 rounded border border-[#00F0FF]/20">
+                                {agName}
+                              </span>
+                              <div className="flex items-center gap-1.5">
+                                <button
+                                  onClick={(e) => handleCopyImage(img.relPath, e)}
+                                  className="p-1 rounded bg-white/5 hover:bg-purple-600 text-slate-300 hover:text-white transition-colors"
+                                  title="Copy image"
+                                >
+                                  <FileImage className="w-3.5 h-3.5" />
+                                </button>
+                                <button
+                                  onClick={(e) => handleDownload(img.relPath, img.filename, e)}
+                                  className="px-2 py-1 rounded bg-white/5 hover:bg-[#00F0FF] hover:text-black text-slate-300 transition-colors text-xs font-semibold"
+                                >
+                                  Download
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          {/* 3. ICONS TAB CONTENT */}
           {activeSubTab === 'icons' && (
             <div className="space-y-6">
               {iconCatNames.map(cat => {
@@ -644,7 +1103,7 @@ export default function GameAssetsSection({ registry }) {
                   <div key={cat} className="space-y-3 bg-[#131722]/60 p-5 rounded-3xl border border-white/5">
                     <h3 className="font-display text-xs font-bold text-slate-300 uppercase tracking-widest flex items-center justify-between">
                       <div className="flex items-center gap-2">
-                        <Sparkles className="w-3.5 h-3.5 text-[#00F0FF]" />
+                        <Sparkles className="w-3.5 h-3.5 text-purple-400" />
                         <span>{cat}</span>
                       </div>
                       <span className="text-slate-500 font-normal font-mono">({iconsList.length} items)</span>
@@ -652,7 +1111,7 @@ export default function GameAssetsSection({ registry }) {
                     
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
                       {iconsList.slice(0, getLimit(cat, 35)).map((img, idx) => (
-                        <div key={idx} className="bg-[#131722] p-3 rounded-2xl border border-white/5 flex flex-col justify-between space-y-2 group hover:border-[#00F0FF]/40 transition-all">
+                        <div key={idx} className="bg-[#131722] p-3 rounded-2xl border border-white/5 flex flex-col justify-between space-y-2 group hover:border-purple-500/40 transition-all">
                           <div
                             onClick={() => setPreviewImage({ src: img.relPath, title: img.name })}
                             className="h-28 bg-[#0B0E14] rounded-xl p-2 flex items-center justify-center cursor-pointer relative"
@@ -702,7 +1161,7 @@ export default function GameAssetsSection({ registry }) {
                       <div className="pt-2 flex justify-center">
                         <button
                           onClick={() => handleShowMore(cat, 35)}
-                          className="px-4 py-2 rounded-xl text-xs font-display font-semibold bg-[#131722] hover:bg-[#00F0FF] hover:text-black text-slate-300 border border-white/10 transition-colors"
+                          className="px-4 py-2 rounded-xl text-xs font-display font-semibold bg-[#131722] hover:bg-purple-600 hover:text-white text-slate-300 border border-white/10 transition-colors"
                         >
                           Show More ({iconsList.length - getLimit(cat, 35)} remaining)
                         </button>
@@ -714,7 +1173,7 @@ export default function GameAssetsSection({ registry }) {
             </div>
           )}
 
-          {/* 2. MAPS TAB CONTENT */}
+          {/* 4. MAPS TAB CONTENT */}
           {activeSubTab === 'maps' && (() => {
             let filteredMapsList = mapsData.filter(m => selectedMapCat === 'All' || m.category === selectedMapCat);
             if (assetSearchQuery.trim()) {
@@ -781,7 +1240,7 @@ export default function GameAssetsSection({ registry }) {
             );
           })()}
 
-          {/* 3. WEAPONS TAB CONTENT */}
+          {/* 5. WEAPONS TAB CONTENT */}
           {activeSubTab === 'weapons' && (
             <div className="space-y-6">
               {weapons.map(w => {
@@ -837,7 +1296,7 @@ export default function GameAssetsSection({ registry }) {
             </div>
           )}
 
-          {/* 4. BACKGROUNDS TAB CONTENT */}
+          {/* 6. GENERAL BACKGROUNDS TAB CONTENT */}
           {activeSubTab === 'backgrounds' && (
             <div className="space-y-6">
               {bgCatNames.map(cat => {
@@ -852,7 +1311,7 @@ export default function GameAssetsSection({ registry }) {
                   <div key={cat} className="space-y-3 bg-[#131722]/60 p-5 rounded-3xl border border-white/5">
                     <h3 className="font-display text-xs font-bold text-slate-300 uppercase tracking-widest flex items-center justify-between">
                       <div className="flex items-center gap-2">
-                        <Image className="w-3.5 h-3.5 text-purple-400" />
+                        <Image className="w-3.5 h-3.5 text-blue-400" />
                         <span>{cat}</span>
                       </div>
                       <span className="text-slate-500 font-normal font-mono">({bgList.length} wallpapers)</span>
@@ -863,7 +1322,7 @@ export default function GameAssetsSection({ registry }) {
                         const displayTitle = getRealBundleDisplayName(img);
                         const displayCode = getRealBundleCodename(img);
                         return (
-                          <div key={idx} className="bg-[#131722] p-4 rounded-2xl border border-white/5 space-y-3 group hover:border-purple-500/40 transition-all flex flex-col justify-between">
+                          <div key={idx} className="bg-[#131722] p-4 rounded-2xl border border-white/5 space-y-3 group hover:border-blue-500/40 transition-all flex flex-col justify-between">
                             <div
                               onClick={() => setPreviewImage({ src: img.relPath, title: displayTitle })}
                               className="h-40 bg-[#0B0E14] rounded-xl overflow-hidden cursor-pointer relative"
@@ -887,7 +1346,7 @@ export default function GameAssetsSection({ registry }) {
                                   </button>
                                   <button
                                     onClick={(e) => handleDownload(img.relPath, img.filename, e)}
-                                    className="px-2 py-1 rounded bg-white/5 hover:bg-purple-600 text-slate-300 hover:text-white transition-colors text-[11px] font-semibold"
+                                    className="px-2 py-1 rounded bg-white/5 hover:bg-blue-600 text-slate-300 hover:text-white transition-colors text-xs font-semibold"
                                   >
                                     Download
                                   </button>
@@ -904,7 +1363,7 @@ export default function GameAssetsSection({ registry }) {
             </div>
           )}
 
-          {/* 5. LOGOS TAB CONTENT */}
+          {/* 7. LOGOS TAB CONTENT */}
           {activeSubTab === 'logos' && (
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
               {(imageLibraries.logos || []).map((img, idx) => (
@@ -929,7 +1388,7 @@ export default function GameAssetsSection({ registry }) {
             </div>
           )}
 
-          {/* 6. RANKS TAB CONTENT */}
+          {/* 8. RANKS TAB CONTENT */}
           {activeSubTab === 'ranks' && (
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
               {(imageLibraries.rankings || []).map((img, idx) => (
@@ -954,7 +1413,7 @@ export default function GameAssetsSection({ registry }) {
             </div>
           )}
 
-          {/* 7. SPRITESHEETS TAB CONTENT */}
+          {/* 9. SPRITESHEETS TAB CONTENT */}
           {activeSubTab === 'spritesheets' && (
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {spritesheets.map((sp, idx) => (
@@ -1013,7 +1472,7 @@ export default function GameAssetsSection({ registry }) {
             </div>
           )}
 
-          {/* 8. OVERLAYS TAB CONTENT */}
+          {/* 10. OVERLAYS TAB CONTENT */}
           {activeSubTab === 'overlays' && (
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
               {(imageLibraries.playerbannerAssets || []).concat(imageLibraries.overlays || []).map((img, idx) => (
@@ -1038,7 +1497,7 @@ export default function GameAssetsSection({ registry }) {
             </div>
           )}
 
-          {/* 9. MISC TAB CONTENT */}
+          {/* 11. MISC TAB CONTENT */}
           {activeSubTab === 'misc' && (
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
               {(imageLibraries.misc || []).map((img, idx) => (

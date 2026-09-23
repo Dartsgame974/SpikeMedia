@@ -643,12 +643,69 @@ if (fs.existsSync(spritesheetDir)) {
   }
 }
 
+// 7.5 Index Agent Mastery Wallpapers & Agent Full Portraits across all agents
+const agentWallpapersCategories = {};
+const agentFullPortraitsCategories = {};
+const allAgentWallpapers = [];
+const allAgentFullPortraits = [];
+
+for (const agent of agentsList) {
+  const agentName = agent.name;
+  const posters = agent.assets?.posters || [];
+
+  for (const p of posters) {
+    const fnameLower = p.filename.toLowerCase();
+    
+    // Check if it's a wallpaper or full portrait
+    const isWallpaper = fnameLower.includes('background') || fnameLower.includes('fond_ecran') || fnameLower.includes('mastery') || fnameLower.includes('v26_a5_am');
+    const isFullPortrait = fnameLower.includes('fullportrait') || fnameLower.includes('portrait_complet') || fnameLower.includes('portraitdisplayicon') || fnameLower.includes('carouselpreview');
+
+    if (isWallpaper || (!isFullPortrait && (p.filename.endsWith('.jpg') || p.filename.endsWith('.webp')))) {
+      if (!agentWallpapersCategories[agentName]) agentWallpapersCategories[agentName] = [];
+      const item = { ...p, agentName };
+      agentWallpapersCategories[agentName].push(item);
+      allAgentWallpapers.push(item);
+
+      // Also register into backgroundCategories['Agent Mastery & Wallpapers']
+      if (!backgroundCategories['Agent Mastery & Wallpapers']) backgroundCategories['Agent Mastery & Wallpapers'] = [];
+      backgroundCategories['Agent Mastery & Wallpapers'].push(item);
+    }
+
+    if (isFullPortrait || fnameLower.includes('portrait')) {
+      if (!agentFullPortraitsCategories[agentName]) agentFullPortraitsCategories[agentName] = [];
+      const item = { ...p, agentName };
+      agentFullPortraitsCategories[agentName].push(item);
+      allAgentFullPortraits.push(item);
+    }
+  }
+
+  // Also include base agent fullPortrait if available
+  if (agent.assets?.fullPortrait) {
+    if (!agentFullPortraitsCategories[agentName]) agentFullPortraitsCategories[agentName] = [];
+    const baseItem = {
+      filename: path.basename(agent.assets.fullPortrait),
+      name: `${agentName} Full Portrait`,
+      relPath: agent.assets.fullPortrait,
+      thumbPath: agent.assets.fullPortrait,
+      agentName
+    };
+    if (!agentFullPortraitsCategories[agentName].some(x => x.relPath === baseItem.relPath)) {
+      agentFullPortraitsCategories[agentName].push(baseItem);
+      allAgentFullPortraits.push(baseItem);
+    }
+  }
+}
+
 // 8. Index Global Image Libraries
 const imageLibraries = {
   iconCategories,
   logos: scanDirImages(path.join(VALORANTEK_DIR, 'Logos')),
   backgrounds: scanDirImages(path.join(VALORANTEK_DIR, 'Backgrounds')),
   backgroundCategories,
+  agentWallpapersCategories,
+  agentFullPortraitsCategories,
+  allAgentWallpapers,
+  allAgentFullPortraits,
   rankings: scanDirImages(path.join(VALORANTEK_DIR, 'Rankings')).concat(scanDirImages(path.join(VALORANTEK_DIR, 'ranks'))),
   overlays: scanDirImages(path.join(VALORANTEK_DIR, 'Overlays')),
   playerbannerAssets: scanDirImages(path.join(VALORANTEK_DIR, 'PlayerbannerAssets')),
