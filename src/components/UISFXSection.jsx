@@ -1,13 +1,19 @@
-import React, { useState } from 'react';
-import { Radio, Disc, Flame, MapPin, Zap, Shield, Sparkles } from 'lucide-react';
+import React, { useState, useMemo } from 'react';
+import { Radio, Disc, Flame, MapPin, Zap, Shield, Sparkles, Search, X, Filter } from 'lucide-react';
 import AudioPlayerSlim from './AudioPlayerSlim';
 import { toAssetUrl } from '../utils/urlHelper';
 
 export default function UISFXSection({ uiCategories }) {
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [searchCategory, setSearchCategory] = useState('');
 
   const rawCategories = Object.keys(uiCategories || {});
   const totalClipsCount = rawCategories.reduce((acc, cat) => acc + (uiCategories[cat]?.length || 0), 0);
+
+  const filteredCategories = useMemo(() => {
+    if (!searchCategory.trim()) return rawCategories;
+    return rawCategories.filter(cat => cat.toLowerCase().includes(searchCategory.toLowerCase()));
+  }, [rawCategories, searchCategory]);
 
   // Clean Display Names for Categories
   const getCategoryIcon = (catName) => {
@@ -40,20 +46,41 @@ export default function UISFXSection({ uiCategories }) {
         </div>
       </div>
 
-      {/* Clean Category Navigation Pills Bar */}
-      <div className="bg-[#131722] p-4 rounded-2xl border border-white/5 space-y-3">
-        <div className="flex items-center justify-between border-b border-white/5 pb-2">
-          <span className="text-xs font-display font-bold text-slate-400 uppercase tracking-wider flex items-center gap-2">
+      {/* Category Navigation Panel Layout */}
+      <div className="bg-[#131722] p-5 rounded-3xl border border-white/5 space-y-4 shadow-xl">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/5 pb-3">
+          <div className="flex items-center gap-2 text-xs font-display font-bold text-slate-300 uppercase tracking-wider">
             <Disc className="w-4 h-4 text-[#00F0FF]" /> Audio Categories ({rawCategories.length})
-          </span>
+          </div>
+
+          {/* Quick Category Search */}
+          <div className="relative sm:w-64">
+            <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+            <input
+              type="text"
+              value={searchCategory}
+              onChange={(e) => setSearchCategory(e.target.value)}
+              placeholder="Search audio categories..."
+              className="w-full pl-8 pr-3 py-1.5 rounded-xl bg-[#0B0E14] border border-white/10 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#00F0FF]"
+            />
+            {searchCategory && (
+              <button
+                onClick={() => setSearchCategory('')}
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white text-xs"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            )}
+          </div>
         </div>
 
-        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-thin">
+        {/* Visible Multi-Row Pill Grid */}
+        <div className="flex flex-wrap gap-2 pt-1 max-h-64 overflow-y-auto pr-1 custom-scrollbar">
           <button
             onClick={() => setSelectedCategory('All')}
-            className={`px-3.5 py-2 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-2 whitespace-nowrap shrink-0 ${
+            className={`px-3.5 py-2 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-2 ${
               selectedCategory === 'All'
-                ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30 font-bold'
                 : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5 hover:border-white/20'
             }`}
           >
@@ -63,7 +90,7 @@ export default function UISFXSection({ uiCategories }) {
             </span>
           </button>
 
-          {rawCategories.map(cat => {
+          {filteredCategories.map(cat => {
             const IconComp = getCategoryIcon(cat);
             const isActive = selectedCategory === cat;
             const clipsCount = uiCategories[cat]?.length || 0;
@@ -73,9 +100,9 @@ export default function UISFXSection({ uiCategories }) {
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-3.5 py-2 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-2 whitespace-nowrap shrink-0 ${
+                className={`px-3.5 py-2 rounded-xl text-xs font-display font-semibold transition-all flex items-center gap-2 ${
                   isActive
-                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
+                    ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30 font-bold border-l-2 border-[#00F0FF]'
                     : 'bg-[#0B0E14] text-slate-400 hover:text-white border border-white/5 hover:border-white/20'
                 }`}
               >
@@ -101,7 +128,7 @@ export default function UISFXSection({ uiCategories }) {
           const IconComp = getCategoryIcon(cat);
 
           return (
-            <div key={cat} className="space-y-3 bg-[#131722]/60 p-5 rounded-2xl border border-white/5 shadow-md">
+            <div key={cat} className="space-y-3 bg-[#131722]/60 p-5 rounded-3xl border border-white/5 shadow-md">
               <div className="flex items-center justify-between border-b border-white/5 pb-2">
                 <h3 className="font-display text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
                   <IconComp className="w-4 h-4 text-[#FF4655]" />
@@ -129,4 +156,3 @@ export default function UISFXSection({ uiCategories }) {
     </section>
   );
 }
-

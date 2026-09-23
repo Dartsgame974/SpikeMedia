@@ -52,6 +52,39 @@ export default function FontsSection() {
         { label: 'BioSans Bold', weight: '700', style: 'normal' },
         { label: 'BioSans ExtraBold', weight: '800', style: 'normal' }
       ]
+    },
+    {
+      id: 'pf-dintext-pro',
+      name: 'PF DinText Pro',
+      subtitle: 'Official Valorant Technical Body, Metrics & Data Display Font',
+      family: 'PFDinTextPro',
+      category: 'Technical / Sans-Serif',
+      weights: ['Regular (400)', 'Bold (700)'],
+      formats: ['TTF'],
+      zipPath: 'fonts/pf-dintext-pro.zip',
+      directPath: 'fonts/pf-dintext-pro/PFDinTextPro-Regular.ttf',
+      description: 'Clean industrial DIN typeface used across tactical overlays, match summary data, combat report numbers, and weapon telemetry panels.',
+      cssCode: `@font-face {\n  font-family: 'PFDinTextPro';\n  src: url('/fonts/pf-dintext-pro/PFDinTextPro-Regular.ttf') format('truetype');\n  font-weight: 400;\n}\n@font-face {\n  font-family: 'PFDinTextPro';\n  src: url('/fonts/pf-dintext-pro/PFDinTextPro-Bold.ttf') format('truetype');\n  font-weight: 700;\n}`,
+      previewStyles: [
+        { label: 'PF DinText Pro Regular', weight: '400', style: 'normal' },
+        { label: 'PF DinText Pro Bold', weight: '700', style: 'normal' }
+      ]
+    },
+    {
+      id: 'valorant',
+      name: 'Valorant Logo Font',
+      subtitle: 'Official Stylized Valorant Branding & Graphic Font',
+      family: 'ValorantFont',
+      category: 'Branding / Display',
+      weights: ['Regular (400)'],
+      formats: ['TTF'],
+      zipPath: 'fonts/valorant.zip',
+      directPath: 'fonts/valorant/Valorant Font.ttf',
+      description: 'High-impact geometric stencil vector font based on the official Valorant logo typography, perfect for esports banners, thumbnails, and custom graphics.',
+      cssCode: `@font-face {\n  font-family: 'ValorantFont';\n  src: url('/fonts/valorant/Valorant Font.ttf') format('truetype');\n  font-weight: 400;\n  font-style: normal;\n}`,
+      previewStyles: [
+        { label: 'Valorant Stencil Regular', weight: '400', style: 'normal' }
+      ]
     }
   ];
 
