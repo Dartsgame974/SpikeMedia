@@ -23,12 +23,12 @@ export default function GameAssetsSection({ registry }) {
   const [assetSearchQuery, setAssetSearchQuery] = useState('');
   const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
   const [expandedCategories, setExpandedCategories] = useState({
-    agentWallpapers: true,
-    agentPortraits: true,
-    icons: true,
-    maps: true,
-    weapons: true,
-    backgrounds: true
+    agentWallpapers: false,
+    agentPortraits: false,
+    icons: false,
+    maps: false,
+    weapons: false,
+    backgrounds: false
   });
 
   const [previewImage, setPreviewImage] = useState(null);

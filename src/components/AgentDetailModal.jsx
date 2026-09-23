@@ -33,6 +33,19 @@ export default function AgentDetailModal({ agent, onClose }) {
   const minimapIcons = agent.assets?.minimapIcons || [];
   const abilityIcons = agent.assets?.abilityIcons || [];
 
+  const rawPosters = agent.assets?.posters || [];
+  const fullPortraitsList = agent.assets?.fullPortraitsList?.length > 0 
+    ? agent.assets.fullPortraitsList 
+    : rawPosters.filter(p => p.filename.toLowerCase().includes('fullportrait') || p.filename.toLowerCase().includes('portrait_complet'));
+  
+  const displayIconsList = agent.assets?.displayIconsList?.length > 0 
+    ? agent.assets.displayIconsList 
+    : rawPosters.filter(p => p.filename.toLowerCase().includes('portraitdisplayicon') || p.filename.toLowerCase().includes('icone_carree'));
+  
+  const wallpapersList = agent.assets?.wallpapersList?.length > 0 
+    ? agent.assets.wallpapersList 
+    : rawPosters.filter(p => !p.filename.toLowerCase().includes('fullportrait') && !p.filename.toLowerCase().includes('portraitdisplayicon') && !p.filename.toLowerCase().includes('portrait_complet'));
+
   const extraArtworks = agent.assets?.extraArtworks || [];
 
   const audioCategories = agent.audioCategories || {};
@@ -196,10 +209,10 @@ export default function AgentDetailModal({ agent, onClose }) {
               }`}
             >
               <Sparkles className="w-4 h-4 text-[#FF4655] shrink-0" />
-              <span className="whitespace-nowrap">2. Official Posters & Key Art</span>
-              {agent.assets?.posters?.length > 0 && (
+              <span className="whitespace-nowrap">2. Official Wallpapers & Key Art</span>
+              {wallpapersList.length > 0 && (
                 <span className="px-1.5 py-0.5 rounded-full text-[10px] bg-[#FF4655]/20 text-[#FF4655] border border-[#FF4655]/30 font-bold">
-                  {agent.assets.posters.length}
+                  {wallpapersList.length}
                 </span>
               )}
             </button>
@@ -285,16 +298,20 @@ export default function AgentDetailModal({ agent, onClose }) {
                 </div>
               )}
 
+              {/* Full 4K Character Portraits Section */}
               <div className="space-y-3">
-                <h3 className="font-display text-xs font-bold text-slate-400 uppercase tracking-widest">
-                  High-Resolution Standard Portraits & Badges
-                </h3>
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                  {bustPortrait && (
-                    <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
+                <div className="flex items-center justify-between border-b border-white/5 pb-2">
+                  <h3 className="font-display text-xs font-bold text-white uppercase tracking-widest flex items-center gap-2">
+                    <Sparkles className="w-3.5 h-3.5 text-[#00F0FF]" />
+                    <span>Full 4K Character Portraits & Full Cutouts ({fullPortraitsList.length + (bustPortrait && !fullPortraitsList.some(p => p.relPath === bustPortrait) ? 1 : 0) + (fullPortrait && fullPortrait !== bustPortrait && !fullPortraitsList.some(p => p.relPath === fullPortrait) ? 1 : 0)})</span>
+                  </h3>
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                  {bustPortrait && !fullPortraitsList.some(p => p.relPath === bustPortrait) && (
+                    <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#00F0FF]/30 transition-all">
                       <div
                         onClick={() => setPreviewImage({ src: bustPortrait, title: `${agent.name} Bust Portrait` })}
-                        className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                        className="h-44 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
                       >
                         <img src={toAssetUrl(bustPortrait)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -302,7 +319,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                         </div>
                       </div>
                       <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="font-medium text-slate-300 whitespace-nowrap">Bust Portrait</span>
+                        <span className="font-medium text-slate-300 truncate" title="Bust Portrait">Bust Portrait</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
                             onClick={(e) => handleCopyImageAsset(bustPortrait, e)}
@@ -315,7 +332,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                           </button>
                           <button
                             onClick={(e) => handleDownloadAsset(bustPortrait, `${agent.name}_bust_portrait.png`, e)}
-                            className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
+                            className="p-1.5 rounded bg-white/5 hover:bg-[#00F0FF] hover:text-black text-slate-300 transition-colors"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
@@ -324,87 +341,64 @@ export default function AgentDetailModal({ agent, onClose }) {
                     </div>
                   )}
 
-                  {fullPortrait && (
-                    <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
+                  {fullPortraitsList.map((fp, idx) => (
+                    <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/10 space-y-2 flex flex-col justify-between group hover:border-[#00F0FF]/40 transition-all shadow-lg">
                       <div
-                        onClick={() => setPreviewImage({ src: fullPortrait, title: `${agent.name} Full Portrait` })}
-                        className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                        onClick={() => setPreviewImage({ src: fp.relPath || fp.path, title: `${agent.name} - ${fp.name}` })}
+                        className="h-44 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
                       >
-                        <img src={toAssetUrl(fullPortrait)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
+                        <img src={toAssetUrl(fp.thumbPath || fp.relPath || fp.path)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                           <Eye className="w-6 h-6 text-white" />
                         </div>
                       </div>
                       <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="font-medium text-slate-300 whitespace-nowrap">Full Portrait</span>
+                        <span className="font-medium text-slate-200 truncate max-w-[130px]" title={fp.name}>{fp.name}</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyImageAsset(fullPortrait, e)}
+                            onClick={(e) => handleCopyImageAsset(fp.relPath || fp.path, e)}
                             className={`p-1.5 rounded transition-colors ${
-                              copiedPath === fullPortrait ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                              copiedPath === (fp.relPath || fp.path) ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
                             title="Copy image to clipboard"
                           >
-                            {copiedPath === fullPortrait ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                            {copiedPath === (fp.relPath || fp.path) ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
-                            onClick={(e) => handleDownloadAsset(fullPortrait, `${agent.name}_full_portrait.png`, e)}
-                            className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
+                            onClick={(e) => handleDownloadAsset(fp.relPath || fp.path, fp.filename || `${fp.name}.png`, e)}
+                            className="p-1.5 rounded bg-white/5 hover:bg-[#00F0FF] hover:text-black text-slate-300 transition-colors"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
                         </div>
                       </div>
                     </div>
-                  )}
+                  ))}
+                </div>
+              </div>
 
-                  {hypePreview && (
-                    <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-purple-500/40 transition-all">
-                      <div
-                        onClick={() => setPreviewImage({ src: hypePreview, title: `${agent.name} Hype Master Icon` })}
-                        className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
-                      >
-                        <img src={toAssetUrl(hypePreview)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                          <Eye className="w-6 h-6 text-white" />
-                        </div>
-                      </div>
-                      <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="font-medium text-slate-300 whitespace-nowrap">Hype Master Icon</span>
-                        <div className="flex items-center gap-1 shrink-0">
-                          <button
-                            onClick={(e) => handleCopyImageAsset(hypePreview, e)}
-                            className={`p-1.5 rounded transition-colors ${
-                              copiedPath === hypePreview ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
-                            }`}
-                            title="Copy image to clipboard"
-                          >
-                            {copiedPath === hypePreview ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                          </button>
-                          <button
-                            onClick={(e) => handleDownloadAsset(hypePreview, `${agent.name}_hype_master_icon.png`, e)}
-                            className="p-1.5 rounded bg-white/5 hover:bg-purple-600 text-slate-300 hover:text-white transition-colors"
-                          >
-                            <Download className="w-3.5 h-3.5" />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-
-                  {squareIcon && (
+              {/* Display Avatars, Badges & Icons Section */}
+              <div className="space-y-3 pt-4 border-t border-white/5">
+                <div className="flex items-center justify-between border-b border-white/5 pb-2">
+                  <h3 className="font-display text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
+                    <Image className="w-3.5 h-3.5 text-[#FF4655]" />
+                    <span>Display Avatars, Badges & Small Icons ({displayIconsList.length + (squareIcon && !displayIconsList.some(i => i.relPath === squareIcon) ? 1 : 0) + (hypePreview ? 1 : 0)})</span>
+                  </h3>
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3">
+                  {squareIcon && !displayIconsList.some(i => i.relPath === squareIcon) && (
                     <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
                       <div
                         onClick={() => setPreviewImage({ src: squareIcon, title: `${agent.name} Square Icon` })}
-                        className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                        className="h-32 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
                       >
-                        <img src={toAssetUrl(squareIcon)} alt="" className="w-24 h-24 object-contain rounded-xl group-hover:scale-105 transition-transform" />
+                        <img src={toAssetUrl(squareIcon)} alt="" className="w-20 h-20 object-contain rounded-xl group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                          <Eye className="w-6 h-6 text-white" />
+                          <Eye className="w-5 h-5 text-white" />
                         </div>
                       </div>
                       <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="font-medium text-slate-300 whitespace-nowrap">Square Icon</span>
+                        <span className="font-medium text-slate-300 truncate">Square Icon</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
                             onClick={(e) => handleCopyImageAsset(squareIcon, e)}
@@ -426,102 +420,68 @@ export default function AgentDetailModal({ agent, onClose }) {
                     </div>
                   )}
 
-                  {(agent.assets?.killfeedIcons || [killfeedIcon]).filter(Boolean).map((kfIcon, idx) => (
-                    <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
+                  {hypePreview && (
+                    <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-purple-500/40 transition-all">
                       <div
-                        onClick={() => setPreviewImage({ src: kfIcon, title: `${agent.name} Killfeed Icon` })}
-                        className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                        onClick={() => setPreviewImage({ src: hypePreview, title: `${agent.name} Hype Master Icon` })}
+                        className="h-32 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
                       >
-                        <img src={toAssetUrl(kfIcon)} alt="" className="h-10 object-contain group-hover:scale-105 transition-transform" />
+                        <img src={toAssetUrl(hypePreview)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                          <Eye className="w-6 h-6 text-white" />
+                          <Eye className="w-5 h-5 text-white" />
                         </div>
                       </div>
                       <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="font-medium text-slate-300 whitespace-nowrap">Killfeed Icon</span>
+                        <span className="font-medium text-slate-300 truncate">Hype Master Icon</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyImageAsset(kfIcon, e)}
+                            onClick={(e) => handleCopyImageAsset(hypePreview, e)}
                             className={`p-1.5 rounded transition-colors ${
-                              copiedPath === kfIcon ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                              copiedPath === hypePreview ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
                             title="Copy image to clipboard"
                           >
-                            {copiedPath === kfIcon ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                            {copiedPath === hypePreview ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
-                            onClick={(e) => handleDownloadAsset(kfIcon, `${agent.name}_killfeed_icon.png`, e)}
-                            className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
+                            onClick={(e) => handleDownloadAsset(hypePreview, `${agent.name}_hype_master_icon.png`, e)}
+                            className="p-1.5 rounded bg-white/5 hover:bg-purple-600 text-slate-300 hover:text-white transition-colors"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>
                         </div>
                       </div>
                     </div>
-                  ))}
+                  )}
 
-                  {(agent.assets?.minimapPortraits || [minimapIcon]).filter(Boolean).map((mmPortrait, idx) => (
-                    <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
+                  {displayIconsList.map((ic, idx) => (
+                    <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/40 transition-all">
                       <div
-                        onClick={() => setPreviewImage({ src: mmPortrait, title: `${agent.name} Minimap Portrait` })}
-                        className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                        onClick={() => setPreviewImage({ src: ic.relPath || ic.path, title: `${agent.name} - ${ic.name}` })}
+                        className="h-32 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
                       >
-                        <img src={toAssetUrl(mmPortrait)} alt="" className="w-20 h-20 object-contain rounded-full border border-white/10 group-hover:scale-105 transition-transform" />
+                        <img src={toAssetUrl(ic.thumbPath || ic.relPath || ic.path)} alt="" className="w-20 h-20 object-contain rounded-xl group-hover:scale-105 transition-transform" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                          <Eye className="w-6 h-6 text-white" />
+                          <Eye className="w-5 h-5 text-white" />
                         </div>
                       </div>
                       <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="font-medium text-slate-300 whitespace-nowrap">Minimap Portrait</span>
+                        <span className="font-medium text-slate-300 truncate max-w-[100px]" title={ic.name}>{ic.name}</span>
                         <div className="flex items-center gap-1 shrink-0">
                           <button
-                            onClick={(e) => handleCopyImageAsset(mmPortrait, e)}
-                            className={`p-1.5 rounded transition-colors ${
-                              copiedPath === mmPortrait ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                            onClick={(e) => handleCopyImageAsset(ic.relPath || ic.path, e)}
+                            className={`p-1 rounded transition-colors ${
+                              copiedPath === (ic.relPath || ic.path) ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
                             title="Copy image to clipboard"
                           >
-                            {copiedPath === mmPortrait ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                            {copiedPath === (ic.relPath || ic.path) ? <Check className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
                           </button>
                           <button
-                            onClick={(e) => handleDownloadAsset(mmPortrait, `${agent.name}_minimap_portrait.png`, e)}
-                            className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
+                            onClick={(e) => handleDownloadAsset(ic.relPath || ic.path, ic.filename || `${ic.name}.png`, e)}
+                            className="p-1 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
                           >
-                            <Download className="w-3.5 h-3.5" />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-
-                  {extraArtworks.map((art, idx) => (
-                    <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#00F0FF]/30 transition-all">
-                      <div
-                        onClick={() => setPreviewImage({ src: art.path, title: `${agent.name} - ${art.name}` })}
-                        className="h-40 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
-                      >
-                        <img src={toAssetUrl(art.path)} alt="" className="h-full object-contain group-hover:scale-105 transition-transform" />
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                          <Eye className="w-6 h-6 text-white" />
-                        </div>
-                      </div>
-                      <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="font-medium text-slate-300 truncate" title={art.name}>{art.name}</span>
-                        <div className="flex items-center gap-1 shrink-0">
-                          <button
-                            onClick={(e) => handleCopyImageAsset(art.path, e)}
-                            className={`p-1.5 rounded transition-colors ${
-                              copiedPath === art.path ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
-                            }`}
-                            title="Copy image to clipboard"
-                          >
-                            {copiedPath === art.path ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                          </button>
-                          <button
-                            onClick={(e) => handleDownloadAsset(art.path, art.filename, e)}
-                            className="p-1.5 rounded bg-white/5 hover:bg-[#00F0FF] hover:text-black text-slate-300 transition-colors"
-                          >
-                            <Download className="w-3.5 h-3.5" />
+                            <Download className="w-3 h-3" />
                           </button>
                         </div>
                       </div>
@@ -687,49 +647,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                 );
               })()}
 
-              {agent.assets?.posters?.length > 0 && (
-                <div className="space-y-3">
-                  <h3 className="font-display text-xs font-bold text-[#FF4655] uppercase tracking-widest flex items-center gap-2">
-                    <Sparkles className="w-3.5 h-3.5" />
-                    <span>Official Agent & Champions Posters ({agent.assets.posters.length})</span>
-                  </h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    {agent.assets.posters.map((poster, idx) => (
-                      <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/10 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/40 transition-all shadow-lg">
-                        <div
-                          onClick={() => setPreviewImage({ src: poster.relPath, title: `${agent.name} - ${poster.name}` })}
-                          className="h-48 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-1 cursor-pointer relative"
-                        >
-                          <img src={toAssetUrl(poster.thumbPath || poster.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
-                          <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <Eye className="w-6 h-6 text-white" />
-                          </div>
-                        </div>
-                        <div className="flex items-center justify-between text-xs pt-1">
-                          <span className="font-semibold text-white truncate max-w-[170px]" title={poster.name}>{poster.name}</span>
-                          <div className="flex items-center gap-1 shrink-0">
-                            <button
-                              onClick={(e) => handleCopyImageAsset(poster.relPath, e)}
-                              className={`p-1.5 rounded transition-colors ${
-                                copiedPath === poster.relPath ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
-                              }`}
-                              title="Copy image to clipboard"
-                            >
-                              {copiedPath === poster.relPath ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                            </button>
-                            <button
-                              onClick={(e) => handleDownloadAsset(poster.relPath, poster.filename, e)}
-                              className="p-1.5 rounded bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
-                            >
-                              <Download className="w-3.5 h-3.5" />
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
+
 
               {abilityIcons.length > 0 && (
                 <div className="space-y-3">
@@ -823,23 +741,23 @@ export default function AgentDetailModal({ agent, onClose }) {
                 <div className="flex items-center gap-2">
                   <Sparkles className="w-4 h-4 text-[#FF4655]" />
                   <h3 className="font-display text-sm font-bold text-white uppercase tracking-wider">
-                    Official {agent.name} Posters & Key Art Gallery
+                    Official {agent.name} Background Wallpapers & Key Art Gallery
                   </h3>
                 </div>
                 <span className="text-xs text-slate-400 font-display">
-                  {agent.assets?.posters?.length || 0} high-res posters
+                  {wallpapersList.length} background wallpapers
                 </span>
               </div>
 
-              {agent.assets?.posters?.length > 0 ? (
+              {wallpapersList.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-                  {agent.assets.posters.map((poster, idx) => (
+                  {wallpapersList.map((poster, idx) => (
                     <div key={idx} className="bg-[#0B0E14] p-3.5 rounded-2xl border border-white/10 space-y-3 flex flex-col justify-between group hover:border-[#FF4655]/50 transition-all shadow-xl">
                       <div
-                        onClick={() => setPreviewImage({ src: poster.relPath, title: `${agent.name} - ${poster.name}` })}
+                        onClick={() => setPreviewImage({ src: poster.relPath || poster.path, title: `${agent.name} - ${poster.name}` })}
                         className="h-56 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-1 cursor-pointer relative"
                       >
-                        <img src={toAssetUrl(poster.thumbPath || poster.relPath)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
+                        <img src={toAssetUrl(poster.thumbPath || poster.relPath || poster.path)} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                           <Eye className="w-7 h-7 text-white" />
                         </div>
@@ -848,18 +766,18 @@ export default function AgentDetailModal({ agent, onClose }) {
                         <span className="font-bold text-white truncate max-w-[180px]" title={poster.name}>{poster.name}</span>
                         <div className="flex items-center gap-1.5 shrink-0">
                           <button
-                            onClick={(e) => handleCopyImageAsset(poster.relPath, e)}
+                            onClick={(e) => handleCopyImageAsset(poster.relPath || poster.path, e)}
                             className={`p-2 rounded-lg transition-colors ${
-                              copiedPath === poster.relPath ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                              copiedPath === (poster.relPath || poster.path) ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
                             }`}
                             title="Copy image to clipboard"
                           >
-                            {copiedPath === poster.relPath ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                            {copiedPath === (poster.relPath || poster.path) ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                           </button>
                           <button
-                            onClick={(e) => handleDownloadAsset(poster.relPath, poster.filename, e)}
+                            onClick={(e) => handleDownloadAsset(poster.relPath || poster.path, poster.filename || `${poster.name}.png`, e)}
                             className="p-2 rounded-lg bg-white/5 hover:bg-[#FF4655] text-slate-300 hover:text-white transition-colors"
-                            title="Download poster"
+                            title="Download wallpaper"
                           >
                             <Download className="w-3.5 h-3.5" />
                           </button>

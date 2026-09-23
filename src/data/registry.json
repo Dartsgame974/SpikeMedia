@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T18:32:36.973Z",
+  "generatedAt": "2026-09-23T18:57:50.859Z",
   "roleIcons": {
     "All": "Valorantek/Icons/Roles/TX_UI_RoleIcon_All_thumb.webp",
     "Controller": "Valorantek/Icons/Roles/TX_UI_RoleIcon_Controller_thumb.webp",
@@ -106,6 +106,75 @@
             "relPath": "Valorantek/agents/Astra/posters/TX_Character_PortraitDisplayIcon_Default_Astra_AM_4K.png",
             "thumbPath": "Valorantek/agents/Astra/posters/TX_Character_PortraitDisplayIcon_Default_Astra_AM_4K.png",
             "sizeBytes": 96776
+          },
+          {
+            "filename": "V26_A5_AM_ASTRA.jpg",
+            "name": "V26_A5_AM_ASTRA",
+            "relPath": "Valorantek/agents/Astra/posters/V26_A5_AM_ASTRA.jpg",
+            "thumbPath": "Valorantek/agents/Astra/posters/V26_A5_AM_ASTRA.jpg",
+            "sizeBytes": 1177463
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Astra_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Astra_AM_4K",
+            "relPath": "Valorantek/agents/Astra/posters/TX_Character_FullPortrait_Astra_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Astra/posters/TX_Character_FullPortrait_Astra_AM_4K.png",
+            "sizeBytes": 2189432
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Astra_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Astra_AM_4K",
+            "relPath": "Valorantek/agents/Astra/posters/TX_Character_PortraitDisplayIcon_Astra_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Astra/posters/TX_Character_PortraitDisplayIcon_Astra_AM_4K.png",
+            "sizeBytes": 99997
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Astra_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Astra_AM_4K",
+            "relPath": "Valorantek/agents/Astra/posters/TX_Character_PortraitDisplayIcon_Default_Astra_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Astra/posters/TX_Character_PortraitDisplayIcon_Default_Astra_AM_4K.png",
+            "sizeBytes": 96776
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Astra_Background_Default.png",
+            "name": "TX_AgentMastery_Astra_Background_Default",
+            "relPath": "Valorantek/agents/Astra/posters/TX_AgentMastery_Astra_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Astra/posters/TX_AgentMastery_Astra_Background_Default.png",
+            "sizeBytes": 446319
+          },
+          {
+            "filename": "TX_AgentMastery_Astra_Background_Lore.png",
+            "name": "TX_AgentMastery_Astra_Background_Lore",
+            "relPath": "Valorantek/agents/Astra/posters/TX_AgentMastery_Astra_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Astra/posters/TX_AgentMastery_Astra_Background_Lore.png",
+            "sizeBytes": 331730
+          },
+          {
+            "filename": "TX_AgentMastery_Astra_Background_Role.png",
+            "name": "TX_AgentMastery_Astra_Background_Role",
+            "relPath": "Valorantek/agents/Astra/posters/TX_AgentMastery_Astra_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Astra/posters/TX_AgentMastery_Astra_Background_Role.png",
+            "sizeBytes": 605394
+          },
+          {
+            "filename": "TX_AgentMastery_Astra_Background_VAL.png",
+            "name": "TX_AgentMastery_Astra_Background_VAL",
+            "relPath": "Valorantek/agents/Astra/posters/TX_AgentMastery_Astra_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Astra/posters/TX_AgentMastery_Astra_Background_VAL.png",
+            "sizeBytes": 498802
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Astra.png",
+            "name": "TX_Character_CarouselPreview_Hype_Astra",
+            "relPath": "Valorantek/agents/Astra/posters/TX_Character_CarouselPreview_Hype_Astra.png",
+            "thumbPath": "Valorantek/agents/Astra/posters/TX_Character_CarouselPreview_Hype_Astra.png",
+            "sizeBytes": 20142
           },
           {
             "filename": "V26_A5_AM_ASTRA.jpg",
@@ -977,6 +1046,89 @@
             "sizeBytes": 4692716
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Breach_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Breach_AM_4K",
+            "relPath": "Valorantek/agents/Breach/posters/TX_Character_FullPortrait_Breach_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Breach/posters/TX_Character_FullPortrait_Breach_AM_4K.png",
+            "sizeBytes": 2382643
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Breach_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Breach_AM_4K",
+            "relPath": "Valorantek/agents/Breach/posters/TX_Character_PortraitDisplayIcon_Breach_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Breach/posters/TX_Character_PortraitDisplayIcon_Breach_AM_4K.png",
+            "sizeBytes": 115858
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Breach_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Breach_AM_4K",
+            "relPath": "Valorantek/agents/Breach/posters/TX_Character_PortraitDisplayIcon_Default_Breach_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Breach/posters/TX_Character_PortraitDisplayIcon_Default_Breach_AM_4K.png",
+            "sizeBytes": 88186
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Breach_Background_Default.png",
+            "name": "TX_AgentMastery_Breach_Background_Default",
+            "relPath": "Valorantek/agents/Breach/posters/TX_AgentMastery_Breach_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Breach/posters/TX_AgentMastery_Breach_Background_Default.png",
+            "sizeBytes": 431604
+          },
+          {
+            "filename": "TX_AgentMastery_Breach_Background_Lore.png",
+            "name": "TX_AgentMastery_Breach_Background_Lore",
+            "relPath": "Valorantek/agents/Breach/posters/TX_AgentMastery_Breach_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Breach/posters/TX_AgentMastery_Breach_Background_Lore.png",
+            "sizeBytes": 242066
+          },
+          {
+            "filename": "TX_AgentMastery_Breach_Background_Role.png",
+            "name": "TX_AgentMastery_Breach_Background_Role",
+            "relPath": "Valorantek/agents/Breach/posters/TX_AgentMastery_Breach_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Breach/posters/TX_AgentMastery_Breach_Background_Role.png",
+            "sizeBytes": 695743
+          },
+          {
+            "filename": "TX_AgentMastery_Breach_Background_VAL.png",
+            "name": "TX_AgentMastery_Breach_Background_VAL",
+            "relPath": "Valorantek/agents/Breach/posters/TX_AgentMastery_Breach_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Breach/posters/TX_AgentMastery_Breach_Background_VAL.png",
+            "sizeBytes": 586971
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Breach.png",
+            "name": "TX_Character_CarouselPreview_Hype_Breach",
+            "relPath": "Valorantek/agents/Breach/posters/TX_Character_CarouselPreview_Hype_Breach.png",
+            "thumbPath": "Valorantek/agents/Breach/posters/TX_Character_CarouselPreview_Hype_Breach.png",
+            "sizeBytes": 23748
+          },
+          {
+            "filename": "V26_A5_AM_BREACH.jpg",
+            "name": "V26_A5_AM_BREACH",
+            "relPath": "Valorantek/agents/Breach/posters/V26_A5_AM_BREACH.jpg",
+            "thumbPath": "Valorantek/agents/Breach/posters/V26_A5_AM_BREACH.jpg",
+            "sizeBytes": 974511
+          },
+          {
+            "filename": "VALORANT_Breach_Dark.jpg",
+            "name": "VALORANT_Breach_Dark",
+            "relPath": "Valorantek/agents/Breach/posters/VALORANT_Breach_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Breach/posters/VALORANT_Breach_Dark_thumb.webp",
+            "sizeBytes": 4951848
+          },
+          {
+            "filename": "VALORANT_Breach_Light.jpg",
+            "name": "VALORANT_Breach_Light",
+            "relPath": "Valorantek/agents/Breach/posters/VALORANT_Breach_Light.jpg",
+            "thumbPath": "Valorantek/agents/Breach/posters/VALORANT_Breach_Light_thumb.webp",
+            "sizeBytes": 4692716
+          }
+        ],
         "minimapPortraits": [
           "Valorantek/Icons/Minimap/Minimap_Thumbnails/TX_MinimapPortrait_Breach.png",
           "Valorantek/Icons/Minimap/Minimap_Thumbnails/TX_MinimapPortrait_Breach_thumb.webp"
@@ -1566,6 +1718,89 @@
             "relPath": "Valorantek/agents/Brimstone/posters/TX_Character_PortraitDisplayIcon_Default_Brimstone_AM_4K.png",
             "thumbPath": "Valorantek/agents/Brimstone/posters/TX_Character_PortraitDisplayIcon_Default_Brimstone_AM_4K.png",
             "sizeBytes": 76778
+          },
+          {
+            "filename": "V26_A5_AM_BRIMSTONE.jpg",
+            "name": "V26_A5_AM_BRIMSTONE",
+            "relPath": "Valorantek/agents/Brimstone/posters/V26_A5_AM_BRIMSTONE.jpg",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/V26_A5_AM_BRIMSTONE.jpg",
+            "sizeBytes": 843591
+          },
+          {
+            "filename": "VALORANT_Brimm_Dark.jpg",
+            "name": "VALORANT_Brimm_Dark",
+            "relPath": "Valorantek/agents/Brimstone/posters/VALORANT_Brimm_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/VALORANT_Brimm_Dark_thumb.webp",
+            "sizeBytes": 5111788
+          },
+          {
+            "filename": "VALORANT_Brimm_Light.jpg",
+            "name": "VALORANT_Brimm_Light",
+            "relPath": "Valorantek/agents/Brimstone/posters/VALORANT_Brimm_Light.jpg",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/VALORANT_Brimm_Light_thumb.webp",
+            "sizeBytes": 4741378
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Brimstone_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Brimstone_AM_4K",
+            "relPath": "Valorantek/agents/Brimstone/posters/TX_Character_FullPortrait_Brimstone_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/TX_Character_FullPortrait_Brimstone_AM_4K.png",
+            "sizeBytes": 2667425
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Brimstone_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Brimstone_AM_4K",
+            "relPath": "Valorantek/agents/Brimstone/posters/TX_Character_PortraitDisplayIcon_Brimstone_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/TX_Character_PortraitDisplayIcon_Brimstone_AM_4K.png",
+            "sizeBytes": 95199
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Brimstone_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Brimstone_AM_4K",
+            "relPath": "Valorantek/agents/Brimstone/posters/TX_Character_PortraitDisplayIcon_Default_Brimstone_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/TX_Character_PortraitDisplayIcon_Default_Brimstone_AM_4K.png",
+            "sizeBytes": 76778
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Brimstone_Background_Default.png",
+            "name": "TX_AgentMastery_Brimstone_Background_Default",
+            "relPath": "Valorantek/agents/Brimstone/posters/TX_AgentMastery_Brimstone_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/TX_AgentMastery_Brimstone_Background_Default.png",
+            "sizeBytes": 445899
+          },
+          {
+            "filename": "TX_AgentMastery_Brimstone_Background_Lore.png",
+            "name": "TX_AgentMastery_Brimstone_Background_Lore",
+            "relPath": "Valorantek/agents/Brimstone/posters/TX_AgentMastery_Brimstone_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/TX_AgentMastery_Brimstone_Background_Lore.png",
+            "sizeBytes": 260650
+          },
+          {
+            "filename": "TX_AgentMastery_Brimstone_Background_Role.png",
+            "name": "TX_AgentMastery_Brimstone_Background_Role",
+            "relPath": "Valorantek/agents/Brimstone/posters/TX_AgentMastery_Brimstone_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/TX_AgentMastery_Brimstone_Background_Role.png",
+            "sizeBytes": 653095
+          },
+          {
+            "filename": "TX_AgentMastery_Brimstone_Background_VAL.png",
+            "name": "TX_AgentMastery_Brimstone_Background_VAL",
+            "relPath": "Valorantek/agents/Brimstone/posters/TX_AgentMastery_Brimstone_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/TX_AgentMastery_Brimstone_Background_VAL.png",
+            "sizeBytes": 529470
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Brimstone.png",
+            "name": "TX_Character_CarouselPreview_Hype_Brimstone",
+            "relPath": "Valorantek/agents/Brimstone/posters/TX_Character_CarouselPreview_Hype_Brimstone.png",
+            "thumbPath": "Valorantek/agents/Brimstone/posters/TX_Character_CarouselPreview_Hype_Brimstone.png",
+            "sizeBytes": 19159
           },
           {
             "filename": "V26_A5_AM_BRIMSTONE.jpg",
@@ -2395,6 +2630,75 @@
             "relPath": "Valorantek/agents/Chamber/posters/TX_Character_PortraitDisplayIcon_Default_Chamber_AM_4K.png",
             "thumbPath": "Valorantek/agents/Chamber/posters/TX_Character_PortraitDisplayIcon_Default_Chamber_AM_4K.png",
             "sizeBytes": 80249
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortraitChamber_AM_4K.png",
+            "name": "TX_Character_FullPortraitChamber_AM_4K",
+            "relPath": "Valorantek/agents/Chamber/posters/TX_Character_FullPortraitChamber_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Chamber/posters/TX_Character_FullPortraitChamber_AM_4K.png",
+            "sizeBytes": 1742339
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Chamber_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Chamber_AM_4K",
+            "relPath": "Valorantek/agents/Chamber/posters/TX_Character_PortraitDisplayIcon_Chamber_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Chamber/posters/TX_Character_PortraitDisplayIcon_Chamber_AM_4K.png",
+            "sizeBytes": 91722
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Chamber_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Chamber_AM_4K",
+            "relPath": "Valorantek/agents/Chamber/posters/TX_Character_PortraitDisplayIcon_Default_Chamber_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Chamber/posters/TX_Character_PortraitDisplayIcon_Default_Chamber_AM_4K.png",
+            "sizeBytes": 80249
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "Agent Mastery_16x9_Chamber.png",
+            "name": "Agent Mastery_16x9_Chamber",
+            "relPath": "Valorantek/agents/Chamber/posters/Agent Mastery_16x9_Chamber.png",
+            "thumbPath": "Valorantek/agents/Chamber/posters/Agent Mastery_16x9_Chamber.png",
+            "sizeBytes": 2937462
+          },
+          {
+            "filename": "TX_AgentMastery_Chamber_Background_Default.png",
+            "name": "TX_AgentMastery_Chamber_Background_Default",
+            "relPath": "Valorantek/agents/Chamber/posters/TX_AgentMastery_Chamber_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Chamber/posters/TX_AgentMastery_Chamber_Background_Default.png",
+            "sizeBytes": 483594
+          },
+          {
+            "filename": "TX_AgentMastery_Chamber_Background_Role.png",
+            "name": "TX_AgentMastery_Chamber_Background_Role",
+            "relPath": "Valorantek/agents/Chamber/posters/TX_AgentMastery_Chamber_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Chamber/posters/TX_AgentMastery_Chamber_Background_Role.png",
+            "sizeBytes": 651787
+          },
+          {
+            "filename": "TX_AgentMastery_Chamber_Background_VAL.png",
+            "name": "TX_AgentMastery_Chamber_Background_VAL",
+            "relPath": "Valorantek/agents/Chamber/posters/TX_AgentMastery_Chamber_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Chamber/posters/TX_AgentMastery_Chamber_Background_VAL.png",
+            "sizeBytes": 527085
+          },
+          {
+            "filename": "TX_AgentMastery_Chamber_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Chamber_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Chamber/posters/TX_AgentMastery_Chamber_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Chamber/posters/TX_AgentMastery_Chamber_Lore_Background_VAL.png",
+            "sizeBytes": 261558
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Chamber.png",
+            "name": "TX_Character_CarouselPreview_Hype_Chamber",
+            "relPath": "Valorantek/agents/Chamber/posters/TX_Character_CarouselPreview_Hype_Chamber.png",
+            "thumbPath": "Valorantek/agents/Chamber/posters/TX_Character_CarouselPreview_Hype_Chamber.png",
+            "sizeBytes": 16895
           }
         ],
         "killfeedIcons": [
@@ -3804,6 +4108,103 @@
             "sizeBytes": 904872
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Clove_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Clove_AM_4K",
+            "relPath": "Valorantek/agents/Clove/posters/TX_Character_FullPortrait_Clove_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Clove/posters/TX_Character_FullPortrait_Clove_AM_4K.png",
+            "sizeBytes": 1750527
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Clove_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Clove_AM_4K",
+            "relPath": "Valorantek/agents/Clove/posters/TX_Character_PortraitDisplayIcon_Clove_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Clove/posters/TX_Character_PortraitDisplayIcon_Clove_AM_4K.png",
+            "sizeBytes": 78310
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Clove_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Clove_AM_4K",
+            "relPath": "Valorantek/agents/Clove/posters/TX_Character_PortraitDisplayIcon_Default_Clove_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Clove/posters/TX_Character_PortraitDisplayIcon_Default_Clove_AM_4K.png",
+            "sizeBytes": 88484
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "clove_BG2.jpg",
+            "name": "clove_BG2",
+            "relPath": "Valorantek/agents/Clove/posters/clove_BG2.jpg",
+            "thumbPath": "Valorantek/agents/Clove/posters/clove_BG2_thumb.webp",
+            "sizeBytes": 2407515
+          },
+          {
+            "filename": "CLOVE_BG_&.jpg",
+            "name": "CLOVE_BG_&",
+            "relPath": "Valorantek/agents/Clove/posters/CLOVE_BG_&.jpg",
+            "thumbPath": "Valorantek/agents/Clove/posters/CLOVE_BG_&_thumb.webp",
+            "sizeBytes": 2089562
+          },
+          {
+            "filename": "CLOVE_POSTER_CHAMP_2024_1.jpg",
+            "name": "CLOVE_POSTER_CHAMP_2024_1",
+            "relPath": "Valorantek/agents/Clove/posters/CLOVE_POSTER_CHAMP_2024_1.jpg",
+            "thumbPath": "Valorantek/agents/Clove/posters/CLOVE_POSTER_CHAMP_2024_1_thumb.webp",
+            "sizeBytes": 721354
+          },
+          {
+            "filename": "POSER_CHAMP_2024_1VERTICAL_clove.jpg",
+            "name": "POSER_CHAMP_2024_1VERTICAL_clove",
+            "relPath": "Valorantek/agents/Clove/posters/POSER_CHAMP_2024_1VERTICAL_clove.jpg",
+            "thumbPath": "Valorantek/agents/Clove/posters/POSER_CHAMP_2024_1VERTICAL_clove_thumb.webp",
+            "sizeBytes": 1202896
+          },
+          {
+            "filename": "TX_AgentMastery_Clove_Background_Default.png",
+            "name": "TX_AgentMastery_Clove_Background_Default",
+            "relPath": "Valorantek/agents/Clove/posters/TX_AgentMastery_Clove_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Clove/posters/TX_AgentMastery_Clove_Background_Default.png",
+            "sizeBytes": 423698
+          },
+          {
+            "filename": "TX_AgentMastery_Clove_Background_Role.png",
+            "name": "TX_AgentMastery_Clove_Background_Role",
+            "relPath": "Valorantek/agents/Clove/posters/TX_AgentMastery_Clove_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Clove/posters/TX_AgentMastery_Clove_Background_Role.png",
+            "sizeBytes": 709151
+          },
+          {
+            "filename": "TX_AgentMastery_Clove_Background_VAL.png",
+            "name": "TX_AgentMastery_Clove_Background_VAL",
+            "relPath": "Valorantek/agents/Clove/posters/TX_AgentMastery_Clove_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Clove/posters/TX_AgentMastery_Clove_Background_VAL.png",
+            "sizeBytes": 578723
+          },
+          {
+            "filename": "TX_AgentMastery_Clove_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Clove_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Clove/posters/TX_AgentMastery_Clove_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Clove/posters/TX_AgentMastery_Clove_Lore_Background_VAL.png",
+            "sizeBytes": 171482
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Clove.png",
+            "name": "TX_Character_CarouselPreview_Hype_Clove",
+            "relPath": "Valorantek/agents/Clove/posters/TX_Character_CarouselPreview_Hype_Clove.png",
+            "thumbPath": "Valorantek/agents/Clove/posters/TX_Character_CarouselPreview_Hype_Clove.png",
+            "sizeBytes": 19186
+          },
+          {
+            "filename": "V26_A5_AM_CLOVE.jpg",
+            "name": "V26_A5_AM_CLOVE",
+            "relPath": "Valorantek/agents/Clove/posters/V26_A5_AM_CLOVE.jpg",
+            "thumbPath": "Valorantek/agents/Clove/posters/V26_A5_AM_CLOVE.jpg",
+            "sizeBytes": 904872
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Clove.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Clove_thumb.webp"
@@ -4843,6 +5244,89 @@
             "relPath": "Valorantek/agents/Cypher/posters/TX_Character_PortraitDisplayIcon_Default_Cypher_AM_4K.png",
             "thumbPath": "Valorantek/agents/Cypher/posters/TX_Character_PortraitDisplayIcon_Default_Cypher_AM_4K.png",
             "sizeBytes": 73535
+          },
+          {
+            "filename": "V26_A5_AM_CYPHER.jpg",
+            "name": "V26_A5_AM_CYPHER",
+            "relPath": "Valorantek/agents/Cypher/posters/V26_A5_AM_CYPHER.jpg",
+            "thumbPath": "Valorantek/agents/Cypher/posters/V26_A5_AM_CYPHER.jpg",
+            "sizeBytes": 721476
+          },
+          {
+            "filename": "VALORANT_Cypher_Dark.jpg",
+            "name": "VALORANT_Cypher_Dark",
+            "relPath": "Valorantek/agents/Cypher/posters/VALORANT_Cypher_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Cypher/posters/VALORANT_Cypher_Dark_thumb.webp",
+            "sizeBytes": 4686228
+          },
+          {
+            "filename": "VALORANT_Cypher_Light.jpg",
+            "name": "VALORANT_Cypher_Light",
+            "relPath": "Valorantek/agents/Cypher/posters/VALORANT_Cypher_Light.jpg",
+            "thumbPath": "Valorantek/agents/Cypher/posters/VALORANT_Cypher_Light_thumb.webp",
+            "sizeBytes": 4542920
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Cypher_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Cypher_AM_4K",
+            "relPath": "Valorantek/agents/Cypher/posters/TX_Character_FullPortrait_Cypher_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Cypher/posters/TX_Character_FullPortrait_Cypher_AM_4K.png",
+            "sizeBytes": 2520633
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Cypher_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Cypher_AM_4K",
+            "relPath": "Valorantek/agents/Cypher/posters/TX_Character_PortraitDisplayIcon_Cypher_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Cypher/posters/TX_Character_PortraitDisplayIcon_Cypher_AM_4K.png",
+            "sizeBytes": 93833
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Cypher_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Cypher_AM_4K",
+            "relPath": "Valorantek/agents/Cypher/posters/TX_Character_PortraitDisplayIcon_Default_Cypher_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Cypher/posters/TX_Character_PortraitDisplayIcon_Default_Cypher_AM_4K.png",
+            "sizeBytes": 73535
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Cypher_Background_Default.png",
+            "name": "TX_AgentMastery_Cypher_Background_Default",
+            "relPath": "Valorantek/agents/Cypher/posters/TX_AgentMastery_Cypher_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Cypher/posters/TX_AgentMastery_Cypher_Background_Default.png",
+            "sizeBytes": 477322
+          },
+          {
+            "filename": "TX_AgentMastery_Cypher_Background_Role.png",
+            "name": "TX_AgentMastery_Cypher_Background_Role",
+            "relPath": "Valorantek/agents/Cypher/posters/TX_AgentMastery_Cypher_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Cypher/posters/TX_AgentMastery_Cypher_Background_Role.png",
+            "sizeBytes": 698937
+          },
+          {
+            "filename": "TX_AgentMastery_Cypher_Background_VAL.png",
+            "name": "TX_AgentMastery_Cypher_Background_VAL",
+            "relPath": "Valorantek/agents/Cypher/posters/TX_AgentMastery_Cypher_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Cypher/posters/TX_AgentMastery_Cypher_Background_VAL.png",
+            "sizeBytes": 582249
+          },
+          {
+            "filename": "TX_AgentMastery_Cypher_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Cypher_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Cypher/posters/TX_AgentMastery_Cypher_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Cypher/posters/TX_AgentMastery_Cypher_Lore_Background_VAL.png",
+            "sizeBytes": 219318
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Cypher.png",
+            "name": "TX_Character_CarouselPreview_Hype_Cypher",
+            "relPath": "Valorantek/agents/Cypher/posters/TX_Character_CarouselPreview_Hype_Cypher.png",
+            "thumbPath": "Valorantek/agents/Cypher/posters/TX_Character_CarouselPreview_Hype_Cypher.png",
+            "sizeBytes": 19826
           },
           {
             "filename": "V26_A5_AM_CYPHER.jpg",
@@ -5929,6 +6413,131 @@
             "sizeBytes": 3186777
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Deadlock_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Deadlock_AM_4K",
+            "relPath": "Valorantek/agents/Deadlock/posters/TX_Character_FullPortrait_Deadlock_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/TX_Character_FullPortrait_Deadlock_AM_4K.png",
+            "sizeBytes": 2444403
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Deadlock_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Deadlock_AM_4K",
+            "relPath": "Valorantek/agents/Deadlock/posters/TX_Character_PortraitDisplayIcon_Deadlock_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/TX_Character_PortraitDisplayIcon_Deadlock_AM_4K.png",
+            "sizeBytes": 93250
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Deadlock_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Deadlock_AM_4K",
+            "relPath": "Valorantek/agents/Deadlock/posters/TX_Character_PortraitDisplayIcon_Default_Deadlock_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/TX_Character_PortraitDisplayIcon_Default_Deadlock_AM_4K.png",
+            "sizeBytes": 110714
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "California_Sand_DL_TYPE_dl.png",
+            "name": "California_Sand_DL_TYPE_dl",
+            "relPath": "Valorantek/agents/Deadlock/posters/California_Sand_DL_TYPE_dl.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/California_Sand_DL_TYPE_dl_thumb.webp",
+            "sizeBytes": 5296728
+          },
+          {
+            "filename": "Deadlock_Intro_Frame_2.png",
+            "name": "Deadlock_Intro_Frame_2",
+            "relPath": "Valorantek/agents/Deadlock/posters/Deadlock_Intro_Frame_2.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/Deadlock_Intro_Frame_2_thumb.webp",
+            "sizeBytes": 2648390
+          },
+          {
+            "filename": "DL_Tease_16x9_v1.jpg",
+            "name": "DL_Tease_16x9_v1",
+            "relPath": "Valorantek/agents/Deadlock/posters/DL_Tease_16x9_v1.jpg",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/DL_Tease_16x9_v1_thumb.webp",
+            "sizeBytes": 1487318
+          },
+          {
+            "filename": "Ep_7_Keyart_4k.jpg",
+            "name": "Ep_7_Keyart_4k",
+            "relPath": "Valorantek/agents/Deadlock/posters/Ep_7_Keyart_4k.jpg",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/Ep_7_Keyart_4k_thumb.webp",
+            "sizeBytes": 1192202
+          },
+          {
+            "filename": "TX_AgentMastery_Deadlock_Background_Default.png",
+            "name": "TX_AgentMastery_Deadlock_Background_Default",
+            "relPath": "Valorantek/agents/Deadlock/posters/TX_AgentMastery_Deadlock_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/TX_AgentMastery_Deadlock_Background_Default.png",
+            "sizeBytes": 465241
+          },
+          {
+            "filename": "TX_AgentMastery_Deadlock_Background_Role.png",
+            "name": "TX_AgentMastery_Deadlock_Background_Role",
+            "relPath": "Valorantek/agents/Deadlock/posters/TX_AgentMastery_Deadlock_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/TX_AgentMastery_Deadlock_Background_Role.png",
+            "sizeBytes": 770806
+          },
+          {
+            "filename": "TX_AgentMastery_Deadlock_Background_VAL.png",
+            "name": "TX_AgentMastery_Deadlock_Background_VAL",
+            "relPath": "Valorantek/agents/Deadlock/posters/TX_AgentMastery_Deadlock_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/TX_AgentMastery_Deadlock_Background_VAL.png",
+            "sizeBytes": 649798
+          },
+          {
+            "filename": "TX_AgentMastery_Deadlock_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Deadlock_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Deadlock/posters/TX_AgentMastery_Deadlock_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/TX_AgentMastery_Deadlock_Lore_Background_VAL.png",
+            "sizeBytes": 251703
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Deadlock.png",
+            "name": "TX_Character_CarouselPreview_Hype_Deadlock",
+            "relPath": "Valorantek/agents/Deadlock/posters/TX_Character_CarouselPreview_Hype_Deadlock.png",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/TX_Character_CarouselPreview_Hype_Deadlock.png",
+            "sizeBytes": 23094
+          },
+          {
+            "filename": "V26_A5_AM_DEADLOCK.jpg",
+            "name": "V26_A5_AM_DEADLOCK",
+            "relPath": "Valorantek/agents/Deadlock/posters/V26_A5_AM_DEADLOCK.jpg",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/V26_A5_AM_DEADLOCK.jpg",
+            "sizeBytes": 781685
+          },
+          {
+            "filename": "VALORANT_Deadlock_Wallpapers_4k_Dark1.jpg",
+            "name": "VALORANT_Deadlock_Wallpapers_4k_Dark1",
+            "relPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_Dark1.jpg",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_Dark1_thumb.webp",
+            "sizeBytes": 2731986
+          },
+          {
+            "filename": "VALORANT_Deadlock_Wallpapers_4k_Dark2.jpg",
+            "name": "VALORANT_Deadlock_Wallpapers_4k_Dark2",
+            "relPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_Dark2.jpg",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_Dark2_thumb.webp",
+            "sizeBytes": 2336637
+          },
+          {
+            "filename": "VALORANT_Deadlock_Wallpapers_4k_light1.jpg",
+            "name": "VALORANT_Deadlock_Wallpapers_4k_light1",
+            "relPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_light1.jpg",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_light1_thumb.webp",
+            "sizeBytes": 3334893
+          },
+          {
+            "filename": "VALORANT_Deadlock_Wallpapers_4k_light2.jpg",
+            "name": "VALORANT_Deadlock_Wallpapers_4k_light2",
+            "relPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_light2.jpg",
+            "thumbPath": "Valorantek/agents/Deadlock/posters/VALORANT_Deadlock_Wallpapers_4k_light2_thumb.webp",
+            "sizeBytes": 3186777
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Deadlock.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Deadlock_thumb.webp"
@@ -6821,6 +7430,75 @@
             "relPath": "Valorantek/agents/Fade/posters/TX_Character_PortraitDisplayIcon_Fade_AM_4K.png",
             "thumbPath": "Valorantek/agents/Fade/posters/TX_Character_PortraitDisplayIcon_Fade_AM_4K.png",
             "sizeBytes": 90616
+          },
+          {
+            "filename": "V26_A5_AM_FADE.jpg",
+            "name": "V26_A5_AM_FADE",
+            "relPath": "Valorantek/agents/Fade/posters/V26_A5_AM_FADE.jpg",
+            "thumbPath": "Valorantek/agents/Fade/posters/V26_A5_AM_FADE.jpg",
+            "sizeBytes": 783829
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Fade_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Fade_AM_4K",
+            "relPath": "Valorantek/agents/Fade/posters/TX_Character_FullPortrait_Fade_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Fade/posters/TX_Character_FullPortrait_Fade_AM_4K.png",
+            "sizeBytes": 1864397
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Fade_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Fade_AM_4K",
+            "relPath": "Valorantek/agents/Fade/posters/TX_Character_PortraitDisplayIcon_Default_Fade_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Fade/posters/TX_Character_PortraitDisplayIcon_Default_Fade_AM_4K.png",
+            "sizeBytes": 91068
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Fade_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Fade_AM_4K",
+            "relPath": "Valorantek/agents/Fade/posters/TX_Character_PortraitDisplayIcon_Fade_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Fade/posters/TX_Character_PortraitDisplayIcon_Fade_AM_4K.png",
+            "sizeBytes": 90616
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Fade_Background_Default.png",
+            "name": "TX_AgentMastery_Fade_Background_Default",
+            "relPath": "Valorantek/agents/Fade/posters/TX_AgentMastery_Fade_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Fade/posters/TX_AgentMastery_Fade_Background_Default.png",
+            "sizeBytes": 429448
+          },
+          {
+            "filename": "TX_AgentMastery_Fade_Background_Lore.png",
+            "name": "TX_AgentMastery_Fade_Background_Lore",
+            "relPath": "Valorantek/agents/Fade/posters/TX_AgentMastery_Fade_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Fade/posters/TX_AgentMastery_Fade_Background_Lore.png",
+            "sizeBytes": 249568
+          },
+          {
+            "filename": "TX_AgentMastery_Fade_Background_Role.png",
+            "name": "TX_AgentMastery_Fade_Background_Role",
+            "relPath": "Valorantek/agents/Fade/posters/TX_AgentMastery_Fade_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Fade/posters/TX_AgentMastery_Fade_Background_Role.png",
+            "sizeBytes": 633948
+          },
+          {
+            "filename": "TX_AgentMastery_Fade_Background_VAL.png",
+            "name": "TX_AgentMastery_Fade_Background_VAL",
+            "relPath": "Valorantek/agents/Fade/posters/TX_AgentMastery_Fade_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Fade/posters/TX_AgentMastery_Fade_Background_VAL.png",
+            "sizeBytes": 489090
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Fade.png",
+            "name": "TX_Character_CarouselPreview_Hype_Fade",
+            "relPath": "Valorantek/agents/Fade/posters/TX_Character_CarouselPreview_Hype_Fade.png",
+            "thumbPath": "Valorantek/agents/Fade/posters/TX_Character_CarouselPreview_Hype_Fade.png",
+            "sizeBytes": 23060
           },
           {
             "filename": "V26_A5_AM_FADE.jpg",
@@ -7750,6 +8428,138 @@
             "relPath": "Valorantek/agents/Gekko/posters/TX_Character_PortraitDisplayIcon_Gekko_AM_4K.png",
             "thumbPath": "Valorantek/agents/Gekko/posters/TX_Character_PortraitDisplayIcon_Gekko_AM_4K.png",
             "sizeBytes": 77619
+          },
+          {
+            "filename": "V26_A5_AM_GEKKO.jpg",
+            "name": "V26_A5_AM_GEKKO",
+            "relPath": "Valorantek/agents/Gekko/posters/V26_A5_AM_GEKKO.jpg",
+            "thumbPath": "Valorantek/agents/Gekko/posters/V26_A5_AM_GEKKO.jpg",
+            "sizeBytes": 957459
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Gekko_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Gekko_AM_4K",
+            "relPath": "Valorantek/agents/Gekko/posters/TX_Character_FullPortrait_Gekko_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/TX_Character_FullPortrait_Gekko_AM_4K.png",
+            "sizeBytes": 2490924
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Gekko_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Gekko_AM_4K",
+            "relPath": "Valorantek/agents/Gekko/posters/TX_Character_PortraitDisplayIcon_Default_Gekko_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/TX_Character_PortraitDisplayIcon_Default_Gekko_AM_4K.png",
+            "sizeBytes": 89661
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Gekko_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Gekko_AM_4K",
+            "relPath": "Valorantek/agents/Gekko/posters/TX_Character_PortraitDisplayIcon_Gekko_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/TX_Character_PortraitDisplayIcon_Gekko_AM_4K.png",
+            "sizeBytes": 77619
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_1.jpg",
+            "name": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_1",
+            "relPath": "Valorantek/agents/Gekko/posters/Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_1.jpg",
+            "thumbPath": "Valorantek/agents/Gekko/posters/Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_1_thumb.webp",
+            "sizeBytes": 1217090
+          },
+          {
+            "filename": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_2.jpg",
+            "name": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_2",
+            "relPath": "Valorantek/agents/Gekko/posters/Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_2.jpg",
+            "thumbPath": "Valorantek/agents/Gekko/posters/Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_2_thumb.webp",
+            "sizeBytes": 1099171
+          },
+          {
+            "filename": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_3.jpg",
+            "name": "Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_3",
+            "relPath": "Valorantek/agents/Gekko/posters/Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_3.jpg",
+            "thumbPath": "Valorantek/agents/Gekko/posters/Ep6_2_KeyArt_BM_4k_Gekko_CENTERED_3_thumb.webp",
+            "sizeBytes": 929053
+          },
+          {
+            "filename": "Gekko_Dark_1.png",
+            "name": "Gekko_Dark_1",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Dark_1.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/Gekko_Dark_1_thumb.webp",
+            "sizeBytes": 2155991
+          },
+          {
+            "filename": "Gekko_Dark_2.png",
+            "name": "Gekko_Dark_2",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Dark_2.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/Gekko_Dark_2_thumb.webp",
+            "sizeBytes": 1781431
+          },
+          {
+            "filename": "Gekko_Green.png",
+            "name": "Gekko_Green",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Green.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/Gekko_Green_thumb.webp",
+            "sizeBytes": 2466948
+          },
+          {
+            "filename": "Gekko_Light_1.png",
+            "name": "Gekko_Light_1",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Light_1.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/Gekko_Light_1_thumb.webp",
+            "sizeBytes": 2371711
+          },
+          {
+            "filename": "Gekko_Light_2.png",
+            "name": "Gekko_Light_2",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Light_2.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/Gekko_Light_2_thumb.webp",
+            "sizeBytes": 2359983
+          },
+          {
+            "filename": "Gekko_Purple.png",
+            "name": "Gekko_Purple",
+            "relPath": "Valorantek/agents/Gekko/posters/Gekko_Purple.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/Gekko_Purple_thumb.webp",
+            "sizeBytes": 1941499
+          },
+          {
+            "filename": "TX_AgentMastery_Gekko_Background_Default.png",
+            "name": "TX_AgentMastery_Gekko_Background_Default",
+            "relPath": "Valorantek/agents/Gekko/posters/TX_AgentMastery_Gekko_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/TX_AgentMastery_Gekko_Background_Default.png",
+            "sizeBytes": 392488
+          },
+          {
+            "filename": "TX_AgentMastery_Gekko_Background_Lore.png",
+            "name": "TX_AgentMastery_Gekko_Background_Lore",
+            "relPath": "Valorantek/agents/Gekko/posters/TX_AgentMastery_Gekko_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/TX_AgentMastery_Gekko_Background_Lore.png",
+            "sizeBytes": 211707
+          },
+          {
+            "filename": "TX_AgentMastery_Gekko_Background_Role.png",
+            "name": "TX_AgentMastery_Gekko_Background_Role",
+            "relPath": "Valorantek/agents/Gekko/posters/TX_AgentMastery_Gekko_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/TX_AgentMastery_Gekko_Background_Role.png",
+            "sizeBytes": 603808
+          },
+          {
+            "filename": "TX_AgentMastery_Gekko_Background_VAL.png",
+            "name": "TX_AgentMastery_Gekko_Background_VAL",
+            "relPath": "Valorantek/agents/Gekko/posters/TX_AgentMastery_Gekko_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/TX_AgentMastery_Gekko_Background_VAL.png",
+            "sizeBytes": 505647
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Gekko.png",
+            "name": "TX_Character_CarouselPreview_Hype_Gekko",
+            "relPath": "Valorantek/agents/Gekko/posters/TX_Character_CarouselPreview_Hype_Gekko.png",
+            "thumbPath": "Valorantek/agents/Gekko/posters/TX_Character_CarouselPreview_Hype_Gekko.png",
+            "sizeBytes": 15556
           },
           {
             "filename": "V26_A5_AM_GEKKO.jpg",
@@ -8898,6 +9708,131 @@
             "sizeBytes": 1083882
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Harbor_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Harbor_AM_4K",
+            "relPath": "Valorantek/agents/Harbor/posters/TX_Character_FullPortrait_Harbor_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/TX_Character_FullPortrait_Harbor_AM_4K.png",
+            "sizeBytes": 2681805
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Harbor_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Harbor_AM_4K",
+            "relPath": "Valorantek/agents/Harbor/posters/TX_Character_PortraitDisplayIcon_Default_Harbor_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/TX_Character_PortraitDisplayIcon_Default_Harbor_AM_4K.png",
+            "sizeBytes": 90163
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Harbor_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Harbor_AM_4K",
+            "relPath": "Valorantek/agents/Harbor/posters/TX_Character_PortraitDisplayIcon_Harbor_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/TX_Character_PortraitDisplayIcon_Harbor_AM_4K.png",
+            "sizeBytes": 94354
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "1-Light_Harbor.png",
+            "name": "1-Light_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/1-Light_Harbor.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/1-Light_Harbor_thumb.webp",
+            "sizeBytes": 3305388
+          },
+          {
+            "filename": "1-NightMode_Harbor.png",
+            "name": "1-NightMode_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/1-NightMode_Harbor.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/1-NightMode_Harbor_thumb.webp",
+            "sizeBytes": 2619244
+          },
+          {
+            "filename": "2-Light_Harbor.png",
+            "name": "2-Light_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/2-Light_Harbor.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/2-Light_Harbor_thumb.webp",
+            "sizeBytes": 3512697
+          },
+          {
+            "filename": "2-NightMode_Harbor.png",
+            "name": "2-NightMode_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/2-NightMode_Harbor.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/2-NightMode_Harbor_thumb.webp",
+            "sizeBytes": 2313045
+          },
+          {
+            "filename": "3-Light_Green_Harbor.png",
+            "name": "3-Light_Green_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/3-Light_Green_Harbor.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/3-Light_Green_Harbor_thumb.webp",
+            "sizeBytes": 3427526
+          },
+          {
+            "filename": "3_NightMode_Harbor.png",
+            "name": "3_NightMode_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/3_NightMode_Harbor.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/3_NightMode_Harbor_thumb.webp",
+            "sizeBytes": 1947750
+          },
+          {
+            "filename": "Ep5_3_Harbor_Endcard_3.png",
+            "name": "Ep5_3_Harbor_Endcard_3",
+            "relPath": "Valorantek/agents/Harbor/posters/Ep5_3_Harbor_Endcard_3.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/Ep5_3_Harbor_Endcard_3_thumb.webp",
+            "sizeBytes": 9601513
+          },
+          {
+            "filename": "Harbor_Wallpaper_1.png",
+            "name": "Harbor_Wallpaper_1",
+            "relPath": "Valorantek/agents/Harbor/posters/Harbor_Wallpaper_1.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/Harbor_Wallpaper_1_thumb.webp",
+            "sizeBytes": 2853990
+          },
+          {
+            "filename": "TX_AgentMastery_Harbor_Background_Default.png",
+            "name": "TX_AgentMastery_Harbor_Background_Default",
+            "relPath": "Valorantek/agents/Harbor/posters/TX_AgentMastery_Harbor_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/TX_AgentMastery_Harbor_Background_Default.png",
+            "sizeBytes": 451321
+          },
+          {
+            "filename": "TX_AgentMastery_Harbor_Background_Role.png",
+            "name": "TX_AgentMastery_Harbor_Background_Role",
+            "relPath": "Valorantek/agents/Harbor/posters/TX_AgentMastery_Harbor_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/TX_AgentMastery_Harbor_Background_Role.png",
+            "sizeBytes": 650372
+          },
+          {
+            "filename": "TX_AgentMastery_Harbor_Background_VAL.png",
+            "name": "TX_AgentMastery_Harbor_Background_VAL",
+            "relPath": "Valorantek/agents/Harbor/posters/TX_AgentMastery_Harbor_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/TX_AgentMastery_Harbor_Background_VAL.png",
+            "sizeBytes": 526036
+          },
+          {
+            "filename": "TX_AgentMastery_Harbor_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Harbor_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Harbor/posters/TX_AgentMastery_Harbor_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/TX_AgentMastery_Harbor_Lore_Background_VAL.png",
+            "sizeBytes": 280799
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Harbor.png",
+            "name": "TX_Character_CarouselPreview_Hype_Harbor",
+            "relPath": "Valorantek/agents/Harbor/posters/TX_Character_CarouselPreview_Hype_Harbor.png",
+            "thumbPath": "Valorantek/agents/Harbor/posters/TX_Character_CarouselPreview_Hype_Harbor.png",
+            "sizeBytes": 19274
+          },
+          {
+            "filename": "V26_A5_AM_HARBOR.jpg",
+            "name": "V26_A5_AM_HARBOR",
+            "relPath": "Valorantek/agents/Harbor/posters/V26_A5_AM_HARBOR.jpg",
+            "thumbPath": "Valorantek/agents/Harbor/posters/V26_A5_AM_HARBOR.jpg",
+            "sizeBytes": 1083882
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Kilfeed_Assist_Damage.png",
           "Valorantek/Icons/Killfeed/TX_Kilfeed_Assist_Damage_thumb.webp",
@@ -9877,6 +10812,124 @@
             "sizeBytes": 823294
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Iso_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Iso_AM_4K",
+            "relPath": "Valorantek/agents/Iso/posters/TX_Character_FullPortrait_Iso_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/TX_Character_FullPortrait_Iso_AM_4K.png",
+            "sizeBytes": 1751254
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Iso_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Iso_AM_4K",
+            "relPath": "Valorantek/agents/Iso/posters/TX_Character_PortraitDisplayIcon_Default_Iso_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/TX_Character_PortraitDisplayIcon_Default_Iso_AM_4K.png",
+            "sizeBytes": 90274
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Iso_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Iso_AM_4K",
+            "relPath": "Valorantek/agents/Iso/posters/TX_Character_PortraitDisplayIcon_Iso_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/TX_Character_PortraitDisplayIcon_Iso_AM_4K.png",
+            "sizeBytes": 73834
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "e7a3_ISO_Xbox_Desktop_Horiz_1920x1080_(No_copy_No_Logo).png",
+            "name": "e7a3_ISO_Xbox_Desktop_Horiz_1920x1080_(No_copy_No_Logo)",
+            "relPath": "Valorantek/agents/Iso/posters/e7a3_ISO_Xbox_Desktop_Horiz_1920x1080_(No_copy_No_Logo).png",
+            "thumbPath": "Valorantek/agents/Iso/posters/e7a3_ISO_Xbox_Desktop_Horiz_1920x1080_(No_copy_No_Logo)_thumb.webp",
+            "sizeBytes": 1357460
+          },
+          {
+            "filename": "Ep7a3_ISO_Nvidia_4k_3840x2160.png",
+            "name": "Ep7a3_ISO_Nvidia_4k_3840x2160",
+            "relPath": "Valorantek/agents/Iso/posters/Ep7a3_ISO_Nvidia_4k_3840x2160.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/Ep7a3_ISO_Nvidia_4k_3840x2160_thumb.webp",
+            "sizeBytes": 2588249
+          },
+          {
+            "filename": "Ep7a3_ISO_Roit_Client_Login_Page_1440p.png",
+            "name": "Ep7a3_ISO_Roit_Client_Login_Page_1440p",
+            "relPath": "Valorantek/agents/Iso/posters/Ep7a3_ISO_Roit_Client_Login_Page_1440p.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/Ep7a3_ISO_Roit_Client_Login_Page_1440p_thumb.webp",
+            "sizeBytes": 1694741
+          },
+          {
+            "filename": "Ep7_Act3_KV_EndCard_16x9_4k.jpg",
+            "name": "Ep7_Act3_KV_EndCard_16x9_4k",
+            "relPath": "Valorantek/agents/Iso/posters/Ep7_Act3_KV_EndCard_16x9_4k.jpg",
+            "thumbPath": "Valorantek/agents/Iso/posters/Ep7_Act3_KV_EndCard_16x9_4k_thumb.webp",
+            "sizeBytes": 2129554
+          },
+          {
+            "filename": "Ep7_Act3_KV_EndCard_21x9_4k.jpg",
+            "name": "Ep7_Act3_KV_EndCard_21x9_4k",
+            "relPath": "Valorantek/agents/Iso/posters/Ep7_Act3_KV_EndCard_21x9_4k.jpg",
+            "thumbPath": "Valorantek/agents/Iso/posters/Ep7_Act3_KV_EndCard_21x9_4k_thumb.webp",
+            "sizeBytes": 2239264
+          },
+          {
+            "filename": "POSER_CHAMP_2024_3VERTICAL_ISO.jpg",
+            "name": "POSER_CHAMP_2024_3VERTICAL_ISO",
+            "relPath": "Valorantek/agents/Iso/posters/POSER_CHAMP_2024_3VERTICAL_ISO.jpg",
+            "thumbPath": "Valorantek/agents/Iso/posters/POSER_CHAMP_2024_3VERTICAL_ISO_thumb.webp",
+            "sizeBytes": 683250
+          },
+          {
+            "filename": "POSER_CHAMP_2024_4VERTICAL_ISO.jpg",
+            "name": "POSER_CHAMP_2024_4VERTICAL_ISO",
+            "relPath": "Valorantek/agents/Iso/posters/POSER_CHAMP_2024_4VERTICAL_ISO.jpg",
+            "thumbPath": "Valorantek/agents/Iso/posters/POSER_CHAMP_2024_4VERTICAL_ISO_thumb.webp",
+            "sizeBytes": 1092717
+          },
+          {
+            "filename": "TX_AgentMastery_Iso_Background_Default.png",
+            "name": "TX_AgentMastery_Iso_Background_Default",
+            "relPath": "Valorantek/agents/Iso/posters/TX_AgentMastery_Iso_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/TX_AgentMastery_Iso_Background_Default.png",
+            "sizeBytes": 445899
+          },
+          {
+            "filename": "TX_AgentMastery_Iso_Background_Lore.png",
+            "name": "TX_AgentMastery_Iso_Background_Lore",
+            "relPath": "Valorantek/agents/Iso/posters/TX_AgentMastery_Iso_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/TX_AgentMastery_Iso_Background_Lore.png",
+            "sizeBytes": 315087
+          },
+          {
+            "filename": "TX_AgentMastery_Iso_Background_Role.png",
+            "name": "TX_AgentMastery_Iso_Background_Role",
+            "relPath": "Valorantek/agents/Iso/posters/TX_AgentMastery_Iso_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/TX_AgentMastery_Iso_Background_Role.png",
+            "sizeBytes": 673501
+          },
+          {
+            "filename": "TX_AgentMastery_Iso_Background_VAL.png",
+            "name": "TX_AgentMastery_Iso_Background_VAL",
+            "relPath": "Valorantek/agents/Iso/posters/TX_AgentMastery_Iso_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/TX_AgentMastery_Iso_Background_VAL.png",
+            "sizeBytes": 564437
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Iso.png",
+            "name": "TX_Character_CarouselPreview_Hype_Iso",
+            "relPath": "Valorantek/agents/Iso/posters/TX_Character_CarouselPreview_Hype_Iso.png",
+            "thumbPath": "Valorantek/agents/Iso/posters/TX_Character_CarouselPreview_Hype_Iso.png",
+            "sizeBytes": 18134
+          },
+          {
+            "filename": "V26_A5_AM_ISO.jpg",
+            "name": "V26_A5_AM_ISO",
+            "relPath": "Valorantek/agents/Iso/posters/V26_A5_AM_ISO.jpg",
+            "thumbPath": "Valorantek/agents/Iso/posters/V26_A5_AM_ISO.jpg",
+            "sizeBytes": 823294
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Iso.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Iso_thumb.webp"
@@ -10595,6 +11648,159 @@
             "relPath": "Valorantek/agents/Jett/posters/TX_Character_PortraitDisplayIcon_Jett_AM_4K.png",
             "thumbPath": "Valorantek/agents/Jett/posters/TX_Character_PortraitDisplayIcon_Jett_AM_4K.png",
             "sizeBytes": 92149
+          },
+          {
+            "filename": "VALORANT_Jett.jpg",
+            "name": "VALORANT_Jett",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_thumb.webp",
+            "sizeBytes": 2051029
+          },
+          {
+            "filename": "VALORANT_Jett_Dark.jpg",
+            "name": "VALORANT_Jett_Dark",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Dark_thumb.webp",
+            "sizeBytes": 4679451
+          },
+          {
+            "filename": "VALORANT_JETT_Duotoned.jpg",
+            "name": "VALORANT_JETT_Duotoned",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_JETT_Duotoned.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/VALORANT_JETT_Duotoned_thumb.webp",
+            "sizeBytes": 1409716
+          },
+          {
+            "filename": "VALORANT_JETT_LIGHT.jpg",
+            "name": "VALORANT_JETT_LIGHT",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_JETT_LIGHT.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/VALORANT_JETT_LIGHT_thumb.webp",
+            "sizeBytes": 4609647
+          },
+          {
+            "filename": "VALORANT_Jett_Red.jpg",
+            "name": "VALORANT_Jett_Red",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Red.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Red_thumb.webp",
+            "sizeBytes": 2319421
+          },
+          {
+            "filename": "VALORANT_Jett_Red_(1).jpg",
+            "name": "VALORANT_Jett_Red_(1)",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Red_(1).jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Red_(1)_thumb.webp",
+            "sizeBytes": 2319421
+          },
+          {
+            "filename": "VALORANT_Jett_Type.jpg",
+            "name": "VALORANT_Jett_Type",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Type.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/VALORANT_Jett_Type_thumb.webp",
+            "sizeBytes": 1760964
+          },
+          {
+            "filename": "VALORANT_phx_jett_2.jpg",
+            "name": "VALORANT_phx_jett_2",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_phx_jett_2.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/VALORANT_phx_jett_2_thumb.webp",
+            "sizeBytes": 2421038
+          },
+          {
+            "filename": "VALORANT_phx_jett_brand.jpg",
+            "name": "VALORANT_phx_jett_brand",
+            "relPath": "Valorantek/agents/Jett/posters/VALORANT_phx_jett_brand.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/VALORANT_phx_jett_brand_thumb.webp",
+            "sizeBytes": 2141364
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Jett_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Jett_AM_4K",
+            "relPath": "Valorantek/agents/Jett/posters/TX_Character_FullPortrait_Jett_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Jett/posters/TX_Character_FullPortrait_Jett_AM_4K.png",
+            "sizeBytes": 2090330
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Jett_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Jett_AM_4K",
+            "relPath": "Valorantek/agents/Jett/posters/TX_Character_PortraitDisplayIcon_Default_Jett_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Jett/posters/TX_Character_PortraitDisplayIcon_Default_Jett_AM_4K.png",
+            "sizeBytes": 101745
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Jett_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Jett_AM_4K",
+            "relPath": "Valorantek/agents/Jett/posters/TX_Character_PortraitDisplayIcon_Jett_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Jett/posters/TX_Character_PortraitDisplayIcon_Jett_AM_4K.png",
+            "sizeBytes": 92149
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "Agent Mastery_16x9_Jett.png",
+            "name": "Agent Mastery_16x9_Jett",
+            "relPath": "Valorantek/agents/Jett/posters/Agent Mastery_16x9_Jett.png",
+            "thumbPath": "Valorantek/agents/Jett/posters/Agent Mastery_16x9_Jett.png",
+            "sizeBytes": 4731385
+          },
+          {
+            "filename": "China_CG_Jett_Jump_Full.jpg",
+            "name": "China_CG_Jett_Jump_Full",
+            "relPath": "Valorantek/agents/Jett/posters/China_CG_Jett_Jump_Full.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/China_CG_Jett_Jump_Full_thumb.webp",
+            "sizeBytes": 9349882
+          },
+          {
+            "filename": "POSER_CHAMP_2024_4horizontal_JETT.jpg",
+            "name": "POSER_CHAMP_2024_4horizontal_JETT",
+            "relPath": "Valorantek/agents/Jett/posters/POSER_CHAMP_2024_4horizontal_JETT.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/POSER_CHAMP_2024_4horizontal_JETT_thumb.webp",
+            "sizeBytes": 683867
+          },
+          {
+            "filename": "POSER_CHAMP_2024_5VERTICAL_JETT.jpg",
+            "name": "POSER_CHAMP_2024_5VERTICAL_JETT",
+            "relPath": "Valorantek/agents/Jett/posters/POSER_CHAMP_2024_5VERTICAL_JETT.jpg",
+            "thumbPath": "Valorantek/agents/Jett/posters/POSER_CHAMP_2024_5VERTICAL_JETT_thumb.webp",
+            "sizeBytes": 1078906
+          },
+          {
+            "filename": "TX_AgentMastery_Jett_Background_Default.png",
+            "name": "TX_AgentMastery_Jett_Background_Default",
+            "relPath": "Valorantek/agents/Jett/posters/TX_AgentMastery_Jett_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Jett/posters/TX_AgentMastery_Jett_Background_Default.png",
+            "sizeBytes": 490631
+          },
+          {
+            "filename": "TX_AgentMastery_Jett_Background_Role.png",
+            "name": "TX_AgentMastery_Jett_Background_Role",
+            "relPath": "Valorantek/agents/Jett/posters/TX_AgentMastery_Jett_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Jett/posters/TX_AgentMastery_Jett_Background_Role.png",
+            "sizeBytes": 720186
+          },
+          {
+            "filename": "TX_AgentMastery_Jett_Background_VAL.png",
+            "name": "TX_AgentMastery_Jett_Background_VAL",
+            "relPath": "Valorantek/agents/Jett/posters/TX_AgentMastery_Jett_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Jett/posters/TX_AgentMastery_Jett_Background_VAL.png",
+            "sizeBytes": 598652
+          },
+          {
+            "filename": "TX_AgentMastery_Jett_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Jett_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Jett/posters/TX_AgentMastery_Jett_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Jett/posters/TX_AgentMastery_Jett_Lore_Background_VAL.png",
+            "sizeBytes": 137634
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Jett.png",
+            "name": "TX_Character_CarouselPreview_Hype_Jett",
+            "relPath": "Valorantek/agents/Jett/posters/TX_Character_CarouselPreview_Hype_Jett.png",
+            "thumbPath": "Valorantek/agents/Jett/posters/TX_Character_CarouselPreview_Hype_Jett.png",
+            "sizeBytes": 21567
           },
           {
             "filename": "VALORANT_Jett.jpg",
@@ -11613,6 +12819,75 @@
             "sizeBytes": 1018131
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_KAYO_AM_4K.png",
+            "name": "TX_Character_FullPortrait_KAYO_AM_4K",
+            "relPath": "Valorantek/agents/KAYO/posters/TX_Character_FullPortrait_KAYO_AM_4K.png",
+            "thumbPath": "Valorantek/agents/KAYO/posters/TX_Character_FullPortrait_KAYO_AM_4K.png",
+            "sizeBytes": 2638366
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Kayo_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Kayo_AM_4K",
+            "relPath": "Valorantek/agents/KAYO/posters/TX_Character_PortraitDisplayIcon_Default_Kayo_AM_4K.png",
+            "thumbPath": "Valorantek/agents/KAYO/posters/TX_Character_PortraitDisplayIcon_Default_Kayo_AM_4K.png",
+            "sizeBytes": 96367
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Kayo_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Kayo_AM_4K",
+            "relPath": "Valorantek/agents/KAYO/posters/TX_Character_PortraitDisplayIcon_Kayo_AM_4K.png",
+            "thumbPath": "Valorantek/agents/KAYO/posters/TX_Character_PortraitDisplayIcon_Kayo_AM_4K.png",
+            "sizeBytes": 100489
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Kayo_Background_Default.png",
+            "name": "TX_AgentMastery_Kayo_Background_Default",
+            "relPath": "Valorantek/agents/KAYO/posters/TX_AgentMastery_Kayo_Background_Default.png",
+            "thumbPath": "Valorantek/agents/KAYO/posters/TX_AgentMastery_Kayo_Background_Default.png",
+            "sizeBytes": 477252
+          },
+          {
+            "filename": "TX_AgentMastery_Kayo_Background_Lore.png",
+            "name": "TX_AgentMastery_Kayo_Background_Lore",
+            "relPath": "Valorantek/agents/KAYO/posters/TX_AgentMastery_Kayo_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/KAYO/posters/TX_AgentMastery_Kayo_Background_Lore.png",
+            "sizeBytes": 183917
+          },
+          {
+            "filename": "TX_AgentMastery_Kayo_Background_Role.png",
+            "name": "TX_AgentMastery_Kayo_Background_Role",
+            "relPath": "Valorantek/agents/KAYO/posters/TX_AgentMastery_Kayo_Background_Role.png",
+            "thumbPath": "Valorantek/agents/KAYO/posters/TX_AgentMastery_Kayo_Background_Role.png",
+            "sizeBytes": 662263
+          },
+          {
+            "filename": "TX_AgentMastery_Kayo_Background_VAL.png",
+            "name": "TX_AgentMastery_Kayo_Background_VAL",
+            "relPath": "Valorantek/agents/KAYO/posters/TX_AgentMastery_Kayo_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/KAYO/posters/TX_AgentMastery_Kayo_Background_VAL.png",
+            "sizeBytes": 521048
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Kayo.png",
+            "name": "TX_Character_CarouselPreview_Hype_Kayo",
+            "relPath": "Valorantek/agents/KAYO/posters/TX_Character_CarouselPreview_Hype_Kayo.png",
+            "thumbPath": "Valorantek/agents/KAYO/posters/TX_Character_CarouselPreview_Hype_Kayo.png",
+            "sizeBytes": 19062
+          },
+          {
+            "filename": "V26_A5_AM_KAYO.jpg",
+            "name": "V26_A5_AM_KAYO",
+            "relPath": "Valorantek/agents/KAYO/posters/V26_A5_AM_KAYO.jpg",
+            "thumbPath": "Valorantek/agents/KAYO/posters/V26_A5_AM_KAYO.jpg",
+            "sizeBytes": 1018131
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_KAYO.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_KAYO_thumb.webp"
@@ -12617,6 +13892,103 @@
             "relPath": "Valorantek/agents/Killjoy/posters/TX_Character_PortraitDisplayIcon_Killjoy_AM_4K.png",
             "thumbPath": "Valorantek/agents/Killjoy/posters/TX_Character_PortraitDisplayIcon_Killjoy_AM_4K.png",
             "sizeBytes": 93045
+          },
+          {
+            "filename": "V26_A5_AM_KILLJOY.jpg",
+            "name": "V26_A5_AM_KILLJOY",
+            "relPath": "Valorantek/agents/Killjoy/posters/V26_A5_AM_KILLJOY.jpg",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/V26_A5_AM_KILLJOY.jpg",
+            "sizeBytes": 691901
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Killjoy_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Killjoy_AM_4K",
+            "relPath": "Valorantek/agents/Killjoy/posters/TX_Character_FullPortrait_Killjoy_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/TX_Character_FullPortrait_Killjoy_AM_4K.png",
+            "sizeBytes": 1441609
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Killjoy_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Killjoy_AM_4K",
+            "relPath": "Valorantek/agents/Killjoy/posters/TX_Character_PortraitDisplayIcon_Default_Killjoy_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/TX_Character_PortraitDisplayIcon_Default_Killjoy_AM_4K.png",
+            "sizeBytes": 84392
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Killjoy_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Killjoy_AM_4K",
+            "relPath": "Valorantek/agents/Killjoy/posters/TX_Character_PortraitDisplayIcon_Killjoy_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/TX_Character_PortraitDisplayIcon_Killjoy_AM_4K.png",
+            "sizeBytes": 93045
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "KillJoy_Wallpapers_blue1.jpg",
+            "name": "KillJoy_Wallpapers_blue1",
+            "relPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_blue1.jpg",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_blue1_thumb.webp",
+            "sizeBytes": 5115478
+          },
+          {
+            "filename": "KillJoy_Wallpapers_blue2.jpg",
+            "name": "KillJoy_Wallpapers_blue2",
+            "relPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_blue2.jpg",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_blue2_thumb.webp",
+            "sizeBytes": 5004919
+          },
+          {
+            "filename": "KillJoy_Wallpapers_LIGHT.jpg",
+            "name": "KillJoy_Wallpapers_LIGHT",
+            "relPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_LIGHT.jpg",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_LIGHT_thumb.webp",
+            "sizeBytes": 4932231
+          },
+          {
+            "filename": "KillJoy_Wallpapers_Red.jpg",
+            "name": "KillJoy_Wallpapers_Red",
+            "relPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_Red.jpg",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/KillJoy_Wallpapers_Red_thumb.webp",
+            "sizeBytes": 5001493
+          },
+          {
+            "filename": "TX_AgentMastery_Killjoy_Background_Default.png",
+            "name": "TX_AgentMastery_Killjoy_Background_Default",
+            "relPath": "Valorantek/agents/Killjoy/posters/TX_AgentMastery_Killjoy_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/TX_AgentMastery_Killjoy_Background_Default.png",
+            "sizeBytes": 443330
+          },
+          {
+            "filename": "TX_AgentMastery_Killjoy_Background_Role.png",
+            "name": "TX_AgentMastery_Killjoy_Background_Role",
+            "relPath": "Valorantek/agents/Killjoy/posters/TX_AgentMastery_Killjoy_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/TX_AgentMastery_Killjoy_Background_Role.png",
+            "sizeBytes": 735219
+          },
+          {
+            "filename": "TX_AgentMastery_Killjoy_Background_VAL.png",
+            "name": "TX_AgentMastery_Killjoy_Background_VAL",
+            "relPath": "Valorantek/agents/Killjoy/posters/TX_AgentMastery_Killjoy_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/TX_AgentMastery_Killjoy_Background_VAL.png",
+            "sizeBytes": 562757
+          },
+          {
+            "filename": "TX_AgentMastery_Killjoy_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Killjoy_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Killjoy/posters/TX_AgentMastery_Killjoy_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/TX_AgentMastery_Killjoy_Lore_Background_VAL.png",
+            "sizeBytes": 246372
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Killjoy.png",
+            "name": "TX_Character_CarouselPreview_Hype_Killjoy",
+            "relPath": "Valorantek/agents/Killjoy/posters/TX_Character_CarouselPreview_Hype_Killjoy.png",
+            "thumbPath": "Valorantek/agents/Killjoy/posters/TX_Character_CarouselPreview_Hype_Killjoy.png",
+            "sizeBytes": 22466
           },
           {
             "filename": "V26_A5_AM_KILLJOY.jpg",
@@ -14263,6 +15635,75 @@
             "sizeBytes": 838086
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Miks_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Miks_AM_4K",
+            "relPath": "Valorantek/agents/Miks/posters/TX_Character_FullPortrait_Miks_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Miks/posters/TX_Character_FullPortrait_Miks_AM_4K.png",
+            "sizeBytes": 2175096
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Miks_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Miks_AM_4K",
+            "relPath": "Valorantek/agents/Miks/posters/TX_Character_PortraitDisplayIcon_Default_Miks_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Miks/posters/TX_Character_PortraitDisplayIcon_Default_Miks_AM_4K.png",
+            "sizeBytes": 91626
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Miks_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Miks_AM_4K",
+            "relPath": "Valorantek/agents/Miks/posters/TX_Character_PortraitDisplayIcon_Miks_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Miks/posters/TX_Character_PortraitDisplayIcon_Miks_AM_4K.png",
+            "sizeBytes": 89565
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Miks_Background_Default.png",
+            "name": "TX_AgentMastery_Miks_Background_Default",
+            "relPath": "Valorantek/agents/Miks/posters/TX_AgentMastery_Miks_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Miks/posters/TX_AgentMastery_Miks_Background_Default.png",
+            "sizeBytes": 464935
+          },
+          {
+            "filename": "TX_AgentMastery_Miks_Background_Lore.png",
+            "name": "TX_AgentMastery_Miks_Background_Lore",
+            "relPath": "Valorantek/agents/Miks/posters/TX_AgentMastery_Miks_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Miks/posters/TX_AgentMastery_Miks_Background_Lore.png",
+            "sizeBytes": 333564
+          },
+          {
+            "filename": "TX_AgentMastery_Miks_Background_Role.png",
+            "name": "TX_AgentMastery_Miks_Background_Role",
+            "relPath": "Valorantek/agents/Miks/posters/TX_AgentMastery_Miks_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Miks/posters/TX_AgentMastery_Miks_Background_Role.png",
+            "sizeBytes": 792982
+          },
+          {
+            "filename": "TX_AgentMastery_Miks_Background_VAL.png",
+            "name": "TX_AgentMastery_Miks_Background_VAL",
+            "relPath": "Valorantek/agents/Miks/posters/TX_AgentMastery_Miks_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Miks/posters/TX_AgentMastery_Miks_Background_VAL.png",
+            "sizeBytes": 641339
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Miks.png",
+            "name": "TX_Character_CarouselPreview_Hype_Miks",
+            "relPath": "Valorantek/agents/Miks/posters/TX_Character_CarouselPreview_Hype_Miks.png",
+            "thumbPath": "Valorantek/agents/Miks/posters/TX_Character_CarouselPreview_Hype_Miks.png",
+            "sizeBytes": 18587
+          },
+          {
+            "filename": "V26_A5_AM_MIKS.jpg",
+            "name": "V26_A5_AM_MIKS",
+            "relPath": "Valorantek/agents/Miks/posters/V26_A5_AM_MIKS.jpg",
+            "thumbPath": "Valorantek/agents/Miks/posters/V26_A5_AM_MIKS.jpg",
+            "sizeBytes": 838086
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Miks.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Miks_thumb.webp"
@@ -15696,6 +17137,75 @@
             "relPath": "Valorantek/agents/Neon/posters/TX_Character_PortraitDisplayIcon_Neon_AM_4K.png",
             "thumbPath": "Valorantek/agents/Neon/posters/TX_Character_PortraitDisplayIcon_Neon_AM_4K.png",
             "sizeBytes": 92034
+          },
+          {
+            "filename": "V26_A5_AM_NEON.jpg",
+            "name": "V26_A5_AM_NEON",
+            "relPath": "Valorantek/agents/Neon/posters/V26_A5_AM_NEON.jpg",
+            "thumbPath": "Valorantek/agents/Neon/posters/V26_A5_AM_NEON.jpg",
+            "sizeBytes": 1117315
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Neon_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Neon_AM_4K",
+            "relPath": "Valorantek/agents/Neon/posters/TX_Character_FullPortrait_Neon_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Neon/posters/TX_Character_FullPortrait_Neon_AM_4K.png",
+            "sizeBytes": 2585685
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Neon_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Neon_AM_4K",
+            "relPath": "Valorantek/agents/Neon/posters/TX_Character_PortraitDisplayIcon_Default_Neon_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Neon/posters/TX_Character_PortraitDisplayIcon_Default_Neon_AM_4K.png",
+            "sizeBytes": 99969
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Neon_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Neon_AM_4K",
+            "relPath": "Valorantek/agents/Neon/posters/TX_Character_PortraitDisplayIcon_Neon_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Neon/posters/TX_Character_PortraitDisplayIcon_Neon_AM_4K.png",
+            "sizeBytes": 92034
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Neon_Background_Default.png",
+            "name": "TX_AgentMastery_Neon_Background_Default",
+            "relPath": "Valorantek/agents/Neon/posters/TX_AgentMastery_Neon_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Neon/posters/TX_AgentMastery_Neon_Background_Default.png",
+            "sizeBytes": 432034
+          },
+          {
+            "filename": "TX_AgentMastery_Neon_Background_Role.png",
+            "name": "TX_AgentMastery_Neon_Background_Role",
+            "relPath": "Valorantek/agents/Neon/posters/TX_AgentMastery_Neon_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Neon/posters/TX_AgentMastery_Neon_Background_Role.png",
+            "sizeBytes": 708065
+          },
+          {
+            "filename": "TX_AgentMastery_Neon_Background_VAL.png",
+            "name": "TX_AgentMastery_Neon_Background_VAL",
+            "relPath": "Valorantek/agents/Neon/posters/TX_AgentMastery_Neon_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Neon/posters/TX_AgentMastery_Neon_Background_VAL.png",
+            "sizeBytes": 580687
+          },
+          {
+            "filename": "TX_AgentMastery_Neon_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Neon_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Neon/posters/TX_AgentMastery_Neon_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Neon/posters/TX_AgentMastery_Neon_Lore_Background_VAL.png",
+            "sizeBytes": 260700
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Neon.png",
+            "name": "TX_Character_CarouselPreview_Hype_Neon",
+            "relPath": "Valorantek/agents/Neon/posters/TX_Character_CarouselPreview_Hype_Neon.png",
+            "thumbPath": "Valorantek/agents/Neon/posters/TX_Character_CarouselPreview_Hype_Neon.png",
+            "sizeBytes": 20724
           },
           {
             "filename": "V26_A5_AM_NEON.jpg",
@@ -17658,6 +19168,103 @@
             "sizeBytes": 4890329
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Omen_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Omen_AM_4K",
+            "relPath": "Valorantek/agents/Omen/posters/TX_Character_FullPortrait_Omen_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Omen/posters/TX_Character_FullPortrait_Omen_AM_4K.png",
+            "sizeBytes": 2944245
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Omen_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Omen_AM_4K",
+            "relPath": "Valorantek/agents/Omen/posters/TX_Character_PortraitDisplayIcon_Default_Omen_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Omen/posters/TX_Character_PortraitDisplayIcon_Default_Omen_AM_4K.png",
+            "sizeBytes": 85058
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Omen_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Omen_AM_4K",
+            "relPath": "Valorantek/agents/Omen/posters/TX_Character_PortraitDisplayIcon_Omen_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Omen/posters/TX_Character_PortraitDisplayIcon_Omen_AM_4K.png",
+            "sizeBytes": 101033
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "Agent Mastery_16x9_Omen.png",
+            "name": "Agent Mastery_16x9_Omen",
+            "relPath": "Valorantek/agents/Omen/posters/Agent Mastery_16x9_Omen.png",
+            "thumbPath": "Valorantek/agents/Omen/posters/Agent Mastery_16x9_Omen.png",
+            "sizeBytes": 4501833
+          },
+          {
+            "filename": "POSER_CHAMP_2024_2VERTICAL_omen.jpg",
+            "name": "POSER_CHAMP_2024_2VERTICAL_omen",
+            "relPath": "Valorantek/agents/Omen/posters/POSER_CHAMP_2024_2VERTICAL_omen.jpg",
+            "thumbPath": "Valorantek/agents/Omen/posters/POSER_CHAMP_2024_2VERTICAL_omen_thumb.webp",
+            "sizeBytes": 952135
+          },
+          {
+            "filename": "POSER_CHAMP_2024_5VERTICALOMEN.jpg",
+            "name": "POSER_CHAMP_2024_5VERTICALOMEN",
+            "relPath": "Valorantek/agents/Omen/posters/POSER_CHAMP_2024_5VERTICALOMEN.jpg",
+            "thumbPath": "Valorantek/agents/Omen/posters/POSER_CHAMP_2024_5VERTICALOMEN_thumb.webp",
+            "sizeBytes": 601204
+          },
+          {
+            "filename": "TX_AgentMastery_Omen_Background_Default.png",
+            "name": "TX_AgentMastery_Omen_Background_Default",
+            "relPath": "Valorantek/agents/Omen/posters/TX_AgentMastery_Omen_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Omen/posters/TX_AgentMastery_Omen_Background_Default.png",
+            "sizeBytes": 422843
+          },
+          {
+            "filename": "TX_AgentMastery_Omen_Background_Role.png",
+            "name": "TX_AgentMastery_Omen_Background_Role",
+            "relPath": "Valorantek/agents/Omen/posters/TX_AgentMastery_Omen_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Omen/posters/TX_AgentMastery_Omen_Background_Role.png",
+            "sizeBytes": 730437
+          },
+          {
+            "filename": "TX_AgentMastery_Omen_Background_VAL.png",
+            "name": "TX_AgentMastery_Omen_Background_VAL",
+            "relPath": "Valorantek/agents/Omen/posters/TX_AgentMastery_Omen_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Omen/posters/TX_AgentMastery_Omen_Background_VAL.png",
+            "sizeBytes": 584715
+          },
+          {
+            "filename": "TX_AgentMastery_Omen_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Omen_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Omen/posters/TX_AgentMastery_Omen_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Omen/posters/TX_AgentMastery_Omen_Lore_Background_VAL.png",
+            "sizeBytes": 311906
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Omen.png",
+            "name": "TX_Character_CarouselPreview_Hype_Omen",
+            "relPath": "Valorantek/agents/Omen/posters/TX_Character_CarouselPreview_Hype_Omen.png",
+            "thumbPath": "Valorantek/agents/Omen/posters/TX_Character_CarouselPreview_Hype_Omen.png",
+            "sizeBytes": 18176
+          },
+          {
+            "filename": "VALORANT_Omen_Dark.jpg",
+            "name": "VALORANT_Omen_Dark",
+            "relPath": "Valorantek/agents/Omen/posters/VALORANT_Omen_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Omen/posters/VALORANT_Omen_Dark_thumb.webp",
+            "sizeBytes": 4982331
+          },
+          {
+            "filename": "VALORANT_Omen_Light.jpg",
+            "name": "VALORANT_Omen_Light",
+            "relPath": "Valorantek/agents/Omen/posters/VALORANT_Omen_Light.jpg",
+            "thumbPath": "Valorantek/agents/Omen/posters/VALORANT_Omen_Light_thumb.webp",
+            "sizeBytes": 4890329
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Omen.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Omen_thumb.webp"
@@ -18156,6 +19763,103 @@
             "relPath": "Valorantek/agents/Phoenix/posters/TX_Character_PortraitDisplayIcon_Phoenix_AM_4K.png",
             "thumbPath": "Valorantek/agents/Phoenix/posters/TX_Character_PortraitDisplayIcon_Phoenix_AM_4K.png",
             "sizeBytes": 81556
+          },
+          {
+            "filename": "V26_A5_AM_PHOENIX.jpg",
+            "name": "V26_A5_AM_PHOENIX",
+            "relPath": "Valorantek/agents/Phoenix/posters/V26_A5_AM_PHOENIX.jpg",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/V26_A5_AM_PHOENIX.jpg",
+            "sizeBytes": 736190
+          },
+          {
+            "filename": "VALORANT_Phoenix_Dark.jpg",
+            "name": "VALORANT_Phoenix_Dark",
+            "relPath": "Valorantek/agents/Phoenix/posters/VALORANT_Phoenix_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/VALORANT_Phoenix_Dark_thumb.webp",
+            "sizeBytes": 4838113
+          },
+          {
+            "filename": "VALORANT_Phoenix_Light.jpg",
+            "name": "VALORANT_Phoenix_Light",
+            "relPath": "Valorantek/agents/Phoenix/posters/VALORANT_Phoenix_Light.jpg",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/VALORANT_Phoenix_Light_thumb.webp",
+            "sizeBytes": 4588261
+          },
+          {
+            "filename": "VALORANT_PHX.jpg",
+            "name": "VALORANT_PHX",
+            "relPath": "Valorantek/agents/Phoenix/posters/VALORANT_PHX.jpg",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/VALORANT_PHX_thumb.webp",
+            "sizeBytes": 1914414
+          },
+          {
+            "filename": "VALORANT_phx_jett.jpg",
+            "name": "VALORANT_phx_jett",
+            "relPath": "Valorantek/agents/Phoenix/posters/VALORANT_phx_jett.jpg",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/VALORANT_phx_jett_thumb.webp",
+            "sizeBytes": 2353337
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Phoenix_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Phoenix_AM_4K",
+            "relPath": "Valorantek/agents/Phoenix/posters/TX_Character_FullPortrait_Phoenix_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/TX_Character_FullPortrait_Phoenix_AM_4K.png",
+            "sizeBytes": 2171735
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Phoenix_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Phoenix_AM_4K",
+            "relPath": "Valorantek/agents/Phoenix/posters/TX_Character_PortraitDisplayIcon_Default_Phoenix_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/TX_Character_PortraitDisplayIcon_Default_Phoenix_AM_4K.png",
+            "sizeBytes": 92338
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Phoenix_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Phoenix_AM_4K",
+            "relPath": "Valorantek/agents/Phoenix/posters/TX_Character_PortraitDisplayIcon_Phoenix_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/TX_Character_PortraitDisplayIcon_Phoenix_AM_4K.png",
+            "sizeBytes": 81556
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Phoenix_Background_Default.png",
+            "name": "TX_AgentMastery_Phoenix_Background_Default",
+            "relPath": "Valorantek/agents/Phoenix/posters/TX_AgentMastery_Phoenix_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/TX_AgentMastery_Phoenix_Background_Default.png",
+            "sizeBytes": 416958
+          },
+          {
+            "filename": "TX_AgentMastery_Phoenix_Background_Lore.png",
+            "name": "TX_AgentMastery_Phoenix_Background_Lore",
+            "relPath": "Valorantek/agents/Phoenix/posters/TX_AgentMastery_Phoenix_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/TX_AgentMastery_Phoenix_Background_Lore.png",
+            "sizeBytes": 287913
+          },
+          {
+            "filename": "TX_AgentMastery_Phoenix_Background_Role.png",
+            "name": "TX_AgentMastery_Phoenix_Background_Role",
+            "relPath": "Valorantek/agents/Phoenix/posters/TX_AgentMastery_Phoenix_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/TX_AgentMastery_Phoenix_Background_Role.png",
+            "sizeBytes": 672031
+          },
+          {
+            "filename": "TX_AgentMastery_Phoenix_Background_VAL.png",
+            "name": "TX_AgentMastery_Phoenix_Background_VAL",
+            "relPath": "Valorantek/agents/Phoenix/posters/TX_AgentMastery_Phoenix_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/TX_AgentMastery_Phoenix_Background_VAL.png",
+            "sizeBytes": 586276
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Phoenix.png",
+            "name": "TX_Character_CarouselPreview_Hype_Phoenix",
+            "relPath": "Valorantek/agents/Phoenix/posters/TX_Character_CarouselPreview_Hype_Phoenix.png",
+            "thumbPath": "Valorantek/agents/Phoenix/posters/TX_Character_CarouselPreview_Hype_Phoenix.png",
+            "sizeBytes": 19719
           },
           {
             "filename": "V26_A5_AM_PHOENIX.jpg",
@@ -18855,6 +20559,89 @@
             "relPath": "Valorantek/agents/Raze/posters/TX_Character_PortraitDisplayIcon_Raze_AM_4K.png",
             "thumbPath": "Valorantek/agents/Raze/posters/TX_Character_PortraitDisplayIcon_Raze_AM_4K.png",
             "sizeBytes": 93069
+          },
+          {
+            "filename": "V26_A5_AM_RAZE.jpg",
+            "name": "V26_A5_AM_RAZE",
+            "relPath": "Valorantek/agents/Raze/posters/V26_A5_AM_RAZE.jpg",
+            "thumbPath": "Valorantek/agents/Raze/posters/V26_A5_AM_RAZE.jpg",
+            "sizeBytes": 1135537
+          },
+          {
+            "filename": "VALORANT_Raze_Dark.jpg",
+            "name": "VALORANT_Raze_Dark",
+            "relPath": "Valorantek/agents/Raze/posters/VALORANT_Raze_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Raze/posters/VALORANT_Raze_Dark_thumb.webp",
+            "sizeBytes": 5144021
+          },
+          {
+            "filename": "VALORANT_Raze_Light.jpg",
+            "name": "VALORANT_Raze_Light",
+            "relPath": "Valorantek/agents/Raze/posters/VALORANT_Raze_Light.jpg",
+            "thumbPath": "Valorantek/agents/Raze/posters/VALORANT_Raze_Light_thumb.webp",
+            "sizeBytes": 4910071
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Raze_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Raze_AM_4K",
+            "relPath": "Valorantek/agents/Raze/posters/TX_Character_FullPortrait_Raze_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Raze/posters/TX_Character_FullPortrait_Raze_AM_4K.png",
+            "sizeBytes": 2732741
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Raze_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Raze_AM_4K",
+            "relPath": "Valorantek/agents/Raze/posters/TX_Character_PortraitDisplayIcon_Default_Raze_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Raze/posters/TX_Character_PortraitDisplayIcon_Default_Raze_AM_4K.png",
+            "sizeBytes": 102584
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Raze_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Raze_AM_4K",
+            "relPath": "Valorantek/agents/Raze/posters/TX_Character_PortraitDisplayIcon_Raze_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Raze/posters/TX_Character_PortraitDisplayIcon_Raze_AM_4K.png",
+            "sizeBytes": 93069
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Raze_Background_Default.png",
+            "name": "TX_AgentMastery_Raze_Background_Default",
+            "relPath": "Valorantek/agents/Raze/posters/TX_AgentMastery_Raze_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Raze/posters/TX_AgentMastery_Raze_Background_Default.png",
+            "sizeBytes": 404771
+          },
+          {
+            "filename": "TX_AgentMastery_Raze_Background_Role.png",
+            "name": "TX_AgentMastery_Raze_Background_Role",
+            "relPath": "Valorantek/agents/Raze/posters/TX_AgentMastery_Raze_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Raze/posters/TX_AgentMastery_Raze_Background_Role.png",
+            "sizeBytes": 662535
+          },
+          {
+            "filename": "TX_AgentMastery_Raze_Background_VAL.png",
+            "name": "TX_AgentMastery_Raze_Background_VAL",
+            "relPath": "Valorantek/agents/Raze/posters/TX_AgentMastery_Raze_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Raze/posters/TX_AgentMastery_Raze_Background_VAL.png",
+            "sizeBytes": 583942
+          },
+          {
+            "filename": "TX_AgentMastery_Raze_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Raze_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Raze/posters/TX_AgentMastery_Raze_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Raze/posters/TX_AgentMastery_Raze_Lore_Background_VAL.png",
+            "sizeBytes": 163890
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Raze.png",
+            "name": "TX_Character_CarouselPreview_Hype_Raze",
+            "relPath": "Valorantek/agents/Raze/posters/TX_Character_CarouselPreview_Hype_Raze.png",
+            "thumbPath": "Valorantek/agents/Raze/posters/TX_Character_CarouselPreview_Hype_Raze.png",
+            "sizeBytes": 21052
           },
           {
             "filename": "V26_A5_AM_RAZE.jpg",
@@ -19967,6 +21754,110 @@
             "sizeBytes": 4771330
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Reyna_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Reyna_AM_4K",
+            "relPath": "Valorantek/agents/Reyna/posters/TX_Character_FullPortrait_Reyna_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Reyna/posters/TX_Character_FullPortrait_Reyna_AM_4K.png",
+            "sizeBytes": 2212933
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Reyna_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Reyna_AM_4K",
+            "relPath": "Valorantek/agents/Reyna/posters/TX_Character_PortraitDisplayIcon_Default_Reyna_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Reyna/posters/TX_Character_PortraitDisplayIcon_Default_Reyna_AM_4K.png",
+            "sizeBytes": 77292
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Reyna_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Reyna_AM_4K",
+            "relPath": "Valorantek/agents/Reyna/posters/TX_Character_PortraitDisplayIcon_Reyna_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Reyna/posters/TX_Character_PortraitDisplayIcon_Reyna_AM_4K.png",
+            "sizeBytes": 137185
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "Reyna_Wallpaper_1.jpg",
+            "name": "Reyna_Wallpaper_1",
+            "relPath": "Valorantek/agents/Reyna/posters/Reyna_Wallpaper_1.jpg",
+            "thumbPath": "Valorantek/agents/Reyna/posters/Reyna_Wallpaper_1_thumb.webp",
+            "sizeBytes": 1753720
+          },
+          {
+            "filename": "TX_AgentMastery_Reyna_Background_Default.png",
+            "name": "TX_AgentMastery_Reyna_Background_Default",
+            "relPath": "Valorantek/agents/Reyna/posters/TX_AgentMastery_Reyna_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Reyna/posters/TX_AgentMastery_Reyna_Background_Default.png",
+            "sizeBytes": 436463
+          },
+          {
+            "filename": "TX_AgentMastery_Reyna_Background_Role.png",
+            "name": "TX_AgentMastery_Reyna_Background_Role",
+            "relPath": "Valorantek/agents/Reyna/posters/TX_AgentMastery_Reyna_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Reyna/posters/TX_AgentMastery_Reyna_Background_Role.png",
+            "sizeBytes": 743637
+          },
+          {
+            "filename": "TX_AgentMastery_Reyna_Background_VAL.png",
+            "name": "TX_AgentMastery_Reyna_Background_VAL",
+            "relPath": "Valorantek/agents/Reyna/posters/TX_AgentMastery_Reyna_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Reyna/posters/TX_AgentMastery_Reyna_Background_VAL.png",
+            "sizeBytes": 621751
+          },
+          {
+            "filename": "TX_AgentMastery_Reyna_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Reyna_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Reyna/posters/TX_AgentMastery_Reyna_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Reyna/posters/TX_AgentMastery_Reyna_Lore_Background_VAL.png",
+            "sizeBytes": 141716
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Reyna.png",
+            "name": "TX_Character_CarouselPreview_Hype_Reyna",
+            "relPath": "Valorantek/agents/Reyna/posters/TX_Character_CarouselPreview_Hype_Reyna.png",
+            "thumbPath": "Valorantek/agents/Reyna/posters/TX_Character_CarouselPreview_Hype_Reyna.png",
+            "sizeBytes": 22333
+          },
+          {
+            "filename": "V26_A5_AM_REYNA.jpg",
+            "name": "V26_A5_AM_REYNA",
+            "relPath": "Valorantek/agents/Reyna/posters/V26_A5_AM_REYNA.jpg",
+            "thumbPath": "Valorantek/agents/Reyna/posters/V26_A5_AM_REYNA.jpg",
+            "sizeBytes": 993698
+          },
+          {
+            "filename": "VALORANT_Reyna_Dark.jpg",
+            "name": "VALORANT_Reyna_Dark",
+            "relPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_Dark_thumb.webp",
+            "sizeBytes": 4910554
+          },
+          {
+            "filename": "VALORANT_Reyna_Dark_2.jpg",
+            "name": "VALORANT_Reyna_Dark_2",
+            "relPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_Dark_2.jpg",
+            "thumbPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_Dark_2_thumb.webp",
+            "sizeBytes": 4603079
+          },
+          {
+            "filename": "VALORANT_Reyna_light.jpg",
+            "name": "VALORANT_Reyna_light",
+            "relPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_light.jpg",
+            "thumbPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_light_thumb.webp",
+            "sizeBytes": 4740217
+          },
+          {
+            "filename": "VALORANT_Reyna_Red.jpg",
+            "name": "VALORANT_Reyna_Red",
+            "relPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_Red.jpg",
+            "thumbPath": "Valorantek/agents/Reyna/posters/VALORANT_Reyna_Red_thumb.webp",
+            "sizeBytes": 4771330
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Reyna.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Reyna_thumb.webp"
@@ -20451,6 +22342,145 @@
             "relPath": "Valorantek/agents/Sage/posters/TX_Character_PortraitDisplayIcon_Sage_AM_4K.png",
             "thumbPath": "Valorantek/agents/Sage/posters/TX_Character_PortraitDisplayIcon_Sage_AM_4K.png",
             "sizeBytes": 110344
+          },
+          {
+            "filename": "VALORANT_Sage_dark.jpg",
+            "name": "VALORANT_Sage_dark",
+            "relPath": "Valorantek/agents/Sage/posters/VALORANT_Sage_dark.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/VALORANT_Sage_dark_thumb.webp",
+            "sizeBytes": 4744588
+          },
+          {
+            "filename": "VALORANT_Sage_Light.jpg",
+            "name": "VALORANT_Sage_Light",
+            "relPath": "Valorantek/agents/Sage/posters/VALORANT_Sage_Light.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/VALORANT_Sage_Light_thumb.webp",
+            "sizeBytes": 4527535
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Sage_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Sage_AM_4K",
+            "relPath": "Valorantek/agents/Sage/posters/TX_Character_FullPortrait_Sage_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Sage/posters/TX_Character_FullPortrait_Sage_AM_4K.png",
+            "sizeBytes": 1893730
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Sage_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Sage_AM_4K",
+            "relPath": "Valorantek/agents/Sage/posters/TX_Character_PortraitDisplayIcon_Default_Sage_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Sage/posters/TX_Character_PortraitDisplayIcon_Default_Sage_AM_4K.png",
+            "sizeBytes": 87470
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Sage_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Sage_AM_4K",
+            "relPath": "Valorantek/agents/Sage/posters/TX_Character_PortraitDisplayIcon_Sage_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Sage/posters/TX_Character_PortraitDisplayIcon_Sage_AM_4K.png",
+            "sizeBytes": 110344
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "Agent Mastery_16x9_Sage.png",
+            "name": "Agent Mastery_16x9_Sage",
+            "relPath": "Valorantek/agents/Sage/posters/Agent Mastery_16x9_Sage.png",
+            "thumbPath": "Valorantek/agents/Sage/posters/Agent Mastery_16x9_Sage.png",
+            "sizeBytes": 5198764
+          },
+          {
+            "filename": "LNY_Sage-1_TravelPrep.jpg",
+            "name": "LNY_Sage-1_TravelPrep",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-1_TravelPrep.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/LNY_Sage-1_TravelPrep_thumb.webp",
+            "sizeBytes": 4349953
+          },
+          {
+            "filename": "LNY_Sage-2_ShoppingA.jpg",
+            "name": "LNY_Sage-2_ShoppingA",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-2_ShoppingA.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/LNY_Sage-2_ShoppingA_thumb.webp",
+            "sizeBytes": 2727164
+          },
+          {
+            "filename": "LNY_Sage-2_ShoppingB.jpg",
+            "name": "LNY_Sage-2_ShoppingB",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-2_ShoppingB.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/LNY_Sage-2_ShoppingB_thumb.webp",
+            "sizeBytes": 2620426
+          },
+          {
+            "filename": "LNY_Sage-2_ShoppingC.jpg",
+            "name": "LNY_Sage-2_ShoppingC",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-2_ShoppingC.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/LNY_Sage-2_ShoppingC_thumb.webp",
+            "sizeBytes": 2736849
+          },
+          {
+            "filename": "LNY_Sage-3_NightMarket.jpg",
+            "name": "LNY_Sage-3_NightMarket",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-3_NightMarket.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/LNY_Sage-3_NightMarket_thumb.webp",
+            "sizeBytes": 3329109
+          },
+          {
+            "filename": "LNY_Sage-4_BeachDay.jpg",
+            "name": "LNY_Sage-4_BeachDay",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-4_BeachDay.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/LNY_Sage-4_BeachDay_thumb.webp",
+            "sizeBytes": 3789929
+          },
+          {
+            "filename": "LNY_Sage-5_CallBack.jpg",
+            "name": "LNY_Sage-5_CallBack",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-5_CallBack.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/LNY_Sage-5_CallBack_thumb.webp",
+            "sizeBytes": 3298899
+          },
+          {
+            "filename": "LNY_Sage-6_WrapUp.jpg",
+            "name": "LNY_Sage-6_WrapUp",
+            "relPath": "Valorantek/agents/Sage/posters/LNY_Sage-6_WrapUp.jpg",
+            "thumbPath": "Valorantek/agents/Sage/posters/LNY_Sage-6_WrapUp_thumb.webp",
+            "sizeBytes": 2661996
+          },
+          {
+            "filename": "TX_AgentMastery_Sage_Background_Default.png",
+            "name": "TX_AgentMastery_Sage_Background_Default",
+            "relPath": "Valorantek/agents/Sage/posters/TX_AgentMastery_Sage_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Sage/posters/TX_AgentMastery_Sage_Background_Default.png",
+            "sizeBytes": 478441
+          },
+          {
+            "filename": "TX_AgentMastery_Sage_Background_Role.png",
+            "name": "TX_AgentMastery_Sage_Background_Role",
+            "relPath": "Valorantek/agents/Sage/posters/TX_AgentMastery_Sage_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Sage/posters/TX_AgentMastery_Sage_Background_Role.png",
+            "sizeBytes": 670511
+          },
+          {
+            "filename": "TX_AgentMastery_Sage_Background_VAL.png",
+            "name": "TX_AgentMastery_Sage_Background_VAL",
+            "relPath": "Valorantek/agents/Sage/posters/TX_AgentMastery_Sage_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Sage/posters/TX_AgentMastery_Sage_Background_VAL.png",
+            "sizeBytes": 537449
+          },
+          {
+            "filename": "TX_AgentMastery_Sage_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Sage_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Sage/posters/TX_AgentMastery_Sage_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Sage/posters/TX_AgentMastery_Sage_Lore_Background_VAL.png",
+            "sizeBytes": 129705
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Sage.png",
+            "name": "TX_Character_CarouselPreview_Hype_Sage",
+            "relPath": "Valorantek/agents/Sage/posters/TX_Character_CarouselPreview_Hype_Sage.png",
+            "thumbPath": "Valorantek/agents/Sage/posters/TX_Character_CarouselPreview_Hype_Sage.png",
+            "sizeBytes": 21059
           },
           {
             "filename": "VALORANT_Sage_dark.jpg",
@@ -21150,6 +23180,103 @@
             "relPath": "Valorantek/agents/Skye/posters/TX_Character_PortraitDisplayIcon_Skye_AM_4K.png",
             "thumbPath": "Valorantek/agents/Skye/posters/TX_Character_PortraitDisplayIcon_Skye_AM_4K.png",
             "sizeBytes": 124953
+          },
+          {
+            "filename": "V26_A5_AM_SKYE.jpg",
+            "name": "V26_A5_AM_SKYE",
+            "relPath": "Valorantek/agents/Skye/posters/V26_A5_AM_SKYE.jpg",
+            "thumbPath": "Valorantek/agents/Skye/posters/V26_A5_AM_SKYE.jpg",
+            "sizeBytes": 879813
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Skye_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Skye_AM_4K",
+            "relPath": "Valorantek/agents/Skye/posters/TX_Character_FullPortrait_Skye_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Skye/posters/TX_Character_FullPortrait_Skye_AM_4K.png",
+            "sizeBytes": 2016230
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Skye_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Skye_AM_4K",
+            "relPath": "Valorantek/agents/Skye/posters/TX_Character_PortraitDisplayIcon_Default_Skye_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Skye/posters/TX_Character_PortraitDisplayIcon_Default_Skye_AM_4K.png",
+            "sizeBytes": 97516
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Skye_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Skye_AM_4K",
+            "relPath": "Valorantek/agents/Skye/posters/TX_Character_PortraitDisplayIcon_Skye_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Skye/posters/TX_Character_PortraitDisplayIcon_Skye_AM_4K.png",
+            "sizeBytes": 124953
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "Skye_KeyArt_PR_1.jpg",
+            "name": "Skye_KeyArt_PR_1",
+            "relPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_1.jpg",
+            "thumbPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_1_thumb.webp",
+            "sizeBytes": 5348336
+          },
+          {
+            "filename": "Skye_KeyArt_PR_2.jpg",
+            "name": "Skye_KeyArt_PR_2",
+            "relPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_2.jpg",
+            "thumbPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_2_thumb.webp",
+            "sizeBytes": 5773129
+          },
+          {
+            "filename": "Skye_KeyArt_PR_3.jpg",
+            "name": "Skye_KeyArt_PR_3",
+            "relPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_3.jpg",
+            "thumbPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_3_thumb.webp",
+            "sizeBytes": 5395172
+          },
+          {
+            "filename": "Skye_KeyArt_PR_4.jpg",
+            "name": "Skye_KeyArt_PR_4",
+            "relPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_4.jpg",
+            "thumbPath": "Valorantek/agents/Skye/posters/Skye_KeyArt_PR_4_thumb.webp",
+            "sizeBytes": 5431995
+          },
+          {
+            "filename": "TX_AgentMastery_Skye_Background_Default.png",
+            "name": "TX_AgentMastery_Skye_Background_Default",
+            "relPath": "Valorantek/agents/Skye/posters/TX_AgentMastery_Skye_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Skye/posters/TX_AgentMastery_Skye_Background_Default.png",
+            "sizeBytes": 471351
+          },
+          {
+            "filename": "TX_AgentMastery_Skye_Background_Role.png",
+            "name": "TX_AgentMastery_Skye_Background_Role",
+            "relPath": "Valorantek/agents/Skye/posters/TX_AgentMastery_Skye_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Skye/posters/TX_AgentMastery_Skye_Background_Role.png",
+            "sizeBytes": 816745
+          },
+          {
+            "filename": "TX_AgentMastery_Skye_Background_VAL.png",
+            "name": "TX_AgentMastery_Skye_Background_VAL",
+            "relPath": "Valorantek/agents/Skye/posters/TX_AgentMastery_Skye_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Skye/posters/TX_AgentMastery_Skye_Background_VAL.png",
+            "sizeBytes": 607354
+          },
+          {
+            "filename": "TX_AgentMastery_Skye_Lore_Background_Role.png",
+            "name": "TX_AgentMastery_Skye_Lore_Background_Role",
+            "relPath": "Valorantek/agents/Skye/posters/TX_AgentMastery_Skye_Lore_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Skye/posters/TX_AgentMastery_Skye_Lore_Background_Role.png",
+            "sizeBytes": 155449
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Skye.png",
+            "name": "TX_Character_CarouselPreview_Hype_Skye",
+            "relPath": "Valorantek/agents/Skye/posters/TX_Character_CarouselPreview_Hype_Skye.png",
+            "thumbPath": "Valorantek/agents/Skye/posters/TX_Character_CarouselPreview_Hype_Skye.png",
+            "sizeBytes": 20510
           },
           {
             "filename": "V26_A5_AM_SKYE.jpg",
@@ -22402,6 +24529,89 @@
             "sizeBytes": 4600614
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Sova_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Sova_AM_4K",
+            "relPath": "Valorantek/agents/Sova/posters/TX_Character_FullPortrait_Sova_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Sova/posters/TX_Character_FullPortrait_Sova_AM_4K.png",
+            "sizeBytes": 2523920
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Sova_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Sova_AM_4K",
+            "relPath": "Valorantek/agents/Sova/posters/TX_Character_PortraitDisplayIcon_Default_Sova_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Sova/posters/TX_Character_PortraitDisplayIcon_Default_Sova_AM_4K.png",
+            "sizeBytes": 88357
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Sova_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Sova_AM_4K",
+            "relPath": "Valorantek/agents/Sova/posters/TX_Character_PortraitDisplayIcon_Sova_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Sova/posters/TX_Character_PortraitDisplayIcon_Sova_AM_4K.png",
+            "sizeBytes": 109658
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Sova_Background_Default.png",
+            "name": "TX_AgentMastery_Sova_Background_Default",
+            "relPath": "Valorantek/agents/Sova/posters/TX_AgentMastery_Sova_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Sova/posters/TX_AgentMastery_Sova_Background_Default.png",
+            "sizeBytes": 471678
+          },
+          {
+            "filename": "TX_AgentMastery_Sova_Background_Lore.png",
+            "name": "TX_AgentMastery_Sova_Background_Lore",
+            "relPath": "Valorantek/agents/Sova/posters/TX_AgentMastery_Sova_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Sova/posters/TX_AgentMastery_Sova_Background_Lore.png",
+            "sizeBytes": 303146
+          },
+          {
+            "filename": "TX_AgentMastery_Sova_Background_Role.png",
+            "name": "TX_AgentMastery_Sova_Background_Role",
+            "relPath": "Valorantek/agents/Sova/posters/TX_AgentMastery_Sova_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Sova/posters/TX_AgentMastery_Sova_Background_Role.png",
+            "sizeBytes": 750208
+          },
+          {
+            "filename": "TX_AgentMastery_Sova_Background_VAL.png",
+            "name": "TX_AgentMastery_Sova_Background_VAL",
+            "relPath": "Valorantek/agents/Sova/posters/TX_AgentMastery_Sova_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Sova/posters/TX_AgentMastery_Sova_Background_VAL.png",
+            "sizeBytes": 600392
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Sova.png",
+            "name": "TX_Character_CarouselPreview_Hype_Sova",
+            "relPath": "Valorantek/agents/Sova/posters/TX_Character_CarouselPreview_Hype_Sova.png",
+            "thumbPath": "Valorantek/agents/Sova/posters/TX_Character_CarouselPreview_Hype_Sova.png",
+            "sizeBytes": 24609
+          },
+          {
+            "filename": "V26_A5_AM_SOVA.jpg",
+            "name": "V26_A5_AM_SOVA",
+            "relPath": "Valorantek/agents/Sova/posters/V26_A5_AM_SOVA.jpg",
+            "thumbPath": "Valorantek/agents/Sova/posters/V26_A5_AM_SOVA.jpg",
+            "sizeBytes": 1003895
+          },
+          {
+            "filename": "VALORANT_Sova_Dark.jpg",
+            "name": "VALORANT_Sova_Dark",
+            "relPath": "Valorantek/agents/Sova/posters/VALORANT_Sova_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Sova/posters/VALORANT_Sova_Dark_thumb.webp",
+            "sizeBytes": 4892038
+          },
+          {
+            "filename": "VALORANT_Sova_Light.jpg",
+            "name": "VALORANT_Sova_Light",
+            "relPath": "Valorantek/agents/Sova/posters/VALORANT_Sova_Light.jpg",
+            "thumbPath": "Valorantek/agents/Sova/posters/VALORANT_Sova_Light_thumb.webp",
+            "sizeBytes": 4600614
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Sova1.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Sova1_thumb.webp"
@@ -23400,6 +25610,75 @@
             "relPath": "Valorantek/agents/Tejo/posters/TX_Character_PortraitDisplayIcon_Tejo_AM_4K.png",
             "thumbPath": "Valorantek/agents/Tejo/posters/TX_Character_PortraitDisplayIcon_Tejo_AM_4K.png",
             "sizeBytes": 102830
+          },
+          {
+            "filename": "V26_A5_AM_TEJO.jpg",
+            "name": "V26_A5_AM_TEJO",
+            "relPath": "Valorantek/agents/Tejo/posters/V26_A5_AM_TEJO.jpg",
+            "thumbPath": "Valorantek/agents/Tejo/posters/V26_A5_AM_TEJO.jpg",
+            "sizeBytes": 753372
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Tejo_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Tejo_AM_4K",
+            "relPath": "Valorantek/agents/Tejo/posters/TX_Character_FullPortrait_Tejo_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Tejo/posters/TX_Character_FullPortrait_Tejo_AM_4K.png",
+            "sizeBytes": 1739980
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Tejo_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Tejo_AM_4K",
+            "relPath": "Valorantek/agents/Tejo/posters/TX_Character_PortraitDisplayIcon_Default_Tejo_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Tejo/posters/TX_Character_PortraitDisplayIcon_Default_Tejo_AM_4K.png",
+            "sizeBytes": 85829
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Tejo_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Tejo_AM_4K",
+            "relPath": "Valorantek/agents/Tejo/posters/TX_Character_PortraitDisplayIcon_Tejo_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Tejo/posters/TX_Character_PortraitDisplayIcon_Tejo_AM_4K.png",
+            "sizeBytes": 102830
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Tejo_Background_Default.png",
+            "name": "TX_AgentMastery_Tejo_Background_Default",
+            "relPath": "Valorantek/agents/Tejo/posters/TX_AgentMastery_Tejo_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Tejo/posters/TX_AgentMastery_Tejo_Background_Default.png",
+            "sizeBytes": 437539
+          },
+          {
+            "filename": "TX_AgentMastery_Tejo_Background_Role.png",
+            "name": "TX_AgentMastery_Tejo_Background_Role",
+            "relPath": "Valorantek/agents/Tejo/posters/TX_AgentMastery_Tejo_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Tejo/posters/TX_AgentMastery_Tejo_Background_Role.png",
+            "sizeBytes": 721525
+          },
+          {
+            "filename": "TX_AgentMastery_Tejo_Background_VAL.png",
+            "name": "TX_AgentMastery_Tejo_Background_VAL",
+            "relPath": "Valorantek/agents/Tejo/posters/TX_AgentMastery_Tejo_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Tejo/posters/TX_AgentMastery_Tejo_Background_VAL.png",
+            "sizeBytes": 608965
+          },
+          {
+            "filename": "TX_AgentMastery_Tejo_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Tejo_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Tejo/posters/TX_AgentMastery_Tejo_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Tejo/posters/TX_AgentMastery_Tejo_Lore_Background_VAL.png",
+            "sizeBytes": 162574
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Tejo.png",
+            "name": "TX_Character_CarouselPreview_Hype_Tejo",
+            "relPath": "Valorantek/agents/Tejo/posters/TX_Character_CarouselPreview_Hype_Tejo.png",
+            "thumbPath": "Valorantek/agents/Tejo/posters/TX_Character_CarouselPreview_Hype_Tejo.png",
+            "sizeBytes": 17653
           },
           {
             "filename": "V26_A5_AM_TEJO.jpg",
@@ -24495,6 +26774,75 @@
             "relPath": "Valorantek/agents/Veto/posters/TX_Character_PortraitDisplayIcon_Veto_AM_4K.png",
             "thumbPath": "Valorantek/agents/Veto/posters/TX_Character_PortraitDisplayIcon_Veto_AM_4K.png",
             "sizeBytes": 92113
+          },
+          {
+            "filename": "V26_A5_AM_VETO.jpg",
+            "name": "V26_A5_AM_VETO",
+            "relPath": "Valorantek/agents/Veto/posters/V26_A5_AM_VETO.jpg",
+            "thumbPath": "Valorantek/agents/Veto/posters/V26_A5_AM_VETO.jpg",
+            "sizeBytes": 969925
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Veto_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Veto_AM_4K",
+            "relPath": "Valorantek/agents/Veto/posters/TX_Character_FullPortrait_Veto_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Veto/posters/TX_Character_FullPortrait_Veto_AM_4K.png",
+            "sizeBytes": 2553346
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Veto_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Veto_AM_4K",
+            "relPath": "Valorantek/agents/Veto/posters/TX_Character_PortraitDisplayIcon_Default_Veto_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Veto/posters/TX_Character_PortraitDisplayIcon_Default_Veto_AM_4K.png",
+            "sizeBytes": 65350
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Veto_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Veto_AM_4K",
+            "relPath": "Valorantek/agents/Veto/posters/TX_Character_PortraitDisplayIcon_Veto_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Veto/posters/TX_Character_PortraitDisplayIcon_Veto_AM_4K.png",
+            "sizeBytes": 92113
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Veto_Background_Default.png",
+            "name": "TX_AgentMastery_Veto_Background_Default",
+            "relPath": "Valorantek/agents/Veto/posters/TX_AgentMastery_Veto_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Veto/posters/TX_AgentMastery_Veto_Background_Default.png",
+            "sizeBytes": 527155
+          },
+          {
+            "filename": "TX_AgentMastery_Veto_Background_Lore.png",
+            "name": "TX_AgentMastery_Veto_Background_Lore",
+            "relPath": "Valorantek/agents/Veto/posters/TX_AgentMastery_Veto_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Veto/posters/TX_AgentMastery_Veto_Background_Lore.png",
+            "sizeBytes": 325309
+          },
+          {
+            "filename": "TX_AgentMastery_Veto_Background_Role.png",
+            "name": "TX_AgentMastery_Veto_Background_Role",
+            "relPath": "Valorantek/agents/Veto/posters/TX_AgentMastery_Veto_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Veto/posters/TX_AgentMastery_Veto_Background_Role.png",
+            "sizeBytes": 682056
+          },
+          {
+            "filename": "TX_AgentMastery_Veto_Background_VAL.png",
+            "name": "TX_AgentMastery_Veto_Background_VAL",
+            "relPath": "Valorantek/agents/Veto/posters/TX_AgentMastery_Veto_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Veto/posters/TX_AgentMastery_Veto_Background_VAL.png",
+            "sizeBytes": 574711
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Veto.png",
+            "name": "TX_Character_CarouselPreview_Hype_Veto",
+            "relPath": "Valorantek/agents/Veto/posters/TX_Character_CarouselPreview_Hype_Veto.png",
+            "thumbPath": "Valorantek/agents/Veto/posters/TX_Character_CarouselPreview_Hype_Veto.png",
+            "sizeBytes": 20158
           },
           {
             "filename": "V26_A5_AM_VETO.jpg",
@@ -25838,6 +28186,131 @@
             "sizeBytes": 1108432
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Viper_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Viper_AM_4K",
+            "relPath": "Valorantek/agents/Viper/posters/TX_Character_FullPortrait_Viper_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Viper/posters/TX_Character_FullPortrait_Viper_AM_4K.png",
+            "sizeBytes": 3129708
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Viper_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Viper_AM_4K",
+            "relPath": "Valorantek/agents/Viper/posters/TX_Character_PortraitDisplayIcon_Default_Viper_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Viper/posters/TX_Character_PortraitDisplayIcon_Default_Viper_AM_4K.png",
+            "sizeBytes": 84359
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Viper_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Viper_AM_4K",
+            "relPath": "Valorantek/agents/Viper/posters/TX_Character_PortraitDisplayIcon_Viper_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Viper/posters/TX_Character_PortraitDisplayIcon_Viper_AM_4K.png",
+            "sizeBytes": 128617
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "Agent Mastery_16x9_Viper.png",
+            "name": "Agent Mastery_16x9_Viper",
+            "relPath": "Valorantek/agents/Viper/posters/Agent Mastery_16x9_Viper.png",
+            "thumbPath": "Valorantek/agents/Viper/posters/Agent Mastery_16x9_Viper.png",
+            "sizeBytes": 5048037
+          },
+          {
+            "filename": "FirstLook_Viper_Concept.jpg",
+            "name": "FirstLook_Viper_Concept",
+            "relPath": "Valorantek/agents/Viper/posters/FirstLook_Viper_Concept.jpg",
+            "thumbPath": "Valorantek/agents/Viper/posters/FirstLook_Viper_Concept_thumb.webp",
+            "sizeBytes": 5434844
+          },
+          {
+            "filename": "TX_AgentMastery_Viper_Background_Default.png",
+            "name": "TX_AgentMastery_Viper_Background_Default",
+            "relPath": "Valorantek/agents/Viper/posters/TX_AgentMastery_Viper_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Viper/posters/TX_AgentMastery_Viper_Background_Default.png",
+            "sizeBytes": 516097
+          },
+          {
+            "filename": "TX_AgentMastery_Viper_Background_Lore.png",
+            "name": "TX_AgentMastery_Viper_Background_Lore",
+            "relPath": "Valorantek/agents/Viper/posters/TX_AgentMastery_Viper_Background_Lore.png",
+            "thumbPath": "Valorantek/agents/Viper/posters/TX_AgentMastery_Viper_Background_Lore.png",
+            "sizeBytes": 103771
+          },
+          {
+            "filename": "TX_AgentMastery_Viper_Background_Role.png",
+            "name": "TX_AgentMastery_Viper_Background_Role",
+            "relPath": "Valorantek/agents/Viper/posters/TX_AgentMastery_Viper_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Viper/posters/TX_AgentMastery_Viper_Background_Role.png",
+            "sizeBytes": 645440
+          },
+          {
+            "filename": "TX_AgentMastery_Viper_Background_VAL.png",
+            "name": "TX_AgentMastery_Viper_Background_VAL",
+            "relPath": "Valorantek/agents/Viper/posters/TX_AgentMastery_Viper_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Viper/posters/TX_AgentMastery_Viper_Background_VAL.png",
+            "sizeBytes": 546545
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Viper.png",
+            "name": "TX_Character_CarouselPreview_Hype_Viper",
+            "relPath": "Valorantek/agents/Viper/posters/TX_Character_CarouselPreview_Hype_Viper.png",
+            "thumbPath": "Valorantek/agents/Viper/posters/TX_Character_CarouselPreview_Hype_Viper.png",
+            "sizeBytes": 18654
+          },
+          {
+            "filename": "VALORANT_STANDARS_THUMBNAIL_3VIPER.jpg",
+            "name": "VALORANT_STANDARS_THUMBNAIL_3VIPER",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_STANDARS_THUMBNAIL_3VIPER.jpg",
+            "thumbPath": "Valorantek/agents/Viper/posters/VALORANT_STANDARS_THUMBNAIL_3VIPER_thumb.webp",
+            "sizeBytes": 475606
+          },
+          {
+            "filename": "VALORANT_Viper.jpg",
+            "name": "VALORANT_Viper",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_Viper.jpg",
+            "thumbPath": "Valorantek/agents/Viper/posters/VALORANT_Viper_thumb.webp",
+            "sizeBytes": 1511903
+          },
+          {
+            "filename": "VALORANT_VIPER_2.jpg",
+            "name": "VALORANT_VIPER_2",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_VIPER_2.jpg",
+            "thumbPath": "Valorantek/agents/Viper/posters/VALORANT_VIPER_2_thumb.webp",
+            "sizeBytes": 1822584
+          },
+          {
+            "filename": "VALORANT_VIPER_2_(1).jpg",
+            "name": "VALORANT_VIPER_2_(1)",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_VIPER_2_(1).jpg",
+            "thumbPath": "Valorantek/agents/Viper/posters/VALORANT_VIPER_2_(1)_thumb.webp",
+            "sizeBytes": 1822584
+          },
+          {
+            "filename": "VALORANT_Viper_Dark.jpg",
+            "name": "VALORANT_Viper_Dark",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_Viper_Dark.jpg",
+            "thumbPath": "Valorantek/agents/Viper/posters/VALORANT_Viper_Dark_thumb.webp",
+            "sizeBytes": 4707771
+          },
+          {
+            "filename": "VALORANT_Viper_Light.jpg",
+            "name": "VALORANT_Viper_Light",
+            "relPath": "Valorantek/agents/Viper/posters/VALORANT_Viper_Light.jpg",
+            "thumbPath": "Valorantek/agents/Viper/posters/VALORANT_Viper_Light_thumb.webp",
+            "sizeBytes": 4712731
+          },
+          {
+            "filename": "Vertical_Viper.jpg",
+            "name": "Vertical_Viper",
+            "relPath": "Valorantek/agents/Viper/posters/Vertical_Viper.jpg",
+            "thumbPath": "Valorantek/agents/Viper/posters/Vertical_Viper_thumb.webp",
+            "sizeBytes": 1108432
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Viper.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Viper_thumb.webp"
@@ -26691,6 +29164,75 @@
             "relPath": "Valorantek/agents/Vyse/posters/TX_Character_PortraitDisplayIcon_Vyse_AM_4K.png",
             "thumbPath": "Valorantek/agents/Vyse/posters/TX_Character_PortraitDisplayIcon_Vyse_AM_4K.png",
             "sizeBytes": 96365
+          },
+          {
+            "filename": "V26_A5_AM_VYSE.jpg",
+            "name": "V26_A5_AM_VYSE",
+            "relPath": "Valorantek/agents/Vyse/posters/V26_A5_AM_VYSE.jpg",
+            "thumbPath": "Valorantek/agents/Vyse/posters/V26_A5_AM_VYSE.jpg",
+            "sizeBytes": 995591
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Vyse_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Vyse_AM_4K",
+            "relPath": "Valorantek/agents/Vyse/posters/TX_Character_FullPortrait_Vyse_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Vyse/posters/TX_Character_FullPortrait_Vyse_AM_4K.png",
+            "sizeBytes": 2308814
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Vyse_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Vyse_AM_4K",
+            "relPath": "Valorantek/agents/Vyse/posters/TX_Character_PortraitDisplayIcon_Default_Vyse_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Vyse/posters/TX_Character_PortraitDisplayIcon_Default_Vyse_AM_4K.png",
+            "sizeBytes": 89261
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Vyse_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Vyse_AM_4K",
+            "relPath": "Valorantek/agents/Vyse/posters/TX_Character_PortraitDisplayIcon_Vyse_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Vyse/posters/TX_Character_PortraitDisplayIcon_Vyse_AM_4K.png",
+            "sizeBytes": 96365
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Vyse_Background_Default.png",
+            "name": "TX_AgentMastery_Vyse_Background_Default",
+            "relPath": "Valorantek/agents/Vyse/posters/TX_AgentMastery_Vyse_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Vyse/posters/TX_AgentMastery_Vyse_Background_Default.png",
+            "sizeBytes": 431040
+          },
+          {
+            "filename": "TX_AgentMastery_Vyse_Background_Role.png",
+            "name": "TX_AgentMastery_Vyse_Background_Role",
+            "relPath": "Valorantek/agents/Vyse/posters/TX_AgentMastery_Vyse_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Vyse/posters/TX_AgentMastery_Vyse_Background_Role.png",
+            "sizeBytes": 707558
+          },
+          {
+            "filename": "TX_AgentMastery_Vyse_Background_VAL.png",
+            "name": "TX_AgentMastery_Vyse_Background_VAL",
+            "relPath": "Valorantek/agents/Vyse/posters/TX_AgentMastery_Vyse_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Vyse/posters/TX_AgentMastery_Vyse_Background_VAL.png",
+            "sizeBytes": 579024
+          },
+          {
+            "filename": "TX_AgentMastery_Vyse_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Vyse_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Vyse/posters/TX_AgentMastery_Vyse_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Vyse/posters/TX_AgentMastery_Vyse_Lore_Background_VAL.png",
+            "sizeBytes": 206506
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Vyse.png",
+            "name": "TX_Character_CarouselPreview_Hype_Vyse",
+            "relPath": "Valorantek/agents/Vyse/posters/TX_Character_CarouselPreview_Hype_Vyse.png",
+            "thumbPath": "Valorantek/agents/Vyse/posters/TX_Character_CarouselPreview_Hype_Vyse.png",
+            "sizeBytes": 19014
           },
           {
             "filename": "V26_A5_AM_VYSE.jpg",
@@ -27963,6 +30505,75 @@
             "sizeBytes": 980574
           }
         ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Waylay_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Waylay_AM_4K",
+            "relPath": "Valorantek/agents/Waylay/posters/TX_Character_FullPortrait_Waylay_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Waylay/posters/TX_Character_FullPortrait_Waylay_AM_4K.png",
+            "sizeBytes": 2438465
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Waylay_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Waylay_AM_4K",
+            "relPath": "Valorantek/agents/Waylay/posters/TX_Character_PortraitDisplayIcon_Default_Waylay_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Waylay/posters/TX_Character_PortraitDisplayIcon_Default_Waylay_AM_4K.png",
+            "sizeBytes": 101490
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Waylay_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Waylay_AM_4K",
+            "relPath": "Valorantek/agents/Waylay/posters/TX_Character_PortraitDisplayIcon_Waylay_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Waylay/posters/TX_Character_PortraitDisplayIcon_Waylay_AM_4K.png",
+            "sizeBytes": 72935
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Waylay_Background_Default.png",
+            "name": "TX_AgentMastery_Waylay_Background_Default",
+            "relPath": "Valorantek/agents/Waylay/posters/TX_AgentMastery_Waylay_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Waylay/posters/TX_AgentMastery_Waylay_Background_Default.png",
+            "sizeBytes": 440124
+          },
+          {
+            "filename": "TX_AgentMastery_Waylay_Background_Role.png",
+            "name": "TX_AgentMastery_Waylay_Background_Role",
+            "relPath": "Valorantek/agents/Waylay/posters/TX_AgentMastery_Waylay_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Waylay/posters/TX_AgentMastery_Waylay_Background_Role.png",
+            "sizeBytes": 679029
+          },
+          {
+            "filename": "TX_AgentMastery_Waylay_Background_VAL.png",
+            "name": "TX_AgentMastery_Waylay_Background_VAL",
+            "relPath": "Valorantek/agents/Waylay/posters/TX_AgentMastery_Waylay_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Waylay/posters/TX_AgentMastery_Waylay_Background_VAL.png",
+            "sizeBytes": 553386
+          },
+          {
+            "filename": "TX_AgentMastery_Waylay_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Waylay_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Waylay/posters/TX_AgentMastery_Waylay_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Waylay/posters/TX_AgentMastery_Waylay_Lore_Background_VAL.png",
+            "sizeBytes": 214389
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Waylay.png",
+            "name": "TX_Character_CarouselPreview_Hype_Waylay",
+            "relPath": "Valorantek/agents/Waylay/posters/TX_Character_CarouselPreview_Hype_Waylay.png",
+            "thumbPath": "Valorantek/agents/Waylay/posters/TX_Character_CarouselPreview_Hype_Waylay.png",
+            "sizeBytes": 17661
+          },
+          {
+            "filename": "V26_A5_AM_WAYLAY.jpg",
+            "name": "V26_A5_AM_WAYLAY",
+            "relPath": "Valorantek/agents/Waylay/posters/V26_A5_AM_WAYLAY.jpg",
+            "thumbPath": "Valorantek/agents/Waylay/posters/V26_A5_AM_WAYLAY.jpg",
+            "sizeBytes": 980574
+          }
+        ],
         "killfeedIcons": [
           "Valorantek/Icons/Killfeed/TX_Killfeed_Waylay.png",
           "Valorantek/Icons/Killfeed/TX_Killfeed_Waylay_thumb.webp"
@@ -28642,6 +31253,75 @@
             "relPath": "Valorantek/agents/Yoru/posters/TX_Character_PortraitDisplayIcon_Yoru_AM_4K.png",
             "thumbPath": "Valorantek/agents/Yoru/posters/TX_Character_PortraitDisplayIcon_Yoru_AM_4K.png",
             "sizeBytes": 91259
+          },
+          {
+            "filename": "V26_A5_AM_YORU.jpg",
+            "name": "V26_A5_AM_YORU",
+            "relPath": "Valorantek/agents/Yoru/posters/V26_A5_AM_YORU.jpg",
+            "thumbPath": "Valorantek/agents/Yoru/posters/V26_A5_AM_YORU.jpg",
+            "sizeBytes": 1008107
+          }
+        ],
+        "fullPortraitsList": [
+          {
+            "filename": "TX_Character_FullPortrait_Yoru_AM_4K.png",
+            "name": "TX_Character_FullPortrait_Yoru_AM_4K",
+            "relPath": "Valorantek/agents/Yoru/posters/TX_Character_FullPortrait_Yoru_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Yoru/posters/TX_Character_FullPortrait_Yoru_AM_4K.png",
+            "sizeBytes": 2554131
+          }
+        ],
+        "displayIconsList": [
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Default_Yoru_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Default_Yoru_AM_4K",
+            "relPath": "Valorantek/agents/Yoru/posters/TX_Character_PortraitDisplayIcon_Default_Yoru_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Yoru/posters/TX_Character_PortraitDisplayIcon_Default_Yoru_AM_4K.png",
+            "sizeBytes": 79920
+          },
+          {
+            "filename": "TX_Character_PortraitDisplayIcon_Yoru_AM_4K.png",
+            "name": "TX_Character_PortraitDisplayIcon_Yoru_AM_4K",
+            "relPath": "Valorantek/agents/Yoru/posters/TX_Character_PortraitDisplayIcon_Yoru_AM_4K.png",
+            "thumbPath": "Valorantek/agents/Yoru/posters/TX_Character_PortraitDisplayIcon_Yoru_AM_4K.png",
+            "sizeBytes": 91259
+          }
+        ],
+        "wallpapersList": [
+          {
+            "filename": "TX_AgentMastery_Yoru_Background_Default.png",
+            "name": "TX_AgentMastery_Yoru_Background_Default",
+            "relPath": "Valorantek/agents/Yoru/posters/TX_AgentMastery_Yoru_Background_Default.png",
+            "thumbPath": "Valorantek/agents/Yoru/posters/TX_AgentMastery_Yoru_Background_Default.png",
+            "sizeBytes": 438848
+          },
+          {
+            "filename": "TX_AgentMastery_Yoru_Background_Role.png",
+            "name": "TX_AgentMastery_Yoru_Background_Role",
+            "relPath": "Valorantek/agents/Yoru/posters/TX_AgentMastery_Yoru_Background_Role.png",
+            "thumbPath": "Valorantek/agents/Yoru/posters/TX_AgentMastery_Yoru_Background_Role.png",
+            "sizeBytes": 630536
+          },
+          {
+            "filename": "TX_AgentMastery_Yoru_Background_VAL.png",
+            "name": "TX_AgentMastery_Yoru_Background_VAL",
+            "relPath": "Valorantek/agents/Yoru/posters/TX_AgentMastery_Yoru_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Yoru/posters/TX_AgentMastery_Yoru_Background_VAL.png",
+            "sizeBytes": 523137
+          },
+          {
+            "filename": "TX_AgentMastery_Yoru_Lore_Background_VAL.png",
+            "name": "TX_AgentMastery_Yoru_Lore_Background_VAL",
+            "relPath": "Valorantek/agents/Yoru/posters/TX_AgentMastery_Yoru_Lore_Background_VAL.png",
+            "thumbPath": "Valorantek/agents/Yoru/posters/TX_AgentMastery_Yoru_Lore_Background_VAL.png",
+            "sizeBytes": 161711
+          },
+          {
+            "filename": "TX_Character_CarouselPreview_Hype_Yoru.png",
+            "name": "TX_Character_CarouselPreview_Hype_Yoru",
+            "relPath": "Valorantek/agents/Yoru/posters/TX_Character_CarouselPreview_Hype_Yoru.png",
+            "thumbPath": "Valorantek/agents/Yoru/posters/TX_Character_CarouselPreview_Hype_Yoru.png",
+            "sizeBytes": 19154
           },
           {
             "filename": "V26_A5_AM_YORU.jpg",

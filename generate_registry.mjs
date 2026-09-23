@@ -251,7 +251,10 @@ if (fs.existsSync(agentsDir)) {
       hypePreview: null,
       gauntletChromas: {},
       abilityIcons: [],
-      posters: []
+      posters: [],
+      fullPortraitsList: [],
+      displayIconsList: [],
+      wallpapersList: []
     };
 
     // Hype Master Icon Preview
@@ -325,13 +328,23 @@ if (fs.existsSync(agentsDir)) {
       for (const pf of pFiles) {
         if (!pf.endsWith('_thumb.webp') && (pf.endsWith('.jpg') || pf.endsWith('.png') || pf.endsWith('.webp'))) {
           const pfPath = path.join(postersFolderPath, pf);
-          assets.posters.push({
+          const item = {
             filename: pf,
             name: pf.replace(/\.[^/.]+$/, ''),
             relPath: getRelativePath(pfPath),
             thumbPath: getThumbPath(pfPath),
             sizeBytes: fs.statSync(pfPath).size
-          });
+          };
+          assets.posters.push(item);
+
+          const pfLower = pf.toLowerCase();
+          if (pfLower.includes('fullportrait') || pfLower.includes('portrait_complet')) {
+            assets.fullPortraitsList.push(item);
+          } else if (pfLower.includes('portraitdisplayicon') || pfLower.includes('icone_carree') || pfLower.includes('icone_petite')) {
+            assets.displayIconsList.push(item);
+          } else {
+            assets.wallpapersList.push(item);
+          }
         }
       }
     }
