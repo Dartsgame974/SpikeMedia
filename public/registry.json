@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T16:34:27.467Z",
+  "generatedAt": "2026-09-23T16:55:24.666Z",
   "roleIcons": {
     "All": "Valorantek/Icons/Roles/TX_UI_RoleIcon_All_thumb.webp",
     "Controller": "Valorantek/Icons/Roles/TX_UI_RoleIcon_Controller_thumb.webp",
@@ -52769,6 +52769,87 @@
         "relPath": "Valorantek/Rankings/ActRank_lvl5.png",
         "thumbPath": "Valorantek/Rankings/ActRank_lvl5_thumb.webp",
         "sizeBytes": 146024
+      },
+      {
+        "name": "UI_Icon_Prestige_Ascendant",
+        "displayName": "UI Icon Prestige Ascendant",
+        "codename": "UI_Icon_Prestige_Ascendant",
+        "filename": "UI_Icon_Prestige_Ascendant.png",
+        "relPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Ascendant.png",
+        "thumbPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Ascendant.png",
+        "sizeBytes": 34268
+      },
+      {
+        "name": "UI_Icon_Prestige_Bronze",
+        "displayName": "UI Icon Prestige Bronze",
+        "codename": "UI_Icon_Prestige_Bronze",
+        "filename": "UI_Icon_Prestige_Bronze.png",
+        "relPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Bronze.png",
+        "thumbPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Bronze.png",
+        "sizeBytes": 36650
+      },
+      {
+        "name": "UI_Icon_Prestige_Diamond",
+        "displayName": "UI Icon Prestige Diamond",
+        "codename": "UI_Icon_Prestige_Diamond",
+        "filename": "UI_Icon_Prestige_Diamond.png",
+        "relPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Diamond.png",
+        "thumbPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Diamond.png",
+        "sizeBytes": 33428
+      },
+      {
+        "name": "UI_Icon_Prestige_Gold",
+        "displayName": "UI Icon Prestige Gold",
+        "codename": "UI_Icon_Prestige_Gold",
+        "filename": "UI_Icon_Prestige_Gold.png",
+        "relPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Gold.png",
+        "thumbPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Gold.png",
+        "sizeBytes": 53974
+      },
+      {
+        "name": "UI_Icon_Prestige_Immortal",
+        "displayName": "UI Icon Prestige Immortal",
+        "codename": "UI_Icon_Prestige_Immortal",
+        "filename": "UI_Icon_Prestige_Immortal.png",
+        "relPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Immortal.png",
+        "thumbPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Immortal.png",
+        "sizeBytes": 35677
+      },
+      {
+        "name": "UI_Icon_Prestige_Iron",
+        "displayName": "UI Icon Prestige Iron",
+        "codename": "UI_Icon_Prestige_Iron",
+        "filename": "UI_Icon_Prestige_Iron.png",
+        "relPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Iron.png",
+        "thumbPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Iron.png",
+        "sizeBytes": 37425
+      },
+      {
+        "name": "UI_Icon_Prestige_Platinum",
+        "displayName": "UI Icon Prestige Platinum",
+        "codename": "UI_Icon_Prestige_Platinum",
+        "filename": "UI_Icon_Prestige_Platinum.png",
+        "relPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Platinum.png",
+        "thumbPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Platinum.png",
+        "sizeBytes": 37236
+      },
+      {
+        "name": "UI_Icon_Prestige_Radiant",
+        "displayName": "UI Icon Prestige Radiant",
+        "codename": "UI_Icon_Prestige_Radiant",
+        "filename": "UI_Icon_Prestige_Radiant.png",
+        "relPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Radiant.png",
+        "thumbPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Radiant.png",
+        "sizeBytes": 36537
+      },
+      {
+        "name": "UI_Icon_Prestige_Silver",
+        "displayName": "UI Icon Prestige Silver",
+        "codename": "UI_Icon_Prestige_Silver",
+        "filename": "UI_Icon_Prestige_Silver.png",
+        "relPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Silver.png",
+        "thumbPath": "Valorantek/Rankings/Rank Icon V2/UI_Icon_Prestige_Silver.png",
+        "sizeBytes": 37565
       },
       {
         "name": "TX_Icon_StandingFigure_Console",
