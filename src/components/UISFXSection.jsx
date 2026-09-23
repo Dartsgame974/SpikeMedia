@@ -20,9 +20,11 @@ export default function UISFXSection({ uiCategories }) {
   const handleSelectCategory = (cat) => {
     if (cat === selectedCategory) return;
     setIsCategoryLoading(true);
-    setSelectedCategory(cat);
     setMobileFilterOpen(false);
-    setTimeout(() => setIsCategoryLoading(false), 200);
+    setTimeout(() => {
+      setSelectedCategory(cat);
+      setTimeout(() => setIsCategoryLoading(false), 150);
+    }, 40);
   };
 
   // Clean Display Names & Icons for Categories

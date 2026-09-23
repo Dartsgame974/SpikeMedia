@@ -17,9 +17,34 @@ export default function App() {
   const [registryData, setRegistryData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('agents'); // 'agents', 'ui', 'gameassets', 'fonts', 'codenames', 'community'
+  const [isTabSwitching, setIsTabSwitching] = useState(false);
+  const [targetTabLabel, setTargetTabLabel] = useState('');
   const [selectedAgent, setSelectedAgent] = useState(null);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isCodenamesOpen, setIsCodenamesOpen] = useState(false);
+
+  const handleTabChange = useCallback((tabId) => {
+    if (tabId === activeTab) return;
+    
+    const labels = {
+      agents: 'Valorant Agents & Roles Catalog',
+      ui: 'UI & Map Sound Effects Archive',
+      gameassets: 'Weapons, Renders & Game Assets Library',
+      fonts: 'Typography Fonts Catalog',
+      codenames: 'Developer Codenames Index',
+      community: 'Community Tools & External Resources'
+    };
+
+    setIsTabSwitching(true);
+    setTargetTabLabel(labels[tabId] || 'Section');
+
+    setTimeout(() => {
+      setActiveTab(tabId);
+      setTimeout(() => {
+        setIsTabSwitching(false);
+      }, 150);
+    }, 40);
+  }, [activeTab]);
 
   const fetchRegistry = useCallback(() => {
     const baseUrl = import.meta.env.BASE_URL || './';
@@ -61,7 +86,8 @@ export default function App() {
       {/* Header */}
       <Header
         activeTab={activeTab}
-        setActiveTab={setActiveTab}
+        setActiveTab={handleTabChange}
+        isTabSwitching={isTabSwitching}
         onOpenSearch={() => setIsSearchOpen(true)}
         stats={stats}
       />
@@ -96,7 +122,7 @@ export default function App() {
 
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <button
-                onClick={() => setActiveTab('agents')}
+                onClick={() => handleTabChange('agents')}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'agents'
                     ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
@@ -108,7 +134,7 @@ export default function App() {
               </button>
 
               <button
-                onClick={() => setActiveTab('ui')}
+                onClick={() => handleTabChange('ui')}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'ui'
                     ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
@@ -120,7 +146,7 @@ export default function App() {
               </button>
 
               <button
-                onClick={() => setActiveTab('gameassets')}
+                onClick={() => handleTabChange('gameassets')}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'gameassets'
                     ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
@@ -132,7 +158,7 @@ export default function App() {
               </button>
 
               <button
-                onClick={() => setActiveTab('fonts')}
+                onClick={() => handleTabChange('fonts')}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'fonts'
                     ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
@@ -144,7 +170,7 @@ export default function App() {
               </button>
 
               <button
-                onClick={() => setActiveTab('codenames')}
+                onClick={() => handleTabChange('codenames')}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all ${
                   activeTab === 'codenames'
                     ? 'bg-[#FF4655] text-white shadow-lg shadow-[#FF4655]/30'
@@ -166,11 +192,17 @@ export default function App() {
           </div>
         </div>
 
-        {/* Loading Indicator */}
-        {isLoading ? (
-          <div className="py-24 flex flex-col items-center justify-center gap-3 text-slate-400 font-display text-sm">
-            <Loader2 className="w-8 h-8 text-[#FF4655] animate-spin" />
-            <span>Loading Valorant Asset Index...</span>
+        {/* Loading Indicator for Tab Switches & Initial Load */}
+        {isLoading || isTabSwitching ? (
+          <div className="py-24 bg-[#131722]/90 rounded-3xl border border-[#FF4655]/20 flex flex-col items-center justify-center gap-4 text-slate-200 font-display text-sm shadow-2xl backdrop-blur-md">
+            <div className="relative flex items-center justify-center">
+              <Loader2 className="w-10 h-10 text-[#FF4655] animate-spin" />
+              <div className="absolute w-12 h-12 border-2 border-[#00F0FF]/40 rounded-full animate-ping pointer-events-none" />
+            </div>
+            <div className="text-center space-y-1">
+              <span className="font-extrabold text-white text-base block tracking-tight">Chargement de la section...</span>
+              <span className="text-xs text-[#00F0FF] block font-mono">{targetTabLabel || 'Valorant Asset Index'}</span>
+            </div>
           </div>
         ) : (
           <>

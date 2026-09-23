@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Search, Radio, Disc, ExternalLink, Box, Code, Type, Menu, X } from 'lucide-react';
+import { Search, Radio, Disc, ExternalLink, Box, Code, Type, Menu, X, Loader2 } from 'lucide-react';
 import { toAssetUrl } from '../utils/urlHelper';
 
-export default function Header({ activeTab, setActiveTab, onOpenSearch, stats }) {
+export default function Header({ activeTab, setActiveTab, isTabSwitching, onOpenSearch, stats }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
@@ -54,7 +54,11 @@ export default function Header({ activeTab, setActiveTab, onOpenSearch, stats })
                     : 'text-slate-400 hover:text-slate-200 hover:bg-white/5'
                 }`}
               >
-                <IconComp className={`w-3.5 h-3.5 shrink-0 ${isActive ? 'text-white' : item.color}`} />
+                {isActive && isTabSwitching ? (
+                  <Loader2 className="w-3.5 h-3.5 shrink-0 animate-spin text-white" />
+                ) : (
+                  <IconComp className={`w-3.5 h-3.5 shrink-0 ${isActive ? 'text-white' : item.color}`} />
+                )}
                 <span className="whitespace-nowrap">{item.label}</span>
               </button>
             );

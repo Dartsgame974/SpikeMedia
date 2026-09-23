@@ -15,9 +15,11 @@ export default function GameAssetsSection({ registry }) {
   const changeSubTab = (newTab) => {
     if (newTab === activeSubTab) return;
     setIsAssetCategoryLoading(true);
-    setActiveSubTab(newTab);
     setIsMobileDrawerOpen(false);
-    setTimeout(() => setIsAssetCategoryLoading(false), 200);
+    setTimeout(() => {
+      setActiveSubTab(newTab);
+      setTimeout(() => setIsAssetCategoryLoading(false), 150);
+    }, 40);
   };
   // Sub-category selectors
   const [selectedAgentWallpaperCat, setSelectedAgentWallpaperCat] = useState('All');
