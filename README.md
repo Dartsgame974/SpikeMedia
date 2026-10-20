@@ -28,7 +28,7 @@
   - Content Creator / Influencer
   - Fan page & content creation
   - Contact: `kingdomlaboratories@gmail.com`
-- **Note**: Premier community content creator covering Valorant lore, game updates, leaks, fan creations, and community servers.
+- **Note**: Premier community content creator covering Valorant lore, game updates, patch analysis, fan creations, and community servers.
 
 ---
 

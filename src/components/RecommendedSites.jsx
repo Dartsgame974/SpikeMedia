@@ -179,9 +179,9 @@ export default function RecommendedSites() {
       name: 'valohabercisi',
       handle: '@valohabercisi',
       url: 'https://x.com/valohabercisi',
-      tag: 'Top Dataminer & Leaker',
+      tag: 'Top Dataminer & News',
       image: toAssetUrl('resources/valohabercisi.webp'),
-      desc: 'The most relevant, trusted, and well-known Valorant dataminer and leaker in the community.'
+      desc: 'The most relevant, trusted, and well-known Valorant dataminer and news source in the community.'
     },
     {
       name: 'BDERADIANTE',
@@ -195,7 +195,7 @@ export default function RecommendedSites() {
       handle: '@kohteihep',
       url: 'https://x.com/kohteihep',
       tag: 'Datamining & Dev',
-      desc: 'Valorant enthusiast covering datamining, dev insights, leak suppression, and game content analysis.'
+      desc: 'Valorant enthusiast covering datamining, dev insights, technical analysis, and game content updates.'
     },
     {
       name: 'Strawberry79',
@@ -215,8 +215,8 @@ export default function RecommendedSites() {
       name: 'Marpkat',
       handle: '@Marpkat_',
       url: 'https://x.com/Marpkat_',
-      tag: 'Brazilian Leaker',
-      desc: 'Brazilian Valorant leaker and content creator sharing early game news, leaks, and updates.'
+      tag: 'Brazilian News & Media',
+      desc: 'Brazilian Valorant content creator sharing early game news, patch coverage, and updates.'
     },
     {
       name: 'urnotjustin',
@@ -370,16 +370,16 @@ export default function RecommendedSites() {
         </div>
       </div>
 
-      {/* Featured Community Specialists & Leakers */}
+      {/* Featured Community Specialists & News */}
       <div className="space-y-4">
         <div className="flex items-center gap-3">
           <div className="w-3 h-3 rounded-full bg-[#FF4655]"></div>
           <h2 className="font-display font-bold text-xl text-white tracking-tight">
-            Featured Community Specialists, Leakers & Artists
+            Featured Community Specialists, Dataminers & Artists
           </h2>
         </div>
         <p className="text-xs text-slate-400">
-          Essential Twitter/X and YouTube creators covering Valorant news, 3D edits, lore analysis, datamined leaks, and skin collection archives.
+          Essential Twitter/X and YouTube creators covering Valorant news, 3D edits, lore analysis, datamined content, and skin collection archives.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 pt-2">
