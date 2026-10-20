@@ -23,9 +23,16 @@ export default function AgentDetailModal({ agent, onClose }) {
   const hasGauntletChromas = Object.keys(gauntletChromas).length > 0 && Object.values(gauntletChromas).some(c => (c.abilityDraftPortraits?.length > 0 || c.minimapPortraits?.length > 0 || c.killfeedIcons?.length > 0));
   const hypePreview = agent.assets?.hypePreview;
 
-  const bannerPortrait = agent.assets?.fullPortrait || agent.assets?.bustPortrait;
-  const bustPortrait = agent.assets?.bustPortrait || agent.assets?.fullPortrait;
-  const fullPortrait = agent.assets?.fullPortrait;
+  const isHush = agent.name?.toLowerCase() === 'hush';
+  const bannerPortrait = isHush
+    ? 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png'
+    : (agent.assets?.fullPortrait || agent.assets?.bustPortrait);
+  const bustPortrait = isHush
+    ? 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png'
+    : (agent.assets?.bustPortrait || agent.assets?.fullPortrait);
+  const fullPortrait = isHush
+    ? 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png'
+    : agent.assets?.fullPortrait;
   const squareIcon = agent.assets?.squareIcon;
   const killfeedIcon = agent.assets?.killfeedIcon;
   const minimapIcon = agent.assets?.minimapIcon;
@@ -134,7 +141,9 @@ export default function AgentDetailModal({ agent, onClose }) {
             <img
               src={toAssetUrl(bannerPortrait)}
               alt={agent.name}
-              className="hidden sm:block absolute right-4 sm:right-12 top-0 h-[140%] object-cover object-top drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)] pointer-events-none"
+              className={`hidden sm:block absolute right-4 sm:right-12 top-0 ${
+                isHush ? 'h-[105%] object-contain' : 'h-[140%] object-cover'
+              } object-top drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)] pointer-events-none`}
             />
           )}
 

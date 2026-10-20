@@ -7,9 +7,9 @@
   "characterTags": null,
   "displayIcon": "Valorantek/agents/Hush/Hush_icone_carree.png",
   "displayIconSmall": "Valorantek/agents/Hush/Hush_icone_petite.png",
-  "bustPortrait": "Valorantek/agents/Hush/Hush_portrait_buste.png",
-  "fullPortrait": "Valorantek/agents/Hush/Hush_portrait_complet.png",
-  "fullPortraitV2": "Valorantek/agents/Hush/Hush_portrait_complet_v2.png",
+  "bustPortrait": "Valorantek/agents/Hush/Artwork_Render_Hush_Official.png",
+  "fullPortrait": "Valorantek/agents/Hush/Artwork_Render_Hush_Official.png",
+  "fullPortraitV2": "Valorantek/agents/Hush/Artwork_Render_Hush_Official.png",
   "killfeedPortrait": "Valorantek/agents/Hush/Hush_icone_killfeed.png",
   "background": "Valorantek/agents/Hush/Hush_fond_ecran.png",
   "backgroundGradientColors": [

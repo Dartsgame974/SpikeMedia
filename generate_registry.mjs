@@ -310,16 +310,21 @@ if (fs.existsSync(agentsDir)) {
       if (fs.statSync(filePath).isFile()) {
         if (file.includes('icone_carree') || file.includes('icone_petite')) {
           assets.squareIcon = getRelativePath(filePath);
-        } else if (file.includes('portrait_buste')) {
+        } else if (file.includes('portrait_buste') && !file.endsWith('_thumb.webp')) {
           assets.bustPortrait = getRelativePath(filePath);
-        } else if (file.includes('portrait_complet')) {
+        } else if (file.includes('portrait_complet') && !file.endsWith('_thumb.webp')) {
           if (!assets.fullPortrait) assets.fullPortrait = getRelativePath(filePath);
-        } else if (file.includes('fond_ecran')) {
+        } else if (file.includes('fond_ecran') && !file.endsWith('_thumb.webp')) {
           assets.wallpaper = getRelativePath(filePath);
-        } else if (file.includes('icone_killfeed')) {
+        } else if (file.includes('icone_killfeed') && !file.endsWith('_thumb.webp')) {
           assets.killfeedIcon = getRelativePath(filePath);
         }
       }
+    }
+
+    if (folderName.toLowerCase() === 'hush') {
+      assets.bustPortrait = 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png';
+      assets.fullPortrait = 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png';
     }
 
     const postersFolderPath = path.join(folderPath, 'posters');
