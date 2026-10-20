@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Download, Disc, Image, Volume2, Copy, Check, Eye, Search, Filter, Sparkles, Music, Layers } from 'lucide-react';
+import { X, Download, Disc, Image, Volume2, Copy, Check, Eye, Search, Filter, Sparkles, Music, Layers, AlertTriangle, Clock } from 'lucide-react';
 import AudioPlayerSlim from './AudioPlayerSlim';
 import ImagePreviewModal from './ImagePreviewModal';
 import { toAssetUrl } from '../utils/urlHelper';
@@ -164,6 +164,13 @@ export default function AgentDetailModal({ agent, onClose }) {
                   Codename: {agent.developerName}
                 </span>
               )}
+
+              {agent.name?.toLowerCase() === 'hush' && (
+                <span className="text-[10px] sm:text-xs font-display font-semibold text-amber-400 bg-amber-500/10 px-2.5 py-0.5 sm:py-1 rounded-full border border-amber-500/30 flex items-center gap-1.5 whitespace-nowrap">
+                  <AlertTriangle className="w-3.5 h-3.5 text-amber-400" />
+                  Pre-Release
+                </span>
+              )}
             </div>
 
             <div className="flex items-center gap-3 sm:gap-4">
@@ -250,6 +257,36 @@ export default function AgentDetailModal({ agent, onClose }) {
 
         {/* Content */}
         <div className="p-6 overflow-y-auto flex-1 space-y-6">
+
+          {/* Pre-Release / Work in Progress Notice */}
+          {agent.name?.toLowerCase() === 'hush' && (
+            <div className="bg-gradient-to-r from-amber-500/15 via-[#131722] to-amber-500/5 border border-amber-500/30 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg shadow-amber-500/5">
+              <div className="flex items-start gap-3.5">
+                <div className="p-2.5 rounded-xl bg-amber-500/20 border border-amber-500/30 text-amber-400 shrink-0 mt-0.5 sm:mt-0">
+                  <AlertTriangle className="w-5 h-5" />
+                </div>
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2">
+                    <h4 className="font-display font-bold text-sm sm:text-base text-amber-300">
+                      Pre-Release Agent — Work in Progress
+                    </h4>
+                    <span className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 font-semibold">
+                      Patch Pending
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-300 leading-relaxed max-w-2xl">
+                    The official game patch for this agent is not deployed yet. The assets and elements currently shown are temporary pre-release previews. Higher-quality studio renders, clean transparent cutouts, and complete audio packs will arrive soon once the official update goes live. You can already explore and download the available teaser artwork, wallpapers, and ability icons below.
+                  </p>
+                </div>
+              </div>
+              <div className="shrink-0 self-end sm:self-center">
+                <span className="text-[11px] font-semibold text-amber-400/90 bg-amber-500/10 border border-amber-500/20 px-3 py-1.5 rounded-xl flex items-center gap-1.5 whitespace-nowrap">
+                  <Clock className="w-3.5 h-3.5" />
+                  <span>HQ Update Coming Soon</span>
+                </span>
+              </div>
+            </div>
+          )}
 
           {activeTab === 'starterpack' && (
             <div className="space-y-8">

@@ -96,6 +96,13 @@ export default function AgentGrid({ agents, roleIcons, onSelectAgent }) {
                     <span className="whitespace-nowrap">{agent.role || 'Agent'}</span>
                   </div>
                 )}
+
+                {/* Pre-Release indicator for unreleased agents */}
+                {agent.name?.toLowerCase() === 'hush' && (
+                  <div className="absolute top-2.5 right-2.5 px-2 py-0.5 rounded-full bg-amber-500/20 backdrop-blur-md border border-amber-500/40 text-[9px] font-display font-bold uppercase tracking-wider text-amber-300">
+                    Pre-Release
+                  </div>
+                )}
               </div>
 
               {/* Agent Card Footer */}
