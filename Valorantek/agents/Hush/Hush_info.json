@@ -1,0 +1,66 @@
+{
+  "uuid": "hush-agent-31-telekinetic-duelist",
+  "displayName": "Hush",
+  "description": "Hailing from Guangdong, China, Hush bends reality with telekinetic prowess on the battlefield. As an elusive Duelist, she manipulates enemy positions, creates gravity fields, and repositions through mid-air space with supreme precision.",
+  "developerName": "Hush",
+  "releaseDate": "2026-10-20T00:00:00Z",
+  "characterTags": null,
+  "displayIcon": "Valorantek/agents/Hush/Hush_icone_carree.png",
+  "displayIconSmall": "Valorantek/agents/Hush/Hush_icone_petite.png",
+  "bustPortrait": "Valorantek/agents/Hush/Hush_portrait_buste.png",
+  "fullPortrait": "Valorantek/agents/Hush/Hush_portrait_complet.png",
+  "fullPortraitV2": "Valorantek/agents/Hush/Hush_portrait_complet_v2.png",
+  "killfeedPortrait": "Valorantek/agents/Hush/Hush_icone_killfeed.png",
+  "background": "Valorantek/agents/Hush/Hush_fond_ecran.png",
+  "backgroundGradientColors": [
+    "5c2875ff",
+    "0f1923ff",
+    "1d2c4dff",
+    "0f192300"
+  ],
+  "assetPath": "ShooterGame/Content/Characters/Hush/Hush_PrimaryAsset",
+  "isFullPortraitRightFacing": false,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": {
+    "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+    "displayName": "Duelliste",
+    "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
+    "displayIcon": "Valorantek/Icons/Roles/Duelist.png",
+    "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+  },
+  "abilities": [
+    {
+      "slot": "Passive",
+      "displayName": "Telekinesis",
+      "description": "Allows interaction with objects, switches, dropped weapons, and the Spike from an extended distance without standing directly on top of them.",
+      "displayIcon": "Valorantek/agents/Hush/abilities/Hush_Passive_Telekinesis.png"
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Flow",
+      "description": "Anchor marker mobility tool. Dash to the anchor after a short delay, with mid-air hover activation for unpredictable vertical repositioning.",
+      "displayIcon": "Valorantek/agents/Hush/abilities/Hush_C_Flux.png"
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Flash",
+      "description": "Projectile flashbang with steerable detonation mechanics designed to blind enemies holding defensive angles.",
+      "displayIcon": "Valorantek/agents/Hush/abilities/Hush_Q_Flash.png"
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Displacement",
+      "description": "Throws a telekinetic charge that forcefully drags nearby enemies toward the epicenter. Slamming into surfaces or players applies concuss.",
+      "displayIcon": "Valorantek/agents/Hush/abilities/Hush_E_Displacement.png"
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Suspension",
+      "description": "Summons and steers a telekinetic orb that suspends enemies caught in its radius into the air, leaving them exposed and helpless.",
+      "displayIcon": "Valorantek/agents/Hush/abilities/Hush_X_Suspension.png"
+    }
+  ],
+  "voiceLine": null
+}

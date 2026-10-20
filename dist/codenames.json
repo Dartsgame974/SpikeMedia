@@ -198,6 +198,13 @@
       "description": "Thailand's prismatic radiant Waylay transforms into light itself as she darts across the battlefield, striking down her targets through shards of light before flitting back to safety, all in the blink of an eye."
     },
     {
+      "developerName": "Hush",
+      "displayName": "Hush",
+      "role": "Duelist",
+      "displayIcon": "Valorantek/agents/Hush/Hush_icone_carree.png",
+      "description": "Hailing from Guangdong, China, Hush bends reality with telekinetic prowess on the battlefield. As an elusive Duelist, she manipulates enemy positions, creates gravity fields, and repositions through mid-air space with supreme precision."
+    },
+    {
       "developerName": "Stealth",
       "displayName": "Yoru",
       "role": "Duelist",

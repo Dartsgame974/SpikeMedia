@@ -176,14 +176,6 @@ export default function RecommendedSites() {
       desc: 'KINGDOM LABORATORIES - Official lore, games, server news, and content creation fan page. Essential creator account for deep lore and game updates.'
     },
     {
-      name: 'valohabercisi',
-      handle: '@valohabercisi',
-      url: 'https://x.com/valohabercisi',
-      tag: 'Top Dataminer & News',
-      image: toAssetUrl('resources/valohabercisi.webp'),
-      desc: 'The most relevant, trusted, and well-known Valorant dataminer and news source in the community.'
-    },
-    {
       name: 'BDERADIANTE',
       handle: '@BDERADIANTE',
       url: 'https://x.com/BDERADIANTE',
@@ -194,8 +186,8 @@ export default function RecommendedSites() {
       name: 'kohteihep',
       handle: '@kohteihep',
       url: 'https://x.com/kohteihep',
-      tag: 'Datamining & Dev',
-      desc: 'Valorant enthusiast covering datamining, dev insights, technical analysis, and game content updates.'
+      tag: 'Content & File Analysis',
+      desc: 'Independent Valorant enthusiast focusing on game files and content breakdown: in-game systems, mission structures, official teasers, and regional developments across Valorant CN & Mobile. Non-affiliated with Riot Games.'
     },
     {
       name: 'Strawberry79',
@@ -210,13 +202,6 @@ export default function RecommendedSites() {
       url: 'https://x.com/shadeiol',
       tag: '3D Editing & Motion',
       desc: 'High-tier Valorant 3D animator and video editor creating cinematic edits with XLR8System.'
-    },
-    {
-      name: 'Marpkat',
-      handle: '@Marpkat_',
-      url: 'https://x.com/Marpkat_',
-      tag: 'Brazilian News & Media',
-      desc: 'Brazilian Valorant content creator sharing early game news, patch coverage, and updates.'
     },
     {
       name: 'urnotjustin',
@@ -370,16 +355,16 @@ export default function RecommendedSites() {
         </div>
       </div>
 
-      {/* Featured Community Specialists & News */}
+      {/* Featured Community Specialists & Analysts */}
       <div className="space-y-4">
         <div className="flex items-center gap-3">
           <div className="w-3 h-3 rounded-full bg-[#FF4655]"></div>
           <h2 className="font-display font-bold text-xl text-white tracking-tight">
-            Featured Community Specialists, Dataminers & Artists
+            Featured Community Specialists, Analysts & Artists
           </h2>
         </div>
         <p className="text-xs text-slate-400">
-          Essential Twitter/X and YouTube creators covering Valorant news, 3D edits, lore analysis, datamined content, and skin collection archives.
+          Essential Twitter/X and YouTube creators covering Valorant news, 3D edits, lore analysis, game systems breakdowns, and skin collection archives.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 pt-2">
