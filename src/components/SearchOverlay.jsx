@@ -9,6 +9,26 @@ import ImagePreviewModal from './ImagePreviewModal';
 import { toAssetUrl } from '../utils/urlHelper';
 import { copyImageAsset, copyLinkText } from '../utils/copyHelper';
 
+const safePath = (val) => {
+  if (!val) return '';
+  if (typeof val === 'string') return val;
+  if (typeof val === 'object') {
+    return val.relPath || val.path || val.src || '';
+  }
+  return '';
+};
+
+const safeFilename = (val, fallback = 'asset.png') => {
+  if (!val) return fallback;
+  if (typeof val === 'string') return val.split('/').pop() || fallback;
+  if (typeof val === 'object') {
+    if (val.filename) return val.filename;
+    const p = val.relPath || val.path || val.src;
+    if (typeof p === 'string') return p.split('/').pop() || fallback;
+  }
+  return fallback;
+};
+
 export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent }) {
   const [query, setQuery] = useState('');
   const [activeTab, setActiveTab] = useState('all'); // 'all' | 'agents' | 'portraits' | 'logos' | 'icons' | 'wallpapers' | 'weapons' | 'sfx'
@@ -42,7 +62,7 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
     }
   }, [isOpen]);
 
-  // 1. Build Unified Catalog Memoized from registry
+  // 1. Build Unified Catalog Memoized from registry with defensive type-safety
   const catalog = useMemo(() => {
     if (!registry) {
       return { agents: [], portraits: [], logos: [], icons: [], wallpapers: [], weapons: [], sfx: [] };
@@ -54,9 +74,13 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
     // --- A. Portraits & Cutouts ---
     const portraitsMap = new Map();
     (libs.allAgentFullPortraits || []).forEach(p => {
-      if (p.relPath && !portraitsMap.has(p.relPath)) {
-        portraitsMap.set(p.relPath, {
+      const pPath = safePath(p);
+      if (pPath && !portraitsMap.has(pPath)) {
+        portraitsMap.set(pPath, {
           ...p,
+          relPath: pPath,
+          thumbPath: safePath(p.thumbPath) || pPath,
+          filename: safeFilename(p, 'portrait.png'),
           category: p.agentName ? `${p.agentName} Portrait` : 'Character Portrait',
           displayName: p.displayName || p.name?.replace(/^TX_Character_FullPortrait_/, '').replace(/^TX_Character_/, '').replace(/_/g, ' ') || 'Character Portrait'
         });
@@ -64,12 +88,12 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
     });
     // Ensure agent base fullPortraits & bustPortraits are included
     agents.forEach(a => {
-      const fullP = a.assets?.fullPortrait;
+      const fullP = safePath(a.assets?.fullPortrait);
       if (fullP && !portraitsMap.has(fullP)) {
         portraitsMap.set(fullP, {
           name: `${a.name} Full Portrait`,
           displayName: `${a.name} Full Portrait`,
-          filename: fullP.split('/').pop(),
+          filename: safeFilename(a.assets?.fullPortrait, `${a.name}_full_portrait.png`),
           relPath: fullP,
           thumbPath: fullP,
           agentName: a.name,
@@ -77,12 +101,13 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
         });
       }
       (a.assets?.fullPortraitsList || []).forEach(fp => {
-        const pPath = fp.relPath || fp.path;
+        const pPath = safePath(fp);
         if (pPath && !portraitsMap.has(pPath)) {
           portraitsMap.set(pPath, {
             ...fp,
             relPath: pPath,
-            thumbPath: fp.thumbPath || pPath,
+            thumbPath: safePath(fp.thumbPath) || pPath,
+            filename: safeFilename(fp, `${a.name}_portrait.png`),
             agentName: a.name,
             category: `${a.name} Portrait`,
             displayName: fp.displayName || fp.name?.replace(/_/g, ' ') || `${a.name} Portrait`
@@ -94,10 +119,14 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
 
     // --- B. Official Logos ---
     const logos = (libs.logos || []).map(l => {
-      const pathParts = (l.relPath || '').split('/');
+      const lPath = safePath(l);
+      const pathParts = lPath.split('/');
       const folder = pathParts[2] || 'Brand Kit';
       return {
         ...l,
+        relPath: lPath,
+        thumbPath: safePath(l.thumbPath) || lPath,
+        filename: safeFilename(l, 'logo.png'),
         category: folder.replace(/_/g, ' '),
         displayName: l.displayName || l.name?.replace(/_/g, ' ') || 'Official Logo'
       };
@@ -108,9 +137,13 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
     const iconCats = libs.iconCategories || {};
     Object.keys(iconCats).forEach(cat => {
       (iconCats[cat] || []).forEach(item => {
-        if (item.relPath && !iconsMap.has(item.relPath)) {
-          iconsMap.set(item.relPath, {
+        const itemPath = safePath(item);
+        if (itemPath && !iconsMap.has(itemPath)) {
+          iconsMap.set(itemPath, {
             ...item,
+            relPath: itemPath,
+            thumbPath: safePath(item.thumbPath) || itemPath,
+            filename: safeFilename(item, 'icon.png'),
             category: cat,
             displayName: item.displayName || item.name?.replace(/^TX_UI_/, '').replace(/^TX_/, '').replace(/_/g, ' ') || 'Icon'
           });
@@ -119,21 +152,26 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
     });
     // Rankings & Competitive Badges
     (libs.rankings || []).forEach(r => {
-      if (r.relPath && !iconsMap.has(r.relPath)) {
-        iconsMap.set(r.relPath, {
+      const rPath = safePath(r);
+      if (rPath && !iconsMap.has(rPath)) {
+        iconsMap.set(rPath, {
           ...r,
+          relPath: rPath,
+          thumbPath: safePath(r.thumbPath) || rPath,
+          filename: safeFilename(r, 'rank_badge.png'),
           category: 'Rankings & Badges',
           displayName: r.displayName || r.name?.replace(/_/g, ' ') || 'Rank Badge'
         });
       }
     });
     // Role Icons
-    Object.entries(registry.roleIcons || {}).forEach(([role, iconPath]) => {
+    Object.entries(registry.roleIcons || {}).forEach(([role, iconVal]) => {
+      const iconPath = safePath(iconVal);
       if (iconPath && !iconsMap.has(iconPath)) {
         iconsMap.set(iconPath, {
           name: `${role} Role Icon`,
           displayName: `${role} Role Icon`,
-          filename: iconPath.split('/').pop(),
+          filename: safeFilename(iconVal, `${role}_role_icon.png`),
           relPath: iconPath,
           thumbPath: iconPath,
           category: 'Role Icons'
@@ -143,35 +181,38 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
     // Agent Ability & Minimap Icons
     agents.forEach(a => {
       (a.assets?.abilityIcons || []).forEach((ab, idx) => {
-        if (ab && !iconsMap.has(ab)) {
+        const abPath = safePath(ab);
+        if (abPath && !iconsMap.has(abPath)) {
           const abName = a.abilities?.[idx]?.displayName || `Ability ${idx + 1}`;
-          iconsMap.set(ab, {
+          iconsMap.set(abPath, {
             name: `${a.name} - ${abName}`,
             displayName: `${a.name} - ${abName}`,
-            filename: ab.split('/').pop(),
-            relPath: ab,
-            thumbPath: ab,
+            filename: safeFilename(ab, `${a.name}_ability_${idx + 1}.png`),
+            relPath: abPath,
+            thumbPath: abPath,
             category: `${a.name} Abilities`
           });
         }
       });
-      if (a.assets?.killfeedIcon && !iconsMap.has(a.assets.killfeedIcon)) {
-        iconsMap.set(a.assets.killfeedIcon, {
+      const kPath = safePath(a.assets?.killfeedIcon);
+      if (kPath && !iconsMap.has(kPath)) {
+        iconsMap.set(kPath, {
           name: `${a.name} Killfeed Icon`,
           displayName: `${a.name} Killfeed Icon`,
-          filename: a.assets.killfeedIcon.split('/').pop(),
-          relPath: a.assets.killfeedIcon,
-          thumbPath: a.assets.killfeedIcon,
+          filename: safeFilename(a.assets?.killfeedIcon, `${a.name}_killfeed.png`),
+          relPath: kPath,
+          thumbPath: kPath,
           category: 'Killfeed'
         });
       }
-      if (a.assets?.minimapIcon && !iconsMap.has(a.assets.minimapIcon)) {
-        iconsMap.set(a.assets.minimapIcon, {
+      const mPath = safePath(a.assets?.minimapIcon);
+      if (mPath && !iconsMap.has(mPath)) {
+        iconsMap.set(mPath, {
           name: `${a.name} Minimap Icon`,
           displayName: `${a.name} Minimap Icon`,
-          filename: a.assets.minimapIcon.split('/').pop(),
-          relPath: a.assets.minimapIcon,
-          thumbPath: a.assets.minimapIcon,
+          filename: safeFilename(a.assets?.minimapIcon, `${a.name}_minimap.png`),
+          relPath: mPath,
+          thumbPath: mPath,
           category: 'Minimap'
         });
       }
@@ -181,18 +222,26 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
     // --- D. Wallpapers & Posters ---
     const wallpapersMap = new Map();
     (libs.allAgentWallpapers || []).forEach(w => {
-      if (w.relPath && !wallpapersMap.has(w.relPath)) {
-        wallpapersMap.set(w.relPath, {
+      const wPath = safePath(w);
+      if (wPath && !wallpapersMap.has(wPath)) {
+        wallpapersMap.set(wPath, {
           ...w,
+          relPath: wPath,
+          thumbPath: safePath(w.thumbPath) || wPath,
+          filename: safeFilename(w, 'wallpaper.png'),
           category: w.agentName ? `${w.agentName} Wallpaper` : 'Agent Wallpaper',
           displayName: w.displayName || w.name?.replace(/^TX_AgentMastery_/, '').replace(/_/g, ' ') || 'Wallpaper'
         });
       }
     });
     (libs.backgrounds || []).slice(0, 300).forEach(bg => {
-      if (bg.relPath && !wallpapersMap.has(bg.relPath)) {
-        wallpapersMap.set(bg.relPath, {
+      const bgPath = safePath(bg);
+      if (bgPath && !wallpapersMap.has(bgPath)) {
+        wallpapersMap.set(bgPath, {
           ...bg,
+          relPath: bgPath,
+          thumbPath: safePath(bg.thumbPath) || bgPath,
+          filename: safeFilename(bg, 'background.png'),
           category: 'Key Art & Backgrounds',
           displayName: bg.displayName || bg.name?.replace(/_/g, ' ') || 'Background'
         });
@@ -204,12 +253,18 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
     const weaponsList = [];
     (registry.weapons || []).forEach(w => {
       (w.images || []).forEach(img => {
-        weaponsList.push({
-          ...img,
-          weaponName: w.name,
-          category: `${w.name} Render`,
-          displayName: img.displayName || img.name?.replace(/_/g, ' ') || `${w.name} HD Render`
-        });
+        const imgPath = safePath(img);
+        if (imgPath) {
+          weaponsList.push({
+            ...img,
+            relPath: imgPath,
+            thumbPath: safePath(img.thumbPath) || imgPath,
+            filename: safeFilename(img, `${w.name}.png`),
+            weaponName: w.name,
+            category: `${w.name} Render`,
+            displayName: img.displayName || img.name?.replace(/_/g, ' ') || `${w.name} HD Render`
+          });
+        }
       });
     });
 
@@ -218,11 +273,16 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
     const uiCats = registry.uiCategories || {};
     Object.keys(uiCats).forEach(cat => {
       (uiCats[cat] || []).forEach(clip => {
-        sfxList.push({
-          ...clip,
-          category: cat,
-          sourceType: 'UI'
-        });
+        const clipPath = safePath(clip);
+        if (clipPath) {
+          sfxList.push({
+            ...clip,
+            relPath: clipPath,
+            filename: safeFilename(clip, 'sound.mp3'),
+            category: cat,
+            sourceType: 'UI'
+          });
+        }
       });
     });
     agents.forEach(a => {
@@ -231,12 +291,17 @@ export default function SearchOverlay({ isOpen, onClose, registry, onSelectAgent
         const catData = audioCats[cat];
         const clips = catData?.clips || (Array.isArray(catData) ? catData : []);
         clips.forEach(clip => {
-          sfxList.push({
-            ...clip,
-            agentName: a.name,
-            category: `${a.name} - ${cat}`,
-            sourceType: 'Agent'
-          });
+          const clipPath = safePath(clip);
+          if (clipPath) {
+            sfxList.push({
+              ...clip,
+              relPath: clipPath,
+              filename: safeFilename(clip, 'ability_sfx.mp3'),
+              agentName: a.name,
+              category: `${a.name} - ${cat}`,
+              sourceType: 'Agent'
+            });
+          }
         });
       });
     });
