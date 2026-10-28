@@ -254,7 +254,9 @@ if (fs.existsSync(agentsDir)) {
       posters: [],
       fullPortraitsList: [],
       displayIconsList: [],
-      wallpapersList: []
+      wallpapersList: [],
+      patternOverlaysList: [],
+      uiGraphicsList: []
     };
 
     // Hype Master Icon Preview
@@ -322,10 +324,6 @@ if (fs.existsSync(agentsDir)) {
       }
     }
 
-    if (folderName.toLowerCase() === 'hush') {
-      assets.bustPortrait = 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png';
-      assets.fullPortrait = 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png';
-    }
 
     const postersFolderPath = path.join(folderPath, 'posters');
     if (fs.existsSync(postersFolderPath)) {
@@ -343,9 +341,19 @@ if (fs.existsSync(agentsDir)) {
           assets.posters.push(item);
 
           const pfLower = pf.toLowerCase();
-          if (pfLower.includes('fullportrait') || pfLower.includes('portrait_complet')) {
+          if (pfLower.includes('swirl') || pfLower.includes('pattern') || pfLower.includes('tfx')) {
+            assets.patternOverlaysList.push(item);
+          } else if (pfLower.includes('nametext') || pfLower.includes('name_text') || pfLower.includes('logo')) {
+            assets.uiGraphicsList.push(item);
+          } else if (pfLower.includes('fullportrait') || pfLower.includes('portrait_complet')) {
             assets.fullPortraitsList.push(item);
-          } else if (pfLower.includes('portraitdisplayicon') || pfLower.includes('icone_carree') || pfLower.includes('icone_petite')) {
+          } else if (pfLower.includes('portraitdisplayicon') || pfLower.includes('portrait icon') || pfLower.includes('portrait_icon') || pfLower.includes('icone_carree') || pfLower.includes('icone_petite') || pfLower.includes('agenticon')) {
+            assets.displayIconsList.push(item);
+          } else if (pfLower.includes('killfeed')) {
+            if (!assets.killfeedIcon) assets.killfeedIcon = item.relPath;
+            assets.uiGraphicsList.push(item);
+          } else if (pfLower.includes('minimapportrait')) {
+            if (!assets.minimapIcon) assets.minimapIcon = item.relPath;
             assets.displayIconsList.push(item);
           } else {
             assets.wallpapersList.push(item);

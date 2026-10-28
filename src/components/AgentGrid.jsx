@@ -66,9 +66,7 @@ export default function AgentGrid({ agents, roleIcons, onSelectAgent }) {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
         {filteredAgents.map(agent => {
           const isHush = agent.name?.toLowerCase() === 'hush';
-          const portrait = isHush
-            ? 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png'
-            : (agent.assets?.bustPortrait || agent.assets?.fullPortrait || agent.assets?.squareIcon);
+          const portrait = agent.assets?.bustPortrait || agent.assets?.fullPortrait || agent.assets?.squareIcon;
           const sfxCount = Object.values(agent.audioCategories || {}).reduce((acc, cat) => acc + (cat?.clips?.length || cat?.length || 0), 0);
 
           return (
@@ -83,9 +81,7 @@ export default function AgentGrid({ agents, roleIcons, onSelectAgent }) {
                   <img
                     src={toAssetUrl(portrait)}
                     alt={agent.name}
-                    className={`w-full h-full object-cover object-top origin-top transition-transform duration-300 pointer-events-none ${
-                      isHush ? 'scale-[1.05] group-hover:scale-[1.12]' : 'scale-[2.1] group-hover:scale-[2.25]'
-                    }`}
+                    className="w-full h-full object-cover object-top origin-top transition-transform duration-300 pointer-events-none scale-[2.1] group-hover:scale-[2.25]"
                     loading="lazy"
                   />
                 ) : (

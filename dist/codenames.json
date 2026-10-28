@@ -69,7 +69,7 @@
       "displayName": "Harbor",
       "role": "Controller",
       "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-      "description": "Hailing from India\u2019s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him."
+      "description": "Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him."
     },
     {
       "developerName": "Sequoia",
@@ -167,7 +167,7 @@
       "displayName": "Tejo",
       "role": "Initiator",
       "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-      "description": "A veteran intelligence consultant from Colombia, Tejo\u2019s ballistic guidance system pressures the enemy to relinquish their ground - or their lives. His targeted strikes keep opponents off balance and under his heel."
+      "description": "A veteran intelligence consultant from Colombia, Tejo’s ballistic guidance system pressures the enemy to relinquish their ground - or their lives. His targeted strikes keep opponents off balance and under his heel."
     },
     {
       "developerName": "Pine",
@@ -198,7 +198,7 @@
       "description": "Thailand's prismatic radiant Waylay transforms into light itself as she darts across the battlefield, striking down her targets through shards of light before flitting back to safety, all in the blink of an eye."
     },
     {
-      "developerName": "Hush",
+      "developerName": "Paprika",
       "displayName": "Hush",
       "role": "Duelist",
       "displayIcon": "Valorantek/agents/Hush/Hush_icone_carree.png",
@@ -1547,17 +1547,17 @@
     },
     {
       "codename": "VCTCaps25_KRUThemeBundle",
-      "displayName": "VCT x KR\u00dc",
+      "displayName": "VCT x KRÜ",
       "displayIcon": "https://media.valorant-api.com/bundles/c3b86226-4710-67b9-5578-d6907aa35da2/displayicon.png"
     },
     {
       "codename": "VCTCaps26_KRUThemeBundle",
-      "displayName": "VCT x KR\u00dc",
+      "displayName": "VCT x KRÜ",
       "displayIcon": "https://media.valorant-api.com/bundles/2286899f-4d35-b342-bbe9-b1b1a016e807/displayicon.png"
     },
     {
       "codename": "KRUThemeBundle",
-      "displayName": "VCT x KR\u00dc",
+      "displayName": "VCT x KRÜ",
       "displayIcon": "https://media.valorant-api.com/bundles/9374455b-42eb-279a-ac16-78ab89a4a259/displayicon.png"
     },
     {
@@ -1947,7 +1947,7 @@
     },
     {
       "codename": "HypedragonThemeBundle",
-      "displayName": "XER\u00d8FANG",
+      "displayName": "XERØFANG",
       "displayIcon": "https://media.valorant-api.com/bundles/8b97b3f5-4555-6818-5ed0-18b1fb4e1336/displayicon.png"
     },
     {
@@ -2854,8 +2854,8 @@
     },
     {
       "codename": "Hypedragon",
-      "displayName": "XER\u00d8FANG Vandal ",
-      "theme": "XER\u00d8FANG ",
+      "displayName": "XERØFANG Vandal ",
+      "theme": "XERØFANG ",
       "displayIcon": "https://media.valorant-api.com/weaponskins/b6f79657-4a6d-e2ae-3d64-4fbcde2958a4/displayicon.png"
     },
     {

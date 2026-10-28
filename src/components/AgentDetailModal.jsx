@@ -24,15 +24,9 @@ export default function AgentDetailModal({ agent, onClose }) {
   const hypePreview = agent.assets?.hypePreview;
 
   const isHush = agent.name?.toLowerCase() === 'hush';
-  const bannerPortrait = isHush
-    ? 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png'
-    : (agent.assets?.fullPortrait || agent.assets?.bustPortrait);
-  const bustPortrait = isHush
-    ? 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png'
-    : (agent.assets?.bustPortrait || agent.assets?.fullPortrait);
-  const fullPortrait = isHush
-    ? 'Valorantek/agents/Hush/Artwork_Render_Hush_Official.png'
-    : agent.assets?.fullPortrait;
+  const bannerPortrait = agent.assets?.fullPortrait || agent.assets?.bustPortrait;
+  const bustPortrait = agent.assets?.bustPortrait || agent.assets?.fullPortrait;
+  const fullPortrait = agent.assets?.fullPortrait;
   const squareIcon = agent.assets?.squareIcon;
   const killfeedIcon = agent.assets?.killfeedIcon;
   const minimapIcon = agent.assets?.minimapIcon;
@@ -47,11 +41,55 @@ export default function AgentDetailModal({ agent, onClose }) {
   
   const displayIconsList = agent.assets?.displayIconsList?.length > 0 
     ? agent.assets.displayIconsList 
-    : rawPosters.filter(p => p.filename.toLowerCase().includes('portraitdisplayicon') || p.filename.toLowerCase().includes('icone_carree'));
+    : rawPosters.filter(p => {
+        const fn = p.filename.toLowerCase();
+        return fn.includes('portraitdisplayicon') || fn.includes('portrait icon') || fn.includes('icone_carree') || fn.includes('icone_petite') || fn.includes('agenticon');
+      });
   
   const wallpapersList = agent.assets?.wallpapersList?.length > 0 
     ? agent.assets.wallpapersList 
-    : rawPosters.filter(p => !p.filename.toLowerCase().includes('fullportrait') && !p.filename.toLowerCase().includes('portraitdisplayicon') && !p.filename.toLowerCase().includes('portrait_complet'));
+    : rawPosters.filter(p => {
+        const fn = p.filename.toLowerCase();
+        return !fn.includes('fullportrait') && !fn.includes('portraitdisplayicon') && !fn.includes('portrait icon') && !fn.includes('portrait_complet') && !fn.includes('swirl') && !fn.includes('pattern') && !fn.includes('tfx') && !fn.includes('nametext') && !fn.includes('killfeed') && !fn.includes('minimapportrait');
+      });
+
+  const patternOverlaysList = agent.assets?.patternOverlaysList?.length > 0
+    ? agent.assets.patternOverlaysList
+    : rawPosters.filter(p => {
+        const fn = p.filename.toLowerCase();
+        return fn.includes('swirl') || fn.includes('pattern') || fn.includes('tfx');
+      });
+
+  const uiGraphicsList = agent.assets?.uiGraphicsList?.length > 0
+    ? agent.assets.uiGraphicsList
+    : rawPosters.filter(p => {
+        const fn = p.filename.toLowerCase();
+        return fn.includes('nametext') || fn.includes('name_text');
+      });
+
+  const uniqueDisplayIcons = [];
+  const seenIconPaths = new Set();
+  if (squareIcon) seenIconPaths.add(squareIcon);
+  if (hypePreview) seenIconPaths.add(hypePreview);
+  for (const ic of displayIconsList) {
+    const p = ic.relPath || ic.path;
+    if (p && !seenIconPaths.has(p)) {
+      seenIconPaths.add(p);
+      uniqueDisplayIcons.push(ic);
+    }
+  }
+
+  const uniqueFullPortraits = [];
+  const seenPortraitPaths = new Set();
+  if (bustPortrait) seenPortraitPaths.add(bustPortrait);
+  if (fullPortrait && fullPortrait !== bustPortrait) seenPortraitPaths.add(fullPortrait);
+  for (const fp of fullPortraitsList) {
+    const p = fp.relPath || fp.path;
+    if (p && !seenPortraitPaths.has(p)) {
+      seenPortraitPaths.add(p);
+      uniqueFullPortraits.push(fp);
+    }
+  }
 
   const extraArtworks = agent.assets?.extraArtworks || [];
 
@@ -141,9 +179,7 @@ export default function AgentDetailModal({ agent, onClose }) {
             <img
               src={toAssetUrl(bannerPortrait)}
               alt={agent.name}
-              className={`hidden sm:block absolute right-4 sm:right-12 top-0 ${
-                isHush ? 'h-[105%] object-contain' : 'h-[140%] object-cover'
-              } object-top drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)] pointer-events-none`}
+              className="hidden sm:block absolute right-4 sm:right-12 top-0 h-[140%] object-cover object-top drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)] pointer-events-none"
             />
           )}
 
@@ -349,11 +385,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                 <div className="flex items-center justify-between border-b border-white/5 pb-2">
                   <h3 className="font-display text-xs font-bold text-white uppercase tracking-widest flex items-center gap-2">
                     <Sparkles className="w-3.5 h-3.5 text-[#00F0FF]" />
-                    <span>Full 4K Character Portraits & Full Cutouts ({fullPortraitsList.length + (bustPortrait && !fullPortraitsList.some(p => p.relPath === bustPortrait) ? 1 : 0) + (fullPortrait && fullPortrait !== bustPortrait && !fullPortraitsList.some(p => p.relPath === fullPortrait) ? 1 : 0)})</span>
+                    <span>Full 4K Character Portraits & Full Cutouts ({uniqueFullPortraits.length + (bustPortrait && !uniqueFullPortraits.some(p => (p.relPath || p.path) === bustPortrait) ? 1 : 0)})</span>
                   </h3>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-                  {bustPortrait && !fullPortraitsList.some(p => p.relPath === bustPortrait) && (
+                  {bustPortrait && !uniqueFullPortraits.some(p => (p.relPath || p.path) === bustPortrait) && (
                     <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#00F0FF]/30 transition-all">
                       <div
                         onClick={() => setPreviewImage({ src: bustPortrait, title: `${agent.name} Bust Portrait` })}
@@ -387,7 +423,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                     </div>
                   )}
 
-                  {fullPortraitsList.map((fp, idx) => (
+                  {uniqueFullPortraits.map((fp, idx) => (
                     <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/10 space-y-2 flex flex-col justify-between group hover:border-[#00F0FF]/40 transition-all shadow-lg">
                       <div
                         onClick={() => setPreviewImage({ src: fp.relPath || fp.path, title: `${agent.name} - ${fp.name}` })}
@@ -428,11 +464,11 @@ export default function AgentDetailModal({ agent, onClose }) {
                 <div className="flex items-center justify-between border-b border-white/5 pb-2">
                   <h3 className="font-display text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
                     <Image className="w-3.5 h-3.5 text-[#FF4655]" />
-                    <span>Display Avatars, Badges & Small Icons ({displayIconsList.length + (squareIcon && !displayIconsList.some(i => i.relPath === squareIcon) ? 1 : 0) + (hypePreview ? 1 : 0)})</span>
+                    <span>Display Avatars, Badges & Small Icons ({uniqueDisplayIcons.length + (squareIcon && !uniqueDisplayIcons.some(i => (i.relPath || i.path) === squareIcon) ? 1 : 0) + (hypePreview && !uniqueDisplayIcons.some(i => (i.relPath || i.path) === hypePreview) ? 1 : 0)})</span>
                   </h3>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3">
-                  {squareIcon && !displayIconsList.some(i => i.relPath === squareIcon) && (
+                  {squareIcon && !uniqueDisplayIcons.some(i => (i.relPath || i.path) === squareIcon) && (
                     <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/30 transition-all">
                       <div
                         onClick={() => setPreviewImage({ src: squareIcon, title: `${agent.name} Square Icon` })}
@@ -466,7 +502,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                     </div>
                   )}
 
-                  {hypePreview && (
+                  {hypePreview && !uniqueDisplayIcons.some(i => (i.relPath || i.path) === hypePreview) && (
                     <div className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-purple-500/40 transition-all">
                       <div
                         onClick={() => setPreviewImage({ src: hypePreview, title: `${agent.name} Hype Master Icon` })}
@@ -500,7 +536,7 @@ export default function AgentDetailModal({ agent, onClose }) {
                     </div>
                   )}
 
-                  {displayIconsList.map((ic, idx) => (
+                  {uniqueDisplayIcons.map((ic, idx) => (
                     <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/5 space-y-2 flex flex-col justify-between group hover:border-[#FF4655]/40 transition-all">
                       <div
                         onClick={() => setPreviewImage({ src: ic.relPath || ic.path, title: `${agent.name} - ${ic.name}` })}
@@ -535,6 +571,176 @@ export default function AgentDetailModal({ agent, onClose }) {
                   ))}
                 </div>
               </div>
+
+              {/* In-Game HUD: Killfeed & Minimap Portraits */}
+              {(killfeedIcon || minimapIcon || uiGraphicsList.length > 0) && (
+                <div className="space-y-3 pt-4 border-t border-white/5">
+                  <div className="flex items-center justify-between border-b border-white/5 pb-2">
+                    <h3 className="font-display text-xs font-bold text-red-400 uppercase tracking-widest flex items-center gap-2">
+                      <Sparkles className="w-3.5 h-3.5 text-red-400" />
+                      <span>In-Game HUD & UI Typography: Killfeed, Minimap & Name Logo</span>
+                    </h3>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                    {killfeedIcon && (
+                      <div className="bg-[#0B0E14] p-3.5 rounded-2xl border border-white/10 space-y-2 flex flex-col justify-between group hover:border-red-500/40 transition-all shadow-lg">
+                        <div
+                          onClick={() => setPreviewImage({ src: killfeedIcon, title: `${agent.name} Official Killfeed Icon` })}
+                          className="h-28 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-3 cursor-pointer relative"
+                        >
+                          <img src={toAssetUrl(killfeedIcon)} alt="Killfeed" className="max-h-12 w-auto object-contain group-hover:scale-105 transition-transform" />
+                          <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <Eye className="w-5 h-5 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex items-center justify-between text-xs pt-1">
+                          <span className="font-semibold text-slate-200 text-xs">Killfeed Icon</span>
+                          <div className="flex items-center gap-1 shrink-0">
+                            <button
+                              onClick={(e) => handleCopyImageAsset(killfeedIcon, e)}
+                              className={`p-1.5 rounded transition-colors ${
+                                copiedPath === killfeedIcon ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                              }`}
+                              title="Copy image to clipboard"
+                            >
+                              {copiedPath === killfeedIcon ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                            </button>
+                            <button
+                              onClick={(e) => handleDownloadAsset(killfeedIcon, `${agent.name}_killfeed.png`, e)}
+                              className="p-1.5 rounded bg-white/5 hover:bg-red-500 text-slate-300 hover:text-white transition-colors"
+                              title="Download killfeed icon"
+                            >
+                              <Download className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {minimapIcon && (
+                      <div className="bg-[#0B0E14] p-3.5 rounded-2xl border border-white/10 space-y-2 flex flex-col justify-between group hover:border-cyan-500/40 transition-all shadow-lg">
+                        <div
+                          onClick={() => setPreviewImage({ src: minimapIcon, title: `${agent.name} Minimap Portrait` })}
+                          className="h-28 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-3 cursor-pointer relative"
+                        >
+                          <img src={toAssetUrl(minimapIcon)} alt="Minimap" className="w-16 h-16 object-contain rounded-full border border-white/10 group-hover:scale-105 transition-transform" />
+                          <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <Eye className="w-5 h-5 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex items-center justify-between text-xs pt-1">
+                          <span className="font-semibold text-slate-200 text-xs">Minimap Round Portrait</span>
+                          <div className="flex items-center gap-1 shrink-0">
+                            <button
+                              onClick={(e) => handleCopyImageAsset(minimapIcon, e)}
+                              className={`p-1.5 rounded transition-colors ${
+                                copiedPath === minimapIcon ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                              }`}
+                              title="Copy image to clipboard"
+                            >
+                              {copiedPath === minimapIcon ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                            </button>
+                            <button
+                              onClick={(e) => handleDownloadAsset(minimapIcon, `${agent.name}_minimap_portrait.png`, e)}
+                              className="p-1.5 rounded bg-white/5 hover:bg-cyan-500 text-slate-300 hover:text-white transition-colors"
+                              title="Download minimap portrait"
+                            >
+                              <Download className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {uiGraphicsList.filter(g => !g.filename.toLowerCase().includes('killfeed')).map((uiG, idx) => {
+                      const isNameText = uiG.name.toLowerCase().includes('nametext') || uiG.name.toLowerCase().includes('name_text');
+                      const label = isNameText ? 'Typographic Name Logo' : (uiG.displayName || uiG.name);
+                      return (
+                        <div key={idx} className="bg-[#0B0E14] p-3.5 rounded-2xl border border-white/10 space-y-2 flex flex-col justify-between group hover:border-[#00F0FF]/40 transition-all shadow-lg">
+                          <div
+                            onClick={() => setPreviewImage({ src: uiG.relPath || uiG.path, title: `${agent.name} - ${label}` })}
+                            className="h-28 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                          >
+                            <img src={toAssetUrl(uiG.thumbPath || uiG.relPath || uiG.path)} alt="" className="max-h-24 w-auto object-contain group-hover:scale-105 transition-transform" />
+                            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                              <Eye className="w-5 h-5 text-white" />
+                            </div>
+                          </div>
+                          <div className="flex items-center justify-between text-xs pt-1">
+                            <span className="font-semibold text-slate-200 text-xs truncate max-w-[140px]" title={label}>{label}</span>
+                            <div className="flex items-center gap-1 shrink-0">
+                              <button
+                                onClick={(e) => handleCopyImageAsset(uiG.relPath || uiG.path, e)}
+                                className={`p-1.5 rounded transition-colors ${
+                                  copiedPath === (uiG.relPath || uiG.path) ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                                }`}
+                                title="Copy image to clipboard"
+                              >
+                                {copiedPath === (uiG.relPath || uiG.path) ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                              </button>
+                              <button
+                                onClick={(e) => handleDownloadAsset(uiG.relPath || uiG.path, uiG.filename, e)}
+                                className="p-1.5 rounded bg-white/5 hover:bg-[#00F0FF] hover:text-black text-slate-300 transition-colors"
+                                title="Download graphic"
+                              >
+                                <Download className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Character VFX Patterns & Texture Overlays */}
+              {patternOverlaysList.length > 0 && (
+                <div className="space-y-3 pt-4 border-t border-white/5">
+                  <div className="flex items-center justify-between border-b border-white/5 pb-2">
+                    <h3 className="font-display text-xs font-bold text-purple-400 uppercase tracking-widest flex items-center gap-2">
+                      <Sparkles className="w-3.5 h-3.5 text-purple-400" />
+                      <span>Character VFX Patterns & Texture Overlays ({patternOverlaysList.length})</span>
+                    </h3>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {patternOverlaysList.map((pat, idx) => (
+                      <div key={idx} className="bg-[#0B0E14] p-3 rounded-2xl border border-white/10 space-y-2 flex flex-col justify-between group hover:border-purple-500/50 transition-all shadow-lg">
+                        <div
+                          onClick={() => setPreviewImage({ src: pat.relPath || pat.path, title: `${agent.name} Pattern - ${pat.name}` })}
+                          className="h-32 bg-[#131722] rounded-xl overflow-hidden flex items-center justify-center p-2 cursor-pointer relative"
+                        >
+                          <img src={toAssetUrl(pat.thumbPath || pat.relPath || pat.path)} alt="" className="w-full h-full object-contain group-hover:scale-105 transition-transform" />
+                          <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <Eye className="w-5 h-5 text-white" />
+                          </div>
+                        </div>
+                        <div className="flex items-center justify-between text-xs pt-1">
+                          <span className="font-semibold text-slate-200 text-[11px] truncate max-w-[120px]" title={pat.name}>{pat.name}</span>
+                          <div className="flex items-center gap-1 shrink-0">
+                            <button
+                              onClick={(e) => handleCopyImageAsset(pat.relPath || pat.path, e)}
+                              className={`p-1.5 rounded transition-colors ${
+                                copiedPath === (pat.relPath || pat.path) ? 'bg-[#00F0FF]/10 text-[#00F0FF]' : 'bg-white/5 hover:bg-white/10 text-slate-300'
+                              }`}
+                              title="Copy image to clipboard"
+                            >
+                              {copiedPath === (pat.relPath || pat.path) ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                            </button>
+                            <button
+                              onClick={(e) => handleDownloadAsset(pat.relPath || pat.path, pat.filename, e)}
+                              className="p-1.5 rounded bg-white/5 hover:bg-purple-500 text-slate-300 hover:text-white transition-colors"
+                              title="Download pattern"
+                            >
+                              <Download className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {hasGauntletChromas && selectedChromaColor !== 'Standard' && (() => {
                 const colors = ['Blue', 'Cyan', 'Green', 'Orange', 'Pink', 'Purple', 'Red', 'Yellow'];

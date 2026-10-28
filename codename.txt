@@ -9,7 +9,7 @@ Deadlock - Cable
 Fade - BountyHunter
 Gekko - Aggrobot
 Harbor - Mage
-Hush - Hush
+Hush - Paprika
 Iso - Sequoia
 Jett - Wushu
 KAY/O - Grenadier
